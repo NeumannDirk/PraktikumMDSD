@@ -1,0 +1,32 @@
+component-based system
+
+three different view points
+* system-independent view point
+** Repository View Type
+*** Abstract Component (name)
+**** Composite Component (reference system)
+**** Components (provide interface+, services (reference to signature)+, required interfaces*
+         behavior description (interal action, external calls (reference to required), loops, anc 
+         branches)* 
+*** Interfaces (name, signatures (name, return value, parameter(type, name)*)+)
+*** Types: void (return only), Boolean, Char, Date, Double, Float, List, Int, Long, Map, String
+
+* assembly view point
+** assembly view type
+*** system (assembly context+, provided interface)
+*** assembly context (reference abstract component, name, provide roles+, required roles*)
+*** role (reference Interface)
+*** delegation connector
+/*
+      a) provided interface of composite component or system, provided role of assembly context
+      b) required role assembly context, required interface of composite component or system
+*/
+*** assembly connectors (provided role, required role)
+/*       different parents of roles */
+* deployment view point
+** environment view type
+*** container (name), links (name, container[2,*])
+** allocation view type
+*** allocation context (reference assembly context, reference container)
+/*    If the roles of two assembly contexts are connected by an assembly connector they either have to be allocated on the same container or the containers on which they are allocated have to be linked. */
+
