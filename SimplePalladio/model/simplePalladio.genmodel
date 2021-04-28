@@ -132,11 +132,28 @@
     </nestedGenPackages>
     <nestedGenPackages prefix="DeploymentViewPoint" disposableProviderFactory="true"
         ecorePackage="simplePalladio.ecore#//DeploymentViewPoint">
-      <genClasses ecoreClass="simplePalladio.ecore#//DeploymentViewPoint/EnvironmentViewType"/>
-      <genClasses ecoreClass="simplePalladio.ecore#//DeploymentViewPoint/AllocationViewType"/>
-      <genClasses ecoreClass="simplePalladio.ecore#//DeploymentViewPoint/Container"/>
-      <genClasses ecoreClass="simplePalladio.ecore#//DeploymentViewPoint/Link"/>
-      <genClasses ecoreClass="simplePalladio.ecore#//DeploymentViewPoint/AllocationContext"/>
+      <genClasses ecoreClass="simplePalladio.ecore#//DeploymentViewPoint/EnvironmentViewType">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference simplePalladio.ecore#//DeploymentViewPoint/EnvironmentViewType/environmentElements"/>
+      </genClasses>
+      <genClasses ecoreClass="simplePalladio.ecore#//DeploymentViewPoint/AllocationViewType">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference simplePalladio.ecore#//DeploymentViewPoint/AllocationViewType/allocationContexts"/>
+      </genClasses>
+      <genClasses ecoreClass="simplePalladio.ecore#//DeploymentViewPoint/Container">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute simplePalladio.ecore#//DeploymentViewPoint/Container/name"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference simplePalladio.ecore#//DeploymentViewPoint/Container/links"/>
+      </genClasses>
+      <genClasses ecoreClass="simplePalladio.ecore#//DeploymentViewPoint/Link">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute simplePalladio.ecore#//DeploymentViewPoint/Link/name"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference simplePalladio.ecore#//DeploymentViewPoint/Link/containers"/>
+      </genClasses>
+      <genClasses ecoreClass="simplePalladio.ecore#//DeploymentViewPoint/AllocationContext">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference simplePalladio.ecore#//DeploymentViewPoint/AllocationContext/container"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference simplePalladio.ecore#//DeploymentViewPoint/AllocationContext/assembly"/>
+      </genClasses>
       <genClasses ecoreClass="simplePalladio.ecore#//DeploymentViewPoint/EnvironmentElement"/>
     </nestedGenPackages>
   </genPackages>

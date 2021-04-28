@@ -145,11 +145,33 @@
   </eSubpackages>
   <eSubpackages name="DeploymentViewPoint" nsURI="http://www.example.org/simplePalladio/DeploymentViewPoint"
       nsPrefix="DeploymentViewPoint">
-    <eClassifiers xsi:type="ecore:EClass" name="EnvironmentViewType"/>
-    <eClassifiers xsi:type="ecore:EClass" name="AllocationViewType"/>
-    <eClassifiers xsi:type="ecore:EClass" name="Container"/>
-    <eClassifiers xsi:type="ecore:EClass" name="Link"/>
-    <eClassifiers xsi:type="ecore:EClass" name="AllocationContext"/>
-    <eClassifiers xsi:type="ecore:EClass" name="EnvironmentElement"/>
+    <eClassifiers xsi:type="ecore:EClass" name="EnvironmentViewType">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="environmentElements"
+          lowerBound="1" upperBound="-1" eType="#//DeploymentViewPoint/EnvironmentElement"
+          containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="AllocationViewType">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="allocationContexts" lowerBound="1"
+          upperBound="-1" eType="#//DeploymentViewPoint/AllocationContext" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Container" eSuperTypes="#//DeploymentViewPoint/EnvironmentElement">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1"
+          eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="links" upperBound="-1"
+          eType="#//DeploymentViewPoint/Link" eOpposite="#//DeploymentViewPoint/Link/containers"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Link" eSuperTypes="#//DeploymentViewPoint/EnvironmentElement">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1"
+          eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="containers" lowerBound="2"
+          upperBound="-1" eType="#//DeploymentViewPoint/Container" eOpposite="#//DeploymentViewPoint/Container/links"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="AllocationContext">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="container" lowerBound="1"
+          eType="#//DeploymentViewPoint/Container"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="assembly" lowerBound="1"
+          eType="#//AssemblyViewPoint/AssemblyContext"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="EnvironmentElement" abstract="true"/>
   </eSubpackages>
 </ecore:EPackage>
