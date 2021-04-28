@@ -1376,8 +1376,8 @@
         </ownedElements>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_trABoKggEeuBcYhhfoEfEg" name="Parameter" tooltipText="" incomingEdges="_i-SVbKgiEeuBcYhhfoEfEg" width="12" height="10">
-        <target xmi:type="ecore:EClass" href="simplePalladio.ecore#//SystemIndependentViewType/Parameter.1"/>
-        <semanticElements xmi:type="ecore:EClass" href="simplePalladio.ecore#//SystemIndependentViewType/Parameter.1"/>
+        <target xmi:type="ecore:EClass" href="simplePalladio.ecore#//SystemIndependentViewType/Parameter"/>
+        <semanticElements xmi:type="ecore:EClass" href="simplePalladio.ecore#//SystemIndependentViewType/Parameter"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
@@ -1386,16 +1386,16 @@
         </ownedStyle>
         <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
         <ownedElements xmi:type="diagram:DNodeListElement" uid="_yw_OkKghEeuBcYhhfoEfEg" name="name : EString" tooltipText="">
-          <target xmi:type="ecore:EAttribute" href="simplePalladio.ecore#//SystemIndependentViewType/Parameter.1/name"/>
-          <semanticElements xmi:type="ecore:EAttribute" href="simplePalladio.ecore#//SystemIndependentViewType/Parameter.1/name"/>
+          <target xmi:type="ecore:EAttribute" href="simplePalladio.ecore#//SystemIndependentViewType/Parameter/name"/>
+          <semanticElements xmi:type="ecore:EAttribute" href="simplePalladio.ecore#//SystemIndependentViewType/Parameter/name"/>
           <ownedStyle xmi:type="diagram:BundledImage" uid="_yw_OkaghEeuBcYhhfoEfEg" labelAlignment="LEFT" description="_rvWX0KghEeuBcYhhfoEfEg">
             <labelFormat>bold</labelFormat>
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
         </ownedElements>
         <ownedElements xmi:type="diagram:DNodeListElement" uid="_4J5XhagiEeuBcYhhfoEfEg" name="type : Type = VOID" tooltipText="">
-          <target xmi:type="ecore:EAttribute" href="simplePalladio.ecore#//SystemIndependentViewType/Parameter.1/type"/>
-          <semanticElements xmi:type="ecore:EAttribute" href="simplePalladio.ecore#//SystemIndependentViewType/Parameter.1/type"/>
+          <target xmi:type="ecore:EAttribute" href="simplePalladio.ecore#//SystemIndependentViewType/Parameter/type"/>
+          <semanticElements xmi:type="ecore:EAttribute" href="simplePalladio.ecore#//SystemIndependentViewType/Parameter/type"/>
           <ownedStyle xmi:type="diagram:BundledImage" uid="_4J5-kKgiEeuBcYhhfoEfEg" labelAlignment="LEFT" description="_rvWX0KghEeuBcYhhfoEfEg">
             <labelFormat>bold</labelFormat>
           </ownedStyle>
@@ -1403,8 +1403,8 @@
         </ownedElements>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_u7TL4KggEeuBcYhhfoEfEg" name="RepositoryElement" tooltipText="" incomingEdges="_ZL5qwKghEeuBcYhhfoEfEg _bxGLYKghEeuBcYhhfoEfEg _cHSd1qghEeuBcYhhfoEfEg" width="12" height="10">
-        <target xmi:type="ecore:EClass" href="simplePalladio.ecore#//SystemIndependentViewType/RepositoryElement.1"/>
-        <semanticElements xmi:type="ecore:EClass" href="simplePalladio.ecore#//SystemIndependentViewType/RepositoryElement.1"/>
+        <target xmi:type="ecore:EClass" href="simplePalladio.ecore#//SystemIndependentViewType/RepositoryElement"/>
+        <semanticElements xmi:type="ecore:EClass" href="simplePalladio.ecore#//SystemIndependentViewType/RepositoryElement"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
@@ -1415,8 +1415,8 @@
         <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_1GIWcKggEeuBcYhhfoEfEg" name="Service" tooltipText="" outgoingEdges="_-tfncqgiEeuBcYhhfoEfEg __RIf_KgiEeuBcYhhfoEfEg _Ff1d7KgjEeuBcYhhfoEfEg" incomingEdges="_YJCDE6giEeuBcYhhfoEfEg" width="12" height="10">
-        <target xmi:type="ecore:EClass" href="simplePalladio.ecore#//SystemIndependentViewType/Service.1"/>
-        <semanticElements xmi:type="ecore:EClass" href="simplePalladio.ecore#//SystemIndependentViewType/Service.1"/>
+        <target xmi:type="ecore:EClass" href="simplePalladio.ecore#//SystemIndependentViewType/Service"/>
+        <semanticElements xmi:type="ecore:EClass" href="simplePalladio.ecore#//SystemIndependentViewType/Service"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
@@ -1426,8 +1426,8 @@
         <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_2vEDIKggEeuBcYhhfoEfEg" name="BehaviourDescription" tooltipText="" outgoingEdges="_czntiKgjEeuBcYhhfoEfEg" incomingEdges="_Ff1d7KgjEeuBcYhhfoEfEg" width="12" height="10">
-        <target xmi:type="ecore:EClass" href="simplePalladio.ecore#//SystemIndependentViewType/BehaviourDescription.1"/>
-        <semanticElements xmi:type="ecore:EClass" href="simplePalladio.ecore#//SystemIndependentViewType/BehaviourDescription.1"/>
+        <target xmi:type="ecore:EClass" href="simplePalladio.ecore#//SystemIndependentViewType/BehaviourDescription"/>
+        <semanticElements xmi:type="ecore:EClass" href="simplePalladio.ecore#//SystemIndependentViewType/BehaviourDescription"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
@@ -1437,8 +1437,8 @@
         <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_7WycMKggEeuBcYhhfoEfEg" name="InternalAction" tooltipText="" outgoingEdges="_bqIV3KgjEeuBcYhhfoEfEg" width="12" height="10">
-        <target xmi:type="ecore:EClass" href="simplePalladio.ecore#//SystemIndependentViewType/InternalAction.1"/>
-        <semanticElements xmi:type="ecore:EClass" href="simplePalladio.ecore#//SystemIndependentViewType/InternalAction.1"/>
+        <target xmi:type="ecore:EClass" href="simplePalladio.ecore#//SystemIndependentViewType/InternalAction"/>
+        <semanticElements xmi:type="ecore:EClass" href="simplePalladio.ecore#//SystemIndependentViewType/InternalAction"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
@@ -1448,8 +1448,8 @@
         <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_8zDl4KggEeuBcYhhfoEfEg" name="ExternalCall" tooltipText="" outgoingEdges="_bVJkcagjEeuBcYhhfoEfEg _rCyh8qgjEeuBcYhhfoEfEg" width="12" height="10">
-        <target xmi:type="ecore:EClass" href="simplePalladio.ecore#//SystemIndependentViewType/ExternalCall.1"/>
-        <semanticElements xmi:type="ecore:EClass" href="simplePalladio.ecore#//SystemIndependentViewType/ExternalCall.1"/>
+        <target xmi:type="ecore:EClass" href="simplePalladio.ecore#//SystemIndependentViewType/ExternalCall"/>
+        <semanticElements xmi:type="ecore:EClass" href="simplePalladio.ecore#//SystemIndependentViewType/ExternalCall"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
@@ -1459,8 +1459,8 @@
         <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_ApBx4KghEeuBcYhhfoEfEg" name="Loop" tooltipText="" outgoingEdges="_bA2vWagjEeuBcYhhfoEfEg _v2pSiKgjEeuBcYhhfoEfEg" width="12" height="10">
-        <target xmi:type="ecore:EClass" href="simplePalladio.ecore#//SystemIndependentViewType/Loop.1"/>
-        <semanticElements xmi:type="ecore:EClass" href="simplePalladio.ecore#//SystemIndependentViewType/Loop.1"/>
+        <target xmi:type="ecore:EClass" href="simplePalladio.ecore#//SystemIndependentViewType/Loop"/>
+        <semanticElements xmi:type="ecore:EClass" href="simplePalladio.ecore#//SystemIndependentViewType/Loop"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
@@ -1827,8 +1827,8 @@
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC_EReference']"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_-tfncqgiEeuBcYhhfoEfEg" name="[1..*] interfaces" sourceNode="_1GIWcKggEeuBcYhhfoEfEg" targetNode="_E6pqAqgfEeuge5wAEukJ2w">
-      <target xmi:type="ecore:EReference" href="simplePalladio.ecore#//SystemIndependentViewType/Service.1/interfaces"/>
-      <semanticElements xmi:type="ecore:EReference" href="simplePalladio.ecore#//SystemIndependentViewType/Service.1/interfaces"/>
+      <target xmi:type="ecore:EReference" href="simplePalladio.ecore#//SystemIndependentViewType/Service/interfaces"/>
+      <semanticElements xmi:type="ecore:EReference" href="simplePalladio.ecore#//SystemIndependentViewType/Service/interfaces"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_B_T9i6gjEeuBcYhhfoEfEg" description="_JBYHcagiEeuBcYhhfoEfEg" routingStyle="manhattan" strokeColor="0,0,0">
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_B_T9jagjEeuBcYhhfoEfEg" showIcon="false">
           <labelFormat>bold</labelFormat>
@@ -1838,8 +1838,8 @@
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC_EReference']"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="__RIf_KgiEeuBcYhhfoEfEg" name="[1..1] signature" sourceNode="_1GIWcKggEeuBcYhhfoEfEg" targetNode="_E6qRFqgfEeuge5wAEukJ2w">
-      <target xmi:type="ecore:EReference" href="simplePalladio.ecore#//SystemIndependentViewType/Service.1/signature"/>
-      <semanticElements xmi:type="ecore:EReference" href="simplePalladio.ecore#//SystemIndependentViewType/Service.1/signature"/>
+      <target xmi:type="ecore:EReference" href="simplePalladio.ecore#//SystemIndependentViewType/Service/signature"/>
+      <semanticElements xmi:type="ecore:EReference" href="simplePalladio.ecore#//SystemIndependentViewType/Service/signature"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_DhqhJKgjEeuBcYhhfoEfEg" description="_JBYHcagiEeuBcYhhfoEfEg" routingStyle="manhattan" strokeColor="0,0,0">
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_DhqhJqgjEeuBcYhhfoEfEg" showIcon="false">
           <labelFormat>bold</labelFormat>
@@ -1849,8 +1849,8 @@
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC_EReference']"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_Ff1d7KgjEeuBcYhhfoEfEg" name="[1..1] behaviourDescription" sourceNode="_1GIWcKggEeuBcYhhfoEfEg" targetNode="_2vEDIKggEeuBcYhhfoEfEg">
-      <target xmi:type="ecore:EReference" href="simplePalladio.ecore#//SystemIndependentViewType/Service.1/behaviourDescription"/>
-      <semanticElements xmi:type="ecore:EReference" href="simplePalladio.ecore#//SystemIndependentViewType/Service.1/behaviourDescription"/>
+      <target xmi:type="ecore:EReference" href="simplePalladio.ecore#//SystemIndependentViewType/Service/behaviourDescription"/>
+      <semanticElements xmi:type="ecore:EReference" href="simplePalladio.ecore#//SystemIndependentViewType/Service/behaviourDescription"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_Uim5jKgjEeuBcYhhfoEfEg" description="_bDHrEKghEeuBcYhhfoEfEg" sourceArrow="FillDiamond" routingStyle="manhattan" strokeColor="0,0,0">
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_Uim5jqgjEeuBcYhhfoEfEg" showIcon="false">
           <labelFormat>bold</labelFormat>
@@ -1875,8 +1875,8 @@
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC%20ESupertypes']"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_bA2vWagjEeuBcYhhfoEfEg" sourceNode="_ApBx4KghEeuBcYhhfoEfEg" targetNode="_SUajoKgjEeuBcYhhfoEfEg">
-      <target xmi:type="ecore:EClass" href="simplePalladio.ecore#//SystemIndependentViewType/Loop.1"/>
-      <semanticElements xmi:type="ecore:EClass" href="simplePalladio.ecore#//SystemIndependentViewType/Loop.1"/>
+      <target xmi:type="ecore:EClass" href="simplePalladio.ecore#//SystemIndependentViewType/Loop"/>
+      <semanticElements xmi:type="ecore:EClass" href="simplePalladio.ecore#//SystemIndependentViewType/Loop"/>
       <decorations xmi:type="viewpoint:Decoration" uid="_bA2vYKgjEeuBcYhhfoEfEg">
         <description xmi:type="description:SemanticBasedDecoration" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@decorationDescriptionsSet/@decorationDescriptions[name='External']"/>
       </decorations>
@@ -1890,8 +1890,8 @@
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC%20ESupertypes']"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_bVJkcagjEeuBcYhhfoEfEg" sourceNode="_8zDl4KggEeuBcYhhfoEfEg" targetNode="_SUajoKgjEeuBcYhhfoEfEg">
-      <target xmi:type="ecore:EClass" href="simplePalladio.ecore#//SystemIndependentViewType/ExternalCall.1"/>
-      <semanticElements xmi:type="ecore:EClass" href="simplePalladio.ecore#//SystemIndependentViewType/ExternalCall.1"/>
+      <target xmi:type="ecore:EClass" href="simplePalladio.ecore#//SystemIndependentViewType/ExternalCall"/>
+      <semanticElements xmi:type="ecore:EClass" href="simplePalladio.ecore#//SystemIndependentViewType/ExternalCall"/>
       <decorations xmi:type="viewpoint:Decoration" uid="_bVKLY6gjEeuBcYhhfoEfEg">
         <description xmi:type="description:SemanticBasedDecoration" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@decorationDescriptionsSet/@decorationDescriptions[name='External']"/>
       </decorations>
@@ -1905,8 +1905,8 @@
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC%20ESupertypes']"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_bqIV3KgjEeuBcYhhfoEfEg" sourceNode="_7WycMKggEeuBcYhhfoEfEg" targetNode="_SUajoKgjEeuBcYhhfoEfEg">
-      <target xmi:type="ecore:EClass" href="simplePalladio.ecore#//SystemIndependentViewType/InternalAction.1"/>
-      <semanticElements xmi:type="ecore:EClass" href="simplePalladio.ecore#//SystemIndependentViewType/InternalAction.1"/>
+      <target xmi:type="ecore:EClass" href="simplePalladio.ecore#//SystemIndependentViewType/InternalAction"/>
+      <semanticElements xmi:type="ecore:EClass" href="simplePalladio.ecore#//SystemIndependentViewType/InternalAction"/>
       <decorations xmi:type="viewpoint:Decoration" uid="_bqIV46gjEeuBcYhhfoEfEg">
         <description xmi:type="description:SemanticBasedDecoration" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@decorationDescriptionsSet/@decorationDescriptions[name='External']"/>
       </decorations>
@@ -1920,8 +1920,8 @@
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC%20ESupertypes']"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_czntiKgjEeuBcYhhfoEfEg" name="[0..*] behaviorElements" sourceNode="_2vEDIKggEeuBcYhhfoEfEg" targetNode="_SUajoKgjEeuBcYhhfoEfEg">
-      <target xmi:type="ecore:EReference" href="simplePalladio.ecore#//SystemIndependentViewType/BehaviourDescription.1/behaviorElements"/>
-      <semanticElements xmi:type="ecore:EReference" href="simplePalladio.ecore#//SystemIndependentViewType/BehaviourDescription.1/behaviorElements"/>
+      <target xmi:type="ecore:EReference" href="simplePalladio.ecore#//SystemIndependentViewType/BehaviourDescription/behaviorElements"/>
+      <semanticElements xmi:type="ecore:EReference" href="simplePalladio.ecore#//SystemIndependentViewType/BehaviourDescription/behaviorElements"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_czoUgKgjEeuBcYhhfoEfEg" description="_i-S8cKgiEeuBcYhhfoEfEg" sourceArrow="FillDiamond" routingStyle="manhattan" strokeColor="0,0,0">
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_czoUgqgjEeuBcYhhfoEfEg" showIcon="false">
           <customFeatures>labelSize</customFeatures>
@@ -1933,8 +1933,8 @@
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC_EReference']"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_rCyh8qgjEeuBcYhhfoEfEg" name="[1..1] signature" sourceNode="_8zDl4KggEeuBcYhhfoEfEg" targetNode="_E6qRFqgfEeuge5wAEukJ2w">
-      <target xmi:type="ecore:EReference" href="simplePalladio.ecore#//SystemIndependentViewType/ExternalCall.1/signature"/>
-      <semanticElements xmi:type="ecore:EReference" href="simplePalladio.ecore#//SystemIndependentViewType/ExternalCall.1/signature"/>
+      <target xmi:type="ecore:EReference" href="simplePalladio.ecore#//SystemIndependentViewType/ExternalCall/signature"/>
+      <semanticElements xmi:type="ecore:EReference" href="simplePalladio.ecore#//SystemIndependentViewType/ExternalCall/signature"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_uBd5tqgjEeuBcYhhfoEfEg" description="_JBYHcagiEeuBcYhhfoEfEg" routingStyle="manhattan" strokeColor="0,0,0">
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_uBd5uKgjEeuBcYhhfoEfEg" showIcon="false">
           <labelFormat>bold</labelFormat>
@@ -1944,8 +1944,8 @@
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC_EReference']"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_v2pSiKgjEeuBcYhhfoEfEg" name="[0..*] behaviorElements" sourceNode="_ApBx4KghEeuBcYhhfoEfEg" targetNode="_SUajoKgjEeuBcYhhfoEfEg">
-      <target xmi:type="ecore:EReference" href="simplePalladio.ecore#//SystemIndependentViewType/Loop.1/behaviorElements"/>
-      <semanticElements xmi:type="ecore:EReference" href="simplePalladio.ecore#//SystemIndependentViewType/Loop.1/behaviorElements"/>
+      <target xmi:type="ecore:EReference" href="simplePalladio.ecore#//SystemIndependentViewType/Loop/behaviorElements"/>
+      <semanticElements xmi:type="ecore:EReference" href="simplePalladio.ecore#//SystemIndependentViewType/Loop/behaviorElements"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_v2p5gKgjEeuBcYhhfoEfEg" routingStyle="manhattan" strokeColor="0,0,0">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC_EReference']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_v2p5gqgjEeuBcYhhfoEfEg" showIcon="false">
