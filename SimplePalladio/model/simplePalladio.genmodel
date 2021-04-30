@@ -99,12 +99,16 @@
             ecoreFeature="ecore:EReference simplePalladio.ecore#//AssemblyViewPoint/AssemblyContext/providedRoles"/>
         <genFeatures notify="false" createChild="false" propertySortChoices="true"
             ecoreFeature="ecore:EReference simplePalladio.ecore#//AssemblyViewPoint/AssemblyContext/requiredRoles"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference simplePalladio.ecore#//AssemblyViewPoint/AssemblyContext/allocationcontext"/>
       </genClasses>
       <genClasses ecoreClass="simplePalladio.ecore#//AssemblyViewPoint/Role">
         <genFeatures notify="false" createChild="false" propertySortChoices="true"
             ecoreFeature="ecore:EReference simplePalladio.ecore#//AssemblyViewPoint/Role/parentAssemblyContext"/>
         <genFeatures notify="false" createChild="false" propertySortChoices="true"
             ecoreFeature="ecore:EReference simplePalladio.ecore#//AssemblyViewPoint/Role/interface"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference simplePalladio.ecore#//AssemblyViewPoint/Role/assemblyconnector"/>
       </genClasses>
       <genClasses ecoreClass="simplePalladio.ecore#//AssemblyViewPoint/DelegationConnector">
         <genFeatures notify="false" createChild="false" propertySortChoices="true"

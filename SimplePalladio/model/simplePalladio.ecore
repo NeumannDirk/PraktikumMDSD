@@ -135,12 +135,16 @@
           upperBound="-1" eType="#//AssemblyViewPoint/Role"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="requiredRoles" upperBound="-1"
           eType="#//AssemblyViewPoint/Role"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="allocationContext" eType="#//DeploymentViewPoint/AllocationContext"
+          eOpposite="#//DeploymentViewPoint/AllocationContext/assembly"/>
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="Role" eSuperTypes="#//AssemblyViewPoint/AbstractSystemElement">
       <eStructuralFeatures xsi:type="ecore:EReference" name="parentAssemblyContext"
           lowerBound="1" eType="#//AssemblyViewPoint/AssemblyContext"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="interface" lowerBound="1"
           eType="#//SystemIndependentViewType/Interface"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="fromAssemblyConnectors"
+          upperBound="-1" eType="#//AssemblyViewPoint/AssemblyConnector" eOpposite="#//AssemblyViewPoint/AssemblyConnector/requiredRole"/>
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="DelegationConnector" eSuperTypes="#//AssemblyViewPoint/AbstractConnector">
       <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore">
@@ -165,7 +169,7 @@
       <eStructuralFeatures xsi:type="ecore:EReference" name="providedRole" lowerBound="1"
           eType="#//AssemblyViewPoint/Role"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="requiredRole" lowerBound="1"
-          eType="#//AssemblyViewPoint/Role"/>
+          eType="#//AssemblyViewPoint/Role" eOpposite="#//AssemblyViewPoint/Role/fromAssemblyConnectors"/>
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="AbstractConnector" abstract="true"
         eSuperTypes="#//AssemblyViewPoint/AbstractSystemElement"/>
@@ -199,12 +203,12 @@
         <details key="constraints" value="ConnectedAssemblyContextsMustBeOnConnectedContainers"/>
       </eAnnotations>
       <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore/OCL">
-        <details key="ConnectedAssemblyContextsMustBeOnConnectedContainers" value="true"/>
+        <details key="ConnectedAssemblyContextsMustBeOnConnectedContainers" value="assembly.requiredRoles->emtpy()"/>
       </eAnnotations>
       <eStructuralFeatures xsi:type="ecore:EReference" name="container" lowerBound="1"
           eType="#//DeploymentViewPoint/Container"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="assembly" lowerBound="1"
-          eType="#//AssemblyViewPoint/AssemblyContext"/>
+          eType="#//AssemblyViewPoint/AssemblyContext" eOpposite="#//AssemblyViewPoint/AssemblyContext/allocationContext"/>
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="AbstractEnvironmentElement" abstract="true"/>
   </eSubpackages>
