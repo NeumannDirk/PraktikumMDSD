@@ -51,36 +51,27 @@
         <genFeatures createChild="false" ecoreFeature="ecore:EAttribute simplePalladio.ecore#//SystemIndependentViewType/Component/name"/>
         <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference simplePalladio.ecore#//SystemIndependentViewType/Component/services"/>
       </genClasses>
-      <genClasses ecoreClass="simplePalladio.ecore#//SystemIndependentViewType/Parameter"/>
-      <genClasses ecoreClass="simplePalladio.ecore#//SystemIndependentViewType/RepositoryElement"/>
-      <genClasses ecoreClass="simplePalladio.ecore#//SystemIndependentViewType/Service"/>
-      <genClasses ecoreClass="simplePalladio.ecore#//SystemIndependentViewType/BehaviourDescription"/>
+      <genClasses ecoreClass="simplePalladio.ecore#//SystemIndependentViewType/Parameter">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute simplePalladio.ecore#//SystemIndependentViewType/Parameter/name"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute simplePalladio.ecore#//SystemIndependentViewType/Parameter/type"/>
+      </genClasses>
+      <genClasses ecoreClass="simplePalladio.ecore#//SystemIndependentViewType/AbstractRepositoryElement"/>
+      <genClasses ecoreClass="simplePalladio.ecore#//SystemIndependentViewType/Service">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference simplePalladio.ecore#//SystemIndependentViewType/Service/signature"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference simplePalladio.ecore#//SystemIndependentViewType/Service/behaviourDescription"/>
+      </genClasses>
+      <genClasses ecoreClass="simplePalladio.ecore#//SystemIndependentViewType/BehaviourDescription">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference simplePalladio.ecore#//SystemIndependentViewType/BehaviourDescription/behaviorElements"/>
+      </genClasses>
       <genClasses ecoreClass="simplePalladio.ecore#//SystemIndependentViewType/InternalAction"/>
-      <genClasses ecoreClass="simplePalladio.ecore#//SystemIndependentViewType/ExternalCall"/>
-      <genClasses ecoreClass="simplePalladio.ecore#//SystemIndependentViewType/Loop"/>
-      <genClasses ecoreClass="simplePalladio.ecore#//SystemIndependentViewType/Parameter.1">
-        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute simplePalladio.ecore#//SystemIndependentViewType/Parameter.1/name"/>
-        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute simplePalladio.ecore#//SystemIndependentViewType/Parameter.1/type"/>
-      </genClasses>
-      <genClasses ecoreClass="simplePalladio.ecore#//SystemIndependentViewType/RepositoryElement.1"/>
-      <genClasses ecoreClass="simplePalladio.ecore#//SystemIndependentViewType/Service.1">
+      <genClasses ecoreClass="simplePalladio.ecore#//SystemIndependentViewType/ExternalCall">
         <genFeatures notify="false" createChild="false" propertySortChoices="true"
-            ecoreFeature="ecore:EReference simplePalladio.ecore#//SystemIndependentViewType/Service.1/interfaces"/>
-        <genFeatures notify="false" createChild="false" propertySortChoices="true"
-            ecoreFeature="ecore:EReference simplePalladio.ecore#//SystemIndependentViewType/Service.1/signature"/>
-        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference simplePalladio.ecore#//SystemIndependentViewType/Service.1/behaviourDescription"/>
+            ecoreFeature="ecore:EReference simplePalladio.ecore#//SystemIndependentViewType/ExternalCall/signature"/>
       </genClasses>
-      <genClasses ecoreClass="simplePalladio.ecore#//SystemIndependentViewType/BehaviourDescription.1">
-        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference simplePalladio.ecore#//SystemIndependentViewType/BehaviourDescription.1/behaviorElements"/>
-      </genClasses>
-      <genClasses ecoreClass="simplePalladio.ecore#//SystemIndependentViewType/InternalAction.1"/>
-      <genClasses ecoreClass="simplePalladio.ecore#//SystemIndependentViewType/ExternalCall.1">
+      <genClasses ecoreClass="simplePalladio.ecore#//SystemIndependentViewType/Loop">
         <genFeatures notify="false" createChild="false" propertySortChoices="true"
-            ecoreFeature="ecore:EReference simplePalladio.ecore#//SystemIndependentViewType/ExternalCall.1/signature"/>
-      </genClasses>
-      <genClasses ecoreClass="simplePalladio.ecore#//SystemIndependentViewType/Loop.1">
-        <genFeatures notify="false" createChild="false" propertySortChoices="true"
-            ecoreFeature="ecore:EReference simplePalladio.ecore#//SystemIndependentViewType/Loop.1/behaviorElements"/>
+            ecoreFeature="ecore:EReference simplePalladio.ecore#//SystemIndependentViewType/Loop/behaviorElements"/>
       </genClasses>
       <genClasses ecoreClass="simplePalladio.ecore#//SystemIndependentViewType/AncBranch">
         <genFeatures notify="false" createChild="false" propertySortChoices="true"
@@ -98,8 +89,7 @@
             ecoreFeature="ecore:EReference simplePalladio.ecore#//AssemblyViewPoint/System/providedInterfaces"/>
         <genFeatures notify="false" createChild="false" propertySortChoices="true"
             ecoreFeature="ecore:EReference simplePalladio.ecore#//AssemblyViewPoint/System/requiredInterfaces"/>
-        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference simplePalladio.ecore#//AssemblyViewPoint/System/assemblyContexts"/>
-        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference simplePalladio.ecore#//AssemblyViewPoint/System/abstractConnectors"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference simplePalladio.ecore#//AssemblyViewPoint/System/systemElements"/>
       </genClasses>
       <genClasses ecoreClass="simplePalladio.ecore#//AssemblyViewPoint/AssemblyContext">
         <genFeatures notify="false" createChild="false" propertySortChoices="true"
@@ -129,6 +119,7 @@
             ecoreFeature="ecore:EReference simplePalladio.ecore#//AssemblyViewPoint/AssemblyConnector/requiredRole"/>
       </genClasses>
       <genClasses ecoreClass="simplePalladio.ecore#//AssemblyViewPoint/AbstractConnector"/>
+      <genClasses ecoreClass="simplePalladio.ecore#//AssemblyViewPoint/AbstractSystemElement"/>
     </nestedGenPackages>
     <nestedGenPackages prefix="DeploymentViewPoint" disposableProviderFactory="true"
         ecorePackage="simplePalladio.ecore#//DeploymentViewPoint">
@@ -154,7 +145,7 @@
         <genFeatures notify="false" createChild="false" propertySortChoices="true"
             ecoreFeature="ecore:EReference simplePalladio.ecore#//DeploymentViewPoint/AllocationContext/assembly"/>
       </genClasses>
-      <genClasses ecoreClass="simplePalladio.ecore#//DeploymentViewPoint/EnvironmentElement"/>
+      <genClasses ecoreClass="simplePalladio.ecore#//DeploymentViewPoint/AbstractEnvironmentElement"/>
     </nestedGenPackages>
   </genPackages>
 </genmodel:GenModel>

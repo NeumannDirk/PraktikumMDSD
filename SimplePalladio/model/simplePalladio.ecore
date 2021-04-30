@@ -6,14 +6,14 @@
       nsPrefix="SystemIndependentViewType">
     <eClassifiers xsi:type="ecore:EClass" name="RepositoryViewType">
       <eStructuralFeatures xsi:type="ecore:EReference" name="repositoryElements" lowerBound="1"
-          upperBound="-1" eType="#//SystemIndependentViewType/RepositoryElement"
+          upperBound="-1" eType="#//SystemIndependentViewType/AbstractRepositoryElement"
           containment="true"/>
     </eClassifiers>
-    <eClassifiers xsi:type="ecore:EClass" name="Interface" eSuperTypes="#//SystemIndependentViewType/RepositoryElement">
+    <eClassifiers xsi:type="ecore:EClass" name="Interface" eSuperTypes="#//SystemIndependentViewType/AbstractRepositoryElement">
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1"
           eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="signatures" lowerBound="1"
-          upperBound="-1" eType="#//SystemIndependentViewType/Signature" containment="true"/>
+          upperBound="-1" eType="#//SystemIndependentViewType/Signature"/>
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="CompositeComponent" eSuperTypes="#//SystemIndependentViewType/AbstractComponent">
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1"
@@ -21,7 +21,7 @@
       <eStructuralFeatures xsi:type="ecore:EReference" name="system" lowerBound="1"
           eType="#//AssemblyViewPoint/System"/>
     </eClassifiers>
-    <eClassifiers xsi:type="ecore:EClass" name="Signature">
+    <eClassifiers xsi:type="ecore:EClass" name="Signature" eSuperTypes="#//SystemIndependentViewType/AbstractRepositoryElement">
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1"
           eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="returnValue" lowerBound="1"
@@ -30,7 +30,7 @@
           eType="#//SystemIndependentViewType/Parameter" containment="true"/>
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="AbstractComponent" abstract="true"
-        eSuperTypes="#//SystemIndependentViewType/RepositoryElement">
+        eSuperTypes="#//SystemIndependentViewType/AbstractRepositoryElement">
       <eStructuralFeatures xsi:type="ecore:EReference" name="providedInterfaces" lowerBound="1"
           upperBound="-1" eType="#//SystemIndependentViewType/Interface"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="requiredInterfaces" upperBound="-1"
@@ -61,10 +61,8 @@
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="type" lowerBound="1"
           eType="#//SystemIndependentViewType/Type" defaultValueLiteral="VOID"/>
     </eClassifiers>
-    <eClassifiers xsi:type="ecore:EClass" name="RepositoryElement" abstract="true"/>
+    <eClassifiers xsi:type="ecore:EClass" name="AbstractRepositoryElement" abstract="true"/>
     <eClassifiers xsi:type="ecore:EClass" name="Service">
-      <eStructuralFeatures xsi:type="ecore:EReference" name="interfaces" lowerBound="1"
-          upperBound="-1" eType="#//SystemIndependentViewType/Interface"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="signature" lowerBound="1"
           eType="#//SystemIndependentViewType/Signature"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="behaviourDescription"
@@ -101,12 +99,10 @@
           upperBound="-1" eType="#//SystemIndependentViewType/Interface"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="requiredInterfaces" upperBound="-1"
           eType="#//SystemIndependentViewType/Interface"/>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="assemblyContexts" lowerBound="1"
-          upperBound="-1" eType="#//AssemblyViewPoint/AssemblyContext" containment="true"/>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="abstractConnectors" lowerBound="1"
-          upperBound="-1" eType="#//AssemblyViewPoint/AbstractConnector" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="systemElements" lowerBound="1"
+          upperBound="-1" eType="#//AssemblyViewPoint/AbstractSystemElement" containment="true"/>
     </eClassifiers>
-    <eClassifiers xsi:type="ecore:EClass" name="AssemblyContext">
+    <eClassifiers xsi:type="ecore:EClass" name="AssemblyContext" eSuperTypes="#//AssemblyViewPoint/AbstractSystemElement">
       <eStructuralFeatures xsi:type="ecore:EReference" name="component" lowerBound="1"
           eType="#//SystemIndependentViewType/AbstractComponent"/>
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1"
@@ -116,7 +112,7 @@
       <eStructuralFeatures xsi:type="ecore:EReference" name="requiredRoles" upperBound="-1"
           eType="#//AssemblyViewPoint/Role"/>
     </eClassifiers>
-    <eClassifiers xsi:type="ecore:EClass" name="Role">
+    <eClassifiers xsi:type="ecore:EClass" name="Role" eSuperTypes="#//AssemblyViewPoint/AbstractSystemElement">
       <eStructuralFeatures xsi:type="ecore:EReference" name="parentAssemblyContext"
           lowerBound="1" eType="#//AssemblyViewPoint/AssemblyContext"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="interface" lowerBound="1"
@@ -134,26 +130,28 @@
       <eStructuralFeatures xsi:type="ecore:EReference" name="requiredRole" lowerBound="1"
           eType="#//AssemblyViewPoint/Role"/>
     </eClassifiers>
-    <eClassifiers xsi:type="ecore:EClass" name="AbstractConnector" abstract="true"/>
+    <eClassifiers xsi:type="ecore:EClass" name="AbstractConnector" abstract="true"
+        eSuperTypes="#//AssemblyViewPoint/AbstractSystemElement"/>
+    <eClassifiers xsi:type="ecore:EClass" name="AbstractSystemElement" abstract="true"/>
   </eSubpackages>
   <eSubpackages name="DeploymentViewPoint" nsURI="http://www.example.org/simplePalladio/DeploymentViewPoint"
       nsPrefix="DeploymentViewPoint">
     <eClassifiers xsi:type="ecore:EClass" name="EnvironmentViewType">
       <eStructuralFeatures xsi:type="ecore:EReference" name="environmentElements"
-          lowerBound="1" upperBound="-1" eType="#//DeploymentViewPoint/EnvironmentElement"
+          lowerBound="1" upperBound="-1" eType="#//DeploymentViewPoint/AbstractEnvironmentElement"
           containment="true"/>
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="AllocationViewType">
       <eStructuralFeatures xsi:type="ecore:EReference" name="allocationContexts" lowerBound="1"
           upperBound="-1" eType="#//DeploymentViewPoint/AllocationContext" containment="true"/>
     </eClassifiers>
-    <eClassifiers xsi:type="ecore:EClass" name="Container" eSuperTypes="#//DeploymentViewPoint/EnvironmentElement">
+    <eClassifiers xsi:type="ecore:EClass" name="Container" eSuperTypes="#//DeploymentViewPoint/AbstractEnvironmentElement">
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1"
           eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="links" upperBound="-1"
           eType="#//DeploymentViewPoint/Link" eOpposite="#//DeploymentViewPoint/Link/containers"/>
     </eClassifiers>
-    <eClassifiers xsi:type="ecore:EClass" name="Link" eSuperTypes="#//DeploymentViewPoint/EnvironmentElement">
+    <eClassifiers xsi:type="ecore:EClass" name="Link" eSuperTypes="#//DeploymentViewPoint/AbstractEnvironmentElement">
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1"
           eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="containers" lowerBound="2"
@@ -165,6 +163,6 @@
       <eStructuralFeatures xsi:type="ecore:EReference" name="assembly" lowerBound="1"
           eType="#//AssemblyViewPoint/AssemblyContext"/>
     </eClassifiers>
-    <eClassifiers xsi:type="ecore:EClass" name="EnvironmentElement" abstract="true"/>
+    <eClassifiers xsi:type="ecore:EClass" name="AbstractEnvironmentElement" abstract="true"/>
   </eSubpackages>
 </ecore:EPackage>
