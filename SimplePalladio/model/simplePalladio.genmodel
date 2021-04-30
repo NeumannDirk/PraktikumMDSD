@@ -73,9 +73,9 @@
         <genFeatures notify="false" createChild="false" propertySortChoices="true"
             ecoreFeature="ecore:EReference simplePalladio.ecore#//SystemIndependentViewType/Loop/behaviorElements"/>
       </genClasses>
-      <genClasses ecoreClass="simplePalladio.ecore#//SystemIndependentViewType/AncBranch">
+      <genClasses ecoreClass="simplePalladio.ecore#//SystemIndependentViewType/Branch">
         <genFeatures notify="false" createChild="false" propertySortChoices="true"
-            ecoreFeature="ecore:EReference simplePalladio.ecore#//SystemIndependentViewType/AncBranch/behaviorElements"/>
+            ecoreFeature="ecore:EReference simplePalladio.ecore#//SystemIndependentViewType/Branch/behaviorElements"/>
       </genClasses>
       <genClasses ecoreClass="simplePalladio.ecore#//SystemIndependentViewType/BehaviorElement"/>
     </nestedGenPackages>

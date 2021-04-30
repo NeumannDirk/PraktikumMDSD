@@ -82,7 +82,7 @@
       <eStructuralFeatures xsi:type="ecore:EReference" name="behaviorElements" upperBound="-1"
           eType="#//SystemIndependentViewType/BehaviorElement"/>
     </eClassifiers>
-    <eClassifiers xsi:type="ecore:EClass" name="AncBranch" eSuperTypes="#//SystemIndependentViewType/BehaviorElement">
+    <eClassifiers xsi:type="ecore:EClass" name="Branch" eSuperTypes="#//SystemIndependentViewType/BehaviorElement">
       <eStructuralFeatures xsi:type="ecore:EReference" name="behaviorElements" upperBound="-1"
           eType="#//SystemIndependentViewType/BehaviorElement"/>
     </eClassifiers>
