@@ -55,7 +55,8 @@
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1"
           eType="ecore:EDataType &_0;#//EString"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="services" lowerBound="1"
-          upperBound="-1" eType="#//SystemIndependentViewType/Service" containment="true"/>
+          upperBound="-1" eType="#//SystemIndependentViewType/Service" containment="true"
+          eOpposite="#//SystemIndependentViewType/Service/component"/>
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EEnum" name="Type">
       <eLiterals name="VOID"/>
@@ -88,14 +89,25 @@
           eType="#//SystemIndependentViewType/Signature"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="behaviourDescription"
           lowerBound="1" eType="#//SystemIndependentViewType/BehaviourDescription"
-          containment="true"/>
+          containment="true" eOpposite="#//SystemIndependentViewType/BehaviourDescription/service"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="component" lowerBound="1"
+          eType="#//SystemIndependentViewType/Component" eOpposite="#//SystemIndependentViewType/Component/services"/>
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="BehaviourDescription">
       <eStructuralFeatures xsi:type="ecore:EReference" name="behaviorElements" upperBound="-1"
-          eType="#//SystemIndependentViewType/BehaviorElement" containment="true"/>
+          eType="#//SystemIndependentViewType/BehaviorElement" containment="true"
+          eOpposite="#//SystemIndependentViewType/BehaviorElement/behaviourDescription"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="service" lowerBound="1"
+          eType="#//SystemIndependentViewType/Service" eOpposite="#//SystemIndependentViewType/Service/behaviourDescription"/>
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="InternalAction" eSuperTypes="#//SystemIndependentViewType/BehaviorElement"/>
     <eClassifiers xsi:type="ecore:EClass" name="ExternalCall" eSuperTypes="#//SystemIndependentViewType/BehaviorElement">
+      <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore">
+        <details key="constraints" value="MustCallRequiredInterfaces"/>
+      </eAnnotations>
+      <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot">
+        <details key="MustCallRequiredInterfaces" value="self.behaviourDescription.service.component.requiredInterfaces->exists(it: Interface | it.signatures->includes(signature))"/>
+      </eAnnotations>
       <eStructuralFeatures xsi:type="ecore:EReference" name="signature" lowerBound="1"
           eType="#//SystemIndependentViewType/Signature"/>
     </eClassifiers>
@@ -107,7 +119,11 @@
       <eStructuralFeatures xsi:type="ecore:EReference" name="behaviorElements" upperBound="-1"
           eType="#//SystemIndependentViewType/BehaviorElement"/>
     </eClassifiers>
-    <eClassifiers xsi:type="ecore:EClass" name="BehaviorElement" abstract="true"/>
+    <eClassifiers xsi:type="ecore:EClass" name="BehaviorElement" abstract="true">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="behaviourDescription"
+          lowerBound="1" eType="#//SystemIndependentViewType/BehaviourDescription"
+          eOpposite="#//SystemIndependentViewType/BehaviourDescription/behaviorElements"/>
+    </eClassifiers>
   </eSubpackages>
   <eSubpackages name="AssemblyViewPoint" nsURI="http://www.example.org/simplePalladio/AssemblyViewPoint"
       nsPrefix="AssemblyViewPoint">
@@ -126,7 +142,8 @@
       <eStructuralFeatures xsi:type="ecore:EReference" name="requiredInterfaces" upperBound="-1"
           eType="#//SystemIndependentViewType/Interface"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="systemElements" lowerBound="1"
-          upperBound="-1" eType="#//AssemblyViewPoint/AbstractSystemElement" containment="true"/>
+          upperBound="-1" eType="#//AssemblyViewPoint/AbstractSystemElement" containment="true"
+          eOpposite="#//AssemblyViewPoint/AbstractSystemElement/system"/>
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="AssemblyContext" eSuperTypes="#//AssemblyViewPoint/AbstractSystemElement">
       <eStructuralFeatures xsi:type="ecore:EReference" name="component" lowerBound="1"
@@ -150,10 +167,11 @@
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="DelegationConnector" eSuperTypes="#//AssemblyViewPoint/AbstractConnector">
       <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore">
-        <details key="constraints" value="InterfaceMustMatch"/>
+        <details key="constraints" value="InterfaceMustMatch ConnectedMustBeOfSameKind"/>
       </eAnnotations>
       <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot">
         <details key="InterfaceMustMatch" value="role.interface = interface"/>
+        <details key="ConnectedMustBeOfSameKind" value="let system : System = self.system in (system.providedInterfaces->includes(interface) and role.parentAssemblyContext.providedRoles->includes(role)) or (system.requiredInterfaces->includes(interface) and role.parentAssemblyContext.requiredRoles->includes(role))"/>
       </eAnnotations>
       <eStructuralFeatures xsi:type="ecore:EReference" name="role" lowerBound="1"
           eType="#//AssemblyViewPoint/Role"/>
@@ -174,7 +192,10 @@
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="AbstractConnector" abstract="true"
         eSuperTypes="#//AssemblyViewPoint/AbstractSystemElement"/>
-    <eClassifiers xsi:type="ecore:EClass" name="AbstractSystemElement" abstract="true"/>
+    <eClassifiers xsi:type="ecore:EClass" name="AbstractSystemElement" abstract="true">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="system" lowerBound="1"
+          eType="#//AssemblyViewPoint/System" eOpposite="#//AssemblyViewPoint/System/systemElements"/>
+    </eClassifiers>
   </eSubpackages>
   <eSubpackages name="DeploymentViewPoint" nsURI="http://www.example.org/simplePalladio/DeploymentViewPoint"
       nsPrefix="DeploymentViewPoint">

@@ -60,9 +60,13 @@
         <genFeatures notify="false" createChild="false" propertySortChoices="true"
             ecoreFeature="ecore:EReference simplePalladio.ecore#//SystemIndependentViewType/Service/signature"/>
         <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference simplePalladio.ecore#//SystemIndependentViewType/Service/behaviourDescription"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference simplePalladio.ecore#//SystemIndependentViewType/Service/component"/>
       </genClasses>
       <genClasses ecoreClass="simplePalladio.ecore#//SystemIndependentViewType/BehaviourDescription">
         <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference simplePalladio.ecore#//SystemIndependentViewType/BehaviourDescription/behaviorElements"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference simplePalladio.ecore#//SystemIndependentViewType/BehaviourDescription/service"/>
       </genClasses>
       <genClasses ecoreClass="simplePalladio.ecore#//SystemIndependentViewType/InternalAction"/>
       <genClasses ecoreClass="simplePalladio.ecore#//SystemIndependentViewType/ExternalCall">
@@ -77,7 +81,10 @@
         <genFeatures notify="false" createChild="false" propertySortChoices="true"
             ecoreFeature="ecore:EReference simplePalladio.ecore#//SystemIndependentViewType/Branch/behaviorElements"/>
       </genClasses>
-      <genClasses ecoreClass="simplePalladio.ecore#//SystemIndependentViewType/BehaviorElement"/>
+      <genClasses ecoreClass="simplePalladio.ecore#//SystemIndependentViewType/BehaviorElement">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference simplePalladio.ecore#//SystemIndependentViewType/BehaviorElement/behaviourDescription"/>
+      </genClasses>
     </nestedGenPackages>
     <nestedGenPackages prefix="AssemblyViewPoint" disposableProviderFactory="true"
         ecorePackage="simplePalladio.ecore#//AssemblyViewPoint">
@@ -100,7 +107,7 @@
         <genFeatures notify="false" createChild="false" propertySortChoices="true"
             ecoreFeature="ecore:EReference simplePalladio.ecore#//AssemblyViewPoint/AssemblyContext/requiredRoles"/>
         <genFeatures notify="false" createChild="false" propertySortChoices="true"
-            ecoreFeature="ecore:EReference simplePalladio.ecore#//AssemblyViewPoint/AssemblyContext/allocationcontext"/>
+            ecoreFeature="ecore:EReference simplePalladio.ecore#//AssemblyViewPoint/AssemblyContext/allocationContext"/>
       </genClasses>
       <genClasses ecoreClass="simplePalladio.ecore#//AssemblyViewPoint/Role">
         <genFeatures notify="false" createChild="false" propertySortChoices="true"
@@ -108,7 +115,7 @@
         <genFeatures notify="false" createChild="false" propertySortChoices="true"
             ecoreFeature="ecore:EReference simplePalladio.ecore#//AssemblyViewPoint/Role/interface"/>
         <genFeatures notify="false" createChild="false" propertySortChoices="true"
-            ecoreFeature="ecore:EReference simplePalladio.ecore#//AssemblyViewPoint/Role/assemblyconnector"/>
+            ecoreFeature="ecore:EReference simplePalladio.ecore#//AssemblyViewPoint/Role/fromAssemblyConnectors"/>
       </genClasses>
       <genClasses ecoreClass="simplePalladio.ecore#//AssemblyViewPoint/DelegationConnector">
         <genFeatures notify="false" createChild="false" propertySortChoices="true"
@@ -123,7 +130,10 @@
             ecoreFeature="ecore:EReference simplePalladio.ecore#//AssemblyViewPoint/AssemblyConnector/requiredRole"/>
       </genClasses>
       <genClasses ecoreClass="simplePalladio.ecore#//AssemblyViewPoint/AbstractConnector"/>
-      <genClasses ecoreClass="simplePalladio.ecore#//AssemblyViewPoint/AbstractSystemElement"/>
+      <genClasses ecoreClass="simplePalladio.ecore#//AssemblyViewPoint/AbstractSystemElement">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference simplePalladio.ecore#//AssemblyViewPoint/AbstractSystemElement/system"/>
+      </genClasses>
     </nestedGenPackages>
     <nestedGenPackages prefix="DeploymentViewPoint" disposableProviderFactory="true"
         ecorePackage="simplePalladio.ecore#//DeploymentViewPoint">
