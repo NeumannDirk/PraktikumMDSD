@@ -5,7 +5,7 @@
     <semanticResources>simplePalladio.genmodel</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" uid="_OjRmkKgeEeuge5wAEukJ2w">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_Olz9MKgeEeuge5wAEukJ2w" name="simplePalladio" repPath="#_OlB6EKgeEeuge5wAEukJ2w" changeId="93ae81d4-d820-44df-9aed-cc7317a87fab">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_Olz9MKgeEeuge5wAEukJ2w" name="simplePalladio" repPath="#_OlB6EKgeEeuge5wAEukJ2w" changeId="b562d42b-e096-48b4-8bbc-03613a931c69">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']"/>
         <target xmi:type="ecore:EPackage" href="simplePalladio.ecore#/"/>
       </ownedRepresentationDescriptors>
@@ -301,7 +301,7 @@
                 <styles xmi:type="notation:FilteringStyle" xmi:id="_xDIMMqmuEeuL5_kV3pMXnQ"/>
               </children>
               <styles xmi:type="notation:ShapeStyle" xmi:id="_xDFv8amuEeuL5_kV3pMXnQ" fontName="Ubuntu" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xDFv8qmuEeuL5_kV3pMXnQ" x="408" y="385" width="120" height="100"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xDFv8qmuEeuL5_kV3pMXnQ" x="457" y="393" width="120" height="100"/>
             </children>
             <styles xmi:type="notation:SortingStyle" xmi:id="_z008FagfEeuge5wAEukJ2w"/>
             <styles xmi:type="notation:FilteringStyle" xmi:id="_z008FqgfEeuge5wAEukJ2w"/>
@@ -957,17 +957,17 @@
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_7KM9IKwPEeu-PMzNTk6gzA" type="4001" element="_7KGPdqwPEeu-PMzNTk6gzA" source="_36z6AKgfEeuge5wAEukJ2w" target="_xDFv8KmuEeuL5_kV3pMXnQ">
           <children xmi:type="notation:Node" xmi:id="_7KM9JKwPEeu-PMzNTk6gzA" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7KM9JawPEeu-PMzNTk6gzA" y="-10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7KM9JawPEeu-PMzNTk6gzA" x="-4" y="-10"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_7KM9JqwPEeu-PMzNTk6gzA" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7KM9J6wPEeu-PMzNTk6gzA" y="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7KM9J6wPEeu-PMzNTk6gzA" x="-1" y="10"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_7KNkMKwPEeu-PMzNTk6gzA" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7KNkMawPEeu-PMzNTk6gzA" y="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7KNkMawPEeu-PMzNTk6gzA" x="-7" y="10"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_7KM9IawPEeu-PMzNTk6gzA" routing="Rectilinear"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_7KM9IqwPEeu-PMzNTk6gzA" fontName=".AppleSystemUIFont" fontHeight="8" bold="true"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7KM9I6wPEeu-PMzNTk6gzA" points="[37, 0, -67, -139]$[51, 0, -53, -139]$[51, 139, -53, 0]$[66, 139, -38, 0]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7KM9I6wPEeu-PMzNTk6gzA" points="[100, 49, -53, -98]$[100, 98, -53, -49]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7KPZYKwPEeu-PMzNTk6gzA" id="(0.5,0.5)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7KPZYawPEeu-PMzNTk6gzA" id="(0.5,0.5)"/>
         </edges>

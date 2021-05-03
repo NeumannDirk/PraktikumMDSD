@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ecore:EPackage [
+<!ENTITY _0 "http://www.eclipse.org/emf/2002/Ecore">
+]>
 <ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="simplePalladio" nsURI="http://www.example.org/simplePalladio"
     nsPrefix="simplePalladio">
@@ -147,6 +150,12 @@
           eOpposite="#//DeploymentViewPoint/AllocationContext/assembly"/>
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="Role" eSuperTypes="#//AssemblyViewPoint/AbstractSystemElement">
+      <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore">
+        <details key="constraints" value="MustHaveOnlyOneParent"/>
+      </eAnnotations>
+      <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot">
+        <details key="MustHaveOnlyOneParent" value="parentRequirereeAssemblyContext.oclIsUndefined() &lt;> parentProviderAssemblyContext.oclIsUndefined()"/>
+      </eAnnotations>
       <eStructuralFeatures xsi:type="ecore:EReference" name="parentProviderAssemblyContext"
           eType="#//AssemblyViewPoint/AssemblyContext" eOpposite="#//AssemblyViewPoint/AssemblyContext/providedRoles"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="interface" lowerBound="1"
@@ -233,8 +242,7 @@
       nsPrefix="Common">
     <eClassifiers xsi:type="ecore:EClass" name="NamedElement" abstract="true">
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1"
-          eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
-          iD="true"/>
+          eType="ecore:EDataType &_0;#//EString" iD="true"/>
     </eClassifiers>
   </eSubpackages>
 </ecore:EPackage>
