@@ -1,7 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE ecore:EPackage [
-<!ENTITY _0 "http://www.eclipse.org/emf/2002/Ecore">
-]>
 <ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="simplePalladio" nsURI="http://www.example.org/simplePalladio"
     nsPrefix="simplePalladio">
@@ -18,10 +15,14 @@
           containment="true"/>
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="Interface" eSuperTypes="#//SystemIndependentViewType/AbstractRepositoryElement">
-      <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1"
-          eType="ecore:EDataType &_0;#//EString"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="signatures" lowerBound="1"
           upperBound="-1" eType="#//SystemIndependentViewType/Signature"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="parentProviderCommunicator"
+          lowerBound="1" eType="#//SystemIndependentViewType/InterfaceCommunicator"
+          eOpposite="#//SystemIndependentViewType/InterfaceCommunicator/providedInterfaces"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="parentRequirereeCommunicator"
+          lowerBound="1" eType="#//SystemIndependentViewType/InterfaceCommunicator"
+          eOpposite="#//SystemIndependentViewType/InterfaceCommunicator/requiredInterfaces"/>
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="CompositeComponent" eSuperTypes="#//SystemIndependentViewType/AbstractComponent">
       <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore">
@@ -31,29 +32,18 @@
         <details key="ProvidedInterfacesMustMatchWithSystemProvidedInterfaces" value="(system.providedInterfaces->includesAll(self.providedInterfaces)) and (providedInterfaces->includesAll(self.system.providedInterfaces))"/>
         <details key="RequiredInterfacesMustMatchWithSystemRequiredInterfaces" value="(system.requiredInterfaces->includesAll(self.requiredInterfaces)) and (requiredInterfaces->includesAll(self.system.requiredInterfaces))"/>
       </eAnnotations>
-      <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1"
-          eType="ecore:EDataType &_0;#//EString"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="system" lowerBound="1"
           eType="#//AssemblyViewPoint/System"/>
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="Signature" eSuperTypes="#//SystemIndependentViewType/AbstractRepositoryElement">
-      <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1"
-          eType="ecore:EDataType &_0;#//EString"/>
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="returnValue" lowerBound="1"
           eType="#//SystemIndependentViewType/Type"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="parameters" upperBound="-1"
           eType="#//SystemIndependentViewType/Parameter" containment="true"/>
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="AbstractComponent" abstract="true"
-        eSuperTypes="#//SystemIndependentViewType/AbstractRepositoryElement">
-      <eStructuralFeatures xsi:type="ecore:EReference" name="providedInterfaces" lowerBound="1"
-          upperBound="-1" eType="#//SystemIndependentViewType/Interface"/>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="requiredInterfaces" upperBound="-1"
-          eType="#//SystemIndependentViewType/Interface"/>
-    </eClassifiers>
+        eSuperTypes="#//SystemIndependentViewType/AbstractRepositoryElement #//SystemIndependentViewType/InterfaceCommunicator"/>
     <eClassifiers xsi:type="ecore:EClass" name="Component" eSuperTypes="#//SystemIndependentViewType/AbstractComponent">
-      <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1"
-          eType="ecore:EDataType &_0;#//EString"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="services" lowerBound="1"
           upperBound="-1" eType="#//SystemIndependentViewType/Service" containment="true"
           eOpposite="#//SystemIndependentViewType/Service/component"/>
@@ -71,19 +61,18 @@
       <eLiterals name="MAP"/>
       <eLiterals name="STRING"/>
     </eClassifiers>
-    <eClassifiers xsi:type="ecore:EClass" name="Parameter">
+    <eClassifiers xsi:type="ecore:EClass" name="Parameter" eSuperTypes="#//Common/NamedElement">
       <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore">
         <details key="constraints" value="TypeMustNotBeVoid"/>
       </eAnnotations>
       <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot">
         <details key="TypeMustNotBeVoid" value="type &lt;> Type::VOID"/>
       </eAnnotations>
-      <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1"
-          eType="ecore:EDataType &_0;#//EString"/>
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="type" lowerBound="1"
           eType="#//SystemIndependentViewType/Type" defaultValueLiteral="BOOLEAN"/>
     </eClassifiers>
-    <eClassifiers xsi:type="ecore:EClass" name="AbstractRepositoryElement" abstract="true"/>
+    <eClassifiers xsi:type="ecore:EClass" name="AbstractRepositoryElement" abstract="true"
+        eSuperTypes="#//Common/NamedElement"/>
     <eClassifiers xsi:type="ecore:EClass" name="Service">
       <eStructuralFeatures xsi:type="ecore:EReference" name="signature" lowerBound="1"
           eType="#//SystemIndependentViewType/Signature"/>
@@ -124,6 +113,12 @@
           lowerBound="1" eType="#//SystemIndependentViewType/BehaviourDescription"
           eOpposite="#//SystemIndependentViewType/BehaviourDescription/behaviorElements"/>
     </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="InterfaceCommunicator" abstract="true">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="requiredInterfaces" upperBound="-1"
+          eType="#//SystemIndependentViewType/Interface" eOpposite="#//SystemIndependentViewType/Interface/parentRequirereeCommunicator"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="providedInterfaces" lowerBound="1"
+          upperBound="-1" eType="#//SystemIndependentViewType/Interface" eOpposite="#//SystemIndependentViewType/Interface/parentProviderCommunicator"/>
+    </eClassifiers>
   </eSubpackages>
   <eSubpackages name="AssemblyViewPoint" nsURI="http://www.example.org/simplePalladio/AssemblyViewPoint"
       nsPrefix="AssemblyViewPoint">
@@ -136,34 +131,32 @@
       <eStructuralFeatures xsi:type="ecore:EReference" name="systems" lowerBound="1"
           upperBound="-1" eType="#//AssemblyViewPoint/System" containment="true"/>
     </eClassifiers>
-    <eClassifiers xsi:type="ecore:EClass" name="System">
-      <eStructuralFeatures xsi:type="ecore:EReference" name="providedInterfaces" lowerBound="1"
-          upperBound="-1" eType="#//SystemIndependentViewType/Interface"/>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="requiredInterfaces" upperBound="-1"
-          eType="#//SystemIndependentViewType/Interface"/>
+    <eClassifiers xsi:type="ecore:EClass" name="System" eSuperTypes="#//SystemIndependentViewType/InterfaceCommunicator">
       <eStructuralFeatures xsi:type="ecore:EReference" name="systemElements" lowerBound="1"
           upperBound="-1" eType="#//AssemblyViewPoint/AbstractSystemElement" containment="true"
           eOpposite="#//AssemblyViewPoint/AbstractSystemElement/system"/>
     </eClassifiers>
-    <eClassifiers xsi:type="ecore:EClass" name="AssemblyContext" eSuperTypes="#//AssemblyViewPoint/AbstractSystemElement">
+    <eClassifiers xsi:type="ecore:EClass" name="AssemblyContext" eSuperTypes="#//AssemblyViewPoint/AbstractSystemElement #//Common/NamedElement">
       <eStructuralFeatures xsi:type="ecore:EReference" name="component" lowerBound="1"
           eType="#//SystemIndependentViewType/AbstractComponent"/>
-      <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1"
-          eType="ecore:EDataType &_0;#//EString"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="providedRoles" lowerBound="1"
-          upperBound="-1" eType="#//AssemblyViewPoint/Role"/>
+          upperBound="-1" eType="#//AssemblyViewPoint/Role" eOpposite="#//AssemblyViewPoint/Role/parentProviderAssemblyContext"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="requiredRoles" upperBound="-1"
-          eType="#//AssemblyViewPoint/Role"/>
+          eType="#//AssemblyViewPoint/Role" eOpposite="#//AssemblyViewPoint/Role/parentRequirereeAssemblyContext"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="allocationContext" eType="#//DeploymentViewPoint/AllocationContext"
           eOpposite="#//DeploymentViewPoint/AllocationContext/assembly"/>
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="Role" eSuperTypes="#//AssemblyViewPoint/AbstractSystemElement">
-      <eStructuralFeatures xsi:type="ecore:EReference" name="parentAssemblyContext"
-          lowerBound="1" eType="#//AssemblyViewPoint/AssemblyContext"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="parentProviderAssemblyContext"
+          eType="#//AssemblyViewPoint/AssemblyContext" eOpposite="#//AssemblyViewPoint/AssemblyContext/providedRoles"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="interface" lowerBound="1"
           eType="#//SystemIndependentViewType/Interface"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="fromAssemblyConnectors"
           upperBound="-1" eType="#//AssemblyViewPoint/AssemblyConnector" eOpposite="#//AssemblyViewPoint/AssemblyConnector/requiredRole"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="parentRequirereeAssemblyContext"
+          eType="#//AssemblyViewPoint/AssemblyContext" eOpposite="#//AssemblyViewPoint/AssemblyContext/requiredRoles"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="toAssemblyConnector"
+          upperBound="-1" eType="#//AssemblyViewPoint/AssemblyConnector" eOpposite="#//AssemblyViewPoint/AssemblyConnector/providedRole"/>
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="DelegationConnector" eSuperTypes="#//AssemblyViewPoint/AbstractConnector">
       <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore">
@@ -171,7 +164,7 @@
       </eAnnotations>
       <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot">
         <details key="InterfaceMustMatch" value="role.interface = interface"/>
-        <details key="ConnectedMustBeOfSameKind" value="let system : System = self.system in (system.providedInterfaces->includes(interface) and role.parentAssemblyContext.providedRoles->includes(role)) or (system.requiredInterfaces->includes(interface) and role.parentAssemblyContext.requiredRoles->includes(role))"/>
+        <details key="ConnectedMustBeOfSameKind" value="let system : System = self.system in (system.providedInterfaces->includes(interface) and role.parentProviderAssemblyContext.providedRoles->includes(role)) or (system.requiredInterfaces->includes(interface) and role.parentRequirereeAssemblyContext.requiredRoles->includes(role))"/>
       </eAnnotations>
       <eStructuralFeatures xsi:type="ecore:EReference" name="role" lowerBound="1"
           eType="#//AssemblyViewPoint/Role"/>
@@ -183,10 +176,10 @@
         <details key="constraints" value="AssemblyContextsMustNotMatch"/>
       </eAnnotations>
       <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot">
-        <details key="AssemblyContextsMustNotMatch" value="providedRole.parentAssemblyContext &lt;> requiredRole.parentAssemblyContext"/>
+        <details key="AssemblyContextsMustNotMatch" value="providedRole.parentProviderAssemblyContext &lt;> requiredRole.parentRequirereeAssemblyContext"/>
       </eAnnotations>
       <eStructuralFeatures xsi:type="ecore:EReference" name="providedRole" lowerBound="1"
-          eType="#//AssemblyViewPoint/Role"/>
+          eType="#//AssemblyViewPoint/Role" eOpposite="#//AssemblyViewPoint/Role/toAssemblyConnector"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="requiredRole" lowerBound="1"
           eType="#//AssemblyViewPoint/Role" eOpposite="#//AssemblyViewPoint/Role/fromAssemblyConnectors"/>
     </eClassifiers>
@@ -214,14 +207,10 @@
           upperBound="-1" eType="#//DeploymentViewPoint/AllocationContext" containment="true"/>
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="Container" eSuperTypes="#//DeploymentViewPoint/AbstractEnvironmentElement">
-      <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1"
-          eType="ecore:EDataType &_0;#//EString"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="links" upperBound="-1"
           eType="#//DeploymentViewPoint/Link" eOpposite="#//DeploymentViewPoint/Link/containers"/>
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="Link" eSuperTypes="#//DeploymentViewPoint/AbstractEnvironmentElement">
-      <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1"
-          eType="ecore:EDataType &_0;#//EString"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="containers" lowerBound="2"
           upperBound="-1" eType="#//DeploymentViewPoint/Container" eOpposite="#//DeploymentViewPoint/Container/links"/>
     </eClassifiers>
@@ -230,13 +219,22 @@
         <details key="constraints" value="ConnectedAssemblyContextsMustBeOnConnectedContainers"/>
       </eAnnotations>
       <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot">
-        <details key="ConnectedAssemblyContextsMustBeOnConnectedContainers" value="assembly.requiredRoles->forAll(r :simplePalladio::AssemblyViewPoint::Role | r.fromAssemblyConnectors->forAll(ac : simplePalladio::AssemblyViewPoint::AssemblyConnector | ac.providedRole.parentAssemblyContext.allocationContext.container = self.container or ac.providedRole.parentAssemblyContext.allocationContext.container.links->includes(self.container)))"/>
+        <details key="ConnectedAssemblyContextsMustBeOnConnectedContainers" value="assembly.requiredRoles->forAll(r :simplePalladio::AssemblyViewPoint::Role | r.fromAssemblyConnectors->forAll(ac : simplePalladio::AssemblyViewPoint::AssemblyConnector | let c1:Container =  ac.providedRole.parentProviderAssemblyContext.allocationContext.container in c1 = self.container or c1.links->includes(self.container)))"/>
       </eAnnotations>
       <eStructuralFeatures xsi:type="ecore:EReference" name="container" lowerBound="1"
           eType="#//DeploymentViewPoint/Container"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="assembly" lowerBound="1"
           eType="#//AssemblyViewPoint/AssemblyContext" eOpposite="#//AssemblyViewPoint/AssemblyContext/allocationContext"/>
     </eClassifiers>
-    <eClassifiers xsi:type="ecore:EClass" name="AbstractEnvironmentElement" abstract="true"/>
+    <eClassifiers xsi:type="ecore:EClass" name="AbstractEnvironmentElement" abstract="true"
+        eSuperTypes="#//Common/NamedElement"/>
+  </eSubpackages>
+  <eSubpackages name="Common" nsURI="http://www.example.org/simplePalladio/Common"
+      nsPrefix="Common">
+    <eClassifiers xsi:type="ecore:EClass" name="NamedElement" abstract="true">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1"
+          eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+          iD="true"/>
+    </eClassifiers>
   </eSubpackages>
 </ecore:EPackage>
