@@ -81,7 +81,7 @@
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1"
           eType="ecore:EDataType &_0;#//EString"/>
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="type" lowerBound="1"
-          eType="#//SystemIndependentViewType/Type" defaultValueLiteral="VOID"/>
+          eType="#//SystemIndependentViewType/Type" defaultValueLiteral="BOOLEAN"/>
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="AbstractRepositoryElement" abstract="true"/>
     <eClassifiers xsi:type="ecore:EClass" name="Service">
@@ -230,7 +230,7 @@
         <details key="constraints" value="ConnectedAssemblyContextsMustBeOnConnectedContainers"/>
       </eAnnotations>
       <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot">
-        <details key="ConnectedAssemblyContextsMustBeOnConnectedContainers" value="assembly.requiredRoles->isEmpty()"/>
+        <details key="ConnectedAssemblyContextsMustBeOnConnectedContainers" value="assembly.requiredRoles->forAll(r :simplePalladio::AssemblyViewPoint::Role | r.fromAssemblyConnectors->forAll(ac : simplePalladio::AssemblyViewPoint::AssemblyConnector | ac.providedRole.parentAssemblyContext.allocationContext.container = self.container or ac.providedRole.parentAssemblyContext.allocationContext.container.links->includes(self.container)))"/>
       </eAnnotations>
       <eStructuralFeatures xsi:type="ecore:EReference" name="container" lowerBound="1"
           eType="#//DeploymentViewPoint/Container"/>
