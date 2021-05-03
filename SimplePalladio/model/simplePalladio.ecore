@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ecore:EPackage [
+<!ENTITY _0 "http://www.eclipse.org/emf/2002/Ecore">
+]>
 <ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="simplePalladio" nsURI="http://www.example.org/simplePalladio"
     nsPrefix="simplePalladio">
-  <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore">
-    <details key="settingDelegates" value="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot"/>
-    <details key="invocationDelegates" value="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot"/>
-    <details key="validationDelegates" value="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot"/>
-  </eAnnotations>
   <eSubpackages name="SystemIndependentViewType" nsURI="http://www.example.org/simplePalladio/SystemIndependentViewType"
       nsPrefix="SystemIndependentViewType">
+    <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore">
+      <details key="invocationDelegates" value="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot"/>
+      <details key="settingDelegates" value="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot"/>
+      <details key="validationDelegates" value="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot"/>
+    </eAnnotations>
     <eClassifiers xsi:type="ecore:EClass" name="RepositoryViewType">
       <eStructuralFeatures xsi:type="ecore:EReference" name="repositoryElements" lowerBound="1"
           upperBound="-1" eType="#//SystemIndependentViewType/AbstractRepositoryElement"
@@ -16,7 +19,7 @@
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="Interface" eSuperTypes="#//SystemIndependentViewType/AbstractRepositoryElement">
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1"
-          eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+          eType="ecore:EDataType &_0;#//EString"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="signatures" lowerBound="1"
           upperBound="-1" eType="#//SystemIndependentViewType/Signature"/>
     </eClassifiers>
@@ -24,18 +27,18 @@
       <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore">
         <details key="constraints" value="ProvidedInterfacesMustMatchWithSystemProvidedInterfaces RequiredInterfacesMustMatchWithSystemRequiredInterfaces"/>
       </eAnnotations>
-      <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore/OCL">
-        <details key="ProvidedInterfacesMustMatchWithSystemProvidedInterfaces" value="(system.providedInterfaces->includesAll(self.providedInterfaces)) And (providedInterfaces->includesAll(self.system.providedInterfaces))"/>
-        <details key="RequiredInterfacesMustMatchWithSystemRequiredInterfaces" value="(system.requiredInterfaces->includesAll(self.requiredInterfaces)) And (requiredInterfaces->includesAll(self.system.requiredInterfaces))"/>
+      <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot">
+        <details key="ProvidedInterfacesMustMatchWithSystemProvidedInterfaces" value="(system.providedInterfaces->includesAll(self.providedInterfaces)) and (providedInterfaces->includesAll(self.system.providedInterfaces))"/>
+        <details key="RequiredInterfacesMustMatchWithSystemRequiredInterfaces" value="(system.requiredInterfaces->includesAll(self.requiredInterfaces)) and (requiredInterfaces->includesAll(self.system.requiredInterfaces))"/>
       </eAnnotations>
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1"
-          eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+          eType="ecore:EDataType &_0;#//EString"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="system" lowerBound="1"
           eType="#//AssemblyViewPoint/System"/>
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="Signature" eSuperTypes="#//SystemIndependentViewType/AbstractRepositoryElement">
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1"
-          eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+          eType="ecore:EDataType &_0;#//EString"/>
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="returnValue" lowerBound="1"
           eType="#//SystemIndependentViewType/Type"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="parameters" upperBound="-1"
@@ -50,7 +53,7 @@
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="Component" eSuperTypes="#//SystemIndependentViewType/AbstractComponent">
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1"
-          eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+          eType="ecore:EDataType &_0;#//EString"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="services" lowerBound="1"
           upperBound="-1" eType="#//SystemIndependentViewType/Service" containment="true"/>
     </eClassifiers>
@@ -71,11 +74,11 @@
       <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore">
         <details key="constraints" value="TypeMustNotBeVoid"/>
       </eAnnotations>
-      <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore/OCL">
+      <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot">
         <details key="TypeMustNotBeVoid" value="type &lt;> Type::VOID"/>
       </eAnnotations>
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1"
-          eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+          eType="ecore:EDataType &_0;#//EString"/>
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="type" lowerBound="1"
           eType="#//SystemIndependentViewType/Type" defaultValueLiteral="VOID"/>
     </eClassifiers>
@@ -93,12 +96,6 @@
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="InternalAction" eSuperTypes="#//SystemIndependentViewType/BehaviorElement"/>
     <eClassifiers xsi:type="ecore:EClass" name="ExternalCall" eSuperTypes="#//SystemIndependentViewType/BehaviorElement">
-      <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore">
-        <details key="constraints" value="MustCallRequiredInterfaces"/>
-      </eAnnotations>
-      <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore/OCL">
-        <details key="MustCallRequiredInterfaces" value="self.eParent.eParent.eParent.oclAsType(Component).requiredInterfaces->exists(it : Interface | it.signatures->includes(signature))"/>
-      </eAnnotations>
       <eStructuralFeatures xsi:type="ecore:EReference" name="signature" lowerBound="1"
           eType="#//SystemIndependentViewType/Signature"/>
     </eClassifiers>
@@ -114,6 +111,11 @@
   </eSubpackages>
   <eSubpackages name="AssemblyViewPoint" nsURI="http://www.example.org/simplePalladio/AssemblyViewPoint"
       nsPrefix="AssemblyViewPoint">
+    <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore">
+      <details key="invocationDelegates" value="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot"/>
+      <details key="settingDelegates" value="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot"/>
+      <details key="validationDelegates" value="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot"/>
+    </eAnnotations>
     <eClassifiers xsi:type="ecore:EClass" name="AssemblyViewType">
       <eStructuralFeatures xsi:type="ecore:EReference" name="systems" lowerBound="1"
           upperBound="-1" eType="#//AssemblyViewPoint/System" containment="true"/>
@@ -130,7 +132,7 @@
       <eStructuralFeatures xsi:type="ecore:EReference" name="component" lowerBound="1"
           eType="#//SystemIndependentViewType/AbstractComponent"/>
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1"
-          eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+          eType="ecore:EDataType &_0;#//EString"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="providedRoles" lowerBound="1"
           upperBound="-1" eType="#//AssemblyViewPoint/Role"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="requiredRoles" upperBound="-1"
@@ -148,10 +150,9 @@
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="DelegationConnector" eSuperTypes="#//AssemblyViewPoint/AbstractConnector">
       <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore">
-        <details key="constraints" value="ConnectedMustBeOfSameKind InterfaceMustMatch"/>
+        <details key="constraints" value="InterfaceMustMatch"/>
       </eAnnotations>
-      <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore/OCL">
-        <details key="ConnectedMustBeOfSameKind" value="let system : System = self.eParent in (system.providedInterfaces->includes(interface) implies role.parentAssemblyContext.providedRoles->includes(role)) Or (system.requiredInterfaces->includes(interface) implies role.parentAssemblyContext.requiredRoles->includes(role))"/>
+      <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot">
         <details key="InterfaceMustMatch" value="role.interface = interface"/>
       </eAnnotations>
       <eStructuralFeatures xsi:type="ecore:EReference" name="role" lowerBound="1"
@@ -163,8 +164,8 @@
       <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore">
         <details key="constraints" value="AssemblyContextsMustNotMatch"/>
       </eAnnotations>
-      <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore/OCL">
-        <details key="AssemblyContextsMustNotMatch" value="providedRole.parentAssemblyContext &lt;> requiredRole.ParentAssemblyContext"/>
+      <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot">
+        <details key="AssemblyContextsMustNotMatch" value="providedRole.parentAssemblyContext &lt;> requiredRole.parentAssemblyContext"/>
       </eAnnotations>
       <eStructuralFeatures xsi:type="ecore:EReference" name="providedRole" lowerBound="1"
           eType="#//AssemblyViewPoint/Role"/>
@@ -177,6 +178,11 @@
   </eSubpackages>
   <eSubpackages name="DeploymentViewPoint" nsURI="http://www.example.org/simplePalladio/DeploymentViewPoint"
       nsPrefix="DeploymentViewPoint">
+    <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore">
+      <details key="invocationDelegates" value="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot"/>
+      <details key="settingDelegates" value="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot"/>
+      <details key="validationDelegates" value="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot"/>
+    </eAnnotations>
     <eClassifiers xsi:type="ecore:EClass" name="EnvironmentViewType">
       <eStructuralFeatures xsi:type="ecore:EReference" name="environmentElements"
           lowerBound="1" upperBound="-1" eType="#//DeploymentViewPoint/AbstractEnvironmentElement"
@@ -188,13 +194,13 @@
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="Container" eSuperTypes="#//DeploymentViewPoint/AbstractEnvironmentElement">
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1"
-          eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+          eType="ecore:EDataType &_0;#//EString"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="links" upperBound="-1"
           eType="#//DeploymentViewPoint/Link" eOpposite="#//DeploymentViewPoint/Link/containers"/>
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="Link" eSuperTypes="#//DeploymentViewPoint/AbstractEnvironmentElement">
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1"
-          eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+          eType="ecore:EDataType &_0;#//EString"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="containers" lowerBound="2"
           upperBound="-1" eType="#//DeploymentViewPoint/Container" eOpposite="#//DeploymentViewPoint/Container/links"/>
     </eClassifiers>
@@ -202,8 +208,8 @@
       <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore">
         <details key="constraints" value="ConnectedAssemblyContextsMustBeOnConnectedContainers"/>
       </eAnnotations>
-      <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore/OCL">
-        <details key="ConnectedAssemblyContextsMustBeOnConnectedContainers" value="assembly.requiredRoles->emtpy()"/>
+      <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot">
+        <details key="ConnectedAssemblyContextsMustBeOnConnectedContainers" value="assembly.requiredRoles->isEmpty()"/>
       </eAnnotations>
       <eStructuralFeatures xsi:type="ecore:EReference" name="container" lowerBound="1"
           eType="#//DeploymentViewPoint/Container"/>
