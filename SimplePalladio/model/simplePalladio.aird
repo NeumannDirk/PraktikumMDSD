@@ -5,7 +5,7 @@
     <semanticResources>simplePalladio.genmodel</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" uid="_OjRmkKgeEeuge5wAEukJ2w">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_Olz9MKgeEeuge5wAEukJ2w" name="simplePalladio" repPath="#_OlB6EKgeEeuge5wAEukJ2w" changeId="1ac836cb-1bab-4c98-b63e-c90d923cf07c">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_Olz9MKgeEeuge5wAEukJ2w" name="simplePalladio" repPath="#_OlB6EKgeEeuge5wAEukJ2w" changeId="60e136b3-6e21-4069-8757-d47dc816b554">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']"/>
         <target xmi:type="ecore:EPackage" href="simplePalladio.ecore#/"/>
       </ownedRepresentationDescriptors>
@@ -1685,7 +1685,7 @@
         </ownedStyle>
         <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
       </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_60akZ6gfEeuge5wAEukJ2w" name="AllocationContext" tooltipText="&#xA;ERROR : The «invariant» 'simplePalladio::DeploymentViewPoint::AllocationContext::ConnectedAssemblyContextsMustBeOnConnectedContainers' is invalid: 'assembly.requiredRoles->forAll(role : Role | role.fromAssemblyConnectors->forAll(ac : AssemblyConnector | ac.providedRoles.parenAssemblyContext.allocationContext.container = self.container or ac.providedRoles.parentAssemblyContext.allocationContext.container.links->includes(self.container)))'&#xA;1:39: Unresolved Type '::Role'&#xA;1:87: Unresolved Type '::AssemblyConnector'&#xA;1:51: Unresolved Property 'OclInvalid::fromAssemblyConnectors'&#xA;1:110: Unresolved Property 'OclInvalid::providedRoles'&#xA;1:196: Unresolved Property 'OclInvalid::providedRoles'&#xA;ERROR : 1:39: Unresolved Type '::Role'&#xA;ERROR : 1:87: Unresolved Type '::AssemblyConnector'&#xA;ERROR : 1:51: Unresolved Property 'OclInvalid::fromAssemblyConnectors'&#xA;ERROR : 1:110: Unresolved Property 'OclInvalid::providedRoles'&#xA;ERROR : 1:196: Unresolved Property 'OclInvalid::providedRoles'" outgoingEdges="_8bxflqgmEeuBcYhhfoEfEg" incomingEdges="_5xylnKgmEeuBcYhhfoEfEg _t5zicKm8EeuSAf18-PfKlA" width="12" height="10">
+      <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_60akZ6gfEeuge5wAEukJ2w" name="AllocationContext" tooltipText="" outgoingEdges="_8bxflqgmEeuBcYhhfoEfEg" incomingEdges="_5xylnKgmEeuBcYhhfoEfEg _t5zicKm8EeuSAf18-PfKlA" width="12" height="10">
         <target xmi:type="ecore:EClass" href="simplePalladio.ecore#//DeploymentViewPoint/AllocationContext"/>
         <semanticElements xmi:type="ecore:EClass" href="simplePalladio.ecore#//DeploymentViewPoint/AllocationContext"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
