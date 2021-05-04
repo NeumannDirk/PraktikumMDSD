@@ -28,7 +28,8 @@
         <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference simplePalladio.ecore#//SystemIndependentViewPoint/RepositoryViewType/repositoryElements"/>
       </genClasses>
       <genClasses ecoreClass="simplePalladio.ecore#//SystemIndependentViewPoint/Interface">
-        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference simplePalladio.ecore#//SystemIndependentViewPoint/Interface/signatures"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference simplePalladio.ecore#//SystemIndependentViewPoint/Interface/signatures"/>
         <genFeatures notify="false" createChild="false" propertySortChoices="true"
             ecoreFeature="ecore:EReference simplePalladio.ecore#//SystemIndependentViewPoint/Interface/parentProviderCommunicator"/>
         <genFeatures notify="false" createChild="false" propertySortChoices="true"

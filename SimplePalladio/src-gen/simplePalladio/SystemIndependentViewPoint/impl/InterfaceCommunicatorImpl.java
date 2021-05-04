@@ -81,7 +81,7 @@ public abstract class InterfaceCommunicatorImpl extends MinimalEObjectImpl.Conta
 	 */
 	public EList<Interface> getRequiredInterfaces() {
 		if (requiredInterfaces == null) {
-			requiredInterfaces = new EObjectWithInverseResolvingEList<Interface>(Interface.class, this,
+			requiredInterfaces = new EObjectWithInverseResolvingEList.ManyInverse<Interface>(Interface.class, this,
 					SystemIndependentViewPointPackage.INTERFACE_COMMUNICATOR__REQUIRED_INTERFACES,
 					SystemIndependentViewPointPackage.INTERFACE__PARENT_REQUIREREE_COMMUNICATOR);
 		}
@@ -95,7 +95,7 @@ public abstract class InterfaceCommunicatorImpl extends MinimalEObjectImpl.Conta
 	 */
 	public EList<Interface> getProvidedInterfaces() {
 		if (providedInterfaces == null) {
-			providedInterfaces = new EObjectWithInverseResolvingEList<Interface>(Interface.class, this,
+			providedInterfaces = new EObjectWithInverseResolvingEList.ManyInverse<Interface>(Interface.class, this,
 					SystemIndependentViewPointPackage.INTERFACE_COMMUNICATOR__PROVIDED_INTERFACES,
 					SystemIndependentViewPointPackage.INTERFACE__PARENT_PROVIDER_COMMUNICATOR);
 		}

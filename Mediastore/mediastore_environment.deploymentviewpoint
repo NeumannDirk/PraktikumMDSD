@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DeploymentViewPoint:EnvironmentViewType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:DeploymentViewPoint="http://www.example.org/simplePalladio/DeploymentViewPoint">
+  <environmentElements xsi:type="DeploymentViewPoint:Container" name="ApplicationServer" links="Network"/>
+  <environmentElements xsi:type="DeploymentViewPoint:Container" name="DatabaseServer" links="Network"/>
+  <environmentElements xsi:type="DeploymentViewPoint:Link" name="Network" containers="ApplicationServer DatabaseServer"/>
+</DeploymentViewPoint:EnvironmentViewType>

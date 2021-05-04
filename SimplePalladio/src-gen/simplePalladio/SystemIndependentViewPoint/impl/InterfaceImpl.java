@@ -4,7 +4,6 @@ package simplePalladio.SystemIndependentViewPoint.impl;
 
 import java.util.Collection;
 
-import org.eclipse.emf.common.notify.Notification;
 import org.eclipse.emf.common.notify.NotificationChain;
 
 import org.eclipse.emf.common.util.EList;
@@ -12,9 +11,9 @@ import org.eclipse.emf.common.util.EList;
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.InternalEObject;
 
-import org.eclipse.emf.ecore.impl.ENotificationImpl;
-
 import org.eclipse.emf.ecore.util.EObjectResolvingEList;
+import org.eclipse.emf.ecore.util.EObjectWithInverseResolvingEList;
+import org.eclipse.emf.ecore.util.InternalEList;
 
 import simplePalladio.SystemIndependentViewPoint.Interface;
 import simplePalladio.SystemIndependentViewPoint.InterfaceCommunicator;
@@ -48,24 +47,24 @@ public class InterfaceImpl extends AbstractRepositoryElementImpl implements Inte
 	protected EList<Signature> signatures;
 
 	/**
-	 * The cached value of the '{@link #getParentProviderCommunicator() <em>Parent Provider Communicator</em>}' reference.
+	 * The cached value of the '{@link #getParentProviderCommunicator() <em>Parent Provider Communicator</em>}' reference list.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @see #getParentProviderCommunicator()
 	 * @generated
 	 * @ordered
 	 */
-	protected InterfaceCommunicator parentProviderCommunicator;
+	protected EList<InterfaceCommunicator> parentProviderCommunicator;
 
 	/**
-	 * The cached value of the '{@link #getParentRequirereeCommunicator() <em>Parent Requireree Communicator</em>}' reference.
+	 * The cached value of the '{@link #getParentRequirereeCommunicator() <em>Parent Requireree Communicator</em>}' reference list.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @see #getParentRequirereeCommunicator()
 	 * @generated
 	 * @ordered
 	 */
-	protected InterfaceCommunicator parentRequirereeCommunicator;
+	protected EList<InterfaceCommunicator> parentRequirereeCommunicator;
 
 	/**
 	 * <!-- begin-user-doc -->
@@ -104,16 +103,12 @@ public class InterfaceImpl extends AbstractRepositoryElementImpl implements Inte
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public InterfaceCommunicator getParentProviderCommunicator() {
-		if (parentProviderCommunicator != null && parentProviderCommunicator.eIsProxy()) {
-			InternalEObject oldParentProviderCommunicator = (InternalEObject) parentProviderCommunicator;
-			parentProviderCommunicator = (InterfaceCommunicator) eResolveProxy(oldParentProviderCommunicator);
-			if (parentProviderCommunicator != oldParentProviderCommunicator) {
-				if (eNotificationRequired())
-					eNotify(new ENotificationImpl(this, Notification.RESOLVE,
-							SystemIndependentViewPointPackage.INTERFACE__PARENT_PROVIDER_COMMUNICATOR,
-							oldParentProviderCommunicator, parentProviderCommunicator));
-			}
+	public EList<InterfaceCommunicator> getParentProviderCommunicator() {
+		if (parentProviderCommunicator == null) {
+			parentProviderCommunicator = new EObjectWithInverseResolvingEList.ManyInverse<InterfaceCommunicator>(
+					InterfaceCommunicator.class, this,
+					SystemIndependentViewPointPackage.INTERFACE__PARENT_PROVIDER_COMMUNICATOR,
+					SystemIndependentViewPointPackage.INTERFACE_COMMUNICATOR__PROVIDED_INTERFACES);
 		}
 		return parentProviderCommunicator;
 	}
@@ -123,71 +118,12 @@ public class InterfaceImpl extends AbstractRepositoryElementImpl implements Inte
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public InterfaceCommunicator basicGetParentProviderCommunicator() {
-		return parentProviderCommunicator;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public NotificationChain basicSetParentProviderCommunicator(InterfaceCommunicator newParentProviderCommunicator,
-			NotificationChain msgs) {
-		InterfaceCommunicator oldParentProviderCommunicator = parentProviderCommunicator;
-		parentProviderCommunicator = newParentProviderCommunicator;
-		if (eNotificationRequired()) {
-			ENotificationImpl notification = new ENotificationImpl(this, Notification.SET,
-					SystemIndependentViewPointPackage.INTERFACE__PARENT_PROVIDER_COMMUNICATOR,
-					oldParentProviderCommunicator, newParentProviderCommunicator);
-			if (msgs == null)
-				msgs = notification;
-			else
-				msgs.add(notification);
-		}
-		return msgs;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setParentProviderCommunicator(InterfaceCommunicator newParentProviderCommunicator) {
-		if (newParentProviderCommunicator != parentProviderCommunicator) {
-			NotificationChain msgs = null;
-			if (parentProviderCommunicator != null)
-				msgs = ((InternalEObject) parentProviderCommunicator).eInverseRemove(this,
-						SystemIndependentViewPointPackage.INTERFACE_COMMUNICATOR__PROVIDED_INTERFACES,
-						InterfaceCommunicator.class, msgs);
-			if (newParentProviderCommunicator != null)
-				msgs = ((InternalEObject) newParentProviderCommunicator).eInverseAdd(this,
-						SystemIndependentViewPointPackage.INTERFACE_COMMUNICATOR__PROVIDED_INTERFACES,
-						InterfaceCommunicator.class, msgs);
-			msgs = basicSetParentProviderCommunicator(newParentProviderCommunicator, msgs);
-			if (msgs != null)
-				msgs.dispatch();
-		} else if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					SystemIndependentViewPointPackage.INTERFACE__PARENT_PROVIDER_COMMUNICATOR,
-					newParentProviderCommunicator, newParentProviderCommunicator));
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public InterfaceCommunicator getParentRequirereeCommunicator() {
-		if (parentRequirereeCommunicator != null && parentRequirereeCommunicator.eIsProxy()) {
-			InternalEObject oldParentRequirereeCommunicator = (InternalEObject) parentRequirereeCommunicator;
-			parentRequirereeCommunicator = (InterfaceCommunicator) eResolveProxy(oldParentRequirereeCommunicator);
-			if (parentRequirereeCommunicator != oldParentRequirereeCommunicator) {
-				if (eNotificationRequired())
-					eNotify(new ENotificationImpl(this, Notification.RESOLVE,
-							SystemIndependentViewPointPackage.INTERFACE__PARENT_REQUIREREE_COMMUNICATOR,
-							oldParentRequirereeCommunicator, parentRequirereeCommunicator));
-			}
+	public EList<InterfaceCommunicator> getParentRequirereeCommunicator() {
+		if (parentRequirereeCommunicator == null) {
+			parentRequirereeCommunicator = new EObjectWithInverseResolvingEList.ManyInverse<InterfaceCommunicator>(
+					InterfaceCommunicator.class, this,
+					SystemIndependentViewPointPackage.INTERFACE__PARENT_REQUIREREE_COMMUNICATOR,
+					SystemIndependentViewPointPackage.INTERFACE_COMMUNICATOR__REQUIRED_INTERFACES);
 		}
 		return parentRequirereeCommunicator;
 	}
@@ -197,76 +133,16 @@ public class InterfaceImpl extends AbstractRepositoryElementImpl implements Inte
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public InterfaceCommunicator basicGetParentRequirereeCommunicator() {
-		return parentRequirereeCommunicator;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public NotificationChain basicSetParentRequirereeCommunicator(InterfaceCommunicator newParentRequirereeCommunicator,
-			NotificationChain msgs) {
-		InterfaceCommunicator oldParentRequirereeCommunicator = parentRequirereeCommunicator;
-		parentRequirereeCommunicator = newParentRequirereeCommunicator;
-		if (eNotificationRequired()) {
-			ENotificationImpl notification = new ENotificationImpl(this, Notification.SET,
-					SystemIndependentViewPointPackage.INTERFACE__PARENT_REQUIREREE_COMMUNICATOR,
-					oldParentRequirereeCommunicator, newParentRequirereeCommunicator);
-			if (msgs == null)
-				msgs = notification;
-			else
-				msgs.add(notification);
-		}
-		return msgs;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setParentRequirereeCommunicator(InterfaceCommunicator newParentRequirereeCommunicator) {
-		if (newParentRequirereeCommunicator != parentRequirereeCommunicator) {
-			NotificationChain msgs = null;
-			if (parentRequirereeCommunicator != null)
-				msgs = ((InternalEObject) parentRequirereeCommunicator).eInverseRemove(this,
-						SystemIndependentViewPointPackage.INTERFACE_COMMUNICATOR__REQUIRED_INTERFACES,
-						InterfaceCommunicator.class, msgs);
-			if (newParentRequirereeCommunicator != null)
-				msgs = ((InternalEObject) newParentRequirereeCommunicator).eInverseAdd(this,
-						SystemIndependentViewPointPackage.INTERFACE_COMMUNICATOR__REQUIRED_INTERFACES,
-						InterfaceCommunicator.class, msgs);
-			msgs = basicSetParentRequirereeCommunicator(newParentRequirereeCommunicator, msgs);
-			if (msgs != null)
-				msgs.dispatch();
-		} else if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					SystemIndependentViewPointPackage.INTERFACE__PARENT_REQUIREREE_COMMUNICATOR,
-					newParentRequirereeCommunicator, newParentRequirereeCommunicator));
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
+	@SuppressWarnings("unchecked")
 	@Override
 	public NotificationChain eInverseAdd(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 		case SystemIndependentViewPointPackage.INTERFACE__PARENT_PROVIDER_COMMUNICATOR:
-			if (parentProviderCommunicator != null)
-				msgs = ((InternalEObject) parentProviderCommunicator).eInverseRemove(this,
-						SystemIndependentViewPointPackage.INTERFACE_COMMUNICATOR__PROVIDED_INTERFACES,
-						InterfaceCommunicator.class, msgs);
-			return basicSetParentProviderCommunicator((InterfaceCommunicator) otherEnd, msgs);
+			return ((InternalEList<InternalEObject>) (InternalEList<?>) getParentProviderCommunicator())
+					.basicAdd(otherEnd, msgs);
 		case SystemIndependentViewPointPackage.INTERFACE__PARENT_REQUIREREE_COMMUNICATOR:
-			if (parentRequirereeCommunicator != null)
-				msgs = ((InternalEObject) parentRequirereeCommunicator).eInverseRemove(this,
-						SystemIndependentViewPointPackage.INTERFACE_COMMUNICATOR__REQUIRED_INTERFACES,
-						InterfaceCommunicator.class, msgs);
-			return basicSetParentRequirereeCommunicator((InterfaceCommunicator) otherEnd, msgs);
+			return ((InternalEList<InternalEObject>) (InternalEList<?>) getParentRequirereeCommunicator())
+					.basicAdd(otherEnd, msgs);
 		}
 		return super.eInverseAdd(otherEnd, featureID, msgs);
 	}
@@ -280,9 +156,9 @@ public class InterfaceImpl extends AbstractRepositoryElementImpl implements Inte
 	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 		case SystemIndependentViewPointPackage.INTERFACE__PARENT_PROVIDER_COMMUNICATOR:
-			return basicSetParentProviderCommunicator(null, msgs);
+			return ((InternalEList<?>) getParentProviderCommunicator()).basicRemove(otherEnd, msgs);
 		case SystemIndependentViewPointPackage.INTERFACE__PARENT_REQUIREREE_COMMUNICATOR:
-			return basicSetParentRequirereeCommunicator(null, msgs);
+			return ((InternalEList<?>) getParentRequirereeCommunicator()).basicRemove(otherEnd, msgs);
 		}
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
@@ -298,13 +174,9 @@ public class InterfaceImpl extends AbstractRepositoryElementImpl implements Inte
 		case SystemIndependentViewPointPackage.INTERFACE__SIGNATURES:
 			return getSignatures();
 		case SystemIndependentViewPointPackage.INTERFACE__PARENT_PROVIDER_COMMUNICATOR:
-			if (resolve)
-				return getParentProviderCommunicator();
-			return basicGetParentProviderCommunicator();
+			return getParentProviderCommunicator();
 		case SystemIndependentViewPointPackage.INTERFACE__PARENT_REQUIREREE_COMMUNICATOR:
-			if (resolve)
-				return getParentRequirereeCommunicator();
-			return basicGetParentRequirereeCommunicator();
+			return getParentRequirereeCommunicator();
 		}
 		return super.eGet(featureID, resolve, coreType);
 	}
@@ -323,10 +195,12 @@ public class InterfaceImpl extends AbstractRepositoryElementImpl implements Inte
 			getSignatures().addAll((Collection<? extends Signature>) newValue);
 			return;
 		case SystemIndependentViewPointPackage.INTERFACE__PARENT_PROVIDER_COMMUNICATOR:
-			setParentProviderCommunicator((InterfaceCommunicator) newValue);
+			getParentProviderCommunicator().clear();
+			getParentProviderCommunicator().addAll((Collection<? extends InterfaceCommunicator>) newValue);
 			return;
 		case SystemIndependentViewPointPackage.INTERFACE__PARENT_REQUIREREE_COMMUNICATOR:
-			setParentRequirereeCommunicator((InterfaceCommunicator) newValue);
+			getParentRequirereeCommunicator().clear();
+			getParentRequirereeCommunicator().addAll((Collection<? extends InterfaceCommunicator>) newValue);
 			return;
 		}
 		super.eSet(featureID, newValue);
@@ -344,10 +218,10 @@ public class InterfaceImpl extends AbstractRepositoryElementImpl implements Inte
 			getSignatures().clear();
 			return;
 		case SystemIndependentViewPointPackage.INTERFACE__PARENT_PROVIDER_COMMUNICATOR:
-			setParentProviderCommunicator((InterfaceCommunicator) null);
+			getParentProviderCommunicator().clear();
 			return;
 		case SystemIndependentViewPointPackage.INTERFACE__PARENT_REQUIREREE_COMMUNICATOR:
-			setParentRequirereeCommunicator((InterfaceCommunicator) null);
+			getParentRequirereeCommunicator().clear();
 			return;
 		}
 		super.eUnset(featureID);
@@ -364,9 +238,9 @@ public class InterfaceImpl extends AbstractRepositoryElementImpl implements Inte
 		case SystemIndependentViewPointPackage.INTERFACE__SIGNATURES:
 			return signatures != null && !signatures.isEmpty();
 		case SystemIndependentViewPointPackage.INTERFACE__PARENT_PROVIDER_COMMUNICATOR:
-			return parentProviderCommunicator != null;
+			return parentProviderCommunicator != null && !parentProviderCommunicator.isEmpty();
 		case SystemIndependentViewPointPackage.INTERFACE__PARENT_REQUIREREE_COMMUNICATOR:
-			return parentRequirereeCommunicator != null;
+			return parentRequirereeCommunicator != null && !parentRequirereeCommunicator.isEmpty();
 		}
 		return super.eIsSet(featureID);
 	}

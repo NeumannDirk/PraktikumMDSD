@@ -164,7 +164,7 @@ public interface SystemIndependentViewPointPackage extends EPackage {
 	int INTERFACE__SIGNATURES = ABSTRACT_REPOSITORY_ELEMENT_FEATURE_COUNT + 0;
 
 	/**
-	 * The feature id for the '<em><b>Parent Provider Communicator</b></em>' reference.
+	 * The feature id for the '<em><b>Parent Provider Communicator</b></em>' reference list.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
@@ -173,7 +173,7 @@ public interface SystemIndependentViewPointPackage extends EPackage {
 	int INTERFACE__PARENT_PROVIDER_COMMUNICATOR = ABSTRACT_REPOSITORY_ELEMENT_FEATURE_COUNT + 1;
 
 	/**
-	 * The feature id for the '<em><b>Parent Requireree Communicator</b></em>' reference.
+	 * The feature id for the '<em><b>Parent Requireree Communicator</b></em>' reference list.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
@@ -895,10 +895,10 @@ public interface SystemIndependentViewPointPackage extends EPackage {
 	EReference getInterface_Signatures();
 
 	/**
-	 * Returns the meta object for the reference '{@link simplePalladio.SystemIndependentViewPoint.Interface#getParentProviderCommunicator <em>Parent Provider Communicator</em>}'.
+	 * Returns the meta object for the reference list '{@link simplePalladio.SystemIndependentViewPoint.Interface#getParentProviderCommunicator <em>Parent Provider Communicator</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference '<em>Parent Provider Communicator</em>'.
+	 * @return the meta object for the reference list '<em>Parent Provider Communicator</em>'.
 	 * @see simplePalladio.SystemIndependentViewPoint.Interface#getParentProviderCommunicator()
 	 * @see #getInterface()
 	 * @generated
@@ -906,10 +906,10 @@ public interface SystemIndependentViewPointPackage extends EPackage {
 	EReference getInterface_ParentProviderCommunicator();
 
 	/**
-	 * Returns the meta object for the reference '{@link simplePalladio.SystemIndependentViewPoint.Interface#getParentRequirereeCommunicator <em>Parent Requireree Communicator</em>}'.
+	 * Returns the meta object for the reference list '{@link simplePalladio.SystemIndependentViewPoint.Interface#getParentRequirereeCommunicator <em>Parent Requireree Communicator</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference '<em>Parent Requireree Communicator</em>'.
+	 * @return the meta object for the reference list '<em>Parent Requireree Communicator</em>'.
 	 * @see simplePalladio.SystemIndependentViewPoint.Interface#getParentRequirereeCommunicator()
 	 * @see #getInterface()
 	 * @generated
@@ -1302,7 +1302,7 @@ public interface SystemIndependentViewPointPackage extends EPackage {
 		EReference INTERFACE__SIGNATURES = eINSTANCE.getInterface_Signatures();
 
 		/**
-		 * The meta object literal for the '<em><b>Parent Provider Communicator</b></em>' reference feature.
+		 * The meta object literal for the '<em><b>Parent Provider Communicator</b></em>' reference list feature.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
 		 * @generated
@@ -1310,7 +1310,7 @@ public interface SystemIndependentViewPointPackage extends EPackage {
 		EReference INTERFACE__PARENT_PROVIDER_COMMUNICATOR = eINSTANCE.getInterface_ParentProviderCommunicator();
 
 		/**
-		 * The meta object literal for the '<em><b>Parent Requireree Communicator</b></em>' reference feature.
+		 * The meta object literal for the '<em><b>Parent Requireree Communicator</b></em>' reference list feature.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
 		 * @generated

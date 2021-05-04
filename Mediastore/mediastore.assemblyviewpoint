@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssemblyViewPoint:AssemblyViewType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:AssemblyViewPoint="http://www.example.org/simplePalladio/AssemblyViewPoint" xmlns:SystemIndependentViewPoint="http://www.example.org/simplePalladio/SystemIndependentViewPoint">
+  <systems>
+    <requiredInterfaces href="mediastore.systemindependentviewpoint#AudioDB"/>
+    <providedInterfaces href="mediastore.systemindependentviewpoint#IMediaStore"/>
+    <systemElements xsi:type="AssemblyViewPoint:AssemblyContext" name="MediaManagerAC" providedRoles="//@systems.0/@systemElements.3" requiredRoles="//@systems.0/@systemElements.4 //@systems.0/@systemElements.5">
+      <component xsi:type="SystemIndependentViewPoint:Component" href="mediastore.systemindependentviewpoint#MediaManager"/>
+    </systemElements>
+    <systemElements xsi:type="AssemblyViewPoint:AssemblyContext" name="DBCacheAC" providedRoles="//@systems.0/@systemElements.6" requiredRoles="//@systems.0/@systemElements.7">
+      <component xsi:type="SystemIndependentViewPoint:Component" href="mediastore.systemindependentviewpoint#DBCache"/>
+    </systemElements>
+    <systemElements xsi:type="AssemblyViewPoint:AssemblyContext" name="DigitalWatermarkingAC" providedRoles="//@systems.0/@systemElements.8">
+      <component xsi:type="SystemIndependentViewPoint:Component" href="mediastore.systemindependentviewpoint#DigitalWatermarking"/>
+    </systemElements>
+    <systemElements xsi:type="AssemblyViewPoint:Role" parentProviderAssemblyContext="MediaManagerAC">
+      <interface href="mediastore.systemindependentviewpoint#IMediaStore"/>
+    </systemElements>
+    <systemElements xsi:type="AssemblyViewPoint:Role" fromAssemblyConnectors="//@systems.0/@systemElements.12" parentRequirereeAssemblyContext="MediaManagerAC">
+      <interface href="mediastore.systemindependentviewpoint#Sound"/>
+    </systemElements>
+    <systemElements xsi:type="AssemblyViewPoint:Role" fromAssemblyConnectors="//@systems.0/@systemElements.11" parentRequirereeAssemblyContext="MediaManagerAC">
+      <interface href="mediastore.systemindependentviewpoint#AudioDB"/>
+    </systemElements>
+    <systemElements xsi:type="AssemblyViewPoint:Role" parentProviderAssemblyContext="DBCacheAC" toAssemblyConnector="//@systems.0/@systemElements.11">
+      <interface href="mediastore.systemindependentviewpoint#AudioDB"/>
+    </systemElements>
+    <systemElements xsi:type="AssemblyViewPoint:Role" parentRequirereeAssemblyContext="DBCacheAC">
+      <interface href="mediastore.systemindependentviewpoint#AudioDB"/>
+    </systemElements>
+    <systemElements xsi:type="AssemblyViewPoint:Role" parentProviderAssemblyContext="DigitalWatermarkingAC" toAssemblyConnector="//@systems.0/@systemElements.12">
+      <interface href="mediastore.systemindependentviewpoint#Sound"/>
+    </systemElements>
+    <systemElements xsi:type="AssemblyViewPoint:DelegationConnector" role="//@systems.0/@systemElements.3">
+      <interface href="mediastore.systemindependentviewpoint#IMediaStore"/>
+    </systemElements>
+    <systemElements xsi:type="AssemblyViewPoint:DelegationConnector" role="//@systems.0/@systemElements.7">
+      <interface href="mediastore.systemindependentviewpoint#AudioDB"/>
+    </systemElements>
+    <systemElements xsi:type="AssemblyViewPoint:AssemblyConnector" providedRole="//@systems.0/@systemElements.6" requiredRole="//@systems.0/@systemElements.5"/>
+    <systemElements xsi:type="AssemblyViewPoint:AssemblyConnector" providedRole="//@systems.0/@systemElements.8" requiredRole="//@systems.0/@systemElements.4"/>
+  </systems>
+  <systems>
+    <providedInterfaces href="mediastore.systemindependentviewpoint#HTTP"/>
+    <systemElements xsi:type="AssemblyViewPoint:AssemblyContext" name="WebGUIAC" providedRoles="//@systems.1/@systemElements.3" requiredRoles="//@systems.1/@systemElements.4">
+      <component xsi:type="SystemIndependentViewPoint:Component" href="mediastore.systemindependentviewpoint#WebGUI"/>
+      <allocationContext href="mediastore_allocation.deploymentviewpoint#//@allocationContexts.0"/>
+    </systemElements>
+    <systemElements xsi:type="AssemblyViewPoint:AssemblyContext" name="MediaStoreAC" providedRoles="//@systems.1/@systemElements.5" requiredRoles="//@systems.1/@systemElements.6">
+      <component xsi:type="SystemIndependentViewPoint:CompositeComponent" href="mediastore.systemindependentviewpoint#MediaStore"/>
+      <allocationContext href="mediastore_allocation.deploymentviewpoint#//@allocationContexts.1"/>
+    </systemElements>
+    <systemElements xsi:type="AssemblyViewPoint:AssemblyContext" name="PoolingAudioDBAC" providedRoles="//@systems.1/@systemElements.7">
+      <component xsi:type="SystemIndependentViewPoint:Component" href="mediastore.systemindependentviewpoint#PoolingAudioDB"/>
+      <allocationContext href="mediastore_allocation.deploymentviewpoint#//@allocationContexts.2"/>
+    </systemElements>
+    <systemElements xsi:type="AssemblyViewPoint:Role" parentProviderAssemblyContext="WebGUIAC">
+      <interface href="mediastore.systemindependentviewpoint#HTTP"/>
+    </systemElements>
+    <systemElements xsi:type="AssemblyViewPoint:Role" parentRequirereeAssemblyContext="WebGUIAC" toAssemblyConnector="//@systems.1/@systemElements.9">
+      <interface href="mediastore.systemindependentviewpoint#IMediaStore"/>
+    </systemElements>
+    <systemElements xsi:type="AssemblyViewPoint:Role" parentProviderAssemblyContext="MediaStoreAC" fromAssemblyConnectors="//@systems.1/@systemElements.9">
+      <interface href="mediastore.systemindependentviewpoint#IMediaStore"/>
+    </systemElements>
+    <systemElements xsi:type="AssemblyViewPoint:Role" fromAssemblyConnectors="//@systems.1/@systemElements.10" parentRequirereeAssemblyContext="MediaStoreAC">
+      <interface href="mediastore.systemindependentviewpoint#AudioDB"/>
+    </systemElements>
+    <systemElements xsi:type="AssemblyViewPoint:Role" parentProviderAssemblyContext="PoolingAudioDBAC" toAssemblyConnector="//@systems.1/@systemElements.10">
+      <interface href="mediastore.systemindependentviewpoint#AudioDB"/>
+    </systemElements>
+    <systemElements xsi:type="AssemblyViewPoint:DelegationConnector" role="//@systems.0/@systemElements.3">
+      <interface href="mediastore.systemindependentviewpoint#HTTP"/>
+    </systemElements>
+    <systemElements xsi:type="AssemblyViewPoint:AssemblyConnector" providedRole="//@systems.1/@systemElements.4" requiredRole="//@systems.1/@systemElements.5"/>
+    <systemElements xsi:type="AssemblyViewPoint:AssemblyConnector" providedRole="//@systems.1/@systemElements.7" requiredRole="//@systems.1/@systemElements.6"/>
+  </systems>
+</AssemblyViewPoint:AssemblyViewType>

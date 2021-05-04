@@ -7,15 +7,9 @@ import java.util.List;
 
 import org.eclipse.emf.common.notify.AdapterFactory;
 import org.eclipse.emf.common.notify.Notification;
-
-import org.eclipse.emf.ecore.EStructuralFeature;
-
 import org.eclipse.emf.edit.provider.ComposeableAdapterFactory;
 import org.eclipse.emf.edit.provider.IItemPropertyDescriptor;
-import org.eclipse.emf.edit.provider.ViewerNotification;
-
 import simplePalladio.SystemIndependentViewPoint.Interface;
-import simplePalladio.SystemIndependentViewPoint.SystemIndependentViewPointFactory;
 import simplePalladio.SystemIndependentViewPoint.SystemIndependentViewPointPackage;
 
 /**
@@ -46,10 +40,27 @@ public class InterfaceItemProvider extends AbstractRepositoryElementItemProvider
 		if (itemPropertyDescriptors == null) {
 			super.getPropertyDescriptors(object);
 
+			addSignaturesPropertyDescriptor(object);
 			addParentProviderCommunicatorPropertyDescriptor(object);
 			addParentRequirereeCommunicatorPropertyDescriptor(object);
 		}
 		return itemPropertyDescriptors;
+	}
+
+	/**
+	 * This adds a property descriptor for the Signatures feature.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected void addSignaturesPropertyDescriptor(Object object) {
+		itemPropertyDescriptors
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_Interface_signatures_feature"),
+						getString("_UI_PropertyDescriptor_description", "_UI_Interface_signatures_feature",
+								"_UI_Interface_type"),
+						SystemIndependentViewPointPackage.Literals.INTERFACE__SIGNATURES, true, false, true, null, null,
+						null));
 	}
 
 	/**
@@ -82,36 +93,6 @@ public class InterfaceItemProvider extends AbstractRepositoryElementItemProvider
 								"_UI_Interface_parentRequirereeCommunicator_feature", "_UI_Interface_type"),
 						SystemIndependentViewPointPackage.Literals.INTERFACE__PARENT_REQUIREREE_COMMUNICATOR, true,
 						false, true, null, null, null));
-	}
-
-	/**
-	 * This specifies how to implement {@link #getChildren} and is used to deduce an appropriate feature for an
-	 * {@link org.eclipse.emf.edit.command.AddCommand}, {@link org.eclipse.emf.edit.command.RemoveCommand} or
-	 * {@link org.eclipse.emf.edit.command.MoveCommand} in {@link #createCommand}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Collection<? extends EStructuralFeature> getChildrenFeatures(Object object) {
-		if (childrenFeatures == null) {
-			super.getChildrenFeatures(object);
-			childrenFeatures.add(SystemIndependentViewPointPackage.Literals.INTERFACE__SIGNATURES);
-		}
-		return childrenFeatures;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EStructuralFeature getChildFeature(Object object, Object child) {
-		// Check the type of the specified child object and return the proper feature to use for
-		// adding (see {@link AddCommand}) it as a child.
-
-		return super.getChildFeature(object, child);
 	}
 
 	/**
@@ -158,12 +139,6 @@ public class InterfaceItemProvider extends AbstractRepositoryElementItemProvider
 	@Override
 	public void notifyChanged(Notification notification) {
 		updateChildren(notification);
-
-		switch (notification.getFeatureID(Interface.class)) {
-		case SystemIndependentViewPointPackage.INTERFACE__SIGNATURES:
-			fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), true, false));
-			return;
-		}
 		super.notifyChanged(notification);
 	}
 
@@ -177,9 +152,6 @@ public class InterfaceItemProvider extends AbstractRepositoryElementItemProvider
 	@Override
 	protected void collectNewChildDescriptors(Collection<Object> newChildDescriptors, Object object) {
 		super.collectNewChildDescriptors(newChildDescriptors, object);
-
-		newChildDescriptors.add(createChildParameter(SystemIndependentViewPointPackage.Literals.INTERFACE__SIGNATURES,
-				SystemIndependentViewPointFactory.eINSTANCE.createSignature()));
 	}
 
 }
