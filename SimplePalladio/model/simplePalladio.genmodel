@@ -10,80 +10,80 @@
   <testsDirectory xsi:nil="true"/>
   <genPackages prefix="SimplePalladio" disposableProviderFactory="true" ecorePackage="simplePalladio.ecore#/">
     <nestedGenPackages prefix="SystemIndependentViewType" disposableProviderFactory="true"
-        ecorePackage="simplePalladio.ecore#//SystemIndependentViewType">
-      <genEnums typeSafeEnumCompatible="false" ecoreEnum="simplePalladio.ecore#//SystemIndependentViewType/Type">
-        <genEnumLiterals ecoreEnumLiteral="simplePalladio.ecore#//SystemIndependentViewType/Type/VOID"/>
-        <genEnumLiterals ecoreEnumLiteral="simplePalladio.ecore#//SystemIndependentViewType/Type/BOOLEAN"/>
-        <genEnumLiterals ecoreEnumLiteral="simplePalladio.ecore#//SystemIndependentViewType/Type/CHAR"/>
-        <genEnumLiterals ecoreEnumLiteral="simplePalladio.ecore#//SystemIndependentViewType/Type/DATE"/>
-        <genEnumLiterals ecoreEnumLiteral="simplePalladio.ecore#//SystemIndependentViewType/Type/DOUBLE"/>
-        <genEnumLiterals ecoreEnumLiteral="simplePalladio.ecore#//SystemIndependentViewType/Type/FLOAT"/>
-        <genEnumLiterals ecoreEnumLiteral="simplePalladio.ecore#//SystemIndependentViewType/Type/LIST"/>
-        <genEnumLiterals ecoreEnumLiteral="simplePalladio.ecore#//SystemIndependentViewType/Type/INT"/>
-        <genEnumLiterals ecoreEnumLiteral="simplePalladio.ecore#//SystemIndependentViewType/Type/LONG"/>
-        <genEnumLiterals ecoreEnumLiteral="simplePalladio.ecore#//SystemIndependentViewType/Type/MAP"/>
-        <genEnumLiterals ecoreEnumLiteral="simplePalladio.ecore#//SystemIndependentViewType/Type/STRING"/>
+        ecorePackage="simplePalladio.ecore#//SystemIndependentViewPoint">
+      <genEnums typeSafeEnumCompatible="false" ecoreEnum="simplePalladio.ecore#//SystemIndependentViewPoint/Type">
+        <genEnumLiterals ecoreEnumLiteral="simplePalladio.ecore#//SystemIndependentViewPoint/Type/VOID"/>
+        <genEnumLiterals ecoreEnumLiteral="simplePalladio.ecore#//SystemIndependentViewPoint/Type/BOOLEAN"/>
+        <genEnumLiterals ecoreEnumLiteral="simplePalladio.ecore#//SystemIndependentViewPoint/Type/CHAR"/>
+        <genEnumLiterals ecoreEnumLiteral="simplePalladio.ecore#//SystemIndependentViewPoint/Type/DATE"/>
+        <genEnumLiterals ecoreEnumLiteral="simplePalladio.ecore#//SystemIndependentViewPoint/Type/DOUBLE"/>
+        <genEnumLiterals ecoreEnumLiteral="simplePalladio.ecore#//SystemIndependentViewPoint/Type/FLOAT"/>
+        <genEnumLiterals ecoreEnumLiteral="simplePalladio.ecore#//SystemIndependentViewPoint/Type/LIST"/>
+        <genEnumLiterals ecoreEnumLiteral="simplePalladio.ecore#//SystemIndependentViewPoint/Type/INT"/>
+        <genEnumLiterals ecoreEnumLiteral="simplePalladio.ecore#//SystemIndependentViewPoint/Type/LONG"/>
+        <genEnumLiterals ecoreEnumLiteral="simplePalladio.ecore#//SystemIndependentViewPoint/Type/MAP"/>
+        <genEnumLiterals ecoreEnumLiteral="simplePalladio.ecore#//SystemIndependentViewPoint/Type/STRING"/>
       </genEnums>
-      <genClasses image="false" ecoreClass="simplePalladio.ecore#//SystemIndependentViewType/RepositoryViewType">
-        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference simplePalladio.ecore#//SystemIndependentViewType/RepositoryViewType/repositoryElements"/>
+      <genClasses image="false" ecoreClass="simplePalladio.ecore#//SystemIndependentViewPoint/RepositoryViewType">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference simplePalladio.ecore#//SystemIndependentViewPoint/RepositoryViewType/repositoryElements"/>
       </genClasses>
-      <genClasses ecoreClass="simplePalladio.ecore#//SystemIndependentViewType/Interface">
-        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference simplePalladio.ecore#//SystemIndependentViewType/Interface/signatures"/>
+      <genClasses ecoreClass="simplePalladio.ecore#//SystemIndependentViewPoint/Interface">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference simplePalladio.ecore#//SystemIndependentViewPoint/Interface/signatures"/>
         <genFeatures notify="false" createChild="false" propertySortChoices="true"
-            ecoreFeature="ecore:EReference simplePalladio.ecore#//SystemIndependentViewType/Interface/parentProviderCommunicator"/>
+            ecoreFeature="ecore:EReference simplePalladio.ecore#//SystemIndependentViewPoint/Interface/parentProviderCommunicator"/>
         <genFeatures notify="false" createChild="false" propertySortChoices="true"
-            ecoreFeature="ecore:EReference simplePalladio.ecore#//SystemIndependentViewType/Interface/parentRequirereeCommunicator"/>
+            ecoreFeature="ecore:EReference simplePalladio.ecore#//SystemIndependentViewPoint/Interface/parentRequirereeCommunicator"/>
       </genClasses>
-      <genClasses ecoreClass="simplePalladio.ecore#//SystemIndependentViewType/CompositeComponent">
+      <genClasses ecoreClass="simplePalladio.ecore#//SystemIndependentViewPoint/CompositeComponent">
         <genFeatures notify="false" createChild="false" propertySortChoices="true"
-            ecoreFeature="ecore:EReference simplePalladio.ecore#//SystemIndependentViewType/CompositeComponent/system"/>
+            ecoreFeature="ecore:EReference simplePalladio.ecore#//SystemIndependentViewPoint/CompositeComponent/system"/>
       </genClasses>
-      <genClasses ecoreClass="simplePalladio.ecore#//SystemIndependentViewType/Signature">
-        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute simplePalladio.ecore#//SystemIndependentViewType/Signature/returnValue"/>
-        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference simplePalladio.ecore#//SystemIndependentViewType/Signature/parameters"/>
+      <genClasses ecoreClass="simplePalladio.ecore#//SystemIndependentViewPoint/Signature">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute simplePalladio.ecore#//SystemIndependentViewPoint/Signature/returnValue"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference simplePalladio.ecore#//SystemIndependentViewPoint/Signature/parameters"/>
       </genClasses>
-      <genClasses image="false" ecoreClass="simplePalladio.ecore#//SystemIndependentViewType/AbstractComponent"/>
-      <genClasses ecoreClass="simplePalladio.ecore#//SystemIndependentViewType/Component">
-        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference simplePalladio.ecore#//SystemIndependentViewType/Component/services"/>
+      <genClasses image="false" ecoreClass="simplePalladio.ecore#//SystemIndependentViewPoint/AbstractComponent"/>
+      <genClasses ecoreClass="simplePalladio.ecore#//SystemIndependentViewPoint/Component">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference simplePalladio.ecore#//SystemIndependentViewPoint/Component/services"/>
       </genClasses>
-      <genClasses ecoreClass="simplePalladio.ecore#//SystemIndependentViewType/Parameter">
-        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute simplePalladio.ecore#//SystemIndependentViewType/Parameter/type"/>
+      <genClasses ecoreClass="simplePalladio.ecore#//SystemIndependentViewPoint/Parameter">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute simplePalladio.ecore#//SystemIndependentViewPoint/Parameter/type"/>
       </genClasses>
-      <genClasses ecoreClass="simplePalladio.ecore#//SystemIndependentViewType/AbstractRepositoryElement"/>
-      <genClasses ecoreClass="simplePalladio.ecore#//SystemIndependentViewType/Service">
+      <genClasses ecoreClass="simplePalladio.ecore#//SystemIndependentViewPoint/AbstractRepositoryElement"/>
+      <genClasses ecoreClass="simplePalladio.ecore#//SystemIndependentViewPoint/Service">
         <genFeatures notify="false" createChild="false" propertySortChoices="true"
-            ecoreFeature="ecore:EReference simplePalladio.ecore#//SystemIndependentViewType/Service/signature"/>
-        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference simplePalladio.ecore#//SystemIndependentViewType/Service/behaviourDescription"/>
+            ecoreFeature="ecore:EReference simplePalladio.ecore#//SystemIndependentViewPoint/Service/signature"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference simplePalladio.ecore#//SystemIndependentViewPoint/Service/behaviourDescription"/>
         <genFeatures notify="false" createChild="false" propertySortChoices="true"
-            ecoreFeature="ecore:EReference simplePalladio.ecore#//SystemIndependentViewType/Service/component"/>
+            ecoreFeature="ecore:EReference simplePalladio.ecore#//SystemIndependentViewPoint/Service/component"/>
       </genClasses>
-      <genClasses ecoreClass="simplePalladio.ecore#//SystemIndependentViewType/BehaviourDescription">
-        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference simplePalladio.ecore#//SystemIndependentViewType/BehaviourDescription/behaviorElements"/>
+      <genClasses ecoreClass="simplePalladio.ecore#//SystemIndependentViewPoint/BehaviourDescription">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference simplePalladio.ecore#//SystemIndependentViewPoint/BehaviourDescription/behaviorElements"/>
         <genFeatures notify="false" createChild="false" propertySortChoices="true"
-            ecoreFeature="ecore:EReference simplePalladio.ecore#//SystemIndependentViewType/BehaviourDescription/service"/>
+            ecoreFeature="ecore:EReference simplePalladio.ecore#//SystemIndependentViewPoint/BehaviourDescription/service"/>
       </genClasses>
-      <genClasses ecoreClass="simplePalladio.ecore#//SystemIndependentViewType/InternalAction"/>
-      <genClasses ecoreClass="simplePalladio.ecore#//SystemIndependentViewType/ExternalCall">
+      <genClasses ecoreClass="simplePalladio.ecore#//SystemIndependentViewPoint/InternalAction"/>
+      <genClasses ecoreClass="simplePalladio.ecore#//SystemIndependentViewPoint/ExternalCall">
         <genFeatures notify="false" createChild="false" propertySortChoices="true"
-            ecoreFeature="ecore:EReference simplePalladio.ecore#//SystemIndependentViewType/ExternalCall/signature"/>
+            ecoreFeature="ecore:EReference simplePalladio.ecore#//SystemIndependentViewPoint/ExternalCall/signature"/>
       </genClasses>
-      <genClasses ecoreClass="simplePalladio.ecore#//SystemIndependentViewType/Loop">
+      <genClasses ecoreClass="simplePalladio.ecore#//SystemIndependentViewPoint/Loop">
         <genFeatures notify="false" createChild="false" propertySortChoices="true"
-            ecoreFeature="ecore:EReference simplePalladio.ecore#//SystemIndependentViewType/Loop/behaviorElements"/>
+            ecoreFeature="ecore:EReference simplePalladio.ecore#//SystemIndependentViewPoint/Loop/behaviorElements"/>
       </genClasses>
-      <genClasses ecoreClass="simplePalladio.ecore#//SystemIndependentViewType/Branch">
+      <genClasses ecoreClass="simplePalladio.ecore#//SystemIndependentViewPoint/Branch">
         <genFeatures notify="false" createChild="false" propertySortChoices="true"
-            ecoreFeature="ecore:EReference simplePalladio.ecore#//SystemIndependentViewType/Branch/behaviorElements"/>
+            ecoreFeature="ecore:EReference simplePalladio.ecore#//SystemIndependentViewPoint/Branch/behaviorElements"/>
       </genClasses>
-      <genClasses ecoreClass="simplePalladio.ecore#//SystemIndependentViewType/BehaviorElement">
+      <genClasses ecoreClass="simplePalladio.ecore#//SystemIndependentViewPoint/BehaviorElement">
         <genFeatures notify="false" createChild="false" propertySortChoices="true"
-            ecoreFeature="ecore:EReference simplePalladio.ecore#//SystemIndependentViewType/BehaviorElement/behaviourDescription"/>
+            ecoreFeature="ecore:EReference simplePalladio.ecore#//SystemIndependentViewPoint/BehaviorElement/behaviourDescription"/>
       </genClasses>
-      <genClasses ecoreClass="simplePalladio.ecore#//SystemIndependentViewType/InterfaceCommunicator">
+      <genClasses ecoreClass="simplePalladio.ecore#//SystemIndependentViewPoint/InterfaceCommunicator">
         <genFeatures notify="false" createChild="false" propertySortChoices="true"
-            ecoreFeature="ecore:EReference simplePalladio.ecore#//SystemIndependentViewType/InterfaceCommunicator/requiredInterfaces"/>
+            ecoreFeature="ecore:EReference simplePalladio.ecore#//SystemIndependentViewPoint/InterfaceCommunicator/requiredInterfaces"/>
         <genFeatures notify="false" createChild="false" propertySortChoices="true"
-            ecoreFeature="ecore:EReference simplePalladio.ecore#//SystemIndependentViewType/InterfaceCommunicator/providedInterfaces"/>
+            ecoreFeature="ecore:EReference simplePalladio.ecore#//SystemIndependentViewPoint/InterfaceCommunicator/providedInterfaces"/>
       </genClasses>
     </nestedGenPackages>
     <nestedGenPackages prefix="AssemblyViewPoint" disposableProviderFactory="true"
