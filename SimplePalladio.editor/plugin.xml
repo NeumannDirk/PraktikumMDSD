@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated simplePalladio -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="simplePalladio.SystemIndependentViewPoint.presentation.SystemIndependentViewPointModelWizardID"
+            name="%_UI_SystemIndependentViewPointModelWizard_label"
+            class="simplePalladio.SystemIndependentViewPoint.presentation.SystemIndependentViewPointModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/SystemIndependentViewPointModelFile.gif">
+         <description>%_UI_SystemIndependentViewPointModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated simplePalladio -->
+      <editor
+            id="simplePalladio.SystemIndependentViewPoint.presentation.SystemIndependentViewPointEditorID"
+            name="%_UI_SystemIndependentViewPointEditor_label"
+            icon="icons/full/obj16/SystemIndependentViewPointModelFile.gif"
+            extensions="systemindependentviewpoint"
+            class="simplePalladio.SystemIndependentViewPoint.presentation.SystemIndependentViewPointEditor"
+            contributorClass="simplePalladio.SystemIndependentViewPoint.presentation.SystemIndependentViewPointActionBarContributor">
+      </editor>
+   </extension>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated simplePalladio -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="simplePalladio.AssemblyViewPoint.presentation.AssemblyViewPointModelWizardID"
+            name="%_UI_AssemblyViewPointModelWizard_label"
+            class="simplePalladio.AssemblyViewPoint.presentation.AssemblyViewPointModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/AssemblyViewPointModelFile.gif">
+         <description>%_UI_AssemblyViewPointModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated simplePalladio -->
+      <editor
+            id="simplePalladio.AssemblyViewPoint.presentation.AssemblyViewPointEditorID"
+            name="%_UI_AssemblyViewPointEditor_label"
+            icon="icons/full/obj16/AssemblyViewPointModelFile.gif"
+            extensions="assemblyviewpoint"
+            class="simplePalladio.AssemblyViewPoint.presentation.AssemblyViewPointEditor"
+            contributorClass="simplePalladio.AssemblyViewPoint.presentation.AssemblyViewPointActionBarContributor">
+      </editor>
+   </extension>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated simplePalladio -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="simplePalladio.DeploymentViewPoint.presentation.DeploymentViewPointModelWizardID"
+            name="%_UI_DeploymentViewPointModelWizard_label"
+            class="simplePalladio.DeploymentViewPoint.presentation.DeploymentViewPointModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/DeploymentViewPointModelFile.gif">
+         <description>%_UI_DeploymentViewPointModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated simplePalladio -->
+      <editor
+            id="simplePalladio.DeploymentViewPoint.presentation.DeploymentViewPointEditorID"
+            name="%_UI_DeploymentViewPointEditor_label"
+            icon="icons/full/obj16/DeploymentViewPointModelFile.gif"
+            extensions="deploymentviewpoint"
+            class="simplePalladio.DeploymentViewPoint.presentation.DeploymentViewPointEditor"
+            contributorClass="simplePalladio.DeploymentViewPoint.presentation.DeploymentViewPointActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>

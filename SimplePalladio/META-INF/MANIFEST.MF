@@ -1,7 +1,25 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: SimplePalladio
-Bundle-SymbolicName: SimplePalladio; singleton:=true
+Bundle-Name: %pluginName
+Bundle-SymbolicName: SimplePalladio;singleton:=true
+Automatic-Module-Name: SimplePalladio
 Bundle-Version: 0.1.0.qualifier
+Bundle-ClassPath: .
+Bundle-Vendor: %providerName
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Export-Package: simplePalladio.AssemblyViewPoint,
+ simplePalladio.AssemblyViewPoint.impl,
+ simplePalladio.AssemblyViewPoint.util,
+ simplePalladio.Common,
+ simplePalladio.Common.impl,
+ simplePalladio.Common.util,
+ simplePalladio.DeploymentViewPoint,
+ simplePalladio.DeploymentViewPoint.impl,
+ simplePalladio.DeploymentViewPoint.util,
+ simplePalladio.SystemIndependentViewPoint,
+ simplePalladio.SystemIndependentViewPoint.impl,
+ simplePalladio.SystemIndependentViewPoint.util
 Require-Bundle: org.eclipse.emf.ecore;visibility:=reexport,
  org.eclipse.core.runtime
+Bundle-ActivationPolicy: lazy

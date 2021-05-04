@@ -9,8 +9,8 @@
   <foreignModel>simplePalladio.ecore</foreignModel>
   <testsDirectory xsi:nil="true"/>
   <genPackages prefix="SimplePalladio" disposableProviderFactory="true" ecorePackage="simplePalladio.ecore#/">
-    <nestedGenPackages prefix="SystemIndependentViewType" disposableProviderFactory="true"
-        ecorePackage="simplePalladio.ecore#//SystemIndependentViewPoint">
+    <nestedGenPackages prefix="SystemIndependentViewPoint" basePackage="simplePalladio"
+        disposableProviderFactory="true" ecorePackage="simplePalladio.ecore#//SystemIndependentViewPoint">
       <genEnums typeSafeEnumCompatible="false" ecoreEnum="simplePalladio.ecore#//SystemIndependentViewPoint/Type">
         <genEnumLiterals ecoreEnumLiteral="simplePalladio.ecore#//SystemIndependentViewPoint/Type/VOID"/>
         <genEnumLiterals ecoreEnumLiteral="simplePalladio.ecore#//SystemIndependentViewPoint/Type/BOOLEAN"/>
@@ -86,7 +86,7 @@
             ecoreFeature="ecore:EReference simplePalladio.ecore#//SystemIndependentViewPoint/InterfaceCommunicator/providedInterfaces"/>
       </genClasses>
     </nestedGenPackages>
-    <nestedGenPackages prefix="AssemblyViewPoint" disposableProviderFactory="true"
+    <nestedGenPackages prefix="AssemblyViewPoint" basePackage="simplePalladio" disposableProviderFactory="true"
         ecorePackage="simplePalladio.ecore#//AssemblyViewPoint">
       <genClasses ecoreClass="simplePalladio.ecore#//AssemblyViewPoint/AssemblyViewType">
         <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference simplePalladio.ecore#//AssemblyViewPoint/AssemblyViewType/systems"/>
@@ -134,7 +134,7 @@
             ecoreFeature="ecore:EReference simplePalladio.ecore#//AssemblyViewPoint/AbstractSystemElement/system"/>
       </genClasses>
     </nestedGenPackages>
-    <nestedGenPackages prefix="DeploymentViewPoint" disposableProviderFactory="true"
+    <nestedGenPackages prefix="DeploymentViewPoint" basePackage="simplePalladio" disposableProviderFactory="true"
         ecorePackage="simplePalladio.ecore#//DeploymentViewPoint">
       <genClasses ecoreClass="simplePalladio.ecore#//DeploymentViewPoint/EnvironmentViewType">
         <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference simplePalladio.ecore#//DeploymentViewPoint/EnvironmentViewType/environmentElements"/>
@@ -158,7 +158,8 @@
       </genClasses>
       <genClasses ecoreClass="simplePalladio.ecore#//DeploymentViewPoint/AbstractEnvironmentElement"/>
     </nestedGenPackages>
-    <nestedGenPackages prefix="NewPackage4" disposableProviderFactory="true" ecorePackage="simplePalladio.ecore#//Common">
+    <nestedGenPackages prefix="Common" basePackage="simplePalladio" disposableProviderFactory="true"
+        ecorePackage="simplePalladio.ecore#//Common">
       <genClasses ecoreClass="simplePalladio.ecore#//Common/NamedElement">
         <genFeatures createChild="false" ecoreFeature="ecore:EAttribute simplePalladio.ecore#//Common/NamedElement/name"/>
       </genClasses>

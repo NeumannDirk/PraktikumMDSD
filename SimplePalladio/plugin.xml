@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated simplePalladio -->
+      <package
+            uri="http://www.example.org/simplePalladio/SystemIndependentViewPoint"
+            class="simplePalladio.SystemIndependentViewPoint.SystemIndependentViewPointPackage"
+            genModel="model/simplePalladio.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated simplePalladio -->
+      <package
+            uri="http://www.example.org/simplePalladio/AssemblyViewPoint"
+            class="simplePalladio.AssemblyViewPoint.AssemblyViewPointPackage"
+            genModel="model/simplePalladio.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated simplePalladio -->
+      <package
+            uri="http://www.example.org/simplePalladio/DeploymentViewPoint"
+            class="simplePalladio.DeploymentViewPoint.DeploymentViewPointPackage"
+            genModel="model/simplePalladio.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated simplePalladio -->
+      <package
+            uri="http://www.example.org/simplePalladio/Common"
+            class="simplePalladio.Common.CommonPackage"
+            genModel="model/simplePalladio.genmodel"/>
+   </extension>
+
+</plugin>
