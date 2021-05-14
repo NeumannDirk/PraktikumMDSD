@@ -155,6 +155,7 @@ public class AssemblyViewTypeSemanticSequencer extends AbstractDelegatingSemanti
 	
 	/**
 	 * Contexts:
+	 *     InterfaceCommunicator returns System
 	 *     System returns System
 	 *
 	 * Constraint:

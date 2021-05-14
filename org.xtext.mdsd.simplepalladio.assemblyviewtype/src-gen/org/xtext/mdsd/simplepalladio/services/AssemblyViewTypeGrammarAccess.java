@@ -88,6 +88,17 @@ public class AssemblyViewTypeGrammarAccess extends AbstractElementFinder.Abstrac
 		//'}'
 		public Keyword getRightCurlyBracketKeyword_7() { return cRightCurlyBracketKeyword_7; }
 	}
+	public class InterfaceCommunicatorElements extends AbstractParserRuleElementFinder {
+		private final ParserRule rule = (ParserRule) GrammarUtil.findRuleForName(getGrammar(), "org.xtext.mdsd.simplepalladio.AssemblyViewType.InterfaceCommunicator");
+		private final RuleCall cSystemParserRuleCall = (RuleCall)rule.eContents().get(1);
+		
+		//InterfaceCommunicator SystemIndependentViewPoint::InterfaceCommunicator:
+		//	System;
+		@Override public ParserRule getRule() { return rule; }
+		
+		//System
+		public RuleCall getSystemParserRuleCall() { return cSystemParserRuleCall; }
+	}
 	public class AbstractSystemElementElements extends AbstractParserRuleElementFinder {
 		private final ParserRule rule = (ParserRule) GrammarUtil.findRuleForName(getGrammar(), "org.xtext.mdsd.simplepalladio.AssemblyViewType.AbstractSystemElement");
 		private final Alternatives cAlternatives = (Alternatives)rule.eContents().get(1);
@@ -626,6 +637,7 @@ public class AssemblyViewTypeGrammarAccess extends AbstractElementFinder.Abstrac
 	
 	
 	private final AssemblyViewTypeElements pAssemblyViewType;
+	private final InterfaceCommunicatorElements pInterfaceCommunicator;
 	private final AbstractSystemElementElements pAbstractSystemElement;
 	private final SystemElements pSystem;
 	private final EStringElements pEString;
@@ -644,6 +656,7 @@ public class AssemblyViewTypeGrammarAccess extends AbstractElementFinder.Abstrac
 		this.grammar = internalFindGrammar(grammarProvider);
 		this.gaTerminals = gaTerminals;
 		this.pAssemblyViewType = new AssemblyViewTypeElements();
+		this.pInterfaceCommunicator = new InterfaceCommunicatorElements();
 		this.pAbstractSystemElement = new AbstractSystemElementElements();
 		this.pSystem = new SystemElements();
 		this.pEString = new EStringElements();
@@ -691,6 +704,16 @@ public class AssemblyViewTypeGrammarAccess extends AbstractElementFinder.Abstrac
 	
 	public ParserRule getAssemblyViewTypeRule() {
 		return getAssemblyViewTypeAccess().getRule();
+	}
+	
+	//InterfaceCommunicator SystemIndependentViewPoint::InterfaceCommunicator:
+	//	System;
+	public InterfaceCommunicatorElements getInterfaceCommunicatorAccess() {
+		return pInterfaceCommunicator;
+	}
+	
+	public ParserRule getInterfaceCommunicatorRule() {
+		return getInterfaceCommunicatorAccess().getRule();
 	}
 	
 	//AbstractSystemElement AssemblyViewPoint::AbstractSystemElement:

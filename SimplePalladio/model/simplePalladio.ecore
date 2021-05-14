@@ -18,10 +18,10 @@
       <eStructuralFeatures xsi:type="ecore:EReference" name="signatures" lowerBound="1"
           upperBound="-1" eType="#//SystemIndependentViewPoint/Signature"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="parentProviderCommunicator"
-          lowerBound="1" upperBound="-1" eType="#//SystemIndependentViewPoint/InterfaceCommunicator"
+          upperBound="-1" eType="#//SystemIndependentViewPoint/InterfaceCommunicator"
           eOpposite="#//SystemIndependentViewPoint/InterfaceCommunicator/providedInterfaces"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="parentRequirereeCommunicator"
-          lowerBound="1" upperBound="-1" eType="#//SystemIndependentViewPoint/InterfaceCommunicator"
+          upperBound="-1" eType="#//SystemIndependentViewPoint/InterfaceCommunicator"
           eOpposite="#//SystemIndependentViewPoint/InterfaceCommunicator/requiredInterfaces"/>
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="CompositeComponent" eSuperTypes="#//SystemIndependentViewPoint/AbstractComponent">

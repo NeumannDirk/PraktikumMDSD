@@ -14,6 +14,7 @@ public abstract class AbstractAssemblyViewTypeValidator extends AbstractDeclarat
 	protected List<EPackage> getEPackages() {
 		List<EPackage> result = new ArrayList<EPackage>();
 		result.add(EPackage.Registry.INSTANCE.getEPackage("http://www.example.org/simplePalladio/AssemblyViewPoint"));
+		result.add(EPackage.Registry.INSTANCE.getEPackage("http://www.example.org/simplePalladio/SystemIndependentViewPoint"));
 		return result;
 	}
 }
