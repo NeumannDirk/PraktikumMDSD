@@ -4,6 +4,7 @@ package simplePalladio.AssemblyViewPoint;
 
 import org.eclipse.emf.common.util.EList;
 
+import simplePalladio.Common.NamedElement;
 import simplePalladio.SystemIndependentViewPoint.Interface;
 
 /**
@@ -27,7 +28,7 @@ import simplePalladio.SystemIndependentViewPoint.Interface;
  *        annotation="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot MustHaveOnlyOneParent='parentRequirereeAssemblyContext.oclIsUndefined() &lt;&gt; parentProviderAssemblyContext.oclIsUndefined()'"
  * @generated
  */
-public interface Role extends AbstractSystemElement {
+public interface Role extends AbstractSystemElement, NamedElement {
 	/**
 	 * Returns the value of the '<em><b>Parent Provider Assembly Context</b></em>' reference.
 	 * It is bidirectional and its opposite is '{@link simplePalladio.AssemblyViewPoint.AssemblyContext#getProvidedRoles <em>Provided Roles</em>}'.

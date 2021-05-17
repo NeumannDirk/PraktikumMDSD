@@ -244,89 +244,12 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
     // $ANTLR end "ruleAbstractSystemElement"
 
 
-    // $ANTLR start "entryRuleSystem"
-    // InternalAssemblyViewType.g:103:1: entryRuleSystem : ruleSystem EOF ;
-    public final void entryRuleSystem() throws RecognitionException {
-        try {
-            // InternalAssemblyViewType.g:104:1: ( ruleSystem EOF )
-            // InternalAssemblyViewType.g:105:1: ruleSystem EOF
-            {
-             before(grammarAccess.getSystemRule()); 
-            pushFollow(FOLLOW_1);
-            ruleSystem();
-
-            state._fsp--;
-
-             after(grammarAccess.getSystemRule()); 
-            match(input,EOF,FOLLOW_2); 
-
-            }
-
-        }
-        catch (RecognitionException re) {
-            reportError(re);
-            recover(input,re);
-        }
-        finally {
-        }
-        return ;
-    }
-    // $ANTLR end "entryRuleSystem"
-
-
-    // $ANTLR start "ruleSystem"
-    // InternalAssemblyViewType.g:112:1: ruleSystem : ( ( rule__System__Group__0 ) ) ;
-    public final void ruleSystem() throws RecognitionException {
-
-        		int stackSize = keepStackSize();
-        	
-        try {
-            // InternalAssemblyViewType.g:116:2: ( ( ( rule__System__Group__0 ) ) )
-            // InternalAssemblyViewType.g:117:2: ( ( rule__System__Group__0 ) )
-            {
-            // InternalAssemblyViewType.g:117:2: ( ( rule__System__Group__0 ) )
-            // InternalAssemblyViewType.g:118:3: ( rule__System__Group__0 )
-            {
-             before(grammarAccess.getSystemAccess().getGroup()); 
-            // InternalAssemblyViewType.g:119:3: ( rule__System__Group__0 )
-            // InternalAssemblyViewType.g:119:4: rule__System__Group__0
-            {
-            pushFollow(FOLLOW_2);
-            rule__System__Group__0();
-
-            state._fsp--;
-
-
-            }
-
-             after(grammarAccess.getSystemAccess().getGroup()); 
-
-            }
-
-
-            }
-
-        }
-        catch (RecognitionException re) {
-            reportError(re);
-            recover(input,re);
-        }
-        finally {
-
-            	restoreStackSize(stackSize);
-
-        }
-        return ;
-    }
-    // $ANTLR end "ruleSystem"
-
-
     // $ANTLR start "entryRuleEString"
-    // InternalAssemblyViewType.g:128:1: entryRuleEString : ruleEString EOF ;
+    // InternalAssemblyViewType.g:103:1: entryRuleEString : ruleEString EOF ;
     public final void entryRuleEString() throws RecognitionException {
         try {
-            // InternalAssemblyViewType.g:129:1: ( ruleEString EOF )
-            // InternalAssemblyViewType.g:130:1: ruleEString EOF
+            // InternalAssemblyViewType.g:104:1: ( ruleEString EOF )
+            // InternalAssemblyViewType.g:105:1: ruleEString EOF
             {
              before(grammarAccess.getEStringRule()); 
             pushFollow(FOLLOW_1);
@@ -352,21 +275,21 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "ruleEString"
-    // InternalAssemblyViewType.g:137:1: ruleEString : ( ( rule__EString__Alternatives ) ) ;
+    // InternalAssemblyViewType.g:112:1: ruleEString : ( ( rule__EString__Alternatives ) ) ;
     public final void ruleEString() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:141:2: ( ( ( rule__EString__Alternatives ) ) )
-            // InternalAssemblyViewType.g:142:2: ( ( rule__EString__Alternatives ) )
+            // InternalAssemblyViewType.g:116:2: ( ( ( rule__EString__Alternatives ) ) )
+            // InternalAssemblyViewType.g:117:2: ( ( rule__EString__Alternatives ) )
             {
-            // InternalAssemblyViewType.g:142:2: ( ( rule__EString__Alternatives ) )
-            // InternalAssemblyViewType.g:143:3: ( rule__EString__Alternatives )
+            // InternalAssemblyViewType.g:117:2: ( ( rule__EString__Alternatives ) )
+            // InternalAssemblyViewType.g:118:3: ( rule__EString__Alternatives )
             {
              before(grammarAccess.getEStringAccess().getAlternatives()); 
-            // InternalAssemblyViewType.g:144:3: ( rule__EString__Alternatives )
-            // InternalAssemblyViewType.g:144:4: rule__EString__Alternatives
+            // InternalAssemblyViewType.g:119:3: ( rule__EString__Alternatives )
+            // InternalAssemblyViewType.g:119:4: rule__EString__Alternatives
             {
             pushFollow(FOLLOW_2);
             rule__EString__Alternatives();
@@ -396,6 +319,83 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
         return ;
     }
     // $ANTLR end "ruleEString"
+
+
+    // $ANTLR start "entryRuleSystem"
+    // InternalAssemblyViewType.g:128:1: entryRuleSystem : ruleSystem EOF ;
+    public final void entryRuleSystem() throws RecognitionException {
+        try {
+            // InternalAssemblyViewType.g:129:1: ( ruleSystem EOF )
+            // InternalAssemblyViewType.g:130:1: ruleSystem EOF
+            {
+             before(grammarAccess.getSystemRule()); 
+            pushFollow(FOLLOW_1);
+            ruleSystem();
+
+            state._fsp--;
+
+             after(grammarAccess.getSystemRule()); 
+            match(input,EOF,FOLLOW_2); 
+
+            }
+
+        }
+        catch (RecognitionException re) {
+            reportError(re);
+            recover(input,re);
+        }
+        finally {
+        }
+        return ;
+    }
+    // $ANTLR end "entryRuleSystem"
+
+
+    // $ANTLR start "ruleSystem"
+    // InternalAssemblyViewType.g:137:1: ruleSystem : ( ( rule__System__Group__0 ) ) ;
+    public final void ruleSystem() throws RecognitionException {
+
+        		int stackSize = keepStackSize();
+        	
+        try {
+            // InternalAssemblyViewType.g:141:2: ( ( ( rule__System__Group__0 ) ) )
+            // InternalAssemblyViewType.g:142:2: ( ( rule__System__Group__0 ) )
+            {
+            // InternalAssemblyViewType.g:142:2: ( ( rule__System__Group__0 ) )
+            // InternalAssemblyViewType.g:143:3: ( rule__System__Group__0 )
+            {
+             before(grammarAccess.getSystemAccess().getGroup()); 
+            // InternalAssemblyViewType.g:144:3: ( rule__System__Group__0 )
+            // InternalAssemblyViewType.g:144:4: rule__System__Group__0
+            {
+            pushFollow(FOLLOW_2);
+            rule__System__Group__0();
+
+            state._fsp--;
+
+
+            }
+
+             after(grammarAccess.getSystemAccess().getGroup()); 
+
+            }
+
+
+            }
+
+        }
+        catch (RecognitionException re) {
+            reportError(re);
+            recover(input,re);
+        }
+        finally {
+
+            	restoreStackSize(stackSize);
+
+        }
+        return ;
+    }
+    // $ANTLR end "ruleSystem"
 
 
     // $ANTLR start "entryRuleAssemblyContext"
@@ -1706,7 +1706,7 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
             // InternalAssemblyViewType.g:580:1: ( rule__System__Group__0__Impl rule__System__Group__1 )
             // InternalAssemblyViewType.g:581:2: rule__System__Group__0__Impl rule__System__Group__1
             {
-            pushFollow(FOLLOW_3);
+            pushFollow(FOLLOW_9);
             rule__System__Group__0__Impl();
 
             state._fsp--;
@@ -1781,7 +1781,7 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
             // InternalAssemblyViewType.g:607:1: ( rule__System__Group__1__Impl rule__System__Group__2 )
             // InternalAssemblyViewType.g:608:2: rule__System__Group__1__Impl rule__System__Group__2
             {
-            pushFollow(FOLLOW_9);
+            pushFollow(FOLLOW_3);
             rule__System__Group__1__Impl();
 
             state._fsp--;
@@ -1810,21 +1810,31 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__System__Group__1__Impl"
-    // InternalAssemblyViewType.g:615:1: rule__System__Group__1__Impl : ( '{' ) ;
+    // InternalAssemblyViewType.g:615:1: rule__System__Group__1__Impl : ( ( rule__System__NameAssignment_1 ) ) ;
     public final void rule__System__Group__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:619:1: ( ( '{' ) )
-            // InternalAssemblyViewType.g:620:1: ( '{' )
+            // InternalAssemblyViewType.g:619:1: ( ( ( rule__System__NameAssignment_1 ) ) )
+            // InternalAssemblyViewType.g:620:1: ( ( rule__System__NameAssignment_1 ) )
             {
-            // InternalAssemblyViewType.g:620:1: ( '{' )
-            // InternalAssemblyViewType.g:621:2: '{'
+            // InternalAssemblyViewType.g:620:1: ( ( rule__System__NameAssignment_1 ) )
+            // InternalAssemblyViewType.g:621:2: ( rule__System__NameAssignment_1 )
             {
-             before(grammarAccess.getSystemAccess().getLeftCurlyBracketKeyword_1()); 
-            match(input,12,FOLLOW_2); 
-             after(grammarAccess.getSystemAccess().getLeftCurlyBracketKeyword_1()); 
+             before(grammarAccess.getSystemAccess().getNameAssignment_1()); 
+            // InternalAssemblyViewType.g:622:2: ( rule__System__NameAssignment_1 )
+            // InternalAssemblyViewType.g:622:3: rule__System__NameAssignment_1
+            {
+            pushFollow(FOLLOW_2);
+            rule__System__NameAssignment_1();
+
+            state._fsp--;
+
+
+            }
+
+             after(grammarAccess.getSystemAccess().getNameAssignment_1()); 
 
             }
 
@@ -1856,7 +1866,7 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
             // InternalAssemblyViewType.g:634:1: ( rule__System__Group__2__Impl rule__System__Group__3 )
             // InternalAssemblyViewType.g:635:2: rule__System__Group__2__Impl rule__System__Group__3
             {
-            pushFollow(FOLLOW_9);
+            pushFollow(FOLLOW_10);
             rule__System__Group__2__Impl();
 
             state._fsp--;
@@ -1885,42 +1895,21 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__System__Group__2__Impl"
-    // InternalAssemblyViewType.g:642:1: rule__System__Group__2__Impl : ( ( rule__System__Group_2__0 )? ) ;
+    // InternalAssemblyViewType.g:642:1: rule__System__Group__2__Impl : ( '{' ) ;
     public final void rule__System__Group__2__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:646:1: ( ( ( rule__System__Group_2__0 )? ) )
-            // InternalAssemblyViewType.g:647:1: ( ( rule__System__Group_2__0 )? )
+            // InternalAssemblyViewType.g:646:1: ( ( '{' ) )
+            // InternalAssemblyViewType.g:647:1: ( '{' )
             {
-            // InternalAssemblyViewType.g:647:1: ( ( rule__System__Group_2__0 )? )
-            // InternalAssemblyViewType.g:648:2: ( rule__System__Group_2__0 )?
+            // InternalAssemblyViewType.g:647:1: ( '{' )
+            // InternalAssemblyViewType.g:648:2: '{'
             {
-             before(grammarAccess.getSystemAccess().getGroup_2()); 
-            // InternalAssemblyViewType.g:649:2: ( rule__System__Group_2__0 )?
-            int alt4=2;
-            int LA4_0 = input.LA(1);
-
-            if ( (LA4_0==21) ) {
-                alt4=1;
-            }
-            switch (alt4) {
-                case 1 :
-                    // InternalAssemblyViewType.g:649:3: rule__System__Group_2__0
-                    {
-                    pushFollow(FOLLOW_2);
-                    rule__System__Group_2__0();
-
-                    state._fsp--;
-
-
-                    }
-                    break;
-
-            }
-
-             after(grammarAccess.getSystemAccess().getGroup_2()); 
+             before(grammarAccess.getSystemAccess().getLeftCurlyBracketKeyword_2()); 
+            match(input,12,FOLLOW_2); 
+             after(grammarAccess.getSystemAccess().getLeftCurlyBracketKeyword_2()); 
 
             }
 
@@ -1981,21 +1970,42 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__System__Group__3__Impl"
-    // InternalAssemblyViewType.g:669:1: rule__System__Group__3__Impl : ( 'providedInterfaces' ) ;
+    // InternalAssemblyViewType.g:669:1: rule__System__Group__3__Impl : ( ( rule__System__Group_3__0 )? ) ;
     public final void rule__System__Group__3__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:673:1: ( ( 'providedInterfaces' ) )
-            // InternalAssemblyViewType.g:674:1: ( 'providedInterfaces' )
+            // InternalAssemblyViewType.g:673:1: ( ( ( rule__System__Group_3__0 )? ) )
+            // InternalAssemblyViewType.g:674:1: ( ( rule__System__Group_3__0 )? )
             {
-            // InternalAssemblyViewType.g:674:1: ( 'providedInterfaces' )
-            // InternalAssemblyViewType.g:675:2: 'providedInterfaces'
+            // InternalAssemblyViewType.g:674:1: ( ( rule__System__Group_3__0 )? )
+            // InternalAssemblyViewType.g:675:2: ( rule__System__Group_3__0 )?
             {
-             before(grammarAccess.getSystemAccess().getProvidedInterfacesKeyword_3()); 
-            match(input,17,FOLLOW_2); 
-             after(grammarAccess.getSystemAccess().getProvidedInterfacesKeyword_3()); 
+             before(grammarAccess.getSystemAccess().getGroup_3()); 
+            // InternalAssemblyViewType.g:676:2: ( rule__System__Group_3__0 )?
+            int alt4=2;
+            int LA4_0 = input.LA(1);
+
+            if ( (LA4_0==21) ) {
+                alt4=1;
+            }
+            switch (alt4) {
+                case 1 :
+                    // InternalAssemblyViewType.g:676:3: rule__System__Group_3__0
+                    {
+                    pushFollow(FOLLOW_2);
+                    rule__System__Group_3__0();
+
+                    state._fsp--;
+
+
+                    }
+                    break;
+
+            }
+
+             after(grammarAccess.getSystemAccess().getGroup_3()); 
 
             }
 
@@ -2056,21 +2066,21 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__System__Group__4__Impl"
-    // InternalAssemblyViewType.g:696:1: rule__System__Group__4__Impl : ( '(' ) ;
+    // InternalAssemblyViewType.g:696:1: rule__System__Group__4__Impl : ( 'providedInterfaces' ) ;
     public final void rule__System__Group__4__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:700:1: ( ( '(' ) )
-            // InternalAssemblyViewType.g:701:1: ( '(' )
+            // InternalAssemblyViewType.g:700:1: ( ( 'providedInterfaces' ) )
+            // InternalAssemblyViewType.g:701:1: ( 'providedInterfaces' )
             {
-            // InternalAssemblyViewType.g:701:1: ( '(' )
-            // InternalAssemblyViewType.g:702:2: '('
+            // InternalAssemblyViewType.g:701:1: ( 'providedInterfaces' )
+            // InternalAssemblyViewType.g:702:2: 'providedInterfaces'
             {
-             before(grammarAccess.getSystemAccess().getLeftParenthesisKeyword_4()); 
-            match(input,18,FOLLOW_2); 
-             after(grammarAccess.getSystemAccess().getLeftParenthesisKeyword_4()); 
+             before(grammarAccess.getSystemAccess().getProvidedInterfacesKeyword_4()); 
+            match(input,17,FOLLOW_2); 
+             after(grammarAccess.getSystemAccess().getProvidedInterfacesKeyword_4()); 
 
             }
 
@@ -2102,7 +2112,7 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
             // InternalAssemblyViewType.g:715:1: ( rule__System__Group__5__Impl rule__System__Group__6 )
             // InternalAssemblyViewType.g:716:2: rule__System__Group__5__Impl rule__System__Group__6
             {
-            pushFollow(FOLLOW_12);
+            pushFollow(FOLLOW_9);
             rule__System__Group__5__Impl();
 
             state._fsp--;
@@ -2131,31 +2141,21 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__System__Group__5__Impl"
-    // InternalAssemblyViewType.g:723:1: rule__System__Group__5__Impl : ( ( rule__System__ProvidedInterfacesAssignment_5 ) ) ;
+    // InternalAssemblyViewType.g:723:1: rule__System__Group__5__Impl : ( '(' ) ;
     public final void rule__System__Group__5__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:727:1: ( ( ( rule__System__ProvidedInterfacesAssignment_5 ) ) )
-            // InternalAssemblyViewType.g:728:1: ( ( rule__System__ProvidedInterfacesAssignment_5 ) )
+            // InternalAssemblyViewType.g:727:1: ( ( '(' ) )
+            // InternalAssemblyViewType.g:728:1: ( '(' )
             {
-            // InternalAssemblyViewType.g:728:1: ( ( rule__System__ProvidedInterfacesAssignment_5 ) )
-            // InternalAssemblyViewType.g:729:2: ( rule__System__ProvidedInterfacesAssignment_5 )
+            // InternalAssemblyViewType.g:728:1: ( '(' )
+            // InternalAssemblyViewType.g:729:2: '('
             {
-             before(grammarAccess.getSystemAccess().getProvidedInterfacesAssignment_5()); 
-            // InternalAssemblyViewType.g:730:2: ( rule__System__ProvidedInterfacesAssignment_5 )
-            // InternalAssemblyViewType.g:730:3: rule__System__ProvidedInterfacesAssignment_5
-            {
-            pushFollow(FOLLOW_2);
-            rule__System__ProvidedInterfacesAssignment_5();
-
-            state._fsp--;
-
-
-            }
-
-             after(grammarAccess.getSystemAccess().getProvidedInterfacesAssignment_5()); 
+             before(grammarAccess.getSystemAccess().getLeftParenthesisKeyword_5()); 
+            match(input,18,FOLLOW_2); 
+             after(grammarAccess.getSystemAccess().getLeftParenthesisKeyword_5()); 
 
             }
 
@@ -2216,49 +2216,31 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__System__Group__6__Impl"
-    // InternalAssemblyViewType.g:750:1: rule__System__Group__6__Impl : ( ( rule__System__Group_6__0 )* ) ;
+    // InternalAssemblyViewType.g:750:1: rule__System__Group__6__Impl : ( ( rule__System__ProvidedInterfacesAssignment_6 ) ) ;
     public final void rule__System__Group__6__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:754:1: ( ( ( rule__System__Group_6__0 )* ) )
-            // InternalAssemblyViewType.g:755:1: ( ( rule__System__Group_6__0 )* )
+            // InternalAssemblyViewType.g:754:1: ( ( ( rule__System__ProvidedInterfacesAssignment_6 ) ) )
+            // InternalAssemblyViewType.g:755:1: ( ( rule__System__ProvidedInterfacesAssignment_6 ) )
             {
-            // InternalAssemblyViewType.g:755:1: ( ( rule__System__Group_6__0 )* )
-            // InternalAssemblyViewType.g:756:2: ( rule__System__Group_6__0 )*
+            // InternalAssemblyViewType.g:755:1: ( ( rule__System__ProvidedInterfacesAssignment_6 ) )
+            // InternalAssemblyViewType.g:756:2: ( rule__System__ProvidedInterfacesAssignment_6 )
             {
-             before(grammarAccess.getSystemAccess().getGroup_6()); 
-            // InternalAssemblyViewType.g:757:2: ( rule__System__Group_6__0 )*
-            loop5:
-            do {
-                int alt5=2;
-                int LA5_0 = input.LA(1);
+             before(grammarAccess.getSystemAccess().getProvidedInterfacesAssignment_6()); 
+            // InternalAssemblyViewType.g:757:2: ( rule__System__ProvidedInterfacesAssignment_6 )
+            // InternalAssemblyViewType.g:757:3: rule__System__ProvidedInterfacesAssignment_6
+            {
+            pushFollow(FOLLOW_2);
+            rule__System__ProvidedInterfacesAssignment_6();
 
-                if ( (LA5_0==15) ) {
-                    alt5=1;
-                }
+            state._fsp--;
 
 
-                switch (alt5) {
-            	case 1 :
-            	    // InternalAssemblyViewType.g:757:3: rule__System__Group_6__0
-            	    {
-            	    pushFollow(FOLLOW_7);
-            	    rule__System__Group_6__0();
+            }
 
-            	    state._fsp--;
-
-
-            	    }
-            	    break;
-
-            	default :
-            	    break loop5;
-                }
-            } while (true);
-
-             after(grammarAccess.getSystemAccess().getGroup_6()); 
+             after(grammarAccess.getSystemAccess().getProvidedInterfacesAssignment_6()); 
 
             }
 
@@ -2290,7 +2272,7 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
             // InternalAssemblyViewType.g:769:1: ( rule__System__Group__7__Impl rule__System__Group__8 )
             // InternalAssemblyViewType.g:770:2: rule__System__Group__7__Impl rule__System__Group__8
             {
-            pushFollow(FOLLOW_13);
+            pushFollow(FOLLOW_12);
             rule__System__Group__7__Impl();
 
             state._fsp--;
@@ -2319,21 +2301,49 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__System__Group__7__Impl"
-    // InternalAssemblyViewType.g:777:1: rule__System__Group__7__Impl : ( ')' ) ;
+    // InternalAssemblyViewType.g:777:1: rule__System__Group__7__Impl : ( ( rule__System__Group_7__0 )* ) ;
     public final void rule__System__Group__7__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:781:1: ( ( ')' ) )
-            // InternalAssemblyViewType.g:782:1: ( ')' )
+            // InternalAssemblyViewType.g:781:1: ( ( ( rule__System__Group_7__0 )* ) )
+            // InternalAssemblyViewType.g:782:1: ( ( rule__System__Group_7__0 )* )
             {
-            // InternalAssemblyViewType.g:782:1: ( ')' )
-            // InternalAssemblyViewType.g:783:2: ')'
+            // InternalAssemblyViewType.g:782:1: ( ( rule__System__Group_7__0 )* )
+            // InternalAssemblyViewType.g:783:2: ( rule__System__Group_7__0 )*
             {
-             before(grammarAccess.getSystemAccess().getRightParenthesisKeyword_7()); 
-            match(input,19,FOLLOW_2); 
-             after(grammarAccess.getSystemAccess().getRightParenthesisKeyword_7()); 
+             before(grammarAccess.getSystemAccess().getGroup_7()); 
+            // InternalAssemblyViewType.g:784:2: ( rule__System__Group_7__0 )*
+            loop5:
+            do {
+                int alt5=2;
+                int LA5_0 = input.LA(1);
+
+                if ( (LA5_0==15) ) {
+                    alt5=1;
+                }
+
+
+                switch (alt5) {
+            	case 1 :
+            	    // InternalAssemblyViewType.g:784:3: rule__System__Group_7__0
+            	    {
+            	    pushFollow(FOLLOW_7);
+            	    rule__System__Group_7__0();
+
+            	    state._fsp--;
+
+
+            	    }
+            	    break;
+
+            	default :
+            	    break loop5;
+                }
+            } while (true);
+
+             after(grammarAccess.getSystemAccess().getGroup_7()); 
 
             }
 
@@ -2365,7 +2375,7 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
             // InternalAssemblyViewType.g:796:1: ( rule__System__Group__8__Impl rule__System__Group__9 )
             // InternalAssemblyViewType.g:797:2: rule__System__Group__8__Impl rule__System__Group__9
             {
-            pushFollow(FOLLOW_3);
+            pushFollow(FOLLOW_13);
             rule__System__Group__8__Impl();
 
             state._fsp--;
@@ -2394,21 +2404,21 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__System__Group__8__Impl"
-    // InternalAssemblyViewType.g:804:1: rule__System__Group__8__Impl : ( 'systemElements' ) ;
+    // InternalAssemblyViewType.g:804:1: rule__System__Group__8__Impl : ( ')' ) ;
     public final void rule__System__Group__8__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:808:1: ( ( 'systemElements' ) )
-            // InternalAssemblyViewType.g:809:1: ( 'systemElements' )
+            // InternalAssemblyViewType.g:808:1: ( ( ')' ) )
+            // InternalAssemblyViewType.g:809:1: ( ')' )
             {
-            // InternalAssemblyViewType.g:809:1: ( 'systemElements' )
-            // InternalAssemblyViewType.g:810:2: 'systemElements'
+            // InternalAssemblyViewType.g:809:1: ( ')' )
+            // InternalAssemblyViewType.g:810:2: ')'
             {
-             before(grammarAccess.getSystemAccess().getSystemElementsKeyword_8()); 
-            match(input,20,FOLLOW_2); 
-             after(grammarAccess.getSystemAccess().getSystemElementsKeyword_8()); 
+             before(grammarAccess.getSystemAccess().getRightParenthesisKeyword_8()); 
+            match(input,19,FOLLOW_2); 
+             after(grammarAccess.getSystemAccess().getRightParenthesisKeyword_8()); 
 
             }
 
@@ -2440,7 +2450,7 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
             // InternalAssemblyViewType.g:823:1: ( rule__System__Group__9__Impl rule__System__Group__10 )
             // InternalAssemblyViewType.g:824:2: rule__System__Group__9__Impl rule__System__Group__10
             {
-            pushFollow(FOLLOW_14);
+            pushFollow(FOLLOW_3);
             rule__System__Group__9__Impl();
 
             state._fsp--;
@@ -2469,21 +2479,21 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__System__Group__9__Impl"
-    // InternalAssemblyViewType.g:831:1: rule__System__Group__9__Impl : ( '{' ) ;
+    // InternalAssemblyViewType.g:831:1: rule__System__Group__9__Impl : ( 'systemElements' ) ;
     public final void rule__System__Group__9__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:835:1: ( ( '{' ) )
-            // InternalAssemblyViewType.g:836:1: ( '{' )
+            // InternalAssemblyViewType.g:835:1: ( ( 'systemElements' ) )
+            // InternalAssemblyViewType.g:836:1: ( 'systemElements' )
             {
-            // InternalAssemblyViewType.g:836:1: ( '{' )
-            // InternalAssemblyViewType.g:837:2: '{'
+            // InternalAssemblyViewType.g:836:1: ( 'systemElements' )
+            // InternalAssemblyViewType.g:837:2: 'systemElements'
             {
-             before(grammarAccess.getSystemAccess().getLeftCurlyBracketKeyword_9()); 
-            match(input,12,FOLLOW_2); 
-             after(grammarAccess.getSystemAccess().getLeftCurlyBracketKeyword_9()); 
+             before(grammarAccess.getSystemAccess().getSystemElementsKeyword_9()); 
+            match(input,20,FOLLOW_2); 
+             after(grammarAccess.getSystemAccess().getSystemElementsKeyword_9()); 
 
             }
 
@@ -2515,7 +2525,7 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
             // InternalAssemblyViewType.g:850:1: ( rule__System__Group__10__Impl rule__System__Group__11 )
             // InternalAssemblyViewType.g:851:2: rule__System__Group__10__Impl rule__System__Group__11
             {
-            pushFollow(FOLLOW_6);
+            pushFollow(FOLLOW_14);
             rule__System__Group__10__Impl();
 
             state._fsp--;
@@ -2544,31 +2554,21 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__System__Group__10__Impl"
-    // InternalAssemblyViewType.g:858:1: rule__System__Group__10__Impl : ( ( rule__System__SystemElementsAssignment_10 ) ) ;
+    // InternalAssemblyViewType.g:858:1: rule__System__Group__10__Impl : ( '{' ) ;
     public final void rule__System__Group__10__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:862:1: ( ( ( rule__System__SystemElementsAssignment_10 ) ) )
-            // InternalAssemblyViewType.g:863:1: ( ( rule__System__SystemElementsAssignment_10 ) )
+            // InternalAssemblyViewType.g:862:1: ( ( '{' ) )
+            // InternalAssemblyViewType.g:863:1: ( '{' )
             {
-            // InternalAssemblyViewType.g:863:1: ( ( rule__System__SystemElementsAssignment_10 ) )
-            // InternalAssemblyViewType.g:864:2: ( rule__System__SystemElementsAssignment_10 )
+            // InternalAssemblyViewType.g:863:1: ( '{' )
+            // InternalAssemblyViewType.g:864:2: '{'
             {
-             before(grammarAccess.getSystemAccess().getSystemElementsAssignment_10()); 
-            // InternalAssemblyViewType.g:865:2: ( rule__System__SystemElementsAssignment_10 )
-            // InternalAssemblyViewType.g:865:3: rule__System__SystemElementsAssignment_10
-            {
-            pushFollow(FOLLOW_2);
-            rule__System__SystemElementsAssignment_10();
-
-            state._fsp--;
-
-
-            }
-
-             after(grammarAccess.getSystemAccess().getSystemElementsAssignment_10()); 
+             before(grammarAccess.getSystemAccess().getLeftCurlyBracketKeyword_10()); 
+            match(input,12,FOLLOW_2); 
+             after(grammarAccess.getSystemAccess().getLeftCurlyBracketKeyword_10()); 
 
             }
 
@@ -2629,49 +2629,31 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__System__Group__11__Impl"
-    // InternalAssemblyViewType.g:885:1: rule__System__Group__11__Impl : ( ( rule__System__Group_11__0 )* ) ;
+    // InternalAssemblyViewType.g:885:1: rule__System__Group__11__Impl : ( ( rule__System__SystemElementsAssignment_11 ) ) ;
     public final void rule__System__Group__11__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:889:1: ( ( ( rule__System__Group_11__0 )* ) )
-            // InternalAssemblyViewType.g:890:1: ( ( rule__System__Group_11__0 )* )
+            // InternalAssemblyViewType.g:889:1: ( ( ( rule__System__SystemElementsAssignment_11 ) ) )
+            // InternalAssemblyViewType.g:890:1: ( ( rule__System__SystemElementsAssignment_11 ) )
             {
-            // InternalAssemblyViewType.g:890:1: ( ( rule__System__Group_11__0 )* )
-            // InternalAssemblyViewType.g:891:2: ( rule__System__Group_11__0 )*
+            // InternalAssemblyViewType.g:890:1: ( ( rule__System__SystemElementsAssignment_11 ) )
+            // InternalAssemblyViewType.g:891:2: ( rule__System__SystemElementsAssignment_11 )
             {
-             before(grammarAccess.getSystemAccess().getGroup_11()); 
-            // InternalAssemblyViewType.g:892:2: ( rule__System__Group_11__0 )*
-            loop6:
-            do {
-                int alt6=2;
-                int LA6_0 = input.LA(1);
+             before(grammarAccess.getSystemAccess().getSystemElementsAssignment_11()); 
+            // InternalAssemblyViewType.g:892:2: ( rule__System__SystemElementsAssignment_11 )
+            // InternalAssemblyViewType.g:892:3: rule__System__SystemElementsAssignment_11
+            {
+            pushFollow(FOLLOW_2);
+            rule__System__SystemElementsAssignment_11();
 
-                if ( (LA6_0==15) ) {
-                    alt6=1;
-                }
+            state._fsp--;
 
 
-                switch (alt6) {
-            	case 1 :
-            	    // InternalAssemblyViewType.g:892:3: rule__System__Group_11__0
-            	    {
-            	    pushFollow(FOLLOW_7);
-            	    rule__System__Group_11__0();
+            }
 
-            	    state._fsp--;
-
-
-            	    }
-            	    break;
-
-            	default :
-            	    break loop6;
-                }
-            } while (true);
-
-             after(grammarAccess.getSystemAccess().getGroup_11()); 
+             after(grammarAccess.getSystemAccess().getSystemElementsAssignment_11()); 
 
             }
 
@@ -2703,7 +2685,7 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
             // InternalAssemblyViewType.g:904:1: ( rule__System__Group__12__Impl rule__System__Group__13 )
             // InternalAssemblyViewType.g:905:2: rule__System__Group__12__Impl rule__System__Group__13
             {
-            pushFollow(FOLLOW_8);
+            pushFollow(FOLLOW_6);
             rule__System__Group__12__Impl();
 
             state._fsp--;
@@ -2732,21 +2714,49 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__System__Group__12__Impl"
-    // InternalAssemblyViewType.g:912:1: rule__System__Group__12__Impl : ( '}' ) ;
+    // InternalAssemblyViewType.g:912:1: rule__System__Group__12__Impl : ( ( rule__System__Group_12__0 )* ) ;
     public final void rule__System__Group__12__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:916:1: ( ( '}' ) )
-            // InternalAssemblyViewType.g:917:1: ( '}' )
+            // InternalAssemblyViewType.g:916:1: ( ( ( rule__System__Group_12__0 )* ) )
+            // InternalAssemblyViewType.g:917:1: ( ( rule__System__Group_12__0 )* )
             {
-            // InternalAssemblyViewType.g:917:1: ( '}' )
-            // InternalAssemblyViewType.g:918:2: '}'
+            // InternalAssemblyViewType.g:917:1: ( ( rule__System__Group_12__0 )* )
+            // InternalAssemblyViewType.g:918:2: ( rule__System__Group_12__0 )*
             {
-             before(grammarAccess.getSystemAccess().getRightCurlyBracketKeyword_12()); 
-            match(input,14,FOLLOW_2); 
-             after(grammarAccess.getSystemAccess().getRightCurlyBracketKeyword_12()); 
+             before(grammarAccess.getSystemAccess().getGroup_12()); 
+            // InternalAssemblyViewType.g:919:2: ( rule__System__Group_12__0 )*
+            loop6:
+            do {
+                int alt6=2;
+                int LA6_0 = input.LA(1);
+
+                if ( (LA6_0==15) ) {
+                    alt6=1;
+                }
+
+
+                switch (alt6) {
+            	case 1 :
+            	    // InternalAssemblyViewType.g:919:3: rule__System__Group_12__0
+            	    {
+            	    pushFollow(FOLLOW_7);
+            	    rule__System__Group_12__0();
+
+            	    state._fsp--;
+
+
+            	    }
+            	    break;
+
+            	default :
+            	    break loop6;
+                }
+            } while (true);
+
+             after(grammarAccess.getSystemAccess().getGroup_12()); 
 
             }
 
@@ -2769,17 +2779,22 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__System__Group__13"
-    // InternalAssemblyViewType.g:927:1: rule__System__Group__13 : rule__System__Group__13__Impl ;
+    // InternalAssemblyViewType.g:927:1: rule__System__Group__13 : rule__System__Group__13__Impl rule__System__Group__14 ;
     public final void rule__System__Group__13() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:931:1: ( rule__System__Group__13__Impl )
-            // InternalAssemblyViewType.g:932:2: rule__System__Group__13__Impl
+            // InternalAssemblyViewType.g:931:1: ( rule__System__Group__13__Impl rule__System__Group__14 )
+            // InternalAssemblyViewType.g:932:2: rule__System__Group__13__Impl rule__System__Group__14
             {
-            pushFollow(FOLLOW_2);
+            pushFollow(FOLLOW_8);
             rule__System__Group__13__Impl();
+
+            state._fsp--;
+
+            pushFollow(FOLLOW_2);
+            rule__System__Group__14();
 
             state._fsp--;
 
@@ -2802,17 +2817,17 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__System__Group__13__Impl"
-    // InternalAssemblyViewType.g:938:1: rule__System__Group__13__Impl : ( '}' ) ;
+    // InternalAssemblyViewType.g:939:1: rule__System__Group__13__Impl : ( '}' ) ;
     public final void rule__System__Group__13__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:942:1: ( ( '}' ) )
-            // InternalAssemblyViewType.g:943:1: ( '}' )
+            // InternalAssemblyViewType.g:943:1: ( ( '}' ) )
+            // InternalAssemblyViewType.g:944:1: ( '}' )
             {
-            // InternalAssemblyViewType.g:943:1: ( '}' )
-            // InternalAssemblyViewType.g:944:2: '}'
+            // InternalAssemblyViewType.g:944:1: ( '}' )
+            // InternalAssemblyViewType.g:945:2: '}'
             {
              before(grammarAccess.getSystemAccess().getRightCurlyBracketKeyword_13()); 
             match(input,14,FOLLOW_2); 
@@ -2838,23 +2853,18 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
     // $ANTLR end "rule__System__Group__13__Impl"
 
 
-    // $ANTLR start "rule__System__Group_2__0"
-    // InternalAssemblyViewType.g:954:1: rule__System__Group_2__0 : rule__System__Group_2__0__Impl rule__System__Group_2__1 ;
-    public final void rule__System__Group_2__0() throws RecognitionException {
+    // $ANTLR start "rule__System__Group__14"
+    // InternalAssemblyViewType.g:954:1: rule__System__Group__14 : rule__System__Group__14__Impl ;
+    public final void rule__System__Group__14() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:958:1: ( rule__System__Group_2__0__Impl rule__System__Group_2__1 )
-            // InternalAssemblyViewType.g:959:2: rule__System__Group_2__0__Impl rule__System__Group_2__1
+            // InternalAssemblyViewType.g:958:1: ( rule__System__Group__14__Impl )
+            // InternalAssemblyViewType.g:959:2: rule__System__Group__14__Impl
             {
-            pushFollow(FOLLOW_10);
-            rule__System__Group_2__0__Impl();
-
-            state._fsp--;
-
             pushFollow(FOLLOW_2);
-            rule__System__Group_2__1();
+            rule__System__Group__14__Impl();
 
             state._fsp--;
 
@@ -2873,25 +2883,25 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
         }
         return ;
     }
-    // $ANTLR end "rule__System__Group_2__0"
+    // $ANTLR end "rule__System__Group__14"
 
 
-    // $ANTLR start "rule__System__Group_2__0__Impl"
-    // InternalAssemblyViewType.g:966:1: rule__System__Group_2__0__Impl : ( 'requiredInterfaces' ) ;
-    public final void rule__System__Group_2__0__Impl() throws RecognitionException {
+    // $ANTLR start "rule__System__Group__14__Impl"
+    // InternalAssemblyViewType.g:965:1: rule__System__Group__14__Impl : ( '}' ) ;
+    public final void rule__System__Group__14__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:970:1: ( ( 'requiredInterfaces' ) )
-            // InternalAssemblyViewType.g:971:1: ( 'requiredInterfaces' )
+            // InternalAssemblyViewType.g:969:1: ( ( '}' ) )
+            // InternalAssemblyViewType.g:970:1: ( '}' )
             {
-            // InternalAssemblyViewType.g:971:1: ( 'requiredInterfaces' )
-            // InternalAssemblyViewType.g:972:2: 'requiredInterfaces'
+            // InternalAssemblyViewType.g:970:1: ( '}' )
+            // InternalAssemblyViewType.g:971:2: '}'
             {
-             before(grammarAccess.getSystemAccess().getRequiredInterfacesKeyword_2_0()); 
-            match(input,21,FOLLOW_2); 
-             after(grammarAccess.getSystemAccess().getRequiredInterfacesKeyword_2_0()); 
+             before(grammarAccess.getSystemAccess().getRightCurlyBracketKeyword_14()); 
+            match(input,14,FOLLOW_2); 
+             after(grammarAccess.getSystemAccess().getRightCurlyBracketKeyword_14()); 
 
             }
 
@@ -2910,26 +2920,26 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
         }
         return ;
     }
-    // $ANTLR end "rule__System__Group_2__0__Impl"
+    // $ANTLR end "rule__System__Group__14__Impl"
 
 
-    // $ANTLR start "rule__System__Group_2__1"
-    // InternalAssemblyViewType.g:981:1: rule__System__Group_2__1 : rule__System__Group_2__1__Impl rule__System__Group_2__2 ;
-    public final void rule__System__Group_2__1() throws RecognitionException {
+    // $ANTLR start "rule__System__Group_3__0"
+    // InternalAssemblyViewType.g:981:1: rule__System__Group_3__0 : rule__System__Group_3__0__Impl rule__System__Group_3__1 ;
+    public final void rule__System__Group_3__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:985:1: ( rule__System__Group_2__1__Impl rule__System__Group_2__2 )
-            // InternalAssemblyViewType.g:986:2: rule__System__Group_2__1__Impl rule__System__Group_2__2
+            // InternalAssemblyViewType.g:985:1: ( rule__System__Group_3__0__Impl rule__System__Group_3__1 )
+            // InternalAssemblyViewType.g:986:2: rule__System__Group_3__0__Impl rule__System__Group_3__1
             {
             pushFollow(FOLLOW_11);
-            rule__System__Group_2__1__Impl();
+            rule__System__Group_3__0__Impl();
 
             state._fsp--;
 
             pushFollow(FOLLOW_2);
-            rule__System__Group_2__2();
+            rule__System__Group_3__1();
 
             state._fsp--;
 
@@ -2948,25 +2958,100 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
         }
         return ;
     }
-    // $ANTLR end "rule__System__Group_2__1"
+    // $ANTLR end "rule__System__Group_3__0"
 
 
-    // $ANTLR start "rule__System__Group_2__1__Impl"
-    // InternalAssemblyViewType.g:993:1: rule__System__Group_2__1__Impl : ( '(' ) ;
-    public final void rule__System__Group_2__1__Impl() throws RecognitionException {
+    // $ANTLR start "rule__System__Group_3__0__Impl"
+    // InternalAssemblyViewType.g:993:1: rule__System__Group_3__0__Impl : ( 'requiredInterfaces' ) ;
+    public final void rule__System__Group_3__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:997:1: ( ( '(' ) )
-            // InternalAssemblyViewType.g:998:1: ( '(' )
+            // InternalAssemblyViewType.g:997:1: ( ( 'requiredInterfaces' ) )
+            // InternalAssemblyViewType.g:998:1: ( 'requiredInterfaces' )
             {
-            // InternalAssemblyViewType.g:998:1: ( '(' )
-            // InternalAssemblyViewType.g:999:2: '('
+            // InternalAssemblyViewType.g:998:1: ( 'requiredInterfaces' )
+            // InternalAssemblyViewType.g:999:2: 'requiredInterfaces'
             {
-             before(grammarAccess.getSystemAccess().getLeftParenthesisKeyword_2_1()); 
+             before(grammarAccess.getSystemAccess().getRequiredInterfacesKeyword_3_0()); 
+            match(input,21,FOLLOW_2); 
+             after(grammarAccess.getSystemAccess().getRequiredInterfacesKeyword_3_0()); 
+
+            }
+
+
+            }
+
+        }
+        catch (RecognitionException re) {
+            reportError(re);
+            recover(input,re);
+        }
+        finally {
+
+            	restoreStackSize(stackSize);
+
+        }
+        return ;
+    }
+    // $ANTLR end "rule__System__Group_3__0__Impl"
+
+
+    // $ANTLR start "rule__System__Group_3__1"
+    // InternalAssemblyViewType.g:1008:1: rule__System__Group_3__1 : rule__System__Group_3__1__Impl rule__System__Group_3__2 ;
+    public final void rule__System__Group_3__1() throws RecognitionException {
+
+        		int stackSize = keepStackSize();
+        	
+        try {
+            // InternalAssemblyViewType.g:1012:1: ( rule__System__Group_3__1__Impl rule__System__Group_3__2 )
+            // InternalAssemblyViewType.g:1013:2: rule__System__Group_3__1__Impl rule__System__Group_3__2
+            {
+            pushFollow(FOLLOW_9);
+            rule__System__Group_3__1__Impl();
+
+            state._fsp--;
+
+            pushFollow(FOLLOW_2);
+            rule__System__Group_3__2();
+
+            state._fsp--;
+
+
+            }
+
+        }
+        catch (RecognitionException re) {
+            reportError(re);
+            recover(input,re);
+        }
+        finally {
+
+            	restoreStackSize(stackSize);
+
+        }
+        return ;
+    }
+    // $ANTLR end "rule__System__Group_3__1"
+
+
+    // $ANTLR start "rule__System__Group_3__1__Impl"
+    // InternalAssemblyViewType.g:1020:1: rule__System__Group_3__1__Impl : ( '(' ) ;
+    public final void rule__System__Group_3__1__Impl() throws RecognitionException {
+
+        		int stackSize = keepStackSize();
+        	
+        try {
+            // InternalAssemblyViewType.g:1024:1: ( ( '(' ) )
+            // InternalAssemblyViewType.g:1025:1: ( '(' )
+            {
+            // InternalAssemblyViewType.g:1025:1: ( '(' )
+            // InternalAssemblyViewType.g:1026:2: '('
+            {
+             before(grammarAccess.getSystemAccess().getLeftParenthesisKeyword_3_1()); 
             match(input,18,FOLLOW_2); 
-             after(grammarAccess.getSystemAccess().getLeftParenthesisKeyword_2_1()); 
+             after(grammarAccess.getSystemAccess().getLeftParenthesisKeyword_3_1()); 
 
             }
 
@@ -2985,26 +3070,26 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
         }
         return ;
     }
-    // $ANTLR end "rule__System__Group_2__1__Impl"
+    // $ANTLR end "rule__System__Group_3__1__Impl"
 
 
-    // $ANTLR start "rule__System__Group_2__2"
-    // InternalAssemblyViewType.g:1008:1: rule__System__Group_2__2 : rule__System__Group_2__2__Impl rule__System__Group_2__3 ;
-    public final void rule__System__Group_2__2() throws RecognitionException {
+    // $ANTLR start "rule__System__Group_3__2"
+    // InternalAssemblyViewType.g:1035:1: rule__System__Group_3__2 : rule__System__Group_3__2__Impl rule__System__Group_3__3 ;
+    public final void rule__System__Group_3__2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1012:1: ( rule__System__Group_2__2__Impl rule__System__Group_2__3 )
-            // InternalAssemblyViewType.g:1013:2: rule__System__Group_2__2__Impl rule__System__Group_2__3
+            // InternalAssemblyViewType.g:1039:1: ( rule__System__Group_3__2__Impl rule__System__Group_3__3 )
+            // InternalAssemblyViewType.g:1040:2: rule__System__Group_3__2__Impl rule__System__Group_3__3
             {
             pushFollow(FOLLOW_12);
-            rule__System__Group_2__2__Impl();
+            rule__System__Group_3__2__Impl();
 
             state._fsp--;
 
             pushFollow(FOLLOW_2);
-            rule__System__Group_2__3();
+            rule__System__Group_3__3();
 
             state._fsp--;
 
@@ -3023,35 +3108,35 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
         }
         return ;
     }
-    // $ANTLR end "rule__System__Group_2__2"
+    // $ANTLR end "rule__System__Group_3__2"
 
 
-    // $ANTLR start "rule__System__Group_2__2__Impl"
-    // InternalAssemblyViewType.g:1020:1: rule__System__Group_2__2__Impl : ( ( rule__System__RequiredInterfacesAssignment_2_2 ) ) ;
-    public final void rule__System__Group_2__2__Impl() throws RecognitionException {
+    // $ANTLR start "rule__System__Group_3__2__Impl"
+    // InternalAssemblyViewType.g:1047:1: rule__System__Group_3__2__Impl : ( ( rule__System__RequiredInterfacesAssignment_3_2 ) ) ;
+    public final void rule__System__Group_3__2__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1024:1: ( ( ( rule__System__RequiredInterfacesAssignment_2_2 ) ) )
-            // InternalAssemblyViewType.g:1025:1: ( ( rule__System__RequiredInterfacesAssignment_2_2 ) )
+            // InternalAssemblyViewType.g:1051:1: ( ( ( rule__System__RequiredInterfacesAssignment_3_2 ) ) )
+            // InternalAssemblyViewType.g:1052:1: ( ( rule__System__RequiredInterfacesAssignment_3_2 ) )
             {
-            // InternalAssemblyViewType.g:1025:1: ( ( rule__System__RequiredInterfacesAssignment_2_2 ) )
-            // InternalAssemblyViewType.g:1026:2: ( rule__System__RequiredInterfacesAssignment_2_2 )
+            // InternalAssemblyViewType.g:1052:1: ( ( rule__System__RequiredInterfacesAssignment_3_2 ) )
+            // InternalAssemblyViewType.g:1053:2: ( rule__System__RequiredInterfacesAssignment_3_2 )
             {
-             before(grammarAccess.getSystemAccess().getRequiredInterfacesAssignment_2_2()); 
-            // InternalAssemblyViewType.g:1027:2: ( rule__System__RequiredInterfacesAssignment_2_2 )
-            // InternalAssemblyViewType.g:1027:3: rule__System__RequiredInterfacesAssignment_2_2
+             before(grammarAccess.getSystemAccess().getRequiredInterfacesAssignment_3_2()); 
+            // InternalAssemblyViewType.g:1054:2: ( rule__System__RequiredInterfacesAssignment_3_2 )
+            // InternalAssemblyViewType.g:1054:3: rule__System__RequiredInterfacesAssignment_3_2
             {
             pushFollow(FOLLOW_2);
-            rule__System__RequiredInterfacesAssignment_2_2();
+            rule__System__RequiredInterfacesAssignment_3_2();
 
             state._fsp--;
 
 
             }
 
-             after(grammarAccess.getSystemAccess().getRequiredInterfacesAssignment_2_2()); 
+             after(grammarAccess.getSystemAccess().getRequiredInterfacesAssignment_3_2()); 
 
             }
 
@@ -3070,26 +3155,26 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
         }
         return ;
     }
-    // $ANTLR end "rule__System__Group_2__2__Impl"
+    // $ANTLR end "rule__System__Group_3__2__Impl"
 
 
-    // $ANTLR start "rule__System__Group_2__3"
-    // InternalAssemblyViewType.g:1035:1: rule__System__Group_2__3 : rule__System__Group_2__3__Impl rule__System__Group_2__4 ;
-    public final void rule__System__Group_2__3() throws RecognitionException {
+    // $ANTLR start "rule__System__Group_3__3"
+    // InternalAssemblyViewType.g:1062:1: rule__System__Group_3__3 : rule__System__Group_3__3__Impl rule__System__Group_3__4 ;
+    public final void rule__System__Group_3__3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1039:1: ( rule__System__Group_2__3__Impl rule__System__Group_2__4 )
-            // InternalAssemblyViewType.g:1040:2: rule__System__Group_2__3__Impl rule__System__Group_2__4
+            // InternalAssemblyViewType.g:1066:1: ( rule__System__Group_3__3__Impl rule__System__Group_3__4 )
+            // InternalAssemblyViewType.g:1067:2: rule__System__Group_3__3__Impl rule__System__Group_3__4
             {
             pushFollow(FOLLOW_12);
-            rule__System__Group_2__3__Impl();
+            rule__System__Group_3__3__Impl();
 
             state._fsp--;
 
             pushFollow(FOLLOW_2);
-            rule__System__Group_2__4();
+            rule__System__Group_3__4();
 
             state._fsp--;
 
@@ -3108,24 +3193,24 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
         }
         return ;
     }
-    // $ANTLR end "rule__System__Group_2__3"
+    // $ANTLR end "rule__System__Group_3__3"
 
 
-    // $ANTLR start "rule__System__Group_2__3__Impl"
-    // InternalAssemblyViewType.g:1047:1: rule__System__Group_2__3__Impl : ( ( rule__System__Group_2_3__0 )* ) ;
-    public final void rule__System__Group_2__3__Impl() throws RecognitionException {
+    // $ANTLR start "rule__System__Group_3__3__Impl"
+    // InternalAssemblyViewType.g:1074:1: rule__System__Group_3__3__Impl : ( ( rule__System__Group_3_3__0 )* ) ;
+    public final void rule__System__Group_3__3__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1051:1: ( ( ( rule__System__Group_2_3__0 )* ) )
-            // InternalAssemblyViewType.g:1052:1: ( ( rule__System__Group_2_3__0 )* )
+            // InternalAssemblyViewType.g:1078:1: ( ( ( rule__System__Group_3_3__0 )* ) )
+            // InternalAssemblyViewType.g:1079:1: ( ( rule__System__Group_3_3__0 )* )
             {
-            // InternalAssemblyViewType.g:1052:1: ( ( rule__System__Group_2_3__0 )* )
-            // InternalAssemblyViewType.g:1053:2: ( rule__System__Group_2_3__0 )*
+            // InternalAssemblyViewType.g:1079:1: ( ( rule__System__Group_3_3__0 )* )
+            // InternalAssemblyViewType.g:1080:2: ( rule__System__Group_3_3__0 )*
             {
-             before(grammarAccess.getSystemAccess().getGroup_2_3()); 
-            // InternalAssemblyViewType.g:1054:2: ( rule__System__Group_2_3__0 )*
+             before(grammarAccess.getSystemAccess().getGroup_3_3()); 
+            // InternalAssemblyViewType.g:1081:2: ( rule__System__Group_3_3__0 )*
             loop7:
             do {
                 int alt7=2;
@@ -3138,10 +3223,10 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
                 switch (alt7) {
             	case 1 :
-            	    // InternalAssemblyViewType.g:1054:3: rule__System__Group_2_3__0
+            	    // InternalAssemblyViewType.g:1081:3: rule__System__Group_3_3__0
             	    {
             	    pushFollow(FOLLOW_7);
-            	    rule__System__Group_2_3__0();
+            	    rule__System__Group_3_3__0();
 
             	    state._fsp--;
 
@@ -3154,7 +3239,7 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
                 }
             } while (true);
 
-             after(grammarAccess.getSystemAccess().getGroup_2_3()); 
+             after(grammarAccess.getSystemAccess().getGroup_3_3()); 
 
             }
 
@@ -3173,21 +3258,21 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
         }
         return ;
     }
-    // $ANTLR end "rule__System__Group_2__3__Impl"
+    // $ANTLR end "rule__System__Group_3__3__Impl"
 
 
-    // $ANTLR start "rule__System__Group_2__4"
-    // InternalAssemblyViewType.g:1062:1: rule__System__Group_2__4 : rule__System__Group_2__4__Impl ;
-    public final void rule__System__Group_2__4() throws RecognitionException {
+    // $ANTLR start "rule__System__Group_3__4"
+    // InternalAssemblyViewType.g:1089:1: rule__System__Group_3__4 : rule__System__Group_3__4__Impl ;
+    public final void rule__System__Group_3__4() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1066:1: ( rule__System__Group_2__4__Impl )
-            // InternalAssemblyViewType.g:1067:2: rule__System__Group_2__4__Impl
+            // InternalAssemblyViewType.g:1093:1: ( rule__System__Group_3__4__Impl )
+            // InternalAssemblyViewType.g:1094:2: rule__System__Group_3__4__Impl
             {
             pushFollow(FOLLOW_2);
-            rule__System__Group_2__4__Impl();
+            rule__System__Group_3__4__Impl();
 
             state._fsp--;
 
@@ -3206,25 +3291,25 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
         }
         return ;
     }
-    // $ANTLR end "rule__System__Group_2__4"
+    // $ANTLR end "rule__System__Group_3__4"
 
 
-    // $ANTLR start "rule__System__Group_2__4__Impl"
-    // InternalAssemblyViewType.g:1073:1: rule__System__Group_2__4__Impl : ( ')' ) ;
-    public final void rule__System__Group_2__4__Impl() throws RecognitionException {
+    // $ANTLR start "rule__System__Group_3__4__Impl"
+    // InternalAssemblyViewType.g:1100:1: rule__System__Group_3__4__Impl : ( ')' ) ;
+    public final void rule__System__Group_3__4__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1077:1: ( ( ')' ) )
-            // InternalAssemblyViewType.g:1078:1: ( ')' )
+            // InternalAssemblyViewType.g:1104:1: ( ( ')' ) )
+            // InternalAssemblyViewType.g:1105:1: ( ')' )
             {
-            // InternalAssemblyViewType.g:1078:1: ( ')' )
-            // InternalAssemblyViewType.g:1079:2: ')'
+            // InternalAssemblyViewType.g:1105:1: ( ')' )
+            // InternalAssemblyViewType.g:1106:2: ')'
             {
-             before(grammarAccess.getSystemAccess().getRightParenthesisKeyword_2_4()); 
+             before(grammarAccess.getSystemAccess().getRightParenthesisKeyword_3_4()); 
             match(input,19,FOLLOW_2); 
-             after(grammarAccess.getSystemAccess().getRightParenthesisKeyword_2_4()); 
+             after(grammarAccess.getSystemAccess().getRightParenthesisKeyword_3_4()); 
 
             }
 
@@ -3243,26 +3328,26 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
         }
         return ;
     }
-    // $ANTLR end "rule__System__Group_2__4__Impl"
+    // $ANTLR end "rule__System__Group_3__4__Impl"
 
 
-    // $ANTLR start "rule__System__Group_2_3__0"
-    // InternalAssemblyViewType.g:1089:1: rule__System__Group_2_3__0 : rule__System__Group_2_3__0__Impl rule__System__Group_2_3__1 ;
-    public final void rule__System__Group_2_3__0() throws RecognitionException {
+    // $ANTLR start "rule__System__Group_3_3__0"
+    // InternalAssemblyViewType.g:1116:1: rule__System__Group_3_3__0 : rule__System__Group_3_3__0__Impl rule__System__Group_3_3__1 ;
+    public final void rule__System__Group_3_3__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1093:1: ( rule__System__Group_2_3__0__Impl rule__System__Group_2_3__1 )
-            // InternalAssemblyViewType.g:1094:2: rule__System__Group_2_3__0__Impl rule__System__Group_2_3__1
+            // InternalAssemblyViewType.g:1120:1: ( rule__System__Group_3_3__0__Impl rule__System__Group_3_3__1 )
+            // InternalAssemblyViewType.g:1121:2: rule__System__Group_3_3__0__Impl rule__System__Group_3_3__1
             {
-            pushFollow(FOLLOW_11);
-            rule__System__Group_2_3__0__Impl();
+            pushFollow(FOLLOW_9);
+            rule__System__Group_3_3__0__Impl();
 
             state._fsp--;
 
             pushFollow(FOLLOW_2);
-            rule__System__Group_2_3__1();
+            rule__System__Group_3_3__1();
 
             state._fsp--;
 
@@ -3281,25 +3366,25 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
         }
         return ;
     }
-    // $ANTLR end "rule__System__Group_2_3__0"
+    // $ANTLR end "rule__System__Group_3_3__0"
 
 
-    // $ANTLR start "rule__System__Group_2_3__0__Impl"
-    // InternalAssemblyViewType.g:1101:1: rule__System__Group_2_3__0__Impl : ( ',' ) ;
-    public final void rule__System__Group_2_3__0__Impl() throws RecognitionException {
+    // $ANTLR start "rule__System__Group_3_3__0__Impl"
+    // InternalAssemblyViewType.g:1128:1: rule__System__Group_3_3__0__Impl : ( ',' ) ;
+    public final void rule__System__Group_3_3__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1105:1: ( ( ',' ) )
-            // InternalAssemblyViewType.g:1106:1: ( ',' )
+            // InternalAssemblyViewType.g:1132:1: ( ( ',' ) )
+            // InternalAssemblyViewType.g:1133:1: ( ',' )
             {
-            // InternalAssemblyViewType.g:1106:1: ( ',' )
-            // InternalAssemblyViewType.g:1107:2: ','
+            // InternalAssemblyViewType.g:1133:1: ( ',' )
+            // InternalAssemblyViewType.g:1134:2: ','
             {
-             before(grammarAccess.getSystemAccess().getCommaKeyword_2_3_0()); 
+             before(grammarAccess.getSystemAccess().getCommaKeyword_3_3_0()); 
             match(input,15,FOLLOW_2); 
-             after(grammarAccess.getSystemAccess().getCommaKeyword_2_3_0()); 
+             after(grammarAccess.getSystemAccess().getCommaKeyword_3_3_0()); 
 
             }
 
@@ -3318,21 +3403,21 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
         }
         return ;
     }
-    // $ANTLR end "rule__System__Group_2_3__0__Impl"
+    // $ANTLR end "rule__System__Group_3_3__0__Impl"
 
 
-    // $ANTLR start "rule__System__Group_2_3__1"
-    // InternalAssemblyViewType.g:1116:1: rule__System__Group_2_3__1 : rule__System__Group_2_3__1__Impl ;
-    public final void rule__System__Group_2_3__1() throws RecognitionException {
+    // $ANTLR start "rule__System__Group_3_3__1"
+    // InternalAssemblyViewType.g:1143:1: rule__System__Group_3_3__1 : rule__System__Group_3_3__1__Impl ;
+    public final void rule__System__Group_3_3__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1120:1: ( rule__System__Group_2_3__1__Impl )
-            // InternalAssemblyViewType.g:1121:2: rule__System__Group_2_3__1__Impl
+            // InternalAssemblyViewType.g:1147:1: ( rule__System__Group_3_3__1__Impl )
+            // InternalAssemblyViewType.g:1148:2: rule__System__Group_3_3__1__Impl
             {
             pushFollow(FOLLOW_2);
-            rule__System__Group_2_3__1__Impl();
+            rule__System__Group_3_3__1__Impl();
 
             state._fsp--;
 
@@ -3351,35 +3436,35 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
         }
         return ;
     }
-    // $ANTLR end "rule__System__Group_2_3__1"
+    // $ANTLR end "rule__System__Group_3_3__1"
 
 
-    // $ANTLR start "rule__System__Group_2_3__1__Impl"
-    // InternalAssemblyViewType.g:1127:1: rule__System__Group_2_3__1__Impl : ( ( rule__System__RequiredInterfacesAssignment_2_3_1 ) ) ;
-    public final void rule__System__Group_2_3__1__Impl() throws RecognitionException {
+    // $ANTLR start "rule__System__Group_3_3__1__Impl"
+    // InternalAssemblyViewType.g:1154:1: rule__System__Group_3_3__1__Impl : ( ( rule__System__RequiredInterfacesAssignment_3_3_1 ) ) ;
+    public final void rule__System__Group_3_3__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1131:1: ( ( ( rule__System__RequiredInterfacesAssignment_2_3_1 ) ) )
-            // InternalAssemblyViewType.g:1132:1: ( ( rule__System__RequiredInterfacesAssignment_2_3_1 ) )
+            // InternalAssemblyViewType.g:1158:1: ( ( ( rule__System__RequiredInterfacesAssignment_3_3_1 ) ) )
+            // InternalAssemblyViewType.g:1159:1: ( ( rule__System__RequiredInterfacesAssignment_3_3_1 ) )
             {
-            // InternalAssemblyViewType.g:1132:1: ( ( rule__System__RequiredInterfacesAssignment_2_3_1 ) )
-            // InternalAssemblyViewType.g:1133:2: ( rule__System__RequiredInterfacesAssignment_2_3_1 )
+            // InternalAssemblyViewType.g:1159:1: ( ( rule__System__RequiredInterfacesAssignment_3_3_1 ) )
+            // InternalAssemblyViewType.g:1160:2: ( rule__System__RequiredInterfacesAssignment_3_3_1 )
             {
-             before(grammarAccess.getSystemAccess().getRequiredInterfacesAssignment_2_3_1()); 
-            // InternalAssemblyViewType.g:1134:2: ( rule__System__RequiredInterfacesAssignment_2_3_1 )
-            // InternalAssemblyViewType.g:1134:3: rule__System__RequiredInterfacesAssignment_2_3_1
+             before(grammarAccess.getSystemAccess().getRequiredInterfacesAssignment_3_3_1()); 
+            // InternalAssemblyViewType.g:1161:2: ( rule__System__RequiredInterfacesAssignment_3_3_1 )
+            // InternalAssemblyViewType.g:1161:3: rule__System__RequiredInterfacesAssignment_3_3_1
             {
             pushFollow(FOLLOW_2);
-            rule__System__RequiredInterfacesAssignment_2_3_1();
+            rule__System__RequiredInterfacesAssignment_3_3_1();
 
             state._fsp--;
 
 
             }
 
-             after(grammarAccess.getSystemAccess().getRequiredInterfacesAssignment_2_3_1()); 
+             after(grammarAccess.getSystemAccess().getRequiredInterfacesAssignment_3_3_1()); 
 
             }
 
@@ -3398,26 +3483,26 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
         }
         return ;
     }
-    // $ANTLR end "rule__System__Group_2_3__1__Impl"
+    // $ANTLR end "rule__System__Group_3_3__1__Impl"
 
 
-    // $ANTLR start "rule__System__Group_6__0"
-    // InternalAssemblyViewType.g:1143:1: rule__System__Group_6__0 : rule__System__Group_6__0__Impl rule__System__Group_6__1 ;
-    public final void rule__System__Group_6__0() throws RecognitionException {
+    // $ANTLR start "rule__System__Group_7__0"
+    // InternalAssemblyViewType.g:1170:1: rule__System__Group_7__0 : rule__System__Group_7__0__Impl rule__System__Group_7__1 ;
+    public final void rule__System__Group_7__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1147:1: ( rule__System__Group_6__0__Impl rule__System__Group_6__1 )
-            // InternalAssemblyViewType.g:1148:2: rule__System__Group_6__0__Impl rule__System__Group_6__1
+            // InternalAssemblyViewType.g:1174:1: ( rule__System__Group_7__0__Impl rule__System__Group_7__1 )
+            // InternalAssemblyViewType.g:1175:2: rule__System__Group_7__0__Impl rule__System__Group_7__1
             {
-            pushFollow(FOLLOW_11);
-            rule__System__Group_6__0__Impl();
+            pushFollow(FOLLOW_9);
+            rule__System__Group_7__0__Impl();
 
             state._fsp--;
 
             pushFollow(FOLLOW_2);
-            rule__System__Group_6__1();
+            rule__System__Group_7__1();
 
             state._fsp--;
 
@@ -3436,25 +3521,25 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
         }
         return ;
     }
-    // $ANTLR end "rule__System__Group_6__0"
+    // $ANTLR end "rule__System__Group_7__0"
 
 
-    // $ANTLR start "rule__System__Group_6__0__Impl"
-    // InternalAssemblyViewType.g:1155:1: rule__System__Group_6__0__Impl : ( ',' ) ;
-    public final void rule__System__Group_6__0__Impl() throws RecognitionException {
+    // $ANTLR start "rule__System__Group_7__0__Impl"
+    // InternalAssemblyViewType.g:1182:1: rule__System__Group_7__0__Impl : ( ',' ) ;
+    public final void rule__System__Group_7__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1159:1: ( ( ',' ) )
-            // InternalAssemblyViewType.g:1160:1: ( ',' )
+            // InternalAssemblyViewType.g:1186:1: ( ( ',' ) )
+            // InternalAssemblyViewType.g:1187:1: ( ',' )
             {
-            // InternalAssemblyViewType.g:1160:1: ( ',' )
-            // InternalAssemblyViewType.g:1161:2: ','
+            // InternalAssemblyViewType.g:1187:1: ( ',' )
+            // InternalAssemblyViewType.g:1188:2: ','
             {
-             before(grammarAccess.getSystemAccess().getCommaKeyword_6_0()); 
+             before(grammarAccess.getSystemAccess().getCommaKeyword_7_0()); 
             match(input,15,FOLLOW_2); 
-             after(grammarAccess.getSystemAccess().getCommaKeyword_6_0()); 
+             after(grammarAccess.getSystemAccess().getCommaKeyword_7_0()); 
 
             }
 
@@ -3473,21 +3558,21 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
         }
         return ;
     }
-    // $ANTLR end "rule__System__Group_6__0__Impl"
+    // $ANTLR end "rule__System__Group_7__0__Impl"
 
 
-    // $ANTLR start "rule__System__Group_6__1"
-    // InternalAssemblyViewType.g:1170:1: rule__System__Group_6__1 : rule__System__Group_6__1__Impl ;
-    public final void rule__System__Group_6__1() throws RecognitionException {
+    // $ANTLR start "rule__System__Group_7__1"
+    // InternalAssemblyViewType.g:1197:1: rule__System__Group_7__1 : rule__System__Group_7__1__Impl ;
+    public final void rule__System__Group_7__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1174:1: ( rule__System__Group_6__1__Impl )
-            // InternalAssemblyViewType.g:1175:2: rule__System__Group_6__1__Impl
+            // InternalAssemblyViewType.g:1201:1: ( rule__System__Group_7__1__Impl )
+            // InternalAssemblyViewType.g:1202:2: rule__System__Group_7__1__Impl
             {
             pushFollow(FOLLOW_2);
-            rule__System__Group_6__1__Impl();
+            rule__System__Group_7__1__Impl();
 
             state._fsp--;
 
@@ -3506,35 +3591,35 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
         }
         return ;
     }
-    // $ANTLR end "rule__System__Group_6__1"
+    // $ANTLR end "rule__System__Group_7__1"
 
 
-    // $ANTLR start "rule__System__Group_6__1__Impl"
-    // InternalAssemblyViewType.g:1181:1: rule__System__Group_6__1__Impl : ( ( rule__System__ProvidedInterfacesAssignment_6_1 ) ) ;
-    public final void rule__System__Group_6__1__Impl() throws RecognitionException {
+    // $ANTLR start "rule__System__Group_7__1__Impl"
+    // InternalAssemblyViewType.g:1208:1: rule__System__Group_7__1__Impl : ( ( rule__System__ProvidedInterfacesAssignment_7_1 ) ) ;
+    public final void rule__System__Group_7__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1185:1: ( ( ( rule__System__ProvidedInterfacesAssignment_6_1 ) ) )
-            // InternalAssemblyViewType.g:1186:1: ( ( rule__System__ProvidedInterfacesAssignment_6_1 ) )
+            // InternalAssemblyViewType.g:1212:1: ( ( ( rule__System__ProvidedInterfacesAssignment_7_1 ) ) )
+            // InternalAssemblyViewType.g:1213:1: ( ( rule__System__ProvidedInterfacesAssignment_7_1 ) )
             {
-            // InternalAssemblyViewType.g:1186:1: ( ( rule__System__ProvidedInterfacesAssignment_6_1 ) )
-            // InternalAssemblyViewType.g:1187:2: ( rule__System__ProvidedInterfacesAssignment_6_1 )
+            // InternalAssemblyViewType.g:1213:1: ( ( rule__System__ProvidedInterfacesAssignment_7_1 ) )
+            // InternalAssemblyViewType.g:1214:2: ( rule__System__ProvidedInterfacesAssignment_7_1 )
             {
-             before(grammarAccess.getSystemAccess().getProvidedInterfacesAssignment_6_1()); 
-            // InternalAssemblyViewType.g:1188:2: ( rule__System__ProvidedInterfacesAssignment_6_1 )
-            // InternalAssemblyViewType.g:1188:3: rule__System__ProvidedInterfacesAssignment_6_1
+             before(grammarAccess.getSystemAccess().getProvidedInterfacesAssignment_7_1()); 
+            // InternalAssemblyViewType.g:1215:2: ( rule__System__ProvidedInterfacesAssignment_7_1 )
+            // InternalAssemblyViewType.g:1215:3: rule__System__ProvidedInterfacesAssignment_7_1
             {
             pushFollow(FOLLOW_2);
-            rule__System__ProvidedInterfacesAssignment_6_1();
+            rule__System__ProvidedInterfacesAssignment_7_1();
 
             state._fsp--;
 
 
             }
 
-             after(grammarAccess.getSystemAccess().getProvidedInterfacesAssignment_6_1()); 
+             after(grammarAccess.getSystemAccess().getProvidedInterfacesAssignment_7_1()); 
 
             }
 
@@ -3553,26 +3638,26 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
         }
         return ;
     }
-    // $ANTLR end "rule__System__Group_6__1__Impl"
+    // $ANTLR end "rule__System__Group_7__1__Impl"
 
 
-    // $ANTLR start "rule__System__Group_11__0"
-    // InternalAssemblyViewType.g:1197:1: rule__System__Group_11__0 : rule__System__Group_11__0__Impl rule__System__Group_11__1 ;
-    public final void rule__System__Group_11__0() throws RecognitionException {
+    // $ANTLR start "rule__System__Group_12__0"
+    // InternalAssemblyViewType.g:1224:1: rule__System__Group_12__0 : rule__System__Group_12__0__Impl rule__System__Group_12__1 ;
+    public final void rule__System__Group_12__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1201:1: ( rule__System__Group_11__0__Impl rule__System__Group_11__1 )
-            // InternalAssemblyViewType.g:1202:2: rule__System__Group_11__0__Impl rule__System__Group_11__1
+            // InternalAssemblyViewType.g:1228:1: ( rule__System__Group_12__0__Impl rule__System__Group_12__1 )
+            // InternalAssemblyViewType.g:1229:2: rule__System__Group_12__0__Impl rule__System__Group_12__1
             {
             pushFollow(FOLLOW_14);
-            rule__System__Group_11__0__Impl();
+            rule__System__Group_12__0__Impl();
 
             state._fsp--;
 
             pushFollow(FOLLOW_2);
-            rule__System__Group_11__1();
+            rule__System__Group_12__1();
 
             state._fsp--;
 
@@ -3591,25 +3676,25 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
         }
         return ;
     }
-    // $ANTLR end "rule__System__Group_11__0"
+    // $ANTLR end "rule__System__Group_12__0"
 
 
-    // $ANTLR start "rule__System__Group_11__0__Impl"
-    // InternalAssemblyViewType.g:1209:1: rule__System__Group_11__0__Impl : ( ',' ) ;
-    public final void rule__System__Group_11__0__Impl() throws RecognitionException {
+    // $ANTLR start "rule__System__Group_12__0__Impl"
+    // InternalAssemblyViewType.g:1236:1: rule__System__Group_12__0__Impl : ( ',' ) ;
+    public final void rule__System__Group_12__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1213:1: ( ( ',' ) )
-            // InternalAssemblyViewType.g:1214:1: ( ',' )
+            // InternalAssemblyViewType.g:1240:1: ( ( ',' ) )
+            // InternalAssemblyViewType.g:1241:1: ( ',' )
             {
-            // InternalAssemblyViewType.g:1214:1: ( ',' )
-            // InternalAssemblyViewType.g:1215:2: ','
+            // InternalAssemblyViewType.g:1241:1: ( ',' )
+            // InternalAssemblyViewType.g:1242:2: ','
             {
-             before(grammarAccess.getSystemAccess().getCommaKeyword_11_0()); 
+             before(grammarAccess.getSystemAccess().getCommaKeyword_12_0()); 
             match(input,15,FOLLOW_2); 
-             after(grammarAccess.getSystemAccess().getCommaKeyword_11_0()); 
+             after(grammarAccess.getSystemAccess().getCommaKeyword_12_0()); 
 
             }
 
@@ -3628,21 +3713,21 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
         }
         return ;
     }
-    // $ANTLR end "rule__System__Group_11__0__Impl"
+    // $ANTLR end "rule__System__Group_12__0__Impl"
 
 
-    // $ANTLR start "rule__System__Group_11__1"
-    // InternalAssemblyViewType.g:1224:1: rule__System__Group_11__1 : rule__System__Group_11__1__Impl ;
-    public final void rule__System__Group_11__1() throws RecognitionException {
+    // $ANTLR start "rule__System__Group_12__1"
+    // InternalAssemblyViewType.g:1251:1: rule__System__Group_12__1 : rule__System__Group_12__1__Impl ;
+    public final void rule__System__Group_12__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1228:1: ( rule__System__Group_11__1__Impl )
-            // InternalAssemblyViewType.g:1229:2: rule__System__Group_11__1__Impl
+            // InternalAssemblyViewType.g:1255:1: ( rule__System__Group_12__1__Impl )
+            // InternalAssemblyViewType.g:1256:2: rule__System__Group_12__1__Impl
             {
             pushFollow(FOLLOW_2);
-            rule__System__Group_11__1__Impl();
+            rule__System__Group_12__1__Impl();
 
             state._fsp--;
 
@@ -3661,35 +3746,35 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
         }
         return ;
     }
-    // $ANTLR end "rule__System__Group_11__1"
+    // $ANTLR end "rule__System__Group_12__1"
 
 
-    // $ANTLR start "rule__System__Group_11__1__Impl"
-    // InternalAssemblyViewType.g:1235:1: rule__System__Group_11__1__Impl : ( ( rule__System__SystemElementsAssignment_11_1 ) ) ;
-    public final void rule__System__Group_11__1__Impl() throws RecognitionException {
+    // $ANTLR start "rule__System__Group_12__1__Impl"
+    // InternalAssemblyViewType.g:1262:1: rule__System__Group_12__1__Impl : ( ( rule__System__SystemElementsAssignment_12_1 ) ) ;
+    public final void rule__System__Group_12__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1239:1: ( ( ( rule__System__SystemElementsAssignment_11_1 ) ) )
-            // InternalAssemblyViewType.g:1240:1: ( ( rule__System__SystemElementsAssignment_11_1 ) )
+            // InternalAssemblyViewType.g:1266:1: ( ( ( rule__System__SystemElementsAssignment_12_1 ) ) )
+            // InternalAssemblyViewType.g:1267:1: ( ( rule__System__SystemElementsAssignment_12_1 ) )
             {
-            // InternalAssemblyViewType.g:1240:1: ( ( rule__System__SystemElementsAssignment_11_1 ) )
-            // InternalAssemblyViewType.g:1241:2: ( rule__System__SystemElementsAssignment_11_1 )
+            // InternalAssemblyViewType.g:1267:1: ( ( rule__System__SystemElementsAssignment_12_1 ) )
+            // InternalAssemblyViewType.g:1268:2: ( rule__System__SystemElementsAssignment_12_1 )
             {
-             before(grammarAccess.getSystemAccess().getSystemElementsAssignment_11_1()); 
-            // InternalAssemblyViewType.g:1242:2: ( rule__System__SystemElementsAssignment_11_1 )
-            // InternalAssemblyViewType.g:1242:3: rule__System__SystemElementsAssignment_11_1
+             before(grammarAccess.getSystemAccess().getSystemElementsAssignment_12_1()); 
+            // InternalAssemblyViewType.g:1269:2: ( rule__System__SystemElementsAssignment_12_1 )
+            // InternalAssemblyViewType.g:1269:3: rule__System__SystemElementsAssignment_12_1
             {
             pushFollow(FOLLOW_2);
-            rule__System__SystemElementsAssignment_11_1();
+            rule__System__SystemElementsAssignment_12_1();
 
             state._fsp--;
 
 
             }
 
-             after(grammarAccess.getSystemAccess().getSystemElementsAssignment_11_1()); 
+             after(grammarAccess.getSystemAccess().getSystemElementsAssignment_12_1()); 
 
             }
 
@@ -3708,20 +3793,20 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
         }
         return ;
     }
-    // $ANTLR end "rule__System__Group_11__1__Impl"
+    // $ANTLR end "rule__System__Group_12__1__Impl"
 
 
     // $ANTLR start "rule__AssemblyContext__Group__0"
-    // InternalAssemblyViewType.g:1251:1: rule__AssemblyContext__Group__0 : rule__AssemblyContext__Group__0__Impl rule__AssemblyContext__Group__1 ;
+    // InternalAssemblyViewType.g:1278:1: rule__AssemblyContext__Group__0 : rule__AssemblyContext__Group__0__Impl rule__AssemblyContext__Group__1 ;
     public final void rule__AssemblyContext__Group__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1255:1: ( rule__AssemblyContext__Group__0__Impl rule__AssemblyContext__Group__1 )
-            // InternalAssemblyViewType.g:1256:2: rule__AssemblyContext__Group__0__Impl rule__AssemblyContext__Group__1
+            // InternalAssemblyViewType.g:1282:1: ( rule__AssemblyContext__Group__0__Impl rule__AssemblyContext__Group__1 )
+            // InternalAssemblyViewType.g:1283:2: rule__AssemblyContext__Group__0__Impl rule__AssemblyContext__Group__1
             {
-            pushFollow(FOLLOW_11);
+            pushFollow(FOLLOW_9);
             rule__AssemblyContext__Group__0__Impl();
 
             state._fsp--;
@@ -3750,17 +3835,17 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__AssemblyContext__Group__0__Impl"
-    // InternalAssemblyViewType.g:1263:1: rule__AssemblyContext__Group__0__Impl : ( 'AssemblyContext' ) ;
+    // InternalAssemblyViewType.g:1290:1: rule__AssemblyContext__Group__0__Impl : ( 'AssemblyContext' ) ;
     public final void rule__AssemblyContext__Group__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1267:1: ( ( 'AssemblyContext' ) )
-            // InternalAssemblyViewType.g:1268:1: ( 'AssemblyContext' )
+            // InternalAssemblyViewType.g:1294:1: ( ( 'AssemblyContext' ) )
+            // InternalAssemblyViewType.g:1295:1: ( 'AssemblyContext' )
             {
-            // InternalAssemblyViewType.g:1268:1: ( 'AssemblyContext' )
-            // InternalAssemblyViewType.g:1269:2: 'AssemblyContext'
+            // InternalAssemblyViewType.g:1295:1: ( 'AssemblyContext' )
+            // InternalAssemblyViewType.g:1296:2: 'AssemblyContext'
             {
              before(grammarAccess.getAssemblyContextAccess().getAssemblyContextKeyword_0()); 
             match(input,22,FOLLOW_2); 
@@ -3787,14 +3872,14 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__AssemblyContext__Group__1"
-    // InternalAssemblyViewType.g:1278:1: rule__AssemblyContext__Group__1 : rule__AssemblyContext__Group__1__Impl rule__AssemblyContext__Group__2 ;
+    // InternalAssemblyViewType.g:1305:1: rule__AssemblyContext__Group__1 : rule__AssemblyContext__Group__1__Impl rule__AssemblyContext__Group__2 ;
     public final void rule__AssemblyContext__Group__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1282:1: ( rule__AssemblyContext__Group__1__Impl rule__AssemblyContext__Group__2 )
-            // InternalAssemblyViewType.g:1283:2: rule__AssemblyContext__Group__1__Impl rule__AssemblyContext__Group__2
+            // InternalAssemblyViewType.g:1309:1: ( rule__AssemblyContext__Group__1__Impl rule__AssemblyContext__Group__2 )
+            // InternalAssemblyViewType.g:1310:2: rule__AssemblyContext__Group__1__Impl rule__AssemblyContext__Group__2
             {
             pushFollow(FOLLOW_3);
             rule__AssemblyContext__Group__1__Impl();
@@ -3825,21 +3910,21 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__AssemblyContext__Group__1__Impl"
-    // InternalAssemblyViewType.g:1290:1: rule__AssemblyContext__Group__1__Impl : ( ( rule__AssemblyContext__NameAssignment_1 ) ) ;
+    // InternalAssemblyViewType.g:1317:1: rule__AssemblyContext__Group__1__Impl : ( ( rule__AssemblyContext__NameAssignment_1 ) ) ;
     public final void rule__AssemblyContext__Group__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1294:1: ( ( ( rule__AssemblyContext__NameAssignment_1 ) ) )
-            // InternalAssemblyViewType.g:1295:1: ( ( rule__AssemblyContext__NameAssignment_1 ) )
+            // InternalAssemblyViewType.g:1321:1: ( ( ( rule__AssemblyContext__NameAssignment_1 ) ) )
+            // InternalAssemblyViewType.g:1322:1: ( ( rule__AssemblyContext__NameAssignment_1 ) )
             {
-            // InternalAssemblyViewType.g:1295:1: ( ( rule__AssemblyContext__NameAssignment_1 ) )
-            // InternalAssemblyViewType.g:1296:2: ( rule__AssemblyContext__NameAssignment_1 )
+            // InternalAssemblyViewType.g:1322:1: ( ( rule__AssemblyContext__NameAssignment_1 ) )
+            // InternalAssemblyViewType.g:1323:2: ( rule__AssemblyContext__NameAssignment_1 )
             {
              before(grammarAccess.getAssemblyContextAccess().getNameAssignment_1()); 
-            // InternalAssemblyViewType.g:1297:2: ( rule__AssemblyContext__NameAssignment_1 )
-            // InternalAssemblyViewType.g:1297:3: rule__AssemblyContext__NameAssignment_1
+            // InternalAssemblyViewType.g:1324:2: ( rule__AssemblyContext__NameAssignment_1 )
+            // InternalAssemblyViewType.g:1324:3: rule__AssemblyContext__NameAssignment_1
             {
             pushFollow(FOLLOW_2);
             rule__AssemblyContext__NameAssignment_1();
@@ -3872,14 +3957,14 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__AssemblyContext__Group__2"
-    // InternalAssemblyViewType.g:1305:1: rule__AssemblyContext__Group__2 : rule__AssemblyContext__Group__2__Impl rule__AssemblyContext__Group__3 ;
+    // InternalAssemblyViewType.g:1332:1: rule__AssemblyContext__Group__2 : rule__AssemblyContext__Group__2__Impl rule__AssemblyContext__Group__3 ;
     public final void rule__AssemblyContext__Group__2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1309:1: ( rule__AssemblyContext__Group__2__Impl rule__AssemblyContext__Group__3 )
-            // InternalAssemblyViewType.g:1310:2: rule__AssemblyContext__Group__2__Impl rule__AssemblyContext__Group__3
+            // InternalAssemblyViewType.g:1336:1: ( rule__AssemblyContext__Group__2__Impl rule__AssemblyContext__Group__3 )
+            // InternalAssemblyViewType.g:1337:2: rule__AssemblyContext__Group__2__Impl rule__AssemblyContext__Group__3
             {
             pushFollow(FOLLOW_15);
             rule__AssemblyContext__Group__2__Impl();
@@ -3910,17 +3995,17 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__AssemblyContext__Group__2__Impl"
-    // InternalAssemblyViewType.g:1317:1: rule__AssemblyContext__Group__2__Impl : ( '{' ) ;
+    // InternalAssemblyViewType.g:1344:1: rule__AssemblyContext__Group__2__Impl : ( '{' ) ;
     public final void rule__AssemblyContext__Group__2__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1321:1: ( ( '{' ) )
-            // InternalAssemblyViewType.g:1322:1: ( '{' )
+            // InternalAssemblyViewType.g:1348:1: ( ( '{' ) )
+            // InternalAssemblyViewType.g:1349:1: ( '{' )
             {
-            // InternalAssemblyViewType.g:1322:1: ( '{' )
-            // InternalAssemblyViewType.g:1323:2: '{'
+            // InternalAssemblyViewType.g:1349:1: ( '{' )
+            // InternalAssemblyViewType.g:1350:2: '{'
             {
              before(grammarAccess.getAssemblyContextAccess().getLeftCurlyBracketKeyword_2()); 
             match(input,12,FOLLOW_2); 
@@ -3947,16 +4032,16 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__AssemblyContext__Group__3"
-    // InternalAssemblyViewType.g:1332:1: rule__AssemblyContext__Group__3 : rule__AssemblyContext__Group__3__Impl rule__AssemblyContext__Group__4 ;
+    // InternalAssemblyViewType.g:1359:1: rule__AssemblyContext__Group__3 : rule__AssemblyContext__Group__3__Impl rule__AssemblyContext__Group__4 ;
     public final void rule__AssemblyContext__Group__3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1336:1: ( rule__AssemblyContext__Group__3__Impl rule__AssemblyContext__Group__4 )
-            // InternalAssemblyViewType.g:1337:2: rule__AssemblyContext__Group__3__Impl rule__AssemblyContext__Group__4
+            // InternalAssemblyViewType.g:1363:1: ( rule__AssemblyContext__Group__3__Impl rule__AssemblyContext__Group__4 )
+            // InternalAssemblyViewType.g:1364:2: rule__AssemblyContext__Group__3__Impl rule__AssemblyContext__Group__4
             {
-            pushFollow(FOLLOW_11);
+            pushFollow(FOLLOW_9);
             rule__AssemblyContext__Group__3__Impl();
 
             state._fsp--;
@@ -3985,17 +4070,17 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__AssemblyContext__Group__3__Impl"
-    // InternalAssemblyViewType.g:1344:1: rule__AssemblyContext__Group__3__Impl : ( 'component' ) ;
+    // InternalAssemblyViewType.g:1371:1: rule__AssemblyContext__Group__3__Impl : ( 'component' ) ;
     public final void rule__AssemblyContext__Group__3__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1348:1: ( ( 'component' ) )
-            // InternalAssemblyViewType.g:1349:1: ( 'component' )
+            // InternalAssemblyViewType.g:1375:1: ( ( 'component' ) )
+            // InternalAssemblyViewType.g:1376:1: ( 'component' )
             {
-            // InternalAssemblyViewType.g:1349:1: ( 'component' )
-            // InternalAssemblyViewType.g:1350:2: 'component'
+            // InternalAssemblyViewType.g:1376:1: ( 'component' )
+            // InternalAssemblyViewType.g:1377:2: 'component'
             {
              before(grammarAccess.getAssemblyContextAccess().getComponentKeyword_3()); 
             match(input,23,FOLLOW_2); 
@@ -4022,14 +4107,14 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__AssemblyContext__Group__4"
-    // InternalAssemblyViewType.g:1359:1: rule__AssemblyContext__Group__4 : rule__AssemblyContext__Group__4__Impl rule__AssemblyContext__Group__5 ;
+    // InternalAssemblyViewType.g:1386:1: rule__AssemblyContext__Group__4 : rule__AssemblyContext__Group__4__Impl rule__AssemblyContext__Group__5 ;
     public final void rule__AssemblyContext__Group__4() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1363:1: ( rule__AssemblyContext__Group__4__Impl rule__AssemblyContext__Group__5 )
-            // InternalAssemblyViewType.g:1364:2: rule__AssemblyContext__Group__4__Impl rule__AssemblyContext__Group__5
+            // InternalAssemblyViewType.g:1390:1: ( rule__AssemblyContext__Group__4__Impl rule__AssemblyContext__Group__5 )
+            // InternalAssemblyViewType.g:1391:2: rule__AssemblyContext__Group__4__Impl rule__AssemblyContext__Group__5
             {
             pushFollow(FOLLOW_16);
             rule__AssemblyContext__Group__4__Impl();
@@ -4060,21 +4145,21 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__AssemblyContext__Group__4__Impl"
-    // InternalAssemblyViewType.g:1371:1: rule__AssemblyContext__Group__4__Impl : ( ( rule__AssemblyContext__ComponentAssignment_4 ) ) ;
+    // InternalAssemblyViewType.g:1398:1: rule__AssemblyContext__Group__4__Impl : ( ( rule__AssemblyContext__ComponentAssignment_4 ) ) ;
     public final void rule__AssemblyContext__Group__4__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1375:1: ( ( ( rule__AssemblyContext__ComponentAssignment_4 ) ) )
-            // InternalAssemblyViewType.g:1376:1: ( ( rule__AssemblyContext__ComponentAssignment_4 ) )
+            // InternalAssemblyViewType.g:1402:1: ( ( ( rule__AssemblyContext__ComponentAssignment_4 ) ) )
+            // InternalAssemblyViewType.g:1403:1: ( ( rule__AssemblyContext__ComponentAssignment_4 ) )
             {
-            // InternalAssemblyViewType.g:1376:1: ( ( rule__AssemblyContext__ComponentAssignment_4 ) )
-            // InternalAssemblyViewType.g:1377:2: ( rule__AssemblyContext__ComponentAssignment_4 )
+            // InternalAssemblyViewType.g:1403:1: ( ( rule__AssemblyContext__ComponentAssignment_4 ) )
+            // InternalAssemblyViewType.g:1404:2: ( rule__AssemblyContext__ComponentAssignment_4 )
             {
              before(grammarAccess.getAssemblyContextAccess().getComponentAssignment_4()); 
-            // InternalAssemblyViewType.g:1378:2: ( rule__AssemblyContext__ComponentAssignment_4 )
-            // InternalAssemblyViewType.g:1378:3: rule__AssemblyContext__ComponentAssignment_4
+            // InternalAssemblyViewType.g:1405:2: ( rule__AssemblyContext__ComponentAssignment_4 )
+            // InternalAssemblyViewType.g:1405:3: rule__AssemblyContext__ComponentAssignment_4
             {
             pushFollow(FOLLOW_2);
             rule__AssemblyContext__ComponentAssignment_4();
@@ -4107,16 +4192,16 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__AssemblyContext__Group__5"
-    // InternalAssemblyViewType.g:1386:1: rule__AssemblyContext__Group__5 : rule__AssemblyContext__Group__5__Impl rule__AssemblyContext__Group__6 ;
+    // InternalAssemblyViewType.g:1413:1: rule__AssemblyContext__Group__5 : rule__AssemblyContext__Group__5__Impl rule__AssemblyContext__Group__6 ;
     public final void rule__AssemblyContext__Group__5() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1390:1: ( rule__AssemblyContext__Group__5__Impl rule__AssemblyContext__Group__6 )
-            // InternalAssemblyViewType.g:1391:2: rule__AssemblyContext__Group__5__Impl rule__AssemblyContext__Group__6
+            // InternalAssemblyViewType.g:1417:1: ( rule__AssemblyContext__Group__5__Impl rule__AssemblyContext__Group__6 )
+            // InternalAssemblyViewType.g:1418:2: rule__AssemblyContext__Group__5__Impl rule__AssemblyContext__Group__6
             {
-            pushFollow(FOLLOW_10);
+            pushFollow(FOLLOW_11);
             rule__AssemblyContext__Group__5__Impl();
 
             state._fsp--;
@@ -4145,17 +4230,17 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__AssemblyContext__Group__5__Impl"
-    // InternalAssemblyViewType.g:1398:1: rule__AssemblyContext__Group__5__Impl : ( 'providedRoles' ) ;
+    // InternalAssemblyViewType.g:1425:1: rule__AssemblyContext__Group__5__Impl : ( 'providedRoles' ) ;
     public final void rule__AssemblyContext__Group__5__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1402:1: ( ( 'providedRoles' ) )
-            // InternalAssemblyViewType.g:1403:1: ( 'providedRoles' )
+            // InternalAssemblyViewType.g:1429:1: ( ( 'providedRoles' ) )
+            // InternalAssemblyViewType.g:1430:1: ( 'providedRoles' )
             {
-            // InternalAssemblyViewType.g:1403:1: ( 'providedRoles' )
-            // InternalAssemblyViewType.g:1404:2: 'providedRoles'
+            // InternalAssemblyViewType.g:1430:1: ( 'providedRoles' )
+            // InternalAssemblyViewType.g:1431:2: 'providedRoles'
             {
              before(grammarAccess.getAssemblyContextAccess().getProvidedRolesKeyword_5()); 
             match(input,24,FOLLOW_2); 
@@ -4182,16 +4267,16 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__AssemblyContext__Group__6"
-    // InternalAssemblyViewType.g:1413:1: rule__AssemblyContext__Group__6 : rule__AssemblyContext__Group__6__Impl rule__AssemblyContext__Group__7 ;
+    // InternalAssemblyViewType.g:1440:1: rule__AssemblyContext__Group__6 : rule__AssemblyContext__Group__6__Impl rule__AssemblyContext__Group__7 ;
     public final void rule__AssemblyContext__Group__6() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1417:1: ( rule__AssemblyContext__Group__6__Impl rule__AssemblyContext__Group__7 )
-            // InternalAssemblyViewType.g:1418:2: rule__AssemblyContext__Group__6__Impl rule__AssemblyContext__Group__7
+            // InternalAssemblyViewType.g:1444:1: ( rule__AssemblyContext__Group__6__Impl rule__AssemblyContext__Group__7 )
+            // InternalAssemblyViewType.g:1445:2: rule__AssemblyContext__Group__6__Impl rule__AssemblyContext__Group__7
             {
-            pushFollow(FOLLOW_11);
+            pushFollow(FOLLOW_9);
             rule__AssemblyContext__Group__6__Impl();
 
             state._fsp--;
@@ -4220,17 +4305,17 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__AssemblyContext__Group__6__Impl"
-    // InternalAssemblyViewType.g:1425:1: rule__AssemblyContext__Group__6__Impl : ( '(' ) ;
+    // InternalAssemblyViewType.g:1452:1: rule__AssemblyContext__Group__6__Impl : ( '(' ) ;
     public final void rule__AssemblyContext__Group__6__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1429:1: ( ( '(' ) )
-            // InternalAssemblyViewType.g:1430:1: ( '(' )
+            // InternalAssemblyViewType.g:1456:1: ( ( '(' ) )
+            // InternalAssemblyViewType.g:1457:1: ( '(' )
             {
-            // InternalAssemblyViewType.g:1430:1: ( '(' )
-            // InternalAssemblyViewType.g:1431:2: '('
+            // InternalAssemblyViewType.g:1457:1: ( '(' )
+            // InternalAssemblyViewType.g:1458:2: '('
             {
              before(grammarAccess.getAssemblyContextAccess().getLeftParenthesisKeyword_6()); 
             match(input,18,FOLLOW_2); 
@@ -4257,14 +4342,14 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__AssemblyContext__Group__7"
-    // InternalAssemblyViewType.g:1440:1: rule__AssemblyContext__Group__7 : rule__AssemblyContext__Group__7__Impl rule__AssemblyContext__Group__8 ;
+    // InternalAssemblyViewType.g:1467:1: rule__AssemblyContext__Group__7 : rule__AssemblyContext__Group__7__Impl rule__AssemblyContext__Group__8 ;
     public final void rule__AssemblyContext__Group__7() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1444:1: ( rule__AssemblyContext__Group__7__Impl rule__AssemblyContext__Group__8 )
-            // InternalAssemblyViewType.g:1445:2: rule__AssemblyContext__Group__7__Impl rule__AssemblyContext__Group__8
+            // InternalAssemblyViewType.g:1471:1: ( rule__AssemblyContext__Group__7__Impl rule__AssemblyContext__Group__8 )
+            // InternalAssemblyViewType.g:1472:2: rule__AssemblyContext__Group__7__Impl rule__AssemblyContext__Group__8
             {
             pushFollow(FOLLOW_12);
             rule__AssemblyContext__Group__7__Impl();
@@ -4295,21 +4380,21 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__AssemblyContext__Group__7__Impl"
-    // InternalAssemblyViewType.g:1452:1: rule__AssemblyContext__Group__7__Impl : ( ( rule__AssemblyContext__ProvidedRolesAssignment_7 ) ) ;
+    // InternalAssemblyViewType.g:1479:1: rule__AssemblyContext__Group__7__Impl : ( ( rule__AssemblyContext__ProvidedRolesAssignment_7 ) ) ;
     public final void rule__AssemblyContext__Group__7__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1456:1: ( ( ( rule__AssemblyContext__ProvidedRolesAssignment_7 ) ) )
-            // InternalAssemblyViewType.g:1457:1: ( ( rule__AssemblyContext__ProvidedRolesAssignment_7 ) )
+            // InternalAssemblyViewType.g:1483:1: ( ( ( rule__AssemblyContext__ProvidedRolesAssignment_7 ) ) )
+            // InternalAssemblyViewType.g:1484:1: ( ( rule__AssemblyContext__ProvidedRolesAssignment_7 ) )
             {
-            // InternalAssemblyViewType.g:1457:1: ( ( rule__AssemblyContext__ProvidedRolesAssignment_7 ) )
-            // InternalAssemblyViewType.g:1458:2: ( rule__AssemblyContext__ProvidedRolesAssignment_7 )
+            // InternalAssemblyViewType.g:1484:1: ( ( rule__AssemblyContext__ProvidedRolesAssignment_7 ) )
+            // InternalAssemblyViewType.g:1485:2: ( rule__AssemblyContext__ProvidedRolesAssignment_7 )
             {
              before(grammarAccess.getAssemblyContextAccess().getProvidedRolesAssignment_7()); 
-            // InternalAssemblyViewType.g:1459:2: ( rule__AssemblyContext__ProvidedRolesAssignment_7 )
-            // InternalAssemblyViewType.g:1459:3: rule__AssemblyContext__ProvidedRolesAssignment_7
+            // InternalAssemblyViewType.g:1486:2: ( rule__AssemblyContext__ProvidedRolesAssignment_7 )
+            // InternalAssemblyViewType.g:1486:3: rule__AssemblyContext__ProvidedRolesAssignment_7
             {
             pushFollow(FOLLOW_2);
             rule__AssemblyContext__ProvidedRolesAssignment_7();
@@ -4342,14 +4427,14 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__AssemblyContext__Group__8"
-    // InternalAssemblyViewType.g:1467:1: rule__AssemblyContext__Group__8 : rule__AssemblyContext__Group__8__Impl rule__AssemblyContext__Group__9 ;
+    // InternalAssemblyViewType.g:1494:1: rule__AssemblyContext__Group__8 : rule__AssemblyContext__Group__8__Impl rule__AssemblyContext__Group__9 ;
     public final void rule__AssemblyContext__Group__8() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1471:1: ( rule__AssemblyContext__Group__8__Impl rule__AssemblyContext__Group__9 )
-            // InternalAssemblyViewType.g:1472:2: rule__AssemblyContext__Group__8__Impl rule__AssemblyContext__Group__9
+            // InternalAssemblyViewType.g:1498:1: ( rule__AssemblyContext__Group__8__Impl rule__AssemblyContext__Group__9 )
+            // InternalAssemblyViewType.g:1499:2: rule__AssemblyContext__Group__8__Impl rule__AssemblyContext__Group__9
             {
             pushFollow(FOLLOW_12);
             rule__AssemblyContext__Group__8__Impl();
@@ -4380,20 +4465,20 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__AssemblyContext__Group__8__Impl"
-    // InternalAssemblyViewType.g:1479:1: rule__AssemblyContext__Group__8__Impl : ( ( rule__AssemblyContext__Group_8__0 )* ) ;
+    // InternalAssemblyViewType.g:1506:1: rule__AssemblyContext__Group__8__Impl : ( ( rule__AssemblyContext__Group_8__0 )* ) ;
     public final void rule__AssemblyContext__Group__8__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1483:1: ( ( ( rule__AssemblyContext__Group_8__0 )* ) )
-            // InternalAssemblyViewType.g:1484:1: ( ( rule__AssemblyContext__Group_8__0 )* )
+            // InternalAssemblyViewType.g:1510:1: ( ( ( rule__AssemblyContext__Group_8__0 )* ) )
+            // InternalAssemblyViewType.g:1511:1: ( ( rule__AssemblyContext__Group_8__0 )* )
             {
-            // InternalAssemblyViewType.g:1484:1: ( ( rule__AssemblyContext__Group_8__0 )* )
-            // InternalAssemblyViewType.g:1485:2: ( rule__AssemblyContext__Group_8__0 )*
+            // InternalAssemblyViewType.g:1511:1: ( ( rule__AssemblyContext__Group_8__0 )* )
+            // InternalAssemblyViewType.g:1512:2: ( rule__AssemblyContext__Group_8__0 )*
             {
              before(grammarAccess.getAssemblyContextAccess().getGroup_8()); 
-            // InternalAssemblyViewType.g:1486:2: ( rule__AssemblyContext__Group_8__0 )*
+            // InternalAssemblyViewType.g:1513:2: ( rule__AssemblyContext__Group_8__0 )*
             loop8:
             do {
                 int alt8=2;
@@ -4406,7 +4491,7 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
                 switch (alt8) {
             	case 1 :
-            	    // InternalAssemblyViewType.g:1486:3: rule__AssemblyContext__Group_8__0
+            	    // InternalAssemblyViewType.g:1513:3: rule__AssemblyContext__Group_8__0
             	    {
             	    pushFollow(FOLLOW_7);
             	    rule__AssemblyContext__Group_8__0();
@@ -4445,14 +4530,14 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__AssemblyContext__Group__9"
-    // InternalAssemblyViewType.g:1494:1: rule__AssemblyContext__Group__9 : rule__AssemblyContext__Group__9__Impl rule__AssemblyContext__Group__10 ;
+    // InternalAssemblyViewType.g:1521:1: rule__AssemblyContext__Group__9 : rule__AssemblyContext__Group__9__Impl rule__AssemblyContext__Group__10 ;
     public final void rule__AssemblyContext__Group__9() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1498:1: ( rule__AssemblyContext__Group__9__Impl rule__AssemblyContext__Group__10 )
-            // InternalAssemblyViewType.g:1499:2: rule__AssemblyContext__Group__9__Impl rule__AssemblyContext__Group__10
+            // InternalAssemblyViewType.g:1525:1: ( rule__AssemblyContext__Group__9__Impl rule__AssemblyContext__Group__10 )
+            // InternalAssemblyViewType.g:1526:2: rule__AssemblyContext__Group__9__Impl rule__AssemblyContext__Group__10
             {
             pushFollow(FOLLOW_17);
             rule__AssemblyContext__Group__9__Impl();
@@ -4483,17 +4568,17 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__AssemblyContext__Group__9__Impl"
-    // InternalAssemblyViewType.g:1506:1: rule__AssemblyContext__Group__9__Impl : ( ')' ) ;
+    // InternalAssemblyViewType.g:1533:1: rule__AssemblyContext__Group__9__Impl : ( ')' ) ;
     public final void rule__AssemblyContext__Group__9__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1510:1: ( ( ')' ) )
-            // InternalAssemblyViewType.g:1511:1: ( ')' )
+            // InternalAssemblyViewType.g:1537:1: ( ( ')' ) )
+            // InternalAssemblyViewType.g:1538:1: ( ')' )
             {
-            // InternalAssemblyViewType.g:1511:1: ( ')' )
-            // InternalAssemblyViewType.g:1512:2: ')'
+            // InternalAssemblyViewType.g:1538:1: ( ')' )
+            // InternalAssemblyViewType.g:1539:2: ')'
             {
              before(grammarAccess.getAssemblyContextAccess().getRightParenthesisKeyword_9()); 
             match(input,19,FOLLOW_2); 
@@ -4520,14 +4605,14 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__AssemblyContext__Group__10"
-    // InternalAssemblyViewType.g:1521:1: rule__AssemblyContext__Group__10 : rule__AssemblyContext__Group__10__Impl rule__AssemblyContext__Group__11 ;
+    // InternalAssemblyViewType.g:1548:1: rule__AssemblyContext__Group__10 : rule__AssemblyContext__Group__10__Impl rule__AssemblyContext__Group__11 ;
     public final void rule__AssemblyContext__Group__10() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1525:1: ( rule__AssemblyContext__Group__10__Impl rule__AssemblyContext__Group__11 )
-            // InternalAssemblyViewType.g:1526:2: rule__AssemblyContext__Group__10__Impl rule__AssemblyContext__Group__11
+            // InternalAssemblyViewType.g:1552:1: ( rule__AssemblyContext__Group__10__Impl rule__AssemblyContext__Group__11 )
+            // InternalAssemblyViewType.g:1553:2: rule__AssemblyContext__Group__10__Impl rule__AssemblyContext__Group__11
             {
             pushFollow(FOLLOW_17);
             rule__AssemblyContext__Group__10__Impl();
@@ -4558,20 +4643,20 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__AssemblyContext__Group__10__Impl"
-    // InternalAssemblyViewType.g:1533:1: rule__AssemblyContext__Group__10__Impl : ( ( rule__AssemblyContext__Group_10__0 )? ) ;
+    // InternalAssemblyViewType.g:1560:1: rule__AssemblyContext__Group__10__Impl : ( ( rule__AssemblyContext__Group_10__0 )? ) ;
     public final void rule__AssemblyContext__Group__10__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1537:1: ( ( ( rule__AssemblyContext__Group_10__0 )? ) )
-            // InternalAssemblyViewType.g:1538:1: ( ( rule__AssemblyContext__Group_10__0 )? )
+            // InternalAssemblyViewType.g:1564:1: ( ( ( rule__AssemblyContext__Group_10__0 )? ) )
+            // InternalAssemblyViewType.g:1565:1: ( ( rule__AssemblyContext__Group_10__0 )? )
             {
-            // InternalAssemblyViewType.g:1538:1: ( ( rule__AssemblyContext__Group_10__0 )? )
-            // InternalAssemblyViewType.g:1539:2: ( rule__AssemblyContext__Group_10__0 )?
+            // InternalAssemblyViewType.g:1565:1: ( ( rule__AssemblyContext__Group_10__0 )? )
+            // InternalAssemblyViewType.g:1566:2: ( rule__AssemblyContext__Group_10__0 )?
             {
              before(grammarAccess.getAssemblyContextAccess().getGroup_10()); 
-            // InternalAssemblyViewType.g:1540:2: ( rule__AssemblyContext__Group_10__0 )?
+            // InternalAssemblyViewType.g:1567:2: ( rule__AssemblyContext__Group_10__0 )?
             int alt9=2;
             int LA9_0 = input.LA(1);
 
@@ -4580,7 +4665,7 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
             }
             switch (alt9) {
                 case 1 :
-                    // InternalAssemblyViewType.g:1540:3: rule__AssemblyContext__Group_10__0
+                    // InternalAssemblyViewType.g:1567:3: rule__AssemblyContext__Group_10__0
                     {
                     pushFollow(FOLLOW_2);
                     rule__AssemblyContext__Group_10__0();
@@ -4616,14 +4701,14 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__AssemblyContext__Group__11"
-    // InternalAssemblyViewType.g:1548:1: rule__AssemblyContext__Group__11 : rule__AssemblyContext__Group__11__Impl ;
+    // InternalAssemblyViewType.g:1575:1: rule__AssemblyContext__Group__11 : rule__AssemblyContext__Group__11__Impl ;
     public final void rule__AssemblyContext__Group__11() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1552:1: ( rule__AssemblyContext__Group__11__Impl )
-            // InternalAssemblyViewType.g:1553:2: rule__AssemblyContext__Group__11__Impl
+            // InternalAssemblyViewType.g:1579:1: ( rule__AssemblyContext__Group__11__Impl )
+            // InternalAssemblyViewType.g:1580:2: rule__AssemblyContext__Group__11__Impl
             {
             pushFollow(FOLLOW_2);
             rule__AssemblyContext__Group__11__Impl();
@@ -4649,17 +4734,17 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__AssemblyContext__Group__11__Impl"
-    // InternalAssemblyViewType.g:1559:1: rule__AssemblyContext__Group__11__Impl : ( '}' ) ;
+    // InternalAssemblyViewType.g:1586:1: rule__AssemblyContext__Group__11__Impl : ( '}' ) ;
     public final void rule__AssemblyContext__Group__11__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1563:1: ( ( '}' ) )
-            // InternalAssemblyViewType.g:1564:1: ( '}' )
+            // InternalAssemblyViewType.g:1590:1: ( ( '}' ) )
+            // InternalAssemblyViewType.g:1591:1: ( '}' )
             {
-            // InternalAssemblyViewType.g:1564:1: ( '}' )
-            // InternalAssemblyViewType.g:1565:2: '}'
+            // InternalAssemblyViewType.g:1591:1: ( '}' )
+            // InternalAssemblyViewType.g:1592:2: '}'
             {
              before(grammarAccess.getAssemblyContextAccess().getRightCurlyBracketKeyword_11()); 
             match(input,14,FOLLOW_2); 
@@ -4686,16 +4771,16 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__AssemblyContext__Group_8__0"
-    // InternalAssemblyViewType.g:1575:1: rule__AssemblyContext__Group_8__0 : rule__AssemblyContext__Group_8__0__Impl rule__AssemblyContext__Group_8__1 ;
+    // InternalAssemblyViewType.g:1602:1: rule__AssemblyContext__Group_8__0 : rule__AssemblyContext__Group_8__0__Impl rule__AssemblyContext__Group_8__1 ;
     public final void rule__AssemblyContext__Group_8__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1579:1: ( rule__AssemblyContext__Group_8__0__Impl rule__AssemblyContext__Group_8__1 )
-            // InternalAssemblyViewType.g:1580:2: rule__AssemblyContext__Group_8__0__Impl rule__AssemblyContext__Group_8__1
+            // InternalAssemblyViewType.g:1606:1: ( rule__AssemblyContext__Group_8__0__Impl rule__AssemblyContext__Group_8__1 )
+            // InternalAssemblyViewType.g:1607:2: rule__AssemblyContext__Group_8__0__Impl rule__AssemblyContext__Group_8__1
             {
-            pushFollow(FOLLOW_11);
+            pushFollow(FOLLOW_9);
             rule__AssemblyContext__Group_8__0__Impl();
 
             state._fsp--;
@@ -4724,17 +4809,17 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__AssemblyContext__Group_8__0__Impl"
-    // InternalAssemblyViewType.g:1587:1: rule__AssemblyContext__Group_8__0__Impl : ( ',' ) ;
+    // InternalAssemblyViewType.g:1614:1: rule__AssemblyContext__Group_8__0__Impl : ( ',' ) ;
     public final void rule__AssemblyContext__Group_8__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1591:1: ( ( ',' ) )
-            // InternalAssemblyViewType.g:1592:1: ( ',' )
+            // InternalAssemblyViewType.g:1618:1: ( ( ',' ) )
+            // InternalAssemblyViewType.g:1619:1: ( ',' )
             {
-            // InternalAssemblyViewType.g:1592:1: ( ',' )
-            // InternalAssemblyViewType.g:1593:2: ','
+            // InternalAssemblyViewType.g:1619:1: ( ',' )
+            // InternalAssemblyViewType.g:1620:2: ','
             {
              before(grammarAccess.getAssemblyContextAccess().getCommaKeyword_8_0()); 
             match(input,15,FOLLOW_2); 
@@ -4761,14 +4846,14 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__AssemblyContext__Group_8__1"
-    // InternalAssemblyViewType.g:1602:1: rule__AssemblyContext__Group_8__1 : rule__AssemblyContext__Group_8__1__Impl ;
+    // InternalAssemblyViewType.g:1629:1: rule__AssemblyContext__Group_8__1 : rule__AssemblyContext__Group_8__1__Impl ;
     public final void rule__AssemblyContext__Group_8__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1606:1: ( rule__AssemblyContext__Group_8__1__Impl )
-            // InternalAssemblyViewType.g:1607:2: rule__AssemblyContext__Group_8__1__Impl
+            // InternalAssemblyViewType.g:1633:1: ( rule__AssemblyContext__Group_8__1__Impl )
+            // InternalAssemblyViewType.g:1634:2: rule__AssemblyContext__Group_8__1__Impl
             {
             pushFollow(FOLLOW_2);
             rule__AssemblyContext__Group_8__1__Impl();
@@ -4794,21 +4879,21 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__AssemblyContext__Group_8__1__Impl"
-    // InternalAssemblyViewType.g:1613:1: rule__AssemblyContext__Group_8__1__Impl : ( ( rule__AssemblyContext__ProvidedRolesAssignment_8_1 ) ) ;
+    // InternalAssemblyViewType.g:1640:1: rule__AssemblyContext__Group_8__1__Impl : ( ( rule__AssemblyContext__ProvidedRolesAssignment_8_1 ) ) ;
     public final void rule__AssemblyContext__Group_8__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1617:1: ( ( ( rule__AssemblyContext__ProvidedRolesAssignment_8_1 ) ) )
-            // InternalAssemblyViewType.g:1618:1: ( ( rule__AssemblyContext__ProvidedRolesAssignment_8_1 ) )
+            // InternalAssemblyViewType.g:1644:1: ( ( ( rule__AssemblyContext__ProvidedRolesAssignment_8_1 ) ) )
+            // InternalAssemblyViewType.g:1645:1: ( ( rule__AssemblyContext__ProvidedRolesAssignment_8_1 ) )
             {
-            // InternalAssemblyViewType.g:1618:1: ( ( rule__AssemblyContext__ProvidedRolesAssignment_8_1 ) )
-            // InternalAssemblyViewType.g:1619:2: ( rule__AssemblyContext__ProvidedRolesAssignment_8_1 )
+            // InternalAssemblyViewType.g:1645:1: ( ( rule__AssemblyContext__ProvidedRolesAssignment_8_1 ) )
+            // InternalAssemblyViewType.g:1646:2: ( rule__AssemblyContext__ProvidedRolesAssignment_8_1 )
             {
              before(grammarAccess.getAssemblyContextAccess().getProvidedRolesAssignment_8_1()); 
-            // InternalAssemblyViewType.g:1620:2: ( rule__AssemblyContext__ProvidedRolesAssignment_8_1 )
-            // InternalAssemblyViewType.g:1620:3: rule__AssemblyContext__ProvidedRolesAssignment_8_1
+            // InternalAssemblyViewType.g:1647:2: ( rule__AssemblyContext__ProvidedRolesAssignment_8_1 )
+            // InternalAssemblyViewType.g:1647:3: rule__AssemblyContext__ProvidedRolesAssignment_8_1
             {
             pushFollow(FOLLOW_2);
             rule__AssemblyContext__ProvidedRolesAssignment_8_1();
@@ -4841,16 +4926,16 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__AssemblyContext__Group_10__0"
-    // InternalAssemblyViewType.g:1629:1: rule__AssemblyContext__Group_10__0 : rule__AssemblyContext__Group_10__0__Impl rule__AssemblyContext__Group_10__1 ;
+    // InternalAssemblyViewType.g:1656:1: rule__AssemblyContext__Group_10__0 : rule__AssemblyContext__Group_10__0__Impl rule__AssemblyContext__Group_10__1 ;
     public final void rule__AssemblyContext__Group_10__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1633:1: ( rule__AssemblyContext__Group_10__0__Impl rule__AssemblyContext__Group_10__1 )
-            // InternalAssemblyViewType.g:1634:2: rule__AssemblyContext__Group_10__0__Impl rule__AssemblyContext__Group_10__1
+            // InternalAssemblyViewType.g:1660:1: ( rule__AssemblyContext__Group_10__0__Impl rule__AssemblyContext__Group_10__1 )
+            // InternalAssemblyViewType.g:1661:2: rule__AssemblyContext__Group_10__0__Impl rule__AssemblyContext__Group_10__1
             {
-            pushFollow(FOLLOW_10);
+            pushFollow(FOLLOW_11);
             rule__AssemblyContext__Group_10__0__Impl();
 
             state._fsp--;
@@ -4879,17 +4964,17 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__AssemblyContext__Group_10__0__Impl"
-    // InternalAssemblyViewType.g:1641:1: rule__AssemblyContext__Group_10__0__Impl : ( 'requiredRoles' ) ;
+    // InternalAssemblyViewType.g:1668:1: rule__AssemblyContext__Group_10__0__Impl : ( 'requiredRoles' ) ;
     public final void rule__AssemblyContext__Group_10__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1645:1: ( ( 'requiredRoles' ) )
-            // InternalAssemblyViewType.g:1646:1: ( 'requiredRoles' )
+            // InternalAssemblyViewType.g:1672:1: ( ( 'requiredRoles' ) )
+            // InternalAssemblyViewType.g:1673:1: ( 'requiredRoles' )
             {
-            // InternalAssemblyViewType.g:1646:1: ( 'requiredRoles' )
-            // InternalAssemblyViewType.g:1647:2: 'requiredRoles'
+            // InternalAssemblyViewType.g:1673:1: ( 'requiredRoles' )
+            // InternalAssemblyViewType.g:1674:2: 'requiredRoles'
             {
              before(grammarAccess.getAssemblyContextAccess().getRequiredRolesKeyword_10_0()); 
             match(input,25,FOLLOW_2); 
@@ -4916,16 +5001,16 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__AssemblyContext__Group_10__1"
-    // InternalAssemblyViewType.g:1656:1: rule__AssemblyContext__Group_10__1 : rule__AssemblyContext__Group_10__1__Impl rule__AssemblyContext__Group_10__2 ;
+    // InternalAssemblyViewType.g:1683:1: rule__AssemblyContext__Group_10__1 : rule__AssemblyContext__Group_10__1__Impl rule__AssemblyContext__Group_10__2 ;
     public final void rule__AssemblyContext__Group_10__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1660:1: ( rule__AssemblyContext__Group_10__1__Impl rule__AssemblyContext__Group_10__2 )
-            // InternalAssemblyViewType.g:1661:2: rule__AssemblyContext__Group_10__1__Impl rule__AssemblyContext__Group_10__2
+            // InternalAssemblyViewType.g:1687:1: ( rule__AssemblyContext__Group_10__1__Impl rule__AssemblyContext__Group_10__2 )
+            // InternalAssemblyViewType.g:1688:2: rule__AssemblyContext__Group_10__1__Impl rule__AssemblyContext__Group_10__2
             {
-            pushFollow(FOLLOW_11);
+            pushFollow(FOLLOW_9);
             rule__AssemblyContext__Group_10__1__Impl();
 
             state._fsp--;
@@ -4954,17 +5039,17 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__AssemblyContext__Group_10__1__Impl"
-    // InternalAssemblyViewType.g:1668:1: rule__AssemblyContext__Group_10__1__Impl : ( '(' ) ;
+    // InternalAssemblyViewType.g:1695:1: rule__AssemblyContext__Group_10__1__Impl : ( '(' ) ;
     public final void rule__AssemblyContext__Group_10__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1672:1: ( ( '(' ) )
-            // InternalAssemblyViewType.g:1673:1: ( '(' )
+            // InternalAssemblyViewType.g:1699:1: ( ( '(' ) )
+            // InternalAssemblyViewType.g:1700:1: ( '(' )
             {
-            // InternalAssemblyViewType.g:1673:1: ( '(' )
-            // InternalAssemblyViewType.g:1674:2: '('
+            // InternalAssemblyViewType.g:1700:1: ( '(' )
+            // InternalAssemblyViewType.g:1701:2: '('
             {
              before(grammarAccess.getAssemblyContextAccess().getLeftParenthesisKeyword_10_1()); 
             match(input,18,FOLLOW_2); 
@@ -4991,14 +5076,14 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__AssemblyContext__Group_10__2"
-    // InternalAssemblyViewType.g:1683:1: rule__AssemblyContext__Group_10__2 : rule__AssemblyContext__Group_10__2__Impl rule__AssemblyContext__Group_10__3 ;
+    // InternalAssemblyViewType.g:1710:1: rule__AssemblyContext__Group_10__2 : rule__AssemblyContext__Group_10__2__Impl rule__AssemblyContext__Group_10__3 ;
     public final void rule__AssemblyContext__Group_10__2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1687:1: ( rule__AssemblyContext__Group_10__2__Impl rule__AssemblyContext__Group_10__3 )
-            // InternalAssemblyViewType.g:1688:2: rule__AssemblyContext__Group_10__2__Impl rule__AssemblyContext__Group_10__3
+            // InternalAssemblyViewType.g:1714:1: ( rule__AssemblyContext__Group_10__2__Impl rule__AssemblyContext__Group_10__3 )
+            // InternalAssemblyViewType.g:1715:2: rule__AssemblyContext__Group_10__2__Impl rule__AssemblyContext__Group_10__3
             {
             pushFollow(FOLLOW_12);
             rule__AssemblyContext__Group_10__2__Impl();
@@ -5029,21 +5114,21 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__AssemblyContext__Group_10__2__Impl"
-    // InternalAssemblyViewType.g:1695:1: rule__AssemblyContext__Group_10__2__Impl : ( ( rule__AssemblyContext__RequiredRolesAssignment_10_2 ) ) ;
+    // InternalAssemblyViewType.g:1722:1: rule__AssemblyContext__Group_10__2__Impl : ( ( rule__AssemblyContext__RequiredRolesAssignment_10_2 ) ) ;
     public final void rule__AssemblyContext__Group_10__2__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1699:1: ( ( ( rule__AssemblyContext__RequiredRolesAssignment_10_2 ) ) )
-            // InternalAssemblyViewType.g:1700:1: ( ( rule__AssemblyContext__RequiredRolesAssignment_10_2 ) )
+            // InternalAssemblyViewType.g:1726:1: ( ( ( rule__AssemblyContext__RequiredRolesAssignment_10_2 ) ) )
+            // InternalAssemblyViewType.g:1727:1: ( ( rule__AssemblyContext__RequiredRolesAssignment_10_2 ) )
             {
-            // InternalAssemblyViewType.g:1700:1: ( ( rule__AssemblyContext__RequiredRolesAssignment_10_2 ) )
-            // InternalAssemblyViewType.g:1701:2: ( rule__AssemblyContext__RequiredRolesAssignment_10_2 )
+            // InternalAssemblyViewType.g:1727:1: ( ( rule__AssemblyContext__RequiredRolesAssignment_10_2 ) )
+            // InternalAssemblyViewType.g:1728:2: ( rule__AssemblyContext__RequiredRolesAssignment_10_2 )
             {
              before(grammarAccess.getAssemblyContextAccess().getRequiredRolesAssignment_10_2()); 
-            // InternalAssemblyViewType.g:1702:2: ( rule__AssemblyContext__RequiredRolesAssignment_10_2 )
-            // InternalAssemblyViewType.g:1702:3: rule__AssemblyContext__RequiredRolesAssignment_10_2
+            // InternalAssemblyViewType.g:1729:2: ( rule__AssemblyContext__RequiredRolesAssignment_10_2 )
+            // InternalAssemblyViewType.g:1729:3: rule__AssemblyContext__RequiredRolesAssignment_10_2
             {
             pushFollow(FOLLOW_2);
             rule__AssemblyContext__RequiredRolesAssignment_10_2();
@@ -5076,14 +5161,14 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__AssemblyContext__Group_10__3"
-    // InternalAssemblyViewType.g:1710:1: rule__AssemblyContext__Group_10__3 : rule__AssemblyContext__Group_10__3__Impl rule__AssemblyContext__Group_10__4 ;
+    // InternalAssemblyViewType.g:1737:1: rule__AssemblyContext__Group_10__3 : rule__AssemblyContext__Group_10__3__Impl rule__AssemblyContext__Group_10__4 ;
     public final void rule__AssemblyContext__Group_10__3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1714:1: ( rule__AssemblyContext__Group_10__3__Impl rule__AssemblyContext__Group_10__4 )
-            // InternalAssemblyViewType.g:1715:2: rule__AssemblyContext__Group_10__3__Impl rule__AssemblyContext__Group_10__4
+            // InternalAssemblyViewType.g:1741:1: ( rule__AssemblyContext__Group_10__3__Impl rule__AssemblyContext__Group_10__4 )
+            // InternalAssemblyViewType.g:1742:2: rule__AssemblyContext__Group_10__3__Impl rule__AssemblyContext__Group_10__4
             {
             pushFollow(FOLLOW_12);
             rule__AssemblyContext__Group_10__3__Impl();
@@ -5114,20 +5199,20 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__AssemblyContext__Group_10__3__Impl"
-    // InternalAssemblyViewType.g:1722:1: rule__AssemblyContext__Group_10__3__Impl : ( ( rule__AssemblyContext__Group_10_3__0 )* ) ;
+    // InternalAssemblyViewType.g:1749:1: rule__AssemblyContext__Group_10__3__Impl : ( ( rule__AssemblyContext__Group_10_3__0 )* ) ;
     public final void rule__AssemblyContext__Group_10__3__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1726:1: ( ( ( rule__AssemblyContext__Group_10_3__0 )* ) )
-            // InternalAssemblyViewType.g:1727:1: ( ( rule__AssemblyContext__Group_10_3__0 )* )
+            // InternalAssemblyViewType.g:1753:1: ( ( ( rule__AssemblyContext__Group_10_3__0 )* ) )
+            // InternalAssemblyViewType.g:1754:1: ( ( rule__AssemblyContext__Group_10_3__0 )* )
             {
-            // InternalAssemblyViewType.g:1727:1: ( ( rule__AssemblyContext__Group_10_3__0 )* )
-            // InternalAssemblyViewType.g:1728:2: ( rule__AssemblyContext__Group_10_3__0 )*
+            // InternalAssemblyViewType.g:1754:1: ( ( rule__AssemblyContext__Group_10_3__0 )* )
+            // InternalAssemblyViewType.g:1755:2: ( rule__AssemblyContext__Group_10_3__0 )*
             {
              before(grammarAccess.getAssemblyContextAccess().getGroup_10_3()); 
-            // InternalAssemblyViewType.g:1729:2: ( rule__AssemblyContext__Group_10_3__0 )*
+            // InternalAssemblyViewType.g:1756:2: ( rule__AssemblyContext__Group_10_3__0 )*
             loop10:
             do {
                 int alt10=2;
@@ -5140,7 +5225,7 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
                 switch (alt10) {
             	case 1 :
-            	    // InternalAssemblyViewType.g:1729:3: rule__AssemblyContext__Group_10_3__0
+            	    // InternalAssemblyViewType.g:1756:3: rule__AssemblyContext__Group_10_3__0
             	    {
             	    pushFollow(FOLLOW_7);
             	    rule__AssemblyContext__Group_10_3__0();
@@ -5179,14 +5264,14 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__AssemblyContext__Group_10__4"
-    // InternalAssemblyViewType.g:1737:1: rule__AssemblyContext__Group_10__4 : rule__AssemblyContext__Group_10__4__Impl ;
+    // InternalAssemblyViewType.g:1764:1: rule__AssemblyContext__Group_10__4 : rule__AssemblyContext__Group_10__4__Impl ;
     public final void rule__AssemblyContext__Group_10__4() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1741:1: ( rule__AssemblyContext__Group_10__4__Impl )
-            // InternalAssemblyViewType.g:1742:2: rule__AssemblyContext__Group_10__4__Impl
+            // InternalAssemblyViewType.g:1768:1: ( rule__AssemblyContext__Group_10__4__Impl )
+            // InternalAssemblyViewType.g:1769:2: rule__AssemblyContext__Group_10__4__Impl
             {
             pushFollow(FOLLOW_2);
             rule__AssemblyContext__Group_10__4__Impl();
@@ -5212,17 +5297,17 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__AssemblyContext__Group_10__4__Impl"
-    // InternalAssemblyViewType.g:1748:1: rule__AssemblyContext__Group_10__4__Impl : ( ')' ) ;
+    // InternalAssemblyViewType.g:1775:1: rule__AssemblyContext__Group_10__4__Impl : ( ')' ) ;
     public final void rule__AssemblyContext__Group_10__4__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1752:1: ( ( ')' ) )
-            // InternalAssemblyViewType.g:1753:1: ( ')' )
+            // InternalAssemblyViewType.g:1779:1: ( ( ')' ) )
+            // InternalAssemblyViewType.g:1780:1: ( ')' )
             {
-            // InternalAssemblyViewType.g:1753:1: ( ')' )
-            // InternalAssemblyViewType.g:1754:2: ')'
+            // InternalAssemblyViewType.g:1780:1: ( ')' )
+            // InternalAssemblyViewType.g:1781:2: ')'
             {
              before(grammarAccess.getAssemblyContextAccess().getRightParenthesisKeyword_10_4()); 
             match(input,19,FOLLOW_2); 
@@ -5249,16 +5334,16 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__AssemblyContext__Group_10_3__0"
-    // InternalAssemblyViewType.g:1764:1: rule__AssemblyContext__Group_10_3__0 : rule__AssemblyContext__Group_10_3__0__Impl rule__AssemblyContext__Group_10_3__1 ;
+    // InternalAssemblyViewType.g:1791:1: rule__AssemblyContext__Group_10_3__0 : rule__AssemblyContext__Group_10_3__0__Impl rule__AssemblyContext__Group_10_3__1 ;
     public final void rule__AssemblyContext__Group_10_3__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1768:1: ( rule__AssemblyContext__Group_10_3__0__Impl rule__AssemblyContext__Group_10_3__1 )
-            // InternalAssemblyViewType.g:1769:2: rule__AssemblyContext__Group_10_3__0__Impl rule__AssemblyContext__Group_10_3__1
+            // InternalAssemblyViewType.g:1795:1: ( rule__AssemblyContext__Group_10_3__0__Impl rule__AssemblyContext__Group_10_3__1 )
+            // InternalAssemblyViewType.g:1796:2: rule__AssemblyContext__Group_10_3__0__Impl rule__AssemblyContext__Group_10_3__1
             {
-            pushFollow(FOLLOW_11);
+            pushFollow(FOLLOW_9);
             rule__AssemblyContext__Group_10_3__0__Impl();
 
             state._fsp--;
@@ -5287,17 +5372,17 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__AssemblyContext__Group_10_3__0__Impl"
-    // InternalAssemblyViewType.g:1776:1: rule__AssemblyContext__Group_10_3__0__Impl : ( ',' ) ;
+    // InternalAssemblyViewType.g:1803:1: rule__AssemblyContext__Group_10_3__0__Impl : ( ',' ) ;
     public final void rule__AssemblyContext__Group_10_3__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1780:1: ( ( ',' ) )
-            // InternalAssemblyViewType.g:1781:1: ( ',' )
+            // InternalAssemblyViewType.g:1807:1: ( ( ',' ) )
+            // InternalAssemblyViewType.g:1808:1: ( ',' )
             {
-            // InternalAssemblyViewType.g:1781:1: ( ',' )
-            // InternalAssemblyViewType.g:1782:2: ','
+            // InternalAssemblyViewType.g:1808:1: ( ',' )
+            // InternalAssemblyViewType.g:1809:2: ','
             {
              before(grammarAccess.getAssemblyContextAccess().getCommaKeyword_10_3_0()); 
             match(input,15,FOLLOW_2); 
@@ -5324,14 +5409,14 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__AssemblyContext__Group_10_3__1"
-    // InternalAssemblyViewType.g:1791:1: rule__AssemblyContext__Group_10_3__1 : rule__AssemblyContext__Group_10_3__1__Impl ;
+    // InternalAssemblyViewType.g:1818:1: rule__AssemblyContext__Group_10_3__1 : rule__AssemblyContext__Group_10_3__1__Impl ;
     public final void rule__AssemblyContext__Group_10_3__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1795:1: ( rule__AssemblyContext__Group_10_3__1__Impl )
-            // InternalAssemblyViewType.g:1796:2: rule__AssemblyContext__Group_10_3__1__Impl
+            // InternalAssemblyViewType.g:1822:1: ( rule__AssemblyContext__Group_10_3__1__Impl )
+            // InternalAssemblyViewType.g:1823:2: rule__AssemblyContext__Group_10_3__1__Impl
             {
             pushFollow(FOLLOW_2);
             rule__AssemblyContext__Group_10_3__1__Impl();
@@ -5357,21 +5442,21 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__AssemblyContext__Group_10_3__1__Impl"
-    // InternalAssemblyViewType.g:1802:1: rule__AssemblyContext__Group_10_3__1__Impl : ( ( rule__AssemblyContext__RequiredRolesAssignment_10_3_1 ) ) ;
+    // InternalAssemblyViewType.g:1829:1: rule__AssemblyContext__Group_10_3__1__Impl : ( ( rule__AssemblyContext__RequiredRolesAssignment_10_3_1 ) ) ;
     public final void rule__AssemblyContext__Group_10_3__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1806:1: ( ( ( rule__AssemblyContext__RequiredRolesAssignment_10_3_1 ) ) )
-            // InternalAssemblyViewType.g:1807:1: ( ( rule__AssemblyContext__RequiredRolesAssignment_10_3_1 ) )
+            // InternalAssemblyViewType.g:1833:1: ( ( ( rule__AssemblyContext__RequiredRolesAssignment_10_3_1 ) ) )
+            // InternalAssemblyViewType.g:1834:1: ( ( rule__AssemblyContext__RequiredRolesAssignment_10_3_1 ) )
             {
-            // InternalAssemblyViewType.g:1807:1: ( ( rule__AssemblyContext__RequiredRolesAssignment_10_3_1 ) )
-            // InternalAssemblyViewType.g:1808:2: ( rule__AssemblyContext__RequiredRolesAssignment_10_3_1 )
+            // InternalAssemblyViewType.g:1834:1: ( ( rule__AssemblyContext__RequiredRolesAssignment_10_3_1 ) )
+            // InternalAssemblyViewType.g:1835:2: ( rule__AssemblyContext__RequiredRolesAssignment_10_3_1 )
             {
              before(grammarAccess.getAssemblyContextAccess().getRequiredRolesAssignment_10_3_1()); 
-            // InternalAssemblyViewType.g:1809:2: ( rule__AssemblyContext__RequiredRolesAssignment_10_3_1 )
-            // InternalAssemblyViewType.g:1809:3: rule__AssemblyContext__RequiredRolesAssignment_10_3_1
+            // InternalAssemblyViewType.g:1836:2: ( rule__AssemblyContext__RequiredRolesAssignment_10_3_1 )
+            // InternalAssemblyViewType.g:1836:3: rule__AssemblyContext__RequiredRolesAssignment_10_3_1
             {
             pushFollow(FOLLOW_2);
             rule__AssemblyContext__RequiredRolesAssignment_10_3_1();
@@ -5404,16 +5489,16 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__Role__Group__0"
-    // InternalAssemblyViewType.g:1818:1: rule__Role__Group__0 : rule__Role__Group__0__Impl rule__Role__Group__1 ;
+    // InternalAssemblyViewType.g:1845:1: rule__Role__Group__0 : rule__Role__Group__0__Impl rule__Role__Group__1 ;
     public final void rule__Role__Group__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1822:1: ( rule__Role__Group__0__Impl rule__Role__Group__1 )
-            // InternalAssemblyViewType.g:1823:2: rule__Role__Group__0__Impl rule__Role__Group__1
+            // InternalAssemblyViewType.g:1849:1: ( rule__Role__Group__0__Impl rule__Role__Group__1 )
+            // InternalAssemblyViewType.g:1850:2: rule__Role__Group__0__Impl rule__Role__Group__1
             {
-            pushFollow(FOLLOW_3);
+            pushFollow(FOLLOW_9);
             rule__Role__Group__0__Impl();
 
             state._fsp--;
@@ -5442,17 +5527,17 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__Role__Group__0__Impl"
-    // InternalAssemblyViewType.g:1830:1: rule__Role__Group__0__Impl : ( 'Role' ) ;
+    // InternalAssemblyViewType.g:1857:1: rule__Role__Group__0__Impl : ( 'Role' ) ;
     public final void rule__Role__Group__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1834:1: ( ( 'Role' ) )
-            // InternalAssemblyViewType.g:1835:1: ( 'Role' )
+            // InternalAssemblyViewType.g:1861:1: ( ( 'Role' ) )
+            // InternalAssemblyViewType.g:1862:1: ( 'Role' )
             {
-            // InternalAssemblyViewType.g:1835:1: ( 'Role' )
-            // InternalAssemblyViewType.g:1836:2: 'Role'
+            // InternalAssemblyViewType.g:1862:1: ( 'Role' )
+            // InternalAssemblyViewType.g:1863:2: 'Role'
             {
              before(grammarAccess.getRoleAccess().getRoleKeyword_0()); 
             match(input,26,FOLLOW_2); 
@@ -5479,16 +5564,16 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__Role__Group__1"
-    // InternalAssemblyViewType.g:1845:1: rule__Role__Group__1 : rule__Role__Group__1__Impl rule__Role__Group__2 ;
+    // InternalAssemblyViewType.g:1872:1: rule__Role__Group__1 : rule__Role__Group__1__Impl rule__Role__Group__2 ;
     public final void rule__Role__Group__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1849:1: ( rule__Role__Group__1__Impl rule__Role__Group__2 )
-            // InternalAssemblyViewType.g:1850:2: rule__Role__Group__1__Impl rule__Role__Group__2
+            // InternalAssemblyViewType.g:1876:1: ( rule__Role__Group__1__Impl rule__Role__Group__2 )
+            // InternalAssemblyViewType.g:1877:2: rule__Role__Group__1__Impl rule__Role__Group__2
             {
-            pushFollow(FOLLOW_18);
+            pushFollow(FOLLOW_3);
             rule__Role__Group__1__Impl();
 
             state._fsp--;
@@ -5517,21 +5602,31 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__Role__Group__1__Impl"
-    // InternalAssemblyViewType.g:1857:1: rule__Role__Group__1__Impl : ( '{' ) ;
+    // InternalAssemblyViewType.g:1884:1: rule__Role__Group__1__Impl : ( ( rule__Role__NameAssignment_1 ) ) ;
     public final void rule__Role__Group__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1861:1: ( ( '{' ) )
-            // InternalAssemblyViewType.g:1862:1: ( '{' )
+            // InternalAssemblyViewType.g:1888:1: ( ( ( rule__Role__NameAssignment_1 ) ) )
+            // InternalAssemblyViewType.g:1889:1: ( ( rule__Role__NameAssignment_1 ) )
             {
-            // InternalAssemblyViewType.g:1862:1: ( '{' )
-            // InternalAssemblyViewType.g:1863:2: '{'
+            // InternalAssemblyViewType.g:1889:1: ( ( rule__Role__NameAssignment_1 ) )
+            // InternalAssemblyViewType.g:1890:2: ( rule__Role__NameAssignment_1 )
             {
-             before(grammarAccess.getRoleAccess().getLeftCurlyBracketKeyword_1()); 
-            match(input,12,FOLLOW_2); 
-             after(grammarAccess.getRoleAccess().getLeftCurlyBracketKeyword_1()); 
+             before(grammarAccess.getRoleAccess().getNameAssignment_1()); 
+            // InternalAssemblyViewType.g:1891:2: ( rule__Role__NameAssignment_1 )
+            // InternalAssemblyViewType.g:1891:3: rule__Role__NameAssignment_1
+            {
+            pushFollow(FOLLOW_2);
+            rule__Role__NameAssignment_1();
+
+            state._fsp--;
+
+
+            }
+
+             after(grammarAccess.getRoleAccess().getNameAssignment_1()); 
 
             }
 
@@ -5554,16 +5649,16 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__Role__Group__2"
-    // InternalAssemblyViewType.g:1872:1: rule__Role__Group__2 : rule__Role__Group__2__Impl rule__Role__Group__3 ;
+    // InternalAssemblyViewType.g:1899:1: rule__Role__Group__2 : rule__Role__Group__2__Impl rule__Role__Group__3 ;
     public final void rule__Role__Group__2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1876:1: ( rule__Role__Group__2__Impl rule__Role__Group__3 )
-            // InternalAssemblyViewType.g:1877:2: rule__Role__Group__2__Impl rule__Role__Group__3
+            // InternalAssemblyViewType.g:1903:1: ( rule__Role__Group__2__Impl rule__Role__Group__3 )
+            // InternalAssemblyViewType.g:1904:2: rule__Role__Group__2__Impl rule__Role__Group__3
             {
-            pushFollow(FOLLOW_11);
+            pushFollow(FOLLOW_18);
             rule__Role__Group__2__Impl();
 
             state._fsp--;
@@ -5592,21 +5687,21 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__Role__Group__2__Impl"
-    // InternalAssemblyViewType.g:1884:1: rule__Role__Group__2__Impl : ( 'interface' ) ;
+    // InternalAssemblyViewType.g:1911:1: rule__Role__Group__2__Impl : ( '{' ) ;
     public final void rule__Role__Group__2__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1888:1: ( ( 'interface' ) )
-            // InternalAssemblyViewType.g:1889:1: ( 'interface' )
+            // InternalAssemblyViewType.g:1915:1: ( ( '{' ) )
+            // InternalAssemblyViewType.g:1916:1: ( '{' )
             {
-            // InternalAssemblyViewType.g:1889:1: ( 'interface' )
-            // InternalAssemblyViewType.g:1890:2: 'interface'
+            // InternalAssemblyViewType.g:1916:1: ( '{' )
+            // InternalAssemblyViewType.g:1917:2: '{'
             {
-             before(grammarAccess.getRoleAccess().getInterfaceKeyword_2()); 
-            match(input,27,FOLLOW_2); 
-             after(grammarAccess.getRoleAccess().getInterfaceKeyword_2()); 
+             before(grammarAccess.getRoleAccess().getLeftCurlyBracketKeyword_2()); 
+            match(input,12,FOLLOW_2); 
+             after(grammarAccess.getRoleAccess().getLeftCurlyBracketKeyword_2()); 
 
             }
 
@@ -5629,16 +5724,16 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__Role__Group__3"
-    // InternalAssemblyViewType.g:1899:1: rule__Role__Group__3 : rule__Role__Group__3__Impl rule__Role__Group__4 ;
+    // InternalAssemblyViewType.g:1926:1: rule__Role__Group__3 : rule__Role__Group__3__Impl rule__Role__Group__4 ;
     public final void rule__Role__Group__3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1903:1: ( rule__Role__Group__3__Impl rule__Role__Group__4 )
-            // InternalAssemblyViewType.g:1904:2: rule__Role__Group__3__Impl rule__Role__Group__4
+            // InternalAssemblyViewType.g:1930:1: ( rule__Role__Group__3__Impl rule__Role__Group__4 )
+            // InternalAssemblyViewType.g:1931:2: rule__Role__Group__3__Impl rule__Role__Group__4
             {
-            pushFollow(FOLLOW_8);
+            pushFollow(FOLLOW_9);
             rule__Role__Group__3__Impl();
 
             state._fsp--;
@@ -5667,31 +5762,21 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__Role__Group__3__Impl"
-    // InternalAssemblyViewType.g:1911:1: rule__Role__Group__3__Impl : ( ( rule__Role__InterfaceAssignment_3 ) ) ;
+    // InternalAssemblyViewType.g:1938:1: rule__Role__Group__3__Impl : ( 'interface' ) ;
     public final void rule__Role__Group__3__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1915:1: ( ( ( rule__Role__InterfaceAssignment_3 ) ) )
-            // InternalAssemblyViewType.g:1916:1: ( ( rule__Role__InterfaceAssignment_3 ) )
+            // InternalAssemblyViewType.g:1942:1: ( ( 'interface' ) )
+            // InternalAssemblyViewType.g:1943:1: ( 'interface' )
             {
-            // InternalAssemblyViewType.g:1916:1: ( ( rule__Role__InterfaceAssignment_3 ) )
-            // InternalAssemblyViewType.g:1917:2: ( rule__Role__InterfaceAssignment_3 )
+            // InternalAssemblyViewType.g:1943:1: ( 'interface' )
+            // InternalAssemblyViewType.g:1944:2: 'interface'
             {
-             before(grammarAccess.getRoleAccess().getInterfaceAssignment_3()); 
-            // InternalAssemblyViewType.g:1918:2: ( rule__Role__InterfaceAssignment_3 )
-            // InternalAssemblyViewType.g:1918:3: rule__Role__InterfaceAssignment_3
-            {
-            pushFollow(FOLLOW_2);
-            rule__Role__InterfaceAssignment_3();
-
-            state._fsp--;
-
-
-            }
-
-             after(grammarAccess.getRoleAccess().getInterfaceAssignment_3()); 
+             before(grammarAccess.getRoleAccess().getInterfaceKeyword_3()); 
+            match(input,27,FOLLOW_2); 
+             after(grammarAccess.getRoleAccess().getInterfaceKeyword_3()); 
 
             }
 
@@ -5714,17 +5799,22 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__Role__Group__4"
-    // InternalAssemblyViewType.g:1926:1: rule__Role__Group__4 : rule__Role__Group__4__Impl ;
+    // InternalAssemblyViewType.g:1953:1: rule__Role__Group__4 : rule__Role__Group__4__Impl rule__Role__Group__5 ;
     public final void rule__Role__Group__4() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1930:1: ( rule__Role__Group__4__Impl )
-            // InternalAssemblyViewType.g:1931:2: rule__Role__Group__4__Impl
+            // InternalAssemblyViewType.g:1957:1: ( rule__Role__Group__4__Impl rule__Role__Group__5 )
+            // InternalAssemblyViewType.g:1958:2: rule__Role__Group__4__Impl rule__Role__Group__5
             {
-            pushFollow(FOLLOW_2);
+            pushFollow(FOLLOW_8);
             rule__Role__Group__4__Impl();
+
+            state._fsp--;
+
+            pushFollow(FOLLOW_2);
+            rule__Role__Group__5();
 
             state._fsp--;
 
@@ -5747,21 +5837,31 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__Role__Group__4__Impl"
-    // InternalAssemblyViewType.g:1937:1: rule__Role__Group__4__Impl : ( '}' ) ;
+    // InternalAssemblyViewType.g:1965:1: rule__Role__Group__4__Impl : ( ( rule__Role__InterfaceAssignment_4 ) ) ;
     public final void rule__Role__Group__4__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1941:1: ( ( '}' ) )
-            // InternalAssemblyViewType.g:1942:1: ( '}' )
+            // InternalAssemblyViewType.g:1969:1: ( ( ( rule__Role__InterfaceAssignment_4 ) ) )
+            // InternalAssemblyViewType.g:1970:1: ( ( rule__Role__InterfaceAssignment_4 ) )
             {
-            // InternalAssemblyViewType.g:1942:1: ( '}' )
-            // InternalAssemblyViewType.g:1943:2: '}'
+            // InternalAssemblyViewType.g:1970:1: ( ( rule__Role__InterfaceAssignment_4 ) )
+            // InternalAssemblyViewType.g:1971:2: ( rule__Role__InterfaceAssignment_4 )
             {
-             before(grammarAccess.getRoleAccess().getRightCurlyBracketKeyword_4()); 
-            match(input,14,FOLLOW_2); 
-             after(grammarAccess.getRoleAccess().getRightCurlyBracketKeyword_4()); 
+             before(grammarAccess.getRoleAccess().getInterfaceAssignment_4()); 
+            // InternalAssemblyViewType.g:1972:2: ( rule__Role__InterfaceAssignment_4 )
+            // InternalAssemblyViewType.g:1972:3: rule__Role__InterfaceAssignment_4
+            {
+            pushFollow(FOLLOW_2);
+            rule__Role__InterfaceAssignment_4();
+
+            state._fsp--;
+
+
+            }
+
+             after(grammarAccess.getRoleAccess().getInterfaceAssignment_4()); 
 
             }
 
@@ -5783,15 +5883,85 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
     // $ANTLR end "rule__Role__Group__4__Impl"
 
 
+    // $ANTLR start "rule__Role__Group__5"
+    // InternalAssemblyViewType.g:1980:1: rule__Role__Group__5 : rule__Role__Group__5__Impl ;
+    public final void rule__Role__Group__5() throws RecognitionException {
+
+        		int stackSize = keepStackSize();
+        	
+        try {
+            // InternalAssemblyViewType.g:1984:1: ( rule__Role__Group__5__Impl )
+            // InternalAssemblyViewType.g:1985:2: rule__Role__Group__5__Impl
+            {
+            pushFollow(FOLLOW_2);
+            rule__Role__Group__5__Impl();
+
+            state._fsp--;
+
+
+            }
+
+        }
+        catch (RecognitionException re) {
+            reportError(re);
+            recover(input,re);
+        }
+        finally {
+
+            	restoreStackSize(stackSize);
+
+        }
+        return ;
+    }
+    // $ANTLR end "rule__Role__Group__5"
+
+
+    // $ANTLR start "rule__Role__Group__5__Impl"
+    // InternalAssemblyViewType.g:1991:1: rule__Role__Group__5__Impl : ( '}' ) ;
+    public final void rule__Role__Group__5__Impl() throws RecognitionException {
+
+        		int stackSize = keepStackSize();
+        	
+        try {
+            // InternalAssemblyViewType.g:1995:1: ( ( '}' ) )
+            // InternalAssemblyViewType.g:1996:1: ( '}' )
+            {
+            // InternalAssemblyViewType.g:1996:1: ( '}' )
+            // InternalAssemblyViewType.g:1997:2: '}'
+            {
+             before(grammarAccess.getRoleAccess().getRightCurlyBracketKeyword_5()); 
+            match(input,14,FOLLOW_2); 
+             after(grammarAccess.getRoleAccess().getRightCurlyBracketKeyword_5()); 
+
+            }
+
+
+            }
+
+        }
+        catch (RecognitionException re) {
+            reportError(re);
+            recover(input,re);
+        }
+        finally {
+
+            	restoreStackSize(stackSize);
+
+        }
+        return ;
+    }
+    // $ANTLR end "rule__Role__Group__5__Impl"
+
+
     // $ANTLR start "rule__DelegationConnector__Group__0"
-    // InternalAssemblyViewType.g:1953:1: rule__DelegationConnector__Group__0 : rule__DelegationConnector__Group__0__Impl rule__DelegationConnector__Group__1 ;
+    // InternalAssemblyViewType.g:2007:1: rule__DelegationConnector__Group__0 : rule__DelegationConnector__Group__0__Impl rule__DelegationConnector__Group__1 ;
     public final void rule__DelegationConnector__Group__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1957:1: ( rule__DelegationConnector__Group__0__Impl rule__DelegationConnector__Group__1 )
-            // InternalAssemblyViewType.g:1958:2: rule__DelegationConnector__Group__0__Impl rule__DelegationConnector__Group__1
+            // InternalAssemblyViewType.g:2011:1: ( rule__DelegationConnector__Group__0__Impl rule__DelegationConnector__Group__1 )
+            // InternalAssemblyViewType.g:2012:2: rule__DelegationConnector__Group__0__Impl rule__DelegationConnector__Group__1
             {
             pushFollow(FOLLOW_3);
             rule__DelegationConnector__Group__0__Impl();
@@ -5822,17 +5992,17 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__DelegationConnector__Group__0__Impl"
-    // InternalAssemblyViewType.g:1965:1: rule__DelegationConnector__Group__0__Impl : ( 'DelegationConnector' ) ;
+    // InternalAssemblyViewType.g:2019:1: rule__DelegationConnector__Group__0__Impl : ( 'DelegationConnector' ) ;
     public final void rule__DelegationConnector__Group__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1969:1: ( ( 'DelegationConnector' ) )
-            // InternalAssemblyViewType.g:1970:1: ( 'DelegationConnector' )
+            // InternalAssemblyViewType.g:2023:1: ( ( 'DelegationConnector' ) )
+            // InternalAssemblyViewType.g:2024:1: ( 'DelegationConnector' )
             {
-            // InternalAssemblyViewType.g:1970:1: ( 'DelegationConnector' )
-            // InternalAssemblyViewType.g:1971:2: 'DelegationConnector'
+            // InternalAssemblyViewType.g:2024:1: ( 'DelegationConnector' )
+            // InternalAssemblyViewType.g:2025:2: 'DelegationConnector'
             {
              before(grammarAccess.getDelegationConnectorAccess().getDelegationConnectorKeyword_0()); 
             match(input,28,FOLLOW_2); 
@@ -5859,14 +6029,14 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__DelegationConnector__Group__1"
-    // InternalAssemblyViewType.g:1980:1: rule__DelegationConnector__Group__1 : rule__DelegationConnector__Group__1__Impl rule__DelegationConnector__Group__2 ;
+    // InternalAssemblyViewType.g:2034:1: rule__DelegationConnector__Group__1 : rule__DelegationConnector__Group__1__Impl rule__DelegationConnector__Group__2 ;
     public final void rule__DelegationConnector__Group__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1984:1: ( rule__DelegationConnector__Group__1__Impl rule__DelegationConnector__Group__2 )
-            // InternalAssemblyViewType.g:1985:2: rule__DelegationConnector__Group__1__Impl rule__DelegationConnector__Group__2
+            // InternalAssemblyViewType.g:2038:1: ( rule__DelegationConnector__Group__1__Impl rule__DelegationConnector__Group__2 )
+            // InternalAssemblyViewType.g:2039:2: rule__DelegationConnector__Group__1__Impl rule__DelegationConnector__Group__2
             {
             pushFollow(FOLLOW_19);
             rule__DelegationConnector__Group__1__Impl();
@@ -5897,17 +6067,17 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__DelegationConnector__Group__1__Impl"
-    // InternalAssemblyViewType.g:1992:1: rule__DelegationConnector__Group__1__Impl : ( '{' ) ;
+    // InternalAssemblyViewType.g:2046:1: rule__DelegationConnector__Group__1__Impl : ( '{' ) ;
     public final void rule__DelegationConnector__Group__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:1996:1: ( ( '{' ) )
-            // InternalAssemblyViewType.g:1997:1: ( '{' )
+            // InternalAssemblyViewType.g:2050:1: ( ( '{' ) )
+            // InternalAssemblyViewType.g:2051:1: ( '{' )
             {
-            // InternalAssemblyViewType.g:1997:1: ( '{' )
-            // InternalAssemblyViewType.g:1998:2: '{'
+            // InternalAssemblyViewType.g:2051:1: ( '{' )
+            // InternalAssemblyViewType.g:2052:2: '{'
             {
              before(grammarAccess.getDelegationConnectorAccess().getLeftCurlyBracketKeyword_1()); 
             match(input,12,FOLLOW_2); 
@@ -5934,16 +6104,16 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__DelegationConnector__Group__2"
-    // InternalAssemblyViewType.g:2007:1: rule__DelegationConnector__Group__2 : rule__DelegationConnector__Group__2__Impl rule__DelegationConnector__Group__3 ;
+    // InternalAssemblyViewType.g:2061:1: rule__DelegationConnector__Group__2 : rule__DelegationConnector__Group__2__Impl rule__DelegationConnector__Group__3 ;
     public final void rule__DelegationConnector__Group__2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:2011:1: ( rule__DelegationConnector__Group__2__Impl rule__DelegationConnector__Group__3 )
-            // InternalAssemblyViewType.g:2012:2: rule__DelegationConnector__Group__2__Impl rule__DelegationConnector__Group__3
+            // InternalAssemblyViewType.g:2065:1: ( rule__DelegationConnector__Group__2__Impl rule__DelegationConnector__Group__3 )
+            // InternalAssemblyViewType.g:2066:2: rule__DelegationConnector__Group__2__Impl rule__DelegationConnector__Group__3
             {
-            pushFollow(FOLLOW_11);
+            pushFollow(FOLLOW_9);
             rule__DelegationConnector__Group__2__Impl();
 
             state._fsp--;
@@ -5972,17 +6142,17 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__DelegationConnector__Group__2__Impl"
-    // InternalAssemblyViewType.g:2019:1: rule__DelegationConnector__Group__2__Impl : ( 'role' ) ;
+    // InternalAssemblyViewType.g:2073:1: rule__DelegationConnector__Group__2__Impl : ( 'role' ) ;
     public final void rule__DelegationConnector__Group__2__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:2023:1: ( ( 'role' ) )
-            // InternalAssemblyViewType.g:2024:1: ( 'role' )
+            // InternalAssemblyViewType.g:2077:1: ( ( 'role' ) )
+            // InternalAssemblyViewType.g:2078:1: ( 'role' )
             {
-            // InternalAssemblyViewType.g:2024:1: ( 'role' )
-            // InternalAssemblyViewType.g:2025:2: 'role'
+            // InternalAssemblyViewType.g:2078:1: ( 'role' )
+            // InternalAssemblyViewType.g:2079:2: 'role'
             {
              before(grammarAccess.getDelegationConnectorAccess().getRoleKeyword_2()); 
             match(input,29,FOLLOW_2); 
@@ -6009,14 +6179,14 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__DelegationConnector__Group__3"
-    // InternalAssemblyViewType.g:2034:1: rule__DelegationConnector__Group__3 : rule__DelegationConnector__Group__3__Impl rule__DelegationConnector__Group__4 ;
+    // InternalAssemblyViewType.g:2088:1: rule__DelegationConnector__Group__3 : rule__DelegationConnector__Group__3__Impl rule__DelegationConnector__Group__4 ;
     public final void rule__DelegationConnector__Group__3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:2038:1: ( rule__DelegationConnector__Group__3__Impl rule__DelegationConnector__Group__4 )
-            // InternalAssemblyViewType.g:2039:2: rule__DelegationConnector__Group__3__Impl rule__DelegationConnector__Group__4
+            // InternalAssemblyViewType.g:2092:1: ( rule__DelegationConnector__Group__3__Impl rule__DelegationConnector__Group__4 )
+            // InternalAssemblyViewType.g:2093:2: rule__DelegationConnector__Group__3__Impl rule__DelegationConnector__Group__4
             {
             pushFollow(FOLLOW_18);
             rule__DelegationConnector__Group__3__Impl();
@@ -6047,21 +6217,21 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__DelegationConnector__Group__3__Impl"
-    // InternalAssemblyViewType.g:2046:1: rule__DelegationConnector__Group__3__Impl : ( ( rule__DelegationConnector__RoleAssignment_3 ) ) ;
+    // InternalAssemblyViewType.g:2100:1: rule__DelegationConnector__Group__3__Impl : ( ( rule__DelegationConnector__RoleAssignment_3 ) ) ;
     public final void rule__DelegationConnector__Group__3__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:2050:1: ( ( ( rule__DelegationConnector__RoleAssignment_3 ) ) )
-            // InternalAssemblyViewType.g:2051:1: ( ( rule__DelegationConnector__RoleAssignment_3 ) )
+            // InternalAssemblyViewType.g:2104:1: ( ( ( rule__DelegationConnector__RoleAssignment_3 ) ) )
+            // InternalAssemblyViewType.g:2105:1: ( ( rule__DelegationConnector__RoleAssignment_3 ) )
             {
-            // InternalAssemblyViewType.g:2051:1: ( ( rule__DelegationConnector__RoleAssignment_3 ) )
-            // InternalAssemblyViewType.g:2052:2: ( rule__DelegationConnector__RoleAssignment_3 )
+            // InternalAssemblyViewType.g:2105:1: ( ( rule__DelegationConnector__RoleAssignment_3 ) )
+            // InternalAssemblyViewType.g:2106:2: ( rule__DelegationConnector__RoleAssignment_3 )
             {
              before(grammarAccess.getDelegationConnectorAccess().getRoleAssignment_3()); 
-            // InternalAssemblyViewType.g:2053:2: ( rule__DelegationConnector__RoleAssignment_3 )
-            // InternalAssemblyViewType.g:2053:3: rule__DelegationConnector__RoleAssignment_3
+            // InternalAssemblyViewType.g:2107:2: ( rule__DelegationConnector__RoleAssignment_3 )
+            // InternalAssemblyViewType.g:2107:3: rule__DelegationConnector__RoleAssignment_3
             {
             pushFollow(FOLLOW_2);
             rule__DelegationConnector__RoleAssignment_3();
@@ -6094,16 +6264,16 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__DelegationConnector__Group__4"
-    // InternalAssemblyViewType.g:2061:1: rule__DelegationConnector__Group__4 : rule__DelegationConnector__Group__4__Impl rule__DelegationConnector__Group__5 ;
+    // InternalAssemblyViewType.g:2115:1: rule__DelegationConnector__Group__4 : rule__DelegationConnector__Group__4__Impl rule__DelegationConnector__Group__5 ;
     public final void rule__DelegationConnector__Group__4() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:2065:1: ( rule__DelegationConnector__Group__4__Impl rule__DelegationConnector__Group__5 )
-            // InternalAssemblyViewType.g:2066:2: rule__DelegationConnector__Group__4__Impl rule__DelegationConnector__Group__5
+            // InternalAssemblyViewType.g:2119:1: ( rule__DelegationConnector__Group__4__Impl rule__DelegationConnector__Group__5 )
+            // InternalAssemblyViewType.g:2120:2: rule__DelegationConnector__Group__4__Impl rule__DelegationConnector__Group__5
             {
-            pushFollow(FOLLOW_11);
+            pushFollow(FOLLOW_9);
             rule__DelegationConnector__Group__4__Impl();
 
             state._fsp--;
@@ -6132,17 +6302,17 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__DelegationConnector__Group__4__Impl"
-    // InternalAssemblyViewType.g:2073:1: rule__DelegationConnector__Group__4__Impl : ( 'interface' ) ;
+    // InternalAssemblyViewType.g:2127:1: rule__DelegationConnector__Group__4__Impl : ( 'interface' ) ;
     public final void rule__DelegationConnector__Group__4__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:2077:1: ( ( 'interface' ) )
-            // InternalAssemblyViewType.g:2078:1: ( 'interface' )
+            // InternalAssemblyViewType.g:2131:1: ( ( 'interface' ) )
+            // InternalAssemblyViewType.g:2132:1: ( 'interface' )
             {
-            // InternalAssemblyViewType.g:2078:1: ( 'interface' )
-            // InternalAssemblyViewType.g:2079:2: 'interface'
+            // InternalAssemblyViewType.g:2132:1: ( 'interface' )
+            // InternalAssemblyViewType.g:2133:2: 'interface'
             {
              before(grammarAccess.getDelegationConnectorAccess().getInterfaceKeyword_4()); 
             match(input,27,FOLLOW_2); 
@@ -6169,14 +6339,14 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__DelegationConnector__Group__5"
-    // InternalAssemblyViewType.g:2088:1: rule__DelegationConnector__Group__5 : rule__DelegationConnector__Group__5__Impl rule__DelegationConnector__Group__6 ;
+    // InternalAssemblyViewType.g:2142:1: rule__DelegationConnector__Group__5 : rule__DelegationConnector__Group__5__Impl rule__DelegationConnector__Group__6 ;
     public final void rule__DelegationConnector__Group__5() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:2092:1: ( rule__DelegationConnector__Group__5__Impl rule__DelegationConnector__Group__6 )
-            // InternalAssemblyViewType.g:2093:2: rule__DelegationConnector__Group__5__Impl rule__DelegationConnector__Group__6
+            // InternalAssemblyViewType.g:2146:1: ( rule__DelegationConnector__Group__5__Impl rule__DelegationConnector__Group__6 )
+            // InternalAssemblyViewType.g:2147:2: rule__DelegationConnector__Group__5__Impl rule__DelegationConnector__Group__6
             {
             pushFollow(FOLLOW_8);
             rule__DelegationConnector__Group__5__Impl();
@@ -6207,21 +6377,21 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__DelegationConnector__Group__5__Impl"
-    // InternalAssemblyViewType.g:2100:1: rule__DelegationConnector__Group__5__Impl : ( ( rule__DelegationConnector__InterfaceAssignment_5 ) ) ;
+    // InternalAssemblyViewType.g:2154:1: rule__DelegationConnector__Group__5__Impl : ( ( rule__DelegationConnector__InterfaceAssignment_5 ) ) ;
     public final void rule__DelegationConnector__Group__5__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:2104:1: ( ( ( rule__DelegationConnector__InterfaceAssignment_5 ) ) )
-            // InternalAssemblyViewType.g:2105:1: ( ( rule__DelegationConnector__InterfaceAssignment_5 ) )
+            // InternalAssemblyViewType.g:2158:1: ( ( ( rule__DelegationConnector__InterfaceAssignment_5 ) ) )
+            // InternalAssemblyViewType.g:2159:1: ( ( rule__DelegationConnector__InterfaceAssignment_5 ) )
             {
-            // InternalAssemblyViewType.g:2105:1: ( ( rule__DelegationConnector__InterfaceAssignment_5 ) )
-            // InternalAssemblyViewType.g:2106:2: ( rule__DelegationConnector__InterfaceAssignment_5 )
+            // InternalAssemblyViewType.g:2159:1: ( ( rule__DelegationConnector__InterfaceAssignment_5 ) )
+            // InternalAssemblyViewType.g:2160:2: ( rule__DelegationConnector__InterfaceAssignment_5 )
             {
              before(grammarAccess.getDelegationConnectorAccess().getInterfaceAssignment_5()); 
-            // InternalAssemblyViewType.g:2107:2: ( rule__DelegationConnector__InterfaceAssignment_5 )
-            // InternalAssemblyViewType.g:2107:3: rule__DelegationConnector__InterfaceAssignment_5
+            // InternalAssemblyViewType.g:2161:2: ( rule__DelegationConnector__InterfaceAssignment_5 )
+            // InternalAssemblyViewType.g:2161:3: rule__DelegationConnector__InterfaceAssignment_5
             {
             pushFollow(FOLLOW_2);
             rule__DelegationConnector__InterfaceAssignment_5();
@@ -6254,14 +6424,14 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__DelegationConnector__Group__6"
-    // InternalAssemblyViewType.g:2115:1: rule__DelegationConnector__Group__6 : rule__DelegationConnector__Group__6__Impl ;
+    // InternalAssemblyViewType.g:2169:1: rule__DelegationConnector__Group__6 : rule__DelegationConnector__Group__6__Impl ;
     public final void rule__DelegationConnector__Group__6() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:2119:1: ( rule__DelegationConnector__Group__6__Impl )
-            // InternalAssemblyViewType.g:2120:2: rule__DelegationConnector__Group__6__Impl
+            // InternalAssemblyViewType.g:2173:1: ( rule__DelegationConnector__Group__6__Impl )
+            // InternalAssemblyViewType.g:2174:2: rule__DelegationConnector__Group__6__Impl
             {
             pushFollow(FOLLOW_2);
             rule__DelegationConnector__Group__6__Impl();
@@ -6287,17 +6457,17 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__DelegationConnector__Group__6__Impl"
-    // InternalAssemblyViewType.g:2126:1: rule__DelegationConnector__Group__6__Impl : ( '}' ) ;
+    // InternalAssemblyViewType.g:2180:1: rule__DelegationConnector__Group__6__Impl : ( '}' ) ;
     public final void rule__DelegationConnector__Group__6__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:2130:1: ( ( '}' ) )
-            // InternalAssemblyViewType.g:2131:1: ( '}' )
+            // InternalAssemblyViewType.g:2184:1: ( ( '}' ) )
+            // InternalAssemblyViewType.g:2185:1: ( '}' )
             {
-            // InternalAssemblyViewType.g:2131:1: ( '}' )
-            // InternalAssemblyViewType.g:2132:2: '}'
+            // InternalAssemblyViewType.g:2185:1: ( '}' )
+            // InternalAssemblyViewType.g:2186:2: '}'
             {
              before(grammarAccess.getDelegationConnectorAccess().getRightCurlyBracketKeyword_6()); 
             match(input,14,FOLLOW_2); 
@@ -6324,14 +6494,14 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__AssemblyConnector__Group__0"
-    // InternalAssemblyViewType.g:2142:1: rule__AssemblyConnector__Group__0 : rule__AssemblyConnector__Group__0__Impl rule__AssemblyConnector__Group__1 ;
+    // InternalAssemblyViewType.g:2196:1: rule__AssemblyConnector__Group__0 : rule__AssemblyConnector__Group__0__Impl rule__AssemblyConnector__Group__1 ;
     public final void rule__AssemblyConnector__Group__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:2146:1: ( rule__AssemblyConnector__Group__0__Impl rule__AssemblyConnector__Group__1 )
-            // InternalAssemblyViewType.g:2147:2: rule__AssemblyConnector__Group__0__Impl rule__AssemblyConnector__Group__1
+            // InternalAssemblyViewType.g:2200:1: ( rule__AssemblyConnector__Group__0__Impl rule__AssemblyConnector__Group__1 )
+            // InternalAssemblyViewType.g:2201:2: rule__AssemblyConnector__Group__0__Impl rule__AssemblyConnector__Group__1
             {
             pushFollow(FOLLOW_3);
             rule__AssemblyConnector__Group__0__Impl();
@@ -6362,17 +6532,17 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__AssemblyConnector__Group__0__Impl"
-    // InternalAssemblyViewType.g:2154:1: rule__AssemblyConnector__Group__0__Impl : ( 'AssemblyConnector' ) ;
+    // InternalAssemblyViewType.g:2208:1: rule__AssemblyConnector__Group__0__Impl : ( 'AssemblyConnector' ) ;
     public final void rule__AssemblyConnector__Group__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:2158:1: ( ( 'AssemblyConnector' ) )
-            // InternalAssemblyViewType.g:2159:1: ( 'AssemblyConnector' )
+            // InternalAssemblyViewType.g:2212:1: ( ( 'AssemblyConnector' ) )
+            // InternalAssemblyViewType.g:2213:1: ( 'AssemblyConnector' )
             {
-            // InternalAssemblyViewType.g:2159:1: ( 'AssemblyConnector' )
-            // InternalAssemblyViewType.g:2160:2: 'AssemblyConnector'
+            // InternalAssemblyViewType.g:2213:1: ( 'AssemblyConnector' )
+            // InternalAssemblyViewType.g:2214:2: 'AssemblyConnector'
             {
              before(grammarAccess.getAssemblyConnectorAccess().getAssemblyConnectorKeyword_0()); 
             match(input,30,FOLLOW_2); 
@@ -6399,14 +6569,14 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__AssemblyConnector__Group__1"
-    // InternalAssemblyViewType.g:2169:1: rule__AssemblyConnector__Group__1 : rule__AssemblyConnector__Group__1__Impl rule__AssemblyConnector__Group__2 ;
+    // InternalAssemblyViewType.g:2223:1: rule__AssemblyConnector__Group__1 : rule__AssemblyConnector__Group__1__Impl rule__AssemblyConnector__Group__2 ;
     public final void rule__AssemblyConnector__Group__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:2173:1: ( rule__AssemblyConnector__Group__1__Impl rule__AssemblyConnector__Group__2 )
-            // InternalAssemblyViewType.g:2174:2: rule__AssemblyConnector__Group__1__Impl rule__AssemblyConnector__Group__2
+            // InternalAssemblyViewType.g:2227:1: ( rule__AssemblyConnector__Group__1__Impl rule__AssemblyConnector__Group__2 )
+            // InternalAssemblyViewType.g:2228:2: rule__AssemblyConnector__Group__1__Impl rule__AssemblyConnector__Group__2
             {
             pushFollow(FOLLOW_20);
             rule__AssemblyConnector__Group__1__Impl();
@@ -6437,17 +6607,17 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__AssemblyConnector__Group__1__Impl"
-    // InternalAssemblyViewType.g:2181:1: rule__AssemblyConnector__Group__1__Impl : ( '{' ) ;
+    // InternalAssemblyViewType.g:2235:1: rule__AssemblyConnector__Group__1__Impl : ( '{' ) ;
     public final void rule__AssemblyConnector__Group__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:2185:1: ( ( '{' ) )
-            // InternalAssemblyViewType.g:2186:1: ( '{' )
+            // InternalAssemblyViewType.g:2239:1: ( ( '{' ) )
+            // InternalAssemblyViewType.g:2240:1: ( '{' )
             {
-            // InternalAssemblyViewType.g:2186:1: ( '{' )
-            // InternalAssemblyViewType.g:2187:2: '{'
+            // InternalAssemblyViewType.g:2240:1: ( '{' )
+            // InternalAssemblyViewType.g:2241:2: '{'
             {
              before(grammarAccess.getAssemblyConnectorAccess().getLeftCurlyBracketKeyword_1()); 
             match(input,12,FOLLOW_2); 
@@ -6474,16 +6644,16 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__AssemblyConnector__Group__2"
-    // InternalAssemblyViewType.g:2196:1: rule__AssemblyConnector__Group__2 : rule__AssemblyConnector__Group__2__Impl rule__AssemblyConnector__Group__3 ;
+    // InternalAssemblyViewType.g:2250:1: rule__AssemblyConnector__Group__2 : rule__AssemblyConnector__Group__2__Impl rule__AssemblyConnector__Group__3 ;
     public final void rule__AssemblyConnector__Group__2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:2200:1: ( rule__AssemblyConnector__Group__2__Impl rule__AssemblyConnector__Group__3 )
-            // InternalAssemblyViewType.g:2201:2: rule__AssemblyConnector__Group__2__Impl rule__AssemblyConnector__Group__3
+            // InternalAssemblyViewType.g:2254:1: ( rule__AssemblyConnector__Group__2__Impl rule__AssemblyConnector__Group__3 )
+            // InternalAssemblyViewType.g:2255:2: rule__AssemblyConnector__Group__2__Impl rule__AssemblyConnector__Group__3
             {
-            pushFollow(FOLLOW_11);
+            pushFollow(FOLLOW_9);
             rule__AssemblyConnector__Group__2__Impl();
 
             state._fsp--;
@@ -6512,17 +6682,17 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__AssemblyConnector__Group__2__Impl"
-    // InternalAssemblyViewType.g:2208:1: rule__AssemblyConnector__Group__2__Impl : ( 'providedRole' ) ;
+    // InternalAssemblyViewType.g:2262:1: rule__AssemblyConnector__Group__2__Impl : ( 'providedRole' ) ;
     public final void rule__AssemblyConnector__Group__2__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:2212:1: ( ( 'providedRole' ) )
-            // InternalAssemblyViewType.g:2213:1: ( 'providedRole' )
+            // InternalAssemblyViewType.g:2266:1: ( ( 'providedRole' ) )
+            // InternalAssemblyViewType.g:2267:1: ( 'providedRole' )
             {
-            // InternalAssemblyViewType.g:2213:1: ( 'providedRole' )
-            // InternalAssemblyViewType.g:2214:2: 'providedRole'
+            // InternalAssemblyViewType.g:2267:1: ( 'providedRole' )
+            // InternalAssemblyViewType.g:2268:2: 'providedRole'
             {
              before(grammarAccess.getAssemblyConnectorAccess().getProvidedRoleKeyword_2()); 
             match(input,31,FOLLOW_2); 
@@ -6549,14 +6719,14 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__AssemblyConnector__Group__3"
-    // InternalAssemblyViewType.g:2223:1: rule__AssemblyConnector__Group__3 : rule__AssemblyConnector__Group__3__Impl rule__AssemblyConnector__Group__4 ;
+    // InternalAssemblyViewType.g:2277:1: rule__AssemblyConnector__Group__3 : rule__AssemblyConnector__Group__3__Impl rule__AssemblyConnector__Group__4 ;
     public final void rule__AssemblyConnector__Group__3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:2227:1: ( rule__AssemblyConnector__Group__3__Impl rule__AssemblyConnector__Group__4 )
-            // InternalAssemblyViewType.g:2228:2: rule__AssemblyConnector__Group__3__Impl rule__AssemblyConnector__Group__4
+            // InternalAssemblyViewType.g:2281:1: ( rule__AssemblyConnector__Group__3__Impl rule__AssemblyConnector__Group__4 )
+            // InternalAssemblyViewType.g:2282:2: rule__AssemblyConnector__Group__3__Impl rule__AssemblyConnector__Group__4
             {
             pushFollow(FOLLOW_21);
             rule__AssemblyConnector__Group__3__Impl();
@@ -6587,21 +6757,21 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__AssemblyConnector__Group__3__Impl"
-    // InternalAssemblyViewType.g:2235:1: rule__AssemblyConnector__Group__3__Impl : ( ( rule__AssemblyConnector__ProvidedRoleAssignment_3 ) ) ;
+    // InternalAssemblyViewType.g:2289:1: rule__AssemblyConnector__Group__3__Impl : ( ( rule__AssemblyConnector__ProvidedRoleAssignment_3 ) ) ;
     public final void rule__AssemblyConnector__Group__3__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:2239:1: ( ( ( rule__AssemblyConnector__ProvidedRoleAssignment_3 ) ) )
-            // InternalAssemblyViewType.g:2240:1: ( ( rule__AssemblyConnector__ProvidedRoleAssignment_3 ) )
+            // InternalAssemblyViewType.g:2293:1: ( ( ( rule__AssemblyConnector__ProvidedRoleAssignment_3 ) ) )
+            // InternalAssemblyViewType.g:2294:1: ( ( rule__AssemblyConnector__ProvidedRoleAssignment_3 ) )
             {
-            // InternalAssemblyViewType.g:2240:1: ( ( rule__AssemblyConnector__ProvidedRoleAssignment_3 ) )
-            // InternalAssemblyViewType.g:2241:2: ( rule__AssemblyConnector__ProvidedRoleAssignment_3 )
+            // InternalAssemblyViewType.g:2294:1: ( ( rule__AssemblyConnector__ProvidedRoleAssignment_3 ) )
+            // InternalAssemblyViewType.g:2295:2: ( rule__AssemblyConnector__ProvidedRoleAssignment_3 )
             {
              before(grammarAccess.getAssemblyConnectorAccess().getProvidedRoleAssignment_3()); 
-            // InternalAssemblyViewType.g:2242:2: ( rule__AssemblyConnector__ProvidedRoleAssignment_3 )
-            // InternalAssemblyViewType.g:2242:3: rule__AssemblyConnector__ProvidedRoleAssignment_3
+            // InternalAssemblyViewType.g:2296:2: ( rule__AssemblyConnector__ProvidedRoleAssignment_3 )
+            // InternalAssemblyViewType.g:2296:3: rule__AssemblyConnector__ProvidedRoleAssignment_3
             {
             pushFollow(FOLLOW_2);
             rule__AssemblyConnector__ProvidedRoleAssignment_3();
@@ -6634,16 +6804,16 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__AssemblyConnector__Group__4"
-    // InternalAssemblyViewType.g:2250:1: rule__AssemblyConnector__Group__4 : rule__AssemblyConnector__Group__4__Impl rule__AssemblyConnector__Group__5 ;
+    // InternalAssemblyViewType.g:2304:1: rule__AssemblyConnector__Group__4 : rule__AssemblyConnector__Group__4__Impl rule__AssemblyConnector__Group__5 ;
     public final void rule__AssemblyConnector__Group__4() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:2254:1: ( rule__AssemblyConnector__Group__4__Impl rule__AssemblyConnector__Group__5 )
-            // InternalAssemblyViewType.g:2255:2: rule__AssemblyConnector__Group__4__Impl rule__AssemblyConnector__Group__5
+            // InternalAssemblyViewType.g:2308:1: ( rule__AssemblyConnector__Group__4__Impl rule__AssemblyConnector__Group__5 )
+            // InternalAssemblyViewType.g:2309:2: rule__AssemblyConnector__Group__4__Impl rule__AssemblyConnector__Group__5
             {
-            pushFollow(FOLLOW_11);
+            pushFollow(FOLLOW_9);
             rule__AssemblyConnector__Group__4__Impl();
 
             state._fsp--;
@@ -6672,17 +6842,17 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__AssemblyConnector__Group__4__Impl"
-    // InternalAssemblyViewType.g:2262:1: rule__AssemblyConnector__Group__4__Impl : ( 'requiredRole' ) ;
+    // InternalAssemblyViewType.g:2316:1: rule__AssemblyConnector__Group__4__Impl : ( 'requiredRole' ) ;
     public final void rule__AssemblyConnector__Group__4__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:2266:1: ( ( 'requiredRole' ) )
-            // InternalAssemblyViewType.g:2267:1: ( 'requiredRole' )
+            // InternalAssemblyViewType.g:2320:1: ( ( 'requiredRole' ) )
+            // InternalAssemblyViewType.g:2321:1: ( 'requiredRole' )
             {
-            // InternalAssemblyViewType.g:2267:1: ( 'requiredRole' )
-            // InternalAssemblyViewType.g:2268:2: 'requiredRole'
+            // InternalAssemblyViewType.g:2321:1: ( 'requiredRole' )
+            // InternalAssemblyViewType.g:2322:2: 'requiredRole'
             {
              before(grammarAccess.getAssemblyConnectorAccess().getRequiredRoleKeyword_4()); 
             match(input,32,FOLLOW_2); 
@@ -6709,14 +6879,14 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__AssemblyConnector__Group__5"
-    // InternalAssemblyViewType.g:2277:1: rule__AssemblyConnector__Group__5 : rule__AssemblyConnector__Group__5__Impl rule__AssemblyConnector__Group__6 ;
+    // InternalAssemblyViewType.g:2331:1: rule__AssemblyConnector__Group__5 : rule__AssemblyConnector__Group__5__Impl rule__AssemblyConnector__Group__6 ;
     public final void rule__AssemblyConnector__Group__5() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:2281:1: ( rule__AssemblyConnector__Group__5__Impl rule__AssemblyConnector__Group__6 )
-            // InternalAssemblyViewType.g:2282:2: rule__AssemblyConnector__Group__5__Impl rule__AssemblyConnector__Group__6
+            // InternalAssemblyViewType.g:2335:1: ( rule__AssemblyConnector__Group__5__Impl rule__AssemblyConnector__Group__6 )
+            // InternalAssemblyViewType.g:2336:2: rule__AssemblyConnector__Group__5__Impl rule__AssemblyConnector__Group__6
             {
             pushFollow(FOLLOW_8);
             rule__AssemblyConnector__Group__5__Impl();
@@ -6747,21 +6917,21 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__AssemblyConnector__Group__5__Impl"
-    // InternalAssemblyViewType.g:2289:1: rule__AssemblyConnector__Group__5__Impl : ( ( rule__AssemblyConnector__RequiredRoleAssignment_5 ) ) ;
+    // InternalAssemblyViewType.g:2343:1: rule__AssemblyConnector__Group__5__Impl : ( ( rule__AssemblyConnector__RequiredRoleAssignment_5 ) ) ;
     public final void rule__AssemblyConnector__Group__5__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:2293:1: ( ( ( rule__AssemblyConnector__RequiredRoleAssignment_5 ) ) )
-            // InternalAssemblyViewType.g:2294:1: ( ( rule__AssemblyConnector__RequiredRoleAssignment_5 ) )
+            // InternalAssemblyViewType.g:2347:1: ( ( ( rule__AssemblyConnector__RequiredRoleAssignment_5 ) ) )
+            // InternalAssemblyViewType.g:2348:1: ( ( rule__AssemblyConnector__RequiredRoleAssignment_5 ) )
             {
-            // InternalAssemblyViewType.g:2294:1: ( ( rule__AssemblyConnector__RequiredRoleAssignment_5 ) )
-            // InternalAssemblyViewType.g:2295:2: ( rule__AssemblyConnector__RequiredRoleAssignment_5 )
+            // InternalAssemblyViewType.g:2348:1: ( ( rule__AssemblyConnector__RequiredRoleAssignment_5 ) )
+            // InternalAssemblyViewType.g:2349:2: ( rule__AssemblyConnector__RequiredRoleAssignment_5 )
             {
              before(grammarAccess.getAssemblyConnectorAccess().getRequiredRoleAssignment_5()); 
-            // InternalAssemblyViewType.g:2296:2: ( rule__AssemblyConnector__RequiredRoleAssignment_5 )
-            // InternalAssemblyViewType.g:2296:3: rule__AssemblyConnector__RequiredRoleAssignment_5
+            // InternalAssemblyViewType.g:2350:2: ( rule__AssemblyConnector__RequiredRoleAssignment_5 )
+            // InternalAssemblyViewType.g:2350:3: rule__AssemblyConnector__RequiredRoleAssignment_5
             {
             pushFollow(FOLLOW_2);
             rule__AssemblyConnector__RequiredRoleAssignment_5();
@@ -6794,14 +6964,14 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__AssemblyConnector__Group__6"
-    // InternalAssemblyViewType.g:2304:1: rule__AssemblyConnector__Group__6 : rule__AssemblyConnector__Group__6__Impl ;
+    // InternalAssemblyViewType.g:2358:1: rule__AssemblyConnector__Group__6 : rule__AssemblyConnector__Group__6__Impl ;
     public final void rule__AssemblyConnector__Group__6() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:2308:1: ( rule__AssemblyConnector__Group__6__Impl )
-            // InternalAssemblyViewType.g:2309:2: rule__AssemblyConnector__Group__6__Impl
+            // InternalAssemblyViewType.g:2362:1: ( rule__AssemblyConnector__Group__6__Impl )
+            // InternalAssemblyViewType.g:2363:2: rule__AssemblyConnector__Group__6__Impl
             {
             pushFollow(FOLLOW_2);
             rule__AssemblyConnector__Group__6__Impl();
@@ -6827,17 +6997,17 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__AssemblyConnector__Group__6__Impl"
-    // InternalAssemblyViewType.g:2315:1: rule__AssemblyConnector__Group__6__Impl : ( '}' ) ;
+    // InternalAssemblyViewType.g:2369:1: rule__AssemblyConnector__Group__6__Impl : ( '}' ) ;
     public final void rule__AssemblyConnector__Group__6__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:2319:1: ( ( '}' ) )
-            // InternalAssemblyViewType.g:2320:1: ( '}' )
+            // InternalAssemblyViewType.g:2373:1: ( ( '}' ) )
+            // InternalAssemblyViewType.g:2374:1: ( '}' )
             {
-            // InternalAssemblyViewType.g:2320:1: ( '}' )
-            // InternalAssemblyViewType.g:2321:2: '}'
+            // InternalAssemblyViewType.g:2374:1: ( '}' )
+            // InternalAssemblyViewType.g:2375:2: '}'
             {
              before(grammarAccess.getAssemblyConnectorAccess().getRightCurlyBracketKeyword_6()); 
             match(input,14,FOLLOW_2); 
@@ -6864,17 +7034,17 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__AssemblyViewType__SystemsAssignment_4"
-    // InternalAssemblyViewType.g:2331:1: rule__AssemblyViewType__SystemsAssignment_4 : ( ruleSystem ) ;
+    // InternalAssemblyViewType.g:2385:1: rule__AssemblyViewType__SystemsAssignment_4 : ( ruleSystem ) ;
     public final void rule__AssemblyViewType__SystemsAssignment_4() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:2335:1: ( ( ruleSystem ) )
-            // InternalAssemblyViewType.g:2336:2: ( ruleSystem )
+            // InternalAssemblyViewType.g:2389:1: ( ( ruleSystem ) )
+            // InternalAssemblyViewType.g:2390:2: ( ruleSystem )
             {
-            // InternalAssemblyViewType.g:2336:2: ( ruleSystem )
-            // InternalAssemblyViewType.g:2337:3: ruleSystem
+            // InternalAssemblyViewType.g:2390:2: ( ruleSystem )
+            // InternalAssemblyViewType.g:2391:3: ruleSystem
             {
              before(grammarAccess.getAssemblyViewTypeAccess().getSystemsSystemParserRuleCall_4_0()); 
             pushFollow(FOLLOW_2);
@@ -6905,17 +7075,17 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__AssemblyViewType__SystemsAssignment_5_1"
-    // InternalAssemblyViewType.g:2346:1: rule__AssemblyViewType__SystemsAssignment_5_1 : ( ruleSystem ) ;
+    // InternalAssemblyViewType.g:2400:1: rule__AssemblyViewType__SystemsAssignment_5_1 : ( ruleSystem ) ;
     public final void rule__AssemblyViewType__SystemsAssignment_5_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:2350:1: ( ( ruleSystem ) )
-            // InternalAssemblyViewType.g:2351:2: ( ruleSystem )
+            // InternalAssemblyViewType.g:2404:1: ( ( ruleSystem ) )
+            // InternalAssemblyViewType.g:2405:2: ( ruleSystem )
             {
-            // InternalAssemblyViewType.g:2351:2: ( ruleSystem )
-            // InternalAssemblyViewType.g:2352:3: ruleSystem
+            // InternalAssemblyViewType.g:2405:2: ( ruleSystem )
+            // InternalAssemblyViewType.g:2406:3: ruleSystem
             {
              before(grammarAccess.getAssemblyViewTypeAccess().getSystemsSystemParserRuleCall_5_1_0()); 
             pushFollow(FOLLOW_2);
@@ -6945,34 +7115,26 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
     // $ANTLR end "rule__AssemblyViewType__SystemsAssignment_5_1"
 
 
-    // $ANTLR start "rule__System__RequiredInterfacesAssignment_2_2"
-    // InternalAssemblyViewType.g:2361:1: rule__System__RequiredInterfacesAssignment_2_2 : ( ( ruleEString ) ) ;
-    public final void rule__System__RequiredInterfacesAssignment_2_2() throws RecognitionException {
+    // $ANTLR start "rule__System__NameAssignment_1"
+    // InternalAssemblyViewType.g:2415:1: rule__System__NameAssignment_1 : ( ruleEString ) ;
+    public final void rule__System__NameAssignment_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:2365:1: ( ( ( ruleEString ) ) )
-            // InternalAssemblyViewType.g:2366:2: ( ( ruleEString ) )
+            // InternalAssemblyViewType.g:2419:1: ( ( ruleEString ) )
+            // InternalAssemblyViewType.g:2420:2: ( ruleEString )
             {
-            // InternalAssemblyViewType.g:2366:2: ( ( ruleEString ) )
-            // InternalAssemblyViewType.g:2367:3: ( ruleEString )
+            // InternalAssemblyViewType.g:2420:2: ( ruleEString )
+            // InternalAssemblyViewType.g:2421:3: ruleEString
             {
-             before(grammarAccess.getSystemAccess().getRequiredInterfacesInterfaceCrossReference_2_2_0()); 
-            // InternalAssemblyViewType.g:2368:3: ( ruleEString )
-            // InternalAssemblyViewType.g:2369:4: ruleEString
-            {
-             before(grammarAccess.getSystemAccess().getRequiredInterfacesInterfaceEStringParserRuleCall_2_2_0_1()); 
+             before(grammarAccess.getSystemAccess().getNameEStringParserRuleCall_1_0()); 
             pushFollow(FOLLOW_2);
             ruleEString();
 
             state._fsp--;
 
-             after(grammarAccess.getSystemAccess().getRequiredInterfacesInterfaceEStringParserRuleCall_2_2_0_1()); 
-
-            }
-
-             after(grammarAccess.getSystemAccess().getRequiredInterfacesInterfaceCrossReference_2_2_0()); 
+             after(grammarAccess.getSystemAccess().getNameEStringParserRuleCall_1_0()); 
 
             }
 
@@ -6991,37 +7153,37 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
         }
         return ;
     }
-    // $ANTLR end "rule__System__RequiredInterfacesAssignment_2_2"
+    // $ANTLR end "rule__System__NameAssignment_1"
 
 
-    // $ANTLR start "rule__System__RequiredInterfacesAssignment_2_3_1"
-    // InternalAssemblyViewType.g:2380:1: rule__System__RequiredInterfacesAssignment_2_3_1 : ( ( ruleEString ) ) ;
-    public final void rule__System__RequiredInterfacesAssignment_2_3_1() throws RecognitionException {
+    // $ANTLR start "rule__System__RequiredInterfacesAssignment_3_2"
+    // InternalAssemblyViewType.g:2430:1: rule__System__RequiredInterfacesAssignment_3_2 : ( ( ruleEString ) ) ;
+    public final void rule__System__RequiredInterfacesAssignment_3_2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:2384:1: ( ( ( ruleEString ) ) )
-            // InternalAssemblyViewType.g:2385:2: ( ( ruleEString ) )
+            // InternalAssemblyViewType.g:2434:1: ( ( ( ruleEString ) ) )
+            // InternalAssemblyViewType.g:2435:2: ( ( ruleEString ) )
             {
-            // InternalAssemblyViewType.g:2385:2: ( ( ruleEString ) )
-            // InternalAssemblyViewType.g:2386:3: ( ruleEString )
+            // InternalAssemblyViewType.g:2435:2: ( ( ruleEString ) )
+            // InternalAssemblyViewType.g:2436:3: ( ruleEString )
             {
-             before(grammarAccess.getSystemAccess().getRequiredInterfacesInterfaceCrossReference_2_3_1_0()); 
-            // InternalAssemblyViewType.g:2387:3: ( ruleEString )
-            // InternalAssemblyViewType.g:2388:4: ruleEString
+             before(grammarAccess.getSystemAccess().getRequiredInterfacesInterfaceCrossReference_3_2_0()); 
+            // InternalAssemblyViewType.g:2437:3: ( ruleEString )
+            // InternalAssemblyViewType.g:2438:4: ruleEString
             {
-             before(grammarAccess.getSystemAccess().getRequiredInterfacesInterfaceEStringParserRuleCall_2_3_1_0_1()); 
+             before(grammarAccess.getSystemAccess().getRequiredInterfacesInterfaceEStringParserRuleCall_3_2_0_1()); 
             pushFollow(FOLLOW_2);
             ruleEString();
 
             state._fsp--;
 
-             after(grammarAccess.getSystemAccess().getRequiredInterfacesInterfaceEStringParserRuleCall_2_3_1_0_1()); 
+             after(grammarAccess.getSystemAccess().getRequiredInterfacesInterfaceEStringParserRuleCall_3_2_0_1()); 
 
             }
 
-             after(grammarAccess.getSystemAccess().getRequiredInterfacesInterfaceCrossReference_2_3_1_0()); 
+             after(grammarAccess.getSystemAccess().getRequiredInterfacesInterfaceCrossReference_3_2_0()); 
 
             }
 
@@ -7040,37 +7202,37 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
         }
         return ;
     }
-    // $ANTLR end "rule__System__RequiredInterfacesAssignment_2_3_1"
+    // $ANTLR end "rule__System__RequiredInterfacesAssignment_3_2"
 
 
-    // $ANTLR start "rule__System__ProvidedInterfacesAssignment_5"
-    // InternalAssemblyViewType.g:2399:1: rule__System__ProvidedInterfacesAssignment_5 : ( ( ruleEString ) ) ;
-    public final void rule__System__ProvidedInterfacesAssignment_5() throws RecognitionException {
+    // $ANTLR start "rule__System__RequiredInterfacesAssignment_3_3_1"
+    // InternalAssemblyViewType.g:2449:1: rule__System__RequiredInterfacesAssignment_3_3_1 : ( ( ruleEString ) ) ;
+    public final void rule__System__RequiredInterfacesAssignment_3_3_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:2403:1: ( ( ( ruleEString ) ) )
-            // InternalAssemblyViewType.g:2404:2: ( ( ruleEString ) )
+            // InternalAssemblyViewType.g:2453:1: ( ( ( ruleEString ) ) )
+            // InternalAssemblyViewType.g:2454:2: ( ( ruleEString ) )
             {
-            // InternalAssemblyViewType.g:2404:2: ( ( ruleEString ) )
-            // InternalAssemblyViewType.g:2405:3: ( ruleEString )
+            // InternalAssemblyViewType.g:2454:2: ( ( ruleEString ) )
+            // InternalAssemblyViewType.g:2455:3: ( ruleEString )
             {
-             before(grammarAccess.getSystemAccess().getProvidedInterfacesInterfaceCrossReference_5_0()); 
-            // InternalAssemblyViewType.g:2406:3: ( ruleEString )
-            // InternalAssemblyViewType.g:2407:4: ruleEString
+             before(grammarAccess.getSystemAccess().getRequiredInterfacesInterfaceCrossReference_3_3_1_0()); 
+            // InternalAssemblyViewType.g:2456:3: ( ruleEString )
+            // InternalAssemblyViewType.g:2457:4: ruleEString
             {
-             before(grammarAccess.getSystemAccess().getProvidedInterfacesInterfaceEStringParserRuleCall_5_0_1()); 
+             before(grammarAccess.getSystemAccess().getRequiredInterfacesInterfaceEStringParserRuleCall_3_3_1_0_1()); 
             pushFollow(FOLLOW_2);
             ruleEString();
 
             state._fsp--;
 
-             after(grammarAccess.getSystemAccess().getProvidedInterfacesInterfaceEStringParserRuleCall_5_0_1()); 
+             after(grammarAccess.getSystemAccess().getRequiredInterfacesInterfaceEStringParserRuleCall_3_3_1_0_1()); 
 
             }
 
-             after(grammarAccess.getSystemAccess().getProvidedInterfacesInterfaceCrossReference_5_0()); 
+             after(grammarAccess.getSystemAccess().getRequiredInterfacesInterfaceCrossReference_3_3_1_0()); 
 
             }
 
@@ -7089,37 +7251,37 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
         }
         return ;
     }
-    // $ANTLR end "rule__System__ProvidedInterfacesAssignment_5"
+    // $ANTLR end "rule__System__RequiredInterfacesAssignment_3_3_1"
 
 
-    // $ANTLR start "rule__System__ProvidedInterfacesAssignment_6_1"
-    // InternalAssemblyViewType.g:2418:1: rule__System__ProvidedInterfacesAssignment_6_1 : ( ( ruleEString ) ) ;
-    public final void rule__System__ProvidedInterfacesAssignment_6_1() throws RecognitionException {
+    // $ANTLR start "rule__System__ProvidedInterfacesAssignment_6"
+    // InternalAssemblyViewType.g:2468:1: rule__System__ProvidedInterfacesAssignment_6 : ( ( ruleEString ) ) ;
+    public final void rule__System__ProvidedInterfacesAssignment_6() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:2422:1: ( ( ( ruleEString ) ) )
-            // InternalAssemblyViewType.g:2423:2: ( ( ruleEString ) )
+            // InternalAssemblyViewType.g:2472:1: ( ( ( ruleEString ) ) )
+            // InternalAssemblyViewType.g:2473:2: ( ( ruleEString ) )
             {
-            // InternalAssemblyViewType.g:2423:2: ( ( ruleEString ) )
-            // InternalAssemblyViewType.g:2424:3: ( ruleEString )
+            // InternalAssemblyViewType.g:2473:2: ( ( ruleEString ) )
+            // InternalAssemblyViewType.g:2474:3: ( ruleEString )
             {
-             before(grammarAccess.getSystemAccess().getProvidedInterfacesInterfaceCrossReference_6_1_0()); 
-            // InternalAssemblyViewType.g:2425:3: ( ruleEString )
-            // InternalAssemblyViewType.g:2426:4: ruleEString
+             before(grammarAccess.getSystemAccess().getProvidedInterfacesInterfaceCrossReference_6_0()); 
+            // InternalAssemblyViewType.g:2475:3: ( ruleEString )
+            // InternalAssemblyViewType.g:2476:4: ruleEString
             {
-             before(grammarAccess.getSystemAccess().getProvidedInterfacesInterfaceEStringParserRuleCall_6_1_0_1()); 
+             before(grammarAccess.getSystemAccess().getProvidedInterfacesInterfaceEStringParserRuleCall_6_0_1()); 
             pushFollow(FOLLOW_2);
             ruleEString();
 
             state._fsp--;
 
-             after(grammarAccess.getSystemAccess().getProvidedInterfacesInterfaceEStringParserRuleCall_6_1_0_1()); 
+             after(grammarAccess.getSystemAccess().getProvidedInterfacesInterfaceEStringParserRuleCall_6_0_1()); 
 
             }
 
-             after(grammarAccess.getSystemAccess().getProvidedInterfacesInterfaceCrossReference_6_1_0()); 
+             after(grammarAccess.getSystemAccess().getProvidedInterfacesInterfaceCrossReference_6_0()); 
 
             }
 
@@ -7138,29 +7300,78 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
         }
         return ;
     }
-    // $ANTLR end "rule__System__ProvidedInterfacesAssignment_6_1"
+    // $ANTLR end "rule__System__ProvidedInterfacesAssignment_6"
 
 
-    // $ANTLR start "rule__System__SystemElementsAssignment_10"
-    // InternalAssemblyViewType.g:2437:1: rule__System__SystemElementsAssignment_10 : ( ruleAbstractSystemElement ) ;
-    public final void rule__System__SystemElementsAssignment_10() throws RecognitionException {
+    // $ANTLR start "rule__System__ProvidedInterfacesAssignment_7_1"
+    // InternalAssemblyViewType.g:2487:1: rule__System__ProvidedInterfacesAssignment_7_1 : ( ( ruleEString ) ) ;
+    public final void rule__System__ProvidedInterfacesAssignment_7_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:2441:1: ( ( ruleAbstractSystemElement ) )
-            // InternalAssemblyViewType.g:2442:2: ( ruleAbstractSystemElement )
+            // InternalAssemblyViewType.g:2491:1: ( ( ( ruleEString ) ) )
+            // InternalAssemblyViewType.g:2492:2: ( ( ruleEString ) )
             {
-            // InternalAssemblyViewType.g:2442:2: ( ruleAbstractSystemElement )
-            // InternalAssemblyViewType.g:2443:3: ruleAbstractSystemElement
+            // InternalAssemblyViewType.g:2492:2: ( ( ruleEString ) )
+            // InternalAssemblyViewType.g:2493:3: ( ruleEString )
             {
-             before(grammarAccess.getSystemAccess().getSystemElementsAbstractSystemElementParserRuleCall_10_0()); 
+             before(grammarAccess.getSystemAccess().getProvidedInterfacesInterfaceCrossReference_7_1_0()); 
+            // InternalAssemblyViewType.g:2494:3: ( ruleEString )
+            // InternalAssemblyViewType.g:2495:4: ruleEString
+            {
+             before(grammarAccess.getSystemAccess().getProvidedInterfacesInterfaceEStringParserRuleCall_7_1_0_1()); 
+            pushFollow(FOLLOW_2);
+            ruleEString();
+
+            state._fsp--;
+
+             after(grammarAccess.getSystemAccess().getProvidedInterfacesInterfaceEStringParserRuleCall_7_1_0_1()); 
+
+            }
+
+             after(grammarAccess.getSystemAccess().getProvidedInterfacesInterfaceCrossReference_7_1_0()); 
+
+            }
+
+
+            }
+
+        }
+        catch (RecognitionException re) {
+            reportError(re);
+            recover(input,re);
+        }
+        finally {
+
+            	restoreStackSize(stackSize);
+
+        }
+        return ;
+    }
+    // $ANTLR end "rule__System__ProvidedInterfacesAssignment_7_1"
+
+
+    // $ANTLR start "rule__System__SystemElementsAssignment_11"
+    // InternalAssemblyViewType.g:2506:1: rule__System__SystemElementsAssignment_11 : ( ruleAbstractSystemElement ) ;
+    public final void rule__System__SystemElementsAssignment_11() throws RecognitionException {
+
+        		int stackSize = keepStackSize();
+        	
+        try {
+            // InternalAssemblyViewType.g:2510:1: ( ( ruleAbstractSystemElement ) )
+            // InternalAssemblyViewType.g:2511:2: ( ruleAbstractSystemElement )
+            {
+            // InternalAssemblyViewType.g:2511:2: ( ruleAbstractSystemElement )
+            // InternalAssemblyViewType.g:2512:3: ruleAbstractSystemElement
+            {
+             before(grammarAccess.getSystemAccess().getSystemElementsAbstractSystemElementParserRuleCall_11_0()); 
             pushFollow(FOLLOW_2);
             ruleAbstractSystemElement();
 
             state._fsp--;
 
-             after(grammarAccess.getSystemAccess().getSystemElementsAbstractSystemElementParserRuleCall_10_0()); 
+             after(grammarAccess.getSystemAccess().getSystemElementsAbstractSystemElementParserRuleCall_11_0()); 
 
             }
 
@@ -7179,29 +7390,29 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
         }
         return ;
     }
-    // $ANTLR end "rule__System__SystemElementsAssignment_10"
+    // $ANTLR end "rule__System__SystemElementsAssignment_11"
 
 
-    // $ANTLR start "rule__System__SystemElementsAssignment_11_1"
-    // InternalAssemblyViewType.g:2452:1: rule__System__SystemElementsAssignment_11_1 : ( ruleAbstractSystemElement ) ;
-    public final void rule__System__SystemElementsAssignment_11_1() throws RecognitionException {
+    // $ANTLR start "rule__System__SystemElementsAssignment_12_1"
+    // InternalAssemblyViewType.g:2521:1: rule__System__SystemElementsAssignment_12_1 : ( ruleAbstractSystemElement ) ;
+    public final void rule__System__SystemElementsAssignment_12_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:2456:1: ( ( ruleAbstractSystemElement ) )
-            // InternalAssemblyViewType.g:2457:2: ( ruleAbstractSystemElement )
+            // InternalAssemblyViewType.g:2525:1: ( ( ruleAbstractSystemElement ) )
+            // InternalAssemblyViewType.g:2526:2: ( ruleAbstractSystemElement )
             {
-            // InternalAssemblyViewType.g:2457:2: ( ruleAbstractSystemElement )
-            // InternalAssemblyViewType.g:2458:3: ruleAbstractSystemElement
+            // InternalAssemblyViewType.g:2526:2: ( ruleAbstractSystemElement )
+            // InternalAssemblyViewType.g:2527:3: ruleAbstractSystemElement
             {
-             before(grammarAccess.getSystemAccess().getSystemElementsAbstractSystemElementParserRuleCall_11_1_0()); 
+             before(grammarAccess.getSystemAccess().getSystemElementsAbstractSystemElementParserRuleCall_12_1_0()); 
             pushFollow(FOLLOW_2);
             ruleAbstractSystemElement();
 
             state._fsp--;
 
-             after(grammarAccess.getSystemAccess().getSystemElementsAbstractSystemElementParserRuleCall_11_1_0()); 
+             after(grammarAccess.getSystemAccess().getSystemElementsAbstractSystemElementParserRuleCall_12_1_0()); 
 
             }
 
@@ -7220,21 +7431,21 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
         }
         return ;
     }
-    // $ANTLR end "rule__System__SystemElementsAssignment_11_1"
+    // $ANTLR end "rule__System__SystemElementsAssignment_12_1"
 
 
     // $ANTLR start "rule__AssemblyContext__NameAssignment_1"
-    // InternalAssemblyViewType.g:2467:1: rule__AssemblyContext__NameAssignment_1 : ( ruleEString ) ;
+    // InternalAssemblyViewType.g:2536:1: rule__AssemblyContext__NameAssignment_1 : ( ruleEString ) ;
     public final void rule__AssemblyContext__NameAssignment_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:2471:1: ( ( ruleEString ) )
-            // InternalAssemblyViewType.g:2472:2: ( ruleEString )
+            // InternalAssemblyViewType.g:2540:1: ( ( ruleEString ) )
+            // InternalAssemblyViewType.g:2541:2: ( ruleEString )
             {
-            // InternalAssemblyViewType.g:2472:2: ( ruleEString )
-            // InternalAssemblyViewType.g:2473:3: ruleEString
+            // InternalAssemblyViewType.g:2541:2: ( ruleEString )
+            // InternalAssemblyViewType.g:2542:3: ruleEString
             {
              before(grammarAccess.getAssemblyContextAccess().getNameEStringParserRuleCall_1_0()); 
             pushFollow(FOLLOW_2);
@@ -7265,21 +7476,21 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__AssemblyContext__ComponentAssignment_4"
-    // InternalAssemblyViewType.g:2482:1: rule__AssemblyContext__ComponentAssignment_4 : ( ( ruleEString ) ) ;
+    // InternalAssemblyViewType.g:2551:1: rule__AssemblyContext__ComponentAssignment_4 : ( ( ruleEString ) ) ;
     public final void rule__AssemblyContext__ComponentAssignment_4() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:2486:1: ( ( ( ruleEString ) ) )
-            // InternalAssemblyViewType.g:2487:2: ( ( ruleEString ) )
+            // InternalAssemblyViewType.g:2555:1: ( ( ( ruleEString ) ) )
+            // InternalAssemblyViewType.g:2556:2: ( ( ruleEString ) )
             {
-            // InternalAssemblyViewType.g:2487:2: ( ( ruleEString ) )
-            // InternalAssemblyViewType.g:2488:3: ( ruleEString )
+            // InternalAssemblyViewType.g:2556:2: ( ( ruleEString ) )
+            // InternalAssemblyViewType.g:2557:3: ( ruleEString )
             {
              before(grammarAccess.getAssemblyContextAccess().getComponentAbstractComponentCrossReference_4_0()); 
-            // InternalAssemblyViewType.g:2489:3: ( ruleEString )
-            // InternalAssemblyViewType.g:2490:4: ruleEString
+            // InternalAssemblyViewType.g:2558:3: ( ruleEString )
+            // InternalAssemblyViewType.g:2559:4: ruleEString
             {
              before(grammarAccess.getAssemblyContextAccess().getComponentAbstractComponentEStringParserRuleCall_4_0_1()); 
             pushFollow(FOLLOW_2);
@@ -7314,21 +7525,21 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__AssemblyContext__ProvidedRolesAssignment_7"
-    // InternalAssemblyViewType.g:2501:1: rule__AssemblyContext__ProvidedRolesAssignment_7 : ( ( ruleEString ) ) ;
+    // InternalAssemblyViewType.g:2570:1: rule__AssemblyContext__ProvidedRolesAssignment_7 : ( ( ruleEString ) ) ;
     public final void rule__AssemblyContext__ProvidedRolesAssignment_7() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:2505:1: ( ( ( ruleEString ) ) )
-            // InternalAssemblyViewType.g:2506:2: ( ( ruleEString ) )
+            // InternalAssemblyViewType.g:2574:1: ( ( ( ruleEString ) ) )
+            // InternalAssemblyViewType.g:2575:2: ( ( ruleEString ) )
             {
-            // InternalAssemblyViewType.g:2506:2: ( ( ruleEString ) )
-            // InternalAssemblyViewType.g:2507:3: ( ruleEString )
+            // InternalAssemblyViewType.g:2575:2: ( ( ruleEString ) )
+            // InternalAssemblyViewType.g:2576:3: ( ruleEString )
             {
              before(grammarAccess.getAssemblyContextAccess().getProvidedRolesRoleCrossReference_7_0()); 
-            // InternalAssemblyViewType.g:2508:3: ( ruleEString )
-            // InternalAssemblyViewType.g:2509:4: ruleEString
+            // InternalAssemblyViewType.g:2577:3: ( ruleEString )
+            // InternalAssemblyViewType.g:2578:4: ruleEString
             {
              before(grammarAccess.getAssemblyContextAccess().getProvidedRolesRoleEStringParserRuleCall_7_0_1()); 
             pushFollow(FOLLOW_2);
@@ -7363,21 +7574,21 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__AssemblyContext__ProvidedRolesAssignment_8_1"
-    // InternalAssemblyViewType.g:2520:1: rule__AssemblyContext__ProvidedRolesAssignment_8_1 : ( ( ruleEString ) ) ;
+    // InternalAssemblyViewType.g:2589:1: rule__AssemblyContext__ProvidedRolesAssignment_8_1 : ( ( ruleEString ) ) ;
     public final void rule__AssemblyContext__ProvidedRolesAssignment_8_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:2524:1: ( ( ( ruleEString ) ) )
-            // InternalAssemblyViewType.g:2525:2: ( ( ruleEString ) )
+            // InternalAssemblyViewType.g:2593:1: ( ( ( ruleEString ) ) )
+            // InternalAssemblyViewType.g:2594:2: ( ( ruleEString ) )
             {
-            // InternalAssemblyViewType.g:2525:2: ( ( ruleEString ) )
-            // InternalAssemblyViewType.g:2526:3: ( ruleEString )
+            // InternalAssemblyViewType.g:2594:2: ( ( ruleEString ) )
+            // InternalAssemblyViewType.g:2595:3: ( ruleEString )
             {
              before(grammarAccess.getAssemblyContextAccess().getProvidedRolesRoleCrossReference_8_1_0()); 
-            // InternalAssemblyViewType.g:2527:3: ( ruleEString )
-            // InternalAssemblyViewType.g:2528:4: ruleEString
+            // InternalAssemblyViewType.g:2596:3: ( ruleEString )
+            // InternalAssemblyViewType.g:2597:4: ruleEString
             {
              before(grammarAccess.getAssemblyContextAccess().getProvidedRolesRoleEStringParserRuleCall_8_1_0_1()); 
             pushFollow(FOLLOW_2);
@@ -7412,21 +7623,21 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__AssemblyContext__RequiredRolesAssignment_10_2"
-    // InternalAssemblyViewType.g:2539:1: rule__AssemblyContext__RequiredRolesAssignment_10_2 : ( ( ruleEString ) ) ;
+    // InternalAssemblyViewType.g:2608:1: rule__AssemblyContext__RequiredRolesAssignment_10_2 : ( ( ruleEString ) ) ;
     public final void rule__AssemblyContext__RequiredRolesAssignment_10_2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:2543:1: ( ( ( ruleEString ) ) )
-            // InternalAssemblyViewType.g:2544:2: ( ( ruleEString ) )
+            // InternalAssemblyViewType.g:2612:1: ( ( ( ruleEString ) ) )
+            // InternalAssemblyViewType.g:2613:2: ( ( ruleEString ) )
             {
-            // InternalAssemblyViewType.g:2544:2: ( ( ruleEString ) )
-            // InternalAssemblyViewType.g:2545:3: ( ruleEString )
+            // InternalAssemblyViewType.g:2613:2: ( ( ruleEString ) )
+            // InternalAssemblyViewType.g:2614:3: ( ruleEString )
             {
              before(grammarAccess.getAssemblyContextAccess().getRequiredRolesRoleCrossReference_10_2_0()); 
-            // InternalAssemblyViewType.g:2546:3: ( ruleEString )
-            // InternalAssemblyViewType.g:2547:4: ruleEString
+            // InternalAssemblyViewType.g:2615:3: ( ruleEString )
+            // InternalAssemblyViewType.g:2616:4: ruleEString
             {
              before(grammarAccess.getAssemblyContextAccess().getRequiredRolesRoleEStringParserRuleCall_10_2_0_1()); 
             pushFollow(FOLLOW_2);
@@ -7461,21 +7672,21 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__AssemblyContext__RequiredRolesAssignment_10_3_1"
-    // InternalAssemblyViewType.g:2558:1: rule__AssemblyContext__RequiredRolesAssignment_10_3_1 : ( ( ruleEString ) ) ;
+    // InternalAssemblyViewType.g:2627:1: rule__AssemblyContext__RequiredRolesAssignment_10_3_1 : ( ( ruleEString ) ) ;
     public final void rule__AssemblyContext__RequiredRolesAssignment_10_3_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:2562:1: ( ( ( ruleEString ) ) )
-            // InternalAssemblyViewType.g:2563:2: ( ( ruleEString ) )
+            // InternalAssemblyViewType.g:2631:1: ( ( ( ruleEString ) ) )
+            // InternalAssemblyViewType.g:2632:2: ( ( ruleEString ) )
             {
-            // InternalAssemblyViewType.g:2563:2: ( ( ruleEString ) )
-            // InternalAssemblyViewType.g:2564:3: ( ruleEString )
+            // InternalAssemblyViewType.g:2632:2: ( ( ruleEString ) )
+            // InternalAssemblyViewType.g:2633:3: ( ruleEString )
             {
              before(grammarAccess.getAssemblyContextAccess().getRequiredRolesRoleCrossReference_10_3_1_0()); 
-            // InternalAssemblyViewType.g:2565:3: ( ruleEString )
-            // InternalAssemblyViewType.g:2566:4: ruleEString
+            // InternalAssemblyViewType.g:2634:3: ( ruleEString )
+            // InternalAssemblyViewType.g:2635:4: ruleEString
             {
              before(grammarAccess.getAssemblyContextAccess().getRequiredRolesRoleEStringParserRuleCall_10_3_1_0_1()); 
             pushFollow(FOLLOW_2);
@@ -7509,34 +7720,26 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
     // $ANTLR end "rule__AssemblyContext__RequiredRolesAssignment_10_3_1"
 
 
-    // $ANTLR start "rule__Role__InterfaceAssignment_3"
-    // InternalAssemblyViewType.g:2577:1: rule__Role__InterfaceAssignment_3 : ( ( ruleEString ) ) ;
-    public final void rule__Role__InterfaceAssignment_3() throws RecognitionException {
+    // $ANTLR start "rule__Role__NameAssignment_1"
+    // InternalAssemblyViewType.g:2646:1: rule__Role__NameAssignment_1 : ( ruleEString ) ;
+    public final void rule__Role__NameAssignment_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:2581:1: ( ( ( ruleEString ) ) )
-            // InternalAssemblyViewType.g:2582:2: ( ( ruleEString ) )
+            // InternalAssemblyViewType.g:2650:1: ( ( ruleEString ) )
+            // InternalAssemblyViewType.g:2651:2: ( ruleEString )
             {
-            // InternalAssemblyViewType.g:2582:2: ( ( ruleEString ) )
-            // InternalAssemblyViewType.g:2583:3: ( ruleEString )
+            // InternalAssemblyViewType.g:2651:2: ( ruleEString )
+            // InternalAssemblyViewType.g:2652:3: ruleEString
             {
-             before(grammarAccess.getRoleAccess().getInterfaceInterfaceCrossReference_3_0()); 
-            // InternalAssemblyViewType.g:2584:3: ( ruleEString )
-            // InternalAssemblyViewType.g:2585:4: ruleEString
-            {
-             before(grammarAccess.getRoleAccess().getInterfaceInterfaceEStringParserRuleCall_3_0_1()); 
+             before(grammarAccess.getRoleAccess().getNameEStringParserRuleCall_1_0()); 
             pushFollow(FOLLOW_2);
             ruleEString();
 
             state._fsp--;
 
-             after(grammarAccess.getRoleAccess().getInterfaceInterfaceEStringParserRuleCall_3_0_1()); 
-
-            }
-
-             after(grammarAccess.getRoleAccess().getInterfaceInterfaceCrossReference_3_0()); 
+             after(grammarAccess.getRoleAccess().getNameEStringParserRuleCall_1_0()); 
 
             }
 
@@ -7555,25 +7758,74 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
         }
         return ;
     }
-    // $ANTLR end "rule__Role__InterfaceAssignment_3"
+    // $ANTLR end "rule__Role__NameAssignment_1"
+
+
+    // $ANTLR start "rule__Role__InterfaceAssignment_4"
+    // InternalAssemblyViewType.g:2661:1: rule__Role__InterfaceAssignment_4 : ( ( ruleEString ) ) ;
+    public final void rule__Role__InterfaceAssignment_4() throws RecognitionException {
+
+        		int stackSize = keepStackSize();
+        	
+        try {
+            // InternalAssemblyViewType.g:2665:1: ( ( ( ruleEString ) ) )
+            // InternalAssemblyViewType.g:2666:2: ( ( ruleEString ) )
+            {
+            // InternalAssemblyViewType.g:2666:2: ( ( ruleEString ) )
+            // InternalAssemblyViewType.g:2667:3: ( ruleEString )
+            {
+             before(grammarAccess.getRoleAccess().getInterfaceInterfaceCrossReference_4_0()); 
+            // InternalAssemblyViewType.g:2668:3: ( ruleEString )
+            // InternalAssemblyViewType.g:2669:4: ruleEString
+            {
+             before(grammarAccess.getRoleAccess().getInterfaceInterfaceEStringParserRuleCall_4_0_1()); 
+            pushFollow(FOLLOW_2);
+            ruleEString();
+
+            state._fsp--;
+
+             after(grammarAccess.getRoleAccess().getInterfaceInterfaceEStringParserRuleCall_4_0_1()); 
+
+            }
+
+             after(grammarAccess.getRoleAccess().getInterfaceInterfaceCrossReference_4_0()); 
+
+            }
+
+
+            }
+
+        }
+        catch (RecognitionException re) {
+            reportError(re);
+            recover(input,re);
+        }
+        finally {
+
+            	restoreStackSize(stackSize);
+
+        }
+        return ;
+    }
+    // $ANTLR end "rule__Role__InterfaceAssignment_4"
 
 
     // $ANTLR start "rule__DelegationConnector__RoleAssignment_3"
-    // InternalAssemblyViewType.g:2596:1: rule__DelegationConnector__RoleAssignment_3 : ( ( ruleEString ) ) ;
+    // InternalAssemblyViewType.g:2680:1: rule__DelegationConnector__RoleAssignment_3 : ( ( ruleEString ) ) ;
     public final void rule__DelegationConnector__RoleAssignment_3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:2600:1: ( ( ( ruleEString ) ) )
-            // InternalAssemblyViewType.g:2601:2: ( ( ruleEString ) )
+            // InternalAssemblyViewType.g:2684:1: ( ( ( ruleEString ) ) )
+            // InternalAssemblyViewType.g:2685:2: ( ( ruleEString ) )
             {
-            // InternalAssemblyViewType.g:2601:2: ( ( ruleEString ) )
-            // InternalAssemblyViewType.g:2602:3: ( ruleEString )
+            // InternalAssemblyViewType.g:2685:2: ( ( ruleEString ) )
+            // InternalAssemblyViewType.g:2686:3: ( ruleEString )
             {
              before(grammarAccess.getDelegationConnectorAccess().getRoleRoleCrossReference_3_0()); 
-            // InternalAssemblyViewType.g:2603:3: ( ruleEString )
-            // InternalAssemblyViewType.g:2604:4: ruleEString
+            // InternalAssemblyViewType.g:2687:3: ( ruleEString )
+            // InternalAssemblyViewType.g:2688:4: ruleEString
             {
              before(grammarAccess.getDelegationConnectorAccess().getRoleRoleEStringParserRuleCall_3_0_1()); 
             pushFollow(FOLLOW_2);
@@ -7608,21 +7860,21 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__DelegationConnector__InterfaceAssignment_5"
-    // InternalAssemblyViewType.g:2615:1: rule__DelegationConnector__InterfaceAssignment_5 : ( ( ruleEString ) ) ;
+    // InternalAssemblyViewType.g:2699:1: rule__DelegationConnector__InterfaceAssignment_5 : ( ( ruleEString ) ) ;
     public final void rule__DelegationConnector__InterfaceAssignment_5() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:2619:1: ( ( ( ruleEString ) ) )
-            // InternalAssemblyViewType.g:2620:2: ( ( ruleEString ) )
+            // InternalAssemblyViewType.g:2703:1: ( ( ( ruleEString ) ) )
+            // InternalAssemblyViewType.g:2704:2: ( ( ruleEString ) )
             {
-            // InternalAssemblyViewType.g:2620:2: ( ( ruleEString ) )
-            // InternalAssemblyViewType.g:2621:3: ( ruleEString )
+            // InternalAssemblyViewType.g:2704:2: ( ( ruleEString ) )
+            // InternalAssemblyViewType.g:2705:3: ( ruleEString )
             {
              before(grammarAccess.getDelegationConnectorAccess().getInterfaceInterfaceCrossReference_5_0()); 
-            // InternalAssemblyViewType.g:2622:3: ( ruleEString )
-            // InternalAssemblyViewType.g:2623:4: ruleEString
+            // InternalAssemblyViewType.g:2706:3: ( ruleEString )
+            // InternalAssemblyViewType.g:2707:4: ruleEString
             {
              before(grammarAccess.getDelegationConnectorAccess().getInterfaceInterfaceEStringParserRuleCall_5_0_1()); 
             pushFollow(FOLLOW_2);
@@ -7657,21 +7909,21 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__AssemblyConnector__ProvidedRoleAssignment_3"
-    // InternalAssemblyViewType.g:2634:1: rule__AssemblyConnector__ProvidedRoleAssignment_3 : ( ( ruleEString ) ) ;
+    // InternalAssemblyViewType.g:2718:1: rule__AssemblyConnector__ProvidedRoleAssignment_3 : ( ( ruleEString ) ) ;
     public final void rule__AssemblyConnector__ProvidedRoleAssignment_3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:2638:1: ( ( ( ruleEString ) ) )
-            // InternalAssemblyViewType.g:2639:2: ( ( ruleEString ) )
+            // InternalAssemblyViewType.g:2722:1: ( ( ( ruleEString ) ) )
+            // InternalAssemblyViewType.g:2723:2: ( ( ruleEString ) )
             {
-            // InternalAssemblyViewType.g:2639:2: ( ( ruleEString ) )
-            // InternalAssemblyViewType.g:2640:3: ( ruleEString )
+            // InternalAssemblyViewType.g:2723:2: ( ( ruleEString ) )
+            // InternalAssemblyViewType.g:2724:3: ( ruleEString )
             {
              before(grammarAccess.getAssemblyConnectorAccess().getProvidedRoleRoleCrossReference_3_0()); 
-            // InternalAssemblyViewType.g:2641:3: ( ruleEString )
-            // InternalAssemblyViewType.g:2642:4: ruleEString
+            // InternalAssemblyViewType.g:2725:3: ( ruleEString )
+            // InternalAssemblyViewType.g:2726:4: ruleEString
             {
              before(grammarAccess.getAssemblyConnectorAccess().getProvidedRoleRoleEStringParserRuleCall_3_0_1()); 
             pushFollow(FOLLOW_2);
@@ -7706,21 +7958,21 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
 
 
     // $ANTLR start "rule__AssemblyConnector__RequiredRoleAssignment_5"
-    // InternalAssemblyViewType.g:2653:1: rule__AssemblyConnector__RequiredRoleAssignment_5 : ( ( ruleEString ) ) ;
+    // InternalAssemblyViewType.g:2737:1: rule__AssemblyConnector__RequiredRoleAssignment_5 : ( ( ruleEString ) ) ;
     public final void rule__AssemblyConnector__RequiredRoleAssignment_5() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAssemblyViewType.g:2657:1: ( ( ( ruleEString ) ) )
-            // InternalAssemblyViewType.g:2658:2: ( ( ruleEString ) )
+            // InternalAssemblyViewType.g:2741:1: ( ( ( ruleEString ) ) )
+            // InternalAssemblyViewType.g:2742:2: ( ( ruleEString ) )
             {
-            // InternalAssemblyViewType.g:2658:2: ( ( ruleEString ) )
-            // InternalAssemblyViewType.g:2659:3: ( ruleEString )
+            // InternalAssemblyViewType.g:2742:2: ( ( ruleEString ) )
+            // InternalAssemblyViewType.g:2743:3: ( ruleEString )
             {
              before(grammarAccess.getAssemblyConnectorAccess().getRequiredRoleRoleCrossReference_5_0()); 
-            // InternalAssemblyViewType.g:2660:3: ( ruleEString )
-            // InternalAssemblyViewType.g:2661:4: ruleEString
+            // InternalAssemblyViewType.g:2744:3: ( ruleEString )
+            // InternalAssemblyViewType.g:2745:4: ruleEString
             {
              before(grammarAccess.getAssemblyConnectorAccess().getRequiredRoleRoleEStringParserRuleCall_5_0_1()); 
             pushFollow(FOLLOW_2);
@@ -7766,9 +8018,9 @@ public class InternalAssemblyViewTypeParser extends AbstractInternalContentAssis
     public static final BitSet FOLLOW_6 = new BitSet(new long[]{0x000000000000C000L});
     public static final BitSet FOLLOW_7 = new BitSet(new long[]{0x0000000000008002L});
     public static final BitSet FOLLOW_8 = new BitSet(new long[]{0x0000000000004000L});
-    public static final BitSet FOLLOW_9 = new BitSet(new long[]{0x0000000000220000L});
-    public static final BitSet FOLLOW_10 = new BitSet(new long[]{0x0000000000040000L});
-    public static final BitSet FOLLOW_11 = new BitSet(new long[]{0x0000000000000030L});
+    public static final BitSet FOLLOW_9 = new BitSet(new long[]{0x0000000000000030L});
+    public static final BitSet FOLLOW_10 = new BitSet(new long[]{0x0000000000220000L});
+    public static final BitSet FOLLOW_11 = new BitSet(new long[]{0x0000000000040000L});
     public static final BitSet FOLLOW_12 = new BitSet(new long[]{0x0000000000088000L});
     public static final BitSet FOLLOW_13 = new BitSet(new long[]{0x0000000000100000L});
     public static final BitSet FOLLOW_14 = new BitSet(new long[]{0x0000000054400000L});

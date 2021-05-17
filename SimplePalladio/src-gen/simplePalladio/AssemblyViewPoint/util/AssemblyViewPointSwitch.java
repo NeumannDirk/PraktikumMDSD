@@ -90,6 +90,8 @@ public class AssemblyViewPointSwitch<T> extends Switch<T> {
 			if (result == null)
 				result = caseInterfaceCommunicator(system);
 			if (result == null)
+				result = caseNamedElement(system);
+			if (result == null)
 				result = defaultCase(theEObject);
 			return result;
 		}
@@ -109,6 +111,8 @@ public class AssemblyViewPointSwitch<T> extends Switch<T> {
 			T result = caseRole(role);
 			if (result == null)
 				result = caseAbstractSystemElement(role);
+			if (result == null)
+				result = caseNamedElement(role);
 			if (result == null)
 				result = defaultCase(theEObject);
 			return result;

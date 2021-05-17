@@ -1,0 +1,95 @@
+RepositoryViewType {
+	repositoryElements {
+		Signature HTTPUpload {
+			returnValue VOID
+		},
+		Signature HTTPDownload {
+			returnValue VOID
+		},
+		Interface HTTP {
+			signatures (HTTPDownload, HTTPUpload)
+		},
+		Signature upload {
+			returnValue VOID
+		},
+		Signature download {
+			returnValue VOID
+		},
+		Interface IMediaStore {
+			signatures (download, upload)
+		},
+		Signature watermark {
+			returnValue VOID
+		},
+		Interface Sound {
+			signatures (watermark)
+		},
+		Signature queryDB {
+			returnValue VOID
+		},
+		Signature addFile {
+			returnValue VOID
+		},
+		Interface AudioDB {
+			signatures (addFile, queryDB)
+		},
+		Component PoolingAudiaDB {
+			providedInterfaces (AudioDB)
+			services {
+				Service {
+					signature addFile
+					behaviourDescription BehaviourDescription {		
+					}
+				}
+			}
+		},
+		Component DigitalWatermarking {
+			providedInterfaces (Sound)
+			services {
+				Service {
+					signature watermark
+					behaviourDescription BehaviourDescription {		
+					}
+				}
+			}
+		},
+		Component DBCache {
+			requiredInterfaces (AudioDB)
+			providedInterfaces (AudioDB)
+			services {
+				Service {
+					signature addFile
+					behaviourDescription BehaviourDescription {		
+					}
+				}
+			}
+		},
+		Component MediaManager {
+			requiredInterfaces (Sound, AudioDB)
+			providedInterfaces (IMediaStore)
+			services {
+				Service {
+					signature upload
+					behaviourDescription BehaviourDescription {		
+					}
+				}
+			}
+		},
+		Component WebGui {
+			requiredInterfaces (IMediaStore)
+			providedInterfaces (HTTP)
+			services {
+				Service {
+					signature HTTPUpload
+					behaviourDescription BehaviourDescription {		
+					}
+				}
+			}
+		},
+		CompositeComponent MediaStore {
+			requiredInterfaces (AudioDB)
+			providedInterfaces (IMediaStore)
+			system MediaStore
+		}
+	} 
+}

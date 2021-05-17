@@ -126,170 +126,6 @@ public class AssemblyViewTypeGrammarAccess extends AbstractElementFinder.Abstrac
 		//AssemblyConnector
 		public RuleCall getAssemblyConnectorParserRuleCall_3() { return cAssemblyConnectorParserRuleCall_3; }
 	}
-	public class SystemElements extends AbstractParserRuleElementFinder {
-		private final ParserRule rule = (ParserRule) GrammarUtil.findRuleForName(getGrammar(), "org.xtext.mdsd.simplepalladio.AssemblyViewType.System");
-		private final Group cGroup = (Group)rule.eContents().get(1);
-		private final Keyword cSystemKeyword_0 = (Keyword)cGroup.eContents().get(0);
-		private final Keyword cLeftCurlyBracketKeyword_1 = (Keyword)cGroup.eContents().get(1);
-		private final Group cGroup_2 = (Group)cGroup.eContents().get(2);
-		private final Keyword cRequiredInterfacesKeyword_2_0 = (Keyword)cGroup_2.eContents().get(0);
-		private final Keyword cLeftParenthesisKeyword_2_1 = (Keyword)cGroup_2.eContents().get(1);
-		private final Assignment cRequiredInterfacesAssignment_2_2 = (Assignment)cGroup_2.eContents().get(2);
-		private final CrossReference cRequiredInterfacesInterfaceCrossReference_2_2_0 = (CrossReference)cRequiredInterfacesAssignment_2_2.eContents().get(0);
-		private final RuleCall cRequiredInterfacesInterfaceEStringParserRuleCall_2_2_0_1 = (RuleCall)cRequiredInterfacesInterfaceCrossReference_2_2_0.eContents().get(1);
-		private final Group cGroup_2_3 = (Group)cGroup_2.eContents().get(3);
-		private final Keyword cCommaKeyword_2_3_0 = (Keyword)cGroup_2_3.eContents().get(0);
-		private final Assignment cRequiredInterfacesAssignment_2_3_1 = (Assignment)cGroup_2_3.eContents().get(1);
-		private final CrossReference cRequiredInterfacesInterfaceCrossReference_2_3_1_0 = (CrossReference)cRequiredInterfacesAssignment_2_3_1.eContents().get(0);
-		private final RuleCall cRequiredInterfacesInterfaceEStringParserRuleCall_2_3_1_0_1 = (RuleCall)cRequiredInterfacesInterfaceCrossReference_2_3_1_0.eContents().get(1);
-		private final Keyword cRightParenthesisKeyword_2_4 = (Keyword)cGroup_2.eContents().get(4);
-		private final Keyword cProvidedInterfacesKeyword_3 = (Keyword)cGroup.eContents().get(3);
-		private final Keyword cLeftParenthesisKeyword_4 = (Keyword)cGroup.eContents().get(4);
-		private final Assignment cProvidedInterfacesAssignment_5 = (Assignment)cGroup.eContents().get(5);
-		private final CrossReference cProvidedInterfacesInterfaceCrossReference_5_0 = (CrossReference)cProvidedInterfacesAssignment_5.eContents().get(0);
-		private final RuleCall cProvidedInterfacesInterfaceEStringParserRuleCall_5_0_1 = (RuleCall)cProvidedInterfacesInterfaceCrossReference_5_0.eContents().get(1);
-		private final Group cGroup_6 = (Group)cGroup.eContents().get(6);
-		private final Keyword cCommaKeyword_6_0 = (Keyword)cGroup_6.eContents().get(0);
-		private final Assignment cProvidedInterfacesAssignment_6_1 = (Assignment)cGroup_6.eContents().get(1);
-		private final CrossReference cProvidedInterfacesInterfaceCrossReference_6_1_0 = (CrossReference)cProvidedInterfacesAssignment_6_1.eContents().get(0);
-		private final RuleCall cProvidedInterfacesInterfaceEStringParserRuleCall_6_1_0_1 = (RuleCall)cProvidedInterfacesInterfaceCrossReference_6_1_0.eContents().get(1);
-		private final Keyword cRightParenthesisKeyword_7 = (Keyword)cGroup.eContents().get(7);
-		private final Keyword cSystemElementsKeyword_8 = (Keyword)cGroup.eContents().get(8);
-		private final Keyword cLeftCurlyBracketKeyword_9 = (Keyword)cGroup.eContents().get(9);
-		private final Assignment cSystemElementsAssignment_10 = (Assignment)cGroup.eContents().get(10);
-		private final RuleCall cSystemElementsAbstractSystemElementParserRuleCall_10_0 = (RuleCall)cSystemElementsAssignment_10.eContents().get(0);
-		private final Group cGroup_11 = (Group)cGroup.eContents().get(11);
-		private final Keyword cCommaKeyword_11_0 = (Keyword)cGroup_11.eContents().get(0);
-		private final Assignment cSystemElementsAssignment_11_1 = (Assignment)cGroup_11.eContents().get(1);
-		private final RuleCall cSystemElementsAbstractSystemElementParserRuleCall_11_1_0 = (RuleCall)cSystemElementsAssignment_11_1.eContents().get(0);
-		private final Keyword cRightCurlyBracketKeyword_12 = (Keyword)cGroup.eContents().get(12);
-		private final Keyword cRightCurlyBracketKeyword_13 = (Keyword)cGroup.eContents().get(13);
-		
-		//System AssemblyViewPoint::System:
-		//	'System'
-		//	'{' ('requiredInterfaces' '(' requiredInterfaces+=[SystemIndependentViewPoint::Interface|EString] (","
-		//	requiredInterfaces+=[SystemIndependentViewPoint::Interface|EString])* ')')?
-		//	'providedInterfaces' '(' providedInterfaces+=[SystemIndependentViewPoint::Interface|EString] (","
-		//	providedInterfaces+=[SystemIndependentViewPoint::Interface|EString])* ')'
-		//	'systemElements' '{' systemElements+=AbstractSystemElement ("," systemElements+=AbstractSystemElement)* '}'
-		//	'}';
-		@Override public ParserRule getRule() { return rule; }
-		
-		//'System'
-		//'{' ('requiredInterfaces' '(' requiredInterfaces+=[SystemIndependentViewPoint::Interface|EString] (","
-		//requiredInterfaces+=[SystemIndependentViewPoint::Interface|EString])* ')')?
-		//'providedInterfaces' '(' providedInterfaces+=[SystemIndependentViewPoint::Interface|EString] (","
-		//providedInterfaces+=[SystemIndependentViewPoint::Interface|EString])* ')'
-		//'systemElements' '{' systemElements+=AbstractSystemElement ("," systemElements+=AbstractSystemElement)* '}'
-		//'}'
-		public Group getGroup() { return cGroup; }
-		
-		//'System'
-		public Keyword getSystemKeyword_0() { return cSystemKeyword_0; }
-		
-		//'{'
-		public Keyword getLeftCurlyBracketKeyword_1() { return cLeftCurlyBracketKeyword_1; }
-		
-		//('requiredInterfaces' '(' requiredInterfaces+=[SystemIndependentViewPoint::Interface|EString] (","
-		//requiredInterfaces+=[SystemIndependentViewPoint::Interface|EString])* ')')?
-		public Group getGroup_2() { return cGroup_2; }
-		
-		//'requiredInterfaces'
-		public Keyword getRequiredInterfacesKeyword_2_0() { return cRequiredInterfacesKeyword_2_0; }
-		
-		//'('
-		public Keyword getLeftParenthesisKeyword_2_1() { return cLeftParenthesisKeyword_2_1; }
-		
-		//requiredInterfaces+=[SystemIndependentViewPoint::Interface|EString]
-		public Assignment getRequiredInterfacesAssignment_2_2() { return cRequiredInterfacesAssignment_2_2; }
-		
-		//[SystemIndependentViewPoint::Interface|EString]
-		public CrossReference getRequiredInterfacesInterfaceCrossReference_2_2_0() { return cRequiredInterfacesInterfaceCrossReference_2_2_0; }
-		
-		//EString
-		public RuleCall getRequiredInterfacesInterfaceEStringParserRuleCall_2_2_0_1() { return cRequiredInterfacesInterfaceEStringParserRuleCall_2_2_0_1; }
-		
-		//("," requiredInterfaces+=[SystemIndependentViewPoint::Interface|EString])*
-		public Group getGroup_2_3() { return cGroup_2_3; }
-		
-		//","
-		public Keyword getCommaKeyword_2_3_0() { return cCommaKeyword_2_3_0; }
-		
-		//requiredInterfaces+=[SystemIndependentViewPoint::Interface|EString]
-		public Assignment getRequiredInterfacesAssignment_2_3_1() { return cRequiredInterfacesAssignment_2_3_1; }
-		
-		//[SystemIndependentViewPoint::Interface|EString]
-		public CrossReference getRequiredInterfacesInterfaceCrossReference_2_3_1_0() { return cRequiredInterfacesInterfaceCrossReference_2_3_1_0; }
-		
-		//EString
-		public RuleCall getRequiredInterfacesInterfaceEStringParserRuleCall_2_3_1_0_1() { return cRequiredInterfacesInterfaceEStringParserRuleCall_2_3_1_0_1; }
-		
-		//')'
-		public Keyword getRightParenthesisKeyword_2_4() { return cRightParenthesisKeyword_2_4; }
-		
-		//'providedInterfaces'
-		public Keyword getProvidedInterfacesKeyword_3() { return cProvidedInterfacesKeyword_3; }
-		
-		//'('
-		public Keyword getLeftParenthesisKeyword_4() { return cLeftParenthesisKeyword_4; }
-		
-		//providedInterfaces+=[SystemIndependentViewPoint::Interface|EString]
-		public Assignment getProvidedInterfacesAssignment_5() { return cProvidedInterfacesAssignment_5; }
-		
-		//[SystemIndependentViewPoint::Interface|EString]
-		public CrossReference getProvidedInterfacesInterfaceCrossReference_5_0() { return cProvidedInterfacesInterfaceCrossReference_5_0; }
-		
-		//EString
-		public RuleCall getProvidedInterfacesInterfaceEStringParserRuleCall_5_0_1() { return cProvidedInterfacesInterfaceEStringParserRuleCall_5_0_1; }
-		
-		//("," providedInterfaces+=[SystemIndependentViewPoint::Interface|EString])*
-		public Group getGroup_6() { return cGroup_6; }
-		
-		//","
-		public Keyword getCommaKeyword_6_0() { return cCommaKeyword_6_0; }
-		
-		//providedInterfaces+=[SystemIndependentViewPoint::Interface|EString]
-		public Assignment getProvidedInterfacesAssignment_6_1() { return cProvidedInterfacesAssignment_6_1; }
-		
-		//[SystemIndependentViewPoint::Interface|EString]
-		public CrossReference getProvidedInterfacesInterfaceCrossReference_6_1_0() { return cProvidedInterfacesInterfaceCrossReference_6_1_0; }
-		
-		//EString
-		public RuleCall getProvidedInterfacesInterfaceEStringParserRuleCall_6_1_0_1() { return cProvidedInterfacesInterfaceEStringParserRuleCall_6_1_0_1; }
-		
-		//')'
-		public Keyword getRightParenthesisKeyword_7() { return cRightParenthesisKeyword_7; }
-		
-		//'systemElements'
-		public Keyword getSystemElementsKeyword_8() { return cSystemElementsKeyword_8; }
-		
-		//'{'
-		public Keyword getLeftCurlyBracketKeyword_9() { return cLeftCurlyBracketKeyword_9; }
-		
-		//systemElements+=AbstractSystemElement
-		public Assignment getSystemElementsAssignment_10() { return cSystemElementsAssignment_10; }
-		
-		//AbstractSystemElement
-		public RuleCall getSystemElementsAbstractSystemElementParserRuleCall_10_0() { return cSystemElementsAbstractSystemElementParserRuleCall_10_0; }
-		
-		//("," systemElements+=AbstractSystemElement)*
-		public Group getGroup_11() { return cGroup_11; }
-		
-		//","
-		public Keyword getCommaKeyword_11_0() { return cCommaKeyword_11_0; }
-		
-		//systemElements+=AbstractSystemElement
-		public Assignment getSystemElementsAssignment_11_1() { return cSystemElementsAssignment_11_1; }
-		
-		//AbstractSystemElement
-		public RuleCall getSystemElementsAbstractSystemElementParserRuleCall_11_1_0() { return cSystemElementsAbstractSystemElementParserRuleCall_11_1_0; }
-		
-		//'}'
-		public Keyword getRightCurlyBracketKeyword_12() { return cRightCurlyBracketKeyword_12; }
-		
-		//'}'
-		public Keyword getRightCurlyBracketKeyword_13() { return cRightCurlyBracketKeyword_13; }
-	}
 	public class EStringElements extends AbstractParserRuleElementFinder {
 		private final ParserRule rule = (ParserRule) GrammarUtil.findRuleForName(getGrammar(), "org.xtext.mdsd.simplepalladio.AssemblyViewType.EString");
 		private final Alternatives cAlternatives = (Alternatives)rule.eContents().get(1);
@@ -308,6 +144,178 @@ public class AssemblyViewTypeGrammarAccess extends AbstractElementFinder.Abstrac
 		
 		//ID
 		public RuleCall getIDTerminalRuleCall_1() { return cIDTerminalRuleCall_1; }
+	}
+	public class SystemElements extends AbstractParserRuleElementFinder {
+		private final ParserRule rule = (ParserRule) GrammarUtil.findRuleForName(getGrammar(), "org.xtext.mdsd.simplepalladio.AssemblyViewType.System");
+		private final Group cGroup = (Group)rule.eContents().get(1);
+		private final Keyword cSystemKeyword_0 = (Keyword)cGroup.eContents().get(0);
+		private final Assignment cNameAssignment_1 = (Assignment)cGroup.eContents().get(1);
+		private final RuleCall cNameEStringParserRuleCall_1_0 = (RuleCall)cNameAssignment_1.eContents().get(0);
+		private final Keyword cLeftCurlyBracketKeyword_2 = (Keyword)cGroup.eContents().get(2);
+		private final Group cGroup_3 = (Group)cGroup.eContents().get(3);
+		private final Keyword cRequiredInterfacesKeyword_3_0 = (Keyword)cGroup_3.eContents().get(0);
+		private final Keyword cLeftParenthesisKeyword_3_1 = (Keyword)cGroup_3.eContents().get(1);
+		private final Assignment cRequiredInterfacesAssignment_3_2 = (Assignment)cGroup_3.eContents().get(2);
+		private final CrossReference cRequiredInterfacesInterfaceCrossReference_3_2_0 = (CrossReference)cRequiredInterfacesAssignment_3_2.eContents().get(0);
+		private final RuleCall cRequiredInterfacesInterfaceEStringParserRuleCall_3_2_0_1 = (RuleCall)cRequiredInterfacesInterfaceCrossReference_3_2_0.eContents().get(1);
+		private final Group cGroup_3_3 = (Group)cGroup_3.eContents().get(3);
+		private final Keyword cCommaKeyword_3_3_0 = (Keyword)cGroup_3_3.eContents().get(0);
+		private final Assignment cRequiredInterfacesAssignment_3_3_1 = (Assignment)cGroup_3_3.eContents().get(1);
+		private final CrossReference cRequiredInterfacesInterfaceCrossReference_3_3_1_0 = (CrossReference)cRequiredInterfacesAssignment_3_3_1.eContents().get(0);
+		private final RuleCall cRequiredInterfacesInterfaceEStringParserRuleCall_3_3_1_0_1 = (RuleCall)cRequiredInterfacesInterfaceCrossReference_3_3_1_0.eContents().get(1);
+		private final Keyword cRightParenthesisKeyword_3_4 = (Keyword)cGroup_3.eContents().get(4);
+		private final Keyword cProvidedInterfacesKeyword_4 = (Keyword)cGroup.eContents().get(4);
+		private final Keyword cLeftParenthesisKeyword_5 = (Keyword)cGroup.eContents().get(5);
+		private final Assignment cProvidedInterfacesAssignment_6 = (Assignment)cGroup.eContents().get(6);
+		private final CrossReference cProvidedInterfacesInterfaceCrossReference_6_0 = (CrossReference)cProvidedInterfacesAssignment_6.eContents().get(0);
+		private final RuleCall cProvidedInterfacesInterfaceEStringParserRuleCall_6_0_1 = (RuleCall)cProvidedInterfacesInterfaceCrossReference_6_0.eContents().get(1);
+		private final Group cGroup_7 = (Group)cGroup.eContents().get(7);
+		private final Keyword cCommaKeyword_7_0 = (Keyword)cGroup_7.eContents().get(0);
+		private final Assignment cProvidedInterfacesAssignment_7_1 = (Assignment)cGroup_7.eContents().get(1);
+		private final CrossReference cProvidedInterfacesInterfaceCrossReference_7_1_0 = (CrossReference)cProvidedInterfacesAssignment_7_1.eContents().get(0);
+		private final RuleCall cProvidedInterfacesInterfaceEStringParserRuleCall_7_1_0_1 = (RuleCall)cProvidedInterfacesInterfaceCrossReference_7_1_0.eContents().get(1);
+		private final Keyword cRightParenthesisKeyword_8 = (Keyword)cGroup.eContents().get(8);
+		private final Keyword cSystemElementsKeyword_9 = (Keyword)cGroup.eContents().get(9);
+		private final Keyword cLeftCurlyBracketKeyword_10 = (Keyword)cGroup.eContents().get(10);
+		private final Assignment cSystemElementsAssignment_11 = (Assignment)cGroup.eContents().get(11);
+		private final RuleCall cSystemElementsAbstractSystemElementParserRuleCall_11_0 = (RuleCall)cSystemElementsAssignment_11.eContents().get(0);
+		private final Group cGroup_12 = (Group)cGroup.eContents().get(12);
+		private final Keyword cCommaKeyword_12_0 = (Keyword)cGroup_12.eContents().get(0);
+		private final Assignment cSystemElementsAssignment_12_1 = (Assignment)cGroup_12.eContents().get(1);
+		private final RuleCall cSystemElementsAbstractSystemElementParserRuleCall_12_1_0 = (RuleCall)cSystemElementsAssignment_12_1.eContents().get(0);
+		private final Keyword cRightCurlyBracketKeyword_13 = (Keyword)cGroup.eContents().get(13);
+		private final Keyword cRightCurlyBracketKeyword_14 = (Keyword)cGroup.eContents().get(14);
+		
+		//System AssemblyViewPoint::System:
+		//	'System' name=EString
+		//	'{' ('requiredInterfaces' '(' requiredInterfaces+=[SystemIndependentViewPoint::Interface|EString] (","
+		//	requiredInterfaces+=[SystemIndependentViewPoint::Interface|EString])* ')')?
+		//	'providedInterfaces' '(' providedInterfaces+=[SystemIndependentViewPoint::Interface|EString] (","
+		//	providedInterfaces+=[SystemIndependentViewPoint::Interface|EString])* ')'
+		//	'systemElements' '{' systemElements+=AbstractSystemElement ("," systemElements+=AbstractSystemElement)* '}'
+		//	'}';
+		@Override public ParserRule getRule() { return rule; }
+		
+		//'System' name=EString
+		//'{' ('requiredInterfaces' '(' requiredInterfaces+=[SystemIndependentViewPoint::Interface|EString] (","
+		//requiredInterfaces+=[SystemIndependentViewPoint::Interface|EString])* ')')?
+		//'providedInterfaces' '(' providedInterfaces+=[SystemIndependentViewPoint::Interface|EString] (","
+		//providedInterfaces+=[SystemIndependentViewPoint::Interface|EString])* ')'
+		//'systemElements' '{' systemElements+=AbstractSystemElement ("," systemElements+=AbstractSystemElement)* '}'
+		//'}'
+		public Group getGroup() { return cGroup; }
+		
+		//'System'
+		public Keyword getSystemKeyword_0() { return cSystemKeyword_0; }
+		
+		//name=EString
+		public Assignment getNameAssignment_1() { return cNameAssignment_1; }
+		
+		//EString
+		public RuleCall getNameEStringParserRuleCall_1_0() { return cNameEStringParserRuleCall_1_0; }
+		
+		//'{'
+		public Keyword getLeftCurlyBracketKeyword_2() { return cLeftCurlyBracketKeyword_2; }
+		
+		//('requiredInterfaces' '(' requiredInterfaces+=[SystemIndependentViewPoint::Interface|EString] (","
+		//requiredInterfaces+=[SystemIndependentViewPoint::Interface|EString])* ')')?
+		public Group getGroup_3() { return cGroup_3; }
+		
+		//'requiredInterfaces'
+		public Keyword getRequiredInterfacesKeyword_3_0() { return cRequiredInterfacesKeyword_3_0; }
+		
+		//'('
+		public Keyword getLeftParenthesisKeyword_3_1() { return cLeftParenthesisKeyword_3_1; }
+		
+		//requiredInterfaces+=[SystemIndependentViewPoint::Interface|EString]
+		public Assignment getRequiredInterfacesAssignment_3_2() { return cRequiredInterfacesAssignment_3_2; }
+		
+		//[SystemIndependentViewPoint::Interface|EString]
+		public CrossReference getRequiredInterfacesInterfaceCrossReference_3_2_0() { return cRequiredInterfacesInterfaceCrossReference_3_2_0; }
+		
+		//EString
+		public RuleCall getRequiredInterfacesInterfaceEStringParserRuleCall_3_2_0_1() { return cRequiredInterfacesInterfaceEStringParserRuleCall_3_2_0_1; }
+		
+		//("," requiredInterfaces+=[SystemIndependentViewPoint::Interface|EString])*
+		public Group getGroup_3_3() { return cGroup_3_3; }
+		
+		//","
+		public Keyword getCommaKeyword_3_3_0() { return cCommaKeyword_3_3_0; }
+		
+		//requiredInterfaces+=[SystemIndependentViewPoint::Interface|EString]
+		public Assignment getRequiredInterfacesAssignment_3_3_1() { return cRequiredInterfacesAssignment_3_3_1; }
+		
+		//[SystemIndependentViewPoint::Interface|EString]
+		public CrossReference getRequiredInterfacesInterfaceCrossReference_3_3_1_0() { return cRequiredInterfacesInterfaceCrossReference_3_3_1_0; }
+		
+		//EString
+		public RuleCall getRequiredInterfacesInterfaceEStringParserRuleCall_3_3_1_0_1() { return cRequiredInterfacesInterfaceEStringParserRuleCall_3_3_1_0_1; }
+		
+		//')'
+		public Keyword getRightParenthesisKeyword_3_4() { return cRightParenthesisKeyword_3_4; }
+		
+		//'providedInterfaces'
+		public Keyword getProvidedInterfacesKeyword_4() { return cProvidedInterfacesKeyword_4; }
+		
+		//'('
+		public Keyword getLeftParenthesisKeyword_5() { return cLeftParenthesisKeyword_5; }
+		
+		//providedInterfaces+=[SystemIndependentViewPoint::Interface|EString]
+		public Assignment getProvidedInterfacesAssignment_6() { return cProvidedInterfacesAssignment_6; }
+		
+		//[SystemIndependentViewPoint::Interface|EString]
+		public CrossReference getProvidedInterfacesInterfaceCrossReference_6_0() { return cProvidedInterfacesInterfaceCrossReference_6_0; }
+		
+		//EString
+		public RuleCall getProvidedInterfacesInterfaceEStringParserRuleCall_6_0_1() { return cProvidedInterfacesInterfaceEStringParserRuleCall_6_0_1; }
+		
+		//("," providedInterfaces+=[SystemIndependentViewPoint::Interface|EString])*
+		public Group getGroup_7() { return cGroup_7; }
+		
+		//","
+		public Keyword getCommaKeyword_7_0() { return cCommaKeyword_7_0; }
+		
+		//providedInterfaces+=[SystemIndependentViewPoint::Interface|EString]
+		public Assignment getProvidedInterfacesAssignment_7_1() { return cProvidedInterfacesAssignment_7_1; }
+		
+		//[SystemIndependentViewPoint::Interface|EString]
+		public CrossReference getProvidedInterfacesInterfaceCrossReference_7_1_0() { return cProvidedInterfacesInterfaceCrossReference_7_1_0; }
+		
+		//EString
+		public RuleCall getProvidedInterfacesInterfaceEStringParserRuleCall_7_1_0_1() { return cProvidedInterfacesInterfaceEStringParserRuleCall_7_1_0_1; }
+		
+		//')'
+		public Keyword getRightParenthesisKeyword_8() { return cRightParenthesisKeyword_8; }
+		
+		//'systemElements'
+		public Keyword getSystemElementsKeyword_9() { return cSystemElementsKeyword_9; }
+		
+		//'{'
+		public Keyword getLeftCurlyBracketKeyword_10() { return cLeftCurlyBracketKeyword_10; }
+		
+		//systemElements+=AbstractSystemElement
+		public Assignment getSystemElementsAssignment_11() { return cSystemElementsAssignment_11; }
+		
+		//AbstractSystemElement
+		public RuleCall getSystemElementsAbstractSystemElementParserRuleCall_11_0() { return cSystemElementsAbstractSystemElementParserRuleCall_11_0; }
+		
+		//("," systemElements+=AbstractSystemElement)*
+		public Group getGroup_12() { return cGroup_12; }
+		
+		//","
+		public Keyword getCommaKeyword_12_0() { return cCommaKeyword_12_0; }
+		
+		//systemElements+=AbstractSystemElement
+		public Assignment getSystemElementsAssignment_12_1() { return cSystemElementsAssignment_12_1; }
+		
+		//AbstractSystemElement
+		public RuleCall getSystemElementsAbstractSystemElementParserRuleCall_12_1_0() { return cSystemElementsAbstractSystemElementParserRuleCall_12_1_0; }
+		
+		//'}'
+		public Keyword getRightCurlyBracketKeyword_13() { return cRightCurlyBracketKeyword_13; }
+		
+		//'}'
+		public Keyword getRightCurlyBracketKeyword_14() { return cRightCurlyBracketKeyword_14; }
 	}
 	public class AssemblyContextElements extends AbstractParserRuleElementFinder {
 		private final ParserRule rule = (ParserRule) GrammarUtil.findRuleForName(getGrammar(), "org.xtext.mdsd.simplepalladio.AssemblyViewType.AssemblyContext");
@@ -467,21 +475,23 @@ public class AssemblyViewTypeGrammarAccess extends AbstractElementFinder.Abstrac
 		private final ParserRule rule = (ParserRule) GrammarUtil.findRuleForName(getGrammar(), "org.xtext.mdsd.simplepalladio.AssemblyViewType.Role");
 		private final Group cGroup = (Group)rule.eContents().get(1);
 		private final Keyword cRoleKeyword_0 = (Keyword)cGroup.eContents().get(0);
-		private final Keyword cLeftCurlyBracketKeyword_1 = (Keyword)cGroup.eContents().get(1);
-		private final Keyword cInterfaceKeyword_2 = (Keyword)cGroup.eContents().get(2);
-		private final Assignment cInterfaceAssignment_3 = (Assignment)cGroup.eContents().get(3);
-		private final CrossReference cInterfaceInterfaceCrossReference_3_0 = (CrossReference)cInterfaceAssignment_3.eContents().get(0);
-		private final RuleCall cInterfaceInterfaceEStringParserRuleCall_3_0_1 = (RuleCall)cInterfaceInterfaceCrossReference_3_0.eContents().get(1);
-		private final Keyword cRightCurlyBracketKeyword_4 = (Keyword)cGroup.eContents().get(4);
+		private final Assignment cNameAssignment_1 = (Assignment)cGroup.eContents().get(1);
+		private final RuleCall cNameEStringParserRuleCall_1_0 = (RuleCall)cNameAssignment_1.eContents().get(0);
+		private final Keyword cLeftCurlyBracketKeyword_2 = (Keyword)cGroup.eContents().get(2);
+		private final Keyword cInterfaceKeyword_3 = (Keyword)cGroup.eContents().get(3);
+		private final Assignment cInterfaceAssignment_4 = (Assignment)cGroup.eContents().get(4);
+		private final CrossReference cInterfaceInterfaceCrossReference_4_0 = (CrossReference)cInterfaceAssignment_4.eContents().get(0);
+		private final RuleCall cInterfaceInterfaceEStringParserRuleCall_4_0_1 = (RuleCall)cInterfaceInterfaceCrossReference_4_0.eContents().get(1);
+		private final Keyword cRightCurlyBracketKeyword_5 = (Keyword)cGroup.eContents().get(5);
 		
 		//Role AssemblyViewPoint::Role:
-		//	'Role'
+		//	'Role' name=EString
 		//	'{'
 		//	'interface' interface=[SystemIndependentViewPoint::Interface|EString]
 		//	'}';
 		@Override public ParserRule getRule() { return rule; }
 		
-		//'Role'
+		//'Role' name=EString
 		//'{'
 		//'interface' interface=[SystemIndependentViewPoint::Interface|EString]
 		//'}'
@@ -490,23 +500,29 @@ public class AssemblyViewTypeGrammarAccess extends AbstractElementFinder.Abstrac
 		//'Role'
 		public Keyword getRoleKeyword_0() { return cRoleKeyword_0; }
 		
-		//'{'
-		public Keyword getLeftCurlyBracketKeyword_1() { return cLeftCurlyBracketKeyword_1; }
-		
-		//'interface'
-		public Keyword getInterfaceKeyword_2() { return cInterfaceKeyword_2; }
-		
-		//interface=[SystemIndependentViewPoint::Interface|EString]
-		public Assignment getInterfaceAssignment_3() { return cInterfaceAssignment_3; }
-		
-		//[SystemIndependentViewPoint::Interface|EString]
-		public CrossReference getInterfaceInterfaceCrossReference_3_0() { return cInterfaceInterfaceCrossReference_3_0; }
+		//name=EString
+		public Assignment getNameAssignment_1() { return cNameAssignment_1; }
 		
 		//EString
-		public RuleCall getInterfaceInterfaceEStringParserRuleCall_3_0_1() { return cInterfaceInterfaceEStringParserRuleCall_3_0_1; }
+		public RuleCall getNameEStringParserRuleCall_1_0() { return cNameEStringParserRuleCall_1_0; }
+		
+		//'{'
+		public Keyword getLeftCurlyBracketKeyword_2() { return cLeftCurlyBracketKeyword_2; }
+		
+		//'interface'
+		public Keyword getInterfaceKeyword_3() { return cInterfaceKeyword_3; }
+		
+		//interface=[SystemIndependentViewPoint::Interface|EString]
+		public Assignment getInterfaceAssignment_4() { return cInterfaceAssignment_4; }
+		
+		//[SystemIndependentViewPoint::Interface|EString]
+		public CrossReference getInterfaceInterfaceCrossReference_4_0() { return cInterfaceInterfaceCrossReference_4_0; }
+		
+		//EString
+		public RuleCall getInterfaceInterfaceEStringParserRuleCall_4_0_1() { return cInterfaceInterfaceEStringParserRuleCall_4_0_1; }
 		
 		//'}'
-		public Keyword getRightCurlyBracketKeyword_4() { return cRightCurlyBracketKeyword_4; }
+		public Keyword getRightCurlyBracketKeyword_5() { return cRightCurlyBracketKeyword_5; }
 	}
 	public class DelegationConnectorElements extends AbstractParserRuleElementFinder {
 		private final ParserRule rule = (ParserRule) GrammarUtil.findRuleForName(getGrammar(), "org.xtext.mdsd.simplepalladio.AssemblyViewType.DelegationConnector");
@@ -639,8 +655,8 @@ public class AssemblyViewTypeGrammarAccess extends AbstractElementFinder.Abstrac
 	private final AssemblyViewTypeElements pAssemblyViewType;
 	private final InterfaceCommunicatorElements pInterfaceCommunicator;
 	private final AbstractSystemElementElements pAbstractSystemElement;
-	private final SystemElements pSystem;
 	private final EStringElements pEString;
+	private final SystemElements pSystem;
 	private final AssemblyContextElements pAssemblyContext;
 	private final RoleElements pRole;
 	private final DelegationConnectorElements pDelegationConnector;
@@ -658,8 +674,8 @@ public class AssemblyViewTypeGrammarAccess extends AbstractElementFinder.Abstrac
 		this.pAssemblyViewType = new AssemblyViewTypeElements();
 		this.pInterfaceCommunicator = new InterfaceCommunicatorElements();
 		this.pAbstractSystemElement = new AbstractSystemElementElements();
-		this.pSystem = new SystemElements();
 		this.pEString = new EStringElements();
+		this.pSystem = new SystemElements();
 		this.pAssemblyContext = new AssemblyContextElements();
 		this.pRole = new RoleElements();
 		this.pDelegationConnector = new DelegationConnectorElements();
@@ -726,8 +742,18 @@ public class AssemblyViewTypeGrammarAccess extends AbstractElementFinder.Abstrac
 		return getAbstractSystemElementAccess().getRule();
 	}
 	
+	//EString:
+	//	STRING | ID;
+	public EStringElements getEStringAccess() {
+		return pEString;
+	}
+	
+	public ParserRule getEStringRule() {
+		return getEStringAccess().getRule();
+	}
+	
 	//System AssemblyViewPoint::System:
-	//	'System'
+	//	'System' name=EString
 	//	'{' ('requiredInterfaces' '(' requiredInterfaces+=[SystemIndependentViewPoint::Interface|EString] (","
 	//	requiredInterfaces+=[SystemIndependentViewPoint::Interface|EString])* ')')?
 	//	'providedInterfaces' '(' providedInterfaces+=[SystemIndependentViewPoint::Interface|EString] (","
@@ -740,16 +766,6 @@ public class AssemblyViewTypeGrammarAccess extends AbstractElementFinder.Abstrac
 	
 	public ParserRule getSystemRule() {
 		return getSystemAccess().getRule();
-	}
-	
-	//EString:
-	//	STRING | ID;
-	public EStringElements getEStringAccess() {
-		return pEString;
-	}
-	
-	public ParserRule getEStringRule() {
-		return getEStringAccess().getRule();
 	}
 	
 	//AssemblyContext AssemblyViewPoint::AssemblyContext:
@@ -770,7 +786,7 @@ public class AssemblyViewTypeGrammarAccess extends AbstractElementFinder.Abstrac
 	}
 	
 	//Role AssemblyViewPoint::Role:
-	//	'Role'
+	//	'Role' name=EString
 	//	'{'
 	//	'interface' interface=[SystemIndependentViewPoint::Interface|EString]
 	//	'}';

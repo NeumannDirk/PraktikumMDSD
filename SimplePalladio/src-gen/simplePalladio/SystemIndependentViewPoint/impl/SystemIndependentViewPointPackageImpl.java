@@ -741,11 +741,11 @@ public class SystemIndependentViewPointPackageImpl extends EPackageImpl implemen
 				!IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE,
 				IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEReference(getInterface_ParentProviderCommunicator(), this.getInterfaceCommunicator(),
-				this.getInterfaceCommunicator_ProvidedInterfaces(), "parentProviderCommunicator", null, 1, -1,
+				this.getInterfaceCommunicator_ProvidedInterfaces(), "parentProviderCommunicator", null, 0, -1,
 				Interface.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES,
 				!IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEReference(getInterface_ParentRequirereeCommunicator(), this.getInterfaceCommunicator(),
-				this.getInterfaceCommunicator_RequiredInterfaces(), "parentRequirereeCommunicator", null, 1, -1,
+				this.getInterfaceCommunicator_RequiredInterfaces(), "parentRequirereeCommunicator", null, 0, -1,
 				Interface.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES,
 				!IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 

@@ -1,0 +1,16 @@
+AllocationViewType {
+	allocationContexts {
+		AllocationContext {
+			container ApplicationServer
+			assembly WebGUIAC
+		},
+		AllocationContext {
+			container ApplicationServer
+			assembly MediaStoreAC
+		},
+		AllocationContext {
+			container DatabaseServer
+			assembly PoolingAudioDBAC
+		}
+	}
+}

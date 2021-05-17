@@ -124,13 +124,22 @@ public interface AssemblyViewPointPackage extends EPackage {
 	int SYSTEM__PROVIDED_INTERFACES = SystemIndependentViewPointPackage.INTERFACE_COMMUNICATOR__PROVIDED_INTERFACES;
 
 	/**
+	 * The feature id for the '<em><b>Name</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int SYSTEM__NAME = SystemIndependentViewPointPackage.INTERFACE_COMMUNICATOR_FEATURE_COUNT + 0;
+
+	/**
 	 * The feature id for the '<em><b>System Elements</b></em>' containment reference list.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int SYSTEM__SYSTEM_ELEMENTS = SystemIndependentViewPointPackage.INTERFACE_COMMUNICATOR_FEATURE_COUNT + 0;
+	int SYSTEM__SYSTEM_ELEMENTS = SystemIndependentViewPointPackage.INTERFACE_COMMUNICATOR_FEATURE_COUNT + 1;
 
 	/**
 	 * The number of structural features of the '<em>System</em>' class.
@@ -139,7 +148,7 @@ public interface AssemblyViewPointPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int SYSTEM_FEATURE_COUNT = SystemIndependentViewPointPackage.INTERFACE_COMMUNICATOR_FEATURE_COUNT + 1;
+	int SYSTEM_FEATURE_COUNT = SystemIndependentViewPointPackage.INTERFACE_COMMUNICATOR_FEATURE_COUNT + 2;
 
 	/**
 	 * The number of operations of the '<em>System</em>' class.
@@ -289,13 +298,22 @@ public interface AssemblyViewPointPackage extends EPackage {
 	int ROLE__SYSTEM = ABSTRACT_SYSTEM_ELEMENT__SYSTEM;
 
 	/**
+	 * The feature id for the '<em><b>Name</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int ROLE__NAME = ABSTRACT_SYSTEM_ELEMENT_FEATURE_COUNT + 0;
+
+	/**
 	 * The feature id for the '<em><b>Parent Provider Assembly Context</b></em>' reference.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int ROLE__PARENT_PROVIDER_ASSEMBLY_CONTEXT = ABSTRACT_SYSTEM_ELEMENT_FEATURE_COUNT + 0;
+	int ROLE__PARENT_PROVIDER_ASSEMBLY_CONTEXT = ABSTRACT_SYSTEM_ELEMENT_FEATURE_COUNT + 1;
 
 	/**
 	 * The feature id for the '<em><b>Interface</b></em>' reference.
@@ -304,7 +322,7 @@ public interface AssemblyViewPointPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int ROLE__INTERFACE = ABSTRACT_SYSTEM_ELEMENT_FEATURE_COUNT + 1;
+	int ROLE__INTERFACE = ABSTRACT_SYSTEM_ELEMENT_FEATURE_COUNT + 2;
 
 	/**
 	 * The feature id for the '<em><b>From Assembly Connectors</b></em>' reference list.
@@ -313,7 +331,7 @@ public interface AssemblyViewPointPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int ROLE__FROM_ASSEMBLY_CONNECTORS = ABSTRACT_SYSTEM_ELEMENT_FEATURE_COUNT + 2;
+	int ROLE__FROM_ASSEMBLY_CONNECTORS = ABSTRACT_SYSTEM_ELEMENT_FEATURE_COUNT + 3;
 
 	/**
 	 * The feature id for the '<em><b>Parent Requireree Assembly Context</b></em>' reference.
@@ -322,7 +340,7 @@ public interface AssemblyViewPointPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int ROLE__PARENT_REQUIREREE_ASSEMBLY_CONTEXT = ABSTRACT_SYSTEM_ELEMENT_FEATURE_COUNT + 3;
+	int ROLE__PARENT_REQUIREREE_ASSEMBLY_CONTEXT = ABSTRACT_SYSTEM_ELEMENT_FEATURE_COUNT + 4;
 
 	/**
 	 * The feature id for the '<em><b>To Assembly Connector</b></em>' reference list.
@@ -331,7 +349,7 @@ public interface AssemblyViewPointPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int ROLE__TO_ASSEMBLY_CONNECTOR = ABSTRACT_SYSTEM_ELEMENT_FEATURE_COUNT + 4;
+	int ROLE__TO_ASSEMBLY_CONNECTOR = ABSTRACT_SYSTEM_ELEMENT_FEATURE_COUNT + 5;
 
 	/**
 	 * The number of structural features of the '<em>Role</em>' class.
@@ -340,7 +358,7 @@ public interface AssemblyViewPointPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int ROLE_FEATURE_COUNT = ABSTRACT_SYSTEM_ELEMENT_FEATURE_COUNT + 5;
+	int ROLE_FEATURE_COUNT = ABSTRACT_SYSTEM_ELEMENT_FEATURE_COUNT + 6;
 
 	/**
 	 * The number of operations of the '<em>Role</em>' class.

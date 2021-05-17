@@ -518,10 +518,10 @@ public class InternalAssemblyViewTypeLexer extends Lexer {
         try {
             int _type = RULE_ID;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // InternalAssemblyViewType.g:2672:9: ( ( '^' )? ( 'a' .. 'z' | 'A' .. 'Z' | '_' ) ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' )* )
-            // InternalAssemblyViewType.g:2672:11: ( '^' )? ( 'a' .. 'z' | 'A' .. 'Z' | '_' ) ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' )*
+            // InternalAssemblyViewType.g:2756:9: ( ( '^' )? ( 'a' .. 'z' | 'A' .. 'Z' | '_' ) ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' )* )
+            // InternalAssemblyViewType.g:2756:11: ( '^' )? ( 'a' .. 'z' | 'A' .. 'Z' | '_' ) ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' )*
             {
-            // InternalAssemblyViewType.g:2672:11: ( '^' )?
+            // InternalAssemblyViewType.g:2756:11: ( '^' )?
             int alt1=2;
             int LA1_0 = input.LA(1);
 
@@ -530,7 +530,7 @@ public class InternalAssemblyViewTypeLexer extends Lexer {
             }
             switch (alt1) {
                 case 1 :
-                    // InternalAssemblyViewType.g:2672:11: '^'
+                    // InternalAssemblyViewType.g:2756:11: '^'
                     {
                     match('^'); 
 
@@ -548,7 +548,7 @@ public class InternalAssemblyViewTypeLexer extends Lexer {
                 recover(mse);
                 throw mse;}
 
-            // InternalAssemblyViewType.g:2672:40: ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' )*
+            // InternalAssemblyViewType.g:2756:40: ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' )*
             loop2:
             do {
                 int alt2=2;
@@ -597,10 +597,10 @@ public class InternalAssemblyViewTypeLexer extends Lexer {
         try {
             int _type = RULE_INT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // InternalAssemblyViewType.g:2674:10: ( ( '0' .. '9' )+ )
-            // InternalAssemblyViewType.g:2674:12: ( '0' .. '9' )+
+            // InternalAssemblyViewType.g:2758:10: ( ( '0' .. '9' )+ )
+            // InternalAssemblyViewType.g:2758:12: ( '0' .. '9' )+
             {
-            // InternalAssemblyViewType.g:2674:12: ( '0' .. '9' )+
+            // InternalAssemblyViewType.g:2758:12: ( '0' .. '9' )+
             int cnt3=0;
             loop3:
             do {
@@ -614,7 +614,7 @@ public class InternalAssemblyViewTypeLexer extends Lexer {
 
                 switch (alt3) {
             	case 1 :
-            	    // InternalAssemblyViewType.g:2674:13: '0' .. '9'
+            	    // InternalAssemblyViewType.g:2758:13: '0' .. '9'
             	    {
             	    matchRange('0','9'); 
 
@@ -646,10 +646,10 @@ public class InternalAssemblyViewTypeLexer extends Lexer {
         try {
             int _type = RULE_STRING;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // InternalAssemblyViewType.g:2676:13: ( ( '\"' ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )* '\"' | '\\'' ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )* '\\'' ) )
-            // InternalAssemblyViewType.g:2676:15: ( '\"' ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )* '\"' | '\\'' ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )* '\\'' )
+            // InternalAssemblyViewType.g:2760:13: ( ( '\"' ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )* '\"' | '\\'' ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )* '\\'' ) )
+            // InternalAssemblyViewType.g:2760:15: ( '\"' ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )* '\"' | '\\'' ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )* '\\'' )
             {
-            // InternalAssemblyViewType.g:2676:15: ( '\"' ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )* '\"' | '\\'' ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )* '\\'' )
+            // InternalAssemblyViewType.g:2760:15: ( '\"' ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )* '\"' | '\\'' ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )* '\\'' )
             int alt6=2;
             int LA6_0 = input.LA(1);
 
@@ -667,10 +667,10 @@ public class InternalAssemblyViewTypeLexer extends Lexer {
             }
             switch (alt6) {
                 case 1 :
-                    // InternalAssemblyViewType.g:2676:16: '\"' ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )* '\"'
+                    // InternalAssemblyViewType.g:2760:16: '\"' ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )* '\"'
                     {
                     match('\"'); 
-                    // InternalAssemblyViewType.g:2676:20: ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )*
+                    // InternalAssemblyViewType.g:2760:20: ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )*
                     loop4:
                     do {
                         int alt4=3;
@@ -686,7 +686,7 @@ public class InternalAssemblyViewTypeLexer extends Lexer {
 
                         switch (alt4) {
                     	case 1 :
-                    	    // InternalAssemblyViewType.g:2676:21: '\\\\' .
+                    	    // InternalAssemblyViewType.g:2760:21: '\\\\' .
                     	    {
                     	    match('\\'); 
                     	    matchAny(); 
@@ -694,7 +694,7 @@ public class InternalAssemblyViewTypeLexer extends Lexer {
                     	    }
                     	    break;
                     	case 2 :
-                    	    // InternalAssemblyViewType.g:2676:28: ~ ( ( '\\\\' | '\"' ) )
+                    	    // InternalAssemblyViewType.g:2760:28: ~ ( ( '\\\\' | '\"' ) )
                     	    {
                     	    if ( (input.LA(1)>='\u0000' && input.LA(1)<='!')||(input.LA(1)>='#' && input.LA(1)<='[')||(input.LA(1)>=']' && input.LA(1)<='\uFFFF') ) {
                     	        input.consume();
@@ -719,10 +719,10 @@ public class InternalAssemblyViewTypeLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // InternalAssemblyViewType.g:2676:48: '\\'' ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )* '\\''
+                    // InternalAssemblyViewType.g:2760:48: '\\'' ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )* '\\''
                     {
                     match('\''); 
-                    // InternalAssemblyViewType.g:2676:53: ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )*
+                    // InternalAssemblyViewType.g:2760:53: ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )*
                     loop5:
                     do {
                         int alt5=3;
@@ -738,7 +738,7 @@ public class InternalAssemblyViewTypeLexer extends Lexer {
 
                         switch (alt5) {
                     	case 1 :
-                    	    // InternalAssemblyViewType.g:2676:54: '\\\\' .
+                    	    // InternalAssemblyViewType.g:2760:54: '\\\\' .
                     	    {
                     	    match('\\'); 
                     	    matchAny(); 
@@ -746,7 +746,7 @@ public class InternalAssemblyViewTypeLexer extends Lexer {
                     	    }
                     	    break;
                     	case 2 :
-                    	    // InternalAssemblyViewType.g:2676:61: ~ ( ( '\\\\' | '\\'' ) )
+                    	    // InternalAssemblyViewType.g:2760:61: ~ ( ( '\\\\' | '\\'' ) )
                     	    {
                     	    if ( (input.LA(1)>='\u0000' && input.LA(1)<='&')||(input.LA(1)>='(' && input.LA(1)<='[')||(input.LA(1)>=']' && input.LA(1)<='\uFFFF') ) {
                     	        input.consume();
@@ -789,12 +789,12 @@ public class InternalAssemblyViewTypeLexer extends Lexer {
         try {
             int _type = RULE_ML_COMMENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // InternalAssemblyViewType.g:2678:17: ( '/*' ( options {greedy=false; } : . )* '*/' )
-            // InternalAssemblyViewType.g:2678:19: '/*' ( options {greedy=false; } : . )* '*/'
+            // InternalAssemblyViewType.g:2762:17: ( '/*' ( options {greedy=false; } : . )* '*/' )
+            // InternalAssemblyViewType.g:2762:19: '/*' ( options {greedy=false; } : . )* '*/'
             {
             match("/*"); 
 
-            // InternalAssemblyViewType.g:2678:24: ( options {greedy=false; } : . )*
+            // InternalAssemblyViewType.g:2762:24: ( options {greedy=false; } : . )*
             loop7:
             do {
                 int alt7=2;
@@ -819,7 +819,7 @@ public class InternalAssemblyViewTypeLexer extends Lexer {
 
                 switch (alt7) {
             	case 1 :
-            	    // InternalAssemblyViewType.g:2678:52: .
+            	    // InternalAssemblyViewType.g:2762:52: .
             	    {
             	    matchAny(); 
 
@@ -849,12 +849,12 @@ public class InternalAssemblyViewTypeLexer extends Lexer {
         try {
             int _type = RULE_SL_COMMENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // InternalAssemblyViewType.g:2680:17: ( '//' (~ ( ( '\\n' | '\\r' ) ) )* ( ( '\\r' )? '\\n' )? )
-            // InternalAssemblyViewType.g:2680:19: '//' (~ ( ( '\\n' | '\\r' ) ) )* ( ( '\\r' )? '\\n' )?
+            // InternalAssemblyViewType.g:2764:17: ( '//' (~ ( ( '\\n' | '\\r' ) ) )* ( ( '\\r' )? '\\n' )? )
+            // InternalAssemblyViewType.g:2764:19: '//' (~ ( ( '\\n' | '\\r' ) ) )* ( ( '\\r' )? '\\n' )?
             {
             match("//"); 
 
-            // InternalAssemblyViewType.g:2680:24: (~ ( ( '\\n' | '\\r' ) ) )*
+            // InternalAssemblyViewType.g:2764:24: (~ ( ( '\\n' | '\\r' ) ) )*
             loop8:
             do {
                 int alt8=2;
@@ -867,7 +867,7 @@ public class InternalAssemblyViewTypeLexer extends Lexer {
 
                 switch (alt8) {
             	case 1 :
-            	    // InternalAssemblyViewType.g:2680:24: ~ ( ( '\\n' | '\\r' ) )
+            	    // InternalAssemblyViewType.g:2764:24: ~ ( ( '\\n' | '\\r' ) )
             	    {
             	    if ( (input.LA(1)>='\u0000' && input.LA(1)<='\t')||(input.LA(1)>='\u000B' && input.LA(1)<='\f')||(input.LA(1)>='\u000E' && input.LA(1)<='\uFFFF') ) {
             	        input.consume();
@@ -887,7 +887,7 @@ public class InternalAssemblyViewTypeLexer extends Lexer {
                 }
             } while (true);
 
-            // InternalAssemblyViewType.g:2680:40: ( ( '\\r' )? '\\n' )?
+            // InternalAssemblyViewType.g:2764:40: ( ( '\\r' )? '\\n' )?
             int alt10=2;
             int LA10_0 = input.LA(1);
 
@@ -896,9 +896,9 @@ public class InternalAssemblyViewTypeLexer extends Lexer {
             }
             switch (alt10) {
                 case 1 :
-                    // InternalAssemblyViewType.g:2680:41: ( '\\r' )? '\\n'
+                    // InternalAssemblyViewType.g:2764:41: ( '\\r' )? '\\n'
                     {
-                    // InternalAssemblyViewType.g:2680:41: ( '\\r' )?
+                    // InternalAssemblyViewType.g:2764:41: ( '\\r' )?
                     int alt9=2;
                     int LA9_0 = input.LA(1);
 
@@ -907,7 +907,7 @@ public class InternalAssemblyViewTypeLexer extends Lexer {
                     }
                     switch (alt9) {
                         case 1 :
-                            // InternalAssemblyViewType.g:2680:41: '\\r'
+                            // InternalAssemblyViewType.g:2764:41: '\\r'
                             {
                             match('\r'); 
 
@@ -939,10 +939,10 @@ public class InternalAssemblyViewTypeLexer extends Lexer {
         try {
             int _type = RULE_WS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // InternalAssemblyViewType.g:2682:9: ( ( ' ' | '\\t' | '\\r' | '\\n' )+ )
-            // InternalAssemblyViewType.g:2682:11: ( ' ' | '\\t' | '\\r' | '\\n' )+
+            // InternalAssemblyViewType.g:2766:9: ( ( ' ' | '\\t' | '\\r' | '\\n' )+ )
+            // InternalAssemblyViewType.g:2766:11: ( ' ' | '\\t' | '\\r' | '\\n' )+
             {
-            // InternalAssemblyViewType.g:2682:11: ( ' ' | '\\t' | '\\r' | '\\n' )+
+            // InternalAssemblyViewType.g:2766:11: ( ' ' | '\\t' | '\\r' | '\\n' )+
             int cnt11=0;
             loop11:
             do {
@@ -996,8 +996,8 @@ public class InternalAssemblyViewTypeLexer extends Lexer {
         try {
             int _type = RULE_ANY_OTHER;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // InternalAssemblyViewType.g:2684:16: ( . )
-            // InternalAssemblyViewType.g:2684:18: .
+            // InternalAssemblyViewType.g:2768:16: ( . )
+            // InternalAssemblyViewType.g:2768:18: .
             {
             matchAny(); 
 

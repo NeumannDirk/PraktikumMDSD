@@ -22,6 +22,8 @@ import simplePalladio.AssemblyViewPoint.AssemblyContext;
 import simplePalladio.AssemblyViewPoint.AssemblyViewPointPackage;
 import simplePalladio.AssemblyViewPoint.Role;
 
+import simplePalladio.Common.CommonPackage;
+import simplePalladio.Common.NamedElement;
 import simplePalladio.SystemIndependentViewPoint.Interface;
 
 /**
@@ -32,6 +34,7 @@ import simplePalladio.SystemIndependentViewPoint.Interface;
  * The following features are implemented:
  * </p>
  * <ul>
+ *   <li>{@link simplePalladio.AssemblyViewPoint.impl.RoleImpl#getName <em>Name</em>}</li>
  *   <li>{@link simplePalladio.AssemblyViewPoint.impl.RoleImpl#getParentProviderAssemblyContext <em>Parent Provider Assembly Context</em>}</li>
  *   <li>{@link simplePalladio.AssemblyViewPoint.impl.RoleImpl#getInterface <em>Interface</em>}</li>
  *   <li>{@link simplePalladio.AssemblyViewPoint.impl.RoleImpl#getFromAssemblyConnectors <em>From Assembly Connectors</em>}</li>
@@ -42,6 +45,26 @@ import simplePalladio.SystemIndependentViewPoint.Interface;
  * @generated
  */
 public class RoleImpl extends AbstractSystemElementImpl implements Role {
+	/**
+	 * The default value of the '{@link #getName() <em>Name</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see #getName()
+	 * @generated
+	 * @ordered
+	 */
+	protected static final String NAME_EDEFAULT = null;
+
+	/**
+	 * The cached value of the '{@link #getName() <em>Name</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see #getName()
+	 * @generated
+	 * @ordered
+	 */
+	protected String name = NAME_EDEFAULT;
+
 	/**
 	 * The cached value of the '{@link #getParentProviderAssemblyContext() <em>Parent Provider Assembly Context</em>}' reference.
 	 * <!-- begin-user-doc -->
@@ -109,6 +132,27 @@ public class RoleImpl extends AbstractSystemElementImpl implements Role {
 	@Override
 	protected EClass eStaticClass() {
 		return AssemblyViewPointPackage.Literals.ROLE;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public String getName() {
+		return name;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public void setName(String newName) {
+		String oldName = name;
+		name = newName;
+		if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, AssemblyViewPointPackage.ROLE__NAME, oldName, name));
 	}
 
 	/**
@@ -380,6 +424,8 @@ public class RoleImpl extends AbstractSystemElementImpl implements Role {
 	@Override
 	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
+		case AssemblyViewPointPackage.ROLE__NAME:
+			return getName();
 		case AssemblyViewPointPackage.ROLE__PARENT_PROVIDER_ASSEMBLY_CONTEXT:
 			if (resolve)
 				return getParentProviderAssemblyContext();
@@ -409,6 +455,9 @@ public class RoleImpl extends AbstractSystemElementImpl implements Role {
 	@Override
 	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
+		case AssemblyViewPointPackage.ROLE__NAME:
+			setName((String) newValue);
+			return;
 		case AssemblyViewPointPackage.ROLE__PARENT_PROVIDER_ASSEMBLY_CONTEXT:
 			setParentProviderAssemblyContext((AssemblyContext) newValue);
 			return;
@@ -438,6 +487,9 @@ public class RoleImpl extends AbstractSystemElementImpl implements Role {
 	@Override
 	public void eUnset(int featureID) {
 		switch (featureID) {
+		case AssemblyViewPointPackage.ROLE__NAME:
+			setName(NAME_EDEFAULT);
+			return;
 		case AssemblyViewPointPackage.ROLE__PARENT_PROVIDER_ASSEMBLY_CONTEXT:
 			setParentProviderAssemblyContext((AssemblyContext) null);
 			return;
@@ -465,6 +517,8 @@ public class RoleImpl extends AbstractSystemElementImpl implements Role {
 	@Override
 	public boolean eIsSet(int featureID) {
 		switch (featureID) {
+		case AssemblyViewPointPackage.ROLE__NAME:
+			return NAME_EDEFAULT == null ? name != null : !NAME_EDEFAULT.equals(name);
 		case AssemblyViewPointPackage.ROLE__PARENT_PROVIDER_ASSEMBLY_CONTEXT:
 			return parentProviderAssemblyContext != null;
 		case AssemblyViewPointPackage.ROLE__INTERFACE:
@@ -477,6 +531,59 @@ public class RoleImpl extends AbstractSystemElementImpl implements Role {
 			return toAssemblyConnector != null && !toAssemblyConnector.isEmpty();
 		}
 		return super.eIsSet(featureID);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public int eBaseStructuralFeatureID(int derivedFeatureID, Class<?> baseClass) {
+		if (baseClass == NamedElement.class) {
+			switch (derivedFeatureID) {
+			case AssemblyViewPointPackage.ROLE__NAME:
+				return CommonPackage.NAMED_ELEMENT__NAME;
+			default:
+				return -1;
+			}
+		}
+		return super.eBaseStructuralFeatureID(derivedFeatureID, baseClass);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public int eDerivedStructuralFeatureID(int baseFeatureID, Class<?> baseClass) {
+		if (baseClass == NamedElement.class) {
+			switch (baseFeatureID) {
+			case CommonPackage.NAMED_ELEMENT__NAME:
+				return AssemblyViewPointPackage.ROLE__NAME;
+			default:
+				return -1;
+			}
+		}
+		return super.eDerivedStructuralFeatureID(baseFeatureID, baseClass);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public String toString() {
+		if (eIsProxy())
+			return super.toString();
+
+		StringBuilder result = new StringBuilder(super.toString());
+		result.append(" (name: ");
+		result.append(name);
+		result.append(')');
+		return result.toString();
 	}
 
 } //RoleImpl

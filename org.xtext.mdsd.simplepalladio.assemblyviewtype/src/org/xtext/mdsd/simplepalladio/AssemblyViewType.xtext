@@ -18,17 +18,16 @@ InterfaceCommunicator returns SystemIndependentViewPoint::InterfaceCommunicator:
 AbstractSystemElement returns AssemblyViewPoint::AbstractSystemElement:
 	AssemblyContext | Role | DelegationConnector | AssemblyConnector;
 
+EString returns ecore::EString:
+	STRING | ID;
 
 System returns AssemblyViewPoint::System:
-	'System'
+	'System' name=EString
 	'{'
 		('requiredInterfaces' '(' requiredInterfaces+=[SystemIndependentViewPoint::Interface|EString] ( "," requiredInterfaces+=[SystemIndependentViewPoint::Interface|EString])* ')' )?
 		'providedInterfaces' '(' providedInterfaces+=[SystemIndependentViewPoint::Interface|EString] ( "," providedInterfaces+=[SystemIndependentViewPoint::Interface|EString])* ')' 
 		'systemElements' '{' systemElements+=AbstractSystemElement ( "," systemElements+=AbstractSystemElement)* '}' 
 	'}';
-
-EString returns ecore::EString:
-	STRING | ID;
 
 AssemblyContext returns AssemblyViewPoint::AssemblyContext:
 	'AssemblyContext'
@@ -40,7 +39,7 @@ AssemblyContext returns AssemblyViewPoint::AssemblyContext:
 	'}';
 
 Role returns AssemblyViewPoint::Role:
-	'Role'
+	'Role' name=EString
 	'{'
 		'interface' interface=[SystemIndependentViewPoint::Interface|EString]
 	'}';

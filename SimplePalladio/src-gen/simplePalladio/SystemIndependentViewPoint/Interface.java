@@ -44,7 +44,7 @@ public interface Interface extends AbstractRepositoryElement {
 	 * @return the value of the '<em>Parent Provider Communicator</em>' reference list.
 	 * @see simplePalladio.SystemIndependentViewPoint.SystemIndependentViewPointPackage#getInterface_ParentProviderCommunicator()
 	 * @see simplePalladio.SystemIndependentViewPoint.InterfaceCommunicator#getProvidedInterfaces
-	 * @model opposite="providedInterfaces" required="true"
+	 * @model opposite="providedInterfaces"
 	 * @generated
 	 */
 	EList<InterfaceCommunicator> getParentProviderCommunicator();
@@ -58,7 +58,7 @@ public interface Interface extends AbstractRepositoryElement {
 	 * @return the value of the '<em>Parent Requireree Communicator</em>' reference list.
 	 * @see simplePalladio.SystemIndependentViewPoint.SystemIndependentViewPointPackage#getInterface_ParentRequirereeCommunicator()
 	 * @see simplePalladio.SystemIndependentViewPoint.InterfaceCommunicator#getRequiredInterfaces
-	 * @model opposite="requiredInterfaces" required="true"
+	 * @model opposite="requiredInterfaces"
 	 * @generated
 	 */
 	EList<InterfaceCommunicator> getParentRequirereeCommunicator();

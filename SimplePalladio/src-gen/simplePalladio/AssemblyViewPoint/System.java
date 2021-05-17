@@ -4,6 +4,7 @@ package simplePalladio.AssemblyViewPoint;
 
 import org.eclipse.emf.common.util.EList;
 
+import simplePalladio.Common.NamedElement;
 import simplePalladio.SystemIndependentViewPoint.InterfaceCommunicator;
 
 /**
@@ -22,7 +23,7 @@ import simplePalladio.SystemIndependentViewPoint.InterfaceCommunicator;
  * @model
  * @generated
  */
-public interface System extends InterfaceCommunicator {
+public interface System extends InterfaceCommunicator, NamedElement {
 	/**
 	 * Returns the value of the '<em><b>System Elements</b></em>' containment reference list.
 	 * The list contents are of type {@link simplePalladio.AssemblyViewPoint.AbstractSystemElement}.

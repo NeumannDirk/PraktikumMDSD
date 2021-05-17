@@ -7,14 +7,14 @@
   <repositoryElements xsi:type="SystemIndependentViewPoint:Component" name="WebGUI" requiredInterfaces="IMediaStore" providedInterfaces="HTTP"/>
   <repositoryElements xsi:type="SystemIndependentViewPoint:Interface" name="HTTP" signatures="HTTPDownload HTTPUpload">
     <parentProviderCommunicator xsi:type="SystemIndependentViewPoint:Component" href="#WebGUI"/>
-    <parentProviderCommunicator xsi:type="AssemblyViewPoint:System" href="mediastore.assemblyviewpoint#//@systems.1"/>
+    <parentProviderCommunicator xsi:type="AssemblyViewPoint:System" href="mediastore.assemblyviewpoint#Sys"/>
   </repositoryElements>
   <repositoryElements xsi:type="SystemIndependentViewPoint:Signature" name="HTTPUpload"/>
   <repositoryElements xsi:type="SystemIndependentViewPoint:Signature" name="HTTPDownload"/>
   <repositoryElements xsi:type="SystemIndependentViewPoint:Interface" name="IMediaStore" signatures="download upload" parentRequirereeCommunicator="WebGUI">
     <parentProviderCommunicator xsi:type="SystemIndependentViewPoint:Component" href="#MediaManager"/>
     <parentProviderCommunicator xsi:type="SystemIndependentViewPoint:CompositeComponent" href="#MediaStore"/>
-    <parentProviderCommunicator xsi:type="AssemblyViewPoint:System" href="mediastore.assemblyviewpoint#//@systems.0"/>
+    <parentProviderCommunicator xsi:type="AssemblyViewPoint:System" href="mediastore.assemblyviewpoint#MediaStore"/>
   </repositoryElements>
   <repositoryElements xsi:type="SystemIndependentViewPoint:Signature" name="upload"/>
   <repositoryElements xsi:type="SystemIndependentViewPoint:Signature" name="download"/>
@@ -24,11 +24,11 @@
     <parentRequirereeCommunicator xsi:type="SystemIndependentViewPoint:Component" href="#DBCache"/>
     <parentRequirereeCommunicator xsi:type="SystemIndependentViewPoint:Component" href="#MediaManager"/>
     <parentRequirereeCommunicator xsi:type="SystemIndependentViewPoint:CompositeComponent" href="#MediaStore"/>
-    <parentRequirereeCommunicator xsi:type="AssemblyViewPoint:System" href="mediastore.assemblyviewpoint#//@systems.0"/>
+    <parentRequirereeCommunicator xsi:type="AssemblyViewPoint:System" href="mediastore.assemblyviewpoint#MediaStore"/>
   </repositoryElements>
   <repositoryElements xsi:type="SystemIndependentViewPoint:Signature" name="queryDB"/>
   <repositoryElements xsi:type="SystemIndependentViewPoint:Signature" name="addFile"/>
   <repositoryElements xsi:type="SystemIndependentViewPoint:CompositeComponent" name="MediaStore" requiredInterfaces="AudioDB" providedInterfaces="IMediaStore">
-    <system href="mediastore.assemblyviewpoint#//@systems.0"/>
+    <system href="mediastore.assemblyviewpoint#MediaStore"/>
   </repositoryElements>
 </SystemIndependentViewPoint:RepositoryViewType>

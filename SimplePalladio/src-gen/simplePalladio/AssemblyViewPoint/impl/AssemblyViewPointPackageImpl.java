@@ -502,9 +502,11 @@ public class AssemblyViewPointPackageImpl extends EPackageImpl implements Assemb
 
 		// Add supertypes to classes
 		systemEClass.getESuperTypes().add(theSystemIndependentViewPointPackage.getInterfaceCommunicator());
+		systemEClass.getESuperTypes().add(theCommonPackage.getNamedElement());
 		assemblyContextEClass.getESuperTypes().add(this.getAbstractSystemElement());
 		assemblyContextEClass.getESuperTypes().add(theCommonPackage.getNamedElement());
 		roleEClass.getESuperTypes().add(this.getAbstractSystemElement());
+		roleEClass.getESuperTypes().add(theCommonPackage.getNamedElement());
 		delegationConnectorEClass.getESuperTypes().add(this.getAbstractConnector());
 		assemblyConnectorEClass.getESuperTypes().add(this.getAbstractConnector());
 		abstractConnectorEClass.getESuperTypes().add(this.getAbstractSystemElement());

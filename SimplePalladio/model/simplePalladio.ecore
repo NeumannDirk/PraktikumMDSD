@@ -131,7 +131,7 @@
       <eStructuralFeatures xsi:type="ecore:EReference" name="systems" lowerBound="1"
           upperBound="-1" eType="#//AssemblyViewPoint/System" containment="true"/>
     </eClassifiers>
-    <eClassifiers xsi:type="ecore:EClass" name="System" eSuperTypes="#//SystemIndependentViewPoint/InterfaceCommunicator">
+    <eClassifiers xsi:type="ecore:EClass" name="System" eSuperTypes="#//SystemIndependentViewPoint/InterfaceCommunicator #//Common/NamedElement">
       <eStructuralFeatures xsi:type="ecore:EReference" name="systemElements" lowerBound="1"
           upperBound="-1" eType="#//AssemblyViewPoint/AbstractSystemElement" containment="true"
           eOpposite="#//AssemblyViewPoint/AbstractSystemElement/system"/>
@@ -146,7 +146,7 @@
       <eStructuralFeatures xsi:type="ecore:EReference" name="allocationContext" eType="#//DeploymentViewPoint/AllocationContext"
           eOpposite="#//DeploymentViewPoint/AllocationContext/assembly"/>
     </eClassifiers>
-    <eClassifiers xsi:type="ecore:EClass" name="Role" eSuperTypes="#//AssemblyViewPoint/AbstractSystemElement">
+    <eClassifiers xsi:type="ecore:EClass" name="Role" eSuperTypes="#//AssemblyViewPoint/AbstractSystemElement #//Common/NamedElement">
       <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore">
         <details key="constraints" value="MustHaveOnlyOneParent"/>
       </eAnnotations>

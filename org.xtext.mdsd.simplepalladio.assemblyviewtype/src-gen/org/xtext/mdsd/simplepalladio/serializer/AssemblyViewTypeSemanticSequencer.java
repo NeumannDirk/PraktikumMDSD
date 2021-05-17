@@ -21,6 +21,7 @@ import simplePalladio.AssemblyViewPoint.AssemblyViewPointPackage;
 import simplePalladio.AssemblyViewPoint.AssemblyViewType;
 import simplePalladio.AssemblyViewPoint.DelegationConnector;
 import simplePalladio.AssemblyViewPoint.Role;
+import simplePalladio.Common.CommonPackage;
 
 @SuppressWarnings("all")
 public class AssemblyViewTypeSemanticSequencer extends AbstractDelegatingSemanticSequencer {
@@ -140,15 +141,18 @@ public class AssemblyViewTypeSemanticSequencer extends AbstractDelegatingSemanti
 	 *     Role returns Role
 	 *
 	 * Constraint:
-	 *     interface=[Interface|EString]
+	 *     (name=EString interface=[Interface|EString])
 	 */
 	protected void sequence_Role(ISerializationContext context, Role semanticObject) {
 		if (errorAcceptor != null) {
+			if (transientValues.isValueTransient(semanticObject, CommonPackage.Literals.NAMED_ELEMENT__NAME) == ValueTransient.YES)
+				errorAcceptor.accept(diagnosticProvider.createFeatureValueMissing(semanticObject, CommonPackage.Literals.NAMED_ELEMENT__NAME));
 			if (transientValues.isValueTransient(semanticObject, AssemblyViewPointPackage.Literals.ROLE__INTERFACE) == ValueTransient.YES)
 				errorAcceptor.accept(diagnosticProvider.createFeatureValueMissing(semanticObject, AssemblyViewPointPackage.Literals.ROLE__INTERFACE));
 		}
 		SequenceFeeder feeder = createSequencerFeeder(context, semanticObject);
-		feeder.accept(grammarAccess.getRoleAccess().getInterfaceInterfaceEStringParserRuleCall_3_0_1(), semanticObject.eGet(AssemblyViewPointPackage.Literals.ROLE__INTERFACE, false));
+		feeder.accept(grammarAccess.getRoleAccess().getNameEStringParserRuleCall_1_0(), semanticObject.getName());
+		feeder.accept(grammarAccess.getRoleAccess().getInterfaceInterfaceEStringParserRuleCall_4_0_1(), semanticObject.eGet(AssemblyViewPointPackage.Literals.ROLE__INTERFACE, false));
 		feeder.finish();
 	}
 	
@@ -160,6 +164,7 @@ public class AssemblyViewTypeSemanticSequencer extends AbstractDelegatingSemanti
 	 *
 	 * Constraint:
 	 *     (
+	 *         name=EString 
 	 *         (requiredInterfaces+=[Interface|EString] requiredInterfaces+=[Interface|EString]*)? 
 	 *         providedInterfaces+=[Interface|EString] 
 	 *         providedInterfaces+=[Interface|EString]* 
