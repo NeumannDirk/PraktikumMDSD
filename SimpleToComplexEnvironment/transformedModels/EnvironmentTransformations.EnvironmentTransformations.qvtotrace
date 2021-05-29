@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trace:Trace xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:trace="http:///www.eclipse.org/m2m/qvt/operational/trace.ecore">
+  <traceRecords>
+    <mappingOperation name="envvtMapping" package="EnvironmentTransformations" module="EnvironmentTransformations"/>
+    <context>
+      <context name="self" type="EnvironmentViewType">
+        <value>
+          <modelElement href="../../Mediastore/mediastore_environment.deploymentviewpoint#/"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="ResourceEnvironment">
+        <value>
+          <modelElement href="EnvironmentTransformations.resourceenvironment#/"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="containerMapping" package="EnvironmentTransformations" module="EnvironmentTransformations"/>
+    <context>
+      <context name="self" type="Container">
+        <value>
+          <modelElement href="../../Mediastore/mediastore_environment.deploymentviewpoint#ApplicationServer"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="ResourceContainer">
+        <value>
+          <modelElement href="EnvironmentTransformations.resourceenvironment#ApplicationServer"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="containerMapping" package="EnvironmentTransformations" module="EnvironmentTransformations"/>
+    <context>
+      <context name="self" type="Container">
+        <value>
+          <modelElement href="../../Mediastore/mediastore_environment.deploymentviewpoint#DatabaseServer"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="ResourceContainer">
+        <value>
+          <modelElement href="EnvironmentTransformations.resourceenvironment#DatabaseServer"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="linkMapping" package="EnvironmentTransformations" module="EnvironmentTransformations"/>
+    <context>
+      <context name="self" type="Link">
+        <value>
+          <modelElement href="../../Mediastore/mediastore_environment.deploymentviewpoint#Network"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="LinkingResource">
+        <value>
+          <modelElement href="EnvironmentTransformations.resourceenvironment#Network"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+</trace:Trace>
