@@ -5,21 +5,19 @@ modeltype PCM uses 'http://palladiosimulator.org/PalladioComponentModel/Resource
 transformation EnvironmentTransformations(in s:SIMPLE, out p:PCM);
 
 main() {
-	var sim_environmentViewTypes = s->objectsOfType(SIMPLE::EnvironmentViewType);
+	log('1');
+	s.rootObjects()[SIMPLE::EnvironmentViewType]->map envvtMapping();
+	log('2');
+	/*var sim_environmentViewTypes = s->objectsOfType(SIMPLE::EnvironmentViewType);
 	log('number of environmentViewType', sim_environmentViewTypes->size());	
-	var sim_environmentViewType = sim_environmentViewTypes->asSequence()->first();	
-	
-	var pcm_container = s->objectsOfType(SIMPLE::Container)->forEach(l){l->map containerMapping()};
-	log('containers done');	
-	var pcm_link = s->objectsOfType(SIMPLE::Link)->forEach(l){l->map linkMapping()};	
-	log('links done');
-	var pcm_ResourceEnvironment = sim_environmentViewType->map envvtMapping(pcm_link,pcm_container);
-	log('done');
+	var sim_environmentViewType = sim_environmentViewTypes->asSequence()->first();*/	
 }
 
-mapping SIMPLE::EnvironmentViewType::envvtMapping(links:Set(PCM::LinkingResource), cons:Set(PCM::ResourceContainer)) : PCM::ResourceEnvironment{
-	result.linkingResources__ResourceEnvironment := links;
-	result.resourceContainer_ResourceEnvironment := cons;
+mapping SIMPLE::EnvironmentViewType::envvtMapping() : PCM::ResourceEnvironment{
+	result.resourceContainer_ResourceEnvironment += s->objectsOfType(SIMPLE::Container)->collect(c | c->map containerMapping());
+	log('containers done');	
+	result.linkingResources__ResourceEnvironment += s->objectsOfType(SIMPLE::Link)->collect(l | l->map linkMapping());
+	log('links done');
 }
 mapping SIMPLE::Link::linkMapping() : PCM::LinkingResource{
 	result.id := self.name;
