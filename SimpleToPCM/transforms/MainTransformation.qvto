@@ -1,0 +1,55 @@
+modeltype SIMPLEDeployment uses 'http://www.example.org/simplePalladio/DeploymentViewPoint';
+modeltype SIMPLEAssembly uses 'http://www.example.org/simplePalladio/AssemblyViewPoint';
+modeltype SIMPLESystemIndependent uses 'http://www.example.org/simplePalladio/SystemIndependentViewPoint';
+modeltype PCMResourceEnvironment uses 'http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.2';
+modeltype PCMAllocation uses 'http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2';
+modeltype PCMSystem uses 'http://palladiosimulator.org/PalladioComponentModel/System/5.2';
+modeltype PCMComposition uses 'http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2';
+modeltype PCMRepository uses 'http://palladiosimulator.org/PalladioComponentModel/Repository/5.2';
+
+transformation MainTransformation(in sD:SIMPLEDeployment, in sA:SIMPLEAssembly, in sR:SIMPLESystemIndependent, out pRE:PCMResourceEnvironment, out pA:PCMAllocation, out pS: PCMSystem, out pR: PCMRepository);
+
+main() {
+	// Environment Mapping
+	sD.rootObjects()[SIMPLEDeployment::EnvironmentViewType]->map envvtMapping();
+	
+	// System Mapping
+	sA.rootObjects()[SIMPLEAssembly::AssemblyViewType]->map assvtMapping();
+	
+	// Allocation Mapping
+	sA.rootObjects()[SIMPLEDeployment::AllocationViewType]->map allvtMapping();
+}
+
+mapping SIMPLEDeployment::EnvironmentViewType::envvtMapping() : PCMResourceEnvironment::ResourceEnvironment{
+	result.resourceContainer_ResourceEnvironment += sD->objectsOfType(SIMPLEDeployment::Container)->collect(c | c->map containerMapping());	
+	result.linkingResources__ResourceEnvironment += sD->objectsOfType(SIMPLEDeployment::Link)->collect(l | l->map linkMapping());
+}
+
+mapping SIMPLEDeployment::Link::linkMapping() : PCMResourceEnvironment::LinkingResource{
+	result.id := self.name;
+	result.entityName := self.name;
+	result.connectedResourceContainers_LinkingResource := self.containers -> collect(c | c.resolveone(PCMResourceEnvironment::ResourceContainer)) -> asSet();
+}
+
+mapping SIMPLEDeployment::Container::containerMapping() : PCMResourceEnvironment::ResourceContainer{
+	result.id := self.name;
+	result.entityName := self.name;
+}
+
+mapping SIMPLEAssembly::AssemblyViewType::assvtMapping() : PCMSystem::System{
+	result.assemblyContexts__ComposedStructure += sA->objectsOfType(SIMPLEAssembly::System) -> select(it: SIMPLEAssembly::System | it.name = "Sys") -> collect(c | c.systemElements) -> collect(c | c->map assemblyContextMapping());
+}
+
+mapping SIMPLEAssembly::AssemblyContext::assemblyContextMapping() : PCMComposition::AssemblyContext{
+	
+}
+
+mapping SIMPLEDeployment::AllocationViewType::allvtMapping() : PCMAllocation::Allocation{
+	result.allocationContexts_Allocation += sD->objectsOfType(SIMPLEDeployment::AllocationContext)->collect(c | c->map allocationContextMapping());
+}
+
+mapping SIMPLEDeployment::AllocationContext::allocationContextMapping() : PCMAllocation::AllocationContext{
+	result.eventChannel__AllocationContext := null;
+	result.resourceContainer_AllocationContext := self.container -> resolveone(PCMResourceEnvironment::ResourceContainer);
+	result.assemblyContext_AllocationContext := self.assembly -> resolveone(PCMComposition::AssemblyContext);
+}
