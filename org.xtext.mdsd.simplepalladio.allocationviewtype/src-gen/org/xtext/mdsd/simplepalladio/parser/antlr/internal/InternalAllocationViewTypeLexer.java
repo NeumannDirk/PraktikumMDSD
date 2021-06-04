@@ -12,22 +12,23 @@ import java.util.ArrayList;
 
 @SuppressWarnings("all")
 public class InternalAllocationViewTypeLexer extends Lexer {
-    public static final int RULE_ID=5;
-    public static final int RULE_WS=9;
     public static final int RULE_STRING=4;
-    public static final int RULE_ANY_OTHER=10;
     public static final int RULE_SL_COMMENT=8;
+    public static final int T__19=19;
     public static final int T__15=15;
     public static final int T__16=16;
     public static final int T__17=17;
-    public static final int RULE_INT=6;
     public static final int T__18=18;
     public static final int T__11=11;
-    public static final int RULE_ML_COMMENT=7;
     public static final int T__12=12;
     public static final int T__13=13;
     public static final int T__14=14;
     public static final int EOF=-1;
+    public static final int RULE_ID=5;
+    public static final int RULE_WS=9;
+    public static final int RULE_ANY_OTHER=10;
+    public static final int RULE_INT=6;
+    public static final int RULE_ML_COMMENT=7;
 
     // delegates
     // delegators
@@ -207,15 +208,35 @@ public class InternalAllocationViewTypeLexer extends Lexer {
     }
     // $ANTLR end "T__18"
 
+    // $ANTLR start "T__19"
+    public final void mT__19() throws RecognitionException {
+        try {
+            int _type = T__19;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // InternalAllocationViewType.g:19:7: ( '.' )
+            // InternalAllocationViewType.g:19:9: '.'
+            {
+            match('.'); 
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        }
+    }
+    // $ANTLR end "T__19"
+
     // $ANTLR start "RULE_ID"
     public final void mRULE_ID() throws RecognitionException {
         try {
             int _type = RULE_ID;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // InternalAllocationViewType.g:255:9: ( ( '^' )? ( 'a' .. 'z' | 'A' .. 'Z' | '_' ) ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' )* )
-            // InternalAllocationViewType.g:255:11: ( '^' )? ( 'a' .. 'z' | 'A' .. 'Z' | '_' ) ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' )*
+            // InternalAllocationViewType.g:295:9: ( ( '^' )? ( 'a' .. 'z' | 'A' .. 'Z' | '_' ) ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' )* )
+            // InternalAllocationViewType.g:295:11: ( '^' )? ( 'a' .. 'z' | 'A' .. 'Z' | '_' ) ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' )*
             {
-            // InternalAllocationViewType.g:255:11: ( '^' )?
+            // InternalAllocationViewType.g:295:11: ( '^' )?
             int alt1=2;
             int LA1_0 = input.LA(1);
 
@@ -224,7 +245,7 @@ public class InternalAllocationViewTypeLexer extends Lexer {
             }
             switch (alt1) {
                 case 1 :
-                    // InternalAllocationViewType.g:255:11: '^'
+                    // InternalAllocationViewType.g:295:11: '^'
                     {
                     match('^'); 
 
@@ -242,7 +263,7 @@ public class InternalAllocationViewTypeLexer extends Lexer {
                 recover(mse);
                 throw mse;}
 
-            // InternalAllocationViewType.g:255:40: ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' )*
+            // InternalAllocationViewType.g:295:40: ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' )*
             loop2:
             do {
                 int alt2=2;
@@ -291,10 +312,10 @@ public class InternalAllocationViewTypeLexer extends Lexer {
         try {
             int _type = RULE_INT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // InternalAllocationViewType.g:257:10: ( ( '0' .. '9' )+ )
-            // InternalAllocationViewType.g:257:12: ( '0' .. '9' )+
+            // InternalAllocationViewType.g:297:10: ( ( '0' .. '9' )+ )
+            // InternalAllocationViewType.g:297:12: ( '0' .. '9' )+
             {
-            // InternalAllocationViewType.g:257:12: ( '0' .. '9' )+
+            // InternalAllocationViewType.g:297:12: ( '0' .. '9' )+
             int cnt3=0;
             loop3:
             do {
@@ -308,7 +329,7 @@ public class InternalAllocationViewTypeLexer extends Lexer {
 
                 switch (alt3) {
             	case 1 :
-            	    // InternalAllocationViewType.g:257:13: '0' .. '9'
+            	    // InternalAllocationViewType.g:297:13: '0' .. '9'
             	    {
             	    matchRange('0','9'); 
 
@@ -340,10 +361,10 @@ public class InternalAllocationViewTypeLexer extends Lexer {
         try {
             int _type = RULE_STRING;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // InternalAllocationViewType.g:259:13: ( ( '\"' ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )* '\"' | '\\'' ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )* '\\'' ) )
-            // InternalAllocationViewType.g:259:15: ( '\"' ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )* '\"' | '\\'' ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )* '\\'' )
+            // InternalAllocationViewType.g:299:13: ( ( '\"' ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )* '\"' | '\\'' ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )* '\\'' ) )
+            // InternalAllocationViewType.g:299:15: ( '\"' ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )* '\"' | '\\'' ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )* '\\'' )
             {
-            // InternalAllocationViewType.g:259:15: ( '\"' ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )* '\"' | '\\'' ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )* '\\'' )
+            // InternalAllocationViewType.g:299:15: ( '\"' ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )* '\"' | '\\'' ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )* '\\'' )
             int alt6=2;
             int LA6_0 = input.LA(1);
 
@@ -361,10 +382,10 @@ public class InternalAllocationViewTypeLexer extends Lexer {
             }
             switch (alt6) {
                 case 1 :
-                    // InternalAllocationViewType.g:259:16: '\"' ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )* '\"'
+                    // InternalAllocationViewType.g:299:16: '\"' ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )* '\"'
                     {
                     match('\"'); 
-                    // InternalAllocationViewType.g:259:20: ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )*
+                    // InternalAllocationViewType.g:299:20: ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )*
                     loop4:
                     do {
                         int alt4=3;
@@ -380,7 +401,7 @@ public class InternalAllocationViewTypeLexer extends Lexer {
 
                         switch (alt4) {
                     	case 1 :
-                    	    // InternalAllocationViewType.g:259:21: '\\\\' .
+                    	    // InternalAllocationViewType.g:299:21: '\\\\' .
                     	    {
                     	    match('\\'); 
                     	    matchAny(); 
@@ -388,7 +409,7 @@ public class InternalAllocationViewTypeLexer extends Lexer {
                     	    }
                     	    break;
                     	case 2 :
-                    	    // InternalAllocationViewType.g:259:28: ~ ( ( '\\\\' | '\"' ) )
+                    	    // InternalAllocationViewType.g:299:28: ~ ( ( '\\\\' | '\"' ) )
                     	    {
                     	    if ( (input.LA(1)>='\u0000' && input.LA(1)<='!')||(input.LA(1)>='#' && input.LA(1)<='[')||(input.LA(1)>=']' && input.LA(1)<='\uFFFF') ) {
                     	        input.consume();
@@ -413,10 +434,10 @@ public class InternalAllocationViewTypeLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // InternalAllocationViewType.g:259:48: '\\'' ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )* '\\''
+                    // InternalAllocationViewType.g:299:48: '\\'' ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )* '\\''
                     {
                     match('\''); 
-                    // InternalAllocationViewType.g:259:53: ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )*
+                    // InternalAllocationViewType.g:299:53: ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )*
                     loop5:
                     do {
                         int alt5=3;
@@ -432,7 +453,7 @@ public class InternalAllocationViewTypeLexer extends Lexer {
 
                         switch (alt5) {
                     	case 1 :
-                    	    // InternalAllocationViewType.g:259:54: '\\\\' .
+                    	    // InternalAllocationViewType.g:299:54: '\\\\' .
                     	    {
                     	    match('\\'); 
                     	    matchAny(); 
@@ -440,7 +461,7 @@ public class InternalAllocationViewTypeLexer extends Lexer {
                     	    }
                     	    break;
                     	case 2 :
-                    	    // InternalAllocationViewType.g:259:61: ~ ( ( '\\\\' | '\\'' ) )
+                    	    // InternalAllocationViewType.g:299:61: ~ ( ( '\\\\' | '\\'' ) )
                     	    {
                     	    if ( (input.LA(1)>='\u0000' && input.LA(1)<='&')||(input.LA(1)>='(' && input.LA(1)<='[')||(input.LA(1)>=']' && input.LA(1)<='\uFFFF') ) {
                     	        input.consume();
@@ -483,12 +504,12 @@ public class InternalAllocationViewTypeLexer extends Lexer {
         try {
             int _type = RULE_ML_COMMENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // InternalAllocationViewType.g:261:17: ( '/*' ( options {greedy=false; } : . )* '*/' )
-            // InternalAllocationViewType.g:261:19: '/*' ( options {greedy=false; } : . )* '*/'
+            // InternalAllocationViewType.g:301:17: ( '/*' ( options {greedy=false; } : . )* '*/' )
+            // InternalAllocationViewType.g:301:19: '/*' ( options {greedy=false; } : . )* '*/'
             {
             match("/*"); 
 
-            // InternalAllocationViewType.g:261:24: ( options {greedy=false; } : . )*
+            // InternalAllocationViewType.g:301:24: ( options {greedy=false; } : . )*
             loop7:
             do {
                 int alt7=2;
@@ -513,7 +534,7 @@ public class InternalAllocationViewTypeLexer extends Lexer {
 
                 switch (alt7) {
             	case 1 :
-            	    // InternalAllocationViewType.g:261:52: .
+            	    // InternalAllocationViewType.g:301:52: .
             	    {
             	    matchAny(); 
 
@@ -543,12 +564,12 @@ public class InternalAllocationViewTypeLexer extends Lexer {
         try {
             int _type = RULE_SL_COMMENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // InternalAllocationViewType.g:263:17: ( '//' (~ ( ( '\\n' | '\\r' ) ) )* ( ( '\\r' )? '\\n' )? )
-            // InternalAllocationViewType.g:263:19: '//' (~ ( ( '\\n' | '\\r' ) ) )* ( ( '\\r' )? '\\n' )?
+            // InternalAllocationViewType.g:303:17: ( '//' (~ ( ( '\\n' | '\\r' ) ) )* ( ( '\\r' )? '\\n' )? )
+            // InternalAllocationViewType.g:303:19: '//' (~ ( ( '\\n' | '\\r' ) ) )* ( ( '\\r' )? '\\n' )?
             {
             match("//"); 
 
-            // InternalAllocationViewType.g:263:24: (~ ( ( '\\n' | '\\r' ) ) )*
+            // InternalAllocationViewType.g:303:24: (~ ( ( '\\n' | '\\r' ) ) )*
             loop8:
             do {
                 int alt8=2;
@@ -561,7 +582,7 @@ public class InternalAllocationViewTypeLexer extends Lexer {
 
                 switch (alt8) {
             	case 1 :
-            	    // InternalAllocationViewType.g:263:24: ~ ( ( '\\n' | '\\r' ) )
+            	    // InternalAllocationViewType.g:303:24: ~ ( ( '\\n' | '\\r' ) )
             	    {
             	    if ( (input.LA(1)>='\u0000' && input.LA(1)<='\t')||(input.LA(1)>='\u000B' && input.LA(1)<='\f')||(input.LA(1)>='\u000E' && input.LA(1)<='\uFFFF') ) {
             	        input.consume();
@@ -581,7 +602,7 @@ public class InternalAllocationViewTypeLexer extends Lexer {
                 }
             } while (true);
 
-            // InternalAllocationViewType.g:263:40: ( ( '\\r' )? '\\n' )?
+            // InternalAllocationViewType.g:303:40: ( ( '\\r' )? '\\n' )?
             int alt10=2;
             int LA10_0 = input.LA(1);
 
@@ -590,9 +611,9 @@ public class InternalAllocationViewTypeLexer extends Lexer {
             }
             switch (alt10) {
                 case 1 :
-                    // InternalAllocationViewType.g:263:41: ( '\\r' )? '\\n'
+                    // InternalAllocationViewType.g:303:41: ( '\\r' )? '\\n'
                     {
-                    // InternalAllocationViewType.g:263:41: ( '\\r' )?
+                    // InternalAllocationViewType.g:303:41: ( '\\r' )?
                     int alt9=2;
                     int LA9_0 = input.LA(1);
 
@@ -601,7 +622,7 @@ public class InternalAllocationViewTypeLexer extends Lexer {
                     }
                     switch (alt9) {
                         case 1 :
-                            // InternalAllocationViewType.g:263:41: '\\r'
+                            // InternalAllocationViewType.g:303:41: '\\r'
                             {
                             match('\r'); 
 
@@ -633,10 +654,10 @@ public class InternalAllocationViewTypeLexer extends Lexer {
         try {
             int _type = RULE_WS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // InternalAllocationViewType.g:265:9: ( ( ' ' | '\\t' | '\\r' | '\\n' )+ )
-            // InternalAllocationViewType.g:265:11: ( ' ' | '\\t' | '\\r' | '\\n' )+
+            // InternalAllocationViewType.g:305:9: ( ( ' ' | '\\t' | '\\r' | '\\n' )+ )
+            // InternalAllocationViewType.g:305:11: ( ' ' | '\\t' | '\\r' | '\\n' )+
             {
-            // InternalAllocationViewType.g:265:11: ( ' ' | '\\t' | '\\r' | '\\n' )+
+            // InternalAllocationViewType.g:305:11: ( ' ' | '\\t' | '\\r' | '\\n' )+
             int cnt11=0;
             loop11:
             do {
@@ -690,8 +711,8 @@ public class InternalAllocationViewTypeLexer extends Lexer {
         try {
             int _type = RULE_ANY_OTHER;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // InternalAllocationViewType.g:267:16: ( . )
-            // InternalAllocationViewType.g:267:18: .
+            // InternalAllocationViewType.g:307:16: ( . )
+            // InternalAllocationViewType.g:307:18: .
             {
             matchAny(); 
 
@@ -706,8 +727,8 @@ public class InternalAllocationViewTypeLexer extends Lexer {
     // $ANTLR end "RULE_ANY_OTHER"
 
     public void mTokens() throws RecognitionException {
-        // InternalAllocationViewType.g:1:8: ( T__11 | T__12 | T__13 | T__14 | T__15 | T__16 | T__17 | T__18 | RULE_ID | RULE_INT | RULE_STRING | RULE_ML_COMMENT | RULE_SL_COMMENT | RULE_WS | RULE_ANY_OTHER )
-        int alt12=15;
+        // InternalAllocationViewType.g:1:8: ( T__11 | T__12 | T__13 | T__14 | T__15 | T__16 | T__17 | T__18 | T__19 | RULE_ID | RULE_INT | RULE_STRING | RULE_ML_COMMENT | RULE_SL_COMMENT | RULE_WS | RULE_ANY_OTHER )
+        int alt12=16;
         alt12 = dfa12.predict(input);
         switch (alt12) {
             case 1 :
@@ -767,49 +788,56 @@ public class InternalAllocationViewTypeLexer extends Lexer {
                 }
                 break;
             case 9 :
-                // InternalAllocationViewType.g:1:58: RULE_ID
+                // InternalAllocationViewType.g:1:58: T__19
+                {
+                mT__19(); 
+
+                }
+                break;
+            case 10 :
+                // InternalAllocationViewType.g:1:64: RULE_ID
                 {
                 mRULE_ID(); 
 
                 }
                 break;
-            case 10 :
-                // InternalAllocationViewType.g:1:66: RULE_INT
+            case 11 :
+                // InternalAllocationViewType.g:1:72: RULE_INT
                 {
                 mRULE_INT(); 
 
                 }
                 break;
-            case 11 :
-                // InternalAllocationViewType.g:1:75: RULE_STRING
+            case 12 :
+                // InternalAllocationViewType.g:1:81: RULE_STRING
                 {
                 mRULE_STRING(); 
 
                 }
                 break;
-            case 12 :
-                // InternalAllocationViewType.g:1:87: RULE_ML_COMMENT
+            case 13 :
+                // InternalAllocationViewType.g:1:93: RULE_ML_COMMENT
                 {
                 mRULE_ML_COMMENT(); 
 
                 }
                 break;
-            case 13 :
-                // InternalAllocationViewType.g:1:103: RULE_SL_COMMENT
+            case 14 :
+                // InternalAllocationViewType.g:1:109: RULE_SL_COMMENT
                 {
                 mRULE_SL_COMMENT(); 
 
                 }
                 break;
-            case 14 :
-                // InternalAllocationViewType.g:1:119: RULE_WS
+            case 15 :
+                // InternalAllocationViewType.g:1:125: RULE_WS
                 {
                 mRULE_WS(); 
 
                 }
                 break;
-            case 15 :
-                // InternalAllocationViewType.g:1:127: RULE_ANY_OTHER
+            case 16 :
+                // InternalAllocationViewType.g:1:133: RULE_ANY_OTHER
                 {
                 mRULE_ANY_OTHER(); 
 
@@ -823,48 +851,48 @@ public class InternalAllocationViewTypeLexer extends Lexer {
 
     protected DFA12 dfa12 = new DFA12(this);
     static final String DFA12_eotS =
-        "\1\uffff\1\20\1\uffff\1\20\2\uffff\1\20\1\16\2\uffff\3\16\2\uffff\1\20\2\uffff\2\20\2\uffff\1\20\5\uffff\26\20\1\66\3\20\1\uffff\1\72\2\20\1\uffff\23\20\1\121\1\20\1\123\1\uffff\1\124\2\uffff";
+        "\1\uffff\1\21\1\uffff\1\21\2\uffff\1\21\1\uffff\1\17\2\uffff\3\17\2\uffff\1\21\2\uffff\2\21\2\uffff\1\21\6\uffff\26\21\1\70\3\21\1\uffff\1\74\2\21\1\uffff\23\21\1\123\1\21\1\125\1\uffff\1\126\2\uffff";
     static final String DFA12_eofS =
-        "\125\uffff";
+        "\127\uffff";
     static final String DFA12_minS =
-        "\1\0\1\154\1\uffff\1\154\2\uffff\1\157\1\101\2\uffff\2\0\1\52\2\uffff\1\154\2\uffff\1\154\1\163\2\uffff\1\156\5\uffff\2\157\1\145\1\164\2\143\1\155\3\141\1\142\1\151\2\164\1\154\1\156\2\151\1\171\1\145\2\157\1\60\1\162\2\156\1\uffff\1\60\2\103\1\uffff\1\151\2\157\1\145\2\156\1\167\2\164\1\124\2\145\1\171\2\170\1\160\2\164\1\145\1\60\1\163\1\60\1\uffff\1\60\2\uffff";
+        "\1\0\1\154\1\uffff\1\154\2\uffff\1\157\1\uffff\1\101\2\uffff\2\0\1\52\2\uffff\1\154\2\uffff\1\154\1\163\2\uffff\1\156\6\uffff\2\157\1\145\1\164\2\143\1\155\3\141\1\142\1\151\2\164\1\154\1\156\2\151\1\171\1\145\2\157\1\60\1\162\2\156\1\uffff\1\60\2\103\1\uffff\1\151\2\157\1\145\2\156\1\167\2\164\1\124\2\145\1\171\2\170\1\160\2\164\1\145\1\60\1\163\1\60\1\uffff\1\60\2\uffff";
     static final String DFA12_maxS =
-        "\1\uffff\1\154\1\uffff\1\163\2\uffff\1\157\1\172\2\uffff\2\uffff\1\57\2\uffff\1\154\2\uffff\1\154\1\163\2\uffff\1\156\5\uffff\2\157\1\145\1\164\2\143\1\155\3\141\1\142\1\151\2\164\1\154\1\156\2\151\1\171\1\145\2\157\1\172\1\162\2\156\1\uffff\1\172\1\126\1\103\1\uffff\1\151\2\157\1\145\2\156\1\167\2\164\1\124\2\145\1\171\2\170\1\160\2\164\1\145\1\172\1\163\1\172\1\uffff\1\172\2\uffff";
+        "\1\uffff\1\154\1\uffff\1\163\2\uffff\1\157\1\uffff\1\172\2\uffff\2\uffff\1\57\2\uffff\1\154\2\uffff\1\154\1\163\2\uffff\1\156\6\uffff\2\157\1\145\1\164\2\143\1\155\3\141\1\142\1\151\2\164\1\154\1\156\2\151\1\171\1\145\2\157\1\172\1\162\2\156\1\uffff\1\172\1\126\1\103\1\uffff\1\151\2\157\1\145\2\156\1\167\2\164\1\124\2\145\1\171\2\170\1\160\2\164\1\145\1\172\1\163\1\172\1\uffff\1\172\2\uffff";
     static final String DFA12_acceptS =
-        "\2\uffff\1\2\1\uffff\1\4\1\5\2\uffff\1\11\1\12\3\uffff\1\16\1\17\1\uffff\1\11\1\2\2\uffff\1\4\1\5\1\uffff\1\12\1\13\1\14\1\15\1\16\32\uffff\1\10\3\uffff\1\7\26\uffff\1\6\1\uffff\1\1\1\3";
+        "\2\uffff\1\2\1\uffff\1\4\1\5\1\uffff\1\11\1\uffff\1\12\1\13\3\uffff\1\17\1\20\1\uffff\1\12\1\2\2\uffff\1\4\1\5\1\uffff\1\11\1\13\1\14\1\15\1\16\1\17\32\uffff\1\10\3\uffff\1\7\26\uffff\1\6\1\uffff\1\1\1\3";
     static final String DFA12_specialS =
-        "\1\2\11\uffff\1\0\1\1\111\uffff}>";
+        "\1\0\12\uffff\1\1\1\2\112\uffff}>";
     static final String[] DFA12_transitionS = {
-            "\11\16\2\15\2\16\1\15\22\16\1\15\1\16\1\12\4\16\1\13\4\16\1\4\2\16\1\14\12\11\7\16\1\1\31\10\3\16\1\7\1\10\1\16\1\3\1\10\1\6\27\10\1\2\1\16\1\5\uff82\16",
-            "\1\17",
+            "\11\17\2\16\2\17\1\16\22\17\1\16\1\17\1\13\4\17\1\14\4\17\1\4\1\17\1\7\1\15\12\12\7\17\1\1\31\11\3\17\1\10\1\11\1\17\1\3\1\11\1\6\27\11\1\2\1\17\1\5\uff82\17",
+            "\1\20",
             "",
-            "\1\22\6\uffff\1\23",
-            "",
-            "",
-            "\1\26",
-            "\32\20\4\uffff\1\20\1\uffff\32\20",
+            "\1\23\6\uffff\1\24",
             "",
             "",
-            "\0\30",
-            "\0\30",
-            "\1\31\4\uffff\1\32",
+            "\1\27",
+            "",
+            "\32\21\4\uffff\1\21\1\uffff\32\21",
             "",
             "",
-            "\1\34",
+            "\0\32",
+            "\0\32",
+            "\1\33\4\uffff\1\34",
             "",
             "",
-            "\1\35",
             "\1\36",
             "",
             "",
             "\1\37",
-            "",
-            "",
-            "",
-            "",
-            "",
             "\1\40",
+            "",
+            "",
             "\1\41",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
             "\1\42",
             "\1\43",
             "\1\44",
@@ -885,17 +913,17 @@ public class InternalAllocationViewTypeLexer extends Lexer {
             "\1\63",
             "\1\64",
             "\1\65",
-            "\12\20\7\uffff\32\20\4\uffff\1\20\1\uffff\32\20",
+            "\1\66",
             "\1\67",
-            "\1\70",
+            "\12\21\7\uffff\32\21\4\uffff\1\21\1\uffff\32\21",
             "\1\71",
+            "\1\72",
+            "\1\73",
             "",
-            "\12\20\7\uffff\32\20\4\uffff\1\20\1\uffff\32\20",
-            "\1\74\22\uffff\1\73",
-            "\1\75",
-            "",
-            "\1\76",
+            "\12\21\7\uffff\32\21\4\uffff\1\21\1\uffff\32\21",
+            "\1\76\22\uffff\1\75",
             "\1\77",
+            "",
             "\1\100",
             "\1\101",
             "\1\102",
@@ -913,11 +941,13 @@ public class InternalAllocationViewTypeLexer extends Lexer {
             "\1\116",
             "\1\117",
             "\1\120",
-            "\12\20\7\uffff\32\20\4\uffff\1\20\1\uffff\32\20",
+            "\1\121",
             "\1\122",
-            "\12\20\7\uffff\32\20\4\uffff\1\20\1\uffff\32\20",
+            "\12\21\7\uffff\32\21\4\uffff\1\21\1\uffff\32\21",
+            "\1\124",
+            "\12\21\7\uffff\32\21\4\uffff\1\21\1\uffff\32\21",
             "",
-            "\12\20\7\uffff\32\20\4\uffff\1\20\1\uffff\32\20",
+            "\12\21\7\uffff\32\21\4\uffff\1\21\1\uffff\32\21",
             "",
             ""
     };
@@ -952,33 +982,13 @@ public class InternalAllocationViewTypeLexer extends Lexer {
             this.transition = DFA12_transition;
         }
         public String getDescription() {
-            return "1:1: Tokens : ( T__11 | T__12 | T__13 | T__14 | T__15 | T__16 | T__17 | T__18 | RULE_ID | RULE_INT | RULE_STRING | RULE_ML_COMMENT | RULE_SL_COMMENT | RULE_WS | RULE_ANY_OTHER );";
+            return "1:1: Tokens : ( T__11 | T__12 | T__13 | T__14 | T__15 | T__16 | T__17 | T__18 | T__19 | RULE_ID | RULE_INT | RULE_STRING | RULE_ML_COMMENT | RULE_SL_COMMENT | RULE_WS | RULE_ANY_OTHER );";
         }
         public int specialStateTransition(int s, IntStream _input) throws NoViableAltException {
             IntStream input = _input;
         	int _s = s;
             switch ( s ) {
                     case 0 : 
-                        int LA12_10 = input.LA(1);
-
-                        s = -1;
-                        if ( ((LA12_10>='\u0000' && LA12_10<='\uFFFF')) ) {s = 24;}
-
-                        else s = 14;
-
-                        if ( s>=0 ) return s;
-                        break;
-                    case 1 : 
-                        int LA12_11 = input.LA(1);
-
-                        s = -1;
-                        if ( ((LA12_11>='\u0000' && LA12_11<='\uFFFF')) ) {s = 24;}
-
-                        else s = 14;
-
-                        if ( s>=0 ) return s;
-                        break;
-                    case 2 : 
                         int LA12_0 = input.LA(1);
 
                         s = -1;
@@ -994,21 +1004,43 @@ public class InternalAllocationViewTypeLexer extends Lexer {
 
                         else if ( (LA12_0=='c') ) {s = 6;}
 
-                        else if ( (LA12_0=='^') ) {s = 7;}
+                        else if ( (LA12_0=='.') ) {s = 7;}
 
-                        else if ( ((LA12_0>='B' && LA12_0<='Z')||LA12_0=='_'||LA12_0=='b'||(LA12_0>='d' && LA12_0<='z')) ) {s = 8;}
+                        else if ( (LA12_0=='^') ) {s = 8;}
 
-                        else if ( ((LA12_0>='0' && LA12_0<='9')) ) {s = 9;}
+                        else if ( ((LA12_0>='B' && LA12_0<='Z')||LA12_0=='_'||LA12_0=='b'||(LA12_0>='d' && LA12_0<='z')) ) {s = 9;}
 
-                        else if ( (LA12_0=='\"') ) {s = 10;}
+                        else if ( ((LA12_0>='0' && LA12_0<='9')) ) {s = 10;}
 
-                        else if ( (LA12_0=='\'') ) {s = 11;}
+                        else if ( (LA12_0=='\"') ) {s = 11;}
 
-                        else if ( (LA12_0=='/') ) {s = 12;}
+                        else if ( (LA12_0=='\'') ) {s = 12;}
 
-                        else if ( ((LA12_0>='\t' && LA12_0<='\n')||LA12_0=='\r'||LA12_0==' ') ) {s = 13;}
+                        else if ( (LA12_0=='/') ) {s = 13;}
 
-                        else if ( ((LA12_0>='\u0000' && LA12_0<='\b')||(LA12_0>='\u000B' && LA12_0<='\f')||(LA12_0>='\u000E' && LA12_0<='\u001F')||LA12_0=='!'||(LA12_0>='#' && LA12_0<='&')||(LA12_0>='(' && LA12_0<='+')||(LA12_0>='-' && LA12_0<='.')||(LA12_0>=':' && LA12_0<='@')||(LA12_0>='[' && LA12_0<=']')||LA12_0=='`'||LA12_0=='|'||(LA12_0>='~' && LA12_0<='\uFFFF')) ) {s = 14;}
+                        else if ( ((LA12_0>='\t' && LA12_0<='\n')||LA12_0=='\r'||LA12_0==' ') ) {s = 14;}
+
+                        else if ( ((LA12_0>='\u0000' && LA12_0<='\b')||(LA12_0>='\u000B' && LA12_0<='\f')||(LA12_0>='\u000E' && LA12_0<='\u001F')||LA12_0=='!'||(LA12_0>='#' && LA12_0<='&')||(LA12_0>='(' && LA12_0<='+')||LA12_0=='-'||(LA12_0>=':' && LA12_0<='@')||(LA12_0>='[' && LA12_0<=']')||LA12_0=='`'||LA12_0=='|'||(LA12_0>='~' && LA12_0<='\uFFFF')) ) {s = 15;}
+
+                        if ( s>=0 ) return s;
+                        break;
+                    case 1 : 
+                        int LA12_11 = input.LA(1);
+
+                        s = -1;
+                        if ( ((LA12_11>='\u0000' && LA12_11<='\uFFFF')) ) {s = 26;}
+
+                        else s = 15;
+
+                        if ( s>=0 ) return s;
+                        break;
+                    case 2 : 
+                        int LA12_12 = input.LA(1);
+
+                        s = -1;
+                        if ( ((LA12_12>='\u0000' && LA12_12<='\uFFFF')) ) {s = 26;}
+
+                        else s = 15;
 
                         if ( s>=0 ) return s;
                         break;

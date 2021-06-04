@@ -142,16 +142,6 @@ public abstract class AbstractAllocationViewTypeUiModule extends DefaultUiModule
 		return AllocationViewTypeValidatorConfigurationBlock.class;
 	}
 	
-	// contributed by org.eclipse.xtext.xtext.generator.exporting.QualifiedNamesFragment2
-	public Class<? extends PrefixMatcher> bindPrefixMatcher() {
-		return FQNPrefixMatcher.class;
-	}
-	
-	// contributed by org.eclipse.xtext.xtext.generator.exporting.QualifiedNamesFragment2
-	public Class<? extends IDependentElementsCalculator> bindIDependentElementsCalculator() {
-		return DefaultDependentElementsCalculator.class;
-	}
-	
 	// contributed by org.eclipse.xtext.xtext.generator.builder.BuilderIntegrationFragment2
 	public void configureIResourceDescriptionsBuilderScope(Binder binder) {
 		binder.bind(IResourceDescriptions.class).annotatedWith(Names.named(ResourceDescriptionsProvider.NAMED_BUILDER_SCOPE)).to(CurrentDescriptions.ResourceSetAware.class);
@@ -295,6 +285,16 @@ public abstract class AbstractAllocationViewTypeUiModule extends DefaultUiModule
 	// contributed by org.eclipse.xtext.xtext.generator.ui.compare.CompareFragment2
 	public void configureCompareViewerTitle(Binder binder) {
 		binder.bind(String.class).annotatedWith(Names.named(UIBindings.COMPARE_VIEWER_TITLE)).toInstance("AllocationViewType Compare");
+	}
+	
+	// contributed by org.eclipse.xtext.xtext.generator.exporting.QualifiedNamesFragment2
+	public Class<? extends PrefixMatcher> bindPrefixMatcher() {
+		return FQNPrefixMatcher.class;
+	}
+	
+	// contributed by org.eclipse.xtext.xtext.generator.exporting.QualifiedNamesFragment2
+	public Class<? extends IDependentElementsCalculator> bindIDependentElementsCalculator() {
+		return DefaultDependentElementsCalculator.class;
 	}
 	
 }

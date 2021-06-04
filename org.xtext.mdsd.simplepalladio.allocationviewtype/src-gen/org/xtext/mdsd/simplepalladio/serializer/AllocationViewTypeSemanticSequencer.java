@@ -49,7 +49,7 @@ public class AllocationViewTypeSemanticSequencer extends AbstractDelegatingSeman
 	 *     AllocationContext returns AllocationContext
 	 *
 	 * Constraint:
-	 *     (container=[Container|EString] assembly=[AssemblyContext|EString])
+	 *     (container=[Container|EString] assembly=[AssemblyContext|QualifiedName])
 	 */
 	protected void sequence_AllocationContext(ISerializationContext context, AllocationContext semanticObject) {
 		if (errorAcceptor != null) {
@@ -60,7 +60,7 @@ public class AllocationViewTypeSemanticSequencer extends AbstractDelegatingSeman
 		}
 		SequenceFeeder feeder = createSequencerFeeder(context, semanticObject);
 		feeder.accept(grammarAccess.getAllocationContextAccess().getContainerContainerEStringParserRuleCall_3_0_1(), semanticObject.eGet(DeploymentViewPointPackage.Literals.ALLOCATION_CONTEXT__CONTAINER, false));
-		feeder.accept(grammarAccess.getAllocationContextAccess().getAssemblyAssemblyContextEStringParserRuleCall_5_0_1(), semanticObject.eGet(DeploymentViewPointPackage.Literals.ALLOCATION_CONTEXT__ASSEMBLY, false));
+		feeder.accept(grammarAccess.getAllocationContextAccess().getAssemblyAssemblyContextQualifiedNameParserRuleCall_5_0_1(), semanticObject.eGet(DeploymentViewPointPackage.Literals.ALLOCATION_CONTEXT__ASSEMBLY, false));
 		feeder.finish();
 	}
 	

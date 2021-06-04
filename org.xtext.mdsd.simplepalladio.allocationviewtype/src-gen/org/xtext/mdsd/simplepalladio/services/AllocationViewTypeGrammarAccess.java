@@ -100,21 +100,21 @@ public class AllocationViewTypeGrammarAccess extends AbstractElementFinder.Abstr
 		private final Keyword cAssemblyKeyword_4 = (Keyword)cGroup.eContents().get(4);
 		private final Assignment cAssemblyAssignment_5 = (Assignment)cGroup.eContents().get(5);
 		private final CrossReference cAssemblyAssemblyContextCrossReference_5_0 = (CrossReference)cAssemblyAssignment_5.eContents().get(0);
-		private final RuleCall cAssemblyAssemblyContextEStringParserRuleCall_5_0_1 = (RuleCall)cAssemblyAssemblyContextCrossReference_5_0.eContents().get(1);
+		private final RuleCall cAssemblyAssemblyContextQualifiedNameParserRuleCall_5_0_1 = (RuleCall)cAssemblyAssemblyContextCrossReference_5_0.eContents().get(1);
 		private final Keyword cRightCurlyBracketKeyword_6 = (Keyword)cGroup.eContents().get(6);
 		
 		//AllocationContext DeploymentViewPoint::AllocationContext:
 		//	'AllocationContext'
 		//	'{'
 		//	'container' container=[DeploymentViewPoint::Container|EString]
-		//	'assembly' assembly=[AssemblyViewPoint::AssemblyContext|EString]
+		//	'assembly' assembly=[AssemblyViewPoint::AssemblyContext|QualifiedName]
 		//	'}';
 		@Override public ParserRule getRule() { return rule; }
 		
 		//'AllocationContext'
 		//'{'
 		//'container' container=[DeploymentViewPoint::Container|EString]
-		//'assembly' assembly=[AssemblyViewPoint::AssemblyContext|EString]
+		//'assembly' assembly=[AssemblyViewPoint::AssemblyContext|QualifiedName]
 		//'}'
 		public Group getGroup() { return cGroup; }
 		
@@ -139,14 +139,14 @@ public class AllocationViewTypeGrammarAccess extends AbstractElementFinder.Abstr
 		//'assembly'
 		public Keyword getAssemblyKeyword_4() { return cAssemblyKeyword_4; }
 		
-		//assembly=[AssemblyViewPoint::AssemblyContext|EString]
+		//assembly=[AssemblyViewPoint::AssemblyContext|QualifiedName]
 		public Assignment getAssemblyAssignment_5() { return cAssemblyAssignment_5; }
 		
-		//[AssemblyViewPoint::AssemblyContext|EString]
+		//[AssemblyViewPoint::AssemblyContext|QualifiedName]
 		public CrossReference getAssemblyAssemblyContextCrossReference_5_0() { return cAssemblyAssemblyContextCrossReference_5_0; }
 		
-		//EString
-		public RuleCall getAssemblyAssemblyContextEStringParserRuleCall_5_0_1() { return cAssemblyAssemblyContextEStringParserRuleCall_5_0_1; }
+		//QualifiedName
+		public RuleCall getAssemblyAssemblyContextQualifiedNameParserRuleCall_5_0_1() { return cAssemblyAssemblyContextQualifiedNameParserRuleCall_5_0_1; }
 		
 		//'}'
 		public Keyword getRightCurlyBracketKeyword_6() { return cRightCurlyBracketKeyword_6; }
@@ -170,11 +170,39 @@ public class AllocationViewTypeGrammarAccess extends AbstractElementFinder.Abstr
 		//ID
 		public RuleCall getIDTerminalRuleCall_1() { return cIDTerminalRuleCall_1; }
 	}
+	public class QualifiedNameElements extends AbstractParserRuleElementFinder {
+		private final ParserRule rule = (ParserRule) GrammarUtil.findRuleForName(getGrammar(), "org.xtext.mdsd.simplepalladio.AllocationViewType.QualifiedName");
+		private final Group cGroup = (Group)rule.eContents().get(1);
+		private final RuleCall cIDTerminalRuleCall_0 = (RuleCall)cGroup.eContents().get(0);
+		private final Group cGroup_1 = (Group)cGroup.eContents().get(1);
+		private final Keyword cFullStopKeyword_1_0 = (Keyword)cGroup_1.eContents().get(0);
+		private final RuleCall cIDTerminalRuleCall_1_1 = (RuleCall)cGroup_1.eContents().get(1);
+		
+		//QualifiedName:
+		//	ID ('.' ID)*;
+		@Override public ParserRule getRule() { return rule; }
+		
+		//ID ('.' ID)*
+		public Group getGroup() { return cGroup; }
+		
+		//ID
+		public RuleCall getIDTerminalRuleCall_0() { return cIDTerminalRuleCall_0; }
+		
+		//('.' ID)*
+		public Group getGroup_1() { return cGroup_1; }
+		
+		//'.'
+		public Keyword getFullStopKeyword_1_0() { return cFullStopKeyword_1_0; }
+		
+		//ID
+		public RuleCall getIDTerminalRuleCall_1_1() { return cIDTerminalRuleCall_1_1; }
+	}
 	
 	
 	private final AllocationViewTypeElements pAllocationViewType;
 	private final AllocationContextElements pAllocationContext;
 	private final EStringElements pEString;
+	private final QualifiedNameElements pQualifiedName;
 	
 	private final Grammar grammar;
 	
@@ -188,6 +216,7 @@ public class AllocationViewTypeGrammarAccess extends AbstractElementFinder.Abstr
 		this.pAllocationViewType = new AllocationViewTypeElements();
 		this.pAllocationContext = new AllocationContextElements();
 		this.pEString = new EStringElements();
+		this.pQualifiedName = new QualifiedNameElements();
 	}
 	
 	protected Grammar internalFindGrammar(GrammarProvider grammarProvider) {
@@ -234,7 +263,7 @@ public class AllocationViewTypeGrammarAccess extends AbstractElementFinder.Abstr
 	//	'AllocationContext'
 	//	'{'
 	//	'container' container=[DeploymentViewPoint::Container|EString]
-	//	'assembly' assembly=[AssemblyViewPoint::AssemblyContext|EString]
+	//	'assembly' assembly=[AssemblyViewPoint::AssemblyContext|QualifiedName]
 	//	'}';
 	public AllocationContextElements getAllocationContextAccess() {
 		return pAllocationContext;
@@ -252,6 +281,16 @@ public class AllocationViewTypeGrammarAccess extends AbstractElementFinder.Abstr
 	
 	public ParserRule getEStringRule() {
 		return getEStringAccess().getRule();
+	}
+	
+	//QualifiedName:
+	//	ID ('.' ID)*;
+	public QualifiedNameElements getQualifiedNameAccess() {
+		return pQualifiedName;
+	}
+	
+	public ParserRule getQualifiedNameRule() {
+		return getQualifiedNameAccess().getRule();
 	}
 	
 	//terminal ID:

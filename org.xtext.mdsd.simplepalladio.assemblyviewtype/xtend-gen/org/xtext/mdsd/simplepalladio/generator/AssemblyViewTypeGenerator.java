@@ -3,10 +3,21 @@
  */
 package org.xtext.mdsd.simplepalladio.generator;
 
+import com.google.inject.Inject;
+import org.eclipse.emf.common.util.EList;
+import org.eclipse.emf.common.util.URI;
+import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.ecore.resource.Resource;
 import org.eclipse.xtext.generator.AbstractGenerator;
 import org.eclipse.xtext.generator.IFileSystemAccess2;
 import org.eclipse.xtext.generator.IGeneratorContext;
+import org.eclipse.xtext.resource.FileExtensionProvider;
+import org.eclipse.xtext.resource.XtextResourceSet;
+import org.eclipse.xtext.xbase.lib.CollectionLiterals;
+import org.eclipse.xtext.xbase.lib.Exceptions;
+import org.eclipse.xtext.xbase.lib.Extension;
+import org.eclipse.xtext.xbase.lib.IterableExtensions;
+import simplePalladio.AssemblyViewPoint.AssemblyViewType;
 
 /**
  * Generates code from your model files on save.
@@ -15,7 +26,37 @@ import org.eclipse.xtext.generator.IGeneratorContext;
  */
 @SuppressWarnings("all")
 public class AssemblyViewTypeGenerator extends AbstractGenerator {
+  @Inject
+  @Extension
+  private FileExtensionProvider _fileExtensionProvider;
+  
   @Override
   public void doGenerate(final Resource resource, final IFileSystemAccess2 fsa, final IGeneratorContext context) {
+    EObject _head = IterableExtensions.<EObject>head(resource.getContents());
+    this.serialize(this.toOutputURI(resource), ((AssemblyViewType) _head));
+  }
+  
+  private void serialize(final URI outputURI, final AssemblyViewType assembly) {
+    try {
+      final Resource resource = new XtextResourceSet().createResource(outputURI);
+      EList<EObject> _contents = resource.getContents();
+      _contents.add(assembly);
+      resource.save(CollectionLiterals.<Object, Object>newHashMap());
+    } catch (Throwable _e) {
+      throw Exceptions.sneakyThrow(_e);
+    }
+  }
+  
+  private URI toOutputURI(final Resource input) {
+    URI _xblockexpression = null;
+    {
+      final URI inputUri = input.getURI();
+      final String inputPath = inputUri.toPlatformString(true);
+      String _primaryFileExtension = this._fileExtensionProvider.getPrimaryFileExtension();
+      String _plus = ("." + _primaryFileExtension);
+      final String outputPath = inputPath.replace(_plus, ".assemblyviewpoint");
+      _xblockexpression = URI.createPlatformResourceURI(outputPath, true);
+    }
+    return _xblockexpression;
   }
 }

@@ -36,6 +36,8 @@ Workflow {
 			referencedResource = "platform:/resource/SimplePalladio/model/simplePalladio.genmodel"
 			
 			fragment = ecore2xtext.Ecore2XtextValueConverterServiceFragment2 auto-inject {}
+			fragment = scoping.ImportNamespacesScopingFragment2 auto-inject {}
+            fragment = exporting.QualifiedNamesFragment2 auto-inject {}
 
 			formatter = {
 				generateStub = true

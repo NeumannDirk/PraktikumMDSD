@@ -21,24 +21,25 @@ import java.util.ArrayList;
 @SuppressWarnings("all")
 public class InternalAllocationViewTypeParser extends AbstractInternalAntlrParser {
     public static final String[] tokenNames = new String[] {
-        "<invalid>", "<EOR>", "<DOWN>", "<UP>", "RULE_STRING", "RULE_ID", "RULE_INT", "RULE_ML_COMMENT", "RULE_SL_COMMENT", "RULE_WS", "RULE_ANY_OTHER", "'AllocationViewType'", "'{'", "'allocationContexts'", "','", "'}'", "'AllocationContext'", "'container'", "'assembly'"
+        "<invalid>", "<EOR>", "<DOWN>", "<UP>", "RULE_STRING", "RULE_ID", "RULE_INT", "RULE_ML_COMMENT", "RULE_SL_COMMENT", "RULE_WS", "RULE_ANY_OTHER", "'AllocationViewType'", "'{'", "'allocationContexts'", "','", "'}'", "'AllocationContext'", "'container'", "'assembly'", "'.'"
     };
-    public static final int RULE_ID=5;
-    public static final int RULE_WS=9;
     public static final int RULE_STRING=4;
-    public static final int RULE_ANY_OTHER=10;
     public static final int RULE_SL_COMMENT=8;
+    public static final int T__19=19;
     public static final int T__15=15;
     public static final int T__16=16;
     public static final int T__17=17;
-    public static final int RULE_INT=6;
     public static final int T__18=18;
     public static final int T__11=11;
-    public static final int RULE_ML_COMMENT=7;
     public static final int T__12=12;
     public static final int T__13=13;
     public static final int T__14=14;
     public static final int EOF=-1;
+    public static final int RULE_ID=5;
+    public static final int RULE_WS=9;
+    public static final int RULE_ANY_OTHER=10;
+    public static final int RULE_INT=6;
+    public static final int RULE_ML_COMMENT=7;
 
     // delegates
     // delegators
@@ -315,7 +316,7 @@ public class InternalAllocationViewTypeParser extends AbstractInternalAntlrParse
 
 
     // $ANTLR start "ruleAllocationContext"
-    // InternalAllocationViewType.g:158:1: ruleAllocationContext returns [EObject current=null] : (otherlv_0= 'AllocationContext' otherlv_1= '{' otherlv_2= 'container' ( ( ruleEString ) ) otherlv_4= 'assembly' ( ( ruleEString ) ) otherlv_6= '}' ) ;
+    // InternalAllocationViewType.g:158:1: ruleAllocationContext returns [EObject current=null] : (otherlv_0= 'AllocationContext' otherlv_1= '{' otherlv_2= 'container' ( ( ruleEString ) ) otherlv_4= 'assembly' ( ( ruleQualifiedName ) ) otherlv_6= '}' ) ;
     public final EObject ruleAllocationContext() throws RecognitionException {
         EObject current = null;
 
@@ -329,11 +330,11 @@ public class InternalAllocationViewTypeParser extends AbstractInternalAntlrParse
         	enterRule();
 
         try {
-            // InternalAllocationViewType.g:164:2: ( (otherlv_0= 'AllocationContext' otherlv_1= '{' otherlv_2= 'container' ( ( ruleEString ) ) otherlv_4= 'assembly' ( ( ruleEString ) ) otherlv_6= '}' ) )
-            // InternalAllocationViewType.g:165:2: (otherlv_0= 'AllocationContext' otherlv_1= '{' otherlv_2= 'container' ( ( ruleEString ) ) otherlv_4= 'assembly' ( ( ruleEString ) ) otherlv_6= '}' )
+            // InternalAllocationViewType.g:164:2: ( (otherlv_0= 'AllocationContext' otherlv_1= '{' otherlv_2= 'container' ( ( ruleEString ) ) otherlv_4= 'assembly' ( ( ruleQualifiedName ) ) otherlv_6= '}' ) )
+            // InternalAllocationViewType.g:165:2: (otherlv_0= 'AllocationContext' otherlv_1= '{' otherlv_2= 'container' ( ( ruleEString ) ) otherlv_4= 'assembly' ( ( ruleQualifiedName ) ) otherlv_6= '}' )
             {
-            // InternalAllocationViewType.g:165:2: (otherlv_0= 'AllocationContext' otherlv_1= '{' otherlv_2= 'container' ( ( ruleEString ) ) otherlv_4= 'assembly' ( ( ruleEString ) ) otherlv_6= '}' )
-            // InternalAllocationViewType.g:166:3: otherlv_0= 'AllocationContext' otherlv_1= '{' otherlv_2= 'container' ( ( ruleEString ) ) otherlv_4= 'assembly' ( ( ruleEString ) ) otherlv_6= '}'
+            // InternalAllocationViewType.g:165:2: (otherlv_0= 'AllocationContext' otherlv_1= '{' otherlv_2= 'container' ( ( ruleEString ) ) otherlv_4= 'assembly' ( ( ruleQualifiedName ) ) otherlv_6= '}' )
+            // InternalAllocationViewType.g:166:3: otherlv_0= 'AllocationContext' otherlv_1= '{' otherlv_2= 'container' ( ( ruleEString ) ) otherlv_4= 'assembly' ( ( ruleQualifiedName ) ) otherlv_6= '}'
             {
             otherlv_0=(Token)match(input,16,FOLLOW_3); 
 
@@ -375,15 +376,15 @@ public class InternalAllocationViewTypeParser extends AbstractInternalAntlrParse
 
             }
 
-            otherlv_4=(Token)match(input,18,FOLLOW_9); 
+            otherlv_4=(Token)match(input,18,FOLLOW_11); 
 
             			newLeafNode(otherlv_4, grammarAccess.getAllocationContextAccess().getAssemblyKeyword_4());
             		
-            // InternalAllocationViewType.g:198:3: ( ( ruleEString ) )
-            // InternalAllocationViewType.g:199:4: ( ruleEString )
+            // InternalAllocationViewType.g:198:3: ( ( ruleQualifiedName ) )
+            // InternalAllocationViewType.g:199:4: ( ruleQualifiedName )
             {
-            // InternalAllocationViewType.g:199:4: ( ruleEString )
-            // InternalAllocationViewType.g:200:5: ruleEString
+            // InternalAllocationViewType.g:199:4: ( ruleQualifiedName )
+            // InternalAllocationViewType.g:200:5: ruleQualifiedName
             {
 
             					if (current==null) {
@@ -394,7 +395,7 @@ public class InternalAllocationViewTypeParser extends AbstractInternalAntlrParse
             					newCompositeNode(grammarAccess.getAllocationContextAccess().getAssemblyAssemblyContextCrossReference_5_0());
             				
             pushFollow(FOLLOW_7);
-            ruleEString();
+            ruleQualifiedName();
 
             state._fsp--;
 
@@ -548,6 +549,126 @@ public class InternalAllocationViewTypeParser extends AbstractInternalAntlrParse
     }
     // $ANTLR end "ruleEString"
 
+
+    // $ANTLR start "entryRuleQualifiedName"
+    // InternalAllocationViewType.g:256:1: entryRuleQualifiedName returns [String current=null] : iv_ruleQualifiedName= ruleQualifiedName EOF ;
+    public final String entryRuleQualifiedName() throws RecognitionException {
+        String current = null;
+
+        AntlrDatatypeRuleToken iv_ruleQualifiedName = null;
+
+
+        try {
+            // InternalAllocationViewType.g:256:53: (iv_ruleQualifiedName= ruleQualifiedName EOF )
+            // InternalAllocationViewType.g:257:2: iv_ruleQualifiedName= ruleQualifiedName EOF
+            {
+             newCompositeNode(grammarAccess.getQualifiedNameRule()); 
+            pushFollow(FOLLOW_1);
+            iv_ruleQualifiedName=ruleQualifiedName();
+
+            state._fsp--;
+
+             current =iv_ruleQualifiedName.getText(); 
+            match(input,EOF,FOLLOW_2); 
+
+            }
+
+        }
+
+            catch (RecognitionException re) {
+                recover(input,re);
+                appendSkippedTokens();
+            }
+        finally {
+        }
+        return current;
+    }
+    // $ANTLR end "entryRuleQualifiedName"
+
+
+    // $ANTLR start "ruleQualifiedName"
+    // InternalAllocationViewType.g:263:1: ruleQualifiedName returns [AntlrDatatypeRuleToken current=new AntlrDatatypeRuleToken()] : (this_ID_0= RULE_ID (kw= '.' this_ID_2= RULE_ID )* ) ;
+    public final AntlrDatatypeRuleToken ruleQualifiedName() throws RecognitionException {
+        AntlrDatatypeRuleToken current = new AntlrDatatypeRuleToken();
+
+        Token this_ID_0=null;
+        Token kw=null;
+        Token this_ID_2=null;
+
+
+        	enterRule();
+
+        try {
+            // InternalAllocationViewType.g:269:2: ( (this_ID_0= RULE_ID (kw= '.' this_ID_2= RULE_ID )* ) )
+            // InternalAllocationViewType.g:270:2: (this_ID_0= RULE_ID (kw= '.' this_ID_2= RULE_ID )* )
+            {
+            // InternalAllocationViewType.g:270:2: (this_ID_0= RULE_ID (kw= '.' this_ID_2= RULE_ID )* )
+            // InternalAllocationViewType.g:271:3: this_ID_0= RULE_ID (kw= '.' this_ID_2= RULE_ID )*
+            {
+            this_ID_0=(Token)match(input,RULE_ID,FOLLOW_12); 
+
+            			current.merge(this_ID_0);
+            		
+
+            			newLeafNode(this_ID_0, grammarAccess.getQualifiedNameAccess().getIDTerminalRuleCall_0());
+            		
+            // InternalAllocationViewType.g:278:3: (kw= '.' this_ID_2= RULE_ID )*
+            loop3:
+            do {
+                int alt3=2;
+                int LA3_0 = input.LA(1);
+
+                if ( (LA3_0==19) ) {
+                    alt3=1;
+                }
+
+
+                switch (alt3) {
+            	case 1 :
+            	    // InternalAllocationViewType.g:279:4: kw= '.' this_ID_2= RULE_ID
+            	    {
+            	    kw=(Token)match(input,19,FOLLOW_11); 
+
+            	    				current.merge(kw);
+            	    				newLeafNode(kw, grammarAccess.getQualifiedNameAccess().getFullStopKeyword_1_0());
+            	    			
+            	    this_ID_2=(Token)match(input,RULE_ID,FOLLOW_12); 
+
+            	    				current.merge(this_ID_2);
+            	    			
+
+            	    				newLeafNode(this_ID_2, grammarAccess.getQualifiedNameAccess().getIDTerminalRuleCall_1_1());
+            	    			
+
+            	    }
+            	    break;
+
+            	default :
+            	    break loop3;
+                }
+            } while (true);
+
+
+            }
+
+
+            }
+
+
+            	leaveRule();
+
+        }
+
+            catch (RecognitionException re) {
+                recover(input,re);
+                appendSkippedTokens();
+            }
+        finally {
+        }
+        return current;
+    }
+    // $ANTLR end "ruleQualifiedName"
+
     // Delegated rules
 
 
@@ -563,5 +684,7 @@ public class InternalAllocationViewTypeParser extends AbstractInternalAntlrParse
     public static final BitSet FOLLOW_8 = new BitSet(new long[]{0x0000000000020000L});
     public static final BitSet FOLLOW_9 = new BitSet(new long[]{0x0000000000000030L});
     public static final BitSet FOLLOW_10 = new BitSet(new long[]{0x0000000000040000L});
+    public static final BitSet FOLLOW_11 = new BitSet(new long[]{0x0000000000000020L});
+    public static final BitSet FOLLOW_12 = new BitSet(new long[]{0x0000000000080002L});
 
 }

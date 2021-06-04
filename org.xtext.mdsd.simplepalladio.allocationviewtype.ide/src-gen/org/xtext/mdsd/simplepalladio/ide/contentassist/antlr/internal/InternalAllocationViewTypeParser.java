@@ -22,24 +22,25 @@ import java.util.ArrayList;
 @SuppressWarnings("all")
 public class InternalAllocationViewTypeParser extends AbstractInternalContentAssistParser {
     public static final String[] tokenNames = new String[] {
-        "<invalid>", "<EOR>", "<DOWN>", "<UP>", "RULE_STRING", "RULE_ID", "RULE_INT", "RULE_ML_COMMENT", "RULE_SL_COMMENT", "RULE_WS", "RULE_ANY_OTHER", "'AllocationViewType'", "'{'", "'allocationContexts'", "'}'", "','", "'AllocationContext'", "'container'", "'assembly'"
+        "<invalid>", "<EOR>", "<DOWN>", "<UP>", "RULE_STRING", "RULE_ID", "RULE_INT", "RULE_ML_COMMENT", "RULE_SL_COMMENT", "RULE_WS", "RULE_ANY_OTHER", "'AllocationViewType'", "'{'", "'allocationContexts'", "'}'", "','", "'AllocationContext'", "'container'", "'assembly'", "'.'"
     };
-    public static final int RULE_ID=5;
-    public static final int RULE_WS=9;
     public static final int RULE_STRING=4;
-    public static final int RULE_ANY_OTHER=10;
     public static final int RULE_SL_COMMENT=8;
+    public static final int T__19=19;
     public static final int T__15=15;
     public static final int T__16=16;
     public static final int T__17=17;
-    public static final int RULE_INT=6;
     public static final int T__18=18;
     public static final int T__11=11;
-    public static final int RULE_ML_COMMENT=7;
     public static final int T__12=12;
     public static final int T__13=13;
     public static final int T__14=14;
     public static final int EOF=-1;
+    public static final int RULE_ID=5;
+    public static final int RULE_WS=9;
+    public static final int RULE_ANY_OTHER=10;
+    public static final int RULE_INT=6;
+    public static final int RULE_ML_COMMENT=7;
 
     // delegates
     // delegators
@@ -307,14 +308,91 @@ public class InternalAllocationViewTypeParser extends AbstractInternalContentAss
     // $ANTLR end "ruleEString"
 
 
+    // $ANTLR start "entryRuleQualifiedName"
+    // InternalAllocationViewType.g:128:1: entryRuleQualifiedName : ruleQualifiedName EOF ;
+    public final void entryRuleQualifiedName() throws RecognitionException {
+        try {
+            // InternalAllocationViewType.g:129:1: ( ruleQualifiedName EOF )
+            // InternalAllocationViewType.g:130:1: ruleQualifiedName EOF
+            {
+             before(grammarAccess.getQualifiedNameRule()); 
+            pushFollow(FOLLOW_1);
+            ruleQualifiedName();
+
+            state._fsp--;
+
+             after(grammarAccess.getQualifiedNameRule()); 
+            match(input,EOF,FOLLOW_2); 
+
+            }
+
+        }
+        catch (RecognitionException re) {
+            reportError(re);
+            recover(input,re);
+        }
+        finally {
+        }
+        return ;
+    }
+    // $ANTLR end "entryRuleQualifiedName"
+
+
+    // $ANTLR start "ruleQualifiedName"
+    // InternalAllocationViewType.g:137:1: ruleQualifiedName : ( ( rule__QualifiedName__Group__0 ) ) ;
+    public final void ruleQualifiedName() throws RecognitionException {
+
+        		int stackSize = keepStackSize();
+        	
+        try {
+            // InternalAllocationViewType.g:141:2: ( ( ( rule__QualifiedName__Group__0 ) ) )
+            // InternalAllocationViewType.g:142:2: ( ( rule__QualifiedName__Group__0 ) )
+            {
+            // InternalAllocationViewType.g:142:2: ( ( rule__QualifiedName__Group__0 ) )
+            // InternalAllocationViewType.g:143:3: ( rule__QualifiedName__Group__0 )
+            {
+             before(grammarAccess.getQualifiedNameAccess().getGroup()); 
+            // InternalAllocationViewType.g:144:3: ( rule__QualifiedName__Group__0 )
+            // InternalAllocationViewType.g:144:4: rule__QualifiedName__Group__0
+            {
+            pushFollow(FOLLOW_2);
+            rule__QualifiedName__Group__0();
+
+            state._fsp--;
+
+
+            }
+
+             after(grammarAccess.getQualifiedNameAccess().getGroup()); 
+
+            }
+
+
+            }
+
+        }
+        catch (RecognitionException re) {
+            reportError(re);
+            recover(input,re);
+        }
+        finally {
+
+            	restoreStackSize(stackSize);
+
+        }
+        return ;
+    }
+    // $ANTLR end "ruleQualifiedName"
+
+
     // $ANTLR start "rule__EString__Alternatives"
-    // InternalAllocationViewType.g:127:1: rule__EString__Alternatives : ( ( RULE_STRING ) | ( RULE_ID ) );
+    // InternalAllocationViewType.g:152:1: rule__EString__Alternatives : ( ( RULE_STRING ) | ( RULE_ID ) );
     public final void rule__EString__Alternatives() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAllocationViewType.g:131:1: ( ( RULE_STRING ) | ( RULE_ID ) )
+            // InternalAllocationViewType.g:156:1: ( ( RULE_STRING ) | ( RULE_ID ) )
             int alt1=2;
             int LA1_0 = input.LA(1);
 
@@ -332,10 +410,10 @@ public class InternalAllocationViewTypeParser extends AbstractInternalContentAss
             }
             switch (alt1) {
                 case 1 :
-                    // InternalAllocationViewType.g:132:2: ( RULE_STRING )
+                    // InternalAllocationViewType.g:157:2: ( RULE_STRING )
                     {
-                    // InternalAllocationViewType.g:132:2: ( RULE_STRING )
-                    // InternalAllocationViewType.g:133:3: RULE_STRING
+                    // InternalAllocationViewType.g:157:2: ( RULE_STRING )
+                    // InternalAllocationViewType.g:158:3: RULE_STRING
                     {
                      before(grammarAccess.getEStringAccess().getSTRINGTerminalRuleCall_0()); 
                     match(input,RULE_STRING,FOLLOW_2); 
@@ -347,10 +425,10 @@ public class InternalAllocationViewTypeParser extends AbstractInternalContentAss
                     }
                     break;
                 case 2 :
-                    // InternalAllocationViewType.g:138:2: ( RULE_ID )
+                    // InternalAllocationViewType.g:163:2: ( RULE_ID )
                     {
-                    // InternalAllocationViewType.g:138:2: ( RULE_ID )
-                    // InternalAllocationViewType.g:139:3: RULE_ID
+                    // InternalAllocationViewType.g:163:2: ( RULE_ID )
+                    // InternalAllocationViewType.g:164:3: RULE_ID
                     {
                      before(grammarAccess.getEStringAccess().getIDTerminalRuleCall_1()); 
                     match(input,RULE_ID,FOLLOW_2); 
@@ -379,14 +457,14 @@ public class InternalAllocationViewTypeParser extends AbstractInternalContentAss
 
 
     // $ANTLR start "rule__AllocationViewType__Group__0"
-    // InternalAllocationViewType.g:148:1: rule__AllocationViewType__Group__0 : rule__AllocationViewType__Group__0__Impl rule__AllocationViewType__Group__1 ;
+    // InternalAllocationViewType.g:173:1: rule__AllocationViewType__Group__0 : rule__AllocationViewType__Group__0__Impl rule__AllocationViewType__Group__1 ;
     public final void rule__AllocationViewType__Group__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAllocationViewType.g:152:1: ( rule__AllocationViewType__Group__0__Impl rule__AllocationViewType__Group__1 )
-            // InternalAllocationViewType.g:153:2: rule__AllocationViewType__Group__0__Impl rule__AllocationViewType__Group__1
+            // InternalAllocationViewType.g:177:1: ( rule__AllocationViewType__Group__0__Impl rule__AllocationViewType__Group__1 )
+            // InternalAllocationViewType.g:178:2: rule__AllocationViewType__Group__0__Impl rule__AllocationViewType__Group__1
             {
             pushFollow(FOLLOW_3);
             rule__AllocationViewType__Group__0__Impl();
@@ -417,17 +495,17 @@ public class InternalAllocationViewTypeParser extends AbstractInternalContentAss
 
 
     // $ANTLR start "rule__AllocationViewType__Group__0__Impl"
-    // InternalAllocationViewType.g:160:1: rule__AllocationViewType__Group__0__Impl : ( 'AllocationViewType' ) ;
+    // InternalAllocationViewType.g:185:1: rule__AllocationViewType__Group__0__Impl : ( 'AllocationViewType' ) ;
     public final void rule__AllocationViewType__Group__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAllocationViewType.g:164:1: ( ( 'AllocationViewType' ) )
-            // InternalAllocationViewType.g:165:1: ( 'AllocationViewType' )
+            // InternalAllocationViewType.g:189:1: ( ( 'AllocationViewType' ) )
+            // InternalAllocationViewType.g:190:1: ( 'AllocationViewType' )
             {
-            // InternalAllocationViewType.g:165:1: ( 'AllocationViewType' )
-            // InternalAllocationViewType.g:166:2: 'AllocationViewType'
+            // InternalAllocationViewType.g:190:1: ( 'AllocationViewType' )
+            // InternalAllocationViewType.g:191:2: 'AllocationViewType'
             {
              before(grammarAccess.getAllocationViewTypeAccess().getAllocationViewTypeKeyword_0()); 
             match(input,11,FOLLOW_2); 
@@ -454,14 +532,14 @@ public class InternalAllocationViewTypeParser extends AbstractInternalContentAss
 
 
     // $ANTLR start "rule__AllocationViewType__Group__1"
-    // InternalAllocationViewType.g:175:1: rule__AllocationViewType__Group__1 : rule__AllocationViewType__Group__1__Impl rule__AllocationViewType__Group__2 ;
+    // InternalAllocationViewType.g:200:1: rule__AllocationViewType__Group__1 : rule__AllocationViewType__Group__1__Impl rule__AllocationViewType__Group__2 ;
     public final void rule__AllocationViewType__Group__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAllocationViewType.g:179:1: ( rule__AllocationViewType__Group__1__Impl rule__AllocationViewType__Group__2 )
-            // InternalAllocationViewType.g:180:2: rule__AllocationViewType__Group__1__Impl rule__AllocationViewType__Group__2
+            // InternalAllocationViewType.g:204:1: ( rule__AllocationViewType__Group__1__Impl rule__AllocationViewType__Group__2 )
+            // InternalAllocationViewType.g:205:2: rule__AllocationViewType__Group__1__Impl rule__AllocationViewType__Group__2
             {
             pushFollow(FOLLOW_4);
             rule__AllocationViewType__Group__1__Impl();
@@ -492,17 +570,17 @@ public class InternalAllocationViewTypeParser extends AbstractInternalContentAss
 
 
     // $ANTLR start "rule__AllocationViewType__Group__1__Impl"
-    // InternalAllocationViewType.g:187:1: rule__AllocationViewType__Group__1__Impl : ( '{' ) ;
+    // InternalAllocationViewType.g:212:1: rule__AllocationViewType__Group__1__Impl : ( '{' ) ;
     public final void rule__AllocationViewType__Group__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAllocationViewType.g:191:1: ( ( '{' ) )
-            // InternalAllocationViewType.g:192:1: ( '{' )
+            // InternalAllocationViewType.g:216:1: ( ( '{' ) )
+            // InternalAllocationViewType.g:217:1: ( '{' )
             {
-            // InternalAllocationViewType.g:192:1: ( '{' )
-            // InternalAllocationViewType.g:193:2: '{'
+            // InternalAllocationViewType.g:217:1: ( '{' )
+            // InternalAllocationViewType.g:218:2: '{'
             {
              before(grammarAccess.getAllocationViewTypeAccess().getLeftCurlyBracketKeyword_1()); 
             match(input,12,FOLLOW_2); 
@@ -529,14 +607,14 @@ public class InternalAllocationViewTypeParser extends AbstractInternalContentAss
 
 
     // $ANTLR start "rule__AllocationViewType__Group__2"
-    // InternalAllocationViewType.g:202:1: rule__AllocationViewType__Group__2 : rule__AllocationViewType__Group__2__Impl rule__AllocationViewType__Group__3 ;
+    // InternalAllocationViewType.g:227:1: rule__AllocationViewType__Group__2 : rule__AllocationViewType__Group__2__Impl rule__AllocationViewType__Group__3 ;
     public final void rule__AllocationViewType__Group__2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAllocationViewType.g:206:1: ( rule__AllocationViewType__Group__2__Impl rule__AllocationViewType__Group__3 )
-            // InternalAllocationViewType.g:207:2: rule__AllocationViewType__Group__2__Impl rule__AllocationViewType__Group__3
+            // InternalAllocationViewType.g:231:1: ( rule__AllocationViewType__Group__2__Impl rule__AllocationViewType__Group__3 )
+            // InternalAllocationViewType.g:232:2: rule__AllocationViewType__Group__2__Impl rule__AllocationViewType__Group__3
             {
             pushFollow(FOLLOW_3);
             rule__AllocationViewType__Group__2__Impl();
@@ -567,17 +645,17 @@ public class InternalAllocationViewTypeParser extends AbstractInternalContentAss
 
 
     // $ANTLR start "rule__AllocationViewType__Group__2__Impl"
-    // InternalAllocationViewType.g:214:1: rule__AllocationViewType__Group__2__Impl : ( 'allocationContexts' ) ;
+    // InternalAllocationViewType.g:239:1: rule__AllocationViewType__Group__2__Impl : ( 'allocationContexts' ) ;
     public final void rule__AllocationViewType__Group__2__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAllocationViewType.g:218:1: ( ( 'allocationContexts' ) )
-            // InternalAllocationViewType.g:219:1: ( 'allocationContexts' )
+            // InternalAllocationViewType.g:243:1: ( ( 'allocationContexts' ) )
+            // InternalAllocationViewType.g:244:1: ( 'allocationContexts' )
             {
-            // InternalAllocationViewType.g:219:1: ( 'allocationContexts' )
-            // InternalAllocationViewType.g:220:2: 'allocationContexts'
+            // InternalAllocationViewType.g:244:1: ( 'allocationContexts' )
+            // InternalAllocationViewType.g:245:2: 'allocationContexts'
             {
              before(grammarAccess.getAllocationViewTypeAccess().getAllocationContextsKeyword_2()); 
             match(input,13,FOLLOW_2); 
@@ -604,14 +682,14 @@ public class InternalAllocationViewTypeParser extends AbstractInternalContentAss
 
 
     // $ANTLR start "rule__AllocationViewType__Group__3"
-    // InternalAllocationViewType.g:229:1: rule__AllocationViewType__Group__3 : rule__AllocationViewType__Group__3__Impl rule__AllocationViewType__Group__4 ;
+    // InternalAllocationViewType.g:254:1: rule__AllocationViewType__Group__3 : rule__AllocationViewType__Group__3__Impl rule__AllocationViewType__Group__4 ;
     public final void rule__AllocationViewType__Group__3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAllocationViewType.g:233:1: ( rule__AllocationViewType__Group__3__Impl rule__AllocationViewType__Group__4 )
-            // InternalAllocationViewType.g:234:2: rule__AllocationViewType__Group__3__Impl rule__AllocationViewType__Group__4
+            // InternalAllocationViewType.g:258:1: ( rule__AllocationViewType__Group__3__Impl rule__AllocationViewType__Group__4 )
+            // InternalAllocationViewType.g:259:2: rule__AllocationViewType__Group__3__Impl rule__AllocationViewType__Group__4
             {
             pushFollow(FOLLOW_5);
             rule__AllocationViewType__Group__3__Impl();
@@ -642,17 +720,17 @@ public class InternalAllocationViewTypeParser extends AbstractInternalContentAss
 
 
     // $ANTLR start "rule__AllocationViewType__Group__3__Impl"
-    // InternalAllocationViewType.g:241:1: rule__AllocationViewType__Group__3__Impl : ( '{' ) ;
+    // InternalAllocationViewType.g:266:1: rule__AllocationViewType__Group__3__Impl : ( '{' ) ;
     public final void rule__AllocationViewType__Group__3__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAllocationViewType.g:245:1: ( ( '{' ) )
-            // InternalAllocationViewType.g:246:1: ( '{' )
+            // InternalAllocationViewType.g:270:1: ( ( '{' ) )
+            // InternalAllocationViewType.g:271:1: ( '{' )
             {
-            // InternalAllocationViewType.g:246:1: ( '{' )
-            // InternalAllocationViewType.g:247:2: '{'
+            // InternalAllocationViewType.g:271:1: ( '{' )
+            // InternalAllocationViewType.g:272:2: '{'
             {
              before(grammarAccess.getAllocationViewTypeAccess().getLeftCurlyBracketKeyword_3()); 
             match(input,12,FOLLOW_2); 
@@ -679,14 +757,14 @@ public class InternalAllocationViewTypeParser extends AbstractInternalContentAss
 
 
     // $ANTLR start "rule__AllocationViewType__Group__4"
-    // InternalAllocationViewType.g:256:1: rule__AllocationViewType__Group__4 : rule__AllocationViewType__Group__4__Impl rule__AllocationViewType__Group__5 ;
+    // InternalAllocationViewType.g:281:1: rule__AllocationViewType__Group__4 : rule__AllocationViewType__Group__4__Impl rule__AllocationViewType__Group__5 ;
     public final void rule__AllocationViewType__Group__4() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAllocationViewType.g:260:1: ( rule__AllocationViewType__Group__4__Impl rule__AllocationViewType__Group__5 )
-            // InternalAllocationViewType.g:261:2: rule__AllocationViewType__Group__4__Impl rule__AllocationViewType__Group__5
+            // InternalAllocationViewType.g:285:1: ( rule__AllocationViewType__Group__4__Impl rule__AllocationViewType__Group__5 )
+            // InternalAllocationViewType.g:286:2: rule__AllocationViewType__Group__4__Impl rule__AllocationViewType__Group__5
             {
             pushFollow(FOLLOW_6);
             rule__AllocationViewType__Group__4__Impl();
@@ -717,21 +795,21 @@ public class InternalAllocationViewTypeParser extends AbstractInternalContentAss
 
 
     // $ANTLR start "rule__AllocationViewType__Group__4__Impl"
-    // InternalAllocationViewType.g:268:1: rule__AllocationViewType__Group__4__Impl : ( ( rule__AllocationViewType__AllocationContextsAssignment_4 ) ) ;
+    // InternalAllocationViewType.g:293:1: rule__AllocationViewType__Group__4__Impl : ( ( rule__AllocationViewType__AllocationContextsAssignment_4 ) ) ;
     public final void rule__AllocationViewType__Group__4__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAllocationViewType.g:272:1: ( ( ( rule__AllocationViewType__AllocationContextsAssignment_4 ) ) )
-            // InternalAllocationViewType.g:273:1: ( ( rule__AllocationViewType__AllocationContextsAssignment_4 ) )
+            // InternalAllocationViewType.g:297:1: ( ( ( rule__AllocationViewType__AllocationContextsAssignment_4 ) ) )
+            // InternalAllocationViewType.g:298:1: ( ( rule__AllocationViewType__AllocationContextsAssignment_4 ) )
             {
-            // InternalAllocationViewType.g:273:1: ( ( rule__AllocationViewType__AllocationContextsAssignment_4 ) )
-            // InternalAllocationViewType.g:274:2: ( rule__AllocationViewType__AllocationContextsAssignment_4 )
+            // InternalAllocationViewType.g:298:1: ( ( rule__AllocationViewType__AllocationContextsAssignment_4 ) )
+            // InternalAllocationViewType.g:299:2: ( rule__AllocationViewType__AllocationContextsAssignment_4 )
             {
              before(grammarAccess.getAllocationViewTypeAccess().getAllocationContextsAssignment_4()); 
-            // InternalAllocationViewType.g:275:2: ( rule__AllocationViewType__AllocationContextsAssignment_4 )
-            // InternalAllocationViewType.g:275:3: rule__AllocationViewType__AllocationContextsAssignment_4
+            // InternalAllocationViewType.g:300:2: ( rule__AllocationViewType__AllocationContextsAssignment_4 )
+            // InternalAllocationViewType.g:300:3: rule__AllocationViewType__AllocationContextsAssignment_4
             {
             pushFollow(FOLLOW_2);
             rule__AllocationViewType__AllocationContextsAssignment_4();
@@ -764,14 +842,14 @@ public class InternalAllocationViewTypeParser extends AbstractInternalContentAss
 
 
     // $ANTLR start "rule__AllocationViewType__Group__5"
-    // InternalAllocationViewType.g:283:1: rule__AllocationViewType__Group__5 : rule__AllocationViewType__Group__5__Impl rule__AllocationViewType__Group__6 ;
+    // InternalAllocationViewType.g:308:1: rule__AllocationViewType__Group__5 : rule__AllocationViewType__Group__5__Impl rule__AllocationViewType__Group__6 ;
     public final void rule__AllocationViewType__Group__5() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAllocationViewType.g:287:1: ( rule__AllocationViewType__Group__5__Impl rule__AllocationViewType__Group__6 )
-            // InternalAllocationViewType.g:288:2: rule__AllocationViewType__Group__5__Impl rule__AllocationViewType__Group__6
+            // InternalAllocationViewType.g:312:1: ( rule__AllocationViewType__Group__5__Impl rule__AllocationViewType__Group__6 )
+            // InternalAllocationViewType.g:313:2: rule__AllocationViewType__Group__5__Impl rule__AllocationViewType__Group__6
             {
             pushFollow(FOLLOW_6);
             rule__AllocationViewType__Group__5__Impl();
@@ -802,20 +880,20 @@ public class InternalAllocationViewTypeParser extends AbstractInternalContentAss
 
 
     // $ANTLR start "rule__AllocationViewType__Group__5__Impl"
-    // InternalAllocationViewType.g:295:1: rule__AllocationViewType__Group__5__Impl : ( ( rule__AllocationViewType__Group_5__0 )* ) ;
+    // InternalAllocationViewType.g:320:1: rule__AllocationViewType__Group__5__Impl : ( ( rule__AllocationViewType__Group_5__0 )* ) ;
     public final void rule__AllocationViewType__Group__5__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAllocationViewType.g:299:1: ( ( ( rule__AllocationViewType__Group_5__0 )* ) )
-            // InternalAllocationViewType.g:300:1: ( ( rule__AllocationViewType__Group_5__0 )* )
+            // InternalAllocationViewType.g:324:1: ( ( ( rule__AllocationViewType__Group_5__0 )* ) )
+            // InternalAllocationViewType.g:325:1: ( ( rule__AllocationViewType__Group_5__0 )* )
             {
-            // InternalAllocationViewType.g:300:1: ( ( rule__AllocationViewType__Group_5__0 )* )
-            // InternalAllocationViewType.g:301:2: ( rule__AllocationViewType__Group_5__0 )*
+            // InternalAllocationViewType.g:325:1: ( ( rule__AllocationViewType__Group_5__0 )* )
+            // InternalAllocationViewType.g:326:2: ( rule__AllocationViewType__Group_5__0 )*
             {
              before(grammarAccess.getAllocationViewTypeAccess().getGroup_5()); 
-            // InternalAllocationViewType.g:302:2: ( rule__AllocationViewType__Group_5__0 )*
+            // InternalAllocationViewType.g:327:2: ( rule__AllocationViewType__Group_5__0 )*
             loop2:
             do {
                 int alt2=2;
@@ -828,7 +906,7 @@ public class InternalAllocationViewTypeParser extends AbstractInternalContentAss
 
                 switch (alt2) {
             	case 1 :
-            	    // InternalAllocationViewType.g:302:3: rule__AllocationViewType__Group_5__0
+            	    // InternalAllocationViewType.g:327:3: rule__AllocationViewType__Group_5__0
             	    {
             	    pushFollow(FOLLOW_7);
             	    rule__AllocationViewType__Group_5__0();
@@ -867,14 +945,14 @@ public class InternalAllocationViewTypeParser extends AbstractInternalContentAss
 
 
     // $ANTLR start "rule__AllocationViewType__Group__6"
-    // InternalAllocationViewType.g:310:1: rule__AllocationViewType__Group__6 : rule__AllocationViewType__Group__6__Impl rule__AllocationViewType__Group__7 ;
+    // InternalAllocationViewType.g:335:1: rule__AllocationViewType__Group__6 : rule__AllocationViewType__Group__6__Impl rule__AllocationViewType__Group__7 ;
     public final void rule__AllocationViewType__Group__6() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAllocationViewType.g:314:1: ( rule__AllocationViewType__Group__6__Impl rule__AllocationViewType__Group__7 )
-            // InternalAllocationViewType.g:315:2: rule__AllocationViewType__Group__6__Impl rule__AllocationViewType__Group__7
+            // InternalAllocationViewType.g:339:1: ( rule__AllocationViewType__Group__6__Impl rule__AllocationViewType__Group__7 )
+            // InternalAllocationViewType.g:340:2: rule__AllocationViewType__Group__6__Impl rule__AllocationViewType__Group__7
             {
             pushFollow(FOLLOW_8);
             rule__AllocationViewType__Group__6__Impl();
@@ -905,17 +983,17 @@ public class InternalAllocationViewTypeParser extends AbstractInternalContentAss
 
 
     // $ANTLR start "rule__AllocationViewType__Group__6__Impl"
-    // InternalAllocationViewType.g:322:1: rule__AllocationViewType__Group__6__Impl : ( '}' ) ;
+    // InternalAllocationViewType.g:347:1: rule__AllocationViewType__Group__6__Impl : ( '}' ) ;
     public final void rule__AllocationViewType__Group__6__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAllocationViewType.g:326:1: ( ( '}' ) )
-            // InternalAllocationViewType.g:327:1: ( '}' )
+            // InternalAllocationViewType.g:351:1: ( ( '}' ) )
+            // InternalAllocationViewType.g:352:1: ( '}' )
             {
-            // InternalAllocationViewType.g:327:1: ( '}' )
-            // InternalAllocationViewType.g:328:2: '}'
+            // InternalAllocationViewType.g:352:1: ( '}' )
+            // InternalAllocationViewType.g:353:2: '}'
             {
              before(grammarAccess.getAllocationViewTypeAccess().getRightCurlyBracketKeyword_6()); 
             match(input,14,FOLLOW_2); 
@@ -942,14 +1020,14 @@ public class InternalAllocationViewTypeParser extends AbstractInternalContentAss
 
 
     // $ANTLR start "rule__AllocationViewType__Group__7"
-    // InternalAllocationViewType.g:337:1: rule__AllocationViewType__Group__7 : rule__AllocationViewType__Group__7__Impl ;
+    // InternalAllocationViewType.g:362:1: rule__AllocationViewType__Group__7 : rule__AllocationViewType__Group__7__Impl ;
     public final void rule__AllocationViewType__Group__7() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAllocationViewType.g:341:1: ( rule__AllocationViewType__Group__7__Impl )
-            // InternalAllocationViewType.g:342:2: rule__AllocationViewType__Group__7__Impl
+            // InternalAllocationViewType.g:366:1: ( rule__AllocationViewType__Group__7__Impl )
+            // InternalAllocationViewType.g:367:2: rule__AllocationViewType__Group__7__Impl
             {
             pushFollow(FOLLOW_2);
             rule__AllocationViewType__Group__7__Impl();
@@ -975,17 +1053,17 @@ public class InternalAllocationViewTypeParser extends AbstractInternalContentAss
 
 
     // $ANTLR start "rule__AllocationViewType__Group__7__Impl"
-    // InternalAllocationViewType.g:348:1: rule__AllocationViewType__Group__7__Impl : ( '}' ) ;
+    // InternalAllocationViewType.g:373:1: rule__AllocationViewType__Group__7__Impl : ( '}' ) ;
     public final void rule__AllocationViewType__Group__7__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAllocationViewType.g:352:1: ( ( '}' ) )
-            // InternalAllocationViewType.g:353:1: ( '}' )
+            // InternalAllocationViewType.g:377:1: ( ( '}' ) )
+            // InternalAllocationViewType.g:378:1: ( '}' )
             {
-            // InternalAllocationViewType.g:353:1: ( '}' )
-            // InternalAllocationViewType.g:354:2: '}'
+            // InternalAllocationViewType.g:378:1: ( '}' )
+            // InternalAllocationViewType.g:379:2: '}'
             {
              before(grammarAccess.getAllocationViewTypeAccess().getRightCurlyBracketKeyword_7()); 
             match(input,14,FOLLOW_2); 
@@ -1012,14 +1090,14 @@ public class InternalAllocationViewTypeParser extends AbstractInternalContentAss
 
 
     // $ANTLR start "rule__AllocationViewType__Group_5__0"
-    // InternalAllocationViewType.g:364:1: rule__AllocationViewType__Group_5__0 : rule__AllocationViewType__Group_5__0__Impl rule__AllocationViewType__Group_5__1 ;
+    // InternalAllocationViewType.g:389:1: rule__AllocationViewType__Group_5__0 : rule__AllocationViewType__Group_5__0__Impl rule__AllocationViewType__Group_5__1 ;
     public final void rule__AllocationViewType__Group_5__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAllocationViewType.g:368:1: ( rule__AllocationViewType__Group_5__0__Impl rule__AllocationViewType__Group_5__1 )
-            // InternalAllocationViewType.g:369:2: rule__AllocationViewType__Group_5__0__Impl rule__AllocationViewType__Group_5__1
+            // InternalAllocationViewType.g:393:1: ( rule__AllocationViewType__Group_5__0__Impl rule__AllocationViewType__Group_5__1 )
+            // InternalAllocationViewType.g:394:2: rule__AllocationViewType__Group_5__0__Impl rule__AllocationViewType__Group_5__1
             {
             pushFollow(FOLLOW_5);
             rule__AllocationViewType__Group_5__0__Impl();
@@ -1050,17 +1128,17 @@ public class InternalAllocationViewTypeParser extends AbstractInternalContentAss
 
 
     // $ANTLR start "rule__AllocationViewType__Group_5__0__Impl"
-    // InternalAllocationViewType.g:376:1: rule__AllocationViewType__Group_5__0__Impl : ( ',' ) ;
+    // InternalAllocationViewType.g:401:1: rule__AllocationViewType__Group_5__0__Impl : ( ',' ) ;
     public final void rule__AllocationViewType__Group_5__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAllocationViewType.g:380:1: ( ( ',' ) )
-            // InternalAllocationViewType.g:381:1: ( ',' )
+            // InternalAllocationViewType.g:405:1: ( ( ',' ) )
+            // InternalAllocationViewType.g:406:1: ( ',' )
             {
-            // InternalAllocationViewType.g:381:1: ( ',' )
-            // InternalAllocationViewType.g:382:2: ','
+            // InternalAllocationViewType.g:406:1: ( ',' )
+            // InternalAllocationViewType.g:407:2: ','
             {
              before(grammarAccess.getAllocationViewTypeAccess().getCommaKeyword_5_0()); 
             match(input,15,FOLLOW_2); 
@@ -1087,14 +1165,14 @@ public class InternalAllocationViewTypeParser extends AbstractInternalContentAss
 
 
     // $ANTLR start "rule__AllocationViewType__Group_5__1"
-    // InternalAllocationViewType.g:391:1: rule__AllocationViewType__Group_5__1 : rule__AllocationViewType__Group_5__1__Impl ;
+    // InternalAllocationViewType.g:416:1: rule__AllocationViewType__Group_5__1 : rule__AllocationViewType__Group_5__1__Impl ;
     public final void rule__AllocationViewType__Group_5__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAllocationViewType.g:395:1: ( rule__AllocationViewType__Group_5__1__Impl )
-            // InternalAllocationViewType.g:396:2: rule__AllocationViewType__Group_5__1__Impl
+            // InternalAllocationViewType.g:420:1: ( rule__AllocationViewType__Group_5__1__Impl )
+            // InternalAllocationViewType.g:421:2: rule__AllocationViewType__Group_5__1__Impl
             {
             pushFollow(FOLLOW_2);
             rule__AllocationViewType__Group_5__1__Impl();
@@ -1120,21 +1198,21 @@ public class InternalAllocationViewTypeParser extends AbstractInternalContentAss
 
 
     // $ANTLR start "rule__AllocationViewType__Group_5__1__Impl"
-    // InternalAllocationViewType.g:402:1: rule__AllocationViewType__Group_5__1__Impl : ( ( rule__AllocationViewType__AllocationContextsAssignment_5_1 ) ) ;
+    // InternalAllocationViewType.g:427:1: rule__AllocationViewType__Group_5__1__Impl : ( ( rule__AllocationViewType__AllocationContextsAssignment_5_1 ) ) ;
     public final void rule__AllocationViewType__Group_5__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAllocationViewType.g:406:1: ( ( ( rule__AllocationViewType__AllocationContextsAssignment_5_1 ) ) )
-            // InternalAllocationViewType.g:407:1: ( ( rule__AllocationViewType__AllocationContextsAssignment_5_1 ) )
+            // InternalAllocationViewType.g:431:1: ( ( ( rule__AllocationViewType__AllocationContextsAssignment_5_1 ) ) )
+            // InternalAllocationViewType.g:432:1: ( ( rule__AllocationViewType__AllocationContextsAssignment_5_1 ) )
             {
-            // InternalAllocationViewType.g:407:1: ( ( rule__AllocationViewType__AllocationContextsAssignment_5_1 ) )
-            // InternalAllocationViewType.g:408:2: ( rule__AllocationViewType__AllocationContextsAssignment_5_1 )
+            // InternalAllocationViewType.g:432:1: ( ( rule__AllocationViewType__AllocationContextsAssignment_5_1 ) )
+            // InternalAllocationViewType.g:433:2: ( rule__AllocationViewType__AllocationContextsAssignment_5_1 )
             {
              before(grammarAccess.getAllocationViewTypeAccess().getAllocationContextsAssignment_5_1()); 
-            // InternalAllocationViewType.g:409:2: ( rule__AllocationViewType__AllocationContextsAssignment_5_1 )
-            // InternalAllocationViewType.g:409:3: rule__AllocationViewType__AllocationContextsAssignment_5_1
+            // InternalAllocationViewType.g:434:2: ( rule__AllocationViewType__AllocationContextsAssignment_5_1 )
+            // InternalAllocationViewType.g:434:3: rule__AllocationViewType__AllocationContextsAssignment_5_1
             {
             pushFollow(FOLLOW_2);
             rule__AllocationViewType__AllocationContextsAssignment_5_1();
@@ -1167,14 +1245,14 @@ public class InternalAllocationViewTypeParser extends AbstractInternalContentAss
 
 
     // $ANTLR start "rule__AllocationContext__Group__0"
-    // InternalAllocationViewType.g:418:1: rule__AllocationContext__Group__0 : rule__AllocationContext__Group__0__Impl rule__AllocationContext__Group__1 ;
+    // InternalAllocationViewType.g:443:1: rule__AllocationContext__Group__0 : rule__AllocationContext__Group__0__Impl rule__AllocationContext__Group__1 ;
     public final void rule__AllocationContext__Group__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAllocationViewType.g:422:1: ( rule__AllocationContext__Group__0__Impl rule__AllocationContext__Group__1 )
-            // InternalAllocationViewType.g:423:2: rule__AllocationContext__Group__0__Impl rule__AllocationContext__Group__1
+            // InternalAllocationViewType.g:447:1: ( rule__AllocationContext__Group__0__Impl rule__AllocationContext__Group__1 )
+            // InternalAllocationViewType.g:448:2: rule__AllocationContext__Group__0__Impl rule__AllocationContext__Group__1
             {
             pushFollow(FOLLOW_3);
             rule__AllocationContext__Group__0__Impl();
@@ -1205,17 +1283,17 @@ public class InternalAllocationViewTypeParser extends AbstractInternalContentAss
 
 
     // $ANTLR start "rule__AllocationContext__Group__0__Impl"
-    // InternalAllocationViewType.g:430:1: rule__AllocationContext__Group__0__Impl : ( 'AllocationContext' ) ;
+    // InternalAllocationViewType.g:455:1: rule__AllocationContext__Group__0__Impl : ( 'AllocationContext' ) ;
     public final void rule__AllocationContext__Group__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAllocationViewType.g:434:1: ( ( 'AllocationContext' ) )
-            // InternalAllocationViewType.g:435:1: ( 'AllocationContext' )
+            // InternalAllocationViewType.g:459:1: ( ( 'AllocationContext' ) )
+            // InternalAllocationViewType.g:460:1: ( 'AllocationContext' )
             {
-            // InternalAllocationViewType.g:435:1: ( 'AllocationContext' )
-            // InternalAllocationViewType.g:436:2: 'AllocationContext'
+            // InternalAllocationViewType.g:460:1: ( 'AllocationContext' )
+            // InternalAllocationViewType.g:461:2: 'AllocationContext'
             {
              before(grammarAccess.getAllocationContextAccess().getAllocationContextKeyword_0()); 
             match(input,16,FOLLOW_2); 
@@ -1242,14 +1320,14 @@ public class InternalAllocationViewTypeParser extends AbstractInternalContentAss
 
 
     // $ANTLR start "rule__AllocationContext__Group__1"
-    // InternalAllocationViewType.g:445:1: rule__AllocationContext__Group__1 : rule__AllocationContext__Group__1__Impl rule__AllocationContext__Group__2 ;
+    // InternalAllocationViewType.g:470:1: rule__AllocationContext__Group__1 : rule__AllocationContext__Group__1__Impl rule__AllocationContext__Group__2 ;
     public final void rule__AllocationContext__Group__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAllocationViewType.g:449:1: ( rule__AllocationContext__Group__1__Impl rule__AllocationContext__Group__2 )
-            // InternalAllocationViewType.g:450:2: rule__AllocationContext__Group__1__Impl rule__AllocationContext__Group__2
+            // InternalAllocationViewType.g:474:1: ( rule__AllocationContext__Group__1__Impl rule__AllocationContext__Group__2 )
+            // InternalAllocationViewType.g:475:2: rule__AllocationContext__Group__1__Impl rule__AllocationContext__Group__2
             {
             pushFollow(FOLLOW_9);
             rule__AllocationContext__Group__1__Impl();
@@ -1280,17 +1358,17 @@ public class InternalAllocationViewTypeParser extends AbstractInternalContentAss
 
 
     // $ANTLR start "rule__AllocationContext__Group__1__Impl"
-    // InternalAllocationViewType.g:457:1: rule__AllocationContext__Group__1__Impl : ( '{' ) ;
+    // InternalAllocationViewType.g:482:1: rule__AllocationContext__Group__1__Impl : ( '{' ) ;
     public final void rule__AllocationContext__Group__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAllocationViewType.g:461:1: ( ( '{' ) )
-            // InternalAllocationViewType.g:462:1: ( '{' )
+            // InternalAllocationViewType.g:486:1: ( ( '{' ) )
+            // InternalAllocationViewType.g:487:1: ( '{' )
             {
-            // InternalAllocationViewType.g:462:1: ( '{' )
-            // InternalAllocationViewType.g:463:2: '{'
+            // InternalAllocationViewType.g:487:1: ( '{' )
+            // InternalAllocationViewType.g:488:2: '{'
             {
              before(grammarAccess.getAllocationContextAccess().getLeftCurlyBracketKeyword_1()); 
             match(input,12,FOLLOW_2); 
@@ -1317,14 +1395,14 @@ public class InternalAllocationViewTypeParser extends AbstractInternalContentAss
 
 
     // $ANTLR start "rule__AllocationContext__Group__2"
-    // InternalAllocationViewType.g:472:1: rule__AllocationContext__Group__2 : rule__AllocationContext__Group__2__Impl rule__AllocationContext__Group__3 ;
+    // InternalAllocationViewType.g:497:1: rule__AllocationContext__Group__2 : rule__AllocationContext__Group__2__Impl rule__AllocationContext__Group__3 ;
     public final void rule__AllocationContext__Group__2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAllocationViewType.g:476:1: ( rule__AllocationContext__Group__2__Impl rule__AllocationContext__Group__3 )
-            // InternalAllocationViewType.g:477:2: rule__AllocationContext__Group__2__Impl rule__AllocationContext__Group__3
+            // InternalAllocationViewType.g:501:1: ( rule__AllocationContext__Group__2__Impl rule__AllocationContext__Group__3 )
+            // InternalAllocationViewType.g:502:2: rule__AllocationContext__Group__2__Impl rule__AllocationContext__Group__3
             {
             pushFollow(FOLLOW_10);
             rule__AllocationContext__Group__2__Impl();
@@ -1355,17 +1433,17 @@ public class InternalAllocationViewTypeParser extends AbstractInternalContentAss
 
 
     // $ANTLR start "rule__AllocationContext__Group__2__Impl"
-    // InternalAllocationViewType.g:484:1: rule__AllocationContext__Group__2__Impl : ( 'container' ) ;
+    // InternalAllocationViewType.g:509:1: rule__AllocationContext__Group__2__Impl : ( 'container' ) ;
     public final void rule__AllocationContext__Group__2__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAllocationViewType.g:488:1: ( ( 'container' ) )
-            // InternalAllocationViewType.g:489:1: ( 'container' )
+            // InternalAllocationViewType.g:513:1: ( ( 'container' ) )
+            // InternalAllocationViewType.g:514:1: ( 'container' )
             {
-            // InternalAllocationViewType.g:489:1: ( 'container' )
-            // InternalAllocationViewType.g:490:2: 'container'
+            // InternalAllocationViewType.g:514:1: ( 'container' )
+            // InternalAllocationViewType.g:515:2: 'container'
             {
              before(grammarAccess.getAllocationContextAccess().getContainerKeyword_2()); 
             match(input,17,FOLLOW_2); 
@@ -1392,14 +1470,14 @@ public class InternalAllocationViewTypeParser extends AbstractInternalContentAss
 
 
     // $ANTLR start "rule__AllocationContext__Group__3"
-    // InternalAllocationViewType.g:499:1: rule__AllocationContext__Group__3 : rule__AllocationContext__Group__3__Impl rule__AllocationContext__Group__4 ;
+    // InternalAllocationViewType.g:524:1: rule__AllocationContext__Group__3 : rule__AllocationContext__Group__3__Impl rule__AllocationContext__Group__4 ;
     public final void rule__AllocationContext__Group__3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAllocationViewType.g:503:1: ( rule__AllocationContext__Group__3__Impl rule__AllocationContext__Group__4 )
-            // InternalAllocationViewType.g:504:2: rule__AllocationContext__Group__3__Impl rule__AllocationContext__Group__4
+            // InternalAllocationViewType.g:528:1: ( rule__AllocationContext__Group__3__Impl rule__AllocationContext__Group__4 )
+            // InternalAllocationViewType.g:529:2: rule__AllocationContext__Group__3__Impl rule__AllocationContext__Group__4
             {
             pushFollow(FOLLOW_11);
             rule__AllocationContext__Group__3__Impl();
@@ -1430,21 +1508,21 @@ public class InternalAllocationViewTypeParser extends AbstractInternalContentAss
 
 
     // $ANTLR start "rule__AllocationContext__Group__3__Impl"
-    // InternalAllocationViewType.g:511:1: rule__AllocationContext__Group__3__Impl : ( ( rule__AllocationContext__ContainerAssignment_3 ) ) ;
+    // InternalAllocationViewType.g:536:1: rule__AllocationContext__Group__3__Impl : ( ( rule__AllocationContext__ContainerAssignment_3 ) ) ;
     public final void rule__AllocationContext__Group__3__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAllocationViewType.g:515:1: ( ( ( rule__AllocationContext__ContainerAssignment_3 ) ) )
-            // InternalAllocationViewType.g:516:1: ( ( rule__AllocationContext__ContainerAssignment_3 ) )
+            // InternalAllocationViewType.g:540:1: ( ( ( rule__AllocationContext__ContainerAssignment_3 ) ) )
+            // InternalAllocationViewType.g:541:1: ( ( rule__AllocationContext__ContainerAssignment_3 ) )
             {
-            // InternalAllocationViewType.g:516:1: ( ( rule__AllocationContext__ContainerAssignment_3 ) )
-            // InternalAllocationViewType.g:517:2: ( rule__AllocationContext__ContainerAssignment_3 )
+            // InternalAllocationViewType.g:541:1: ( ( rule__AllocationContext__ContainerAssignment_3 ) )
+            // InternalAllocationViewType.g:542:2: ( rule__AllocationContext__ContainerAssignment_3 )
             {
              before(grammarAccess.getAllocationContextAccess().getContainerAssignment_3()); 
-            // InternalAllocationViewType.g:518:2: ( rule__AllocationContext__ContainerAssignment_3 )
-            // InternalAllocationViewType.g:518:3: rule__AllocationContext__ContainerAssignment_3
+            // InternalAllocationViewType.g:543:2: ( rule__AllocationContext__ContainerAssignment_3 )
+            // InternalAllocationViewType.g:543:3: rule__AllocationContext__ContainerAssignment_3
             {
             pushFollow(FOLLOW_2);
             rule__AllocationContext__ContainerAssignment_3();
@@ -1477,16 +1555,16 @@ public class InternalAllocationViewTypeParser extends AbstractInternalContentAss
 
 
     // $ANTLR start "rule__AllocationContext__Group__4"
-    // InternalAllocationViewType.g:526:1: rule__AllocationContext__Group__4 : rule__AllocationContext__Group__4__Impl rule__AllocationContext__Group__5 ;
+    // InternalAllocationViewType.g:551:1: rule__AllocationContext__Group__4 : rule__AllocationContext__Group__4__Impl rule__AllocationContext__Group__5 ;
     public final void rule__AllocationContext__Group__4() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAllocationViewType.g:530:1: ( rule__AllocationContext__Group__4__Impl rule__AllocationContext__Group__5 )
-            // InternalAllocationViewType.g:531:2: rule__AllocationContext__Group__4__Impl rule__AllocationContext__Group__5
+            // InternalAllocationViewType.g:555:1: ( rule__AllocationContext__Group__4__Impl rule__AllocationContext__Group__5 )
+            // InternalAllocationViewType.g:556:2: rule__AllocationContext__Group__4__Impl rule__AllocationContext__Group__5
             {
-            pushFollow(FOLLOW_10);
+            pushFollow(FOLLOW_12);
             rule__AllocationContext__Group__4__Impl();
 
             state._fsp--;
@@ -1515,17 +1593,17 @@ public class InternalAllocationViewTypeParser extends AbstractInternalContentAss
 
 
     // $ANTLR start "rule__AllocationContext__Group__4__Impl"
-    // InternalAllocationViewType.g:538:1: rule__AllocationContext__Group__4__Impl : ( 'assembly' ) ;
+    // InternalAllocationViewType.g:563:1: rule__AllocationContext__Group__4__Impl : ( 'assembly' ) ;
     public final void rule__AllocationContext__Group__4__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAllocationViewType.g:542:1: ( ( 'assembly' ) )
-            // InternalAllocationViewType.g:543:1: ( 'assembly' )
+            // InternalAllocationViewType.g:567:1: ( ( 'assembly' ) )
+            // InternalAllocationViewType.g:568:1: ( 'assembly' )
             {
-            // InternalAllocationViewType.g:543:1: ( 'assembly' )
-            // InternalAllocationViewType.g:544:2: 'assembly'
+            // InternalAllocationViewType.g:568:1: ( 'assembly' )
+            // InternalAllocationViewType.g:569:2: 'assembly'
             {
              before(grammarAccess.getAllocationContextAccess().getAssemblyKeyword_4()); 
             match(input,18,FOLLOW_2); 
@@ -1552,14 +1630,14 @@ public class InternalAllocationViewTypeParser extends AbstractInternalContentAss
 
 
     // $ANTLR start "rule__AllocationContext__Group__5"
-    // InternalAllocationViewType.g:553:1: rule__AllocationContext__Group__5 : rule__AllocationContext__Group__5__Impl rule__AllocationContext__Group__6 ;
+    // InternalAllocationViewType.g:578:1: rule__AllocationContext__Group__5 : rule__AllocationContext__Group__5__Impl rule__AllocationContext__Group__6 ;
     public final void rule__AllocationContext__Group__5() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAllocationViewType.g:557:1: ( rule__AllocationContext__Group__5__Impl rule__AllocationContext__Group__6 )
-            // InternalAllocationViewType.g:558:2: rule__AllocationContext__Group__5__Impl rule__AllocationContext__Group__6
+            // InternalAllocationViewType.g:582:1: ( rule__AllocationContext__Group__5__Impl rule__AllocationContext__Group__6 )
+            // InternalAllocationViewType.g:583:2: rule__AllocationContext__Group__5__Impl rule__AllocationContext__Group__6
             {
             pushFollow(FOLLOW_8);
             rule__AllocationContext__Group__5__Impl();
@@ -1590,21 +1668,21 @@ public class InternalAllocationViewTypeParser extends AbstractInternalContentAss
 
 
     // $ANTLR start "rule__AllocationContext__Group__5__Impl"
-    // InternalAllocationViewType.g:565:1: rule__AllocationContext__Group__5__Impl : ( ( rule__AllocationContext__AssemblyAssignment_5 ) ) ;
+    // InternalAllocationViewType.g:590:1: rule__AllocationContext__Group__5__Impl : ( ( rule__AllocationContext__AssemblyAssignment_5 ) ) ;
     public final void rule__AllocationContext__Group__5__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAllocationViewType.g:569:1: ( ( ( rule__AllocationContext__AssemblyAssignment_5 ) ) )
-            // InternalAllocationViewType.g:570:1: ( ( rule__AllocationContext__AssemblyAssignment_5 ) )
+            // InternalAllocationViewType.g:594:1: ( ( ( rule__AllocationContext__AssemblyAssignment_5 ) ) )
+            // InternalAllocationViewType.g:595:1: ( ( rule__AllocationContext__AssemblyAssignment_5 ) )
             {
-            // InternalAllocationViewType.g:570:1: ( ( rule__AllocationContext__AssemblyAssignment_5 ) )
-            // InternalAllocationViewType.g:571:2: ( rule__AllocationContext__AssemblyAssignment_5 )
+            // InternalAllocationViewType.g:595:1: ( ( rule__AllocationContext__AssemblyAssignment_5 ) )
+            // InternalAllocationViewType.g:596:2: ( rule__AllocationContext__AssemblyAssignment_5 )
             {
              before(grammarAccess.getAllocationContextAccess().getAssemblyAssignment_5()); 
-            // InternalAllocationViewType.g:572:2: ( rule__AllocationContext__AssemblyAssignment_5 )
-            // InternalAllocationViewType.g:572:3: rule__AllocationContext__AssemblyAssignment_5
+            // InternalAllocationViewType.g:597:2: ( rule__AllocationContext__AssemblyAssignment_5 )
+            // InternalAllocationViewType.g:597:3: rule__AllocationContext__AssemblyAssignment_5
             {
             pushFollow(FOLLOW_2);
             rule__AllocationContext__AssemblyAssignment_5();
@@ -1637,14 +1715,14 @@ public class InternalAllocationViewTypeParser extends AbstractInternalContentAss
 
 
     // $ANTLR start "rule__AllocationContext__Group__6"
-    // InternalAllocationViewType.g:580:1: rule__AllocationContext__Group__6 : rule__AllocationContext__Group__6__Impl ;
+    // InternalAllocationViewType.g:605:1: rule__AllocationContext__Group__6 : rule__AllocationContext__Group__6__Impl ;
     public final void rule__AllocationContext__Group__6() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAllocationViewType.g:584:1: ( rule__AllocationContext__Group__6__Impl )
-            // InternalAllocationViewType.g:585:2: rule__AllocationContext__Group__6__Impl
+            // InternalAllocationViewType.g:609:1: ( rule__AllocationContext__Group__6__Impl )
+            // InternalAllocationViewType.g:610:2: rule__AllocationContext__Group__6__Impl
             {
             pushFollow(FOLLOW_2);
             rule__AllocationContext__Group__6__Impl();
@@ -1670,17 +1748,17 @@ public class InternalAllocationViewTypeParser extends AbstractInternalContentAss
 
 
     // $ANTLR start "rule__AllocationContext__Group__6__Impl"
-    // InternalAllocationViewType.g:591:1: rule__AllocationContext__Group__6__Impl : ( '}' ) ;
+    // InternalAllocationViewType.g:616:1: rule__AllocationContext__Group__6__Impl : ( '}' ) ;
     public final void rule__AllocationContext__Group__6__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAllocationViewType.g:595:1: ( ( '}' ) )
-            // InternalAllocationViewType.g:596:1: ( '}' )
+            // InternalAllocationViewType.g:620:1: ( ( '}' ) )
+            // InternalAllocationViewType.g:621:1: ( '}' )
             {
-            // InternalAllocationViewType.g:596:1: ( '}' )
-            // InternalAllocationViewType.g:597:2: '}'
+            // InternalAllocationViewType.g:621:1: ( '}' )
+            // InternalAllocationViewType.g:622:2: '}'
             {
              before(grammarAccess.getAllocationContextAccess().getRightCurlyBracketKeyword_6()); 
             match(input,14,FOLLOW_2); 
@@ -1706,18 +1784,336 @@ public class InternalAllocationViewTypeParser extends AbstractInternalContentAss
     // $ANTLR end "rule__AllocationContext__Group__6__Impl"
 
 
+    // $ANTLR start "rule__QualifiedName__Group__0"
+    // InternalAllocationViewType.g:632:1: rule__QualifiedName__Group__0 : rule__QualifiedName__Group__0__Impl rule__QualifiedName__Group__1 ;
+    public final void rule__QualifiedName__Group__0() throws RecognitionException {
+
+        		int stackSize = keepStackSize();
+        	
+        try {
+            // InternalAllocationViewType.g:636:1: ( rule__QualifiedName__Group__0__Impl rule__QualifiedName__Group__1 )
+            // InternalAllocationViewType.g:637:2: rule__QualifiedName__Group__0__Impl rule__QualifiedName__Group__1
+            {
+            pushFollow(FOLLOW_13);
+            rule__QualifiedName__Group__0__Impl();
+
+            state._fsp--;
+
+            pushFollow(FOLLOW_2);
+            rule__QualifiedName__Group__1();
+
+            state._fsp--;
+
+
+            }
+
+        }
+        catch (RecognitionException re) {
+            reportError(re);
+            recover(input,re);
+        }
+        finally {
+
+            	restoreStackSize(stackSize);
+
+        }
+        return ;
+    }
+    // $ANTLR end "rule__QualifiedName__Group__0"
+
+
+    // $ANTLR start "rule__QualifiedName__Group__0__Impl"
+    // InternalAllocationViewType.g:644:1: rule__QualifiedName__Group__0__Impl : ( RULE_ID ) ;
+    public final void rule__QualifiedName__Group__0__Impl() throws RecognitionException {
+
+        		int stackSize = keepStackSize();
+        	
+        try {
+            // InternalAllocationViewType.g:648:1: ( ( RULE_ID ) )
+            // InternalAllocationViewType.g:649:1: ( RULE_ID )
+            {
+            // InternalAllocationViewType.g:649:1: ( RULE_ID )
+            // InternalAllocationViewType.g:650:2: RULE_ID
+            {
+             before(grammarAccess.getQualifiedNameAccess().getIDTerminalRuleCall_0()); 
+            match(input,RULE_ID,FOLLOW_2); 
+             after(grammarAccess.getQualifiedNameAccess().getIDTerminalRuleCall_0()); 
+
+            }
+
+
+            }
+
+        }
+        catch (RecognitionException re) {
+            reportError(re);
+            recover(input,re);
+        }
+        finally {
+
+            	restoreStackSize(stackSize);
+
+        }
+        return ;
+    }
+    // $ANTLR end "rule__QualifiedName__Group__0__Impl"
+
+
+    // $ANTLR start "rule__QualifiedName__Group__1"
+    // InternalAllocationViewType.g:659:1: rule__QualifiedName__Group__1 : rule__QualifiedName__Group__1__Impl ;
+    public final void rule__QualifiedName__Group__1() throws RecognitionException {
+
+        		int stackSize = keepStackSize();
+        	
+        try {
+            // InternalAllocationViewType.g:663:1: ( rule__QualifiedName__Group__1__Impl )
+            // InternalAllocationViewType.g:664:2: rule__QualifiedName__Group__1__Impl
+            {
+            pushFollow(FOLLOW_2);
+            rule__QualifiedName__Group__1__Impl();
+
+            state._fsp--;
+
+
+            }
+
+        }
+        catch (RecognitionException re) {
+            reportError(re);
+            recover(input,re);
+        }
+        finally {
+
+            	restoreStackSize(stackSize);
+
+        }
+        return ;
+    }
+    // $ANTLR end "rule__QualifiedName__Group__1"
+
+
+    // $ANTLR start "rule__QualifiedName__Group__1__Impl"
+    // InternalAllocationViewType.g:670:1: rule__QualifiedName__Group__1__Impl : ( ( rule__QualifiedName__Group_1__0 )* ) ;
+    public final void rule__QualifiedName__Group__1__Impl() throws RecognitionException {
+
+        		int stackSize = keepStackSize();
+        	
+        try {
+            // InternalAllocationViewType.g:674:1: ( ( ( rule__QualifiedName__Group_1__0 )* ) )
+            // InternalAllocationViewType.g:675:1: ( ( rule__QualifiedName__Group_1__0 )* )
+            {
+            // InternalAllocationViewType.g:675:1: ( ( rule__QualifiedName__Group_1__0 )* )
+            // InternalAllocationViewType.g:676:2: ( rule__QualifiedName__Group_1__0 )*
+            {
+             before(grammarAccess.getQualifiedNameAccess().getGroup_1()); 
+            // InternalAllocationViewType.g:677:2: ( rule__QualifiedName__Group_1__0 )*
+            loop3:
+            do {
+                int alt3=2;
+                int LA3_0 = input.LA(1);
+
+                if ( (LA3_0==19) ) {
+                    alt3=1;
+                }
+
+
+                switch (alt3) {
+            	case 1 :
+            	    // InternalAllocationViewType.g:677:3: rule__QualifiedName__Group_1__0
+            	    {
+            	    pushFollow(FOLLOW_14);
+            	    rule__QualifiedName__Group_1__0();
+
+            	    state._fsp--;
+
+
+            	    }
+            	    break;
+
+            	default :
+            	    break loop3;
+                }
+            } while (true);
+
+             after(grammarAccess.getQualifiedNameAccess().getGroup_1()); 
+
+            }
+
+
+            }
+
+        }
+        catch (RecognitionException re) {
+            reportError(re);
+            recover(input,re);
+        }
+        finally {
+
+            	restoreStackSize(stackSize);
+
+        }
+        return ;
+    }
+    // $ANTLR end "rule__QualifiedName__Group__1__Impl"
+
+
+    // $ANTLR start "rule__QualifiedName__Group_1__0"
+    // InternalAllocationViewType.g:686:1: rule__QualifiedName__Group_1__0 : rule__QualifiedName__Group_1__0__Impl rule__QualifiedName__Group_1__1 ;
+    public final void rule__QualifiedName__Group_1__0() throws RecognitionException {
+
+        		int stackSize = keepStackSize();
+        	
+        try {
+            // InternalAllocationViewType.g:690:1: ( rule__QualifiedName__Group_1__0__Impl rule__QualifiedName__Group_1__1 )
+            // InternalAllocationViewType.g:691:2: rule__QualifiedName__Group_1__0__Impl rule__QualifiedName__Group_1__1
+            {
+            pushFollow(FOLLOW_12);
+            rule__QualifiedName__Group_1__0__Impl();
+
+            state._fsp--;
+
+            pushFollow(FOLLOW_2);
+            rule__QualifiedName__Group_1__1();
+
+            state._fsp--;
+
+
+            }
+
+        }
+        catch (RecognitionException re) {
+            reportError(re);
+            recover(input,re);
+        }
+        finally {
+
+            	restoreStackSize(stackSize);
+
+        }
+        return ;
+    }
+    // $ANTLR end "rule__QualifiedName__Group_1__0"
+
+
+    // $ANTLR start "rule__QualifiedName__Group_1__0__Impl"
+    // InternalAllocationViewType.g:698:1: rule__QualifiedName__Group_1__0__Impl : ( '.' ) ;
+    public final void rule__QualifiedName__Group_1__0__Impl() throws RecognitionException {
+
+        		int stackSize = keepStackSize();
+        	
+        try {
+            // InternalAllocationViewType.g:702:1: ( ( '.' ) )
+            // InternalAllocationViewType.g:703:1: ( '.' )
+            {
+            // InternalAllocationViewType.g:703:1: ( '.' )
+            // InternalAllocationViewType.g:704:2: '.'
+            {
+             before(grammarAccess.getQualifiedNameAccess().getFullStopKeyword_1_0()); 
+            match(input,19,FOLLOW_2); 
+             after(grammarAccess.getQualifiedNameAccess().getFullStopKeyword_1_0()); 
+
+            }
+
+
+            }
+
+        }
+        catch (RecognitionException re) {
+            reportError(re);
+            recover(input,re);
+        }
+        finally {
+
+            	restoreStackSize(stackSize);
+
+        }
+        return ;
+    }
+    // $ANTLR end "rule__QualifiedName__Group_1__0__Impl"
+
+
+    // $ANTLR start "rule__QualifiedName__Group_1__1"
+    // InternalAllocationViewType.g:713:1: rule__QualifiedName__Group_1__1 : rule__QualifiedName__Group_1__1__Impl ;
+    public final void rule__QualifiedName__Group_1__1() throws RecognitionException {
+
+        		int stackSize = keepStackSize();
+        	
+        try {
+            // InternalAllocationViewType.g:717:1: ( rule__QualifiedName__Group_1__1__Impl )
+            // InternalAllocationViewType.g:718:2: rule__QualifiedName__Group_1__1__Impl
+            {
+            pushFollow(FOLLOW_2);
+            rule__QualifiedName__Group_1__1__Impl();
+
+            state._fsp--;
+
+
+            }
+
+        }
+        catch (RecognitionException re) {
+            reportError(re);
+            recover(input,re);
+        }
+        finally {
+
+            	restoreStackSize(stackSize);
+
+        }
+        return ;
+    }
+    // $ANTLR end "rule__QualifiedName__Group_1__1"
+
+
+    // $ANTLR start "rule__QualifiedName__Group_1__1__Impl"
+    // InternalAllocationViewType.g:724:1: rule__QualifiedName__Group_1__1__Impl : ( RULE_ID ) ;
+    public final void rule__QualifiedName__Group_1__1__Impl() throws RecognitionException {
+
+        		int stackSize = keepStackSize();
+        	
+        try {
+            // InternalAllocationViewType.g:728:1: ( ( RULE_ID ) )
+            // InternalAllocationViewType.g:729:1: ( RULE_ID )
+            {
+            // InternalAllocationViewType.g:729:1: ( RULE_ID )
+            // InternalAllocationViewType.g:730:2: RULE_ID
+            {
+             before(grammarAccess.getQualifiedNameAccess().getIDTerminalRuleCall_1_1()); 
+            match(input,RULE_ID,FOLLOW_2); 
+             after(grammarAccess.getQualifiedNameAccess().getIDTerminalRuleCall_1_1()); 
+
+            }
+
+
+            }
+
+        }
+        catch (RecognitionException re) {
+            reportError(re);
+            recover(input,re);
+        }
+        finally {
+
+            	restoreStackSize(stackSize);
+
+        }
+        return ;
+    }
+    // $ANTLR end "rule__QualifiedName__Group_1__1__Impl"
+
+
     // $ANTLR start "rule__AllocationViewType__AllocationContextsAssignment_4"
-    // InternalAllocationViewType.g:607:1: rule__AllocationViewType__AllocationContextsAssignment_4 : ( ruleAllocationContext ) ;
+    // InternalAllocationViewType.g:740:1: rule__AllocationViewType__AllocationContextsAssignment_4 : ( ruleAllocationContext ) ;
     public final void rule__AllocationViewType__AllocationContextsAssignment_4() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAllocationViewType.g:611:1: ( ( ruleAllocationContext ) )
-            // InternalAllocationViewType.g:612:2: ( ruleAllocationContext )
+            // InternalAllocationViewType.g:744:1: ( ( ruleAllocationContext ) )
+            // InternalAllocationViewType.g:745:2: ( ruleAllocationContext )
             {
-            // InternalAllocationViewType.g:612:2: ( ruleAllocationContext )
-            // InternalAllocationViewType.g:613:3: ruleAllocationContext
+            // InternalAllocationViewType.g:745:2: ( ruleAllocationContext )
+            // InternalAllocationViewType.g:746:3: ruleAllocationContext
             {
              before(grammarAccess.getAllocationViewTypeAccess().getAllocationContextsAllocationContextParserRuleCall_4_0()); 
             pushFollow(FOLLOW_2);
@@ -1748,17 +2144,17 @@ public class InternalAllocationViewTypeParser extends AbstractInternalContentAss
 
 
     // $ANTLR start "rule__AllocationViewType__AllocationContextsAssignment_5_1"
-    // InternalAllocationViewType.g:622:1: rule__AllocationViewType__AllocationContextsAssignment_5_1 : ( ruleAllocationContext ) ;
+    // InternalAllocationViewType.g:755:1: rule__AllocationViewType__AllocationContextsAssignment_5_1 : ( ruleAllocationContext ) ;
     public final void rule__AllocationViewType__AllocationContextsAssignment_5_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAllocationViewType.g:626:1: ( ( ruleAllocationContext ) )
-            // InternalAllocationViewType.g:627:2: ( ruleAllocationContext )
+            // InternalAllocationViewType.g:759:1: ( ( ruleAllocationContext ) )
+            // InternalAllocationViewType.g:760:2: ( ruleAllocationContext )
             {
-            // InternalAllocationViewType.g:627:2: ( ruleAllocationContext )
-            // InternalAllocationViewType.g:628:3: ruleAllocationContext
+            // InternalAllocationViewType.g:760:2: ( ruleAllocationContext )
+            // InternalAllocationViewType.g:761:3: ruleAllocationContext
             {
              before(grammarAccess.getAllocationViewTypeAccess().getAllocationContextsAllocationContextParserRuleCall_5_1_0()); 
             pushFollow(FOLLOW_2);
@@ -1789,21 +2185,21 @@ public class InternalAllocationViewTypeParser extends AbstractInternalContentAss
 
 
     // $ANTLR start "rule__AllocationContext__ContainerAssignment_3"
-    // InternalAllocationViewType.g:637:1: rule__AllocationContext__ContainerAssignment_3 : ( ( ruleEString ) ) ;
+    // InternalAllocationViewType.g:770:1: rule__AllocationContext__ContainerAssignment_3 : ( ( ruleEString ) ) ;
     public final void rule__AllocationContext__ContainerAssignment_3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAllocationViewType.g:641:1: ( ( ( ruleEString ) ) )
-            // InternalAllocationViewType.g:642:2: ( ( ruleEString ) )
+            // InternalAllocationViewType.g:774:1: ( ( ( ruleEString ) ) )
+            // InternalAllocationViewType.g:775:2: ( ( ruleEString ) )
             {
-            // InternalAllocationViewType.g:642:2: ( ( ruleEString ) )
-            // InternalAllocationViewType.g:643:3: ( ruleEString )
+            // InternalAllocationViewType.g:775:2: ( ( ruleEString ) )
+            // InternalAllocationViewType.g:776:3: ( ruleEString )
             {
              before(grammarAccess.getAllocationContextAccess().getContainerContainerCrossReference_3_0()); 
-            // InternalAllocationViewType.g:644:3: ( ruleEString )
-            // InternalAllocationViewType.g:645:4: ruleEString
+            // InternalAllocationViewType.g:777:3: ( ruleEString )
+            // InternalAllocationViewType.g:778:4: ruleEString
             {
              before(grammarAccess.getAllocationContextAccess().getContainerContainerEStringParserRuleCall_3_0_1()); 
             pushFollow(FOLLOW_2);
@@ -1838,29 +2234,29 @@ public class InternalAllocationViewTypeParser extends AbstractInternalContentAss
 
 
     // $ANTLR start "rule__AllocationContext__AssemblyAssignment_5"
-    // InternalAllocationViewType.g:656:1: rule__AllocationContext__AssemblyAssignment_5 : ( ( ruleEString ) ) ;
+    // InternalAllocationViewType.g:789:1: rule__AllocationContext__AssemblyAssignment_5 : ( ( ruleQualifiedName ) ) ;
     public final void rule__AllocationContext__AssemblyAssignment_5() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalAllocationViewType.g:660:1: ( ( ( ruleEString ) ) )
-            // InternalAllocationViewType.g:661:2: ( ( ruleEString ) )
+            // InternalAllocationViewType.g:793:1: ( ( ( ruleQualifiedName ) ) )
+            // InternalAllocationViewType.g:794:2: ( ( ruleQualifiedName ) )
             {
-            // InternalAllocationViewType.g:661:2: ( ( ruleEString ) )
-            // InternalAllocationViewType.g:662:3: ( ruleEString )
+            // InternalAllocationViewType.g:794:2: ( ( ruleQualifiedName ) )
+            // InternalAllocationViewType.g:795:3: ( ruleQualifiedName )
             {
              before(grammarAccess.getAllocationContextAccess().getAssemblyAssemblyContextCrossReference_5_0()); 
-            // InternalAllocationViewType.g:663:3: ( ruleEString )
-            // InternalAllocationViewType.g:664:4: ruleEString
+            // InternalAllocationViewType.g:796:3: ( ruleQualifiedName )
+            // InternalAllocationViewType.g:797:4: ruleQualifiedName
             {
-             before(grammarAccess.getAllocationContextAccess().getAssemblyAssemblyContextEStringParserRuleCall_5_0_1()); 
+             before(grammarAccess.getAllocationContextAccess().getAssemblyAssemblyContextQualifiedNameParserRuleCall_5_0_1()); 
             pushFollow(FOLLOW_2);
-            ruleEString();
+            ruleQualifiedName();
 
             state._fsp--;
 
-             after(grammarAccess.getAllocationContextAccess().getAssemblyAssemblyContextEStringParserRuleCall_5_0_1()); 
+             after(grammarAccess.getAllocationContextAccess().getAssemblyAssemblyContextQualifiedNameParserRuleCall_5_0_1()); 
 
             }
 
@@ -1901,5 +2297,8 @@ public class InternalAllocationViewTypeParser extends AbstractInternalContentAss
     public static final BitSet FOLLOW_9 = new BitSet(new long[]{0x0000000000020000L});
     public static final BitSet FOLLOW_10 = new BitSet(new long[]{0x0000000000000030L});
     public static final BitSet FOLLOW_11 = new BitSet(new long[]{0x0000000000040000L});
+    public static final BitSet FOLLOW_12 = new BitSet(new long[]{0x0000000000000020L});
+    public static final BitSet FOLLOW_13 = new BitSet(new long[]{0x0000000000080000L});
+    public static final BitSet FOLLOW_14 = new BitSet(new long[]{0x0000000000080002L});
 
 }

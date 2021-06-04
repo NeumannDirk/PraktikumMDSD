@@ -35,6 +35,8 @@ public class AllocationViewTypeParser extends AbstractContentAssistParser {
 			builder.put(grammarAccess.getAllocationViewTypeAccess().getGroup(), "rule__AllocationViewType__Group__0");
 			builder.put(grammarAccess.getAllocationViewTypeAccess().getGroup_5(), "rule__AllocationViewType__Group_5__0");
 			builder.put(grammarAccess.getAllocationContextAccess().getGroup(), "rule__AllocationContext__Group__0");
+			builder.put(grammarAccess.getQualifiedNameAccess().getGroup(), "rule__QualifiedName__Group__0");
+			builder.put(grammarAccess.getQualifiedNameAccess().getGroup_1(), "rule__QualifiedName__Group_1__0");
 			builder.put(grammarAccess.getAllocationViewTypeAccess().getAllocationContextsAssignment_4(), "rule__AllocationViewType__AllocationContextsAssignment_4");
 			builder.put(grammarAccess.getAllocationViewTypeAccess().getAllocationContextsAssignment_5_1(), "rule__AllocationViewType__AllocationContextsAssignment_5_1");
 			builder.put(grammarAccess.getAllocationContextAccess().getContainerAssignment_3(), "rule__AllocationContext__ContainerAssignment_3");

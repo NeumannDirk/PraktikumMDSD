@@ -17,8 +17,11 @@ AllocationContext returns DeploymentViewPoint::AllocationContext:
 	'AllocationContext'
 	'{'
 		'container' container=[DeploymentViewPoint::Container|EString]
-		'assembly' assembly=[AssemblyViewPoint::AssemblyContext|EString]
+		'assembly' assembly=[AssemblyViewPoint::AssemblyContext|QualifiedName]
 	'}';
 
 EString returns ecore::EString:
 	STRING | ID;
+
+QualifiedName:
+    ID ('.' ID)*;
