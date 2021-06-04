@@ -1,0 +1,211 @@
+grammar org.xtext.mdsm.simplePalladio.Simplepalladio with org.eclipse.xtext.common.Terminals
+
+import "platform:/resource/SimplePalladio/model/simplePalladio.ecore#//Common" 
+import "http://www.eclipse.org/emf/2002/Ecore" as ecore
+import "platform:/resource/SimplePalladio/model/simplePalladio.ecore#//SystemIndependentViewPoint" as SystemIndependentViewPoint
+import "platform:/resource/SimplePalladio/model/simplePalladio.ecore#//AssemblyViewPoint" as AssemblyViewPoint
+import "platform:/resource/SimplePalladio/model/simplePalladio.ecore#//DeploymentViewPoint" as DeploymentViewPoint
+
+generate simplepalladio "http://www.xtext.org/mdsm/Simplepalladio"
+
+Model:
+	'{'
+	    repositoryViewType = RepositoryViewType
+	    assemblyViewType = AssemblyViewType
+	    environmentViewType = EnvironmentViewType
+	    allocationViewType = AllocationViewType
+	'}';
+
+	
+//Repository Specification
+RepositoryViewType returns SystemIndependentViewPoint::RepositoryViewType:
+	'RepositoryViewType'
+	'{'
+		'repositoryElements' '{' repositoryElements+=AbstractRepositoryElement ( "," repositoryElements+=AbstractRepositoryElement)* '}' 
+	'}';
+
+AbstractRepositoryElement returns SystemIndependentViewPoint::AbstractRepositoryElement:
+	Interface | CompositeComponent | Signature | Component;
+
+
+InterfaceCommunicator returns SystemIndependentViewPoint::InterfaceCommunicator:
+	CompositeComponent | Component | System;
+
+AbstractComponent returns SystemIndependentViewPoint::AbstractComponent:
+	CompositeComponent | Component;
+
+BehaviorElement returns SystemIndependentViewPoint::BehaviorElement:
+	InternalAction | ExternalCall | Loop | Branch;
+
+EString returns ecore::EString:
+	STRING | ID;
+
+Interface returns SystemIndependentViewPoint::Interface:
+	'Interface'
+	name=EString
+	'{'
+		'signatures' '(' signatures+=[SystemIndependentViewPoint::Signature|EString] ( "," signatures+=[SystemIndependentViewPoint::Signature|EString])* ')'  
+	'}';
+
+CompositeComponent returns SystemIndependentViewPoint::CompositeComponent:
+	'CompositeComponent'
+	name=EString
+	'{'
+		('requiredInterfaces' '(' requiredInterfaces+=[SystemIndependentViewPoint::Interface|EString] ( "," requiredInterfaces+=[SystemIndependentViewPoint::Interface|EString])* ')' )?
+		'providedInterfaces' '(' providedInterfaces+=[SystemIndependentViewPoint::Interface|EString] ( "," providedInterfaces+=[SystemIndependentViewPoint::Interface|EString])* ')' 
+		'system' system=[AssemblyViewPoint::System|EString]
+	'}';
+
+Signature returns SystemIndependentViewPoint::Signature:
+	'Signature'
+	name=EString
+	'{'
+		'returnValue' returnValue=Type
+		('parameters' '{' parameters+=Parameter ( "," parameters+=Parameter)* '}' )?
+	'}';
+
+Component returns SystemIndependentViewPoint::Component:
+	'Component'
+	name=EString
+	'{'
+		('requiredInterfaces' '(' requiredInterfaces+=[SystemIndependentViewPoint::Interface|EString] ( "," requiredInterfaces+=[SystemIndependentViewPoint::Interface|EString])* ')' )?
+		'providedInterfaces' '(' providedInterfaces+=[SystemIndependentViewPoint::Interface|EString] ( "," providedInterfaces+=[SystemIndependentViewPoint::Interface|EString])* ')' 
+		'services' '{' services+=Service ( "," services+=Service)* '}' 
+	'}';
+
+enum Type returns SystemIndependentViewPoint::Type:
+				VOID = 'VOID' | BOOLEAN = 'BOOLEAN' | CHAR = 'CHAR' | DATE = 'DATE' | DOUBLE = 'DOUBLE' | FLOAT = 'FLOAT' | LIST = 'LIST' | INT = 'INT' | LONG = 'LONG' | MAP = 'MAP' | STRING = 'STRING';
+
+Parameter returns SystemIndependentViewPoint::Parameter:
+	'Parameter'
+	name=EString
+	'{'
+		'type' type=Type
+	'}';
+
+Service returns SystemIndependentViewPoint::Service:
+	'Service'
+	'{'
+		'signature' signature=[SystemIndependentViewPoint::Signature|EString]
+		'behaviourDescription' behaviourDescription=BehaviourDescription
+	'}';
+
+BehaviourDescription returns SystemIndependentViewPoint::BehaviourDescription:
+	{SystemIndependentViewPoint::BehaviourDescription}
+	'BehaviourDescription'
+	'{'
+		('behaviorElements' '{' behaviorElements+=BehaviorElement ( "," behaviorElements+=BehaviorElement)* '}' )?
+	'}';
+
+InternalAction returns SystemIndependentViewPoint::InternalAction:
+	{SystemIndependentViewPoint::InternalAction}
+	'InternalAction'
+	;
+
+ExternalCall returns SystemIndependentViewPoint::ExternalCall:
+	'ExternalCall'
+	'{'
+		'signature' signature=[SystemIndependentViewPoint::Signature|EString]
+	'}';
+
+Loop returns SystemIndependentViewPoint::Loop:
+	{SystemIndependentViewPoint::Loop}
+	'Loop'
+	'{'
+		('behaviorElements' '(' behaviorElements+=[SystemIndependentViewPoint::BehaviorElement|EString] ( "," behaviorElements+=[SystemIndependentViewPoint::BehaviorElement|EString])* ')' )?
+	'}';
+
+Branch returns SystemIndependentViewPoint::Branch:
+	{SystemIndependentViewPoint::Branch}
+	'Branch'
+	'{'
+		('behaviorElements' '(' behaviorElements+=[SystemIndependentViewPoint::BehaviorElement|EString] ( "," behaviorElements+=[SystemIndependentViewPoint::BehaviorElement|EString])* ')' )?
+	'}';
+
+//Assembly Specification
+AssemblyViewType returns AssemblyViewPoint::AssemblyViewType:
+	'AssemblyViewType'
+	'{'
+		'systems' '{' systems+=System ( "," systems+=System)* '}' 
+	'}';
+
+AbstractSystemElement returns AssemblyViewPoint::AbstractSystemElement:
+	AssemblyContext | Role | DelegationConnector | AssemblyConnector;
+
+System returns AssemblyViewPoint::System:
+	'System' name=EString
+	'{'
+		('requiredInterfaces' '(' requiredInterfaces+=[SystemIndependentViewPoint::Interface|EString] ( "," requiredInterfaces+=[SystemIndependentViewPoint::Interface|EString])* ')' )?
+		'providedInterfaces' '(' providedInterfaces+=[SystemIndependentViewPoint::Interface|EString] ( "," providedInterfaces+=[SystemIndependentViewPoint::Interface|EString])* ')' 
+		'systemElements' '{' systemElements+=AbstractSystemElement ( "," systemElements+=AbstractSystemElement)* '}' 
+	'}';
+
+AssemblyContext returns AssemblyViewPoint::AssemblyContext:
+	'AssemblyContext'
+	name=EString
+	'{'
+		'component' component=[SystemIndependentViewPoint::AbstractComponent|EString]
+		'providedRoles' '(' providedRoles+=[AssemblyViewPoint::Role|EString] ( "," providedRoles+=[AssemblyViewPoint::Role|EString])* ')' 
+		('requiredRoles' '(' requiredRoles+=[AssemblyViewPoint::Role|EString] ( "," requiredRoles+=[AssemblyViewPoint::Role|EString])* ')' )?
+	'}';
+
+Role returns AssemblyViewPoint::Role:
+	'Role' name=EString
+	'{'
+		'interface' interface=[SystemIndependentViewPoint::Interface|EString]
+	'}';
+
+DelegationConnector returns AssemblyViewPoint::DelegationConnector:
+	'DelegationConnector'
+	'{'
+		'role' role=[AssemblyViewPoint::Role|EString]
+		'interface' interface=[SystemIndependentViewPoint::Interface|EString]
+	'}';
+
+AssemblyConnector returns AssemblyViewPoint::AssemblyConnector:
+	'AssemblyConnector'
+	'{'
+		'providedRole' providedRole=[AssemblyViewPoint::Role|EString]
+		'requiredRole' requiredRole=[AssemblyViewPoint::Role|EString]
+	'}';
+	
+//Environment Specification
+EnvironmentViewType returns DeploymentViewPoint::EnvironmentViewType:
+	'EnvironmentViewType'
+	'{'
+		'environmentElements' '{' environmentElements+=AbstractEnvironmentElement ( "," environmentElements+=AbstractEnvironmentElement)* '}' 
+	'}';
+	
+
+AbstractEnvironmentElement returns DeploymentViewPoint::AbstractEnvironmentElement:
+	Container | Link;
+
+Container returns DeploymentViewPoint::Container:
+	{DeploymentViewPoint::Container}
+	'Container'
+	name=EString;
+
+Link returns DeploymentViewPoint::Link:
+	'Link'
+	name=EString
+	'{'
+		'containers' '(' containers+=[DeploymentViewPoint::Container|EString] ( "," containers+=[DeploymentViewPoint::Container|EString])+ ')' 
+	'}';
+
+//Allocation Specification
+AllocationViewType returns DeploymentViewPoint::AllocationViewType:
+	'AllocationViewType'
+	'{'
+		'allocationContexts' '{' allocationContexts+=AllocationContext ( "," allocationContexts+=AllocationContext)* '}' 
+	'}';
+
+
+AllocationContext returns DeploymentViewPoint::AllocationContext:
+	'AllocationContext'
+	'{'
+		'container' container=[DeploymentViewPoint::Container|EString]
+		'assembly' assembly=[AssemblyViewPoint::AssemblyContext|QualifiedName]
+	'}';
+	
+QualifiedName:
+    ID ('.' ID)*;	

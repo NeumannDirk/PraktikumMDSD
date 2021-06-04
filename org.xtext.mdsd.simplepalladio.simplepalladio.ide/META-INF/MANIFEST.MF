@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: org.xtext.mdsd.simplepalladio.simplepalladio.ide
+Bundle-ManifestVersion: 2
+Bundle-Name: org.xtext.mdsd.simplepalladio.simplepalladio.ide
+Bundle-Vendor: My Company
+Bundle-Version: 1.0.0.qualifier
+Bundle-SymbolicName: org.xtext.mdsd.simplepalladio.simplepalladio.ide; singleton:=true
+Bundle-ActivationPolicy: lazy
+Require-Bundle: org.xtext.mdsd.simplepalladio.simplepalladio,
+ org.eclipse.xtext.ide,
+ org.eclipse.xtext.xbase.ide,
+ org.antlr.runtime;bundle-version="[3.2.0,3.2.1)"
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Export-Package: org.xtext.mdsm.simplePalladio.ide.contentassist.antlr.internal,
+ org.xtext.mdsm.simplePalladio.ide.contentassist.antlr
