@@ -1,0 +1,228 @@
+{
+	RepositoryViewType {
+		repositoryElements {
+		    Signature HTTPUpload {
+				returnValue VOID
+			},
+			Signature HTTPDownload {
+				returnValue VOID
+			},
+			Interface HTTP {
+				signatures (HTTPDownload, HTTPUpload)
+			},
+			Signature upload {
+				returnValue VOID
+			},
+			Signature download {
+				returnValue VOID
+			},
+			Interface IMediaStore {
+				signatures (download, upload)
+			},
+			Signature watermark {
+				returnValue VOID
+			},
+			Interface Sound {
+				signatures (watermark)
+			},
+			Signature queryDB {
+				returnValue VOID
+			},
+			Signature addFile {
+				returnValue VOID
+			},
+			Interface AudioDB {
+				signatures (addFile, queryDB)
+			},
+			Component PoolingAudiaDB {
+				providedInterfaces (AudioDB)
+				services {
+					Service {
+						signature addFile
+						behaviourDescription BehaviourDescription {		
+						}
+					}
+				}
+			},
+			Component DigitalWatermarking {
+				providedInterfaces (Sound)
+				services {
+					Service {
+						signature watermark
+						behaviourDescription BehaviourDescription {		
+						}
+					}
+				}
+			},
+			Component DBCache {
+				requiredInterfaces (AudioDB)
+				providedInterfaces (AudioDB)
+				services {
+					Service {
+						signature addFile
+						behaviourDescription BehaviourDescription {		
+						}
+					}
+				}
+			},
+			Component MediaManager {
+				requiredInterfaces (Sound, AudioDB)
+				providedInterfaces (IMediaStore)
+				services {
+					Service {
+						signature upload
+						behaviourDescription BehaviourDescription {		
+						}
+					}
+				}
+			},
+			Component WebGui {
+				requiredInterfaces (IMediaStore)
+				providedInterfaces (HTTP)
+				services {
+					Service {
+						signature HTTPUpload
+						behaviourDescription BehaviourDescription {		
+						}
+					}
+				}
+			},
+			CompositeComponent MediaStore {
+				requiredInterfaces (AudioDB)
+				providedInterfaces (IMediaStore)
+				system MediaStore
+			}			
+		}
+	}
+	AssemblyViewType {
+		systems {
+			System MediaStore {
+				requiredInterfaces (AudioDB)
+				providedInterfaces (IMediaStore)
+				systemElements {
+					Role MediaManagerAC_IMediaStore_Provider {
+						interface IMediaStore
+					},
+					Role MediaManagerAC_Sound_Requiree {
+						interface Sound
+					},
+					Role MediaManagerAC_AudioDB_Requiree {
+						interface AudioDB
+					},
+					Role DBCacheAC_AudioDB_Provider {
+						interface AudioDB
+					},
+					Role DBCacheAC_AudioDB_Requiree {
+						interface AudioDB
+					},
+					Role DigitalWatermarkingAC_Sound_Provider {
+						interface Sound
+					},
+					
+					AssemblyContext MediaManagerAC {
+						component MediaManager
+						providedRoles (MediaManagerAC_IMediaStore_Provider)
+						requiredRoles (MediaManagerAC_Sound_Requiree, MediaManagerAC_AudioDB_Requiree)
+					},
+					AssemblyContext DBCacheAC {
+						component DBCache
+						providedRoles (DBCacheAC_AudioDB_Provider)
+						requiredRoles (DBCacheAC_AudioDB_Requiree)
+					},
+					AssemblyContext DigitalWatermarkingAC {
+						component DigitalWatermarking
+						providedRoles (DigitalWatermarkingAC_Sound_Provider)
+					},
+					DelegationConnector {
+						role MediaManagerAC_IMediaStore_Provider
+						interface IMediaStore
+					},
+					DelegationConnector {
+						role DBCacheAC_AudioDB_Requiree
+						interface AudioDB
+					},
+					AssemblyConnector {
+						providedRole DigitalWatermarkingAC_Sound_Provider
+						requiredRole MediaManagerAC_Sound_Requiree
+					},
+					AssemblyConnector {
+						providedRole DBCacheAC_AudioDB_Provider
+						requiredRole MediaManagerAC_AudioDB_Requiree
+					}
+				}
+			},
+			System Sys {
+				providedInterfaces (HTTP)
+				systemElements {
+					Role WebGUIAC_HTTP_Provider {
+						interface HTTP
+					},
+					Role WebGUIAC_IMediaStore_Requiree {
+						interface IMediaStore
+					},
+					Role MediaStoreAC_IMediaStore_Provider {
+						interface IMediaStore
+					},
+					Role MediaStoreAC_AudioDB_Requiree {
+						interface AudioDB
+					},
+					Role PoolingAudioDBAC_AudioDB_Provider {
+						interface AudioDB
+					},
+					AssemblyContext WebGUIAC {
+						component WebGui
+						providedRoles (WebGUIAC_HTTP_Provider)
+						requiredRoles (WebGUIAC_IMediaStore_Requiree)
+					},
+					AssemblyContext MediaStoreAC {
+						component MediaStore
+						providedRoles (MediaStoreAC_IMediaStore_Provider)
+						requiredRoles (MediaStoreAC_AudioDB_Requiree)
+					},
+					AssemblyContext PoolingAudioDBAC {
+						component PoolingAudiaDB
+						providedRoles (PoolingAudioDBAC_AudioDB_Provider)
+					},
+					DelegationConnector {
+						role WebGUIAC_HTTP_Provider
+						interface HTTP
+					},
+					AssemblyConnector {
+						providedRole MediaStoreAC_IMediaStore_Provider
+						requiredRole WebGUIAC_IMediaStore_Requiree
+					},
+					AssemblyConnector {
+						providedRole PoolingAudioDBAC_AudioDB_Provider
+						requiredRole MediaStoreAC_AudioDB_Requiree
+					}
+					
+				}
+			}							
+		}
+	}
+	EnvironmentViewType {
+		environmentElements {
+			Container ApplicationServer,
+			Container DatabaseServer,
+			Link Network {
+				containers (ApplicationServer, DatabaseServer)
+			}			
+		}
+	}
+	AllocationViewType {
+		allocationContexts {
+			AllocationContext {
+				container ApplicationServer
+				assembly Sys.WebGUIAC
+			},
+			AllocationContext {
+				container ApplicationServer
+				assembly Sys.MediaStoreAC
+			},
+			AllocationContext {
+				container DatabaseServer
+				assembly Sys.PoolingAudioDBAC
+			}			
+		}
+	}
+}
