@@ -21,7 +21,7 @@ import simplePalladio.AssemblyViewPoint.AssemblyContext;
  *
  * @see simplePalladio.DeploymentViewPoint.DeploymentViewPointPackage#getAllocationContext()
  * @model annotation="http://www.eclipse.org/emf/2002/Ecore constraints='ConnectedAssemblyContextsMustBeOnConnectedContainers'"
- *        annotation="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot ConnectedAssemblyContextsMustBeOnConnectedContainers='assembly.requiredRoles-&gt;forAll(r :simplePalladio::AssemblyViewPoint::Role | r.fromAssemblyConnectors-&gt;forAll(ac : simplePalladio::AssemblyViewPoint::AssemblyConnector | let c1:Container =  ac.providedRole.parentProviderAssemblyContext.allocationContext.container in c1 = self.container or c1.links-&gt;includes(self.container)))'"
+ *        annotation="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot ConnectedAssemblyContextsMustBeOnConnectedContainers='self.assembly.requiredRoles-&gt;forAll(r | r.fromAssemblyConnectors-&gt;collect(ac | ac.providedRole.parentProviderAssemblyContext.allocationContext.container)-&gt;forAll(c:Container | c = self.container or c.links-&gt;collect(l: Link|l.containers)-&gt;includes(self.container)))'"
  * @generated
  */
 public interface AllocationContext extends EObject {

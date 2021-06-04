@@ -24,6 +24,7 @@ import simplePalladio.AssemblyViewPoint.Role;
 
 import simplePalladio.Common.CommonPackage;
 import simplePalladio.Common.NamedElement;
+
 import simplePalladio.SystemIndependentViewPoint.Interface;
 
 /**

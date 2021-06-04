@@ -21,6 +21,7 @@ import simplePalladio.AssemblyViewPoint.AssemblyViewPointFactory;
 import simplePalladio.AssemblyViewPoint.AssemblyViewPointPackage;
 
 import simplePalladio.Common.CommonPackage;
+
 import simplePalladio.SystemIndependentViewPoint.provider.InterfaceCommunicatorItemProvider;
 import simplePalladio.SystemIndependentViewPoint.provider.SimplePalladioEditPlugin;
 

@@ -439,7 +439,7 @@ public class DeploymentViewPointPackageImpl extends EPackageImpl implements Depl
 		String source = "http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot";
 		addAnnotation(allocationContextEClass, source, new String[] {
 				"ConnectedAssemblyContextsMustBeOnConnectedContainers",
-				"assembly.requiredRoles->forAll(r :simplePalladio::AssemblyViewPoint::Role | r.fromAssemblyConnectors->forAll(ac : simplePalladio::AssemblyViewPoint::AssemblyConnector | let c1:Container =  ac.providedRole.parentProviderAssemblyContext.allocationContext.container in c1 = self.container or c1.links->includes(self.container)))" });
+				"self.assembly.requiredRoles->forAll(r | r.fromAssemblyConnectors->collect(ac | ac.providedRole.parentProviderAssemblyContext.allocationContext.container)->forAll(c:Container | c = self.container or c.links->collect(l: Link|l.containers)->includes(self.container)))" });
 	}
 
 } //DeploymentViewPointPackageImpl

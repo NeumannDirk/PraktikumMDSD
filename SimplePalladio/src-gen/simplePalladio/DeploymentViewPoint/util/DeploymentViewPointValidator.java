@@ -178,7 +178,7 @@ public class DeploymentViewPointValidator extends EObjectValidator {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected static final String ALLOCATION_CONTEXT__CONNECTED_ASSEMBLY_CONTEXTS_MUST_BE_ON_CONNECTED_CONTAINERS__EEXPRESSION = "assembly.requiredRoles->forAll(r :simplePalladio::AssemblyViewPoint::Role | r.fromAssemblyConnectors->forAll(ac : simplePalladio::AssemblyViewPoint::AssemblyConnector | let c1:Container =  ac.providedRole.parentProviderAssemblyContext.allocationContext.container in c1 = self.container or c1.links->includes(self.container)))";
+	protected static final String ALLOCATION_CONTEXT__CONNECTED_ASSEMBLY_CONTEXTS_MUST_BE_ON_CONNECTED_CONTAINERS__EEXPRESSION = "self.assembly.requiredRoles->forAll(r | r.fromAssemblyConnectors->collect(ac | ac.providedRole.parentProviderAssemblyContext.allocationContext.container)->forAll(c:Container | c = self.container or c.links->collect(l: Link|l.containers)->includes(self.container)))";
 
 	/**
 	 * Validates the ConnectedAssemblyContextsMustBeOnConnectedContainers constraint of '<em>Allocation Context</em>'.

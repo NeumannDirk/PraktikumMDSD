@@ -13,6 +13,7 @@ import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.InternalEObject;
 
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
+
 import org.eclipse.emf.ecore.util.EObjectContainmentWithInverseEList;
 import org.eclipse.emf.ecore.util.InternalEList;
 
@@ -21,6 +22,7 @@ import simplePalladio.AssemblyViewPoint.AssemblyViewPointPackage;
 
 import simplePalladio.Common.CommonPackage;
 import simplePalladio.Common.NamedElement;
+
 import simplePalladio.SystemIndependentViewPoint.impl.InterfaceCommunicatorImpl;
 
 /**
@@ -47,6 +49,7 @@ public class SystemImpl extends InterfaceCommunicatorImpl implements simplePalla
 	 * @ordered
 	 */
 	protected static final String NAME_EDEFAULT = null;
+
 	/**
 	 * The cached value of the '{@link #getName() <em>Name</em>}' attribute.
 	 * <!-- begin-user-doc -->
@@ -56,6 +59,7 @@ public class SystemImpl extends InterfaceCommunicatorImpl implements simplePalla
 	 * @ordered
 	 */
 	protected String name = NAME_EDEFAULT;
+
 	/**
 	 * The cached value of the '{@link #getSystemElements() <em>System Elements</em>}' containment reference list.
 	 * <!-- begin-user-doc -->

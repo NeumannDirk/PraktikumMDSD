@@ -5,6 +5,7 @@ package simplePalladio.AssemblyViewPoint;
 import org.eclipse.emf.common.util.EList;
 
 import simplePalladio.Common.NamedElement;
+
 import simplePalladio.SystemIndependentViewPoint.Interface;
 
 /**
