@@ -2,15 +2,15 @@ AllocationViewType {
 	allocationContexts {
 		AllocationContext {
 			container ApplicationServer
-			assembly WebGUIAC
+			assembly Sys.WebGUIAC
 		},
 		AllocationContext {
 			container ApplicationServer
-			assembly MediaStoreAC
+			assembly Sys.MediaStoreAC
 		},
 		AllocationContext {
 			container DatabaseServer
-			assembly PoolingAudioDBAC
+			assembly Sys.PoolingAudioDBAC
 		}
 	}
 }
