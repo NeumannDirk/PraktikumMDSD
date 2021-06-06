@@ -102,16 +102,15 @@
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="Loop" eSuperTypes="#//SystemIndependentViewPoint/BehaviorElement">
       <eStructuralFeatures xsi:type="ecore:EReference" name="behaviorElements" upperBound="-1"
-          eType="#//SystemIndependentViewPoint/BehaviorElement"/>
+          eType="#//SystemIndependentViewPoint/BehaviorElement" containment="true"/>
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="Branch" eSuperTypes="#//SystemIndependentViewPoint/BehaviorElement">
       <eStructuralFeatures xsi:type="ecore:EReference" name="behaviorElements" upperBound="-1"
-          eType="#//SystemIndependentViewPoint/BehaviorElement"/>
+          eType="#//SystemIndependentViewPoint/BehaviorElement" containment="true"/>
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="BehaviorElement" abstract="true">
       <eStructuralFeatures xsi:type="ecore:EReference" name="behaviourDescription"
-          lowerBound="1" eType="#//SystemIndependentViewPoint/BehaviourDescription"
-          eOpposite="#//SystemIndependentViewPoint/BehaviourDescription/behaviorElements"/>
+          eType="#//SystemIndependentViewPoint/BehaviourDescription" eOpposite="#//SystemIndependentViewPoint/BehaviourDescription/behaviorElements"/>
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="InterfaceCommunicator" abstract="true">
       <eStructuralFeatures xsi:type="ecore:EReference" name="requiredInterfaces" upperBound="-1"

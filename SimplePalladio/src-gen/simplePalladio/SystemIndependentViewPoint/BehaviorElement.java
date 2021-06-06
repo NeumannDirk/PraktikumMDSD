@@ -30,7 +30,7 @@ public interface BehaviorElement extends EObject {
 	 * @see #setBehaviourDescription(BehaviourDescription)
 	 * @see simplePalladio.SystemIndependentViewPoint.SystemIndependentViewPointPackage#getBehaviorElement_BehaviourDescription()
 	 * @see simplePalladio.SystemIndependentViewPoint.BehaviourDescription#getBehaviorElements
-	 * @model opposite="behaviorElements" required="true" transient="false"
+	 * @model opposite="behaviorElements" transient="false"
 	 * @generated
 	 */
 	BehaviourDescription getBehaviourDescription();

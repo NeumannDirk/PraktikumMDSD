@@ -724,7 +724,7 @@ public interface SystemIndependentViewPointPackage extends EPackage {
 	int LOOP__BEHAVIOUR_DESCRIPTION = BEHAVIOR_ELEMENT__BEHAVIOUR_DESCRIPTION;
 
 	/**
-	 * The feature id for the '<em><b>Behavior Elements</b></em>' reference list.
+	 * The feature id for the '<em><b>Behavior Elements</b></em>' containment reference list.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
@@ -770,7 +770,7 @@ public interface SystemIndependentViewPointPackage extends EPackage {
 	int BRANCH__BEHAVIOUR_DESCRIPTION = BEHAVIOR_ELEMENT__BEHAVIOUR_DESCRIPTION;
 
 	/**
-	 * The feature id for the '<em><b>Behavior Elements</b></em>' reference list.
+	 * The feature id for the '<em><b>Behavior Elements</b></em>' containment reference list.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
@@ -1148,10 +1148,10 @@ public interface SystemIndependentViewPointPackage extends EPackage {
 	EClass getLoop();
 
 	/**
-	 * Returns the meta object for the reference list '{@link simplePalladio.SystemIndependentViewPoint.Loop#getBehaviorElements <em>Behavior Elements</em>}'.
+	 * Returns the meta object for the containment reference list '{@link simplePalladio.SystemIndependentViewPoint.Loop#getBehaviorElements <em>Behavior Elements</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference list '<em>Behavior Elements</em>'.
+	 * @return the meta object for the containment reference list '<em>Behavior Elements</em>'.
 	 * @see simplePalladio.SystemIndependentViewPoint.Loop#getBehaviorElements()
 	 * @see #getLoop()
 	 * @generated
@@ -1169,10 +1169,10 @@ public interface SystemIndependentViewPointPackage extends EPackage {
 	EClass getBranch();
 
 	/**
-	 * Returns the meta object for the reference list '{@link simplePalladio.SystemIndependentViewPoint.Branch#getBehaviorElements <em>Behavior Elements</em>}'.
+	 * Returns the meta object for the containment reference list '{@link simplePalladio.SystemIndependentViewPoint.Branch#getBehaviorElements <em>Behavior Elements</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference list '<em>Behavior Elements</em>'.
+	 * @return the meta object for the containment reference list '<em>Behavior Elements</em>'.
 	 * @see simplePalladio.SystemIndependentViewPoint.Branch#getBehaviorElements()
 	 * @see #getBranch()
 	 * @generated
@@ -1516,7 +1516,7 @@ public interface SystemIndependentViewPointPackage extends EPackage {
 		EClass LOOP = eINSTANCE.getLoop();
 
 		/**
-		 * The meta object literal for the '<em><b>Behavior Elements</b></em>' reference list feature.
+		 * The meta object literal for the '<em><b>Behavior Elements</b></em>' containment reference list feature.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
 		 * @generated
@@ -1534,7 +1534,7 @@ public interface SystemIndependentViewPointPackage extends EPackage {
 		EClass BRANCH = eINSTANCE.getBranch();
 
 		/**
-		 * The meta object literal for the '<em><b>Behavior Elements</b></em>' reference list feature.
+		 * The meta object literal for the '<em><b>Behavior Elements</b></em>' containment reference list feature.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
 		 * @generated

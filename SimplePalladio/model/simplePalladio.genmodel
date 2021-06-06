@@ -69,11 +69,11 @@
             ecoreFeature="ecore:EReference simplePalladio.ecore#//SystemIndependentViewPoint/ExternalCall/signature"/>
       </genClasses>
       <genClasses ecoreClass="simplePalladio.ecore#//SystemIndependentViewPoint/Loop">
-        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+        <genFeatures children="true" createChild="true" propertySortChoices="true"
             ecoreFeature="ecore:EReference simplePalladio.ecore#//SystemIndependentViewPoint/Loop/behaviorElements"/>
       </genClasses>
       <genClasses ecoreClass="simplePalladio.ecore#//SystemIndependentViewPoint/Branch">
-        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+        <genFeatures children="true" createChild="true" propertySortChoices="true"
             ecoreFeature="ecore:EReference simplePalladio.ecore#//SystemIndependentViewPoint/Branch/behaviorElements"/>
       </genClasses>
       <genClasses ecoreClass="simplePalladio.ecore#//SystemIndependentViewPoint/BehaviorElement">

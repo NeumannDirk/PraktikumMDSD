@@ -22,13 +22,13 @@ import org.eclipse.emf.common.util.EList;
  */
 public interface Loop extends BehaviorElement {
 	/**
-	 * Returns the value of the '<em><b>Behavior Elements</b></em>' reference list.
+	 * Returns the value of the '<em><b>Behavior Elements</b></em>' containment reference list.
 	 * The list contents are of type {@link simplePalladio.SystemIndependentViewPoint.BehaviorElement}.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Behavior Elements</em>' reference list.
+	 * @return the value of the '<em>Behavior Elements</em>' containment reference list.
 	 * @see simplePalladio.SystemIndependentViewPoint.SystemIndependentViewPointPackage#getLoop_BehaviorElements()
-	 * @model
+	 * @model containment="true"
 	 * @generated
 	 */
 	EList<BehaviorElement> getBehaviorElements();

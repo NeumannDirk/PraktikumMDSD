@@ -4,12 +4,14 @@ package simplePalladio.SystemIndependentViewPoint.impl;
 
 import java.util.Collection;
 
+import org.eclipse.emf.common.notify.NotificationChain;
 import org.eclipse.emf.common.util.EList;
 
 import org.eclipse.emf.ecore.EClass;
 
-import org.eclipse.emf.ecore.util.EObjectResolvingEList;
-
+import org.eclipse.emf.ecore.InternalEObject;
+import org.eclipse.emf.ecore.util.EObjectContainmentEList;
+import org.eclipse.emf.ecore.util.InternalEList;
 import simplePalladio.SystemIndependentViewPoint.BehaviorElement;
 import simplePalladio.SystemIndependentViewPoint.Loop;
 import simplePalladio.SystemIndependentViewPoint.SystemIndependentViewPointPackage;
@@ -29,7 +31,7 @@ import simplePalladio.SystemIndependentViewPoint.SystemIndependentViewPointPacka
  */
 public class LoopImpl extends BehaviorElementImpl implements Loop {
 	/**
-	 * The cached value of the '{@link #getBehaviorElements() <em>Behavior Elements</em>}' reference list.
+	 * The cached value of the '{@link #getBehaviorElements() <em>Behavior Elements</em>}' containment reference list.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @see #getBehaviorElements()
@@ -64,10 +66,24 @@ public class LoopImpl extends BehaviorElementImpl implements Loop {
 	 */
 	public EList<BehaviorElement> getBehaviorElements() {
 		if (behaviorElements == null) {
-			behaviorElements = new EObjectResolvingEList<BehaviorElement>(BehaviorElement.class, this,
+			behaviorElements = new EObjectContainmentEList<BehaviorElement>(BehaviorElement.class, this,
 					SystemIndependentViewPointPackage.LOOP__BEHAVIOR_ELEMENTS);
 		}
 		return behaviorElements;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
+		switch (featureID) {
+		case SystemIndependentViewPointPackage.LOOP__BEHAVIOR_ELEMENTS:
+			return ((InternalEList<?>) getBehaviorElements()).basicRemove(otherEnd, msgs);
+		}
+		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
 
 	/**
