@@ -652,7 +652,7 @@ ruleCompositeComponent returns [EObject current=null]
 				{
 					newCompositeNode(grammarAccess.getCompositeComponentAccess().getSystemSystemCrossReference_10_0());
 				}
-				ruleEString
+				ruleQualifiedName
 				{
 					afterParserOrEnumRuleCall();
 				}
@@ -1182,21 +1182,44 @@ ruleBehaviourDescription returns [EObject current=null]
 		{
 			newLeafNode(otherlv_2, grammarAccess.getBehaviourDescriptionAccess().getLeftCurlyBracketKeyword_2());
 		}
+		otherlv_3='behaviorElements'
+		{
+			newLeafNode(otherlv_3, grammarAccess.getBehaviourDescriptionAccess().getBehaviorElementsKeyword_3());
+		}
+		otherlv_4='{'
+		{
+			newLeafNode(otherlv_4, grammarAccess.getBehaviourDescriptionAccess().getLeftCurlyBracketKeyword_4());
+		}
 		(
-			otherlv_3='behaviorElements'
+			(
+				{
+					newCompositeNode(grammarAccess.getBehaviourDescriptionAccess().getBehaviorElementsBehaviorElementParserRuleCall_5_0());
+				}
+				lv_behaviorElements_5_0=ruleBehaviorElement
+				{
+					if ($current==null) {
+						$current = createModelElementForParent(grammarAccess.getBehaviourDescriptionRule());
+					}
+					add(
+						$current,
+						"behaviorElements",
+						lv_behaviorElements_5_0,
+						"org.xtext.mdsm.simplePalladio.Simplepalladio.BehaviorElement");
+					afterParserOrEnumRuleCall();
+				}
+			)
+		)
+		(
+			otherlv_6=','
 			{
-				newLeafNode(otherlv_3, grammarAccess.getBehaviourDescriptionAccess().getBehaviorElementsKeyword_3_0());
-			}
-			otherlv_4='{'
-			{
-				newLeafNode(otherlv_4, grammarAccess.getBehaviourDescriptionAccess().getLeftCurlyBracketKeyword_3_1());
+				newLeafNode(otherlv_6, grammarAccess.getBehaviourDescriptionAccess().getCommaKeyword_6_0());
 			}
 			(
 				(
 					{
-						newCompositeNode(grammarAccess.getBehaviourDescriptionAccess().getBehaviorElementsBehaviorElementParserRuleCall_3_2_0());
+						newCompositeNode(grammarAccess.getBehaviourDescriptionAccess().getBehaviorElementsBehaviorElementParserRuleCall_6_1_0());
 					}
-					lv_behaviorElements_5_0=ruleBehaviorElement
+					lv_behaviorElements_7_0=ruleBehaviorElement
 					{
 						if ($current==null) {
 							$current = createModelElementForParent(grammarAccess.getBehaviourDescriptionRule());
@@ -1204,45 +1227,20 @@ ruleBehaviourDescription returns [EObject current=null]
 						add(
 							$current,
 							"behaviorElements",
-							lv_behaviorElements_5_0,
+							lv_behaviorElements_7_0,
 							"org.xtext.mdsm.simplePalladio.Simplepalladio.BehaviorElement");
 						afterParserOrEnumRuleCall();
 					}
 				)
 			)
-			(
-				otherlv_6=','
-				{
-					newLeafNode(otherlv_6, grammarAccess.getBehaviourDescriptionAccess().getCommaKeyword_3_3_0());
-				}
-				(
-					(
-						{
-							newCompositeNode(grammarAccess.getBehaviourDescriptionAccess().getBehaviorElementsBehaviorElementParserRuleCall_3_3_1_0());
-						}
-						lv_behaviorElements_7_0=ruleBehaviorElement
-						{
-							if ($current==null) {
-								$current = createModelElementForParent(grammarAccess.getBehaviourDescriptionRule());
-							}
-							add(
-								$current,
-								"behaviorElements",
-								lv_behaviorElements_7_0,
-								"org.xtext.mdsm.simplePalladio.Simplepalladio.BehaviorElement");
-							afterParserOrEnumRuleCall();
-						}
-					)
-				)
-			)*
-			otherlv_8='}'
-			{
-				newLeafNode(otherlv_8, grammarAccess.getBehaviourDescriptionAccess().getRightCurlyBracketKeyword_3_4());
-			}
-		)?
+		)*
+		otherlv_8='}'
+		{
+			newLeafNode(otherlv_8, grammarAccess.getBehaviourDescriptionAccess().getRightCurlyBracketKeyword_7());
+		}
 		otherlv_9='}'
 		{
-			newLeafNode(otherlv_9, grammarAccess.getBehaviourDescriptionAccess().getRightCurlyBracketKeyword_4());
+			newLeafNode(otherlv_9, grammarAccess.getBehaviourDescriptionAccess().getRightCurlyBracketKeyword_8());
 		}
 	)
 ;
@@ -1364,22 +1362,25 @@ ruleLoop returns [EObject current=null]
 			{
 				newLeafNode(otherlv_3, grammarAccess.getLoopAccess().getBehaviorElementsKeyword_3_0());
 			}
-			otherlv_4='('
+			otherlv_4='{'
 			{
-				newLeafNode(otherlv_4, grammarAccess.getLoopAccess().getLeftParenthesisKeyword_3_1());
+				newLeafNode(otherlv_4, grammarAccess.getLoopAccess().getLeftCurlyBracketKeyword_3_1());
 			}
 			(
 				(
 					{
+						newCompositeNode(grammarAccess.getLoopAccess().getBehaviorElementsBehaviorElementParserRuleCall_3_2_0());
+					}
+					lv_behaviorElements_5_0=ruleBehaviorElement
+					{
 						if ($current==null) {
-							$current = createModelElement(grammarAccess.getLoopRule());
+							$current = createModelElementForParent(grammarAccess.getLoopRule());
 						}
-					}
-					{
-						newCompositeNode(grammarAccess.getLoopAccess().getBehaviorElementsBehaviorElementCrossReference_3_2_0());
-					}
-					ruleEString
-					{
+						add(
+							$current,
+							"behaviorElements",
+							lv_behaviorElements_5_0,
+							"org.xtext.mdsm.simplePalladio.Simplepalladio.BehaviorElement");
 						afterParserOrEnumRuleCall();
 					}
 				)
@@ -1392,23 +1393,26 @@ ruleLoop returns [EObject current=null]
 				(
 					(
 						{
+							newCompositeNode(grammarAccess.getLoopAccess().getBehaviorElementsBehaviorElementParserRuleCall_3_3_1_0());
+						}
+						lv_behaviorElements_7_0=ruleBehaviorElement
+						{
 							if ($current==null) {
-								$current = createModelElement(grammarAccess.getLoopRule());
+								$current = createModelElementForParent(grammarAccess.getLoopRule());
 							}
-						}
-						{
-							newCompositeNode(grammarAccess.getLoopAccess().getBehaviorElementsBehaviorElementCrossReference_3_3_1_0());
-						}
-						ruleEString
-						{
+							add(
+								$current,
+								"behaviorElements",
+								lv_behaviorElements_7_0,
+								"org.xtext.mdsm.simplePalladio.Simplepalladio.BehaviorElement");
 							afterParserOrEnumRuleCall();
 						}
 					)
 				)
 			)*
-			otherlv_8=')'
+			otherlv_8='}'
 			{
-				newLeafNode(otherlv_8, grammarAccess.getLoopAccess().getRightParenthesisKeyword_3_4());
+				newLeafNode(otherlv_8, grammarAccess.getLoopAccess().getRightCurlyBracketKeyword_3_4());
 			}
 		)?
 		otherlv_9='}'
@@ -1454,22 +1458,25 @@ ruleBranch returns [EObject current=null]
 			{
 				newLeafNode(otherlv_3, grammarAccess.getBranchAccess().getBehaviorElementsKeyword_3_0());
 			}
-			otherlv_4='('
+			otherlv_4='{'
 			{
-				newLeafNode(otherlv_4, grammarAccess.getBranchAccess().getLeftParenthesisKeyword_3_1());
+				newLeafNode(otherlv_4, grammarAccess.getBranchAccess().getLeftCurlyBracketKeyword_3_1());
 			}
 			(
 				(
 					{
+						newCompositeNode(grammarAccess.getBranchAccess().getBehaviorElementsBehaviorElementParserRuleCall_3_2_0());
+					}
+					lv_behaviorElements_5_0=ruleBehaviorElement
+					{
 						if ($current==null) {
-							$current = createModelElement(grammarAccess.getBranchRule());
+							$current = createModelElementForParent(grammarAccess.getBranchRule());
 						}
-					}
-					{
-						newCompositeNode(grammarAccess.getBranchAccess().getBehaviorElementsBehaviorElementCrossReference_3_2_0());
-					}
-					ruleEString
-					{
+						add(
+							$current,
+							"behaviorElements",
+							lv_behaviorElements_5_0,
+							"org.xtext.mdsm.simplePalladio.Simplepalladio.BehaviorElement");
 						afterParserOrEnumRuleCall();
 					}
 				)
@@ -1482,23 +1489,26 @@ ruleBranch returns [EObject current=null]
 				(
 					(
 						{
+							newCompositeNode(grammarAccess.getBranchAccess().getBehaviorElementsBehaviorElementParserRuleCall_3_3_1_0());
+						}
+						lv_behaviorElements_7_0=ruleBehaviorElement
+						{
 							if ($current==null) {
-								$current = createModelElement(grammarAccess.getBranchRule());
+								$current = createModelElementForParent(grammarAccess.getBranchRule());
 							}
-						}
-						{
-							newCompositeNode(grammarAccess.getBranchAccess().getBehaviorElementsBehaviorElementCrossReference_3_3_1_0());
-						}
-						ruleEString
-						{
+							add(
+								$current,
+								"behaviorElements",
+								lv_behaviorElements_7_0,
+								"org.xtext.mdsm.simplePalladio.Simplepalladio.BehaviorElement");
 							afterParserOrEnumRuleCall();
 						}
 					)
 				)
 			)*
-			otherlv_8=')'
+			otherlv_8='}'
 			{
-				newLeafNode(otherlv_8, grammarAccess.getBranchAccess().getRightParenthesisKeyword_3_4());
+				newLeafNode(otherlv_8, grammarAccess.getBranchAccess().getRightCurlyBracketKeyword_3_4());
 			}
 		)?
 		otherlv_9='}'

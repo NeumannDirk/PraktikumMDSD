@@ -1485,10 +1485,10 @@ public class InternalSimplepalladioLexer extends Lexer {
         try {
             int _type = RULE_ID;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // InternalSimplepalladio.g:9383:9: ( ( '^' )? ( 'a' .. 'z' | 'A' .. 'Z' | '_' ) ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' )* )
-            // InternalSimplepalladio.g:9383:11: ( '^' )? ( 'a' .. 'z' | 'A' .. 'Z' | '_' ) ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' )*
+            // InternalSimplepalladio.g:9340:9: ( ( '^' )? ( 'a' .. 'z' | 'A' .. 'Z' | '_' ) ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' )* )
+            // InternalSimplepalladio.g:9340:11: ( '^' )? ( 'a' .. 'z' | 'A' .. 'Z' | '_' ) ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' )*
             {
-            // InternalSimplepalladio.g:9383:11: ( '^' )?
+            // InternalSimplepalladio.g:9340:11: ( '^' )?
             int alt1=2;
             int LA1_0 = input.LA(1);
 
@@ -1497,7 +1497,7 @@ public class InternalSimplepalladioLexer extends Lexer {
             }
             switch (alt1) {
                 case 1 :
-                    // InternalSimplepalladio.g:9383:11: '^'
+                    // InternalSimplepalladio.g:9340:11: '^'
                     {
                     match('^'); 
 
@@ -1515,7 +1515,7 @@ public class InternalSimplepalladioLexer extends Lexer {
                 recover(mse);
                 throw mse;}
 
-            // InternalSimplepalladio.g:9383:40: ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' )*
+            // InternalSimplepalladio.g:9340:40: ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' )*
             loop2:
             do {
                 int alt2=2;
@@ -1564,10 +1564,10 @@ public class InternalSimplepalladioLexer extends Lexer {
         try {
             int _type = RULE_INT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // InternalSimplepalladio.g:9385:10: ( ( '0' .. '9' )+ )
-            // InternalSimplepalladio.g:9385:12: ( '0' .. '9' )+
+            // InternalSimplepalladio.g:9342:10: ( ( '0' .. '9' )+ )
+            // InternalSimplepalladio.g:9342:12: ( '0' .. '9' )+
             {
-            // InternalSimplepalladio.g:9385:12: ( '0' .. '9' )+
+            // InternalSimplepalladio.g:9342:12: ( '0' .. '9' )+
             int cnt3=0;
             loop3:
             do {
@@ -1581,7 +1581,7 @@ public class InternalSimplepalladioLexer extends Lexer {
 
                 switch (alt3) {
             	case 1 :
-            	    // InternalSimplepalladio.g:9385:13: '0' .. '9'
+            	    // InternalSimplepalladio.g:9342:13: '0' .. '9'
             	    {
             	    matchRange('0','9'); 
 
@@ -1613,10 +1613,10 @@ public class InternalSimplepalladioLexer extends Lexer {
         try {
             int _type = RULE_STRING;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // InternalSimplepalladio.g:9387:13: ( ( '\"' ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )* '\"' | '\\'' ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )* '\\'' ) )
-            // InternalSimplepalladio.g:9387:15: ( '\"' ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )* '\"' | '\\'' ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )* '\\'' )
+            // InternalSimplepalladio.g:9344:13: ( ( '\"' ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )* '\"' | '\\'' ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )* '\\'' ) )
+            // InternalSimplepalladio.g:9344:15: ( '\"' ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )* '\"' | '\\'' ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )* '\\'' )
             {
-            // InternalSimplepalladio.g:9387:15: ( '\"' ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )* '\"' | '\\'' ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )* '\\'' )
+            // InternalSimplepalladio.g:9344:15: ( '\"' ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )* '\"' | '\\'' ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )* '\\'' )
             int alt6=2;
             int LA6_0 = input.LA(1);
 
@@ -1634,10 +1634,10 @@ public class InternalSimplepalladioLexer extends Lexer {
             }
             switch (alt6) {
                 case 1 :
-                    // InternalSimplepalladio.g:9387:16: '\"' ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )* '\"'
+                    // InternalSimplepalladio.g:9344:16: '\"' ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )* '\"'
                     {
                     match('\"'); 
-                    // InternalSimplepalladio.g:9387:20: ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )*
+                    // InternalSimplepalladio.g:9344:20: ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )*
                     loop4:
                     do {
                         int alt4=3;
@@ -1653,7 +1653,7 @@ public class InternalSimplepalladioLexer extends Lexer {
 
                         switch (alt4) {
                     	case 1 :
-                    	    // InternalSimplepalladio.g:9387:21: '\\\\' .
+                    	    // InternalSimplepalladio.g:9344:21: '\\\\' .
                     	    {
                     	    match('\\'); 
                     	    matchAny(); 
@@ -1661,7 +1661,7 @@ public class InternalSimplepalladioLexer extends Lexer {
                     	    }
                     	    break;
                     	case 2 :
-                    	    // InternalSimplepalladio.g:9387:28: ~ ( ( '\\\\' | '\"' ) )
+                    	    // InternalSimplepalladio.g:9344:28: ~ ( ( '\\\\' | '\"' ) )
                     	    {
                     	    if ( (input.LA(1)>='\u0000' && input.LA(1)<='!')||(input.LA(1)>='#' && input.LA(1)<='[')||(input.LA(1)>=']' && input.LA(1)<='\uFFFF') ) {
                     	        input.consume();
@@ -1686,10 +1686,10 @@ public class InternalSimplepalladioLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // InternalSimplepalladio.g:9387:48: '\\'' ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )* '\\''
+                    // InternalSimplepalladio.g:9344:48: '\\'' ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )* '\\''
                     {
                     match('\''); 
-                    // InternalSimplepalladio.g:9387:53: ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )*
+                    // InternalSimplepalladio.g:9344:53: ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )*
                     loop5:
                     do {
                         int alt5=3;
@@ -1705,7 +1705,7 @@ public class InternalSimplepalladioLexer extends Lexer {
 
                         switch (alt5) {
                     	case 1 :
-                    	    // InternalSimplepalladio.g:9387:54: '\\\\' .
+                    	    // InternalSimplepalladio.g:9344:54: '\\\\' .
                     	    {
                     	    match('\\'); 
                     	    matchAny(); 
@@ -1713,7 +1713,7 @@ public class InternalSimplepalladioLexer extends Lexer {
                     	    }
                     	    break;
                     	case 2 :
-                    	    // InternalSimplepalladio.g:9387:61: ~ ( ( '\\\\' | '\\'' ) )
+                    	    // InternalSimplepalladio.g:9344:61: ~ ( ( '\\\\' | '\\'' ) )
                     	    {
                     	    if ( (input.LA(1)>='\u0000' && input.LA(1)<='&')||(input.LA(1)>='(' && input.LA(1)<='[')||(input.LA(1)>=']' && input.LA(1)<='\uFFFF') ) {
                     	        input.consume();
@@ -1756,12 +1756,12 @@ public class InternalSimplepalladioLexer extends Lexer {
         try {
             int _type = RULE_ML_COMMENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // InternalSimplepalladio.g:9389:17: ( '/*' ( options {greedy=false; } : . )* '*/' )
-            // InternalSimplepalladio.g:9389:19: '/*' ( options {greedy=false; } : . )* '*/'
+            // InternalSimplepalladio.g:9346:17: ( '/*' ( options {greedy=false; } : . )* '*/' )
+            // InternalSimplepalladio.g:9346:19: '/*' ( options {greedy=false; } : . )* '*/'
             {
             match("/*"); 
 
-            // InternalSimplepalladio.g:9389:24: ( options {greedy=false; } : . )*
+            // InternalSimplepalladio.g:9346:24: ( options {greedy=false; } : . )*
             loop7:
             do {
                 int alt7=2;
@@ -1786,7 +1786,7 @@ public class InternalSimplepalladioLexer extends Lexer {
 
                 switch (alt7) {
             	case 1 :
-            	    // InternalSimplepalladio.g:9389:52: .
+            	    // InternalSimplepalladio.g:9346:52: .
             	    {
             	    matchAny(); 
 
@@ -1816,12 +1816,12 @@ public class InternalSimplepalladioLexer extends Lexer {
         try {
             int _type = RULE_SL_COMMENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // InternalSimplepalladio.g:9391:17: ( '//' (~ ( ( '\\n' | '\\r' ) ) )* ( ( '\\r' )? '\\n' )? )
-            // InternalSimplepalladio.g:9391:19: '//' (~ ( ( '\\n' | '\\r' ) ) )* ( ( '\\r' )? '\\n' )?
+            // InternalSimplepalladio.g:9348:17: ( '//' (~ ( ( '\\n' | '\\r' ) ) )* ( ( '\\r' )? '\\n' )? )
+            // InternalSimplepalladio.g:9348:19: '//' (~ ( ( '\\n' | '\\r' ) ) )* ( ( '\\r' )? '\\n' )?
             {
             match("//"); 
 
-            // InternalSimplepalladio.g:9391:24: (~ ( ( '\\n' | '\\r' ) ) )*
+            // InternalSimplepalladio.g:9348:24: (~ ( ( '\\n' | '\\r' ) ) )*
             loop8:
             do {
                 int alt8=2;
@@ -1834,7 +1834,7 @@ public class InternalSimplepalladioLexer extends Lexer {
 
                 switch (alt8) {
             	case 1 :
-            	    // InternalSimplepalladio.g:9391:24: ~ ( ( '\\n' | '\\r' ) )
+            	    // InternalSimplepalladio.g:9348:24: ~ ( ( '\\n' | '\\r' ) )
             	    {
             	    if ( (input.LA(1)>='\u0000' && input.LA(1)<='\t')||(input.LA(1)>='\u000B' && input.LA(1)<='\f')||(input.LA(1)>='\u000E' && input.LA(1)<='\uFFFF') ) {
             	        input.consume();
@@ -1854,7 +1854,7 @@ public class InternalSimplepalladioLexer extends Lexer {
                 }
             } while (true);
 
-            // InternalSimplepalladio.g:9391:40: ( ( '\\r' )? '\\n' )?
+            // InternalSimplepalladio.g:9348:40: ( ( '\\r' )? '\\n' )?
             int alt10=2;
             int LA10_0 = input.LA(1);
 
@@ -1863,9 +1863,9 @@ public class InternalSimplepalladioLexer extends Lexer {
             }
             switch (alt10) {
                 case 1 :
-                    // InternalSimplepalladio.g:9391:41: ( '\\r' )? '\\n'
+                    // InternalSimplepalladio.g:9348:41: ( '\\r' )? '\\n'
                     {
-                    // InternalSimplepalladio.g:9391:41: ( '\\r' )?
+                    // InternalSimplepalladio.g:9348:41: ( '\\r' )?
                     int alt9=2;
                     int LA9_0 = input.LA(1);
 
@@ -1874,7 +1874,7 @@ public class InternalSimplepalladioLexer extends Lexer {
                     }
                     switch (alt9) {
                         case 1 :
-                            // InternalSimplepalladio.g:9391:41: '\\r'
+                            // InternalSimplepalladio.g:9348:41: '\\r'
                             {
                             match('\r'); 
 
@@ -1906,10 +1906,10 @@ public class InternalSimplepalladioLexer extends Lexer {
         try {
             int _type = RULE_WS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // InternalSimplepalladio.g:9393:9: ( ( ' ' | '\\t' | '\\r' | '\\n' )+ )
-            // InternalSimplepalladio.g:9393:11: ( ' ' | '\\t' | '\\r' | '\\n' )+
+            // InternalSimplepalladio.g:9350:9: ( ( ' ' | '\\t' | '\\r' | '\\n' )+ )
+            // InternalSimplepalladio.g:9350:11: ( ' ' | '\\t' | '\\r' | '\\n' )+
             {
-            // InternalSimplepalladio.g:9393:11: ( ' ' | '\\t' | '\\r' | '\\n' )+
+            // InternalSimplepalladio.g:9350:11: ( ' ' | '\\t' | '\\r' | '\\n' )+
             int cnt11=0;
             loop11:
             do {
@@ -1963,8 +1963,8 @@ public class InternalSimplepalladioLexer extends Lexer {
         try {
             int _type = RULE_ANY_OTHER;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // InternalSimplepalladio.g:9395:16: ( . )
-            // InternalSimplepalladio.g:9395:18: .
+            // InternalSimplepalladio.g:9352:16: ( . )
+            // InternalSimplepalladio.g:9352:18: .
             {
             matchAny(); 
 

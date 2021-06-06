@@ -388,7 +388,7 @@ public class SimplepalladioGrammarAccess extends AbstractElementFinder.AbstractG
 		private final Keyword cSystemKeyword_9 = (Keyword)cGroup.eContents().get(9);
 		private final Assignment cSystemAssignment_10 = (Assignment)cGroup.eContents().get(10);
 		private final CrossReference cSystemSystemCrossReference_10_0 = (CrossReference)cSystemAssignment_10.eContents().get(0);
-		private final RuleCall cSystemSystemEStringParserRuleCall_10_0_1 = (RuleCall)cSystemSystemCrossReference_10_0.eContents().get(1);
+		private final RuleCall cSystemSystemQualifiedNameParserRuleCall_10_0_1 = (RuleCall)cSystemSystemCrossReference_10_0.eContents().get(1);
 		private final Keyword cRightCurlyBracketKeyword_11 = (Keyword)cGroup.eContents().get(11);
 		
 		//CompositeComponent SystemIndependentViewPoint::CompositeComponent:
@@ -398,7 +398,7 @@ public class SimplepalladioGrammarAccess extends AbstractElementFinder.AbstractG
 		//	requiredInterfaces+=[SystemIndependentViewPoint::Interface|EString])* ')')?
 		//	'providedInterfaces' '(' providedInterfaces+=[SystemIndependentViewPoint::Interface|EString] (","
 		//	providedInterfaces+=[SystemIndependentViewPoint::Interface|EString])* ')'
-		//	'system' system=[AssemblyViewPoint::System|EString]
+		//	'system' system=[AssemblyViewPoint::System|QualifiedName]
 		//	'}';
 		@Override public ParserRule getRule() { return rule; }
 		
@@ -408,7 +408,7 @@ public class SimplepalladioGrammarAccess extends AbstractElementFinder.AbstractG
 		//requiredInterfaces+=[SystemIndependentViewPoint::Interface|EString])* ')')?
 		//'providedInterfaces' '(' providedInterfaces+=[SystemIndependentViewPoint::Interface|EString] (","
 		//providedInterfaces+=[SystemIndependentViewPoint::Interface|EString])* ')'
-		//'system' system=[AssemblyViewPoint::System|EString]
+		//'system' system=[AssemblyViewPoint::System|QualifiedName]
 		//'}'
 		public Group getGroup() { return cGroup; }
 		
@@ -497,14 +497,14 @@ public class SimplepalladioGrammarAccess extends AbstractElementFinder.AbstractG
 		//'system'
 		public Keyword getSystemKeyword_9() { return cSystemKeyword_9; }
 		
-		//system=[AssemblyViewPoint::System|EString]
+		//system=[AssemblyViewPoint::System|QualifiedName]
 		public Assignment getSystemAssignment_10() { return cSystemAssignment_10; }
 		
-		//[AssemblyViewPoint::System|EString]
+		//[AssemblyViewPoint::System|QualifiedName]
 		public CrossReference getSystemSystemCrossReference_10_0() { return cSystemSystemCrossReference_10_0; }
 		
-		//EString
-		public RuleCall getSystemSystemEStringParserRuleCall_10_0_1() { return cSystemSystemEStringParserRuleCall_10_0_1; }
+		//QualifiedName
+		public RuleCall getSystemSystemQualifiedNameParserRuleCall_10_0_1() { return cSystemSystemQualifiedNameParserRuleCall_10_0_1; }
 		
 		//'}'
 		public Keyword getRightCurlyBracketKeyword_11() { return cRightCurlyBracketKeyword_11; }
@@ -890,28 +890,29 @@ public class SimplepalladioGrammarAccess extends AbstractElementFinder.AbstractG
 		private final Action cBehaviourDescriptionAction_0 = (Action)cGroup.eContents().get(0);
 		private final Keyword cBehaviourDescriptionKeyword_1 = (Keyword)cGroup.eContents().get(1);
 		private final Keyword cLeftCurlyBracketKeyword_2 = (Keyword)cGroup.eContents().get(2);
-		private final Group cGroup_3 = (Group)cGroup.eContents().get(3);
-		private final Keyword cBehaviorElementsKeyword_3_0 = (Keyword)cGroup_3.eContents().get(0);
-		private final Keyword cLeftCurlyBracketKeyword_3_1 = (Keyword)cGroup_3.eContents().get(1);
-		private final Assignment cBehaviorElementsAssignment_3_2 = (Assignment)cGroup_3.eContents().get(2);
-		private final RuleCall cBehaviorElementsBehaviorElementParserRuleCall_3_2_0 = (RuleCall)cBehaviorElementsAssignment_3_2.eContents().get(0);
-		private final Group cGroup_3_3 = (Group)cGroup_3.eContents().get(3);
-		private final Keyword cCommaKeyword_3_3_0 = (Keyword)cGroup_3_3.eContents().get(0);
-		private final Assignment cBehaviorElementsAssignment_3_3_1 = (Assignment)cGroup_3_3.eContents().get(1);
-		private final RuleCall cBehaviorElementsBehaviorElementParserRuleCall_3_3_1_0 = (RuleCall)cBehaviorElementsAssignment_3_3_1.eContents().get(0);
-		private final Keyword cRightCurlyBracketKeyword_3_4 = (Keyword)cGroup_3.eContents().get(4);
-		private final Keyword cRightCurlyBracketKeyword_4 = (Keyword)cGroup.eContents().get(4);
+		private final Keyword cBehaviorElementsKeyword_3 = (Keyword)cGroup.eContents().get(3);
+		private final Keyword cLeftCurlyBracketKeyword_4 = (Keyword)cGroup.eContents().get(4);
+		private final Assignment cBehaviorElementsAssignment_5 = (Assignment)cGroup.eContents().get(5);
+		private final RuleCall cBehaviorElementsBehaviorElementParserRuleCall_5_0 = (RuleCall)cBehaviorElementsAssignment_5.eContents().get(0);
+		private final Group cGroup_6 = (Group)cGroup.eContents().get(6);
+		private final Keyword cCommaKeyword_6_0 = (Keyword)cGroup_6.eContents().get(0);
+		private final Assignment cBehaviorElementsAssignment_6_1 = (Assignment)cGroup_6.eContents().get(1);
+		private final RuleCall cBehaviorElementsBehaviorElementParserRuleCall_6_1_0 = (RuleCall)cBehaviorElementsAssignment_6_1.eContents().get(0);
+		private final Keyword cRightCurlyBracketKeyword_7 = (Keyword)cGroup.eContents().get(7);
+		private final Keyword cRightCurlyBracketKeyword_8 = (Keyword)cGroup.eContents().get(8);
 		
 		//BehaviourDescription SystemIndependentViewPoint::BehaviourDescription:
 		//	{SystemIndependentViewPoint::BehaviourDescription}
 		//	'BehaviourDescription'
-		//	'{' ('behaviorElements' '{' behaviorElements+=BehaviorElement ("," behaviorElements+=BehaviorElement)* '}')?
+		//	'{'
+		//	'behaviorElements' '{' behaviorElements+=BehaviorElement ("," behaviorElements+=BehaviorElement)* '}'
 		//	'}';
 		@Override public ParserRule getRule() { return rule; }
 		
 		//{SystemIndependentViewPoint::BehaviourDescription}
 		//'BehaviourDescription'
-		//'{' ('behaviorElements' '{' behaviorElements+=BehaviorElement ("," behaviorElements+=BehaviorElement)* '}')?
+		//'{'
+		//'behaviorElements' '{' behaviorElements+=BehaviorElement ("," behaviorElements+=BehaviorElement)* '}'
 		//'}'
 		public Group getGroup() { return cGroup; }
 		
@@ -924,38 +925,35 @@ public class SimplepalladioGrammarAccess extends AbstractElementFinder.AbstractG
 		//'{'
 		public Keyword getLeftCurlyBracketKeyword_2() { return cLeftCurlyBracketKeyword_2; }
 		
-		//('behaviorElements' '{' behaviorElements+=BehaviorElement ("," behaviorElements+=BehaviorElement)* '}')?
-		public Group getGroup_3() { return cGroup_3; }
-		
 		//'behaviorElements'
-		public Keyword getBehaviorElementsKeyword_3_0() { return cBehaviorElementsKeyword_3_0; }
+		public Keyword getBehaviorElementsKeyword_3() { return cBehaviorElementsKeyword_3; }
 		
 		//'{'
-		public Keyword getLeftCurlyBracketKeyword_3_1() { return cLeftCurlyBracketKeyword_3_1; }
+		public Keyword getLeftCurlyBracketKeyword_4() { return cLeftCurlyBracketKeyword_4; }
 		
 		//behaviorElements+=BehaviorElement
-		public Assignment getBehaviorElementsAssignment_3_2() { return cBehaviorElementsAssignment_3_2; }
+		public Assignment getBehaviorElementsAssignment_5() { return cBehaviorElementsAssignment_5; }
 		
 		//BehaviorElement
-		public RuleCall getBehaviorElementsBehaviorElementParserRuleCall_3_2_0() { return cBehaviorElementsBehaviorElementParserRuleCall_3_2_0; }
+		public RuleCall getBehaviorElementsBehaviorElementParserRuleCall_5_0() { return cBehaviorElementsBehaviorElementParserRuleCall_5_0; }
 		
 		//("," behaviorElements+=BehaviorElement)*
-		public Group getGroup_3_3() { return cGroup_3_3; }
+		public Group getGroup_6() { return cGroup_6; }
 		
 		//","
-		public Keyword getCommaKeyword_3_3_0() { return cCommaKeyword_3_3_0; }
+		public Keyword getCommaKeyword_6_0() { return cCommaKeyword_6_0; }
 		
 		//behaviorElements+=BehaviorElement
-		public Assignment getBehaviorElementsAssignment_3_3_1() { return cBehaviorElementsAssignment_3_3_1; }
+		public Assignment getBehaviorElementsAssignment_6_1() { return cBehaviorElementsAssignment_6_1; }
 		
 		//BehaviorElement
-		public RuleCall getBehaviorElementsBehaviorElementParserRuleCall_3_3_1_0() { return cBehaviorElementsBehaviorElementParserRuleCall_3_3_1_0; }
+		public RuleCall getBehaviorElementsBehaviorElementParserRuleCall_6_1_0() { return cBehaviorElementsBehaviorElementParserRuleCall_6_1_0; }
 		
 		//'}'
-		public Keyword getRightCurlyBracketKeyword_3_4() { return cRightCurlyBracketKeyword_3_4; }
+		public Keyword getRightCurlyBracketKeyword_7() { return cRightCurlyBracketKeyword_7; }
 		
 		//'}'
-		public Keyword getRightCurlyBracketKeyword_4() { return cRightCurlyBracketKeyword_4; }
+		public Keyword getRightCurlyBracketKeyword_8() { return cRightCurlyBracketKeyword_8; }
 	}
 	public class InternalActionElements extends AbstractParserRuleElementFinder {
 		private final ParserRule rule = (ParserRule) GrammarUtil.findRuleForName(getGrammar(), "org.xtext.mdsm.simplePalladio.Simplepalladio.InternalAction");
@@ -1031,30 +1029,26 @@ public class SimplepalladioGrammarAccess extends AbstractElementFinder.AbstractG
 		private final Keyword cLeftCurlyBracketKeyword_2 = (Keyword)cGroup.eContents().get(2);
 		private final Group cGroup_3 = (Group)cGroup.eContents().get(3);
 		private final Keyword cBehaviorElementsKeyword_3_0 = (Keyword)cGroup_3.eContents().get(0);
-		private final Keyword cLeftParenthesisKeyword_3_1 = (Keyword)cGroup_3.eContents().get(1);
+		private final Keyword cLeftCurlyBracketKeyword_3_1 = (Keyword)cGroup_3.eContents().get(1);
 		private final Assignment cBehaviorElementsAssignment_3_2 = (Assignment)cGroup_3.eContents().get(2);
-		private final CrossReference cBehaviorElementsBehaviorElementCrossReference_3_2_0 = (CrossReference)cBehaviorElementsAssignment_3_2.eContents().get(0);
-		private final RuleCall cBehaviorElementsBehaviorElementEStringParserRuleCall_3_2_0_1 = (RuleCall)cBehaviorElementsBehaviorElementCrossReference_3_2_0.eContents().get(1);
+		private final RuleCall cBehaviorElementsBehaviorElementParserRuleCall_3_2_0 = (RuleCall)cBehaviorElementsAssignment_3_2.eContents().get(0);
 		private final Group cGroup_3_3 = (Group)cGroup_3.eContents().get(3);
 		private final Keyword cCommaKeyword_3_3_0 = (Keyword)cGroup_3_3.eContents().get(0);
 		private final Assignment cBehaviorElementsAssignment_3_3_1 = (Assignment)cGroup_3_3.eContents().get(1);
-		private final CrossReference cBehaviorElementsBehaviorElementCrossReference_3_3_1_0 = (CrossReference)cBehaviorElementsAssignment_3_3_1.eContents().get(0);
-		private final RuleCall cBehaviorElementsBehaviorElementEStringParserRuleCall_3_3_1_0_1 = (RuleCall)cBehaviorElementsBehaviorElementCrossReference_3_3_1_0.eContents().get(1);
-		private final Keyword cRightParenthesisKeyword_3_4 = (Keyword)cGroup_3.eContents().get(4);
+		private final RuleCall cBehaviorElementsBehaviorElementParserRuleCall_3_3_1_0 = (RuleCall)cBehaviorElementsAssignment_3_3_1.eContents().get(0);
+		private final Keyword cRightCurlyBracketKeyword_3_4 = (Keyword)cGroup_3.eContents().get(4);
 		private final Keyword cRightCurlyBracketKeyword_4 = (Keyword)cGroup.eContents().get(4);
 		
 		//Loop SystemIndependentViewPoint::Loop:
 		//	{SystemIndependentViewPoint::Loop}
 		//	'Loop'
-		//	'{' ('behaviorElements' '(' behaviorElements+=[SystemIndependentViewPoint::BehaviorElement|EString] (","
-		//	behaviorElements+=[SystemIndependentViewPoint::BehaviorElement|EString])* ')')?
+		//	'{' ('behaviorElements' '{' behaviorElements+=BehaviorElement ("," behaviorElements+=BehaviorElement)* '}')?
 		//	'}';
 		@Override public ParserRule getRule() { return rule; }
 		
 		//{SystemIndependentViewPoint::Loop}
 		//'Loop'
-		//'{' ('behaviorElements' '(' behaviorElements+=[SystemIndependentViewPoint::BehaviorElement|EString] (","
-		//behaviorElements+=[SystemIndependentViewPoint::BehaviorElement|EString])* ')')?
+		//'{' ('behaviorElements' '{' behaviorElements+=BehaviorElement ("," behaviorElements+=BehaviorElement)* '}')?
 		//'}'
 		public Group getGroup() { return cGroup; }
 		
@@ -1067,42 +1061,35 @@ public class SimplepalladioGrammarAccess extends AbstractElementFinder.AbstractG
 		//'{'
 		public Keyword getLeftCurlyBracketKeyword_2() { return cLeftCurlyBracketKeyword_2; }
 		
-		//('behaviorElements' '(' behaviorElements+=[SystemIndependentViewPoint::BehaviorElement|EString] (","
-		//behaviorElements+=[SystemIndependentViewPoint::BehaviorElement|EString])* ')')?
+		//('behaviorElements' '{' behaviorElements+=BehaviorElement ("," behaviorElements+=BehaviorElement)* '}')?
 		public Group getGroup_3() { return cGroup_3; }
 		
 		//'behaviorElements'
 		public Keyword getBehaviorElementsKeyword_3_0() { return cBehaviorElementsKeyword_3_0; }
 		
-		//'('
-		public Keyword getLeftParenthesisKeyword_3_1() { return cLeftParenthesisKeyword_3_1; }
+		//'{'
+		public Keyword getLeftCurlyBracketKeyword_3_1() { return cLeftCurlyBracketKeyword_3_1; }
 		
-		//behaviorElements+=[SystemIndependentViewPoint::BehaviorElement|EString]
+		//behaviorElements+=BehaviorElement
 		public Assignment getBehaviorElementsAssignment_3_2() { return cBehaviorElementsAssignment_3_2; }
 		
-		//[SystemIndependentViewPoint::BehaviorElement|EString]
-		public CrossReference getBehaviorElementsBehaviorElementCrossReference_3_2_0() { return cBehaviorElementsBehaviorElementCrossReference_3_2_0; }
+		//BehaviorElement
+		public RuleCall getBehaviorElementsBehaviorElementParserRuleCall_3_2_0() { return cBehaviorElementsBehaviorElementParserRuleCall_3_2_0; }
 		
-		//EString
-		public RuleCall getBehaviorElementsBehaviorElementEStringParserRuleCall_3_2_0_1() { return cBehaviorElementsBehaviorElementEStringParserRuleCall_3_2_0_1; }
-		
-		//("," behaviorElements+=[SystemIndependentViewPoint::BehaviorElement|EString])*
+		//("," behaviorElements+=BehaviorElement)*
 		public Group getGroup_3_3() { return cGroup_3_3; }
 		
 		//","
 		public Keyword getCommaKeyword_3_3_0() { return cCommaKeyword_3_3_0; }
 		
-		//behaviorElements+=[SystemIndependentViewPoint::BehaviorElement|EString]
+		//behaviorElements+=BehaviorElement
 		public Assignment getBehaviorElementsAssignment_3_3_1() { return cBehaviorElementsAssignment_3_3_1; }
 		
-		//[SystemIndependentViewPoint::BehaviorElement|EString]
-		public CrossReference getBehaviorElementsBehaviorElementCrossReference_3_3_1_0() { return cBehaviorElementsBehaviorElementCrossReference_3_3_1_0; }
+		//BehaviorElement
+		public RuleCall getBehaviorElementsBehaviorElementParserRuleCall_3_3_1_0() { return cBehaviorElementsBehaviorElementParserRuleCall_3_3_1_0; }
 		
-		//EString
-		public RuleCall getBehaviorElementsBehaviorElementEStringParserRuleCall_3_3_1_0_1() { return cBehaviorElementsBehaviorElementEStringParserRuleCall_3_3_1_0_1; }
-		
-		//')'
-		public Keyword getRightParenthesisKeyword_3_4() { return cRightParenthesisKeyword_3_4; }
+		//'}'
+		public Keyword getRightCurlyBracketKeyword_3_4() { return cRightCurlyBracketKeyword_3_4; }
 		
 		//'}'
 		public Keyword getRightCurlyBracketKeyword_4() { return cRightCurlyBracketKeyword_4; }
@@ -1115,30 +1102,26 @@ public class SimplepalladioGrammarAccess extends AbstractElementFinder.AbstractG
 		private final Keyword cLeftCurlyBracketKeyword_2 = (Keyword)cGroup.eContents().get(2);
 		private final Group cGroup_3 = (Group)cGroup.eContents().get(3);
 		private final Keyword cBehaviorElementsKeyword_3_0 = (Keyword)cGroup_3.eContents().get(0);
-		private final Keyword cLeftParenthesisKeyword_3_1 = (Keyword)cGroup_3.eContents().get(1);
+		private final Keyword cLeftCurlyBracketKeyword_3_1 = (Keyword)cGroup_3.eContents().get(1);
 		private final Assignment cBehaviorElementsAssignment_3_2 = (Assignment)cGroup_3.eContents().get(2);
-		private final CrossReference cBehaviorElementsBehaviorElementCrossReference_3_2_0 = (CrossReference)cBehaviorElementsAssignment_3_2.eContents().get(0);
-		private final RuleCall cBehaviorElementsBehaviorElementEStringParserRuleCall_3_2_0_1 = (RuleCall)cBehaviorElementsBehaviorElementCrossReference_3_2_0.eContents().get(1);
+		private final RuleCall cBehaviorElementsBehaviorElementParserRuleCall_3_2_0 = (RuleCall)cBehaviorElementsAssignment_3_2.eContents().get(0);
 		private final Group cGroup_3_3 = (Group)cGroup_3.eContents().get(3);
 		private final Keyword cCommaKeyword_3_3_0 = (Keyword)cGroup_3_3.eContents().get(0);
 		private final Assignment cBehaviorElementsAssignment_3_3_1 = (Assignment)cGroup_3_3.eContents().get(1);
-		private final CrossReference cBehaviorElementsBehaviorElementCrossReference_3_3_1_0 = (CrossReference)cBehaviorElementsAssignment_3_3_1.eContents().get(0);
-		private final RuleCall cBehaviorElementsBehaviorElementEStringParserRuleCall_3_3_1_0_1 = (RuleCall)cBehaviorElementsBehaviorElementCrossReference_3_3_1_0.eContents().get(1);
-		private final Keyword cRightParenthesisKeyword_3_4 = (Keyword)cGroup_3.eContents().get(4);
+		private final RuleCall cBehaviorElementsBehaviorElementParserRuleCall_3_3_1_0 = (RuleCall)cBehaviorElementsAssignment_3_3_1.eContents().get(0);
+		private final Keyword cRightCurlyBracketKeyword_3_4 = (Keyword)cGroup_3.eContents().get(4);
 		private final Keyword cRightCurlyBracketKeyword_4 = (Keyword)cGroup.eContents().get(4);
 		
 		//Branch SystemIndependentViewPoint::Branch:
 		//	{SystemIndependentViewPoint::Branch}
 		//	'Branch'
-		//	'{' ('behaviorElements' '(' behaviorElements+=[SystemIndependentViewPoint::BehaviorElement|EString] (","
-		//	behaviorElements+=[SystemIndependentViewPoint::BehaviorElement|EString])* ')')?
+		//	'{' ('behaviorElements' '{' behaviorElements+=BehaviorElement ("," behaviorElements+=BehaviorElement)* '}')?
 		//	'}';
 		@Override public ParserRule getRule() { return rule; }
 		
 		//{SystemIndependentViewPoint::Branch}
 		//'Branch'
-		//'{' ('behaviorElements' '(' behaviorElements+=[SystemIndependentViewPoint::BehaviorElement|EString] (","
-		//behaviorElements+=[SystemIndependentViewPoint::BehaviorElement|EString])* ')')?
+		//'{' ('behaviorElements' '{' behaviorElements+=BehaviorElement ("," behaviorElements+=BehaviorElement)* '}')?
 		//'}'
 		public Group getGroup() { return cGroup; }
 		
@@ -1151,42 +1134,35 @@ public class SimplepalladioGrammarAccess extends AbstractElementFinder.AbstractG
 		//'{'
 		public Keyword getLeftCurlyBracketKeyword_2() { return cLeftCurlyBracketKeyword_2; }
 		
-		//('behaviorElements' '(' behaviorElements+=[SystemIndependentViewPoint::BehaviorElement|EString] (","
-		//behaviorElements+=[SystemIndependentViewPoint::BehaviorElement|EString])* ')')?
+		//('behaviorElements' '{' behaviorElements+=BehaviorElement ("," behaviorElements+=BehaviorElement)* '}')?
 		public Group getGroup_3() { return cGroup_3; }
 		
 		//'behaviorElements'
 		public Keyword getBehaviorElementsKeyword_3_0() { return cBehaviorElementsKeyword_3_0; }
 		
-		//'('
-		public Keyword getLeftParenthesisKeyword_3_1() { return cLeftParenthesisKeyword_3_1; }
+		//'{'
+		public Keyword getLeftCurlyBracketKeyword_3_1() { return cLeftCurlyBracketKeyword_3_1; }
 		
-		//behaviorElements+=[SystemIndependentViewPoint::BehaviorElement|EString]
+		//behaviorElements+=BehaviorElement
 		public Assignment getBehaviorElementsAssignment_3_2() { return cBehaviorElementsAssignment_3_2; }
 		
-		//[SystemIndependentViewPoint::BehaviorElement|EString]
-		public CrossReference getBehaviorElementsBehaviorElementCrossReference_3_2_0() { return cBehaviorElementsBehaviorElementCrossReference_3_2_0; }
+		//BehaviorElement
+		public RuleCall getBehaviorElementsBehaviorElementParserRuleCall_3_2_0() { return cBehaviorElementsBehaviorElementParserRuleCall_3_2_0; }
 		
-		//EString
-		public RuleCall getBehaviorElementsBehaviorElementEStringParserRuleCall_3_2_0_1() { return cBehaviorElementsBehaviorElementEStringParserRuleCall_3_2_0_1; }
-		
-		//("," behaviorElements+=[SystemIndependentViewPoint::BehaviorElement|EString])*
+		//("," behaviorElements+=BehaviorElement)*
 		public Group getGroup_3_3() { return cGroup_3_3; }
 		
 		//","
 		public Keyword getCommaKeyword_3_3_0() { return cCommaKeyword_3_3_0; }
 		
-		//behaviorElements+=[SystemIndependentViewPoint::BehaviorElement|EString]
+		//behaviorElements+=BehaviorElement
 		public Assignment getBehaviorElementsAssignment_3_3_1() { return cBehaviorElementsAssignment_3_3_1; }
 		
-		//[SystemIndependentViewPoint::BehaviorElement|EString]
-		public CrossReference getBehaviorElementsBehaviorElementCrossReference_3_3_1_0() { return cBehaviorElementsBehaviorElementCrossReference_3_3_1_0; }
+		//BehaviorElement
+		public RuleCall getBehaviorElementsBehaviorElementParserRuleCall_3_3_1_0() { return cBehaviorElementsBehaviorElementParserRuleCall_3_3_1_0; }
 		
-		//EString
-		public RuleCall getBehaviorElementsBehaviorElementEStringParserRuleCall_3_3_1_0_1() { return cBehaviorElementsBehaviorElementEStringParserRuleCall_3_3_1_0_1; }
-		
-		//')'
-		public Keyword getRightParenthesisKeyword_3_4() { return cRightParenthesisKeyword_3_4; }
+		//'}'
+		public Keyword getRightCurlyBracketKeyword_3_4() { return cRightCurlyBracketKeyword_3_4; }
 		
 		//'}'
 		public Keyword getRightCurlyBracketKeyword_4() { return cRightCurlyBracketKeyword_4; }
@@ -2456,7 +2432,7 @@ public class SimplepalladioGrammarAccess extends AbstractElementFinder.AbstractG
 	//	requiredInterfaces+=[SystemIndependentViewPoint::Interface|EString])* ')')?
 	//	'providedInterfaces' '(' providedInterfaces+=[SystemIndependentViewPoint::Interface|EString] (","
 	//	providedInterfaces+=[SystemIndependentViewPoint::Interface|EString])* ')'
-	//	'system' system=[AssemblyViewPoint::System|EString]
+	//	'system' system=[AssemblyViewPoint::System|QualifiedName]
 	//	'}';
 	public CompositeComponentElements getCompositeComponentAccess() {
 		return pCompositeComponent;
@@ -2538,7 +2514,8 @@ public class SimplepalladioGrammarAccess extends AbstractElementFinder.AbstractG
 	//BehaviourDescription SystemIndependentViewPoint::BehaviourDescription:
 	//	{SystemIndependentViewPoint::BehaviourDescription}
 	//	'BehaviourDescription'
-	//	'{' ('behaviorElements' '{' behaviorElements+=BehaviorElement ("," behaviorElements+=BehaviorElement)* '}')?
+	//	'{'
+	//	'behaviorElements' '{' behaviorElements+=BehaviorElement ("," behaviorElements+=BehaviorElement)* '}'
 	//	'}';
 	public BehaviourDescriptionElements getBehaviourDescriptionAccess() {
 		return pBehaviourDescription;
@@ -2575,8 +2552,7 @@ public class SimplepalladioGrammarAccess extends AbstractElementFinder.AbstractG
 	//Loop SystemIndependentViewPoint::Loop:
 	//	{SystemIndependentViewPoint::Loop}
 	//	'Loop'
-	//	'{' ('behaviorElements' '(' behaviorElements+=[SystemIndependentViewPoint::BehaviorElement|EString] (","
-	//	behaviorElements+=[SystemIndependentViewPoint::BehaviorElement|EString])* ')')?
+	//	'{' ('behaviorElements' '{' behaviorElements+=BehaviorElement ("," behaviorElements+=BehaviorElement)* '}')?
 	//	'}';
 	public LoopElements getLoopAccess() {
 		return pLoop;
@@ -2589,8 +2565,7 @@ public class SimplepalladioGrammarAccess extends AbstractElementFinder.AbstractG
 	//Branch SystemIndependentViewPoint::Branch:
 	//	{SystemIndependentViewPoint::Branch}
 	//	'Branch'
-	//	'{' ('behaviorElements' '(' behaviorElements+=[SystemIndependentViewPoint::BehaviorElement|EString] (","
-	//	behaviorElements+=[SystemIndependentViewPoint::BehaviorElement|EString])* ')')?
+	//	'{' ('behaviorElements' '{' behaviorElements+=BehaviorElement ("," behaviorElements+=BehaviorElement)* '}')?
 	//	'}';
 	public BranchElements getBranchAccess() {
 		return pBranch;

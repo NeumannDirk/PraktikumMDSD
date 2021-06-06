@@ -53,7 +53,7 @@ CompositeComponent returns SystemIndependentViewPoint::CompositeComponent:
 	'{'
 		('requiredInterfaces' '(' requiredInterfaces+=[SystemIndependentViewPoint::Interface|EString] ( "," requiredInterfaces+=[SystemIndependentViewPoint::Interface|EString])* ')' )?
 		'providedInterfaces' '(' providedInterfaces+=[SystemIndependentViewPoint::Interface|EString] ( "," providedInterfaces+=[SystemIndependentViewPoint::Interface|EString])* ')' 
-		'system' system=[AssemblyViewPoint::System|EString]
+		'system' system=[AssemblyViewPoint::System|QualifiedName]
 	'}';
 
 Signature returns SystemIndependentViewPoint::Signature:
@@ -94,7 +94,7 @@ BehaviourDescription returns SystemIndependentViewPoint::BehaviourDescription:
 	{SystemIndependentViewPoint::BehaviourDescription}
 	'BehaviourDescription'
 	'{'
-		('behaviorElements' '{' behaviorElements+=BehaviorElement ( "," behaviorElements+=BehaviorElement)* '}' )?
+		'behaviorElements' '{' behaviorElements+=BehaviorElement ( "," behaviorElements+=BehaviorElement)* '}'
 	'}';
 
 InternalAction returns SystemIndependentViewPoint::InternalAction:
@@ -112,14 +112,14 @@ Loop returns SystemIndependentViewPoint::Loop:
 	{SystemIndependentViewPoint::Loop}
 	'Loop'
 	'{'
-		('behaviorElements' '(' behaviorElements+=[SystemIndependentViewPoint::BehaviorElement|EString] ( "," behaviorElements+=[SystemIndependentViewPoint::BehaviorElement|EString])* ')' )?
+		('behaviorElements' '{' behaviorElements+=BehaviorElement ( "," behaviorElements+=BehaviorElement)* '}')?
 	'}';
 
 Branch returns SystemIndependentViewPoint::Branch:
 	{SystemIndependentViewPoint::Branch}
 	'Branch'
 	'{'
-		('behaviorElements' '(' behaviorElements+=[SystemIndependentViewPoint::BehaviorElement|EString] ( "," behaviorElements+=[SystemIndependentViewPoint::BehaviorElement|EString])* ')' )?
+		('behaviorElements' '{' behaviorElements+=BehaviorElement ( "," behaviorElements+=BehaviorElement)* '}')?
 	'}';
 
 //Assembly Specification

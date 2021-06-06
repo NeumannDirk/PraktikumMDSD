@@ -59,8 +59,7 @@ public class SimplepalladioParser extends AbstractContentAssistParser {
 			builder.put(grammarAccess.getParameterAccess().getGroup(), "rule__Parameter__Group__0");
 			builder.put(grammarAccess.getServiceAccess().getGroup(), "rule__Service__Group__0");
 			builder.put(grammarAccess.getBehaviourDescriptionAccess().getGroup(), "rule__BehaviourDescription__Group__0");
-			builder.put(grammarAccess.getBehaviourDescriptionAccess().getGroup_3(), "rule__BehaviourDescription__Group_3__0");
-			builder.put(grammarAccess.getBehaviourDescriptionAccess().getGroup_3_3(), "rule__BehaviourDescription__Group_3_3__0");
+			builder.put(grammarAccess.getBehaviourDescriptionAccess().getGroup_6(), "rule__BehaviourDescription__Group_6__0");
 			builder.put(grammarAccess.getInternalActionAccess().getGroup(), "rule__InternalAction__Group__0");
 			builder.put(grammarAccess.getExternalCallAccess().getGroup(), "rule__ExternalCall__Group__0");
 			builder.put(grammarAccess.getLoopAccess().getGroup(), "rule__Loop__Group__0");
@@ -123,8 +122,8 @@ public class SimplepalladioParser extends AbstractContentAssistParser {
 			builder.put(grammarAccess.getParameterAccess().getTypeAssignment_4(), "rule__Parameter__TypeAssignment_4");
 			builder.put(grammarAccess.getServiceAccess().getSignatureAssignment_3(), "rule__Service__SignatureAssignment_3");
 			builder.put(grammarAccess.getServiceAccess().getBehaviourDescriptionAssignment_5(), "rule__Service__BehaviourDescriptionAssignment_5");
-			builder.put(grammarAccess.getBehaviourDescriptionAccess().getBehaviorElementsAssignment_3_2(), "rule__BehaviourDescription__BehaviorElementsAssignment_3_2");
-			builder.put(grammarAccess.getBehaviourDescriptionAccess().getBehaviorElementsAssignment_3_3_1(), "rule__BehaviourDescription__BehaviorElementsAssignment_3_3_1");
+			builder.put(grammarAccess.getBehaviourDescriptionAccess().getBehaviorElementsAssignment_5(), "rule__BehaviourDescription__BehaviorElementsAssignment_5");
+			builder.put(grammarAccess.getBehaviourDescriptionAccess().getBehaviorElementsAssignment_6_1(), "rule__BehaviourDescription__BehaviorElementsAssignment_6_1");
 			builder.put(grammarAccess.getExternalCallAccess().getSignatureAssignment_3(), "rule__ExternalCall__SignatureAssignment_3");
 			builder.put(grammarAccess.getLoopAccess().getBehaviorElementsAssignment_3_2(), "rule__Loop__BehaviorElementsAssignment_3_2");
 			builder.put(grammarAccess.getLoopAccess().getBehaviorElementsAssignment_3_3_1(), "rule__Loop__BehaviorElementsAssignment_3_3_1");

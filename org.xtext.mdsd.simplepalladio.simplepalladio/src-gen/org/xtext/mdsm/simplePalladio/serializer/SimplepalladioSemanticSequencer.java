@@ -234,7 +234,7 @@ public class SimplepalladioSemanticSequencer extends AbstractDelegatingSemanticS
 	 *     BehaviourDescription returns BehaviourDescription
 	 *
 	 * Constraint:
-	 *     (behaviorElements+=BehaviorElement behaviorElements+=BehaviorElement*)?
+	 *     (behaviorElements+=BehaviorElement behaviorElements+=BehaviorElement*)
 	 */
 	protected void sequence_BehaviourDescription(ISerializationContext context, BehaviourDescription semanticObject) {
 		genericSequencer.createSequence(context, semanticObject);
@@ -247,7 +247,7 @@ public class SimplepalladioSemanticSequencer extends AbstractDelegatingSemanticS
 	 *     Branch returns Branch
 	 *
 	 * Constraint:
-	 *     (behaviorElements+=[BehaviorElement|EString] behaviorElements+=[BehaviorElement|EString]*)?
+	 *     (behaviorElements+=BehaviorElement behaviorElements+=BehaviorElement*)?
 	 */
 	protected void sequence_Branch(ISerializationContext context, Branch semanticObject) {
 		genericSequencer.createSequence(context, semanticObject);
@@ -289,7 +289,7 @@ public class SimplepalladioSemanticSequencer extends AbstractDelegatingSemanticS
 	 *         (requiredInterfaces+=[Interface|EString] requiredInterfaces+=[Interface|EString]*)? 
 	 *         providedInterfaces+=[Interface|EString] 
 	 *         providedInterfaces+=[Interface|EString]* 
-	 *         system=[System|EString]
+	 *         system=[System|QualifiedName]
 	 *     )
 	 */
 	protected void sequence_CompositeComponent(ISerializationContext context, CompositeComponent semanticObject) {
@@ -414,7 +414,7 @@ public class SimplepalladioSemanticSequencer extends AbstractDelegatingSemanticS
 	 *     Loop returns Loop
 	 *
 	 * Constraint:
-	 *     (behaviorElements+=[BehaviorElement|EString] behaviorElements+=[BehaviorElement|EString]*)?
+	 *     (behaviorElements+=BehaviorElement behaviorElements+=BehaviorElement*)?
 	 */
 	protected void sequence_Loop(ISerializationContext context, Loop semanticObject) {
 		genericSequencer.createSequence(context, semanticObject);

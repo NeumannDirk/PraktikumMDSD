@@ -6255,7 +6255,7 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
             // InternalSimplepalladio.g:2010:1: ( rule__CompositeComponent__Group__9__Impl rule__CompositeComponent__Group__10 )
             // InternalSimplepalladio.g:2011:2: rule__CompositeComponent__Group__9__Impl rule__CompositeComponent__Group__10
             {
-            pushFollow(FOLLOW_13);
+            pushFollow(FOLLOW_19);
             rule__CompositeComponent__Group__9__Impl();
 
             state._fsp--;
@@ -7363,7 +7363,7 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
             // InternalSimplepalladio.g:2388:1: ( rule__Signature__Group__2__Impl rule__Signature__Group__3 )
             // InternalSimplepalladio.g:2389:2: rule__Signature__Group__2__Impl rule__Signature__Group__3
             {
-            pushFollow(FOLLOW_19);
+            pushFollow(FOLLOW_20);
             rule__Signature__Group__2__Impl();
 
             state._fsp--;
@@ -7438,7 +7438,7 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
             // InternalSimplepalladio.g:2415:1: ( rule__Signature__Group__3__Impl rule__Signature__Group__4 )
             // InternalSimplepalladio.g:2416:2: rule__Signature__Group__3__Impl rule__Signature__Group__4
             {
-            pushFollow(FOLLOW_20);
+            pushFollow(FOLLOW_21);
             rule__Signature__Group__3__Impl();
 
             state._fsp--;
@@ -7513,7 +7513,7 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
             // InternalSimplepalladio.g:2442:1: ( rule__Signature__Group__4__Impl rule__Signature__Group__5 )
             // InternalSimplepalladio.g:2443:2: rule__Signature__Group__4__Impl rule__Signature__Group__5
             {
-            pushFollow(FOLLOW_21);
+            pushFollow(FOLLOW_22);
             rule__Signature__Group__4__Impl();
 
             state._fsp--;
@@ -7598,7 +7598,7 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
             // InternalSimplepalladio.g:2469:1: ( rule__Signature__Group__5__Impl rule__Signature__Group__6 )
             // InternalSimplepalladio.g:2470:2: rule__Signature__Group__5__Impl rule__Signature__Group__6
             {
-            pushFollow(FOLLOW_21);
+            pushFollow(FOLLOW_22);
             rule__Signature__Group__5__Impl();
 
             state._fsp--;
@@ -7839,7 +7839,7 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
             // InternalSimplepalladio.g:2550:1: ( rule__Signature__Group_5__1__Impl rule__Signature__Group_5__2 )
             // InternalSimplepalladio.g:2551:2: rule__Signature__Group_5__1__Impl rule__Signature__Group_5__2
             {
-            pushFollow(FOLLOW_22);
+            pushFollow(FOLLOW_23);
             rule__Signature__Group_5__1__Impl();
 
             state._fsp--;
@@ -8172,7 +8172,7 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
             // InternalSimplepalladio.g:2658:1: ( rule__Signature__Group_5_3__0__Impl rule__Signature__Group_5_3__1 )
             // InternalSimplepalladio.g:2659:2: rule__Signature__Group_5_3__0__Impl rule__Signature__Group_5_3__1
             {
-            pushFollow(FOLLOW_22);
+            pushFollow(FOLLOW_23);
             rule__Signature__Group_5_3__0__Impl();
 
             state._fsp--;
@@ -8996,7 +8996,7 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
             // InternalSimplepalladio.g:2928:1: ( rule__Component__Group__8__Impl rule__Component__Group__9 )
             // InternalSimplepalladio.g:2929:2: rule__Component__Group__8__Impl rule__Component__Group__9
             {
-            pushFollow(FOLLOW_23);
+            pushFollow(FOLLOW_24);
             rule__Component__Group__8__Impl();
 
             state._fsp--;
@@ -9146,7 +9146,7 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
             // InternalSimplepalladio.g:2982:1: ( rule__Component__Group__10__Impl rule__Component__Group__11 )
             // InternalSimplepalladio.g:2983:2: rule__Component__Group__10__Impl rule__Component__Group__11
             {
-            pushFollow(FOLLOW_24);
+            pushFollow(FOLLOW_25);
             rule__Component__Group__10__Impl();
 
             state._fsp--;
@@ -10272,7 +10272,7 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
             // InternalSimplepalladio.g:3360:1: ( rule__Component__Group_12__0__Impl rule__Component__Group_12__1 )
             // InternalSimplepalladio.g:3361:2: rule__Component__Group_12__0__Impl rule__Component__Group_12__1
             {
-            pushFollow(FOLLOW_24);
+            pushFollow(FOLLOW_25);
             rule__Component__Group_12__0__Impl();
 
             state._fsp--;
@@ -10587,7 +10587,7 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
             // InternalSimplepalladio.g:3468:1: ( rule__Parameter__Group__2__Impl rule__Parameter__Group__3 )
             // InternalSimplepalladio.g:3469:2: rule__Parameter__Group__2__Impl rule__Parameter__Group__3
             {
-            pushFollow(FOLLOW_25);
+            pushFollow(FOLLOW_26);
             rule__Parameter__Group__2__Impl();
 
             state._fsp--;
@@ -10662,7 +10662,7 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
             // InternalSimplepalladio.g:3495:1: ( rule__Parameter__Group__3__Impl rule__Parameter__Group__4 )
             // InternalSimplepalladio.g:3496:2: rule__Parameter__Group__3__Impl rule__Parameter__Group__4
             {
-            pushFollow(FOLLOW_20);
+            pushFollow(FOLLOW_21);
             rule__Parameter__Group__3__Impl();
 
             state._fsp--;
@@ -10967,7 +10967,7 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
             // InternalSimplepalladio.g:3603:1: ( rule__Service__Group__1__Impl rule__Service__Group__2 )
             // InternalSimplepalladio.g:3604:2: rule__Service__Group__1__Impl rule__Service__Group__2
             {
-            pushFollow(FOLLOW_26);
+            pushFollow(FOLLOW_27);
             rule__Service__Group__1__Impl();
 
             state._fsp--;
@@ -11117,7 +11117,7 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
             // InternalSimplepalladio.g:3657:1: ( rule__Service__Group__3__Impl rule__Service__Group__4 )
             // InternalSimplepalladio.g:3658:2: rule__Service__Group__3__Impl rule__Service__Group__4
             {
-            pushFollow(FOLLOW_27);
+            pushFollow(FOLLOW_28);
             rule__Service__Group__3__Impl();
 
             state._fsp--;
@@ -11202,7 +11202,7 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
             // InternalSimplepalladio.g:3684:1: ( rule__Service__Group__4__Impl rule__Service__Group__5 )
             // InternalSimplepalladio.g:3685:2: rule__Service__Group__4__Impl rule__Service__Group__5
             {
-            pushFollow(FOLLOW_28);
+            pushFollow(FOLLOW_29);
             rule__Service__Group__4__Impl();
 
             state._fsp--;
@@ -11432,7 +11432,7 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
             // InternalSimplepalladio.g:3765:1: ( rule__BehaviourDescription__Group__0__Impl rule__BehaviourDescription__Group__1 )
             // InternalSimplepalladio.g:3766:2: rule__BehaviourDescription__Group__0__Impl rule__BehaviourDescription__Group__1
             {
-            pushFollow(FOLLOW_28);
+            pushFollow(FOLLOW_29);
             rule__BehaviourDescription__Group__0__Impl();
 
             state._fsp--;
@@ -11582,7 +11582,7 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
             // InternalSimplepalladio.g:3819:1: ( rule__BehaviourDescription__Group__2__Impl rule__BehaviourDescription__Group__3 )
             // InternalSimplepalladio.g:3820:2: rule__BehaviourDescription__Group__2__Impl rule__BehaviourDescription__Group__3
             {
-            pushFollow(FOLLOW_29);
+            pushFollow(FOLLOW_30);
             rule__BehaviourDescription__Group__2__Impl();
 
             state._fsp--;
@@ -11657,7 +11657,7 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
             // InternalSimplepalladio.g:3846:1: ( rule__BehaviourDescription__Group__3__Impl rule__BehaviourDescription__Group__4 )
             // InternalSimplepalladio.g:3847:2: rule__BehaviourDescription__Group__3__Impl rule__BehaviourDescription__Group__4
             {
-            pushFollow(FOLLOW_29);
+            pushFollow(FOLLOW_8);
             rule__BehaviourDescription__Group__3__Impl();
 
             state._fsp--;
@@ -11686,42 +11686,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__BehaviourDescription__Group__3__Impl"
-    // InternalSimplepalladio.g:3854:1: rule__BehaviourDescription__Group__3__Impl : ( ( rule__BehaviourDescription__Group_3__0 )? ) ;
+    // InternalSimplepalladio.g:3854:1: rule__BehaviourDescription__Group__3__Impl : ( 'behaviorElements' ) ;
     public final void rule__BehaviourDescription__Group__3__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:3858:1: ( ( ( rule__BehaviourDescription__Group_3__0 )? ) )
-            // InternalSimplepalladio.g:3859:1: ( ( rule__BehaviourDescription__Group_3__0 )? )
+            // InternalSimplepalladio.g:3858:1: ( ( 'behaviorElements' ) )
+            // InternalSimplepalladio.g:3859:1: ( 'behaviorElements' )
             {
-            // InternalSimplepalladio.g:3859:1: ( ( rule__BehaviourDescription__Group_3__0 )? )
-            // InternalSimplepalladio.g:3860:2: ( rule__BehaviourDescription__Group_3__0 )?
+            // InternalSimplepalladio.g:3859:1: ( 'behaviorElements' )
+            // InternalSimplepalladio.g:3860:2: 'behaviorElements'
             {
-             before(grammarAccess.getBehaviourDescriptionAccess().getGroup_3()); 
-            // InternalSimplepalladio.g:3861:2: ( rule__BehaviourDescription__Group_3__0 )?
-            int alt18=2;
-            int LA18_0 = input.LA(1);
-
-            if ( (LA18_0==46) ) {
-                alt18=1;
-            }
-            switch (alt18) {
-                case 1 :
-                    // InternalSimplepalladio.g:3861:3: rule__BehaviourDescription__Group_3__0
-                    {
-                    pushFollow(FOLLOW_2);
-                    rule__BehaviourDescription__Group_3__0();
-
-                    state._fsp--;
-
-
-                    }
-                    break;
-
-            }
-
-             after(grammarAccess.getBehaviourDescriptionAccess().getGroup_3()); 
+             before(grammarAccess.getBehaviourDescriptionAccess().getBehaviorElementsKeyword_3()); 
+            match(input,46,FOLLOW_2); 
+             after(grammarAccess.getBehaviourDescriptionAccess().getBehaviorElementsKeyword_3()); 
 
             }
 
@@ -11744,17 +11723,22 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__BehaviourDescription__Group__4"
-    // InternalSimplepalladio.g:3869:1: rule__BehaviourDescription__Group__4 : rule__BehaviourDescription__Group__4__Impl ;
+    // InternalSimplepalladio.g:3869:1: rule__BehaviourDescription__Group__4 : rule__BehaviourDescription__Group__4__Impl rule__BehaviourDescription__Group__5 ;
     public final void rule__BehaviourDescription__Group__4() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:3873:1: ( rule__BehaviourDescription__Group__4__Impl )
-            // InternalSimplepalladio.g:3874:2: rule__BehaviourDescription__Group__4__Impl
+            // InternalSimplepalladio.g:3873:1: ( rule__BehaviourDescription__Group__4__Impl rule__BehaviourDescription__Group__5 )
+            // InternalSimplepalladio.g:3874:2: rule__BehaviourDescription__Group__4__Impl rule__BehaviourDescription__Group__5
             {
-            pushFollow(FOLLOW_2);
+            pushFollow(FOLLOW_31);
             rule__BehaviourDescription__Group__4__Impl();
+
+            state._fsp--;
+
+            pushFollow(FOLLOW_2);
+            rule__BehaviourDescription__Group__5();
 
             state._fsp--;
 
@@ -11777,21 +11761,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__BehaviourDescription__Group__4__Impl"
-    // InternalSimplepalladio.g:3880:1: rule__BehaviourDescription__Group__4__Impl : ( '}' ) ;
+    // InternalSimplepalladio.g:3881:1: rule__BehaviourDescription__Group__4__Impl : ( '{' ) ;
     public final void rule__BehaviourDescription__Group__4__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:3884:1: ( ( '}' ) )
-            // InternalSimplepalladio.g:3885:1: ( '}' )
+            // InternalSimplepalladio.g:3885:1: ( ( '{' ) )
+            // InternalSimplepalladio.g:3886:1: ( '{' )
             {
-            // InternalSimplepalladio.g:3885:1: ( '}' )
-            // InternalSimplepalladio.g:3886:2: '}'
+            // InternalSimplepalladio.g:3886:1: ( '{' )
+            // InternalSimplepalladio.g:3887:2: '{'
             {
-             before(grammarAccess.getBehaviourDescriptionAccess().getRightCurlyBracketKeyword_4()); 
-            match(input,23,FOLLOW_2); 
-             after(grammarAccess.getBehaviourDescriptionAccess().getRightCurlyBracketKeyword_4()); 
+             before(grammarAccess.getBehaviourDescriptionAccess().getLeftCurlyBracketKeyword_4()); 
+            match(input,22,FOLLOW_2); 
+             after(grammarAccess.getBehaviourDescriptionAccess().getLeftCurlyBracketKeyword_4()); 
 
             }
 
@@ -11813,173 +11797,23 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
     // $ANTLR end "rule__BehaviourDescription__Group__4__Impl"
 
 
-    // $ANTLR start "rule__BehaviourDescription__Group_3__0"
-    // InternalSimplepalladio.g:3896:1: rule__BehaviourDescription__Group_3__0 : rule__BehaviourDescription__Group_3__0__Impl rule__BehaviourDescription__Group_3__1 ;
-    public final void rule__BehaviourDescription__Group_3__0() throws RecognitionException {
+    // $ANTLR start "rule__BehaviourDescription__Group__5"
+    // InternalSimplepalladio.g:3896:1: rule__BehaviourDescription__Group__5 : rule__BehaviourDescription__Group__5__Impl rule__BehaviourDescription__Group__6 ;
+    public final void rule__BehaviourDescription__Group__5() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:3900:1: ( rule__BehaviourDescription__Group_3__0__Impl rule__BehaviourDescription__Group_3__1 )
-            // InternalSimplepalladio.g:3901:2: rule__BehaviourDescription__Group_3__0__Impl rule__BehaviourDescription__Group_3__1
-            {
-            pushFollow(FOLLOW_8);
-            rule__BehaviourDescription__Group_3__0__Impl();
-
-            state._fsp--;
-
-            pushFollow(FOLLOW_2);
-            rule__BehaviourDescription__Group_3__1();
-
-            state._fsp--;
-
-
-            }
-
-        }
-        catch (RecognitionException re) {
-            reportError(re);
-            recover(input,re);
-        }
-        finally {
-
-            	restoreStackSize(stackSize);
-
-        }
-        return ;
-    }
-    // $ANTLR end "rule__BehaviourDescription__Group_3__0"
-
-
-    // $ANTLR start "rule__BehaviourDescription__Group_3__0__Impl"
-    // InternalSimplepalladio.g:3908:1: rule__BehaviourDescription__Group_3__0__Impl : ( 'behaviorElements' ) ;
-    public final void rule__BehaviourDescription__Group_3__0__Impl() throws RecognitionException {
-
-        		int stackSize = keepStackSize();
-        	
-        try {
-            // InternalSimplepalladio.g:3912:1: ( ( 'behaviorElements' ) )
-            // InternalSimplepalladio.g:3913:1: ( 'behaviorElements' )
-            {
-            // InternalSimplepalladio.g:3913:1: ( 'behaviorElements' )
-            // InternalSimplepalladio.g:3914:2: 'behaviorElements'
-            {
-             before(grammarAccess.getBehaviourDescriptionAccess().getBehaviorElementsKeyword_3_0()); 
-            match(input,46,FOLLOW_2); 
-             after(grammarAccess.getBehaviourDescriptionAccess().getBehaviorElementsKeyword_3_0()); 
-
-            }
-
-
-            }
-
-        }
-        catch (RecognitionException re) {
-            reportError(re);
-            recover(input,re);
-        }
-        finally {
-
-            	restoreStackSize(stackSize);
-
-        }
-        return ;
-    }
-    // $ANTLR end "rule__BehaviourDescription__Group_3__0__Impl"
-
-
-    // $ANTLR start "rule__BehaviourDescription__Group_3__1"
-    // InternalSimplepalladio.g:3923:1: rule__BehaviourDescription__Group_3__1 : rule__BehaviourDescription__Group_3__1__Impl rule__BehaviourDescription__Group_3__2 ;
-    public final void rule__BehaviourDescription__Group_3__1() throws RecognitionException {
-
-        		int stackSize = keepStackSize();
-        	
-        try {
-            // InternalSimplepalladio.g:3927:1: ( rule__BehaviourDescription__Group_3__1__Impl rule__BehaviourDescription__Group_3__2 )
-            // InternalSimplepalladio.g:3928:2: rule__BehaviourDescription__Group_3__1__Impl rule__BehaviourDescription__Group_3__2
-            {
-            pushFollow(FOLLOW_30);
-            rule__BehaviourDescription__Group_3__1__Impl();
-
-            state._fsp--;
-
-            pushFollow(FOLLOW_2);
-            rule__BehaviourDescription__Group_3__2();
-
-            state._fsp--;
-
-
-            }
-
-        }
-        catch (RecognitionException re) {
-            reportError(re);
-            recover(input,re);
-        }
-        finally {
-
-            	restoreStackSize(stackSize);
-
-        }
-        return ;
-    }
-    // $ANTLR end "rule__BehaviourDescription__Group_3__1"
-
-
-    // $ANTLR start "rule__BehaviourDescription__Group_3__1__Impl"
-    // InternalSimplepalladio.g:3935:1: rule__BehaviourDescription__Group_3__1__Impl : ( '{' ) ;
-    public final void rule__BehaviourDescription__Group_3__1__Impl() throws RecognitionException {
-
-        		int stackSize = keepStackSize();
-        	
-        try {
-            // InternalSimplepalladio.g:3939:1: ( ( '{' ) )
-            // InternalSimplepalladio.g:3940:1: ( '{' )
-            {
-            // InternalSimplepalladio.g:3940:1: ( '{' )
-            // InternalSimplepalladio.g:3941:2: '{'
-            {
-             before(grammarAccess.getBehaviourDescriptionAccess().getLeftCurlyBracketKeyword_3_1()); 
-            match(input,22,FOLLOW_2); 
-             after(grammarAccess.getBehaviourDescriptionAccess().getLeftCurlyBracketKeyword_3_1()); 
-
-            }
-
-
-            }
-
-        }
-        catch (RecognitionException re) {
-            reportError(re);
-            recover(input,re);
-        }
-        finally {
-
-            	restoreStackSize(stackSize);
-
-        }
-        return ;
-    }
-    // $ANTLR end "rule__BehaviourDescription__Group_3__1__Impl"
-
-
-    // $ANTLR start "rule__BehaviourDescription__Group_3__2"
-    // InternalSimplepalladio.g:3950:1: rule__BehaviourDescription__Group_3__2 : rule__BehaviourDescription__Group_3__2__Impl rule__BehaviourDescription__Group_3__3 ;
-    public final void rule__BehaviourDescription__Group_3__2() throws RecognitionException {
-
-        		int stackSize = keepStackSize();
-        	
-        try {
-            // InternalSimplepalladio.g:3954:1: ( rule__BehaviourDescription__Group_3__2__Impl rule__BehaviourDescription__Group_3__3 )
-            // InternalSimplepalladio.g:3955:2: rule__BehaviourDescription__Group_3__2__Impl rule__BehaviourDescription__Group_3__3
+            // InternalSimplepalladio.g:3900:1: ( rule__BehaviourDescription__Group__5__Impl rule__BehaviourDescription__Group__6 )
+            // InternalSimplepalladio.g:3901:2: rule__BehaviourDescription__Group__5__Impl rule__BehaviourDescription__Group__6
             {
             pushFollow(FOLLOW_11);
-            rule__BehaviourDescription__Group_3__2__Impl();
+            rule__BehaviourDescription__Group__5__Impl();
 
             state._fsp--;
 
             pushFollow(FOLLOW_2);
-            rule__BehaviourDescription__Group_3__3();
+            rule__BehaviourDescription__Group__6();
 
             state._fsp--;
 
@@ -11998,35 +11832,35 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
         }
         return ;
     }
-    // $ANTLR end "rule__BehaviourDescription__Group_3__2"
+    // $ANTLR end "rule__BehaviourDescription__Group__5"
 
 
-    // $ANTLR start "rule__BehaviourDescription__Group_3__2__Impl"
-    // InternalSimplepalladio.g:3962:1: rule__BehaviourDescription__Group_3__2__Impl : ( ( rule__BehaviourDescription__BehaviorElementsAssignment_3_2 ) ) ;
-    public final void rule__BehaviourDescription__Group_3__2__Impl() throws RecognitionException {
+    // $ANTLR start "rule__BehaviourDescription__Group__5__Impl"
+    // InternalSimplepalladio.g:3908:1: rule__BehaviourDescription__Group__5__Impl : ( ( rule__BehaviourDescription__BehaviorElementsAssignment_5 ) ) ;
+    public final void rule__BehaviourDescription__Group__5__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:3966:1: ( ( ( rule__BehaviourDescription__BehaviorElementsAssignment_3_2 ) ) )
-            // InternalSimplepalladio.g:3967:1: ( ( rule__BehaviourDescription__BehaviorElementsAssignment_3_2 ) )
+            // InternalSimplepalladio.g:3912:1: ( ( ( rule__BehaviourDescription__BehaviorElementsAssignment_5 ) ) )
+            // InternalSimplepalladio.g:3913:1: ( ( rule__BehaviourDescription__BehaviorElementsAssignment_5 ) )
             {
-            // InternalSimplepalladio.g:3967:1: ( ( rule__BehaviourDescription__BehaviorElementsAssignment_3_2 ) )
-            // InternalSimplepalladio.g:3968:2: ( rule__BehaviourDescription__BehaviorElementsAssignment_3_2 )
+            // InternalSimplepalladio.g:3913:1: ( ( rule__BehaviourDescription__BehaviorElementsAssignment_5 ) )
+            // InternalSimplepalladio.g:3914:2: ( rule__BehaviourDescription__BehaviorElementsAssignment_5 )
             {
-             before(grammarAccess.getBehaviourDescriptionAccess().getBehaviorElementsAssignment_3_2()); 
-            // InternalSimplepalladio.g:3969:2: ( rule__BehaviourDescription__BehaviorElementsAssignment_3_2 )
-            // InternalSimplepalladio.g:3969:3: rule__BehaviourDescription__BehaviorElementsAssignment_3_2
+             before(grammarAccess.getBehaviourDescriptionAccess().getBehaviorElementsAssignment_5()); 
+            // InternalSimplepalladio.g:3915:2: ( rule__BehaviourDescription__BehaviorElementsAssignment_5 )
+            // InternalSimplepalladio.g:3915:3: rule__BehaviourDescription__BehaviorElementsAssignment_5
             {
             pushFollow(FOLLOW_2);
-            rule__BehaviourDescription__BehaviorElementsAssignment_3_2();
+            rule__BehaviourDescription__BehaviorElementsAssignment_5();
 
             state._fsp--;
 
 
             }
 
-             after(grammarAccess.getBehaviourDescriptionAccess().getBehaviorElementsAssignment_3_2()); 
+             after(grammarAccess.getBehaviourDescriptionAccess().getBehaviorElementsAssignment_5()); 
 
             }
 
@@ -12045,26 +11879,26 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
         }
         return ;
     }
-    // $ANTLR end "rule__BehaviourDescription__Group_3__2__Impl"
+    // $ANTLR end "rule__BehaviourDescription__Group__5__Impl"
 
 
-    // $ANTLR start "rule__BehaviourDescription__Group_3__3"
-    // InternalSimplepalladio.g:3977:1: rule__BehaviourDescription__Group_3__3 : rule__BehaviourDescription__Group_3__3__Impl rule__BehaviourDescription__Group_3__4 ;
-    public final void rule__BehaviourDescription__Group_3__3() throws RecognitionException {
+    // $ANTLR start "rule__BehaviourDescription__Group__6"
+    // InternalSimplepalladio.g:3923:1: rule__BehaviourDescription__Group__6 : rule__BehaviourDescription__Group__6__Impl rule__BehaviourDescription__Group__7 ;
+    public final void rule__BehaviourDescription__Group__6() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:3981:1: ( rule__BehaviourDescription__Group_3__3__Impl rule__BehaviourDescription__Group_3__4 )
-            // InternalSimplepalladio.g:3982:2: rule__BehaviourDescription__Group_3__3__Impl rule__BehaviourDescription__Group_3__4
+            // InternalSimplepalladio.g:3927:1: ( rule__BehaviourDescription__Group__6__Impl rule__BehaviourDescription__Group__7 )
+            // InternalSimplepalladio.g:3928:2: rule__BehaviourDescription__Group__6__Impl rule__BehaviourDescription__Group__7
             {
             pushFollow(FOLLOW_11);
-            rule__BehaviourDescription__Group_3__3__Impl();
+            rule__BehaviourDescription__Group__6__Impl();
 
             state._fsp--;
 
             pushFollow(FOLLOW_2);
-            rule__BehaviourDescription__Group_3__4();
+            rule__BehaviourDescription__Group__7();
 
             state._fsp--;
 
@@ -12083,40 +11917,40 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
         }
         return ;
     }
-    // $ANTLR end "rule__BehaviourDescription__Group_3__3"
+    // $ANTLR end "rule__BehaviourDescription__Group__6"
 
 
-    // $ANTLR start "rule__BehaviourDescription__Group_3__3__Impl"
-    // InternalSimplepalladio.g:3989:1: rule__BehaviourDescription__Group_3__3__Impl : ( ( rule__BehaviourDescription__Group_3_3__0 )* ) ;
-    public final void rule__BehaviourDescription__Group_3__3__Impl() throws RecognitionException {
+    // $ANTLR start "rule__BehaviourDescription__Group__6__Impl"
+    // InternalSimplepalladio.g:3935:1: rule__BehaviourDescription__Group__6__Impl : ( ( rule__BehaviourDescription__Group_6__0 )* ) ;
+    public final void rule__BehaviourDescription__Group__6__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:3993:1: ( ( ( rule__BehaviourDescription__Group_3_3__0 )* ) )
-            // InternalSimplepalladio.g:3994:1: ( ( rule__BehaviourDescription__Group_3_3__0 )* )
+            // InternalSimplepalladio.g:3939:1: ( ( ( rule__BehaviourDescription__Group_6__0 )* ) )
+            // InternalSimplepalladio.g:3940:1: ( ( rule__BehaviourDescription__Group_6__0 )* )
             {
-            // InternalSimplepalladio.g:3994:1: ( ( rule__BehaviourDescription__Group_3_3__0 )* )
-            // InternalSimplepalladio.g:3995:2: ( rule__BehaviourDescription__Group_3_3__0 )*
+            // InternalSimplepalladio.g:3940:1: ( ( rule__BehaviourDescription__Group_6__0 )* )
+            // InternalSimplepalladio.g:3941:2: ( rule__BehaviourDescription__Group_6__0 )*
             {
-             before(grammarAccess.getBehaviourDescriptionAccess().getGroup_3_3()); 
-            // InternalSimplepalladio.g:3996:2: ( rule__BehaviourDescription__Group_3_3__0 )*
-            loop19:
+             before(grammarAccess.getBehaviourDescriptionAccess().getGroup_6()); 
+            // InternalSimplepalladio.g:3942:2: ( rule__BehaviourDescription__Group_6__0 )*
+            loop18:
             do {
-                int alt19=2;
-                int LA19_0 = input.LA(1);
+                int alt18=2;
+                int LA18_0 = input.LA(1);
 
-                if ( (LA19_0==26) ) {
-                    alt19=1;
+                if ( (LA18_0==26) ) {
+                    alt18=1;
                 }
 
 
-                switch (alt19) {
+                switch (alt18) {
             	case 1 :
-            	    // InternalSimplepalladio.g:3996:3: rule__BehaviourDescription__Group_3_3__0
+            	    // InternalSimplepalladio.g:3942:3: rule__BehaviourDescription__Group_6__0
             	    {
             	    pushFollow(FOLLOW_12);
-            	    rule__BehaviourDescription__Group_3_3__0();
+            	    rule__BehaviourDescription__Group_6__0();
 
             	    state._fsp--;
 
@@ -12125,11 +11959,11 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
             	    break;
 
             	default :
-            	    break loop19;
+            	    break loop18;
                 }
             } while (true);
 
-             after(grammarAccess.getBehaviourDescriptionAccess().getGroup_3_3()); 
+             after(grammarAccess.getBehaviourDescriptionAccess().getGroup_6()); 
 
             }
 
@@ -12148,21 +11982,26 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
         }
         return ;
     }
-    // $ANTLR end "rule__BehaviourDescription__Group_3__3__Impl"
+    // $ANTLR end "rule__BehaviourDescription__Group__6__Impl"
 
 
-    // $ANTLR start "rule__BehaviourDescription__Group_3__4"
-    // InternalSimplepalladio.g:4004:1: rule__BehaviourDescription__Group_3__4 : rule__BehaviourDescription__Group_3__4__Impl ;
-    public final void rule__BehaviourDescription__Group_3__4() throws RecognitionException {
+    // $ANTLR start "rule__BehaviourDescription__Group__7"
+    // InternalSimplepalladio.g:3950:1: rule__BehaviourDescription__Group__7 : rule__BehaviourDescription__Group__7__Impl rule__BehaviourDescription__Group__8 ;
+    public final void rule__BehaviourDescription__Group__7() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4008:1: ( rule__BehaviourDescription__Group_3__4__Impl )
-            // InternalSimplepalladio.g:4009:2: rule__BehaviourDescription__Group_3__4__Impl
+            // InternalSimplepalladio.g:3954:1: ( rule__BehaviourDescription__Group__7__Impl rule__BehaviourDescription__Group__8 )
+            // InternalSimplepalladio.g:3955:2: rule__BehaviourDescription__Group__7__Impl rule__BehaviourDescription__Group__8
             {
+            pushFollow(FOLLOW_7);
+            rule__BehaviourDescription__Group__7__Impl();
+
+            state._fsp--;
+
             pushFollow(FOLLOW_2);
-            rule__BehaviourDescription__Group_3__4__Impl();
+            rule__BehaviourDescription__Group__8();
 
             state._fsp--;
 
@@ -12181,25 +12020,25 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
         }
         return ;
     }
-    // $ANTLR end "rule__BehaviourDescription__Group_3__4"
+    // $ANTLR end "rule__BehaviourDescription__Group__7"
 
 
-    // $ANTLR start "rule__BehaviourDescription__Group_3__4__Impl"
-    // InternalSimplepalladio.g:4015:1: rule__BehaviourDescription__Group_3__4__Impl : ( '}' ) ;
-    public final void rule__BehaviourDescription__Group_3__4__Impl() throws RecognitionException {
+    // $ANTLR start "rule__BehaviourDescription__Group__7__Impl"
+    // InternalSimplepalladio.g:3962:1: rule__BehaviourDescription__Group__7__Impl : ( '}' ) ;
+    public final void rule__BehaviourDescription__Group__7__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4019:1: ( ( '}' ) )
-            // InternalSimplepalladio.g:4020:1: ( '}' )
+            // InternalSimplepalladio.g:3966:1: ( ( '}' ) )
+            // InternalSimplepalladio.g:3967:1: ( '}' )
             {
-            // InternalSimplepalladio.g:4020:1: ( '}' )
-            // InternalSimplepalladio.g:4021:2: '}'
+            // InternalSimplepalladio.g:3967:1: ( '}' )
+            // InternalSimplepalladio.g:3968:2: '}'
             {
-             before(grammarAccess.getBehaviourDescriptionAccess().getRightCurlyBracketKeyword_3_4()); 
+             before(grammarAccess.getBehaviourDescriptionAccess().getRightCurlyBracketKeyword_7()); 
             match(input,23,FOLLOW_2); 
-             after(grammarAccess.getBehaviourDescriptionAccess().getRightCurlyBracketKeyword_3_4()); 
+             after(grammarAccess.getBehaviourDescriptionAccess().getRightCurlyBracketKeyword_7()); 
 
             }
 
@@ -12218,26 +12057,96 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
         }
         return ;
     }
-    // $ANTLR end "rule__BehaviourDescription__Group_3__4__Impl"
+    // $ANTLR end "rule__BehaviourDescription__Group__7__Impl"
 
 
-    // $ANTLR start "rule__BehaviourDescription__Group_3_3__0"
-    // InternalSimplepalladio.g:4031:1: rule__BehaviourDescription__Group_3_3__0 : rule__BehaviourDescription__Group_3_3__0__Impl rule__BehaviourDescription__Group_3_3__1 ;
-    public final void rule__BehaviourDescription__Group_3_3__0() throws RecognitionException {
+    // $ANTLR start "rule__BehaviourDescription__Group__8"
+    // InternalSimplepalladio.g:3977:1: rule__BehaviourDescription__Group__8 : rule__BehaviourDescription__Group__8__Impl ;
+    public final void rule__BehaviourDescription__Group__8() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4035:1: ( rule__BehaviourDescription__Group_3_3__0__Impl rule__BehaviourDescription__Group_3_3__1 )
-            // InternalSimplepalladio.g:4036:2: rule__BehaviourDescription__Group_3_3__0__Impl rule__BehaviourDescription__Group_3_3__1
+            // InternalSimplepalladio.g:3981:1: ( rule__BehaviourDescription__Group__8__Impl )
+            // InternalSimplepalladio.g:3982:2: rule__BehaviourDescription__Group__8__Impl
             {
-            pushFollow(FOLLOW_30);
-            rule__BehaviourDescription__Group_3_3__0__Impl();
+            pushFollow(FOLLOW_2);
+            rule__BehaviourDescription__Group__8__Impl();
+
+            state._fsp--;
+
+
+            }
+
+        }
+        catch (RecognitionException re) {
+            reportError(re);
+            recover(input,re);
+        }
+        finally {
+
+            	restoreStackSize(stackSize);
+
+        }
+        return ;
+    }
+    // $ANTLR end "rule__BehaviourDescription__Group__8"
+
+
+    // $ANTLR start "rule__BehaviourDescription__Group__8__Impl"
+    // InternalSimplepalladio.g:3988:1: rule__BehaviourDescription__Group__8__Impl : ( '}' ) ;
+    public final void rule__BehaviourDescription__Group__8__Impl() throws RecognitionException {
+
+        		int stackSize = keepStackSize();
+        	
+        try {
+            // InternalSimplepalladio.g:3992:1: ( ( '}' ) )
+            // InternalSimplepalladio.g:3993:1: ( '}' )
+            {
+            // InternalSimplepalladio.g:3993:1: ( '}' )
+            // InternalSimplepalladio.g:3994:2: '}'
+            {
+             before(grammarAccess.getBehaviourDescriptionAccess().getRightCurlyBracketKeyword_8()); 
+            match(input,23,FOLLOW_2); 
+             after(grammarAccess.getBehaviourDescriptionAccess().getRightCurlyBracketKeyword_8()); 
+
+            }
+
+
+            }
+
+        }
+        catch (RecognitionException re) {
+            reportError(re);
+            recover(input,re);
+        }
+        finally {
+
+            	restoreStackSize(stackSize);
+
+        }
+        return ;
+    }
+    // $ANTLR end "rule__BehaviourDescription__Group__8__Impl"
+
+
+    // $ANTLR start "rule__BehaviourDescription__Group_6__0"
+    // InternalSimplepalladio.g:4004:1: rule__BehaviourDescription__Group_6__0 : rule__BehaviourDescription__Group_6__0__Impl rule__BehaviourDescription__Group_6__1 ;
+    public final void rule__BehaviourDescription__Group_6__0() throws RecognitionException {
+
+        		int stackSize = keepStackSize();
+        	
+        try {
+            // InternalSimplepalladio.g:4008:1: ( rule__BehaviourDescription__Group_6__0__Impl rule__BehaviourDescription__Group_6__1 )
+            // InternalSimplepalladio.g:4009:2: rule__BehaviourDescription__Group_6__0__Impl rule__BehaviourDescription__Group_6__1
+            {
+            pushFollow(FOLLOW_31);
+            rule__BehaviourDescription__Group_6__0__Impl();
 
             state._fsp--;
 
             pushFollow(FOLLOW_2);
-            rule__BehaviourDescription__Group_3_3__1();
+            rule__BehaviourDescription__Group_6__1();
 
             state._fsp--;
 
@@ -12256,25 +12165,25 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
         }
         return ;
     }
-    // $ANTLR end "rule__BehaviourDescription__Group_3_3__0"
+    // $ANTLR end "rule__BehaviourDescription__Group_6__0"
 
 
-    // $ANTLR start "rule__BehaviourDescription__Group_3_3__0__Impl"
-    // InternalSimplepalladio.g:4043:1: rule__BehaviourDescription__Group_3_3__0__Impl : ( ',' ) ;
-    public final void rule__BehaviourDescription__Group_3_3__0__Impl() throws RecognitionException {
+    // $ANTLR start "rule__BehaviourDescription__Group_6__0__Impl"
+    // InternalSimplepalladio.g:4016:1: rule__BehaviourDescription__Group_6__0__Impl : ( ',' ) ;
+    public final void rule__BehaviourDescription__Group_6__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4047:1: ( ( ',' ) )
-            // InternalSimplepalladio.g:4048:1: ( ',' )
+            // InternalSimplepalladio.g:4020:1: ( ( ',' ) )
+            // InternalSimplepalladio.g:4021:1: ( ',' )
             {
-            // InternalSimplepalladio.g:4048:1: ( ',' )
-            // InternalSimplepalladio.g:4049:2: ','
+            // InternalSimplepalladio.g:4021:1: ( ',' )
+            // InternalSimplepalladio.g:4022:2: ','
             {
-             before(grammarAccess.getBehaviourDescriptionAccess().getCommaKeyword_3_3_0()); 
+             before(grammarAccess.getBehaviourDescriptionAccess().getCommaKeyword_6_0()); 
             match(input,26,FOLLOW_2); 
-             after(grammarAccess.getBehaviourDescriptionAccess().getCommaKeyword_3_3_0()); 
+             after(grammarAccess.getBehaviourDescriptionAccess().getCommaKeyword_6_0()); 
 
             }
 
@@ -12293,21 +12202,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
         }
         return ;
     }
-    // $ANTLR end "rule__BehaviourDescription__Group_3_3__0__Impl"
+    // $ANTLR end "rule__BehaviourDescription__Group_6__0__Impl"
 
 
-    // $ANTLR start "rule__BehaviourDescription__Group_3_3__1"
-    // InternalSimplepalladio.g:4058:1: rule__BehaviourDescription__Group_3_3__1 : rule__BehaviourDescription__Group_3_3__1__Impl ;
-    public final void rule__BehaviourDescription__Group_3_3__1() throws RecognitionException {
+    // $ANTLR start "rule__BehaviourDescription__Group_6__1"
+    // InternalSimplepalladio.g:4031:1: rule__BehaviourDescription__Group_6__1 : rule__BehaviourDescription__Group_6__1__Impl ;
+    public final void rule__BehaviourDescription__Group_6__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4062:1: ( rule__BehaviourDescription__Group_3_3__1__Impl )
-            // InternalSimplepalladio.g:4063:2: rule__BehaviourDescription__Group_3_3__1__Impl
+            // InternalSimplepalladio.g:4035:1: ( rule__BehaviourDescription__Group_6__1__Impl )
+            // InternalSimplepalladio.g:4036:2: rule__BehaviourDescription__Group_6__1__Impl
             {
             pushFollow(FOLLOW_2);
-            rule__BehaviourDescription__Group_3_3__1__Impl();
+            rule__BehaviourDescription__Group_6__1__Impl();
 
             state._fsp--;
 
@@ -12326,35 +12235,35 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
         }
         return ;
     }
-    // $ANTLR end "rule__BehaviourDescription__Group_3_3__1"
+    // $ANTLR end "rule__BehaviourDescription__Group_6__1"
 
 
-    // $ANTLR start "rule__BehaviourDescription__Group_3_3__1__Impl"
-    // InternalSimplepalladio.g:4069:1: rule__BehaviourDescription__Group_3_3__1__Impl : ( ( rule__BehaviourDescription__BehaviorElementsAssignment_3_3_1 ) ) ;
-    public final void rule__BehaviourDescription__Group_3_3__1__Impl() throws RecognitionException {
+    // $ANTLR start "rule__BehaviourDescription__Group_6__1__Impl"
+    // InternalSimplepalladio.g:4042:1: rule__BehaviourDescription__Group_6__1__Impl : ( ( rule__BehaviourDescription__BehaviorElementsAssignment_6_1 ) ) ;
+    public final void rule__BehaviourDescription__Group_6__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4073:1: ( ( ( rule__BehaviourDescription__BehaviorElementsAssignment_3_3_1 ) ) )
-            // InternalSimplepalladio.g:4074:1: ( ( rule__BehaviourDescription__BehaviorElementsAssignment_3_3_1 ) )
+            // InternalSimplepalladio.g:4046:1: ( ( ( rule__BehaviourDescription__BehaviorElementsAssignment_6_1 ) ) )
+            // InternalSimplepalladio.g:4047:1: ( ( rule__BehaviourDescription__BehaviorElementsAssignment_6_1 ) )
             {
-            // InternalSimplepalladio.g:4074:1: ( ( rule__BehaviourDescription__BehaviorElementsAssignment_3_3_1 ) )
-            // InternalSimplepalladio.g:4075:2: ( rule__BehaviourDescription__BehaviorElementsAssignment_3_3_1 )
+            // InternalSimplepalladio.g:4047:1: ( ( rule__BehaviourDescription__BehaviorElementsAssignment_6_1 ) )
+            // InternalSimplepalladio.g:4048:2: ( rule__BehaviourDescription__BehaviorElementsAssignment_6_1 )
             {
-             before(grammarAccess.getBehaviourDescriptionAccess().getBehaviorElementsAssignment_3_3_1()); 
-            // InternalSimplepalladio.g:4076:2: ( rule__BehaviourDescription__BehaviorElementsAssignment_3_3_1 )
-            // InternalSimplepalladio.g:4076:3: rule__BehaviourDescription__BehaviorElementsAssignment_3_3_1
+             before(grammarAccess.getBehaviourDescriptionAccess().getBehaviorElementsAssignment_6_1()); 
+            // InternalSimplepalladio.g:4049:2: ( rule__BehaviourDescription__BehaviorElementsAssignment_6_1 )
+            // InternalSimplepalladio.g:4049:3: rule__BehaviourDescription__BehaviorElementsAssignment_6_1
             {
             pushFollow(FOLLOW_2);
-            rule__BehaviourDescription__BehaviorElementsAssignment_3_3_1();
+            rule__BehaviourDescription__BehaviorElementsAssignment_6_1();
 
             state._fsp--;
 
 
             }
 
-             after(grammarAccess.getBehaviourDescriptionAccess().getBehaviorElementsAssignment_3_3_1()); 
+             after(grammarAccess.getBehaviourDescriptionAccess().getBehaviorElementsAssignment_6_1()); 
 
             }
 
@@ -12373,20 +12282,20 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
         }
         return ;
     }
-    // $ANTLR end "rule__BehaviourDescription__Group_3_3__1__Impl"
+    // $ANTLR end "rule__BehaviourDescription__Group_6__1__Impl"
 
 
     // $ANTLR start "rule__InternalAction__Group__0"
-    // InternalSimplepalladio.g:4085:1: rule__InternalAction__Group__0 : rule__InternalAction__Group__0__Impl rule__InternalAction__Group__1 ;
+    // InternalSimplepalladio.g:4058:1: rule__InternalAction__Group__0 : rule__InternalAction__Group__0__Impl rule__InternalAction__Group__1 ;
     public final void rule__InternalAction__Group__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4089:1: ( rule__InternalAction__Group__0__Impl rule__InternalAction__Group__1 )
-            // InternalSimplepalladio.g:4090:2: rule__InternalAction__Group__0__Impl rule__InternalAction__Group__1
+            // InternalSimplepalladio.g:4062:1: ( rule__InternalAction__Group__0__Impl rule__InternalAction__Group__1 )
+            // InternalSimplepalladio.g:4063:2: rule__InternalAction__Group__0__Impl rule__InternalAction__Group__1
             {
-            pushFollow(FOLLOW_31);
+            pushFollow(FOLLOW_32);
             rule__InternalAction__Group__0__Impl();
 
             state._fsp--;
@@ -12415,21 +12324,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__InternalAction__Group__0__Impl"
-    // InternalSimplepalladio.g:4097:1: rule__InternalAction__Group__0__Impl : ( () ) ;
+    // InternalSimplepalladio.g:4070:1: rule__InternalAction__Group__0__Impl : ( () ) ;
     public final void rule__InternalAction__Group__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4101:1: ( ( () ) )
-            // InternalSimplepalladio.g:4102:1: ( () )
+            // InternalSimplepalladio.g:4074:1: ( ( () ) )
+            // InternalSimplepalladio.g:4075:1: ( () )
             {
-            // InternalSimplepalladio.g:4102:1: ( () )
-            // InternalSimplepalladio.g:4103:2: ()
+            // InternalSimplepalladio.g:4075:1: ( () )
+            // InternalSimplepalladio.g:4076:2: ()
             {
              before(grammarAccess.getInternalActionAccess().getInternalActionAction_0()); 
-            // InternalSimplepalladio.g:4104:2: ()
-            // InternalSimplepalladio.g:4104:3: 
+            // InternalSimplepalladio.g:4077:2: ()
+            // InternalSimplepalladio.g:4077:3: 
             {
             }
 
@@ -12452,14 +12361,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__InternalAction__Group__1"
-    // InternalSimplepalladio.g:4112:1: rule__InternalAction__Group__1 : rule__InternalAction__Group__1__Impl ;
+    // InternalSimplepalladio.g:4085:1: rule__InternalAction__Group__1 : rule__InternalAction__Group__1__Impl ;
     public final void rule__InternalAction__Group__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4116:1: ( rule__InternalAction__Group__1__Impl )
-            // InternalSimplepalladio.g:4117:2: rule__InternalAction__Group__1__Impl
+            // InternalSimplepalladio.g:4089:1: ( rule__InternalAction__Group__1__Impl )
+            // InternalSimplepalladio.g:4090:2: rule__InternalAction__Group__1__Impl
             {
             pushFollow(FOLLOW_2);
             rule__InternalAction__Group__1__Impl();
@@ -12485,17 +12394,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__InternalAction__Group__1__Impl"
-    // InternalSimplepalladio.g:4123:1: rule__InternalAction__Group__1__Impl : ( 'InternalAction' ) ;
+    // InternalSimplepalladio.g:4096:1: rule__InternalAction__Group__1__Impl : ( 'InternalAction' ) ;
     public final void rule__InternalAction__Group__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4127:1: ( ( 'InternalAction' ) )
-            // InternalSimplepalladio.g:4128:1: ( 'InternalAction' )
+            // InternalSimplepalladio.g:4100:1: ( ( 'InternalAction' ) )
+            // InternalSimplepalladio.g:4101:1: ( 'InternalAction' )
             {
-            // InternalSimplepalladio.g:4128:1: ( 'InternalAction' )
-            // InternalSimplepalladio.g:4129:2: 'InternalAction'
+            // InternalSimplepalladio.g:4101:1: ( 'InternalAction' )
+            // InternalSimplepalladio.g:4102:2: 'InternalAction'
             {
              before(grammarAccess.getInternalActionAccess().getInternalActionKeyword_1()); 
             match(input,47,FOLLOW_2); 
@@ -12522,14 +12431,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__ExternalCall__Group__0"
-    // InternalSimplepalladio.g:4139:1: rule__ExternalCall__Group__0 : rule__ExternalCall__Group__0__Impl rule__ExternalCall__Group__1 ;
+    // InternalSimplepalladio.g:4112:1: rule__ExternalCall__Group__0 : rule__ExternalCall__Group__0__Impl rule__ExternalCall__Group__1 ;
     public final void rule__ExternalCall__Group__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4143:1: ( rule__ExternalCall__Group__0__Impl rule__ExternalCall__Group__1 )
-            // InternalSimplepalladio.g:4144:2: rule__ExternalCall__Group__0__Impl rule__ExternalCall__Group__1
+            // InternalSimplepalladio.g:4116:1: ( rule__ExternalCall__Group__0__Impl rule__ExternalCall__Group__1 )
+            // InternalSimplepalladio.g:4117:2: rule__ExternalCall__Group__0__Impl rule__ExternalCall__Group__1
             {
             pushFollow(FOLLOW_8);
             rule__ExternalCall__Group__0__Impl();
@@ -12560,17 +12469,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__ExternalCall__Group__0__Impl"
-    // InternalSimplepalladio.g:4151:1: rule__ExternalCall__Group__0__Impl : ( 'ExternalCall' ) ;
+    // InternalSimplepalladio.g:4124:1: rule__ExternalCall__Group__0__Impl : ( 'ExternalCall' ) ;
     public final void rule__ExternalCall__Group__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4155:1: ( ( 'ExternalCall' ) )
-            // InternalSimplepalladio.g:4156:1: ( 'ExternalCall' )
+            // InternalSimplepalladio.g:4128:1: ( ( 'ExternalCall' ) )
+            // InternalSimplepalladio.g:4129:1: ( 'ExternalCall' )
             {
-            // InternalSimplepalladio.g:4156:1: ( 'ExternalCall' )
-            // InternalSimplepalladio.g:4157:2: 'ExternalCall'
+            // InternalSimplepalladio.g:4129:1: ( 'ExternalCall' )
+            // InternalSimplepalladio.g:4130:2: 'ExternalCall'
             {
              before(grammarAccess.getExternalCallAccess().getExternalCallKeyword_0()); 
             match(input,48,FOLLOW_2); 
@@ -12597,16 +12506,16 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__ExternalCall__Group__1"
-    // InternalSimplepalladio.g:4166:1: rule__ExternalCall__Group__1 : rule__ExternalCall__Group__1__Impl rule__ExternalCall__Group__2 ;
+    // InternalSimplepalladio.g:4139:1: rule__ExternalCall__Group__1 : rule__ExternalCall__Group__1__Impl rule__ExternalCall__Group__2 ;
     public final void rule__ExternalCall__Group__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4170:1: ( rule__ExternalCall__Group__1__Impl rule__ExternalCall__Group__2 )
-            // InternalSimplepalladio.g:4171:2: rule__ExternalCall__Group__1__Impl rule__ExternalCall__Group__2
+            // InternalSimplepalladio.g:4143:1: ( rule__ExternalCall__Group__1__Impl rule__ExternalCall__Group__2 )
+            // InternalSimplepalladio.g:4144:2: rule__ExternalCall__Group__1__Impl rule__ExternalCall__Group__2
             {
-            pushFollow(FOLLOW_26);
+            pushFollow(FOLLOW_27);
             rule__ExternalCall__Group__1__Impl();
 
             state._fsp--;
@@ -12635,17 +12544,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__ExternalCall__Group__1__Impl"
-    // InternalSimplepalladio.g:4178:1: rule__ExternalCall__Group__1__Impl : ( '{' ) ;
+    // InternalSimplepalladio.g:4151:1: rule__ExternalCall__Group__1__Impl : ( '{' ) ;
     public final void rule__ExternalCall__Group__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4182:1: ( ( '{' ) )
-            // InternalSimplepalladio.g:4183:1: ( '{' )
+            // InternalSimplepalladio.g:4155:1: ( ( '{' ) )
+            // InternalSimplepalladio.g:4156:1: ( '{' )
             {
-            // InternalSimplepalladio.g:4183:1: ( '{' )
-            // InternalSimplepalladio.g:4184:2: '{'
+            // InternalSimplepalladio.g:4156:1: ( '{' )
+            // InternalSimplepalladio.g:4157:2: '{'
             {
              before(grammarAccess.getExternalCallAccess().getLeftCurlyBracketKeyword_1()); 
             match(input,22,FOLLOW_2); 
@@ -12672,14 +12581,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__ExternalCall__Group__2"
-    // InternalSimplepalladio.g:4193:1: rule__ExternalCall__Group__2 : rule__ExternalCall__Group__2__Impl rule__ExternalCall__Group__3 ;
+    // InternalSimplepalladio.g:4166:1: rule__ExternalCall__Group__2 : rule__ExternalCall__Group__2__Impl rule__ExternalCall__Group__3 ;
     public final void rule__ExternalCall__Group__2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4197:1: ( rule__ExternalCall__Group__2__Impl rule__ExternalCall__Group__3 )
-            // InternalSimplepalladio.g:4198:2: rule__ExternalCall__Group__2__Impl rule__ExternalCall__Group__3
+            // InternalSimplepalladio.g:4170:1: ( rule__ExternalCall__Group__2__Impl rule__ExternalCall__Group__3 )
+            // InternalSimplepalladio.g:4171:2: rule__ExternalCall__Group__2__Impl rule__ExternalCall__Group__3
             {
             pushFollow(FOLLOW_13);
             rule__ExternalCall__Group__2__Impl();
@@ -12710,17 +12619,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__ExternalCall__Group__2__Impl"
-    // InternalSimplepalladio.g:4205:1: rule__ExternalCall__Group__2__Impl : ( 'signature' ) ;
+    // InternalSimplepalladio.g:4178:1: rule__ExternalCall__Group__2__Impl : ( 'signature' ) ;
     public final void rule__ExternalCall__Group__2__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4209:1: ( ( 'signature' ) )
-            // InternalSimplepalladio.g:4210:1: ( 'signature' )
+            // InternalSimplepalladio.g:4182:1: ( ( 'signature' ) )
+            // InternalSimplepalladio.g:4183:1: ( 'signature' )
             {
-            // InternalSimplepalladio.g:4210:1: ( 'signature' )
-            // InternalSimplepalladio.g:4211:2: 'signature'
+            // InternalSimplepalladio.g:4183:1: ( 'signature' )
+            // InternalSimplepalladio.g:4184:2: 'signature'
             {
              before(grammarAccess.getExternalCallAccess().getSignatureKeyword_2()); 
             match(input,43,FOLLOW_2); 
@@ -12747,14 +12656,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__ExternalCall__Group__3"
-    // InternalSimplepalladio.g:4220:1: rule__ExternalCall__Group__3 : rule__ExternalCall__Group__3__Impl rule__ExternalCall__Group__4 ;
+    // InternalSimplepalladio.g:4193:1: rule__ExternalCall__Group__3 : rule__ExternalCall__Group__3__Impl rule__ExternalCall__Group__4 ;
     public final void rule__ExternalCall__Group__3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4224:1: ( rule__ExternalCall__Group__3__Impl rule__ExternalCall__Group__4 )
-            // InternalSimplepalladio.g:4225:2: rule__ExternalCall__Group__3__Impl rule__ExternalCall__Group__4
+            // InternalSimplepalladio.g:4197:1: ( rule__ExternalCall__Group__3__Impl rule__ExternalCall__Group__4 )
+            // InternalSimplepalladio.g:4198:2: rule__ExternalCall__Group__3__Impl rule__ExternalCall__Group__4
             {
             pushFollow(FOLLOW_7);
             rule__ExternalCall__Group__3__Impl();
@@ -12785,21 +12694,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__ExternalCall__Group__3__Impl"
-    // InternalSimplepalladio.g:4232:1: rule__ExternalCall__Group__3__Impl : ( ( rule__ExternalCall__SignatureAssignment_3 ) ) ;
+    // InternalSimplepalladio.g:4205:1: rule__ExternalCall__Group__3__Impl : ( ( rule__ExternalCall__SignatureAssignment_3 ) ) ;
     public final void rule__ExternalCall__Group__3__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4236:1: ( ( ( rule__ExternalCall__SignatureAssignment_3 ) ) )
-            // InternalSimplepalladio.g:4237:1: ( ( rule__ExternalCall__SignatureAssignment_3 ) )
+            // InternalSimplepalladio.g:4209:1: ( ( ( rule__ExternalCall__SignatureAssignment_3 ) ) )
+            // InternalSimplepalladio.g:4210:1: ( ( rule__ExternalCall__SignatureAssignment_3 ) )
             {
-            // InternalSimplepalladio.g:4237:1: ( ( rule__ExternalCall__SignatureAssignment_3 ) )
-            // InternalSimplepalladio.g:4238:2: ( rule__ExternalCall__SignatureAssignment_3 )
+            // InternalSimplepalladio.g:4210:1: ( ( rule__ExternalCall__SignatureAssignment_3 ) )
+            // InternalSimplepalladio.g:4211:2: ( rule__ExternalCall__SignatureAssignment_3 )
             {
              before(grammarAccess.getExternalCallAccess().getSignatureAssignment_3()); 
-            // InternalSimplepalladio.g:4239:2: ( rule__ExternalCall__SignatureAssignment_3 )
-            // InternalSimplepalladio.g:4239:3: rule__ExternalCall__SignatureAssignment_3
+            // InternalSimplepalladio.g:4212:2: ( rule__ExternalCall__SignatureAssignment_3 )
+            // InternalSimplepalladio.g:4212:3: rule__ExternalCall__SignatureAssignment_3
             {
             pushFollow(FOLLOW_2);
             rule__ExternalCall__SignatureAssignment_3();
@@ -12832,14 +12741,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__ExternalCall__Group__4"
-    // InternalSimplepalladio.g:4247:1: rule__ExternalCall__Group__4 : rule__ExternalCall__Group__4__Impl ;
+    // InternalSimplepalladio.g:4220:1: rule__ExternalCall__Group__4 : rule__ExternalCall__Group__4__Impl ;
     public final void rule__ExternalCall__Group__4() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4251:1: ( rule__ExternalCall__Group__4__Impl )
-            // InternalSimplepalladio.g:4252:2: rule__ExternalCall__Group__4__Impl
+            // InternalSimplepalladio.g:4224:1: ( rule__ExternalCall__Group__4__Impl )
+            // InternalSimplepalladio.g:4225:2: rule__ExternalCall__Group__4__Impl
             {
             pushFollow(FOLLOW_2);
             rule__ExternalCall__Group__4__Impl();
@@ -12865,17 +12774,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__ExternalCall__Group__4__Impl"
-    // InternalSimplepalladio.g:4258:1: rule__ExternalCall__Group__4__Impl : ( '}' ) ;
+    // InternalSimplepalladio.g:4231:1: rule__ExternalCall__Group__4__Impl : ( '}' ) ;
     public final void rule__ExternalCall__Group__4__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4262:1: ( ( '}' ) )
-            // InternalSimplepalladio.g:4263:1: ( '}' )
+            // InternalSimplepalladio.g:4235:1: ( ( '}' ) )
+            // InternalSimplepalladio.g:4236:1: ( '}' )
             {
-            // InternalSimplepalladio.g:4263:1: ( '}' )
-            // InternalSimplepalladio.g:4264:2: '}'
+            // InternalSimplepalladio.g:4236:1: ( '}' )
+            // InternalSimplepalladio.g:4237:2: '}'
             {
              before(grammarAccess.getExternalCallAccess().getRightCurlyBracketKeyword_4()); 
             match(input,23,FOLLOW_2); 
@@ -12902,16 +12811,16 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Loop__Group__0"
-    // InternalSimplepalladio.g:4274:1: rule__Loop__Group__0 : rule__Loop__Group__0__Impl rule__Loop__Group__1 ;
+    // InternalSimplepalladio.g:4247:1: rule__Loop__Group__0 : rule__Loop__Group__0__Impl rule__Loop__Group__1 ;
     public final void rule__Loop__Group__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4278:1: ( rule__Loop__Group__0__Impl rule__Loop__Group__1 )
-            // InternalSimplepalladio.g:4279:2: rule__Loop__Group__0__Impl rule__Loop__Group__1
+            // InternalSimplepalladio.g:4251:1: ( rule__Loop__Group__0__Impl rule__Loop__Group__1 )
+            // InternalSimplepalladio.g:4252:2: rule__Loop__Group__0__Impl rule__Loop__Group__1
             {
-            pushFollow(FOLLOW_32);
+            pushFollow(FOLLOW_33);
             rule__Loop__Group__0__Impl();
 
             state._fsp--;
@@ -12940,21 +12849,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Loop__Group__0__Impl"
-    // InternalSimplepalladio.g:4286:1: rule__Loop__Group__0__Impl : ( () ) ;
+    // InternalSimplepalladio.g:4259:1: rule__Loop__Group__0__Impl : ( () ) ;
     public final void rule__Loop__Group__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4290:1: ( ( () ) )
-            // InternalSimplepalladio.g:4291:1: ( () )
+            // InternalSimplepalladio.g:4263:1: ( ( () ) )
+            // InternalSimplepalladio.g:4264:1: ( () )
             {
-            // InternalSimplepalladio.g:4291:1: ( () )
-            // InternalSimplepalladio.g:4292:2: ()
+            // InternalSimplepalladio.g:4264:1: ( () )
+            // InternalSimplepalladio.g:4265:2: ()
             {
              before(grammarAccess.getLoopAccess().getLoopAction_0()); 
-            // InternalSimplepalladio.g:4293:2: ()
-            // InternalSimplepalladio.g:4293:3: 
+            // InternalSimplepalladio.g:4266:2: ()
+            // InternalSimplepalladio.g:4266:3: 
             {
             }
 
@@ -12977,14 +12886,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Loop__Group__1"
-    // InternalSimplepalladio.g:4301:1: rule__Loop__Group__1 : rule__Loop__Group__1__Impl rule__Loop__Group__2 ;
+    // InternalSimplepalladio.g:4274:1: rule__Loop__Group__1 : rule__Loop__Group__1__Impl rule__Loop__Group__2 ;
     public final void rule__Loop__Group__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4305:1: ( rule__Loop__Group__1__Impl rule__Loop__Group__2 )
-            // InternalSimplepalladio.g:4306:2: rule__Loop__Group__1__Impl rule__Loop__Group__2
+            // InternalSimplepalladio.g:4278:1: ( rule__Loop__Group__1__Impl rule__Loop__Group__2 )
+            // InternalSimplepalladio.g:4279:2: rule__Loop__Group__1__Impl rule__Loop__Group__2
             {
             pushFollow(FOLLOW_8);
             rule__Loop__Group__1__Impl();
@@ -13015,17 +12924,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Loop__Group__1__Impl"
-    // InternalSimplepalladio.g:4313:1: rule__Loop__Group__1__Impl : ( 'Loop' ) ;
+    // InternalSimplepalladio.g:4286:1: rule__Loop__Group__1__Impl : ( 'Loop' ) ;
     public final void rule__Loop__Group__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4317:1: ( ( 'Loop' ) )
-            // InternalSimplepalladio.g:4318:1: ( 'Loop' )
+            // InternalSimplepalladio.g:4290:1: ( ( 'Loop' ) )
+            // InternalSimplepalladio.g:4291:1: ( 'Loop' )
             {
-            // InternalSimplepalladio.g:4318:1: ( 'Loop' )
-            // InternalSimplepalladio.g:4319:2: 'Loop'
+            // InternalSimplepalladio.g:4291:1: ( 'Loop' )
+            // InternalSimplepalladio.g:4292:2: 'Loop'
             {
              before(grammarAccess.getLoopAccess().getLoopKeyword_1()); 
             match(input,49,FOLLOW_2); 
@@ -13052,16 +12961,16 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Loop__Group__2"
-    // InternalSimplepalladio.g:4328:1: rule__Loop__Group__2 : rule__Loop__Group__2__Impl rule__Loop__Group__3 ;
+    // InternalSimplepalladio.g:4301:1: rule__Loop__Group__2 : rule__Loop__Group__2__Impl rule__Loop__Group__3 ;
     public final void rule__Loop__Group__2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4332:1: ( rule__Loop__Group__2__Impl rule__Loop__Group__3 )
-            // InternalSimplepalladio.g:4333:2: rule__Loop__Group__2__Impl rule__Loop__Group__3
+            // InternalSimplepalladio.g:4305:1: ( rule__Loop__Group__2__Impl rule__Loop__Group__3 )
+            // InternalSimplepalladio.g:4306:2: rule__Loop__Group__2__Impl rule__Loop__Group__3
             {
-            pushFollow(FOLLOW_29);
+            pushFollow(FOLLOW_34);
             rule__Loop__Group__2__Impl();
 
             state._fsp--;
@@ -13090,17 +12999,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Loop__Group__2__Impl"
-    // InternalSimplepalladio.g:4340:1: rule__Loop__Group__2__Impl : ( '{' ) ;
+    // InternalSimplepalladio.g:4313:1: rule__Loop__Group__2__Impl : ( '{' ) ;
     public final void rule__Loop__Group__2__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4344:1: ( ( '{' ) )
-            // InternalSimplepalladio.g:4345:1: ( '{' )
+            // InternalSimplepalladio.g:4317:1: ( ( '{' ) )
+            // InternalSimplepalladio.g:4318:1: ( '{' )
             {
-            // InternalSimplepalladio.g:4345:1: ( '{' )
-            // InternalSimplepalladio.g:4346:2: '{'
+            // InternalSimplepalladio.g:4318:1: ( '{' )
+            // InternalSimplepalladio.g:4319:2: '{'
             {
              before(grammarAccess.getLoopAccess().getLeftCurlyBracketKeyword_2()); 
             match(input,22,FOLLOW_2); 
@@ -13127,16 +13036,16 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Loop__Group__3"
-    // InternalSimplepalladio.g:4355:1: rule__Loop__Group__3 : rule__Loop__Group__3__Impl rule__Loop__Group__4 ;
+    // InternalSimplepalladio.g:4328:1: rule__Loop__Group__3 : rule__Loop__Group__3__Impl rule__Loop__Group__4 ;
     public final void rule__Loop__Group__3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4359:1: ( rule__Loop__Group__3__Impl rule__Loop__Group__4 )
-            // InternalSimplepalladio.g:4360:2: rule__Loop__Group__3__Impl rule__Loop__Group__4
+            // InternalSimplepalladio.g:4332:1: ( rule__Loop__Group__3__Impl rule__Loop__Group__4 )
+            // InternalSimplepalladio.g:4333:2: rule__Loop__Group__3__Impl rule__Loop__Group__4
             {
-            pushFollow(FOLLOW_29);
+            pushFollow(FOLLOW_34);
             rule__Loop__Group__3__Impl();
 
             state._fsp--;
@@ -13165,29 +13074,29 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Loop__Group__3__Impl"
-    // InternalSimplepalladio.g:4367:1: rule__Loop__Group__3__Impl : ( ( rule__Loop__Group_3__0 )? ) ;
+    // InternalSimplepalladio.g:4340:1: rule__Loop__Group__3__Impl : ( ( rule__Loop__Group_3__0 )? ) ;
     public final void rule__Loop__Group__3__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4371:1: ( ( ( rule__Loop__Group_3__0 )? ) )
-            // InternalSimplepalladio.g:4372:1: ( ( rule__Loop__Group_3__0 )? )
+            // InternalSimplepalladio.g:4344:1: ( ( ( rule__Loop__Group_3__0 )? ) )
+            // InternalSimplepalladio.g:4345:1: ( ( rule__Loop__Group_3__0 )? )
             {
-            // InternalSimplepalladio.g:4372:1: ( ( rule__Loop__Group_3__0 )? )
-            // InternalSimplepalladio.g:4373:2: ( rule__Loop__Group_3__0 )?
+            // InternalSimplepalladio.g:4345:1: ( ( rule__Loop__Group_3__0 )? )
+            // InternalSimplepalladio.g:4346:2: ( rule__Loop__Group_3__0 )?
             {
              before(grammarAccess.getLoopAccess().getGroup_3()); 
-            // InternalSimplepalladio.g:4374:2: ( rule__Loop__Group_3__0 )?
-            int alt20=2;
-            int LA20_0 = input.LA(1);
+            // InternalSimplepalladio.g:4347:2: ( rule__Loop__Group_3__0 )?
+            int alt19=2;
+            int LA19_0 = input.LA(1);
 
-            if ( (LA20_0==46) ) {
-                alt20=1;
+            if ( (LA19_0==46) ) {
+                alt19=1;
             }
-            switch (alt20) {
+            switch (alt19) {
                 case 1 :
-                    // InternalSimplepalladio.g:4374:3: rule__Loop__Group_3__0
+                    // InternalSimplepalladio.g:4347:3: rule__Loop__Group_3__0
                     {
                     pushFollow(FOLLOW_2);
                     rule__Loop__Group_3__0();
@@ -13223,14 +13132,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Loop__Group__4"
-    // InternalSimplepalladio.g:4382:1: rule__Loop__Group__4 : rule__Loop__Group__4__Impl ;
+    // InternalSimplepalladio.g:4355:1: rule__Loop__Group__4 : rule__Loop__Group__4__Impl ;
     public final void rule__Loop__Group__4() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4386:1: ( rule__Loop__Group__4__Impl )
-            // InternalSimplepalladio.g:4387:2: rule__Loop__Group__4__Impl
+            // InternalSimplepalladio.g:4359:1: ( rule__Loop__Group__4__Impl )
+            // InternalSimplepalladio.g:4360:2: rule__Loop__Group__4__Impl
             {
             pushFollow(FOLLOW_2);
             rule__Loop__Group__4__Impl();
@@ -13256,17 +13165,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Loop__Group__4__Impl"
-    // InternalSimplepalladio.g:4393:1: rule__Loop__Group__4__Impl : ( '}' ) ;
+    // InternalSimplepalladio.g:4366:1: rule__Loop__Group__4__Impl : ( '}' ) ;
     public final void rule__Loop__Group__4__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4397:1: ( ( '}' ) )
-            // InternalSimplepalladio.g:4398:1: ( '}' )
+            // InternalSimplepalladio.g:4370:1: ( ( '}' ) )
+            // InternalSimplepalladio.g:4371:1: ( '}' )
             {
-            // InternalSimplepalladio.g:4398:1: ( '}' )
-            // InternalSimplepalladio.g:4399:2: '}'
+            // InternalSimplepalladio.g:4371:1: ( '}' )
+            // InternalSimplepalladio.g:4372:2: '}'
             {
              before(grammarAccess.getLoopAccess().getRightCurlyBracketKeyword_4()); 
             match(input,23,FOLLOW_2); 
@@ -13293,16 +13202,16 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Loop__Group_3__0"
-    // InternalSimplepalladio.g:4409:1: rule__Loop__Group_3__0 : rule__Loop__Group_3__0__Impl rule__Loop__Group_3__1 ;
+    // InternalSimplepalladio.g:4382:1: rule__Loop__Group_3__0 : rule__Loop__Group_3__0__Impl rule__Loop__Group_3__1 ;
     public final void rule__Loop__Group_3__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4413:1: ( rule__Loop__Group_3__0__Impl rule__Loop__Group_3__1 )
-            // InternalSimplepalladio.g:4414:2: rule__Loop__Group_3__0__Impl rule__Loop__Group_3__1
+            // InternalSimplepalladio.g:4386:1: ( rule__Loop__Group_3__0__Impl rule__Loop__Group_3__1 )
+            // InternalSimplepalladio.g:4387:2: rule__Loop__Group_3__0__Impl rule__Loop__Group_3__1
             {
-            pushFollow(FOLLOW_15);
+            pushFollow(FOLLOW_8);
             rule__Loop__Group_3__0__Impl();
 
             state._fsp--;
@@ -13331,17 +13240,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Loop__Group_3__0__Impl"
-    // InternalSimplepalladio.g:4421:1: rule__Loop__Group_3__0__Impl : ( 'behaviorElements' ) ;
+    // InternalSimplepalladio.g:4394:1: rule__Loop__Group_3__0__Impl : ( 'behaviorElements' ) ;
     public final void rule__Loop__Group_3__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4425:1: ( ( 'behaviorElements' ) )
-            // InternalSimplepalladio.g:4426:1: ( 'behaviorElements' )
+            // InternalSimplepalladio.g:4398:1: ( ( 'behaviorElements' ) )
+            // InternalSimplepalladio.g:4399:1: ( 'behaviorElements' )
             {
-            // InternalSimplepalladio.g:4426:1: ( 'behaviorElements' )
-            // InternalSimplepalladio.g:4427:2: 'behaviorElements'
+            // InternalSimplepalladio.g:4399:1: ( 'behaviorElements' )
+            // InternalSimplepalladio.g:4400:2: 'behaviorElements'
             {
              before(grammarAccess.getLoopAccess().getBehaviorElementsKeyword_3_0()); 
             match(input,46,FOLLOW_2); 
@@ -13368,16 +13277,16 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Loop__Group_3__1"
-    // InternalSimplepalladio.g:4436:1: rule__Loop__Group_3__1 : rule__Loop__Group_3__1__Impl rule__Loop__Group_3__2 ;
+    // InternalSimplepalladio.g:4409:1: rule__Loop__Group_3__1 : rule__Loop__Group_3__1__Impl rule__Loop__Group_3__2 ;
     public final void rule__Loop__Group_3__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4440:1: ( rule__Loop__Group_3__1__Impl rule__Loop__Group_3__2 )
-            // InternalSimplepalladio.g:4441:2: rule__Loop__Group_3__1__Impl rule__Loop__Group_3__2
+            // InternalSimplepalladio.g:4413:1: ( rule__Loop__Group_3__1__Impl rule__Loop__Group_3__2 )
+            // InternalSimplepalladio.g:4414:2: rule__Loop__Group_3__1__Impl rule__Loop__Group_3__2
             {
-            pushFollow(FOLLOW_13);
+            pushFollow(FOLLOW_31);
             rule__Loop__Group_3__1__Impl();
 
             state._fsp--;
@@ -13406,21 +13315,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Loop__Group_3__1__Impl"
-    // InternalSimplepalladio.g:4448:1: rule__Loop__Group_3__1__Impl : ( '(' ) ;
+    // InternalSimplepalladio.g:4421:1: rule__Loop__Group_3__1__Impl : ( '{' ) ;
     public final void rule__Loop__Group_3__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4452:1: ( ( '(' ) )
-            // InternalSimplepalladio.g:4453:1: ( '(' )
+            // InternalSimplepalladio.g:4425:1: ( ( '{' ) )
+            // InternalSimplepalladio.g:4426:1: ( '{' )
             {
-            // InternalSimplepalladio.g:4453:1: ( '(' )
-            // InternalSimplepalladio.g:4454:2: '('
+            // InternalSimplepalladio.g:4426:1: ( '{' )
+            // InternalSimplepalladio.g:4427:2: '{'
             {
-             before(grammarAccess.getLoopAccess().getLeftParenthesisKeyword_3_1()); 
-            match(input,29,FOLLOW_2); 
-             after(grammarAccess.getLoopAccess().getLeftParenthesisKeyword_3_1()); 
+             before(grammarAccess.getLoopAccess().getLeftCurlyBracketKeyword_3_1()); 
+            match(input,22,FOLLOW_2); 
+             after(grammarAccess.getLoopAccess().getLeftCurlyBracketKeyword_3_1()); 
 
             }
 
@@ -13443,16 +13352,16 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Loop__Group_3__2"
-    // InternalSimplepalladio.g:4463:1: rule__Loop__Group_3__2 : rule__Loop__Group_3__2__Impl rule__Loop__Group_3__3 ;
+    // InternalSimplepalladio.g:4436:1: rule__Loop__Group_3__2 : rule__Loop__Group_3__2__Impl rule__Loop__Group_3__3 ;
     public final void rule__Loop__Group_3__2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4467:1: ( rule__Loop__Group_3__2__Impl rule__Loop__Group_3__3 )
-            // InternalSimplepalladio.g:4468:2: rule__Loop__Group_3__2__Impl rule__Loop__Group_3__3
+            // InternalSimplepalladio.g:4440:1: ( rule__Loop__Group_3__2__Impl rule__Loop__Group_3__3 )
+            // InternalSimplepalladio.g:4441:2: rule__Loop__Group_3__2__Impl rule__Loop__Group_3__3
             {
-            pushFollow(FOLLOW_16);
+            pushFollow(FOLLOW_11);
             rule__Loop__Group_3__2__Impl();
 
             state._fsp--;
@@ -13481,21 +13390,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Loop__Group_3__2__Impl"
-    // InternalSimplepalladio.g:4475:1: rule__Loop__Group_3__2__Impl : ( ( rule__Loop__BehaviorElementsAssignment_3_2 ) ) ;
+    // InternalSimplepalladio.g:4448:1: rule__Loop__Group_3__2__Impl : ( ( rule__Loop__BehaviorElementsAssignment_3_2 ) ) ;
     public final void rule__Loop__Group_3__2__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4479:1: ( ( ( rule__Loop__BehaviorElementsAssignment_3_2 ) ) )
-            // InternalSimplepalladio.g:4480:1: ( ( rule__Loop__BehaviorElementsAssignment_3_2 ) )
+            // InternalSimplepalladio.g:4452:1: ( ( ( rule__Loop__BehaviorElementsAssignment_3_2 ) ) )
+            // InternalSimplepalladio.g:4453:1: ( ( rule__Loop__BehaviorElementsAssignment_3_2 ) )
             {
-            // InternalSimplepalladio.g:4480:1: ( ( rule__Loop__BehaviorElementsAssignment_3_2 ) )
-            // InternalSimplepalladio.g:4481:2: ( rule__Loop__BehaviorElementsAssignment_3_2 )
+            // InternalSimplepalladio.g:4453:1: ( ( rule__Loop__BehaviorElementsAssignment_3_2 ) )
+            // InternalSimplepalladio.g:4454:2: ( rule__Loop__BehaviorElementsAssignment_3_2 )
             {
              before(grammarAccess.getLoopAccess().getBehaviorElementsAssignment_3_2()); 
-            // InternalSimplepalladio.g:4482:2: ( rule__Loop__BehaviorElementsAssignment_3_2 )
-            // InternalSimplepalladio.g:4482:3: rule__Loop__BehaviorElementsAssignment_3_2
+            // InternalSimplepalladio.g:4455:2: ( rule__Loop__BehaviorElementsAssignment_3_2 )
+            // InternalSimplepalladio.g:4455:3: rule__Loop__BehaviorElementsAssignment_3_2
             {
             pushFollow(FOLLOW_2);
             rule__Loop__BehaviorElementsAssignment_3_2();
@@ -13528,16 +13437,16 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Loop__Group_3__3"
-    // InternalSimplepalladio.g:4490:1: rule__Loop__Group_3__3 : rule__Loop__Group_3__3__Impl rule__Loop__Group_3__4 ;
+    // InternalSimplepalladio.g:4463:1: rule__Loop__Group_3__3 : rule__Loop__Group_3__3__Impl rule__Loop__Group_3__4 ;
     public final void rule__Loop__Group_3__3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4494:1: ( rule__Loop__Group_3__3__Impl rule__Loop__Group_3__4 )
-            // InternalSimplepalladio.g:4495:2: rule__Loop__Group_3__3__Impl rule__Loop__Group_3__4
+            // InternalSimplepalladio.g:4467:1: ( rule__Loop__Group_3__3__Impl rule__Loop__Group_3__4 )
+            // InternalSimplepalladio.g:4468:2: rule__Loop__Group_3__3__Impl rule__Loop__Group_3__4
             {
-            pushFollow(FOLLOW_16);
+            pushFollow(FOLLOW_11);
             rule__Loop__Group_3__3__Impl();
 
             state._fsp--;
@@ -13566,33 +13475,33 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Loop__Group_3__3__Impl"
-    // InternalSimplepalladio.g:4502:1: rule__Loop__Group_3__3__Impl : ( ( rule__Loop__Group_3_3__0 )* ) ;
+    // InternalSimplepalladio.g:4475:1: rule__Loop__Group_3__3__Impl : ( ( rule__Loop__Group_3_3__0 )* ) ;
     public final void rule__Loop__Group_3__3__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4506:1: ( ( ( rule__Loop__Group_3_3__0 )* ) )
-            // InternalSimplepalladio.g:4507:1: ( ( rule__Loop__Group_3_3__0 )* )
+            // InternalSimplepalladio.g:4479:1: ( ( ( rule__Loop__Group_3_3__0 )* ) )
+            // InternalSimplepalladio.g:4480:1: ( ( rule__Loop__Group_3_3__0 )* )
             {
-            // InternalSimplepalladio.g:4507:1: ( ( rule__Loop__Group_3_3__0 )* )
-            // InternalSimplepalladio.g:4508:2: ( rule__Loop__Group_3_3__0 )*
+            // InternalSimplepalladio.g:4480:1: ( ( rule__Loop__Group_3_3__0 )* )
+            // InternalSimplepalladio.g:4481:2: ( rule__Loop__Group_3_3__0 )*
             {
              before(grammarAccess.getLoopAccess().getGroup_3_3()); 
-            // InternalSimplepalladio.g:4509:2: ( rule__Loop__Group_3_3__0 )*
-            loop21:
+            // InternalSimplepalladio.g:4482:2: ( rule__Loop__Group_3_3__0 )*
+            loop20:
             do {
-                int alt21=2;
-                int LA21_0 = input.LA(1);
+                int alt20=2;
+                int LA20_0 = input.LA(1);
 
-                if ( (LA21_0==26) ) {
-                    alt21=1;
+                if ( (LA20_0==26) ) {
+                    alt20=1;
                 }
 
 
-                switch (alt21) {
+                switch (alt20) {
             	case 1 :
-            	    // InternalSimplepalladio.g:4509:3: rule__Loop__Group_3_3__0
+            	    // InternalSimplepalladio.g:4482:3: rule__Loop__Group_3_3__0
             	    {
             	    pushFollow(FOLLOW_12);
             	    rule__Loop__Group_3_3__0();
@@ -13604,7 +13513,7 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
             	    break;
 
             	default :
-            	    break loop21;
+            	    break loop20;
                 }
             } while (true);
 
@@ -13631,14 +13540,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Loop__Group_3__4"
-    // InternalSimplepalladio.g:4517:1: rule__Loop__Group_3__4 : rule__Loop__Group_3__4__Impl ;
+    // InternalSimplepalladio.g:4490:1: rule__Loop__Group_3__4 : rule__Loop__Group_3__4__Impl ;
     public final void rule__Loop__Group_3__4() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4521:1: ( rule__Loop__Group_3__4__Impl )
-            // InternalSimplepalladio.g:4522:2: rule__Loop__Group_3__4__Impl
+            // InternalSimplepalladio.g:4494:1: ( rule__Loop__Group_3__4__Impl )
+            // InternalSimplepalladio.g:4495:2: rule__Loop__Group_3__4__Impl
             {
             pushFollow(FOLLOW_2);
             rule__Loop__Group_3__4__Impl();
@@ -13664,21 +13573,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Loop__Group_3__4__Impl"
-    // InternalSimplepalladio.g:4528:1: rule__Loop__Group_3__4__Impl : ( ')' ) ;
+    // InternalSimplepalladio.g:4501:1: rule__Loop__Group_3__4__Impl : ( '}' ) ;
     public final void rule__Loop__Group_3__4__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4532:1: ( ( ')' ) )
-            // InternalSimplepalladio.g:4533:1: ( ')' )
+            // InternalSimplepalladio.g:4505:1: ( ( '}' ) )
+            // InternalSimplepalladio.g:4506:1: ( '}' )
             {
-            // InternalSimplepalladio.g:4533:1: ( ')' )
-            // InternalSimplepalladio.g:4534:2: ')'
+            // InternalSimplepalladio.g:4506:1: ( '}' )
+            // InternalSimplepalladio.g:4507:2: '}'
             {
-             before(grammarAccess.getLoopAccess().getRightParenthesisKeyword_3_4()); 
-            match(input,30,FOLLOW_2); 
-             after(grammarAccess.getLoopAccess().getRightParenthesisKeyword_3_4()); 
+             before(grammarAccess.getLoopAccess().getRightCurlyBracketKeyword_3_4()); 
+            match(input,23,FOLLOW_2); 
+             after(grammarAccess.getLoopAccess().getRightCurlyBracketKeyword_3_4()); 
 
             }
 
@@ -13701,16 +13610,16 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Loop__Group_3_3__0"
-    // InternalSimplepalladio.g:4544:1: rule__Loop__Group_3_3__0 : rule__Loop__Group_3_3__0__Impl rule__Loop__Group_3_3__1 ;
+    // InternalSimplepalladio.g:4517:1: rule__Loop__Group_3_3__0 : rule__Loop__Group_3_3__0__Impl rule__Loop__Group_3_3__1 ;
     public final void rule__Loop__Group_3_3__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4548:1: ( rule__Loop__Group_3_3__0__Impl rule__Loop__Group_3_3__1 )
-            // InternalSimplepalladio.g:4549:2: rule__Loop__Group_3_3__0__Impl rule__Loop__Group_3_3__1
+            // InternalSimplepalladio.g:4521:1: ( rule__Loop__Group_3_3__0__Impl rule__Loop__Group_3_3__1 )
+            // InternalSimplepalladio.g:4522:2: rule__Loop__Group_3_3__0__Impl rule__Loop__Group_3_3__1
             {
-            pushFollow(FOLLOW_13);
+            pushFollow(FOLLOW_31);
             rule__Loop__Group_3_3__0__Impl();
 
             state._fsp--;
@@ -13739,17 +13648,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Loop__Group_3_3__0__Impl"
-    // InternalSimplepalladio.g:4556:1: rule__Loop__Group_3_3__0__Impl : ( ',' ) ;
+    // InternalSimplepalladio.g:4529:1: rule__Loop__Group_3_3__0__Impl : ( ',' ) ;
     public final void rule__Loop__Group_3_3__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4560:1: ( ( ',' ) )
-            // InternalSimplepalladio.g:4561:1: ( ',' )
+            // InternalSimplepalladio.g:4533:1: ( ( ',' ) )
+            // InternalSimplepalladio.g:4534:1: ( ',' )
             {
-            // InternalSimplepalladio.g:4561:1: ( ',' )
-            // InternalSimplepalladio.g:4562:2: ','
+            // InternalSimplepalladio.g:4534:1: ( ',' )
+            // InternalSimplepalladio.g:4535:2: ','
             {
              before(grammarAccess.getLoopAccess().getCommaKeyword_3_3_0()); 
             match(input,26,FOLLOW_2); 
@@ -13776,14 +13685,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Loop__Group_3_3__1"
-    // InternalSimplepalladio.g:4571:1: rule__Loop__Group_3_3__1 : rule__Loop__Group_3_3__1__Impl ;
+    // InternalSimplepalladio.g:4544:1: rule__Loop__Group_3_3__1 : rule__Loop__Group_3_3__1__Impl ;
     public final void rule__Loop__Group_3_3__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4575:1: ( rule__Loop__Group_3_3__1__Impl )
-            // InternalSimplepalladio.g:4576:2: rule__Loop__Group_3_3__1__Impl
+            // InternalSimplepalladio.g:4548:1: ( rule__Loop__Group_3_3__1__Impl )
+            // InternalSimplepalladio.g:4549:2: rule__Loop__Group_3_3__1__Impl
             {
             pushFollow(FOLLOW_2);
             rule__Loop__Group_3_3__1__Impl();
@@ -13809,21 +13718,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Loop__Group_3_3__1__Impl"
-    // InternalSimplepalladio.g:4582:1: rule__Loop__Group_3_3__1__Impl : ( ( rule__Loop__BehaviorElementsAssignment_3_3_1 ) ) ;
+    // InternalSimplepalladio.g:4555:1: rule__Loop__Group_3_3__1__Impl : ( ( rule__Loop__BehaviorElementsAssignment_3_3_1 ) ) ;
     public final void rule__Loop__Group_3_3__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4586:1: ( ( ( rule__Loop__BehaviorElementsAssignment_3_3_1 ) ) )
-            // InternalSimplepalladio.g:4587:1: ( ( rule__Loop__BehaviorElementsAssignment_3_3_1 ) )
+            // InternalSimplepalladio.g:4559:1: ( ( ( rule__Loop__BehaviorElementsAssignment_3_3_1 ) ) )
+            // InternalSimplepalladio.g:4560:1: ( ( rule__Loop__BehaviorElementsAssignment_3_3_1 ) )
             {
-            // InternalSimplepalladio.g:4587:1: ( ( rule__Loop__BehaviorElementsAssignment_3_3_1 ) )
-            // InternalSimplepalladio.g:4588:2: ( rule__Loop__BehaviorElementsAssignment_3_3_1 )
+            // InternalSimplepalladio.g:4560:1: ( ( rule__Loop__BehaviorElementsAssignment_3_3_1 ) )
+            // InternalSimplepalladio.g:4561:2: ( rule__Loop__BehaviorElementsAssignment_3_3_1 )
             {
              before(grammarAccess.getLoopAccess().getBehaviorElementsAssignment_3_3_1()); 
-            // InternalSimplepalladio.g:4589:2: ( rule__Loop__BehaviorElementsAssignment_3_3_1 )
-            // InternalSimplepalladio.g:4589:3: rule__Loop__BehaviorElementsAssignment_3_3_1
+            // InternalSimplepalladio.g:4562:2: ( rule__Loop__BehaviorElementsAssignment_3_3_1 )
+            // InternalSimplepalladio.g:4562:3: rule__Loop__BehaviorElementsAssignment_3_3_1
             {
             pushFollow(FOLLOW_2);
             rule__Loop__BehaviorElementsAssignment_3_3_1();
@@ -13856,16 +13765,16 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Branch__Group__0"
-    // InternalSimplepalladio.g:4598:1: rule__Branch__Group__0 : rule__Branch__Group__0__Impl rule__Branch__Group__1 ;
+    // InternalSimplepalladio.g:4571:1: rule__Branch__Group__0 : rule__Branch__Group__0__Impl rule__Branch__Group__1 ;
     public final void rule__Branch__Group__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4602:1: ( rule__Branch__Group__0__Impl rule__Branch__Group__1 )
-            // InternalSimplepalladio.g:4603:2: rule__Branch__Group__0__Impl rule__Branch__Group__1
+            // InternalSimplepalladio.g:4575:1: ( rule__Branch__Group__0__Impl rule__Branch__Group__1 )
+            // InternalSimplepalladio.g:4576:2: rule__Branch__Group__0__Impl rule__Branch__Group__1
             {
-            pushFollow(FOLLOW_30);
+            pushFollow(FOLLOW_31);
             rule__Branch__Group__0__Impl();
 
             state._fsp--;
@@ -13894,21 +13803,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Branch__Group__0__Impl"
-    // InternalSimplepalladio.g:4610:1: rule__Branch__Group__0__Impl : ( () ) ;
+    // InternalSimplepalladio.g:4583:1: rule__Branch__Group__0__Impl : ( () ) ;
     public final void rule__Branch__Group__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4614:1: ( ( () ) )
-            // InternalSimplepalladio.g:4615:1: ( () )
+            // InternalSimplepalladio.g:4587:1: ( ( () ) )
+            // InternalSimplepalladio.g:4588:1: ( () )
             {
-            // InternalSimplepalladio.g:4615:1: ( () )
-            // InternalSimplepalladio.g:4616:2: ()
+            // InternalSimplepalladio.g:4588:1: ( () )
+            // InternalSimplepalladio.g:4589:2: ()
             {
              before(grammarAccess.getBranchAccess().getBranchAction_0()); 
-            // InternalSimplepalladio.g:4617:2: ()
-            // InternalSimplepalladio.g:4617:3: 
+            // InternalSimplepalladio.g:4590:2: ()
+            // InternalSimplepalladio.g:4590:3: 
             {
             }
 
@@ -13931,14 +13840,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Branch__Group__1"
-    // InternalSimplepalladio.g:4625:1: rule__Branch__Group__1 : rule__Branch__Group__1__Impl rule__Branch__Group__2 ;
+    // InternalSimplepalladio.g:4598:1: rule__Branch__Group__1 : rule__Branch__Group__1__Impl rule__Branch__Group__2 ;
     public final void rule__Branch__Group__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4629:1: ( rule__Branch__Group__1__Impl rule__Branch__Group__2 )
-            // InternalSimplepalladio.g:4630:2: rule__Branch__Group__1__Impl rule__Branch__Group__2
+            // InternalSimplepalladio.g:4602:1: ( rule__Branch__Group__1__Impl rule__Branch__Group__2 )
+            // InternalSimplepalladio.g:4603:2: rule__Branch__Group__1__Impl rule__Branch__Group__2
             {
             pushFollow(FOLLOW_8);
             rule__Branch__Group__1__Impl();
@@ -13969,17 +13878,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Branch__Group__1__Impl"
-    // InternalSimplepalladio.g:4637:1: rule__Branch__Group__1__Impl : ( 'Branch' ) ;
+    // InternalSimplepalladio.g:4610:1: rule__Branch__Group__1__Impl : ( 'Branch' ) ;
     public final void rule__Branch__Group__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4641:1: ( ( 'Branch' ) )
-            // InternalSimplepalladio.g:4642:1: ( 'Branch' )
+            // InternalSimplepalladio.g:4614:1: ( ( 'Branch' ) )
+            // InternalSimplepalladio.g:4615:1: ( 'Branch' )
             {
-            // InternalSimplepalladio.g:4642:1: ( 'Branch' )
-            // InternalSimplepalladio.g:4643:2: 'Branch'
+            // InternalSimplepalladio.g:4615:1: ( 'Branch' )
+            // InternalSimplepalladio.g:4616:2: 'Branch'
             {
              before(grammarAccess.getBranchAccess().getBranchKeyword_1()); 
             match(input,50,FOLLOW_2); 
@@ -14006,16 +13915,16 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Branch__Group__2"
-    // InternalSimplepalladio.g:4652:1: rule__Branch__Group__2 : rule__Branch__Group__2__Impl rule__Branch__Group__3 ;
+    // InternalSimplepalladio.g:4625:1: rule__Branch__Group__2 : rule__Branch__Group__2__Impl rule__Branch__Group__3 ;
     public final void rule__Branch__Group__2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4656:1: ( rule__Branch__Group__2__Impl rule__Branch__Group__3 )
-            // InternalSimplepalladio.g:4657:2: rule__Branch__Group__2__Impl rule__Branch__Group__3
+            // InternalSimplepalladio.g:4629:1: ( rule__Branch__Group__2__Impl rule__Branch__Group__3 )
+            // InternalSimplepalladio.g:4630:2: rule__Branch__Group__2__Impl rule__Branch__Group__3
             {
-            pushFollow(FOLLOW_29);
+            pushFollow(FOLLOW_34);
             rule__Branch__Group__2__Impl();
 
             state._fsp--;
@@ -14044,17 +13953,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Branch__Group__2__Impl"
-    // InternalSimplepalladio.g:4664:1: rule__Branch__Group__2__Impl : ( '{' ) ;
+    // InternalSimplepalladio.g:4637:1: rule__Branch__Group__2__Impl : ( '{' ) ;
     public final void rule__Branch__Group__2__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4668:1: ( ( '{' ) )
-            // InternalSimplepalladio.g:4669:1: ( '{' )
+            // InternalSimplepalladio.g:4641:1: ( ( '{' ) )
+            // InternalSimplepalladio.g:4642:1: ( '{' )
             {
-            // InternalSimplepalladio.g:4669:1: ( '{' )
-            // InternalSimplepalladio.g:4670:2: '{'
+            // InternalSimplepalladio.g:4642:1: ( '{' )
+            // InternalSimplepalladio.g:4643:2: '{'
             {
              before(grammarAccess.getBranchAccess().getLeftCurlyBracketKeyword_2()); 
             match(input,22,FOLLOW_2); 
@@ -14081,16 +13990,16 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Branch__Group__3"
-    // InternalSimplepalladio.g:4679:1: rule__Branch__Group__3 : rule__Branch__Group__3__Impl rule__Branch__Group__4 ;
+    // InternalSimplepalladio.g:4652:1: rule__Branch__Group__3 : rule__Branch__Group__3__Impl rule__Branch__Group__4 ;
     public final void rule__Branch__Group__3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4683:1: ( rule__Branch__Group__3__Impl rule__Branch__Group__4 )
-            // InternalSimplepalladio.g:4684:2: rule__Branch__Group__3__Impl rule__Branch__Group__4
+            // InternalSimplepalladio.g:4656:1: ( rule__Branch__Group__3__Impl rule__Branch__Group__4 )
+            // InternalSimplepalladio.g:4657:2: rule__Branch__Group__3__Impl rule__Branch__Group__4
             {
-            pushFollow(FOLLOW_29);
+            pushFollow(FOLLOW_34);
             rule__Branch__Group__3__Impl();
 
             state._fsp--;
@@ -14119,29 +14028,29 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Branch__Group__3__Impl"
-    // InternalSimplepalladio.g:4691:1: rule__Branch__Group__3__Impl : ( ( rule__Branch__Group_3__0 )? ) ;
+    // InternalSimplepalladio.g:4664:1: rule__Branch__Group__3__Impl : ( ( rule__Branch__Group_3__0 )? ) ;
     public final void rule__Branch__Group__3__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4695:1: ( ( ( rule__Branch__Group_3__0 )? ) )
-            // InternalSimplepalladio.g:4696:1: ( ( rule__Branch__Group_3__0 )? )
+            // InternalSimplepalladio.g:4668:1: ( ( ( rule__Branch__Group_3__0 )? ) )
+            // InternalSimplepalladio.g:4669:1: ( ( rule__Branch__Group_3__0 )? )
             {
-            // InternalSimplepalladio.g:4696:1: ( ( rule__Branch__Group_3__0 )? )
-            // InternalSimplepalladio.g:4697:2: ( rule__Branch__Group_3__0 )?
+            // InternalSimplepalladio.g:4669:1: ( ( rule__Branch__Group_3__0 )? )
+            // InternalSimplepalladio.g:4670:2: ( rule__Branch__Group_3__0 )?
             {
              before(grammarAccess.getBranchAccess().getGroup_3()); 
-            // InternalSimplepalladio.g:4698:2: ( rule__Branch__Group_3__0 )?
-            int alt22=2;
-            int LA22_0 = input.LA(1);
+            // InternalSimplepalladio.g:4671:2: ( rule__Branch__Group_3__0 )?
+            int alt21=2;
+            int LA21_0 = input.LA(1);
 
-            if ( (LA22_0==46) ) {
-                alt22=1;
+            if ( (LA21_0==46) ) {
+                alt21=1;
             }
-            switch (alt22) {
+            switch (alt21) {
                 case 1 :
-                    // InternalSimplepalladio.g:4698:3: rule__Branch__Group_3__0
+                    // InternalSimplepalladio.g:4671:3: rule__Branch__Group_3__0
                     {
                     pushFollow(FOLLOW_2);
                     rule__Branch__Group_3__0();
@@ -14177,14 +14086,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Branch__Group__4"
-    // InternalSimplepalladio.g:4706:1: rule__Branch__Group__4 : rule__Branch__Group__4__Impl ;
+    // InternalSimplepalladio.g:4679:1: rule__Branch__Group__4 : rule__Branch__Group__4__Impl ;
     public final void rule__Branch__Group__4() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4710:1: ( rule__Branch__Group__4__Impl )
-            // InternalSimplepalladio.g:4711:2: rule__Branch__Group__4__Impl
+            // InternalSimplepalladio.g:4683:1: ( rule__Branch__Group__4__Impl )
+            // InternalSimplepalladio.g:4684:2: rule__Branch__Group__4__Impl
             {
             pushFollow(FOLLOW_2);
             rule__Branch__Group__4__Impl();
@@ -14210,17 +14119,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Branch__Group__4__Impl"
-    // InternalSimplepalladio.g:4717:1: rule__Branch__Group__4__Impl : ( '}' ) ;
+    // InternalSimplepalladio.g:4690:1: rule__Branch__Group__4__Impl : ( '}' ) ;
     public final void rule__Branch__Group__4__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4721:1: ( ( '}' ) )
-            // InternalSimplepalladio.g:4722:1: ( '}' )
+            // InternalSimplepalladio.g:4694:1: ( ( '}' ) )
+            // InternalSimplepalladio.g:4695:1: ( '}' )
             {
-            // InternalSimplepalladio.g:4722:1: ( '}' )
-            // InternalSimplepalladio.g:4723:2: '}'
+            // InternalSimplepalladio.g:4695:1: ( '}' )
+            // InternalSimplepalladio.g:4696:2: '}'
             {
              before(grammarAccess.getBranchAccess().getRightCurlyBracketKeyword_4()); 
             match(input,23,FOLLOW_2); 
@@ -14247,16 +14156,16 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Branch__Group_3__0"
-    // InternalSimplepalladio.g:4733:1: rule__Branch__Group_3__0 : rule__Branch__Group_3__0__Impl rule__Branch__Group_3__1 ;
+    // InternalSimplepalladio.g:4706:1: rule__Branch__Group_3__0 : rule__Branch__Group_3__0__Impl rule__Branch__Group_3__1 ;
     public final void rule__Branch__Group_3__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4737:1: ( rule__Branch__Group_3__0__Impl rule__Branch__Group_3__1 )
-            // InternalSimplepalladio.g:4738:2: rule__Branch__Group_3__0__Impl rule__Branch__Group_3__1
+            // InternalSimplepalladio.g:4710:1: ( rule__Branch__Group_3__0__Impl rule__Branch__Group_3__1 )
+            // InternalSimplepalladio.g:4711:2: rule__Branch__Group_3__0__Impl rule__Branch__Group_3__1
             {
-            pushFollow(FOLLOW_15);
+            pushFollow(FOLLOW_8);
             rule__Branch__Group_3__0__Impl();
 
             state._fsp--;
@@ -14285,17 +14194,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Branch__Group_3__0__Impl"
-    // InternalSimplepalladio.g:4745:1: rule__Branch__Group_3__0__Impl : ( 'behaviorElements' ) ;
+    // InternalSimplepalladio.g:4718:1: rule__Branch__Group_3__0__Impl : ( 'behaviorElements' ) ;
     public final void rule__Branch__Group_3__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4749:1: ( ( 'behaviorElements' ) )
-            // InternalSimplepalladio.g:4750:1: ( 'behaviorElements' )
+            // InternalSimplepalladio.g:4722:1: ( ( 'behaviorElements' ) )
+            // InternalSimplepalladio.g:4723:1: ( 'behaviorElements' )
             {
-            // InternalSimplepalladio.g:4750:1: ( 'behaviorElements' )
-            // InternalSimplepalladio.g:4751:2: 'behaviorElements'
+            // InternalSimplepalladio.g:4723:1: ( 'behaviorElements' )
+            // InternalSimplepalladio.g:4724:2: 'behaviorElements'
             {
              before(grammarAccess.getBranchAccess().getBehaviorElementsKeyword_3_0()); 
             match(input,46,FOLLOW_2); 
@@ -14322,16 +14231,16 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Branch__Group_3__1"
-    // InternalSimplepalladio.g:4760:1: rule__Branch__Group_3__1 : rule__Branch__Group_3__1__Impl rule__Branch__Group_3__2 ;
+    // InternalSimplepalladio.g:4733:1: rule__Branch__Group_3__1 : rule__Branch__Group_3__1__Impl rule__Branch__Group_3__2 ;
     public final void rule__Branch__Group_3__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4764:1: ( rule__Branch__Group_3__1__Impl rule__Branch__Group_3__2 )
-            // InternalSimplepalladio.g:4765:2: rule__Branch__Group_3__1__Impl rule__Branch__Group_3__2
+            // InternalSimplepalladio.g:4737:1: ( rule__Branch__Group_3__1__Impl rule__Branch__Group_3__2 )
+            // InternalSimplepalladio.g:4738:2: rule__Branch__Group_3__1__Impl rule__Branch__Group_3__2
             {
-            pushFollow(FOLLOW_13);
+            pushFollow(FOLLOW_31);
             rule__Branch__Group_3__1__Impl();
 
             state._fsp--;
@@ -14360,21 +14269,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Branch__Group_3__1__Impl"
-    // InternalSimplepalladio.g:4772:1: rule__Branch__Group_3__1__Impl : ( '(' ) ;
+    // InternalSimplepalladio.g:4745:1: rule__Branch__Group_3__1__Impl : ( '{' ) ;
     public final void rule__Branch__Group_3__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4776:1: ( ( '(' ) )
-            // InternalSimplepalladio.g:4777:1: ( '(' )
+            // InternalSimplepalladio.g:4749:1: ( ( '{' ) )
+            // InternalSimplepalladio.g:4750:1: ( '{' )
             {
-            // InternalSimplepalladio.g:4777:1: ( '(' )
-            // InternalSimplepalladio.g:4778:2: '('
+            // InternalSimplepalladio.g:4750:1: ( '{' )
+            // InternalSimplepalladio.g:4751:2: '{'
             {
-             before(grammarAccess.getBranchAccess().getLeftParenthesisKeyword_3_1()); 
-            match(input,29,FOLLOW_2); 
-             after(grammarAccess.getBranchAccess().getLeftParenthesisKeyword_3_1()); 
+             before(grammarAccess.getBranchAccess().getLeftCurlyBracketKeyword_3_1()); 
+            match(input,22,FOLLOW_2); 
+             after(grammarAccess.getBranchAccess().getLeftCurlyBracketKeyword_3_1()); 
 
             }
 
@@ -14397,16 +14306,16 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Branch__Group_3__2"
-    // InternalSimplepalladio.g:4787:1: rule__Branch__Group_3__2 : rule__Branch__Group_3__2__Impl rule__Branch__Group_3__3 ;
+    // InternalSimplepalladio.g:4760:1: rule__Branch__Group_3__2 : rule__Branch__Group_3__2__Impl rule__Branch__Group_3__3 ;
     public final void rule__Branch__Group_3__2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4791:1: ( rule__Branch__Group_3__2__Impl rule__Branch__Group_3__3 )
-            // InternalSimplepalladio.g:4792:2: rule__Branch__Group_3__2__Impl rule__Branch__Group_3__3
+            // InternalSimplepalladio.g:4764:1: ( rule__Branch__Group_3__2__Impl rule__Branch__Group_3__3 )
+            // InternalSimplepalladio.g:4765:2: rule__Branch__Group_3__2__Impl rule__Branch__Group_3__3
             {
-            pushFollow(FOLLOW_16);
+            pushFollow(FOLLOW_11);
             rule__Branch__Group_3__2__Impl();
 
             state._fsp--;
@@ -14435,21 +14344,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Branch__Group_3__2__Impl"
-    // InternalSimplepalladio.g:4799:1: rule__Branch__Group_3__2__Impl : ( ( rule__Branch__BehaviorElementsAssignment_3_2 ) ) ;
+    // InternalSimplepalladio.g:4772:1: rule__Branch__Group_3__2__Impl : ( ( rule__Branch__BehaviorElementsAssignment_3_2 ) ) ;
     public final void rule__Branch__Group_3__2__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4803:1: ( ( ( rule__Branch__BehaviorElementsAssignment_3_2 ) ) )
-            // InternalSimplepalladio.g:4804:1: ( ( rule__Branch__BehaviorElementsAssignment_3_2 ) )
+            // InternalSimplepalladio.g:4776:1: ( ( ( rule__Branch__BehaviorElementsAssignment_3_2 ) ) )
+            // InternalSimplepalladio.g:4777:1: ( ( rule__Branch__BehaviorElementsAssignment_3_2 ) )
             {
-            // InternalSimplepalladio.g:4804:1: ( ( rule__Branch__BehaviorElementsAssignment_3_2 ) )
-            // InternalSimplepalladio.g:4805:2: ( rule__Branch__BehaviorElementsAssignment_3_2 )
+            // InternalSimplepalladio.g:4777:1: ( ( rule__Branch__BehaviorElementsAssignment_3_2 ) )
+            // InternalSimplepalladio.g:4778:2: ( rule__Branch__BehaviorElementsAssignment_3_2 )
             {
              before(grammarAccess.getBranchAccess().getBehaviorElementsAssignment_3_2()); 
-            // InternalSimplepalladio.g:4806:2: ( rule__Branch__BehaviorElementsAssignment_3_2 )
-            // InternalSimplepalladio.g:4806:3: rule__Branch__BehaviorElementsAssignment_3_2
+            // InternalSimplepalladio.g:4779:2: ( rule__Branch__BehaviorElementsAssignment_3_2 )
+            // InternalSimplepalladio.g:4779:3: rule__Branch__BehaviorElementsAssignment_3_2
             {
             pushFollow(FOLLOW_2);
             rule__Branch__BehaviorElementsAssignment_3_2();
@@ -14482,16 +14391,16 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Branch__Group_3__3"
-    // InternalSimplepalladio.g:4814:1: rule__Branch__Group_3__3 : rule__Branch__Group_3__3__Impl rule__Branch__Group_3__4 ;
+    // InternalSimplepalladio.g:4787:1: rule__Branch__Group_3__3 : rule__Branch__Group_3__3__Impl rule__Branch__Group_3__4 ;
     public final void rule__Branch__Group_3__3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4818:1: ( rule__Branch__Group_3__3__Impl rule__Branch__Group_3__4 )
-            // InternalSimplepalladio.g:4819:2: rule__Branch__Group_3__3__Impl rule__Branch__Group_3__4
+            // InternalSimplepalladio.g:4791:1: ( rule__Branch__Group_3__3__Impl rule__Branch__Group_3__4 )
+            // InternalSimplepalladio.g:4792:2: rule__Branch__Group_3__3__Impl rule__Branch__Group_3__4
             {
-            pushFollow(FOLLOW_16);
+            pushFollow(FOLLOW_11);
             rule__Branch__Group_3__3__Impl();
 
             state._fsp--;
@@ -14520,33 +14429,33 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Branch__Group_3__3__Impl"
-    // InternalSimplepalladio.g:4826:1: rule__Branch__Group_3__3__Impl : ( ( rule__Branch__Group_3_3__0 )* ) ;
+    // InternalSimplepalladio.g:4799:1: rule__Branch__Group_3__3__Impl : ( ( rule__Branch__Group_3_3__0 )* ) ;
     public final void rule__Branch__Group_3__3__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4830:1: ( ( ( rule__Branch__Group_3_3__0 )* ) )
-            // InternalSimplepalladio.g:4831:1: ( ( rule__Branch__Group_3_3__0 )* )
+            // InternalSimplepalladio.g:4803:1: ( ( ( rule__Branch__Group_3_3__0 )* ) )
+            // InternalSimplepalladio.g:4804:1: ( ( rule__Branch__Group_3_3__0 )* )
             {
-            // InternalSimplepalladio.g:4831:1: ( ( rule__Branch__Group_3_3__0 )* )
-            // InternalSimplepalladio.g:4832:2: ( rule__Branch__Group_3_3__0 )*
+            // InternalSimplepalladio.g:4804:1: ( ( rule__Branch__Group_3_3__0 )* )
+            // InternalSimplepalladio.g:4805:2: ( rule__Branch__Group_3_3__0 )*
             {
              before(grammarAccess.getBranchAccess().getGroup_3_3()); 
-            // InternalSimplepalladio.g:4833:2: ( rule__Branch__Group_3_3__0 )*
-            loop23:
+            // InternalSimplepalladio.g:4806:2: ( rule__Branch__Group_3_3__0 )*
+            loop22:
             do {
-                int alt23=2;
-                int LA23_0 = input.LA(1);
+                int alt22=2;
+                int LA22_0 = input.LA(1);
 
-                if ( (LA23_0==26) ) {
-                    alt23=1;
+                if ( (LA22_0==26) ) {
+                    alt22=1;
                 }
 
 
-                switch (alt23) {
+                switch (alt22) {
             	case 1 :
-            	    // InternalSimplepalladio.g:4833:3: rule__Branch__Group_3_3__0
+            	    // InternalSimplepalladio.g:4806:3: rule__Branch__Group_3_3__0
             	    {
             	    pushFollow(FOLLOW_12);
             	    rule__Branch__Group_3_3__0();
@@ -14558,7 +14467,7 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
             	    break;
 
             	default :
-            	    break loop23;
+            	    break loop22;
                 }
             } while (true);
 
@@ -14585,14 +14494,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Branch__Group_3__4"
-    // InternalSimplepalladio.g:4841:1: rule__Branch__Group_3__4 : rule__Branch__Group_3__4__Impl ;
+    // InternalSimplepalladio.g:4814:1: rule__Branch__Group_3__4 : rule__Branch__Group_3__4__Impl ;
     public final void rule__Branch__Group_3__4() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4845:1: ( rule__Branch__Group_3__4__Impl )
-            // InternalSimplepalladio.g:4846:2: rule__Branch__Group_3__4__Impl
+            // InternalSimplepalladio.g:4818:1: ( rule__Branch__Group_3__4__Impl )
+            // InternalSimplepalladio.g:4819:2: rule__Branch__Group_3__4__Impl
             {
             pushFollow(FOLLOW_2);
             rule__Branch__Group_3__4__Impl();
@@ -14618,21 +14527,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Branch__Group_3__4__Impl"
-    // InternalSimplepalladio.g:4852:1: rule__Branch__Group_3__4__Impl : ( ')' ) ;
+    // InternalSimplepalladio.g:4825:1: rule__Branch__Group_3__4__Impl : ( '}' ) ;
     public final void rule__Branch__Group_3__4__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4856:1: ( ( ')' ) )
-            // InternalSimplepalladio.g:4857:1: ( ')' )
+            // InternalSimplepalladio.g:4829:1: ( ( '}' ) )
+            // InternalSimplepalladio.g:4830:1: ( '}' )
             {
-            // InternalSimplepalladio.g:4857:1: ( ')' )
-            // InternalSimplepalladio.g:4858:2: ')'
+            // InternalSimplepalladio.g:4830:1: ( '}' )
+            // InternalSimplepalladio.g:4831:2: '}'
             {
-             before(grammarAccess.getBranchAccess().getRightParenthesisKeyword_3_4()); 
-            match(input,30,FOLLOW_2); 
-             after(grammarAccess.getBranchAccess().getRightParenthesisKeyword_3_4()); 
+             before(grammarAccess.getBranchAccess().getRightCurlyBracketKeyword_3_4()); 
+            match(input,23,FOLLOW_2); 
+             after(grammarAccess.getBranchAccess().getRightCurlyBracketKeyword_3_4()); 
 
             }
 
@@ -14655,16 +14564,16 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Branch__Group_3_3__0"
-    // InternalSimplepalladio.g:4868:1: rule__Branch__Group_3_3__0 : rule__Branch__Group_3_3__0__Impl rule__Branch__Group_3_3__1 ;
+    // InternalSimplepalladio.g:4841:1: rule__Branch__Group_3_3__0 : rule__Branch__Group_3_3__0__Impl rule__Branch__Group_3_3__1 ;
     public final void rule__Branch__Group_3_3__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4872:1: ( rule__Branch__Group_3_3__0__Impl rule__Branch__Group_3_3__1 )
-            // InternalSimplepalladio.g:4873:2: rule__Branch__Group_3_3__0__Impl rule__Branch__Group_3_3__1
+            // InternalSimplepalladio.g:4845:1: ( rule__Branch__Group_3_3__0__Impl rule__Branch__Group_3_3__1 )
+            // InternalSimplepalladio.g:4846:2: rule__Branch__Group_3_3__0__Impl rule__Branch__Group_3_3__1
             {
-            pushFollow(FOLLOW_13);
+            pushFollow(FOLLOW_31);
             rule__Branch__Group_3_3__0__Impl();
 
             state._fsp--;
@@ -14693,17 +14602,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Branch__Group_3_3__0__Impl"
-    // InternalSimplepalladio.g:4880:1: rule__Branch__Group_3_3__0__Impl : ( ',' ) ;
+    // InternalSimplepalladio.g:4853:1: rule__Branch__Group_3_3__0__Impl : ( ',' ) ;
     public final void rule__Branch__Group_3_3__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4884:1: ( ( ',' ) )
-            // InternalSimplepalladio.g:4885:1: ( ',' )
+            // InternalSimplepalladio.g:4857:1: ( ( ',' ) )
+            // InternalSimplepalladio.g:4858:1: ( ',' )
             {
-            // InternalSimplepalladio.g:4885:1: ( ',' )
-            // InternalSimplepalladio.g:4886:2: ','
+            // InternalSimplepalladio.g:4858:1: ( ',' )
+            // InternalSimplepalladio.g:4859:2: ','
             {
              before(grammarAccess.getBranchAccess().getCommaKeyword_3_3_0()); 
             match(input,26,FOLLOW_2); 
@@ -14730,14 +14639,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Branch__Group_3_3__1"
-    // InternalSimplepalladio.g:4895:1: rule__Branch__Group_3_3__1 : rule__Branch__Group_3_3__1__Impl ;
+    // InternalSimplepalladio.g:4868:1: rule__Branch__Group_3_3__1 : rule__Branch__Group_3_3__1__Impl ;
     public final void rule__Branch__Group_3_3__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4899:1: ( rule__Branch__Group_3_3__1__Impl )
-            // InternalSimplepalladio.g:4900:2: rule__Branch__Group_3_3__1__Impl
+            // InternalSimplepalladio.g:4872:1: ( rule__Branch__Group_3_3__1__Impl )
+            // InternalSimplepalladio.g:4873:2: rule__Branch__Group_3_3__1__Impl
             {
             pushFollow(FOLLOW_2);
             rule__Branch__Group_3_3__1__Impl();
@@ -14763,21 +14672,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Branch__Group_3_3__1__Impl"
-    // InternalSimplepalladio.g:4906:1: rule__Branch__Group_3_3__1__Impl : ( ( rule__Branch__BehaviorElementsAssignment_3_3_1 ) ) ;
+    // InternalSimplepalladio.g:4879:1: rule__Branch__Group_3_3__1__Impl : ( ( rule__Branch__BehaviorElementsAssignment_3_3_1 ) ) ;
     public final void rule__Branch__Group_3_3__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4910:1: ( ( ( rule__Branch__BehaviorElementsAssignment_3_3_1 ) ) )
-            // InternalSimplepalladio.g:4911:1: ( ( rule__Branch__BehaviorElementsAssignment_3_3_1 ) )
+            // InternalSimplepalladio.g:4883:1: ( ( ( rule__Branch__BehaviorElementsAssignment_3_3_1 ) ) )
+            // InternalSimplepalladio.g:4884:1: ( ( rule__Branch__BehaviorElementsAssignment_3_3_1 ) )
             {
-            // InternalSimplepalladio.g:4911:1: ( ( rule__Branch__BehaviorElementsAssignment_3_3_1 ) )
-            // InternalSimplepalladio.g:4912:2: ( rule__Branch__BehaviorElementsAssignment_3_3_1 )
+            // InternalSimplepalladio.g:4884:1: ( ( rule__Branch__BehaviorElementsAssignment_3_3_1 ) )
+            // InternalSimplepalladio.g:4885:2: ( rule__Branch__BehaviorElementsAssignment_3_3_1 )
             {
              before(grammarAccess.getBranchAccess().getBehaviorElementsAssignment_3_3_1()); 
-            // InternalSimplepalladio.g:4913:2: ( rule__Branch__BehaviorElementsAssignment_3_3_1 )
-            // InternalSimplepalladio.g:4913:3: rule__Branch__BehaviorElementsAssignment_3_3_1
+            // InternalSimplepalladio.g:4886:2: ( rule__Branch__BehaviorElementsAssignment_3_3_1 )
+            // InternalSimplepalladio.g:4886:3: rule__Branch__BehaviorElementsAssignment_3_3_1
             {
             pushFollow(FOLLOW_2);
             rule__Branch__BehaviorElementsAssignment_3_3_1();
@@ -14810,14 +14719,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyViewType__Group__0"
-    // InternalSimplepalladio.g:4922:1: rule__AssemblyViewType__Group__0 : rule__AssemblyViewType__Group__0__Impl rule__AssemblyViewType__Group__1 ;
+    // InternalSimplepalladio.g:4895:1: rule__AssemblyViewType__Group__0 : rule__AssemblyViewType__Group__0__Impl rule__AssemblyViewType__Group__1 ;
     public final void rule__AssemblyViewType__Group__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4926:1: ( rule__AssemblyViewType__Group__0__Impl rule__AssemblyViewType__Group__1 )
-            // InternalSimplepalladio.g:4927:2: rule__AssemblyViewType__Group__0__Impl rule__AssemblyViewType__Group__1
+            // InternalSimplepalladio.g:4899:1: ( rule__AssemblyViewType__Group__0__Impl rule__AssemblyViewType__Group__1 )
+            // InternalSimplepalladio.g:4900:2: rule__AssemblyViewType__Group__0__Impl rule__AssemblyViewType__Group__1
             {
             pushFollow(FOLLOW_8);
             rule__AssemblyViewType__Group__0__Impl();
@@ -14848,17 +14757,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyViewType__Group__0__Impl"
-    // InternalSimplepalladio.g:4934:1: rule__AssemblyViewType__Group__0__Impl : ( 'AssemblyViewType' ) ;
+    // InternalSimplepalladio.g:4907:1: rule__AssemblyViewType__Group__0__Impl : ( 'AssemblyViewType' ) ;
     public final void rule__AssemblyViewType__Group__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4938:1: ( ( 'AssemblyViewType' ) )
-            // InternalSimplepalladio.g:4939:1: ( 'AssemblyViewType' )
+            // InternalSimplepalladio.g:4911:1: ( ( 'AssemblyViewType' ) )
+            // InternalSimplepalladio.g:4912:1: ( 'AssemblyViewType' )
             {
-            // InternalSimplepalladio.g:4939:1: ( 'AssemblyViewType' )
-            // InternalSimplepalladio.g:4940:2: 'AssemblyViewType'
+            // InternalSimplepalladio.g:4912:1: ( 'AssemblyViewType' )
+            // InternalSimplepalladio.g:4913:2: 'AssemblyViewType'
             {
              before(grammarAccess.getAssemblyViewTypeAccess().getAssemblyViewTypeKeyword_0()); 
             match(input,51,FOLLOW_2); 
@@ -14885,16 +14794,16 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyViewType__Group__1"
-    // InternalSimplepalladio.g:4949:1: rule__AssemblyViewType__Group__1 : rule__AssemblyViewType__Group__1__Impl rule__AssemblyViewType__Group__2 ;
+    // InternalSimplepalladio.g:4922:1: rule__AssemblyViewType__Group__1 : rule__AssemblyViewType__Group__1__Impl rule__AssemblyViewType__Group__2 ;
     public final void rule__AssemblyViewType__Group__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4953:1: ( rule__AssemblyViewType__Group__1__Impl rule__AssemblyViewType__Group__2 )
-            // InternalSimplepalladio.g:4954:2: rule__AssemblyViewType__Group__1__Impl rule__AssemblyViewType__Group__2
+            // InternalSimplepalladio.g:4926:1: ( rule__AssemblyViewType__Group__1__Impl rule__AssemblyViewType__Group__2 )
+            // InternalSimplepalladio.g:4927:2: rule__AssemblyViewType__Group__1__Impl rule__AssemblyViewType__Group__2
             {
-            pushFollow(FOLLOW_33);
+            pushFollow(FOLLOW_35);
             rule__AssemblyViewType__Group__1__Impl();
 
             state._fsp--;
@@ -14923,17 +14832,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyViewType__Group__1__Impl"
-    // InternalSimplepalladio.g:4961:1: rule__AssemblyViewType__Group__1__Impl : ( '{' ) ;
+    // InternalSimplepalladio.g:4934:1: rule__AssemblyViewType__Group__1__Impl : ( '{' ) ;
     public final void rule__AssemblyViewType__Group__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4965:1: ( ( '{' ) )
-            // InternalSimplepalladio.g:4966:1: ( '{' )
+            // InternalSimplepalladio.g:4938:1: ( ( '{' ) )
+            // InternalSimplepalladio.g:4939:1: ( '{' )
             {
-            // InternalSimplepalladio.g:4966:1: ( '{' )
-            // InternalSimplepalladio.g:4967:2: '{'
+            // InternalSimplepalladio.g:4939:1: ( '{' )
+            // InternalSimplepalladio.g:4940:2: '{'
             {
              before(grammarAccess.getAssemblyViewTypeAccess().getLeftCurlyBracketKeyword_1()); 
             match(input,22,FOLLOW_2); 
@@ -14960,14 +14869,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyViewType__Group__2"
-    // InternalSimplepalladio.g:4976:1: rule__AssemblyViewType__Group__2 : rule__AssemblyViewType__Group__2__Impl rule__AssemblyViewType__Group__3 ;
+    // InternalSimplepalladio.g:4949:1: rule__AssemblyViewType__Group__2 : rule__AssemblyViewType__Group__2__Impl rule__AssemblyViewType__Group__3 ;
     public final void rule__AssemblyViewType__Group__2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4980:1: ( rule__AssemblyViewType__Group__2__Impl rule__AssemblyViewType__Group__3 )
-            // InternalSimplepalladio.g:4981:2: rule__AssemblyViewType__Group__2__Impl rule__AssemblyViewType__Group__3
+            // InternalSimplepalladio.g:4953:1: ( rule__AssemblyViewType__Group__2__Impl rule__AssemblyViewType__Group__3 )
+            // InternalSimplepalladio.g:4954:2: rule__AssemblyViewType__Group__2__Impl rule__AssemblyViewType__Group__3
             {
             pushFollow(FOLLOW_8);
             rule__AssemblyViewType__Group__2__Impl();
@@ -14998,17 +14907,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyViewType__Group__2__Impl"
-    // InternalSimplepalladio.g:4988:1: rule__AssemblyViewType__Group__2__Impl : ( 'systems' ) ;
+    // InternalSimplepalladio.g:4961:1: rule__AssemblyViewType__Group__2__Impl : ( 'systems' ) ;
     public final void rule__AssemblyViewType__Group__2__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:4992:1: ( ( 'systems' ) )
-            // InternalSimplepalladio.g:4993:1: ( 'systems' )
+            // InternalSimplepalladio.g:4965:1: ( ( 'systems' ) )
+            // InternalSimplepalladio.g:4966:1: ( 'systems' )
             {
-            // InternalSimplepalladio.g:4993:1: ( 'systems' )
-            // InternalSimplepalladio.g:4994:2: 'systems'
+            // InternalSimplepalladio.g:4966:1: ( 'systems' )
+            // InternalSimplepalladio.g:4967:2: 'systems'
             {
              before(grammarAccess.getAssemblyViewTypeAccess().getSystemsKeyword_2()); 
             match(input,52,FOLLOW_2); 
@@ -15035,16 +14944,16 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyViewType__Group__3"
-    // InternalSimplepalladio.g:5003:1: rule__AssemblyViewType__Group__3 : rule__AssemblyViewType__Group__3__Impl rule__AssemblyViewType__Group__4 ;
+    // InternalSimplepalladio.g:4976:1: rule__AssemblyViewType__Group__3 : rule__AssemblyViewType__Group__3__Impl rule__AssemblyViewType__Group__4 ;
     public final void rule__AssemblyViewType__Group__3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5007:1: ( rule__AssemblyViewType__Group__3__Impl rule__AssemblyViewType__Group__4 )
-            // InternalSimplepalladio.g:5008:2: rule__AssemblyViewType__Group__3__Impl rule__AssemblyViewType__Group__4
+            // InternalSimplepalladio.g:4980:1: ( rule__AssemblyViewType__Group__3__Impl rule__AssemblyViewType__Group__4 )
+            // InternalSimplepalladio.g:4981:2: rule__AssemblyViewType__Group__3__Impl rule__AssemblyViewType__Group__4
             {
-            pushFollow(FOLLOW_34);
+            pushFollow(FOLLOW_36);
             rule__AssemblyViewType__Group__3__Impl();
 
             state._fsp--;
@@ -15073,17 +14982,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyViewType__Group__3__Impl"
-    // InternalSimplepalladio.g:5015:1: rule__AssemblyViewType__Group__3__Impl : ( '{' ) ;
+    // InternalSimplepalladio.g:4988:1: rule__AssemblyViewType__Group__3__Impl : ( '{' ) ;
     public final void rule__AssemblyViewType__Group__3__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5019:1: ( ( '{' ) )
-            // InternalSimplepalladio.g:5020:1: ( '{' )
+            // InternalSimplepalladio.g:4992:1: ( ( '{' ) )
+            // InternalSimplepalladio.g:4993:1: ( '{' )
             {
-            // InternalSimplepalladio.g:5020:1: ( '{' )
-            // InternalSimplepalladio.g:5021:2: '{'
+            // InternalSimplepalladio.g:4993:1: ( '{' )
+            // InternalSimplepalladio.g:4994:2: '{'
             {
              before(grammarAccess.getAssemblyViewTypeAccess().getLeftCurlyBracketKeyword_3()); 
             match(input,22,FOLLOW_2); 
@@ -15110,14 +15019,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyViewType__Group__4"
-    // InternalSimplepalladio.g:5030:1: rule__AssemblyViewType__Group__4 : rule__AssemblyViewType__Group__4__Impl rule__AssemblyViewType__Group__5 ;
+    // InternalSimplepalladio.g:5003:1: rule__AssemblyViewType__Group__4 : rule__AssemblyViewType__Group__4__Impl rule__AssemblyViewType__Group__5 ;
     public final void rule__AssemblyViewType__Group__4() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5034:1: ( rule__AssemblyViewType__Group__4__Impl rule__AssemblyViewType__Group__5 )
-            // InternalSimplepalladio.g:5035:2: rule__AssemblyViewType__Group__4__Impl rule__AssemblyViewType__Group__5
+            // InternalSimplepalladio.g:5007:1: ( rule__AssemblyViewType__Group__4__Impl rule__AssemblyViewType__Group__5 )
+            // InternalSimplepalladio.g:5008:2: rule__AssemblyViewType__Group__4__Impl rule__AssemblyViewType__Group__5
             {
             pushFollow(FOLLOW_11);
             rule__AssemblyViewType__Group__4__Impl();
@@ -15148,21 +15057,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyViewType__Group__4__Impl"
-    // InternalSimplepalladio.g:5042:1: rule__AssemblyViewType__Group__4__Impl : ( ( rule__AssemblyViewType__SystemsAssignment_4 ) ) ;
+    // InternalSimplepalladio.g:5015:1: rule__AssemblyViewType__Group__4__Impl : ( ( rule__AssemblyViewType__SystemsAssignment_4 ) ) ;
     public final void rule__AssemblyViewType__Group__4__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5046:1: ( ( ( rule__AssemblyViewType__SystemsAssignment_4 ) ) )
-            // InternalSimplepalladio.g:5047:1: ( ( rule__AssemblyViewType__SystemsAssignment_4 ) )
+            // InternalSimplepalladio.g:5019:1: ( ( ( rule__AssemblyViewType__SystemsAssignment_4 ) ) )
+            // InternalSimplepalladio.g:5020:1: ( ( rule__AssemblyViewType__SystemsAssignment_4 ) )
             {
-            // InternalSimplepalladio.g:5047:1: ( ( rule__AssemblyViewType__SystemsAssignment_4 ) )
-            // InternalSimplepalladio.g:5048:2: ( rule__AssemblyViewType__SystemsAssignment_4 )
+            // InternalSimplepalladio.g:5020:1: ( ( rule__AssemblyViewType__SystemsAssignment_4 ) )
+            // InternalSimplepalladio.g:5021:2: ( rule__AssemblyViewType__SystemsAssignment_4 )
             {
              before(grammarAccess.getAssemblyViewTypeAccess().getSystemsAssignment_4()); 
-            // InternalSimplepalladio.g:5049:2: ( rule__AssemblyViewType__SystemsAssignment_4 )
-            // InternalSimplepalladio.g:5049:3: rule__AssemblyViewType__SystemsAssignment_4
+            // InternalSimplepalladio.g:5022:2: ( rule__AssemblyViewType__SystemsAssignment_4 )
+            // InternalSimplepalladio.g:5022:3: rule__AssemblyViewType__SystemsAssignment_4
             {
             pushFollow(FOLLOW_2);
             rule__AssemblyViewType__SystemsAssignment_4();
@@ -15195,14 +15104,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyViewType__Group__5"
-    // InternalSimplepalladio.g:5057:1: rule__AssemblyViewType__Group__5 : rule__AssemblyViewType__Group__5__Impl rule__AssemblyViewType__Group__6 ;
+    // InternalSimplepalladio.g:5030:1: rule__AssemblyViewType__Group__5 : rule__AssemblyViewType__Group__5__Impl rule__AssemblyViewType__Group__6 ;
     public final void rule__AssemblyViewType__Group__5() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5061:1: ( rule__AssemblyViewType__Group__5__Impl rule__AssemblyViewType__Group__6 )
-            // InternalSimplepalladio.g:5062:2: rule__AssemblyViewType__Group__5__Impl rule__AssemblyViewType__Group__6
+            // InternalSimplepalladio.g:5034:1: ( rule__AssemblyViewType__Group__5__Impl rule__AssemblyViewType__Group__6 )
+            // InternalSimplepalladio.g:5035:2: rule__AssemblyViewType__Group__5__Impl rule__AssemblyViewType__Group__6
             {
             pushFollow(FOLLOW_11);
             rule__AssemblyViewType__Group__5__Impl();
@@ -15233,33 +15142,33 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyViewType__Group__5__Impl"
-    // InternalSimplepalladio.g:5069:1: rule__AssemblyViewType__Group__5__Impl : ( ( rule__AssemblyViewType__Group_5__0 )* ) ;
+    // InternalSimplepalladio.g:5042:1: rule__AssemblyViewType__Group__5__Impl : ( ( rule__AssemblyViewType__Group_5__0 )* ) ;
     public final void rule__AssemblyViewType__Group__5__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5073:1: ( ( ( rule__AssemblyViewType__Group_5__0 )* ) )
-            // InternalSimplepalladio.g:5074:1: ( ( rule__AssemblyViewType__Group_5__0 )* )
+            // InternalSimplepalladio.g:5046:1: ( ( ( rule__AssemblyViewType__Group_5__0 )* ) )
+            // InternalSimplepalladio.g:5047:1: ( ( rule__AssemblyViewType__Group_5__0 )* )
             {
-            // InternalSimplepalladio.g:5074:1: ( ( rule__AssemblyViewType__Group_5__0 )* )
-            // InternalSimplepalladio.g:5075:2: ( rule__AssemblyViewType__Group_5__0 )*
+            // InternalSimplepalladio.g:5047:1: ( ( rule__AssemblyViewType__Group_5__0 )* )
+            // InternalSimplepalladio.g:5048:2: ( rule__AssemblyViewType__Group_5__0 )*
             {
              before(grammarAccess.getAssemblyViewTypeAccess().getGroup_5()); 
-            // InternalSimplepalladio.g:5076:2: ( rule__AssemblyViewType__Group_5__0 )*
-            loop24:
+            // InternalSimplepalladio.g:5049:2: ( rule__AssemblyViewType__Group_5__0 )*
+            loop23:
             do {
-                int alt24=2;
-                int LA24_0 = input.LA(1);
+                int alt23=2;
+                int LA23_0 = input.LA(1);
 
-                if ( (LA24_0==26) ) {
-                    alt24=1;
+                if ( (LA23_0==26) ) {
+                    alt23=1;
                 }
 
 
-                switch (alt24) {
+                switch (alt23) {
             	case 1 :
-            	    // InternalSimplepalladio.g:5076:3: rule__AssemblyViewType__Group_5__0
+            	    // InternalSimplepalladio.g:5049:3: rule__AssemblyViewType__Group_5__0
             	    {
             	    pushFollow(FOLLOW_12);
             	    rule__AssemblyViewType__Group_5__0();
@@ -15271,7 +15180,7 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
             	    break;
 
             	default :
-            	    break loop24;
+            	    break loop23;
                 }
             } while (true);
 
@@ -15298,14 +15207,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyViewType__Group__6"
-    // InternalSimplepalladio.g:5084:1: rule__AssemblyViewType__Group__6 : rule__AssemblyViewType__Group__6__Impl rule__AssemblyViewType__Group__7 ;
+    // InternalSimplepalladio.g:5057:1: rule__AssemblyViewType__Group__6 : rule__AssemblyViewType__Group__6__Impl rule__AssemblyViewType__Group__7 ;
     public final void rule__AssemblyViewType__Group__6() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5088:1: ( rule__AssemblyViewType__Group__6__Impl rule__AssemblyViewType__Group__7 )
-            // InternalSimplepalladio.g:5089:2: rule__AssemblyViewType__Group__6__Impl rule__AssemblyViewType__Group__7
+            // InternalSimplepalladio.g:5061:1: ( rule__AssemblyViewType__Group__6__Impl rule__AssemblyViewType__Group__7 )
+            // InternalSimplepalladio.g:5062:2: rule__AssemblyViewType__Group__6__Impl rule__AssemblyViewType__Group__7
             {
             pushFollow(FOLLOW_7);
             rule__AssemblyViewType__Group__6__Impl();
@@ -15336,17 +15245,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyViewType__Group__6__Impl"
-    // InternalSimplepalladio.g:5096:1: rule__AssemblyViewType__Group__6__Impl : ( '}' ) ;
+    // InternalSimplepalladio.g:5069:1: rule__AssemblyViewType__Group__6__Impl : ( '}' ) ;
     public final void rule__AssemblyViewType__Group__6__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5100:1: ( ( '}' ) )
-            // InternalSimplepalladio.g:5101:1: ( '}' )
+            // InternalSimplepalladio.g:5073:1: ( ( '}' ) )
+            // InternalSimplepalladio.g:5074:1: ( '}' )
             {
-            // InternalSimplepalladio.g:5101:1: ( '}' )
-            // InternalSimplepalladio.g:5102:2: '}'
+            // InternalSimplepalladio.g:5074:1: ( '}' )
+            // InternalSimplepalladio.g:5075:2: '}'
             {
              before(grammarAccess.getAssemblyViewTypeAccess().getRightCurlyBracketKeyword_6()); 
             match(input,23,FOLLOW_2); 
@@ -15373,14 +15282,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyViewType__Group__7"
-    // InternalSimplepalladio.g:5111:1: rule__AssemblyViewType__Group__7 : rule__AssemblyViewType__Group__7__Impl ;
+    // InternalSimplepalladio.g:5084:1: rule__AssemblyViewType__Group__7 : rule__AssemblyViewType__Group__7__Impl ;
     public final void rule__AssemblyViewType__Group__7() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5115:1: ( rule__AssemblyViewType__Group__7__Impl )
-            // InternalSimplepalladio.g:5116:2: rule__AssemblyViewType__Group__7__Impl
+            // InternalSimplepalladio.g:5088:1: ( rule__AssemblyViewType__Group__7__Impl )
+            // InternalSimplepalladio.g:5089:2: rule__AssemblyViewType__Group__7__Impl
             {
             pushFollow(FOLLOW_2);
             rule__AssemblyViewType__Group__7__Impl();
@@ -15406,17 +15315,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyViewType__Group__7__Impl"
-    // InternalSimplepalladio.g:5122:1: rule__AssemblyViewType__Group__7__Impl : ( '}' ) ;
+    // InternalSimplepalladio.g:5095:1: rule__AssemblyViewType__Group__7__Impl : ( '}' ) ;
     public final void rule__AssemblyViewType__Group__7__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5126:1: ( ( '}' ) )
-            // InternalSimplepalladio.g:5127:1: ( '}' )
+            // InternalSimplepalladio.g:5099:1: ( ( '}' ) )
+            // InternalSimplepalladio.g:5100:1: ( '}' )
             {
-            // InternalSimplepalladio.g:5127:1: ( '}' )
-            // InternalSimplepalladio.g:5128:2: '}'
+            // InternalSimplepalladio.g:5100:1: ( '}' )
+            // InternalSimplepalladio.g:5101:2: '}'
             {
              before(grammarAccess.getAssemblyViewTypeAccess().getRightCurlyBracketKeyword_7()); 
             match(input,23,FOLLOW_2); 
@@ -15443,16 +15352,16 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyViewType__Group_5__0"
-    // InternalSimplepalladio.g:5138:1: rule__AssemblyViewType__Group_5__0 : rule__AssemblyViewType__Group_5__0__Impl rule__AssemblyViewType__Group_5__1 ;
+    // InternalSimplepalladio.g:5111:1: rule__AssemblyViewType__Group_5__0 : rule__AssemblyViewType__Group_5__0__Impl rule__AssemblyViewType__Group_5__1 ;
     public final void rule__AssemblyViewType__Group_5__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5142:1: ( rule__AssemblyViewType__Group_5__0__Impl rule__AssemblyViewType__Group_5__1 )
-            // InternalSimplepalladio.g:5143:2: rule__AssemblyViewType__Group_5__0__Impl rule__AssemblyViewType__Group_5__1
+            // InternalSimplepalladio.g:5115:1: ( rule__AssemblyViewType__Group_5__0__Impl rule__AssemblyViewType__Group_5__1 )
+            // InternalSimplepalladio.g:5116:2: rule__AssemblyViewType__Group_5__0__Impl rule__AssemblyViewType__Group_5__1
             {
-            pushFollow(FOLLOW_34);
+            pushFollow(FOLLOW_36);
             rule__AssemblyViewType__Group_5__0__Impl();
 
             state._fsp--;
@@ -15481,17 +15390,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyViewType__Group_5__0__Impl"
-    // InternalSimplepalladio.g:5150:1: rule__AssemblyViewType__Group_5__0__Impl : ( ',' ) ;
+    // InternalSimplepalladio.g:5123:1: rule__AssemblyViewType__Group_5__0__Impl : ( ',' ) ;
     public final void rule__AssemblyViewType__Group_5__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5154:1: ( ( ',' ) )
-            // InternalSimplepalladio.g:5155:1: ( ',' )
+            // InternalSimplepalladio.g:5127:1: ( ( ',' ) )
+            // InternalSimplepalladio.g:5128:1: ( ',' )
             {
-            // InternalSimplepalladio.g:5155:1: ( ',' )
-            // InternalSimplepalladio.g:5156:2: ','
+            // InternalSimplepalladio.g:5128:1: ( ',' )
+            // InternalSimplepalladio.g:5129:2: ','
             {
              before(grammarAccess.getAssemblyViewTypeAccess().getCommaKeyword_5_0()); 
             match(input,26,FOLLOW_2); 
@@ -15518,14 +15427,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyViewType__Group_5__1"
-    // InternalSimplepalladio.g:5165:1: rule__AssemblyViewType__Group_5__1 : rule__AssemblyViewType__Group_5__1__Impl ;
+    // InternalSimplepalladio.g:5138:1: rule__AssemblyViewType__Group_5__1 : rule__AssemblyViewType__Group_5__1__Impl ;
     public final void rule__AssemblyViewType__Group_5__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5169:1: ( rule__AssemblyViewType__Group_5__1__Impl )
-            // InternalSimplepalladio.g:5170:2: rule__AssemblyViewType__Group_5__1__Impl
+            // InternalSimplepalladio.g:5142:1: ( rule__AssemblyViewType__Group_5__1__Impl )
+            // InternalSimplepalladio.g:5143:2: rule__AssemblyViewType__Group_5__1__Impl
             {
             pushFollow(FOLLOW_2);
             rule__AssemblyViewType__Group_5__1__Impl();
@@ -15551,21 +15460,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyViewType__Group_5__1__Impl"
-    // InternalSimplepalladio.g:5176:1: rule__AssemblyViewType__Group_5__1__Impl : ( ( rule__AssemblyViewType__SystemsAssignment_5_1 ) ) ;
+    // InternalSimplepalladio.g:5149:1: rule__AssemblyViewType__Group_5__1__Impl : ( ( rule__AssemblyViewType__SystemsAssignment_5_1 ) ) ;
     public final void rule__AssemblyViewType__Group_5__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5180:1: ( ( ( rule__AssemblyViewType__SystemsAssignment_5_1 ) ) )
-            // InternalSimplepalladio.g:5181:1: ( ( rule__AssemblyViewType__SystemsAssignment_5_1 ) )
+            // InternalSimplepalladio.g:5153:1: ( ( ( rule__AssemblyViewType__SystemsAssignment_5_1 ) ) )
+            // InternalSimplepalladio.g:5154:1: ( ( rule__AssemblyViewType__SystemsAssignment_5_1 ) )
             {
-            // InternalSimplepalladio.g:5181:1: ( ( rule__AssemblyViewType__SystemsAssignment_5_1 ) )
-            // InternalSimplepalladio.g:5182:2: ( rule__AssemblyViewType__SystemsAssignment_5_1 )
+            // InternalSimplepalladio.g:5154:1: ( ( rule__AssemblyViewType__SystemsAssignment_5_1 ) )
+            // InternalSimplepalladio.g:5155:2: ( rule__AssemblyViewType__SystemsAssignment_5_1 )
             {
              before(grammarAccess.getAssemblyViewTypeAccess().getSystemsAssignment_5_1()); 
-            // InternalSimplepalladio.g:5183:2: ( rule__AssemblyViewType__SystemsAssignment_5_1 )
-            // InternalSimplepalladio.g:5183:3: rule__AssemblyViewType__SystemsAssignment_5_1
+            // InternalSimplepalladio.g:5156:2: ( rule__AssemblyViewType__SystemsAssignment_5_1 )
+            // InternalSimplepalladio.g:5156:3: rule__AssemblyViewType__SystemsAssignment_5_1
             {
             pushFollow(FOLLOW_2);
             rule__AssemblyViewType__SystemsAssignment_5_1();
@@ -15598,14 +15507,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__System__Group__0"
-    // InternalSimplepalladio.g:5192:1: rule__System__Group__0 : rule__System__Group__0__Impl rule__System__Group__1 ;
+    // InternalSimplepalladio.g:5165:1: rule__System__Group__0 : rule__System__Group__0__Impl rule__System__Group__1 ;
     public final void rule__System__Group__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5196:1: ( rule__System__Group__0__Impl rule__System__Group__1 )
-            // InternalSimplepalladio.g:5197:2: rule__System__Group__0__Impl rule__System__Group__1
+            // InternalSimplepalladio.g:5169:1: ( rule__System__Group__0__Impl rule__System__Group__1 )
+            // InternalSimplepalladio.g:5170:2: rule__System__Group__0__Impl rule__System__Group__1
             {
             pushFollow(FOLLOW_13);
             rule__System__Group__0__Impl();
@@ -15636,17 +15545,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__System__Group__0__Impl"
-    // InternalSimplepalladio.g:5204:1: rule__System__Group__0__Impl : ( 'System' ) ;
+    // InternalSimplepalladio.g:5177:1: rule__System__Group__0__Impl : ( 'System' ) ;
     public final void rule__System__Group__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5208:1: ( ( 'System' ) )
-            // InternalSimplepalladio.g:5209:1: ( 'System' )
+            // InternalSimplepalladio.g:5181:1: ( ( 'System' ) )
+            // InternalSimplepalladio.g:5182:1: ( 'System' )
             {
-            // InternalSimplepalladio.g:5209:1: ( 'System' )
-            // InternalSimplepalladio.g:5210:2: 'System'
+            // InternalSimplepalladio.g:5182:1: ( 'System' )
+            // InternalSimplepalladio.g:5183:2: 'System'
             {
              before(grammarAccess.getSystemAccess().getSystemKeyword_0()); 
             match(input,53,FOLLOW_2); 
@@ -15673,14 +15582,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__System__Group__1"
-    // InternalSimplepalladio.g:5219:1: rule__System__Group__1 : rule__System__Group__1__Impl rule__System__Group__2 ;
+    // InternalSimplepalladio.g:5192:1: rule__System__Group__1 : rule__System__Group__1__Impl rule__System__Group__2 ;
     public final void rule__System__Group__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5223:1: ( rule__System__Group__1__Impl rule__System__Group__2 )
-            // InternalSimplepalladio.g:5224:2: rule__System__Group__1__Impl rule__System__Group__2
+            // InternalSimplepalladio.g:5196:1: ( rule__System__Group__1__Impl rule__System__Group__2 )
+            // InternalSimplepalladio.g:5197:2: rule__System__Group__1__Impl rule__System__Group__2
             {
             pushFollow(FOLLOW_8);
             rule__System__Group__1__Impl();
@@ -15711,21 +15620,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__System__Group__1__Impl"
-    // InternalSimplepalladio.g:5231:1: rule__System__Group__1__Impl : ( ( rule__System__NameAssignment_1 ) ) ;
+    // InternalSimplepalladio.g:5204:1: rule__System__Group__1__Impl : ( ( rule__System__NameAssignment_1 ) ) ;
     public final void rule__System__Group__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5235:1: ( ( ( rule__System__NameAssignment_1 ) ) )
-            // InternalSimplepalladio.g:5236:1: ( ( rule__System__NameAssignment_1 ) )
+            // InternalSimplepalladio.g:5208:1: ( ( ( rule__System__NameAssignment_1 ) ) )
+            // InternalSimplepalladio.g:5209:1: ( ( rule__System__NameAssignment_1 ) )
             {
-            // InternalSimplepalladio.g:5236:1: ( ( rule__System__NameAssignment_1 ) )
-            // InternalSimplepalladio.g:5237:2: ( rule__System__NameAssignment_1 )
+            // InternalSimplepalladio.g:5209:1: ( ( rule__System__NameAssignment_1 ) )
+            // InternalSimplepalladio.g:5210:2: ( rule__System__NameAssignment_1 )
             {
              before(grammarAccess.getSystemAccess().getNameAssignment_1()); 
-            // InternalSimplepalladio.g:5238:2: ( rule__System__NameAssignment_1 )
-            // InternalSimplepalladio.g:5238:3: rule__System__NameAssignment_1
+            // InternalSimplepalladio.g:5211:2: ( rule__System__NameAssignment_1 )
+            // InternalSimplepalladio.g:5211:3: rule__System__NameAssignment_1
             {
             pushFollow(FOLLOW_2);
             rule__System__NameAssignment_1();
@@ -15758,14 +15667,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__System__Group__2"
-    // InternalSimplepalladio.g:5246:1: rule__System__Group__2 : rule__System__Group__2__Impl rule__System__Group__3 ;
+    // InternalSimplepalladio.g:5219:1: rule__System__Group__2 : rule__System__Group__2__Impl rule__System__Group__3 ;
     public final void rule__System__Group__2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5250:1: ( rule__System__Group__2__Impl rule__System__Group__3 )
-            // InternalSimplepalladio.g:5251:2: rule__System__Group__2__Impl rule__System__Group__3
+            // InternalSimplepalladio.g:5223:1: ( rule__System__Group__2__Impl rule__System__Group__3 )
+            // InternalSimplepalladio.g:5224:2: rule__System__Group__2__Impl rule__System__Group__3
             {
             pushFollow(FOLLOW_17);
             rule__System__Group__2__Impl();
@@ -15796,17 +15705,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__System__Group__2__Impl"
-    // InternalSimplepalladio.g:5258:1: rule__System__Group__2__Impl : ( '{' ) ;
+    // InternalSimplepalladio.g:5231:1: rule__System__Group__2__Impl : ( '{' ) ;
     public final void rule__System__Group__2__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5262:1: ( ( '{' ) )
-            // InternalSimplepalladio.g:5263:1: ( '{' )
+            // InternalSimplepalladio.g:5235:1: ( ( '{' ) )
+            // InternalSimplepalladio.g:5236:1: ( '{' )
             {
-            // InternalSimplepalladio.g:5263:1: ( '{' )
-            // InternalSimplepalladio.g:5264:2: '{'
+            // InternalSimplepalladio.g:5236:1: ( '{' )
+            // InternalSimplepalladio.g:5237:2: '{'
             {
              before(grammarAccess.getSystemAccess().getLeftCurlyBracketKeyword_2()); 
             match(input,22,FOLLOW_2); 
@@ -15833,14 +15742,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__System__Group__3"
-    // InternalSimplepalladio.g:5273:1: rule__System__Group__3 : rule__System__Group__3__Impl rule__System__Group__4 ;
+    // InternalSimplepalladio.g:5246:1: rule__System__Group__3 : rule__System__Group__3__Impl rule__System__Group__4 ;
     public final void rule__System__Group__3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5277:1: ( rule__System__Group__3__Impl rule__System__Group__4 )
-            // InternalSimplepalladio.g:5278:2: rule__System__Group__3__Impl rule__System__Group__4
+            // InternalSimplepalladio.g:5250:1: ( rule__System__Group__3__Impl rule__System__Group__4 )
+            // InternalSimplepalladio.g:5251:2: rule__System__Group__3__Impl rule__System__Group__4
             {
             pushFollow(FOLLOW_17);
             rule__System__Group__3__Impl();
@@ -15871,29 +15780,29 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__System__Group__3__Impl"
-    // InternalSimplepalladio.g:5285:1: rule__System__Group__3__Impl : ( ( rule__System__Group_3__0 )? ) ;
+    // InternalSimplepalladio.g:5258:1: rule__System__Group__3__Impl : ( ( rule__System__Group_3__0 )? ) ;
     public final void rule__System__Group__3__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5289:1: ( ( ( rule__System__Group_3__0 )? ) )
-            // InternalSimplepalladio.g:5290:1: ( ( rule__System__Group_3__0 )? )
+            // InternalSimplepalladio.g:5262:1: ( ( ( rule__System__Group_3__0 )? ) )
+            // InternalSimplepalladio.g:5263:1: ( ( rule__System__Group_3__0 )? )
             {
-            // InternalSimplepalladio.g:5290:1: ( ( rule__System__Group_3__0 )? )
-            // InternalSimplepalladio.g:5291:2: ( rule__System__Group_3__0 )?
+            // InternalSimplepalladio.g:5263:1: ( ( rule__System__Group_3__0 )? )
+            // InternalSimplepalladio.g:5264:2: ( rule__System__Group_3__0 )?
             {
              before(grammarAccess.getSystemAccess().getGroup_3()); 
-            // InternalSimplepalladio.g:5292:2: ( rule__System__Group_3__0 )?
-            int alt25=2;
-            int LA25_0 = input.LA(1);
+            // InternalSimplepalladio.g:5265:2: ( rule__System__Group_3__0 )?
+            int alt24=2;
+            int LA24_0 = input.LA(1);
 
-            if ( (LA25_0==34) ) {
-                alt25=1;
+            if ( (LA24_0==34) ) {
+                alt24=1;
             }
-            switch (alt25) {
+            switch (alt24) {
                 case 1 :
-                    // InternalSimplepalladio.g:5292:3: rule__System__Group_3__0
+                    // InternalSimplepalladio.g:5265:3: rule__System__Group_3__0
                     {
                     pushFollow(FOLLOW_2);
                     rule__System__Group_3__0();
@@ -15929,14 +15838,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__System__Group__4"
-    // InternalSimplepalladio.g:5300:1: rule__System__Group__4 : rule__System__Group__4__Impl rule__System__Group__5 ;
+    // InternalSimplepalladio.g:5273:1: rule__System__Group__4 : rule__System__Group__4__Impl rule__System__Group__5 ;
     public final void rule__System__Group__4() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5304:1: ( rule__System__Group__4__Impl rule__System__Group__5 )
-            // InternalSimplepalladio.g:5305:2: rule__System__Group__4__Impl rule__System__Group__5
+            // InternalSimplepalladio.g:5277:1: ( rule__System__Group__4__Impl rule__System__Group__5 )
+            // InternalSimplepalladio.g:5278:2: rule__System__Group__4__Impl rule__System__Group__5
             {
             pushFollow(FOLLOW_15);
             rule__System__Group__4__Impl();
@@ -15967,17 +15876,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__System__Group__4__Impl"
-    // InternalSimplepalladio.g:5312:1: rule__System__Group__4__Impl : ( 'providedInterfaces' ) ;
+    // InternalSimplepalladio.g:5285:1: rule__System__Group__4__Impl : ( 'providedInterfaces' ) ;
     public final void rule__System__Group__4__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5316:1: ( ( 'providedInterfaces' ) )
-            // InternalSimplepalladio.g:5317:1: ( 'providedInterfaces' )
+            // InternalSimplepalladio.g:5289:1: ( ( 'providedInterfaces' ) )
+            // InternalSimplepalladio.g:5290:1: ( 'providedInterfaces' )
             {
-            // InternalSimplepalladio.g:5317:1: ( 'providedInterfaces' )
-            // InternalSimplepalladio.g:5318:2: 'providedInterfaces'
+            // InternalSimplepalladio.g:5290:1: ( 'providedInterfaces' )
+            // InternalSimplepalladio.g:5291:2: 'providedInterfaces'
             {
              before(grammarAccess.getSystemAccess().getProvidedInterfacesKeyword_4()); 
             match(input,32,FOLLOW_2); 
@@ -16004,14 +15913,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__System__Group__5"
-    // InternalSimplepalladio.g:5327:1: rule__System__Group__5 : rule__System__Group__5__Impl rule__System__Group__6 ;
+    // InternalSimplepalladio.g:5300:1: rule__System__Group__5 : rule__System__Group__5__Impl rule__System__Group__6 ;
     public final void rule__System__Group__5() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5331:1: ( rule__System__Group__5__Impl rule__System__Group__6 )
-            // InternalSimplepalladio.g:5332:2: rule__System__Group__5__Impl rule__System__Group__6
+            // InternalSimplepalladio.g:5304:1: ( rule__System__Group__5__Impl rule__System__Group__6 )
+            // InternalSimplepalladio.g:5305:2: rule__System__Group__5__Impl rule__System__Group__6
             {
             pushFollow(FOLLOW_13);
             rule__System__Group__5__Impl();
@@ -16042,17 +15951,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__System__Group__5__Impl"
-    // InternalSimplepalladio.g:5339:1: rule__System__Group__5__Impl : ( '(' ) ;
+    // InternalSimplepalladio.g:5312:1: rule__System__Group__5__Impl : ( '(' ) ;
     public final void rule__System__Group__5__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5343:1: ( ( '(' ) )
-            // InternalSimplepalladio.g:5344:1: ( '(' )
+            // InternalSimplepalladio.g:5316:1: ( ( '(' ) )
+            // InternalSimplepalladio.g:5317:1: ( '(' )
             {
-            // InternalSimplepalladio.g:5344:1: ( '(' )
-            // InternalSimplepalladio.g:5345:2: '('
+            // InternalSimplepalladio.g:5317:1: ( '(' )
+            // InternalSimplepalladio.g:5318:2: '('
             {
              before(grammarAccess.getSystemAccess().getLeftParenthesisKeyword_5()); 
             match(input,29,FOLLOW_2); 
@@ -16079,14 +15988,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__System__Group__6"
-    // InternalSimplepalladio.g:5354:1: rule__System__Group__6 : rule__System__Group__6__Impl rule__System__Group__7 ;
+    // InternalSimplepalladio.g:5327:1: rule__System__Group__6 : rule__System__Group__6__Impl rule__System__Group__7 ;
     public final void rule__System__Group__6() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5358:1: ( rule__System__Group__6__Impl rule__System__Group__7 )
-            // InternalSimplepalladio.g:5359:2: rule__System__Group__6__Impl rule__System__Group__7
+            // InternalSimplepalladio.g:5331:1: ( rule__System__Group__6__Impl rule__System__Group__7 )
+            // InternalSimplepalladio.g:5332:2: rule__System__Group__6__Impl rule__System__Group__7
             {
             pushFollow(FOLLOW_16);
             rule__System__Group__6__Impl();
@@ -16117,21 +16026,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__System__Group__6__Impl"
-    // InternalSimplepalladio.g:5366:1: rule__System__Group__6__Impl : ( ( rule__System__ProvidedInterfacesAssignment_6 ) ) ;
+    // InternalSimplepalladio.g:5339:1: rule__System__Group__6__Impl : ( ( rule__System__ProvidedInterfacesAssignment_6 ) ) ;
     public final void rule__System__Group__6__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5370:1: ( ( ( rule__System__ProvidedInterfacesAssignment_6 ) ) )
-            // InternalSimplepalladio.g:5371:1: ( ( rule__System__ProvidedInterfacesAssignment_6 ) )
+            // InternalSimplepalladio.g:5343:1: ( ( ( rule__System__ProvidedInterfacesAssignment_6 ) ) )
+            // InternalSimplepalladio.g:5344:1: ( ( rule__System__ProvidedInterfacesAssignment_6 ) )
             {
-            // InternalSimplepalladio.g:5371:1: ( ( rule__System__ProvidedInterfacesAssignment_6 ) )
-            // InternalSimplepalladio.g:5372:2: ( rule__System__ProvidedInterfacesAssignment_6 )
+            // InternalSimplepalladio.g:5344:1: ( ( rule__System__ProvidedInterfacesAssignment_6 ) )
+            // InternalSimplepalladio.g:5345:2: ( rule__System__ProvidedInterfacesAssignment_6 )
             {
              before(grammarAccess.getSystemAccess().getProvidedInterfacesAssignment_6()); 
-            // InternalSimplepalladio.g:5373:2: ( rule__System__ProvidedInterfacesAssignment_6 )
-            // InternalSimplepalladio.g:5373:3: rule__System__ProvidedInterfacesAssignment_6
+            // InternalSimplepalladio.g:5346:2: ( rule__System__ProvidedInterfacesAssignment_6 )
+            // InternalSimplepalladio.g:5346:3: rule__System__ProvidedInterfacesAssignment_6
             {
             pushFollow(FOLLOW_2);
             rule__System__ProvidedInterfacesAssignment_6();
@@ -16164,14 +16073,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__System__Group__7"
-    // InternalSimplepalladio.g:5381:1: rule__System__Group__7 : rule__System__Group__7__Impl rule__System__Group__8 ;
+    // InternalSimplepalladio.g:5354:1: rule__System__Group__7 : rule__System__Group__7__Impl rule__System__Group__8 ;
     public final void rule__System__Group__7() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5385:1: ( rule__System__Group__7__Impl rule__System__Group__8 )
-            // InternalSimplepalladio.g:5386:2: rule__System__Group__7__Impl rule__System__Group__8
+            // InternalSimplepalladio.g:5358:1: ( rule__System__Group__7__Impl rule__System__Group__8 )
+            // InternalSimplepalladio.g:5359:2: rule__System__Group__7__Impl rule__System__Group__8
             {
             pushFollow(FOLLOW_16);
             rule__System__Group__7__Impl();
@@ -16202,33 +16111,33 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__System__Group__7__Impl"
-    // InternalSimplepalladio.g:5393:1: rule__System__Group__7__Impl : ( ( rule__System__Group_7__0 )* ) ;
+    // InternalSimplepalladio.g:5366:1: rule__System__Group__7__Impl : ( ( rule__System__Group_7__0 )* ) ;
     public final void rule__System__Group__7__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5397:1: ( ( ( rule__System__Group_7__0 )* ) )
-            // InternalSimplepalladio.g:5398:1: ( ( rule__System__Group_7__0 )* )
+            // InternalSimplepalladio.g:5370:1: ( ( ( rule__System__Group_7__0 )* ) )
+            // InternalSimplepalladio.g:5371:1: ( ( rule__System__Group_7__0 )* )
             {
-            // InternalSimplepalladio.g:5398:1: ( ( rule__System__Group_7__0 )* )
-            // InternalSimplepalladio.g:5399:2: ( rule__System__Group_7__0 )*
+            // InternalSimplepalladio.g:5371:1: ( ( rule__System__Group_7__0 )* )
+            // InternalSimplepalladio.g:5372:2: ( rule__System__Group_7__0 )*
             {
              before(grammarAccess.getSystemAccess().getGroup_7()); 
-            // InternalSimplepalladio.g:5400:2: ( rule__System__Group_7__0 )*
-            loop26:
+            // InternalSimplepalladio.g:5373:2: ( rule__System__Group_7__0 )*
+            loop25:
             do {
-                int alt26=2;
-                int LA26_0 = input.LA(1);
+                int alt25=2;
+                int LA25_0 = input.LA(1);
 
-                if ( (LA26_0==26) ) {
-                    alt26=1;
+                if ( (LA25_0==26) ) {
+                    alt25=1;
                 }
 
 
-                switch (alt26) {
+                switch (alt25) {
             	case 1 :
-            	    // InternalSimplepalladio.g:5400:3: rule__System__Group_7__0
+            	    // InternalSimplepalladio.g:5373:3: rule__System__Group_7__0
             	    {
             	    pushFollow(FOLLOW_12);
             	    rule__System__Group_7__0();
@@ -16240,7 +16149,7 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
             	    break;
 
             	default :
-            	    break loop26;
+            	    break loop25;
                 }
             } while (true);
 
@@ -16267,16 +16176,16 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__System__Group__8"
-    // InternalSimplepalladio.g:5408:1: rule__System__Group__8 : rule__System__Group__8__Impl rule__System__Group__9 ;
+    // InternalSimplepalladio.g:5381:1: rule__System__Group__8 : rule__System__Group__8__Impl rule__System__Group__9 ;
     public final void rule__System__Group__8() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5412:1: ( rule__System__Group__8__Impl rule__System__Group__9 )
-            // InternalSimplepalladio.g:5413:2: rule__System__Group__8__Impl rule__System__Group__9
+            // InternalSimplepalladio.g:5385:1: ( rule__System__Group__8__Impl rule__System__Group__9 )
+            // InternalSimplepalladio.g:5386:2: rule__System__Group__8__Impl rule__System__Group__9
             {
-            pushFollow(FOLLOW_35);
+            pushFollow(FOLLOW_37);
             rule__System__Group__8__Impl();
 
             state._fsp--;
@@ -16305,17 +16214,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__System__Group__8__Impl"
-    // InternalSimplepalladio.g:5420:1: rule__System__Group__8__Impl : ( ')' ) ;
+    // InternalSimplepalladio.g:5393:1: rule__System__Group__8__Impl : ( ')' ) ;
     public final void rule__System__Group__8__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5424:1: ( ( ')' ) )
-            // InternalSimplepalladio.g:5425:1: ( ')' )
+            // InternalSimplepalladio.g:5397:1: ( ( ')' ) )
+            // InternalSimplepalladio.g:5398:1: ( ')' )
             {
-            // InternalSimplepalladio.g:5425:1: ( ')' )
-            // InternalSimplepalladio.g:5426:2: ')'
+            // InternalSimplepalladio.g:5398:1: ( ')' )
+            // InternalSimplepalladio.g:5399:2: ')'
             {
              before(grammarAccess.getSystemAccess().getRightParenthesisKeyword_8()); 
             match(input,30,FOLLOW_2); 
@@ -16342,14 +16251,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__System__Group__9"
-    // InternalSimplepalladio.g:5435:1: rule__System__Group__9 : rule__System__Group__9__Impl rule__System__Group__10 ;
+    // InternalSimplepalladio.g:5408:1: rule__System__Group__9 : rule__System__Group__9__Impl rule__System__Group__10 ;
     public final void rule__System__Group__9() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5439:1: ( rule__System__Group__9__Impl rule__System__Group__10 )
-            // InternalSimplepalladio.g:5440:2: rule__System__Group__9__Impl rule__System__Group__10
+            // InternalSimplepalladio.g:5412:1: ( rule__System__Group__9__Impl rule__System__Group__10 )
+            // InternalSimplepalladio.g:5413:2: rule__System__Group__9__Impl rule__System__Group__10
             {
             pushFollow(FOLLOW_8);
             rule__System__Group__9__Impl();
@@ -16380,17 +16289,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__System__Group__9__Impl"
-    // InternalSimplepalladio.g:5447:1: rule__System__Group__9__Impl : ( 'systemElements' ) ;
+    // InternalSimplepalladio.g:5420:1: rule__System__Group__9__Impl : ( 'systemElements' ) ;
     public final void rule__System__Group__9__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5451:1: ( ( 'systemElements' ) )
-            // InternalSimplepalladio.g:5452:1: ( 'systemElements' )
+            // InternalSimplepalladio.g:5424:1: ( ( 'systemElements' ) )
+            // InternalSimplepalladio.g:5425:1: ( 'systemElements' )
             {
-            // InternalSimplepalladio.g:5452:1: ( 'systemElements' )
-            // InternalSimplepalladio.g:5453:2: 'systemElements'
+            // InternalSimplepalladio.g:5425:1: ( 'systemElements' )
+            // InternalSimplepalladio.g:5426:2: 'systemElements'
             {
              before(grammarAccess.getSystemAccess().getSystemElementsKeyword_9()); 
             match(input,54,FOLLOW_2); 
@@ -16417,16 +16326,16 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__System__Group__10"
-    // InternalSimplepalladio.g:5462:1: rule__System__Group__10 : rule__System__Group__10__Impl rule__System__Group__11 ;
+    // InternalSimplepalladio.g:5435:1: rule__System__Group__10 : rule__System__Group__10__Impl rule__System__Group__11 ;
     public final void rule__System__Group__10() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5466:1: ( rule__System__Group__10__Impl rule__System__Group__11 )
-            // InternalSimplepalladio.g:5467:2: rule__System__Group__10__Impl rule__System__Group__11
+            // InternalSimplepalladio.g:5439:1: ( rule__System__Group__10__Impl rule__System__Group__11 )
+            // InternalSimplepalladio.g:5440:2: rule__System__Group__10__Impl rule__System__Group__11
             {
-            pushFollow(FOLLOW_36);
+            pushFollow(FOLLOW_38);
             rule__System__Group__10__Impl();
 
             state._fsp--;
@@ -16455,17 +16364,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__System__Group__10__Impl"
-    // InternalSimplepalladio.g:5474:1: rule__System__Group__10__Impl : ( '{' ) ;
+    // InternalSimplepalladio.g:5447:1: rule__System__Group__10__Impl : ( '{' ) ;
     public final void rule__System__Group__10__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5478:1: ( ( '{' ) )
-            // InternalSimplepalladio.g:5479:1: ( '{' )
+            // InternalSimplepalladio.g:5451:1: ( ( '{' ) )
+            // InternalSimplepalladio.g:5452:1: ( '{' )
             {
-            // InternalSimplepalladio.g:5479:1: ( '{' )
-            // InternalSimplepalladio.g:5480:2: '{'
+            // InternalSimplepalladio.g:5452:1: ( '{' )
+            // InternalSimplepalladio.g:5453:2: '{'
             {
              before(grammarAccess.getSystemAccess().getLeftCurlyBracketKeyword_10()); 
             match(input,22,FOLLOW_2); 
@@ -16492,14 +16401,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__System__Group__11"
-    // InternalSimplepalladio.g:5489:1: rule__System__Group__11 : rule__System__Group__11__Impl rule__System__Group__12 ;
+    // InternalSimplepalladio.g:5462:1: rule__System__Group__11 : rule__System__Group__11__Impl rule__System__Group__12 ;
     public final void rule__System__Group__11() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5493:1: ( rule__System__Group__11__Impl rule__System__Group__12 )
-            // InternalSimplepalladio.g:5494:2: rule__System__Group__11__Impl rule__System__Group__12
+            // InternalSimplepalladio.g:5466:1: ( rule__System__Group__11__Impl rule__System__Group__12 )
+            // InternalSimplepalladio.g:5467:2: rule__System__Group__11__Impl rule__System__Group__12
             {
             pushFollow(FOLLOW_11);
             rule__System__Group__11__Impl();
@@ -16530,21 +16439,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__System__Group__11__Impl"
-    // InternalSimplepalladio.g:5501:1: rule__System__Group__11__Impl : ( ( rule__System__SystemElementsAssignment_11 ) ) ;
+    // InternalSimplepalladio.g:5474:1: rule__System__Group__11__Impl : ( ( rule__System__SystemElementsAssignment_11 ) ) ;
     public final void rule__System__Group__11__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5505:1: ( ( ( rule__System__SystemElementsAssignment_11 ) ) )
-            // InternalSimplepalladio.g:5506:1: ( ( rule__System__SystemElementsAssignment_11 ) )
+            // InternalSimplepalladio.g:5478:1: ( ( ( rule__System__SystemElementsAssignment_11 ) ) )
+            // InternalSimplepalladio.g:5479:1: ( ( rule__System__SystemElementsAssignment_11 ) )
             {
-            // InternalSimplepalladio.g:5506:1: ( ( rule__System__SystemElementsAssignment_11 ) )
-            // InternalSimplepalladio.g:5507:2: ( rule__System__SystemElementsAssignment_11 )
+            // InternalSimplepalladio.g:5479:1: ( ( rule__System__SystemElementsAssignment_11 ) )
+            // InternalSimplepalladio.g:5480:2: ( rule__System__SystemElementsAssignment_11 )
             {
              before(grammarAccess.getSystemAccess().getSystemElementsAssignment_11()); 
-            // InternalSimplepalladio.g:5508:2: ( rule__System__SystemElementsAssignment_11 )
-            // InternalSimplepalladio.g:5508:3: rule__System__SystemElementsAssignment_11
+            // InternalSimplepalladio.g:5481:2: ( rule__System__SystemElementsAssignment_11 )
+            // InternalSimplepalladio.g:5481:3: rule__System__SystemElementsAssignment_11
             {
             pushFollow(FOLLOW_2);
             rule__System__SystemElementsAssignment_11();
@@ -16577,14 +16486,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__System__Group__12"
-    // InternalSimplepalladio.g:5516:1: rule__System__Group__12 : rule__System__Group__12__Impl rule__System__Group__13 ;
+    // InternalSimplepalladio.g:5489:1: rule__System__Group__12 : rule__System__Group__12__Impl rule__System__Group__13 ;
     public final void rule__System__Group__12() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5520:1: ( rule__System__Group__12__Impl rule__System__Group__13 )
-            // InternalSimplepalladio.g:5521:2: rule__System__Group__12__Impl rule__System__Group__13
+            // InternalSimplepalladio.g:5493:1: ( rule__System__Group__12__Impl rule__System__Group__13 )
+            // InternalSimplepalladio.g:5494:2: rule__System__Group__12__Impl rule__System__Group__13
             {
             pushFollow(FOLLOW_11);
             rule__System__Group__12__Impl();
@@ -16615,33 +16524,33 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__System__Group__12__Impl"
-    // InternalSimplepalladio.g:5528:1: rule__System__Group__12__Impl : ( ( rule__System__Group_12__0 )* ) ;
+    // InternalSimplepalladio.g:5501:1: rule__System__Group__12__Impl : ( ( rule__System__Group_12__0 )* ) ;
     public final void rule__System__Group__12__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5532:1: ( ( ( rule__System__Group_12__0 )* ) )
-            // InternalSimplepalladio.g:5533:1: ( ( rule__System__Group_12__0 )* )
+            // InternalSimplepalladio.g:5505:1: ( ( ( rule__System__Group_12__0 )* ) )
+            // InternalSimplepalladio.g:5506:1: ( ( rule__System__Group_12__0 )* )
             {
-            // InternalSimplepalladio.g:5533:1: ( ( rule__System__Group_12__0 )* )
-            // InternalSimplepalladio.g:5534:2: ( rule__System__Group_12__0 )*
+            // InternalSimplepalladio.g:5506:1: ( ( rule__System__Group_12__0 )* )
+            // InternalSimplepalladio.g:5507:2: ( rule__System__Group_12__0 )*
             {
              before(grammarAccess.getSystemAccess().getGroup_12()); 
-            // InternalSimplepalladio.g:5535:2: ( rule__System__Group_12__0 )*
-            loop27:
+            // InternalSimplepalladio.g:5508:2: ( rule__System__Group_12__0 )*
+            loop26:
             do {
-                int alt27=2;
-                int LA27_0 = input.LA(1);
+                int alt26=2;
+                int LA26_0 = input.LA(1);
 
-                if ( (LA27_0==26) ) {
-                    alt27=1;
+                if ( (LA26_0==26) ) {
+                    alt26=1;
                 }
 
 
-                switch (alt27) {
+                switch (alt26) {
             	case 1 :
-            	    // InternalSimplepalladio.g:5535:3: rule__System__Group_12__0
+            	    // InternalSimplepalladio.g:5508:3: rule__System__Group_12__0
             	    {
             	    pushFollow(FOLLOW_12);
             	    rule__System__Group_12__0();
@@ -16653,7 +16562,7 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
             	    break;
 
             	default :
-            	    break loop27;
+            	    break loop26;
                 }
             } while (true);
 
@@ -16680,14 +16589,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__System__Group__13"
-    // InternalSimplepalladio.g:5543:1: rule__System__Group__13 : rule__System__Group__13__Impl rule__System__Group__14 ;
+    // InternalSimplepalladio.g:5516:1: rule__System__Group__13 : rule__System__Group__13__Impl rule__System__Group__14 ;
     public final void rule__System__Group__13() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5547:1: ( rule__System__Group__13__Impl rule__System__Group__14 )
-            // InternalSimplepalladio.g:5548:2: rule__System__Group__13__Impl rule__System__Group__14
+            // InternalSimplepalladio.g:5520:1: ( rule__System__Group__13__Impl rule__System__Group__14 )
+            // InternalSimplepalladio.g:5521:2: rule__System__Group__13__Impl rule__System__Group__14
             {
             pushFollow(FOLLOW_7);
             rule__System__Group__13__Impl();
@@ -16718,17 +16627,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__System__Group__13__Impl"
-    // InternalSimplepalladio.g:5555:1: rule__System__Group__13__Impl : ( '}' ) ;
+    // InternalSimplepalladio.g:5528:1: rule__System__Group__13__Impl : ( '}' ) ;
     public final void rule__System__Group__13__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5559:1: ( ( '}' ) )
-            // InternalSimplepalladio.g:5560:1: ( '}' )
+            // InternalSimplepalladio.g:5532:1: ( ( '}' ) )
+            // InternalSimplepalladio.g:5533:1: ( '}' )
             {
-            // InternalSimplepalladio.g:5560:1: ( '}' )
-            // InternalSimplepalladio.g:5561:2: '}'
+            // InternalSimplepalladio.g:5533:1: ( '}' )
+            // InternalSimplepalladio.g:5534:2: '}'
             {
              before(grammarAccess.getSystemAccess().getRightCurlyBracketKeyword_13()); 
             match(input,23,FOLLOW_2); 
@@ -16755,14 +16664,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__System__Group__14"
-    // InternalSimplepalladio.g:5570:1: rule__System__Group__14 : rule__System__Group__14__Impl ;
+    // InternalSimplepalladio.g:5543:1: rule__System__Group__14 : rule__System__Group__14__Impl ;
     public final void rule__System__Group__14() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5574:1: ( rule__System__Group__14__Impl )
-            // InternalSimplepalladio.g:5575:2: rule__System__Group__14__Impl
+            // InternalSimplepalladio.g:5547:1: ( rule__System__Group__14__Impl )
+            // InternalSimplepalladio.g:5548:2: rule__System__Group__14__Impl
             {
             pushFollow(FOLLOW_2);
             rule__System__Group__14__Impl();
@@ -16788,17 +16697,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__System__Group__14__Impl"
-    // InternalSimplepalladio.g:5581:1: rule__System__Group__14__Impl : ( '}' ) ;
+    // InternalSimplepalladio.g:5554:1: rule__System__Group__14__Impl : ( '}' ) ;
     public final void rule__System__Group__14__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5585:1: ( ( '}' ) )
-            // InternalSimplepalladio.g:5586:1: ( '}' )
+            // InternalSimplepalladio.g:5558:1: ( ( '}' ) )
+            // InternalSimplepalladio.g:5559:1: ( '}' )
             {
-            // InternalSimplepalladio.g:5586:1: ( '}' )
-            // InternalSimplepalladio.g:5587:2: '}'
+            // InternalSimplepalladio.g:5559:1: ( '}' )
+            // InternalSimplepalladio.g:5560:2: '}'
             {
              before(grammarAccess.getSystemAccess().getRightCurlyBracketKeyword_14()); 
             match(input,23,FOLLOW_2); 
@@ -16825,14 +16734,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__System__Group_3__0"
-    // InternalSimplepalladio.g:5597:1: rule__System__Group_3__0 : rule__System__Group_3__0__Impl rule__System__Group_3__1 ;
+    // InternalSimplepalladio.g:5570:1: rule__System__Group_3__0 : rule__System__Group_3__0__Impl rule__System__Group_3__1 ;
     public final void rule__System__Group_3__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5601:1: ( rule__System__Group_3__0__Impl rule__System__Group_3__1 )
-            // InternalSimplepalladio.g:5602:2: rule__System__Group_3__0__Impl rule__System__Group_3__1
+            // InternalSimplepalladio.g:5574:1: ( rule__System__Group_3__0__Impl rule__System__Group_3__1 )
+            // InternalSimplepalladio.g:5575:2: rule__System__Group_3__0__Impl rule__System__Group_3__1
             {
             pushFollow(FOLLOW_15);
             rule__System__Group_3__0__Impl();
@@ -16863,17 +16772,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__System__Group_3__0__Impl"
-    // InternalSimplepalladio.g:5609:1: rule__System__Group_3__0__Impl : ( 'requiredInterfaces' ) ;
+    // InternalSimplepalladio.g:5582:1: rule__System__Group_3__0__Impl : ( 'requiredInterfaces' ) ;
     public final void rule__System__Group_3__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5613:1: ( ( 'requiredInterfaces' ) )
-            // InternalSimplepalladio.g:5614:1: ( 'requiredInterfaces' )
+            // InternalSimplepalladio.g:5586:1: ( ( 'requiredInterfaces' ) )
+            // InternalSimplepalladio.g:5587:1: ( 'requiredInterfaces' )
             {
-            // InternalSimplepalladio.g:5614:1: ( 'requiredInterfaces' )
-            // InternalSimplepalladio.g:5615:2: 'requiredInterfaces'
+            // InternalSimplepalladio.g:5587:1: ( 'requiredInterfaces' )
+            // InternalSimplepalladio.g:5588:2: 'requiredInterfaces'
             {
              before(grammarAccess.getSystemAccess().getRequiredInterfacesKeyword_3_0()); 
             match(input,34,FOLLOW_2); 
@@ -16900,14 +16809,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__System__Group_3__1"
-    // InternalSimplepalladio.g:5624:1: rule__System__Group_3__1 : rule__System__Group_3__1__Impl rule__System__Group_3__2 ;
+    // InternalSimplepalladio.g:5597:1: rule__System__Group_3__1 : rule__System__Group_3__1__Impl rule__System__Group_3__2 ;
     public final void rule__System__Group_3__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5628:1: ( rule__System__Group_3__1__Impl rule__System__Group_3__2 )
-            // InternalSimplepalladio.g:5629:2: rule__System__Group_3__1__Impl rule__System__Group_3__2
+            // InternalSimplepalladio.g:5601:1: ( rule__System__Group_3__1__Impl rule__System__Group_3__2 )
+            // InternalSimplepalladio.g:5602:2: rule__System__Group_3__1__Impl rule__System__Group_3__2
             {
             pushFollow(FOLLOW_13);
             rule__System__Group_3__1__Impl();
@@ -16938,17 +16847,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__System__Group_3__1__Impl"
-    // InternalSimplepalladio.g:5636:1: rule__System__Group_3__1__Impl : ( '(' ) ;
+    // InternalSimplepalladio.g:5609:1: rule__System__Group_3__1__Impl : ( '(' ) ;
     public final void rule__System__Group_3__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5640:1: ( ( '(' ) )
-            // InternalSimplepalladio.g:5641:1: ( '(' )
+            // InternalSimplepalladio.g:5613:1: ( ( '(' ) )
+            // InternalSimplepalladio.g:5614:1: ( '(' )
             {
-            // InternalSimplepalladio.g:5641:1: ( '(' )
-            // InternalSimplepalladio.g:5642:2: '('
+            // InternalSimplepalladio.g:5614:1: ( '(' )
+            // InternalSimplepalladio.g:5615:2: '('
             {
              before(grammarAccess.getSystemAccess().getLeftParenthesisKeyword_3_1()); 
             match(input,29,FOLLOW_2); 
@@ -16975,14 +16884,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__System__Group_3__2"
-    // InternalSimplepalladio.g:5651:1: rule__System__Group_3__2 : rule__System__Group_3__2__Impl rule__System__Group_3__3 ;
+    // InternalSimplepalladio.g:5624:1: rule__System__Group_3__2 : rule__System__Group_3__2__Impl rule__System__Group_3__3 ;
     public final void rule__System__Group_3__2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5655:1: ( rule__System__Group_3__2__Impl rule__System__Group_3__3 )
-            // InternalSimplepalladio.g:5656:2: rule__System__Group_3__2__Impl rule__System__Group_3__3
+            // InternalSimplepalladio.g:5628:1: ( rule__System__Group_3__2__Impl rule__System__Group_3__3 )
+            // InternalSimplepalladio.g:5629:2: rule__System__Group_3__2__Impl rule__System__Group_3__3
             {
             pushFollow(FOLLOW_16);
             rule__System__Group_3__2__Impl();
@@ -17013,21 +16922,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__System__Group_3__2__Impl"
-    // InternalSimplepalladio.g:5663:1: rule__System__Group_3__2__Impl : ( ( rule__System__RequiredInterfacesAssignment_3_2 ) ) ;
+    // InternalSimplepalladio.g:5636:1: rule__System__Group_3__2__Impl : ( ( rule__System__RequiredInterfacesAssignment_3_2 ) ) ;
     public final void rule__System__Group_3__2__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5667:1: ( ( ( rule__System__RequiredInterfacesAssignment_3_2 ) ) )
-            // InternalSimplepalladio.g:5668:1: ( ( rule__System__RequiredInterfacesAssignment_3_2 ) )
+            // InternalSimplepalladio.g:5640:1: ( ( ( rule__System__RequiredInterfacesAssignment_3_2 ) ) )
+            // InternalSimplepalladio.g:5641:1: ( ( rule__System__RequiredInterfacesAssignment_3_2 ) )
             {
-            // InternalSimplepalladio.g:5668:1: ( ( rule__System__RequiredInterfacesAssignment_3_2 ) )
-            // InternalSimplepalladio.g:5669:2: ( rule__System__RequiredInterfacesAssignment_3_2 )
+            // InternalSimplepalladio.g:5641:1: ( ( rule__System__RequiredInterfacesAssignment_3_2 ) )
+            // InternalSimplepalladio.g:5642:2: ( rule__System__RequiredInterfacesAssignment_3_2 )
             {
              before(grammarAccess.getSystemAccess().getRequiredInterfacesAssignment_3_2()); 
-            // InternalSimplepalladio.g:5670:2: ( rule__System__RequiredInterfacesAssignment_3_2 )
-            // InternalSimplepalladio.g:5670:3: rule__System__RequiredInterfacesAssignment_3_2
+            // InternalSimplepalladio.g:5643:2: ( rule__System__RequiredInterfacesAssignment_3_2 )
+            // InternalSimplepalladio.g:5643:3: rule__System__RequiredInterfacesAssignment_3_2
             {
             pushFollow(FOLLOW_2);
             rule__System__RequiredInterfacesAssignment_3_2();
@@ -17060,14 +16969,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__System__Group_3__3"
-    // InternalSimplepalladio.g:5678:1: rule__System__Group_3__3 : rule__System__Group_3__3__Impl rule__System__Group_3__4 ;
+    // InternalSimplepalladio.g:5651:1: rule__System__Group_3__3 : rule__System__Group_3__3__Impl rule__System__Group_3__4 ;
     public final void rule__System__Group_3__3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5682:1: ( rule__System__Group_3__3__Impl rule__System__Group_3__4 )
-            // InternalSimplepalladio.g:5683:2: rule__System__Group_3__3__Impl rule__System__Group_3__4
+            // InternalSimplepalladio.g:5655:1: ( rule__System__Group_3__3__Impl rule__System__Group_3__4 )
+            // InternalSimplepalladio.g:5656:2: rule__System__Group_3__3__Impl rule__System__Group_3__4
             {
             pushFollow(FOLLOW_16);
             rule__System__Group_3__3__Impl();
@@ -17098,33 +17007,33 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__System__Group_3__3__Impl"
-    // InternalSimplepalladio.g:5690:1: rule__System__Group_3__3__Impl : ( ( rule__System__Group_3_3__0 )* ) ;
+    // InternalSimplepalladio.g:5663:1: rule__System__Group_3__3__Impl : ( ( rule__System__Group_3_3__0 )* ) ;
     public final void rule__System__Group_3__3__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5694:1: ( ( ( rule__System__Group_3_3__0 )* ) )
-            // InternalSimplepalladio.g:5695:1: ( ( rule__System__Group_3_3__0 )* )
+            // InternalSimplepalladio.g:5667:1: ( ( ( rule__System__Group_3_3__0 )* ) )
+            // InternalSimplepalladio.g:5668:1: ( ( rule__System__Group_3_3__0 )* )
             {
-            // InternalSimplepalladio.g:5695:1: ( ( rule__System__Group_3_3__0 )* )
-            // InternalSimplepalladio.g:5696:2: ( rule__System__Group_3_3__0 )*
+            // InternalSimplepalladio.g:5668:1: ( ( rule__System__Group_3_3__0 )* )
+            // InternalSimplepalladio.g:5669:2: ( rule__System__Group_3_3__0 )*
             {
              before(grammarAccess.getSystemAccess().getGroup_3_3()); 
-            // InternalSimplepalladio.g:5697:2: ( rule__System__Group_3_3__0 )*
-            loop28:
+            // InternalSimplepalladio.g:5670:2: ( rule__System__Group_3_3__0 )*
+            loop27:
             do {
-                int alt28=2;
-                int LA28_0 = input.LA(1);
+                int alt27=2;
+                int LA27_0 = input.LA(1);
 
-                if ( (LA28_0==26) ) {
-                    alt28=1;
+                if ( (LA27_0==26) ) {
+                    alt27=1;
                 }
 
 
-                switch (alt28) {
+                switch (alt27) {
             	case 1 :
-            	    // InternalSimplepalladio.g:5697:3: rule__System__Group_3_3__0
+            	    // InternalSimplepalladio.g:5670:3: rule__System__Group_3_3__0
             	    {
             	    pushFollow(FOLLOW_12);
             	    rule__System__Group_3_3__0();
@@ -17136,7 +17045,7 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
             	    break;
 
             	default :
-            	    break loop28;
+            	    break loop27;
                 }
             } while (true);
 
@@ -17163,14 +17072,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__System__Group_3__4"
-    // InternalSimplepalladio.g:5705:1: rule__System__Group_3__4 : rule__System__Group_3__4__Impl ;
+    // InternalSimplepalladio.g:5678:1: rule__System__Group_3__4 : rule__System__Group_3__4__Impl ;
     public final void rule__System__Group_3__4() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5709:1: ( rule__System__Group_3__4__Impl )
-            // InternalSimplepalladio.g:5710:2: rule__System__Group_3__4__Impl
+            // InternalSimplepalladio.g:5682:1: ( rule__System__Group_3__4__Impl )
+            // InternalSimplepalladio.g:5683:2: rule__System__Group_3__4__Impl
             {
             pushFollow(FOLLOW_2);
             rule__System__Group_3__4__Impl();
@@ -17196,17 +17105,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__System__Group_3__4__Impl"
-    // InternalSimplepalladio.g:5716:1: rule__System__Group_3__4__Impl : ( ')' ) ;
+    // InternalSimplepalladio.g:5689:1: rule__System__Group_3__4__Impl : ( ')' ) ;
     public final void rule__System__Group_3__4__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5720:1: ( ( ')' ) )
-            // InternalSimplepalladio.g:5721:1: ( ')' )
+            // InternalSimplepalladio.g:5693:1: ( ( ')' ) )
+            // InternalSimplepalladio.g:5694:1: ( ')' )
             {
-            // InternalSimplepalladio.g:5721:1: ( ')' )
-            // InternalSimplepalladio.g:5722:2: ')'
+            // InternalSimplepalladio.g:5694:1: ( ')' )
+            // InternalSimplepalladio.g:5695:2: ')'
             {
              before(grammarAccess.getSystemAccess().getRightParenthesisKeyword_3_4()); 
             match(input,30,FOLLOW_2); 
@@ -17233,14 +17142,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__System__Group_3_3__0"
-    // InternalSimplepalladio.g:5732:1: rule__System__Group_3_3__0 : rule__System__Group_3_3__0__Impl rule__System__Group_3_3__1 ;
+    // InternalSimplepalladio.g:5705:1: rule__System__Group_3_3__0 : rule__System__Group_3_3__0__Impl rule__System__Group_3_3__1 ;
     public final void rule__System__Group_3_3__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5736:1: ( rule__System__Group_3_3__0__Impl rule__System__Group_3_3__1 )
-            // InternalSimplepalladio.g:5737:2: rule__System__Group_3_3__0__Impl rule__System__Group_3_3__1
+            // InternalSimplepalladio.g:5709:1: ( rule__System__Group_3_3__0__Impl rule__System__Group_3_3__1 )
+            // InternalSimplepalladio.g:5710:2: rule__System__Group_3_3__0__Impl rule__System__Group_3_3__1
             {
             pushFollow(FOLLOW_13);
             rule__System__Group_3_3__0__Impl();
@@ -17271,17 +17180,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__System__Group_3_3__0__Impl"
-    // InternalSimplepalladio.g:5744:1: rule__System__Group_3_3__0__Impl : ( ',' ) ;
+    // InternalSimplepalladio.g:5717:1: rule__System__Group_3_3__0__Impl : ( ',' ) ;
     public final void rule__System__Group_3_3__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5748:1: ( ( ',' ) )
-            // InternalSimplepalladio.g:5749:1: ( ',' )
+            // InternalSimplepalladio.g:5721:1: ( ( ',' ) )
+            // InternalSimplepalladio.g:5722:1: ( ',' )
             {
-            // InternalSimplepalladio.g:5749:1: ( ',' )
-            // InternalSimplepalladio.g:5750:2: ','
+            // InternalSimplepalladio.g:5722:1: ( ',' )
+            // InternalSimplepalladio.g:5723:2: ','
             {
              before(grammarAccess.getSystemAccess().getCommaKeyword_3_3_0()); 
             match(input,26,FOLLOW_2); 
@@ -17308,14 +17217,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__System__Group_3_3__1"
-    // InternalSimplepalladio.g:5759:1: rule__System__Group_3_3__1 : rule__System__Group_3_3__1__Impl ;
+    // InternalSimplepalladio.g:5732:1: rule__System__Group_3_3__1 : rule__System__Group_3_3__1__Impl ;
     public final void rule__System__Group_3_3__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5763:1: ( rule__System__Group_3_3__1__Impl )
-            // InternalSimplepalladio.g:5764:2: rule__System__Group_3_3__1__Impl
+            // InternalSimplepalladio.g:5736:1: ( rule__System__Group_3_3__1__Impl )
+            // InternalSimplepalladio.g:5737:2: rule__System__Group_3_3__1__Impl
             {
             pushFollow(FOLLOW_2);
             rule__System__Group_3_3__1__Impl();
@@ -17341,21 +17250,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__System__Group_3_3__1__Impl"
-    // InternalSimplepalladio.g:5770:1: rule__System__Group_3_3__1__Impl : ( ( rule__System__RequiredInterfacesAssignment_3_3_1 ) ) ;
+    // InternalSimplepalladio.g:5743:1: rule__System__Group_3_3__1__Impl : ( ( rule__System__RequiredInterfacesAssignment_3_3_1 ) ) ;
     public final void rule__System__Group_3_3__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5774:1: ( ( ( rule__System__RequiredInterfacesAssignment_3_3_1 ) ) )
-            // InternalSimplepalladio.g:5775:1: ( ( rule__System__RequiredInterfacesAssignment_3_3_1 ) )
+            // InternalSimplepalladio.g:5747:1: ( ( ( rule__System__RequiredInterfacesAssignment_3_3_1 ) ) )
+            // InternalSimplepalladio.g:5748:1: ( ( rule__System__RequiredInterfacesAssignment_3_3_1 ) )
             {
-            // InternalSimplepalladio.g:5775:1: ( ( rule__System__RequiredInterfacesAssignment_3_3_1 ) )
-            // InternalSimplepalladio.g:5776:2: ( rule__System__RequiredInterfacesAssignment_3_3_1 )
+            // InternalSimplepalladio.g:5748:1: ( ( rule__System__RequiredInterfacesAssignment_3_3_1 ) )
+            // InternalSimplepalladio.g:5749:2: ( rule__System__RequiredInterfacesAssignment_3_3_1 )
             {
              before(grammarAccess.getSystemAccess().getRequiredInterfacesAssignment_3_3_1()); 
-            // InternalSimplepalladio.g:5777:2: ( rule__System__RequiredInterfacesAssignment_3_3_1 )
-            // InternalSimplepalladio.g:5777:3: rule__System__RequiredInterfacesAssignment_3_3_1
+            // InternalSimplepalladio.g:5750:2: ( rule__System__RequiredInterfacesAssignment_3_3_1 )
+            // InternalSimplepalladio.g:5750:3: rule__System__RequiredInterfacesAssignment_3_3_1
             {
             pushFollow(FOLLOW_2);
             rule__System__RequiredInterfacesAssignment_3_3_1();
@@ -17388,14 +17297,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__System__Group_7__0"
-    // InternalSimplepalladio.g:5786:1: rule__System__Group_7__0 : rule__System__Group_7__0__Impl rule__System__Group_7__1 ;
+    // InternalSimplepalladio.g:5759:1: rule__System__Group_7__0 : rule__System__Group_7__0__Impl rule__System__Group_7__1 ;
     public final void rule__System__Group_7__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5790:1: ( rule__System__Group_7__0__Impl rule__System__Group_7__1 )
-            // InternalSimplepalladio.g:5791:2: rule__System__Group_7__0__Impl rule__System__Group_7__1
+            // InternalSimplepalladio.g:5763:1: ( rule__System__Group_7__0__Impl rule__System__Group_7__1 )
+            // InternalSimplepalladio.g:5764:2: rule__System__Group_7__0__Impl rule__System__Group_7__1
             {
             pushFollow(FOLLOW_13);
             rule__System__Group_7__0__Impl();
@@ -17426,17 +17335,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__System__Group_7__0__Impl"
-    // InternalSimplepalladio.g:5798:1: rule__System__Group_7__0__Impl : ( ',' ) ;
+    // InternalSimplepalladio.g:5771:1: rule__System__Group_7__0__Impl : ( ',' ) ;
     public final void rule__System__Group_7__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5802:1: ( ( ',' ) )
-            // InternalSimplepalladio.g:5803:1: ( ',' )
+            // InternalSimplepalladio.g:5775:1: ( ( ',' ) )
+            // InternalSimplepalladio.g:5776:1: ( ',' )
             {
-            // InternalSimplepalladio.g:5803:1: ( ',' )
-            // InternalSimplepalladio.g:5804:2: ','
+            // InternalSimplepalladio.g:5776:1: ( ',' )
+            // InternalSimplepalladio.g:5777:2: ','
             {
              before(grammarAccess.getSystemAccess().getCommaKeyword_7_0()); 
             match(input,26,FOLLOW_2); 
@@ -17463,14 +17372,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__System__Group_7__1"
-    // InternalSimplepalladio.g:5813:1: rule__System__Group_7__1 : rule__System__Group_7__1__Impl ;
+    // InternalSimplepalladio.g:5786:1: rule__System__Group_7__1 : rule__System__Group_7__1__Impl ;
     public final void rule__System__Group_7__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5817:1: ( rule__System__Group_7__1__Impl )
-            // InternalSimplepalladio.g:5818:2: rule__System__Group_7__1__Impl
+            // InternalSimplepalladio.g:5790:1: ( rule__System__Group_7__1__Impl )
+            // InternalSimplepalladio.g:5791:2: rule__System__Group_7__1__Impl
             {
             pushFollow(FOLLOW_2);
             rule__System__Group_7__1__Impl();
@@ -17496,21 +17405,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__System__Group_7__1__Impl"
-    // InternalSimplepalladio.g:5824:1: rule__System__Group_7__1__Impl : ( ( rule__System__ProvidedInterfacesAssignment_7_1 ) ) ;
+    // InternalSimplepalladio.g:5797:1: rule__System__Group_7__1__Impl : ( ( rule__System__ProvidedInterfacesAssignment_7_1 ) ) ;
     public final void rule__System__Group_7__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5828:1: ( ( ( rule__System__ProvidedInterfacesAssignment_7_1 ) ) )
-            // InternalSimplepalladio.g:5829:1: ( ( rule__System__ProvidedInterfacesAssignment_7_1 ) )
+            // InternalSimplepalladio.g:5801:1: ( ( ( rule__System__ProvidedInterfacesAssignment_7_1 ) ) )
+            // InternalSimplepalladio.g:5802:1: ( ( rule__System__ProvidedInterfacesAssignment_7_1 ) )
             {
-            // InternalSimplepalladio.g:5829:1: ( ( rule__System__ProvidedInterfacesAssignment_7_1 ) )
-            // InternalSimplepalladio.g:5830:2: ( rule__System__ProvidedInterfacesAssignment_7_1 )
+            // InternalSimplepalladio.g:5802:1: ( ( rule__System__ProvidedInterfacesAssignment_7_1 ) )
+            // InternalSimplepalladio.g:5803:2: ( rule__System__ProvidedInterfacesAssignment_7_1 )
             {
              before(grammarAccess.getSystemAccess().getProvidedInterfacesAssignment_7_1()); 
-            // InternalSimplepalladio.g:5831:2: ( rule__System__ProvidedInterfacesAssignment_7_1 )
-            // InternalSimplepalladio.g:5831:3: rule__System__ProvidedInterfacesAssignment_7_1
+            // InternalSimplepalladio.g:5804:2: ( rule__System__ProvidedInterfacesAssignment_7_1 )
+            // InternalSimplepalladio.g:5804:3: rule__System__ProvidedInterfacesAssignment_7_1
             {
             pushFollow(FOLLOW_2);
             rule__System__ProvidedInterfacesAssignment_7_1();
@@ -17543,16 +17452,16 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__System__Group_12__0"
-    // InternalSimplepalladio.g:5840:1: rule__System__Group_12__0 : rule__System__Group_12__0__Impl rule__System__Group_12__1 ;
+    // InternalSimplepalladio.g:5813:1: rule__System__Group_12__0 : rule__System__Group_12__0__Impl rule__System__Group_12__1 ;
     public final void rule__System__Group_12__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5844:1: ( rule__System__Group_12__0__Impl rule__System__Group_12__1 )
-            // InternalSimplepalladio.g:5845:2: rule__System__Group_12__0__Impl rule__System__Group_12__1
+            // InternalSimplepalladio.g:5817:1: ( rule__System__Group_12__0__Impl rule__System__Group_12__1 )
+            // InternalSimplepalladio.g:5818:2: rule__System__Group_12__0__Impl rule__System__Group_12__1
             {
-            pushFollow(FOLLOW_36);
+            pushFollow(FOLLOW_38);
             rule__System__Group_12__0__Impl();
 
             state._fsp--;
@@ -17581,17 +17490,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__System__Group_12__0__Impl"
-    // InternalSimplepalladio.g:5852:1: rule__System__Group_12__0__Impl : ( ',' ) ;
+    // InternalSimplepalladio.g:5825:1: rule__System__Group_12__0__Impl : ( ',' ) ;
     public final void rule__System__Group_12__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5856:1: ( ( ',' ) )
-            // InternalSimplepalladio.g:5857:1: ( ',' )
+            // InternalSimplepalladio.g:5829:1: ( ( ',' ) )
+            // InternalSimplepalladio.g:5830:1: ( ',' )
             {
-            // InternalSimplepalladio.g:5857:1: ( ',' )
-            // InternalSimplepalladio.g:5858:2: ','
+            // InternalSimplepalladio.g:5830:1: ( ',' )
+            // InternalSimplepalladio.g:5831:2: ','
             {
              before(grammarAccess.getSystemAccess().getCommaKeyword_12_0()); 
             match(input,26,FOLLOW_2); 
@@ -17618,14 +17527,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__System__Group_12__1"
-    // InternalSimplepalladio.g:5867:1: rule__System__Group_12__1 : rule__System__Group_12__1__Impl ;
+    // InternalSimplepalladio.g:5840:1: rule__System__Group_12__1 : rule__System__Group_12__1__Impl ;
     public final void rule__System__Group_12__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5871:1: ( rule__System__Group_12__1__Impl )
-            // InternalSimplepalladio.g:5872:2: rule__System__Group_12__1__Impl
+            // InternalSimplepalladio.g:5844:1: ( rule__System__Group_12__1__Impl )
+            // InternalSimplepalladio.g:5845:2: rule__System__Group_12__1__Impl
             {
             pushFollow(FOLLOW_2);
             rule__System__Group_12__1__Impl();
@@ -17651,21 +17560,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__System__Group_12__1__Impl"
-    // InternalSimplepalladio.g:5878:1: rule__System__Group_12__1__Impl : ( ( rule__System__SystemElementsAssignment_12_1 ) ) ;
+    // InternalSimplepalladio.g:5851:1: rule__System__Group_12__1__Impl : ( ( rule__System__SystemElementsAssignment_12_1 ) ) ;
     public final void rule__System__Group_12__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5882:1: ( ( ( rule__System__SystemElementsAssignment_12_1 ) ) )
-            // InternalSimplepalladio.g:5883:1: ( ( rule__System__SystemElementsAssignment_12_1 ) )
+            // InternalSimplepalladio.g:5855:1: ( ( ( rule__System__SystemElementsAssignment_12_1 ) ) )
+            // InternalSimplepalladio.g:5856:1: ( ( rule__System__SystemElementsAssignment_12_1 ) )
             {
-            // InternalSimplepalladio.g:5883:1: ( ( rule__System__SystemElementsAssignment_12_1 ) )
-            // InternalSimplepalladio.g:5884:2: ( rule__System__SystemElementsAssignment_12_1 )
+            // InternalSimplepalladio.g:5856:1: ( ( rule__System__SystemElementsAssignment_12_1 ) )
+            // InternalSimplepalladio.g:5857:2: ( rule__System__SystemElementsAssignment_12_1 )
             {
              before(grammarAccess.getSystemAccess().getSystemElementsAssignment_12_1()); 
-            // InternalSimplepalladio.g:5885:2: ( rule__System__SystemElementsAssignment_12_1 )
-            // InternalSimplepalladio.g:5885:3: rule__System__SystemElementsAssignment_12_1
+            // InternalSimplepalladio.g:5858:2: ( rule__System__SystemElementsAssignment_12_1 )
+            // InternalSimplepalladio.g:5858:3: rule__System__SystemElementsAssignment_12_1
             {
             pushFollow(FOLLOW_2);
             rule__System__SystemElementsAssignment_12_1();
@@ -17698,14 +17607,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyContext__Group__0"
-    // InternalSimplepalladio.g:5894:1: rule__AssemblyContext__Group__0 : rule__AssemblyContext__Group__0__Impl rule__AssemblyContext__Group__1 ;
+    // InternalSimplepalladio.g:5867:1: rule__AssemblyContext__Group__0 : rule__AssemblyContext__Group__0__Impl rule__AssemblyContext__Group__1 ;
     public final void rule__AssemblyContext__Group__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5898:1: ( rule__AssemblyContext__Group__0__Impl rule__AssemblyContext__Group__1 )
-            // InternalSimplepalladio.g:5899:2: rule__AssemblyContext__Group__0__Impl rule__AssemblyContext__Group__1
+            // InternalSimplepalladio.g:5871:1: ( rule__AssemblyContext__Group__0__Impl rule__AssemblyContext__Group__1 )
+            // InternalSimplepalladio.g:5872:2: rule__AssemblyContext__Group__0__Impl rule__AssemblyContext__Group__1
             {
             pushFollow(FOLLOW_13);
             rule__AssemblyContext__Group__0__Impl();
@@ -17736,17 +17645,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyContext__Group__0__Impl"
-    // InternalSimplepalladio.g:5906:1: rule__AssemblyContext__Group__0__Impl : ( 'AssemblyContext' ) ;
+    // InternalSimplepalladio.g:5879:1: rule__AssemblyContext__Group__0__Impl : ( 'AssemblyContext' ) ;
     public final void rule__AssemblyContext__Group__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5910:1: ( ( 'AssemblyContext' ) )
-            // InternalSimplepalladio.g:5911:1: ( 'AssemblyContext' )
+            // InternalSimplepalladio.g:5883:1: ( ( 'AssemblyContext' ) )
+            // InternalSimplepalladio.g:5884:1: ( 'AssemblyContext' )
             {
-            // InternalSimplepalladio.g:5911:1: ( 'AssemblyContext' )
-            // InternalSimplepalladio.g:5912:2: 'AssemblyContext'
+            // InternalSimplepalladio.g:5884:1: ( 'AssemblyContext' )
+            // InternalSimplepalladio.g:5885:2: 'AssemblyContext'
             {
              before(grammarAccess.getAssemblyContextAccess().getAssemblyContextKeyword_0()); 
             match(input,55,FOLLOW_2); 
@@ -17773,14 +17682,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyContext__Group__1"
-    // InternalSimplepalladio.g:5921:1: rule__AssemblyContext__Group__1 : rule__AssemblyContext__Group__1__Impl rule__AssemblyContext__Group__2 ;
+    // InternalSimplepalladio.g:5894:1: rule__AssemblyContext__Group__1 : rule__AssemblyContext__Group__1__Impl rule__AssemblyContext__Group__2 ;
     public final void rule__AssemblyContext__Group__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5925:1: ( rule__AssemblyContext__Group__1__Impl rule__AssemblyContext__Group__2 )
-            // InternalSimplepalladio.g:5926:2: rule__AssemblyContext__Group__1__Impl rule__AssemblyContext__Group__2
+            // InternalSimplepalladio.g:5898:1: ( rule__AssemblyContext__Group__1__Impl rule__AssemblyContext__Group__2 )
+            // InternalSimplepalladio.g:5899:2: rule__AssemblyContext__Group__1__Impl rule__AssemblyContext__Group__2
             {
             pushFollow(FOLLOW_8);
             rule__AssemblyContext__Group__1__Impl();
@@ -17811,21 +17720,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyContext__Group__1__Impl"
-    // InternalSimplepalladio.g:5933:1: rule__AssemblyContext__Group__1__Impl : ( ( rule__AssemblyContext__NameAssignment_1 ) ) ;
+    // InternalSimplepalladio.g:5906:1: rule__AssemblyContext__Group__1__Impl : ( ( rule__AssemblyContext__NameAssignment_1 ) ) ;
     public final void rule__AssemblyContext__Group__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5937:1: ( ( ( rule__AssemblyContext__NameAssignment_1 ) ) )
-            // InternalSimplepalladio.g:5938:1: ( ( rule__AssemblyContext__NameAssignment_1 ) )
+            // InternalSimplepalladio.g:5910:1: ( ( ( rule__AssemblyContext__NameAssignment_1 ) ) )
+            // InternalSimplepalladio.g:5911:1: ( ( rule__AssemblyContext__NameAssignment_1 ) )
             {
-            // InternalSimplepalladio.g:5938:1: ( ( rule__AssemblyContext__NameAssignment_1 ) )
-            // InternalSimplepalladio.g:5939:2: ( rule__AssemblyContext__NameAssignment_1 )
+            // InternalSimplepalladio.g:5911:1: ( ( rule__AssemblyContext__NameAssignment_1 ) )
+            // InternalSimplepalladio.g:5912:2: ( rule__AssemblyContext__NameAssignment_1 )
             {
              before(grammarAccess.getAssemblyContextAccess().getNameAssignment_1()); 
-            // InternalSimplepalladio.g:5940:2: ( rule__AssemblyContext__NameAssignment_1 )
-            // InternalSimplepalladio.g:5940:3: rule__AssemblyContext__NameAssignment_1
+            // InternalSimplepalladio.g:5913:2: ( rule__AssemblyContext__NameAssignment_1 )
+            // InternalSimplepalladio.g:5913:3: rule__AssemblyContext__NameAssignment_1
             {
             pushFollow(FOLLOW_2);
             rule__AssemblyContext__NameAssignment_1();
@@ -17858,16 +17767,16 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyContext__Group__2"
-    // InternalSimplepalladio.g:5948:1: rule__AssemblyContext__Group__2 : rule__AssemblyContext__Group__2__Impl rule__AssemblyContext__Group__3 ;
+    // InternalSimplepalladio.g:5921:1: rule__AssemblyContext__Group__2 : rule__AssemblyContext__Group__2__Impl rule__AssemblyContext__Group__3 ;
     public final void rule__AssemblyContext__Group__2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5952:1: ( rule__AssemblyContext__Group__2__Impl rule__AssemblyContext__Group__3 )
-            // InternalSimplepalladio.g:5953:2: rule__AssemblyContext__Group__2__Impl rule__AssemblyContext__Group__3
+            // InternalSimplepalladio.g:5925:1: ( rule__AssemblyContext__Group__2__Impl rule__AssemblyContext__Group__3 )
+            // InternalSimplepalladio.g:5926:2: rule__AssemblyContext__Group__2__Impl rule__AssemblyContext__Group__3
             {
-            pushFollow(FOLLOW_37);
+            pushFollow(FOLLOW_39);
             rule__AssemblyContext__Group__2__Impl();
 
             state._fsp--;
@@ -17896,17 +17805,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyContext__Group__2__Impl"
-    // InternalSimplepalladio.g:5960:1: rule__AssemblyContext__Group__2__Impl : ( '{' ) ;
+    // InternalSimplepalladio.g:5933:1: rule__AssemblyContext__Group__2__Impl : ( '{' ) ;
     public final void rule__AssemblyContext__Group__2__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5964:1: ( ( '{' ) )
-            // InternalSimplepalladio.g:5965:1: ( '{' )
+            // InternalSimplepalladio.g:5937:1: ( ( '{' ) )
+            // InternalSimplepalladio.g:5938:1: ( '{' )
             {
-            // InternalSimplepalladio.g:5965:1: ( '{' )
-            // InternalSimplepalladio.g:5966:2: '{'
+            // InternalSimplepalladio.g:5938:1: ( '{' )
+            // InternalSimplepalladio.g:5939:2: '{'
             {
              before(grammarAccess.getAssemblyContextAccess().getLeftCurlyBracketKeyword_2()); 
             match(input,22,FOLLOW_2); 
@@ -17933,14 +17842,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyContext__Group__3"
-    // InternalSimplepalladio.g:5975:1: rule__AssemblyContext__Group__3 : rule__AssemblyContext__Group__3__Impl rule__AssemblyContext__Group__4 ;
+    // InternalSimplepalladio.g:5948:1: rule__AssemblyContext__Group__3 : rule__AssemblyContext__Group__3__Impl rule__AssemblyContext__Group__4 ;
     public final void rule__AssemblyContext__Group__3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5979:1: ( rule__AssemblyContext__Group__3__Impl rule__AssemblyContext__Group__4 )
-            // InternalSimplepalladio.g:5980:2: rule__AssemblyContext__Group__3__Impl rule__AssemblyContext__Group__4
+            // InternalSimplepalladio.g:5952:1: ( rule__AssemblyContext__Group__3__Impl rule__AssemblyContext__Group__4 )
+            // InternalSimplepalladio.g:5953:2: rule__AssemblyContext__Group__3__Impl rule__AssemblyContext__Group__4
             {
             pushFollow(FOLLOW_13);
             rule__AssemblyContext__Group__3__Impl();
@@ -17971,17 +17880,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyContext__Group__3__Impl"
-    // InternalSimplepalladio.g:5987:1: rule__AssemblyContext__Group__3__Impl : ( 'component' ) ;
+    // InternalSimplepalladio.g:5960:1: rule__AssemblyContext__Group__3__Impl : ( 'component' ) ;
     public final void rule__AssemblyContext__Group__3__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:5991:1: ( ( 'component' ) )
-            // InternalSimplepalladio.g:5992:1: ( 'component' )
+            // InternalSimplepalladio.g:5964:1: ( ( 'component' ) )
+            // InternalSimplepalladio.g:5965:1: ( 'component' )
             {
-            // InternalSimplepalladio.g:5992:1: ( 'component' )
-            // InternalSimplepalladio.g:5993:2: 'component'
+            // InternalSimplepalladio.g:5965:1: ( 'component' )
+            // InternalSimplepalladio.g:5966:2: 'component'
             {
              before(grammarAccess.getAssemblyContextAccess().getComponentKeyword_3()); 
             match(input,56,FOLLOW_2); 
@@ -18008,16 +17917,16 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyContext__Group__4"
-    // InternalSimplepalladio.g:6002:1: rule__AssemblyContext__Group__4 : rule__AssemblyContext__Group__4__Impl rule__AssemblyContext__Group__5 ;
+    // InternalSimplepalladio.g:5975:1: rule__AssemblyContext__Group__4 : rule__AssemblyContext__Group__4__Impl rule__AssemblyContext__Group__5 ;
     public final void rule__AssemblyContext__Group__4() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6006:1: ( rule__AssemblyContext__Group__4__Impl rule__AssemblyContext__Group__5 )
-            // InternalSimplepalladio.g:6007:2: rule__AssemblyContext__Group__4__Impl rule__AssemblyContext__Group__5
+            // InternalSimplepalladio.g:5979:1: ( rule__AssemblyContext__Group__4__Impl rule__AssemblyContext__Group__5 )
+            // InternalSimplepalladio.g:5980:2: rule__AssemblyContext__Group__4__Impl rule__AssemblyContext__Group__5
             {
-            pushFollow(FOLLOW_38);
+            pushFollow(FOLLOW_40);
             rule__AssemblyContext__Group__4__Impl();
 
             state._fsp--;
@@ -18046,21 +17955,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyContext__Group__4__Impl"
-    // InternalSimplepalladio.g:6014:1: rule__AssemblyContext__Group__4__Impl : ( ( rule__AssemblyContext__ComponentAssignment_4 ) ) ;
+    // InternalSimplepalladio.g:5987:1: rule__AssemblyContext__Group__4__Impl : ( ( rule__AssemblyContext__ComponentAssignment_4 ) ) ;
     public final void rule__AssemblyContext__Group__4__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6018:1: ( ( ( rule__AssemblyContext__ComponentAssignment_4 ) ) )
-            // InternalSimplepalladio.g:6019:1: ( ( rule__AssemblyContext__ComponentAssignment_4 ) )
+            // InternalSimplepalladio.g:5991:1: ( ( ( rule__AssemblyContext__ComponentAssignment_4 ) ) )
+            // InternalSimplepalladio.g:5992:1: ( ( rule__AssemblyContext__ComponentAssignment_4 ) )
             {
-            // InternalSimplepalladio.g:6019:1: ( ( rule__AssemblyContext__ComponentAssignment_4 ) )
-            // InternalSimplepalladio.g:6020:2: ( rule__AssemblyContext__ComponentAssignment_4 )
+            // InternalSimplepalladio.g:5992:1: ( ( rule__AssemblyContext__ComponentAssignment_4 ) )
+            // InternalSimplepalladio.g:5993:2: ( rule__AssemblyContext__ComponentAssignment_4 )
             {
              before(grammarAccess.getAssemblyContextAccess().getComponentAssignment_4()); 
-            // InternalSimplepalladio.g:6021:2: ( rule__AssemblyContext__ComponentAssignment_4 )
-            // InternalSimplepalladio.g:6021:3: rule__AssemblyContext__ComponentAssignment_4
+            // InternalSimplepalladio.g:5994:2: ( rule__AssemblyContext__ComponentAssignment_4 )
+            // InternalSimplepalladio.g:5994:3: rule__AssemblyContext__ComponentAssignment_4
             {
             pushFollow(FOLLOW_2);
             rule__AssemblyContext__ComponentAssignment_4();
@@ -18093,14 +18002,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyContext__Group__5"
-    // InternalSimplepalladio.g:6029:1: rule__AssemblyContext__Group__5 : rule__AssemblyContext__Group__5__Impl rule__AssemblyContext__Group__6 ;
+    // InternalSimplepalladio.g:6002:1: rule__AssemblyContext__Group__5 : rule__AssemblyContext__Group__5__Impl rule__AssemblyContext__Group__6 ;
     public final void rule__AssemblyContext__Group__5() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6033:1: ( rule__AssemblyContext__Group__5__Impl rule__AssemblyContext__Group__6 )
-            // InternalSimplepalladio.g:6034:2: rule__AssemblyContext__Group__5__Impl rule__AssemblyContext__Group__6
+            // InternalSimplepalladio.g:6006:1: ( rule__AssemblyContext__Group__5__Impl rule__AssemblyContext__Group__6 )
+            // InternalSimplepalladio.g:6007:2: rule__AssemblyContext__Group__5__Impl rule__AssemblyContext__Group__6
             {
             pushFollow(FOLLOW_15);
             rule__AssemblyContext__Group__5__Impl();
@@ -18131,17 +18040,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyContext__Group__5__Impl"
-    // InternalSimplepalladio.g:6041:1: rule__AssemblyContext__Group__5__Impl : ( 'providedRoles' ) ;
+    // InternalSimplepalladio.g:6014:1: rule__AssemblyContext__Group__5__Impl : ( 'providedRoles' ) ;
     public final void rule__AssemblyContext__Group__5__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6045:1: ( ( 'providedRoles' ) )
-            // InternalSimplepalladio.g:6046:1: ( 'providedRoles' )
+            // InternalSimplepalladio.g:6018:1: ( ( 'providedRoles' ) )
+            // InternalSimplepalladio.g:6019:1: ( 'providedRoles' )
             {
-            // InternalSimplepalladio.g:6046:1: ( 'providedRoles' )
-            // InternalSimplepalladio.g:6047:2: 'providedRoles'
+            // InternalSimplepalladio.g:6019:1: ( 'providedRoles' )
+            // InternalSimplepalladio.g:6020:2: 'providedRoles'
             {
              before(grammarAccess.getAssemblyContextAccess().getProvidedRolesKeyword_5()); 
             match(input,57,FOLLOW_2); 
@@ -18168,14 +18077,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyContext__Group__6"
-    // InternalSimplepalladio.g:6056:1: rule__AssemblyContext__Group__6 : rule__AssemblyContext__Group__6__Impl rule__AssemblyContext__Group__7 ;
+    // InternalSimplepalladio.g:6029:1: rule__AssemblyContext__Group__6 : rule__AssemblyContext__Group__6__Impl rule__AssemblyContext__Group__7 ;
     public final void rule__AssemblyContext__Group__6() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6060:1: ( rule__AssemblyContext__Group__6__Impl rule__AssemblyContext__Group__7 )
-            // InternalSimplepalladio.g:6061:2: rule__AssemblyContext__Group__6__Impl rule__AssemblyContext__Group__7
+            // InternalSimplepalladio.g:6033:1: ( rule__AssemblyContext__Group__6__Impl rule__AssemblyContext__Group__7 )
+            // InternalSimplepalladio.g:6034:2: rule__AssemblyContext__Group__6__Impl rule__AssemblyContext__Group__7
             {
             pushFollow(FOLLOW_13);
             rule__AssemblyContext__Group__6__Impl();
@@ -18206,17 +18115,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyContext__Group__6__Impl"
-    // InternalSimplepalladio.g:6068:1: rule__AssemblyContext__Group__6__Impl : ( '(' ) ;
+    // InternalSimplepalladio.g:6041:1: rule__AssemblyContext__Group__6__Impl : ( '(' ) ;
     public final void rule__AssemblyContext__Group__6__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6072:1: ( ( '(' ) )
-            // InternalSimplepalladio.g:6073:1: ( '(' )
+            // InternalSimplepalladio.g:6045:1: ( ( '(' ) )
+            // InternalSimplepalladio.g:6046:1: ( '(' )
             {
-            // InternalSimplepalladio.g:6073:1: ( '(' )
-            // InternalSimplepalladio.g:6074:2: '('
+            // InternalSimplepalladio.g:6046:1: ( '(' )
+            // InternalSimplepalladio.g:6047:2: '('
             {
              before(grammarAccess.getAssemblyContextAccess().getLeftParenthesisKeyword_6()); 
             match(input,29,FOLLOW_2); 
@@ -18243,14 +18152,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyContext__Group__7"
-    // InternalSimplepalladio.g:6083:1: rule__AssemblyContext__Group__7 : rule__AssemblyContext__Group__7__Impl rule__AssemblyContext__Group__8 ;
+    // InternalSimplepalladio.g:6056:1: rule__AssemblyContext__Group__7 : rule__AssemblyContext__Group__7__Impl rule__AssemblyContext__Group__8 ;
     public final void rule__AssemblyContext__Group__7() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6087:1: ( rule__AssemblyContext__Group__7__Impl rule__AssemblyContext__Group__8 )
-            // InternalSimplepalladio.g:6088:2: rule__AssemblyContext__Group__7__Impl rule__AssemblyContext__Group__8
+            // InternalSimplepalladio.g:6060:1: ( rule__AssemblyContext__Group__7__Impl rule__AssemblyContext__Group__8 )
+            // InternalSimplepalladio.g:6061:2: rule__AssemblyContext__Group__7__Impl rule__AssemblyContext__Group__8
             {
             pushFollow(FOLLOW_16);
             rule__AssemblyContext__Group__7__Impl();
@@ -18281,21 +18190,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyContext__Group__7__Impl"
-    // InternalSimplepalladio.g:6095:1: rule__AssemblyContext__Group__7__Impl : ( ( rule__AssemblyContext__ProvidedRolesAssignment_7 ) ) ;
+    // InternalSimplepalladio.g:6068:1: rule__AssemblyContext__Group__7__Impl : ( ( rule__AssemblyContext__ProvidedRolesAssignment_7 ) ) ;
     public final void rule__AssemblyContext__Group__7__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6099:1: ( ( ( rule__AssemblyContext__ProvidedRolesAssignment_7 ) ) )
-            // InternalSimplepalladio.g:6100:1: ( ( rule__AssemblyContext__ProvidedRolesAssignment_7 ) )
+            // InternalSimplepalladio.g:6072:1: ( ( ( rule__AssemblyContext__ProvidedRolesAssignment_7 ) ) )
+            // InternalSimplepalladio.g:6073:1: ( ( rule__AssemblyContext__ProvidedRolesAssignment_7 ) )
             {
-            // InternalSimplepalladio.g:6100:1: ( ( rule__AssemblyContext__ProvidedRolesAssignment_7 ) )
-            // InternalSimplepalladio.g:6101:2: ( rule__AssemblyContext__ProvidedRolesAssignment_7 )
+            // InternalSimplepalladio.g:6073:1: ( ( rule__AssemblyContext__ProvidedRolesAssignment_7 ) )
+            // InternalSimplepalladio.g:6074:2: ( rule__AssemblyContext__ProvidedRolesAssignment_7 )
             {
              before(grammarAccess.getAssemblyContextAccess().getProvidedRolesAssignment_7()); 
-            // InternalSimplepalladio.g:6102:2: ( rule__AssemblyContext__ProvidedRolesAssignment_7 )
-            // InternalSimplepalladio.g:6102:3: rule__AssemblyContext__ProvidedRolesAssignment_7
+            // InternalSimplepalladio.g:6075:2: ( rule__AssemblyContext__ProvidedRolesAssignment_7 )
+            // InternalSimplepalladio.g:6075:3: rule__AssemblyContext__ProvidedRolesAssignment_7
             {
             pushFollow(FOLLOW_2);
             rule__AssemblyContext__ProvidedRolesAssignment_7();
@@ -18328,14 +18237,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyContext__Group__8"
-    // InternalSimplepalladio.g:6110:1: rule__AssemblyContext__Group__8 : rule__AssemblyContext__Group__8__Impl rule__AssemblyContext__Group__9 ;
+    // InternalSimplepalladio.g:6083:1: rule__AssemblyContext__Group__8 : rule__AssemblyContext__Group__8__Impl rule__AssemblyContext__Group__9 ;
     public final void rule__AssemblyContext__Group__8() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6114:1: ( rule__AssemblyContext__Group__8__Impl rule__AssemblyContext__Group__9 )
-            // InternalSimplepalladio.g:6115:2: rule__AssemblyContext__Group__8__Impl rule__AssemblyContext__Group__9
+            // InternalSimplepalladio.g:6087:1: ( rule__AssemblyContext__Group__8__Impl rule__AssemblyContext__Group__9 )
+            // InternalSimplepalladio.g:6088:2: rule__AssemblyContext__Group__8__Impl rule__AssemblyContext__Group__9
             {
             pushFollow(FOLLOW_16);
             rule__AssemblyContext__Group__8__Impl();
@@ -18366,33 +18275,33 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyContext__Group__8__Impl"
-    // InternalSimplepalladio.g:6122:1: rule__AssemblyContext__Group__8__Impl : ( ( rule__AssemblyContext__Group_8__0 )* ) ;
+    // InternalSimplepalladio.g:6095:1: rule__AssemblyContext__Group__8__Impl : ( ( rule__AssemblyContext__Group_8__0 )* ) ;
     public final void rule__AssemblyContext__Group__8__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6126:1: ( ( ( rule__AssemblyContext__Group_8__0 )* ) )
-            // InternalSimplepalladio.g:6127:1: ( ( rule__AssemblyContext__Group_8__0 )* )
+            // InternalSimplepalladio.g:6099:1: ( ( ( rule__AssemblyContext__Group_8__0 )* ) )
+            // InternalSimplepalladio.g:6100:1: ( ( rule__AssemblyContext__Group_8__0 )* )
             {
-            // InternalSimplepalladio.g:6127:1: ( ( rule__AssemblyContext__Group_8__0 )* )
-            // InternalSimplepalladio.g:6128:2: ( rule__AssemblyContext__Group_8__0 )*
+            // InternalSimplepalladio.g:6100:1: ( ( rule__AssemblyContext__Group_8__0 )* )
+            // InternalSimplepalladio.g:6101:2: ( rule__AssemblyContext__Group_8__0 )*
             {
              before(grammarAccess.getAssemblyContextAccess().getGroup_8()); 
-            // InternalSimplepalladio.g:6129:2: ( rule__AssemblyContext__Group_8__0 )*
-            loop29:
+            // InternalSimplepalladio.g:6102:2: ( rule__AssemblyContext__Group_8__0 )*
+            loop28:
             do {
-                int alt29=2;
-                int LA29_0 = input.LA(1);
+                int alt28=2;
+                int LA28_0 = input.LA(1);
 
-                if ( (LA29_0==26) ) {
-                    alt29=1;
+                if ( (LA28_0==26) ) {
+                    alt28=1;
                 }
 
 
-                switch (alt29) {
+                switch (alt28) {
             	case 1 :
-            	    // InternalSimplepalladio.g:6129:3: rule__AssemblyContext__Group_8__0
+            	    // InternalSimplepalladio.g:6102:3: rule__AssemblyContext__Group_8__0
             	    {
             	    pushFollow(FOLLOW_12);
             	    rule__AssemblyContext__Group_8__0();
@@ -18404,7 +18313,7 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
             	    break;
 
             	default :
-            	    break loop29;
+            	    break loop28;
                 }
             } while (true);
 
@@ -18431,16 +18340,16 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyContext__Group__9"
-    // InternalSimplepalladio.g:6137:1: rule__AssemblyContext__Group__9 : rule__AssemblyContext__Group__9__Impl rule__AssemblyContext__Group__10 ;
+    // InternalSimplepalladio.g:6110:1: rule__AssemblyContext__Group__9 : rule__AssemblyContext__Group__9__Impl rule__AssemblyContext__Group__10 ;
     public final void rule__AssemblyContext__Group__9() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6141:1: ( rule__AssemblyContext__Group__9__Impl rule__AssemblyContext__Group__10 )
-            // InternalSimplepalladio.g:6142:2: rule__AssemblyContext__Group__9__Impl rule__AssemblyContext__Group__10
+            // InternalSimplepalladio.g:6114:1: ( rule__AssemblyContext__Group__9__Impl rule__AssemblyContext__Group__10 )
+            // InternalSimplepalladio.g:6115:2: rule__AssemblyContext__Group__9__Impl rule__AssemblyContext__Group__10
             {
-            pushFollow(FOLLOW_39);
+            pushFollow(FOLLOW_41);
             rule__AssemblyContext__Group__9__Impl();
 
             state._fsp--;
@@ -18469,17 +18378,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyContext__Group__9__Impl"
-    // InternalSimplepalladio.g:6149:1: rule__AssemblyContext__Group__9__Impl : ( ')' ) ;
+    // InternalSimplepalladio.g:6122:1: rule__AssemblyContext__Group__9__Impl : ( ')' ) ;
     public final void rule__AssemblyContext__Group__9__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6153:1: ( ( ')' ) )
-            // InternalSimplepalladio.g:6154:1: ( ')' )
+            // InternalSimplepalladio.g:6126:1: ( ( ')' ) )
+            // InternalSimplepalladio.g:6127:1: ( ')' )
             {
-            // InternalSimplepalladio.g:6154:1: ( ')' )
-            // InternalSimplepalladio.g:6155:2: ')'
+            // InternalSimplepalladio.g:6127:1: ( ')' )
+            // InternalSimplepalladio.g:6128:2: ')'
             {
              before(grammarAccess.getAssemblyContextAccess().getRightParenthesisKeyword_9()); 
             match(input,30,FOLLOW_2); 
@@ -18506,16 +18415,16 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyContext__Group__10"
-    // InternalSimplepalladio.g:6164:1: rule__AssemblyContext__Group__10 : rule__AssemblyContext__Group__10__Impl rule__AssemblyContext__Group__11 ;
+    // InternalSimplepalladio.g:6137:1: rule__AssemblyContext__Group__10 : rule__AssemblyContext__Group__10__Impl rule__AssemblyContext__Group__11 ;
     public final void rule__AssemblyContext__Group__10() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6168:1: ( rule__AssemblyContext__Group__10__Impl rule__AssemblyContext__Group__11 )
-            // InternalSimplepalladio.g:6169:2: rule__AssemblyContext__Group__10__Impl rule__AssemblyContext__Group__11
+            // InternalSimplepalladio.g:6141:1: ( rule__AssemblyContext__Group__10__Impl rule__AssemblyContext__Group__11 )
+            // InternalSimplepalladio.g:6142:2: rule__AssemblyContext__Group__10__Impl rule__AssemblyContext__Group__11
             {
-            pushFollow(FOLLOW_39);
+            pushFollow(FOLLOW_41);
             rule__AssemblyContext__Group__10__Impl();
 
             state._fsp--;
@@ -18544,29 +18453,29 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyContext__Group__10__Impl"
-    // InternalSimplepalladio.g:6176:1: rule__AssemblyContext__Group__10__Impl : ( ( rule__AssemblyContext__Group_10__0 )? ) ;
+    // InternalSimplepalladio.g:6149:1: rule__AssemblyContext__Group__10__Impl : ( ( rule__AssemblyContext__Group_10__0 )? ) ;
     public final void rule__AssemblyContext__Group__10__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6180:1: ( ( ( rule__AssemblyContext__Group_10__0 )? ) )
-            // InternalSimplepalladio.g:6181:1: ( ( rule__AssemblyContext__Group_10__0 )? )
+            // InternalSimplepalladio.g:6153:1: ( ( ( rule__AssemblyContext__Group_10__0 )? ) )
+            // InternalSimplepalladio.g:6154:1: ( ( rule__AssemblyContext__Group_10__0 )? )
             {
-            // InternalSimplepalladio.g:6181:1: ( ( rule__AssemblyContext__Group_10__0 )? )
-            // InternalSimplepalladio.g:6182:2: ( rule__AssemblyContext__Group_10__0 )?
+            // InternalSimplepalladio.g:6154:1: ( ( rule__AssemblyContext__Group_10__0 )? )
+            // InternalSimplepalladio.g:6155:2: ( rule__AssemblyContext__Group_10__0 )?
             {
              before(grammarAccess.getAssemblyContextAccess().getGroup_10()); 
-            // InternalSimplepalladio.g:6183:2: ( rule__AssemblyContext__Group_10__0 )?
-            int alt30=2;
-            int LA30_0 = input.LA(1);
+            // InternalSimplepalladio.g:6156:2: ( rule__AssemblyContext__Group_10__0 )?
+            int alt29=2;
+            int LA29_0 = input.LA(1);
 
-            if ( (LA30_0==58) ) {
-                alt30=1;
+            if ( (LA29_0==58) ) {
+                alt29=1;
             }
-            switch (alt30) {
+            switch (alt29) {
                 case 1 :
-                    // InternalSimplepalladio.g:6183:3: rule__AssemblyContext__Group_10__0
+                    // InternalSimplepalladio.g:6156:3: rule__AssemblyContext__Group_10__0
                     {
                     pushFollow(FOLLOW_2);
                     rule__AssemblyContext__Group_10__0();
@@ -18602,14 +18511,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyContext__Group__11"
-    // InternalSimplepalladio.g:6191:1: rule__AssemblyContext__Group__11 : rule__AssemblyContext__Group__11__Impl ;
+    // InternalSimplepalladio.g:6164:1: rule__AssemblyContext__Group__11 : rule__AssemblyContext__Group__11__Impl ;
     public final void rule__AssemblyContext__Group__11() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6195:1: ( rule__AssemblyContext__Group__11__Impl )
-            // InternalSimplepalladio.g:6196:2: rule__AssemblyContext__Group__11__Impl
+            // InternalSimplepalladio.g:6168:1: ( rule__AssemblyContext__Group__11__Impl )
+            // InternalSimplepalladio.g:6169:2: rule__AssemblyContext__Group__11__Impl
             {
             pushFollow(FOLLOW_2);
             rule__AssemblyContext__Group__11__Impl();
@@ -18635,17 +18544,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyContext__Group__11__Impl"
-    // InternalSimplepalladio.g:6202:1: rule__AssemblyContext__Group__11__Impl : ( '}' ) ;
+    // InternalSimplepalladio.g:6175:1: rule__AssemblyContext__Group__11__Impl : ( '}' ) ;
     public final void rule__AssemblyContext__Group__11__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6206:1: ( ( '}' ) )
-            // InternalSimplepalladio.g:6207:1: ( '}' )
+            // InternalSimplepalladio.g:6179:1: ( ( '}' ) )
+            // InternalSimplepalladio.g:6180:1: ( '}' )
             {
-            // InternalSimplepalladio.g:6207:1: ( '}' )
-            // InternalSimplepalladio.g:6208:2: '}'
+            // InternalSimplepalladio.g:6180:1: ( '}' )
+            // InternalSimplepalladio.g:6181:2: '}'
             {
              before(grammarAccess.getAssemblyContextAccess().getRightCurlyBracketKeyword_11()); 
             match(input,23,FOLLOW_2); 
@@ -18672,14 +18581,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyContext__Group_8__0"
-    // InternalSimplepalladio.g:6218:1: rule__AssemblyContext__Group_8__0 : rule__AssemblyContext__Group_8__0__Impl rule__AssemblyContext__Group_8__1 ;
+    // InternalSimplepalladio.g:6191:1: rule__AssemblyContext__Group_8__0 : rule__AssemblyContext__Group_8__0__Impl rule__AssemblyContext__Group_8__1 ;
     public final void rule__AssemblyContext__Group_8__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6222:1: ( rule__AssemblyContext__Group_8__0__Impl rule__AssemblyContext__Group_8__1 )
-            // InternalSimplepalladio.g:6223:2: rule__AssemblyContext__Group_8__0__Impl rule__AssemblyContext__Group_8__1
+            // InternalSimplepalladio.g:6195:1: ( rule__AssemblyContext__Group_8__0__Impl rule__AssemblyContext__Group_8__1 )
+            // InternalSimplepalladio.g:6196:2: rule__AssemblyContext__Group_8__0__Impl rule__AssemblyContext__Group_8__1
             {
             pushFollow(FOLLOW_13);
             rule__AssemblyContext__Group_8__0__Impl();
@@ -18710,17 +18619,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyContext__Group_8__0__Impl"
-    // InternalSimplepalladio.g:6230:1: rule__AssemblyContext__Group_8__0__Impl : ( ',' ) ;
+    // InternalSimplepalladio.g:6203:1: rule__AssemblyContext__Group_8__0__Impl : ( ',' ) ;
     public final void rule__AssemblyContext__Group_8__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6234:1: ( ( ',' ) )
-            // InternalSimplepalladio.g:6235:1: ( ',' )
+            // InternalSimplepalladio.g:6207:1: ( ( ',' ) )
+            // InternalSimplepalladio.g:6208:1: ( ',' )
             {
-            // InternalSimplepalladio.g:6235:1: ( ',' )
-            // InternalSimplepalladio.g:6236:2: ','
+            // InternalSimplepalladio.g:6208:1: ( ',' )
+            // InternalSimplepalladio.g:6209:2: ','
             {
              before(grammarAccess.getAssemblyContextAccess().getCommaKeyword_8_0()); 
             match(input,26,FOLLOW_2); 
@@ -18747,14 +18656,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyContext__Group_8__1"
-    // InternalSimplepalladio.g:6245:1: rule__AssemblyContext__Group_8__1 : rule__AssemblyContext__Group_8__1__Impl ;
+    // InternalSimplepalladio.g:6218:1: rule__AssemblyContext__Group_8__1 : rule__AssemblyContext__Group_8__1__Impl ;
     public final void rule__AssemblyContext__Group_8__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6249:1: ( rule__AssemblyContext__Group_8__1__Impl )
-            // InternalSimplepalladio.g:6250:2: rule__AssemblyContext__Group_8__1__Impl
+            // InternalSimplepalladio.g:6222:1: ( rule__AssemblyContext__Group_8__1__Impl )
+            // InternalSimplepalladio.g:6223:2: rule__AssemblyContext__Group_8__1__Impl
             {
             pushFollow(FOLLOW_2);
             rule__AssemblyContext__Group_8__1__Impl();
@@ -18780,21 +18689,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyContext__Group_8__1__Impl"
-    // InternalSimplepalladio.g:6256:1: rule__AssemblyContext__Group_8__1__Impl : ( ( rule__AssemblyContext__ProvidedRolesAssignment_8_1 ) ) ;
+    // InternalSimplepalladio.g:6229:1: rule__AssemblyContext__Group_8__1__Impl : ( ( rule__AssemblyContext__ProvidedRolesAssignment_8_1 ) ) ;
     public final void rule__AssemblyContext__Group_8__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6260:1: ( ( ( rule__AssemblyContext__ProvidedRolesAssignment_8_1 ) ) )
-            // InternalSimplepalladio.g:6261:1: ( ( rule__AssemblyContext__ProvidedRolesAssignment_8_1 ) )
+            // InternalSimplepalladio.g:6233:1: ( ( ( rule__AssemblyContext__ProvidedRolesAssignment_8_1 ) ) )
+            // InternalSimplepalladio.g:6234:1: ( ( rule__AssemblyContext__ProvidedRolesAssignment_8_1 ) )
             {
-            // InternalSimplepalladio.g:6261:1: ( ( rule__AssemblyContext__ProvidedRolesAssignment_8_1 ) )
-            // InternalSimplepalladio.g:6262:2: ( rule__AssemblyContext__ProvidedRolesAssignment_8_1 )
+            // InternalSimplepalladio.g:6234:1: ( ( rule__AssemblyContext__ProvidedRolesAssignment_8_1 ) )
+            // InternalSimplepalladio.g:6235:2: ( rule__AssemblyContext__ProvidedRolesAssignment_8_1 )
             {
              before(grammarAccess.getAssemblyContextAccess().getProvidedRolesAssignment_8_1()); 
-            // InternalSimplepalladio.g:6263:2: ( rule__AssemblyContext__ProvidedRolesAssignment_8_1 )
-            // InternalSimplepalladio.g:6263:3: rule__AssemblyContext__ProvidedRolesAssignment_8_1
+            // InternalSimplepalladio.g:6236:2: ( rule__AssemblyContext__ProvidedRolesAssignment_8_1 )
+            // InternalSimplepalladio.g:6236:3: rule__AssemblyContext__ProvidedRolesAssignment_8_1
             {
             pushFollow(FOLLOW_2);
             rule__AssemblyContext__ProvidedRolesAssignment_8_1();
@@ -18827,14 +18736,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyContext__Group_10__0"
-    // InternalSimplepalladio.g:6272:1: rule__AssemblyContext__Group_10__0 : rule__AssemblyContext__Group_10__0__Impl rule__AssemblyContext__Group_10__1 ;
+    // InternalSimplepalladio.g:6245:1: rule__AssemblyContext__Group_10__0 : rule__AssemblyContext__Group_10__0__Impl rule__AssemblyContext__Group_10__1 ;
     public final void rule__AssemblyContext__Group_10__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6276:1: ( rule__AssemblyContext__Group_10__0__Impl rule__AssemblyContext__Group_10__1 )
-            // InternalSimplepalladio.g:6277:2: rule__AssemblyContext__Group_10__0__Impl rule__AssemblyContext__Group_10__1
+            // InternalSimplepalladio.g:6249:1: ( rule__AssemblyContext__Group_10__0__Impl rule__AssemblyContext__Group_10__1 )
+            // InternalSimplepalladio.g:6250:2: rule__AssemblyContext__Group_10__0__Impl rule__AssemblyContext__Group_10__1
             {
             pushFollow(FOLLOW_15);
             rule__AssemblyContext__Group_10__0__Impl();
@@ -18865,17 +18774,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyContext__Group_10__0__Impl"
-    // InternalSimplepalladio.g:6284:1: rule__AssemblyContext__Group_10__0__Impl : ( 'requiredRoles' ) ;
+    // InternalSimplepalladio.g:6257:1: rule__AssemblyContext__Group_10__0__Impl : ( 'requiredRoles' ) ;
     public final void rule__AssemblyContext__Group_10__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6288:1: ( ( 'requiredRoles' ) )
-            // InternalSimplepalladio.g:6289:1: ( 'requiredRoles' )
+            // InternalSimplepalladio.g:6261:1: ( ( 'requiredRoles' ) )
+            // InternalSimplepalladio.g:6262:1: ( 'requiredRoles' )
             {
-            // InternalSimplepalladio.g:6289:1: ( 'requiredRoles' )
-            // InternalSimplepalladio.g:6290:2: 'requiredRoles'
+            // InternalSimplepalladio.g:6262:1: ( 'requiredRoles' )
+            // InternalSimplepalladio.g:6263:2: 'requiredRoles'
             {
              before(grammarAccess.getAssemblyContextAccess().getRequiredRolesKeyword_10_0()); 
             match(input,58,FOLLOW_2); 
@@ -18902,14 +18811,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyContext__Group_10__1"
-    // InternalSimplepalladio.g:6299:1: rule__AssemblyContext__Group_10__1 : rule__AssemblyContext__Group_10__1__Impl rule__AssemblyContext__Group_10__2 ;
+    // InternalSimplepalladio.g:6272:1: rule__AssemblyContext__Group_10__1 : rule__AssemblyContext__Group_10__1__Impl rule__AssemblyContext__Group_10__2 ;
     public final void rule__AssemblyContext__Group_10__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6303:1: ( rule__AssemblyContext__Group_10__1__Impl rule__AssemblyContext__Group_10__2 )
-            // InternalSimplepalladio.g:6304:2: rule__AssemblyContext__Group_10__1__Impl rule__AssemblyContext__Group_10__2
+            // InternalSimplepalladio.g:6276:1: ( rule__AssemblyContext__Group_10__1__Impl rule__AssemblyContext__Group_10__2 )
+            // InternalSimplepalladio.g:6277:2: rule__AssemblyContext__Group_10__1__Impl rule__AssemblyContext__Group_10__2
             {
             pushFollow(FOLLOW_13);
             rule__AssemblyContext__Group_10__1__Impl();
@@ -18940,17 +18849,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyContext__Group_10__1__Impl"
-    // InternalSimplepalladio.g:6311:1: rule__AssemblyContext__Group_10__1__Impl : ( '(' ) ;
+    // InternalSimplepalladio.g:6284:1: rule__AssemblyContext__Group_10__1__Impl : ( '(' ) ;
     public final void rule__AssemblyContext__Group_10__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6315:1: ( ( '(' ) )
-            // InternalSimplepalladio.g:6316:1: ( '(' )
+            // InternalSimplepalladio.g:6288:1: ( ( '(' ) )
+            // InternalSimplepalladio.g:6289:1: ( '(' )
             {
-            // InternalSimplepalladio.g:6316:1: ( '(' )
-            // InternalSimplepalladio.g:6317:2: '('
+            // InternalSimplepalladio.g:6289:1: ( '(' )
+            // InternalSimplepalladio.g:6290:2: '('
             {
              before(grammarAccess.getAssemblyContextAccess().getLeftParenthesisKeyword_10_1()); 
             match(input,29,FOLLOW_2); 
@@ -18977,14 +18886,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyContext__Group_10__2"
-    // InternalSimplepalladio.g:6326:1: rule__AssemblyContext__Group_10__2 : rule__AssemblyContext__Group_10__2__Impl rule__AssemblyContext__Group_10__3 ;
+    // InternalSimplepalladio.g:6299:1: rule__AssemblyContext__Group_10__2 : rule__AssemblyContext__Group_10__2__Impl rule__AssemblyContext__Group_10__3 ;
     public final void rule__AssemblyContext__Group_10__2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6330:1: ( rule__AssemblyContext__Group_10__2__Impl rule__AssemblyContext__Group_10__3 )
-            // InternalSimplepalladio.g:6331:2: rule__AssemblyContext__Group_10__2__Impl rule__AssemblyContext__Group_10__3
+            // InternalSimplepalladio.g:6303:1: ( rule__AssemblyContext__Group_10__2__Impl rule__AssemblyContext__Group_10__3 )
+            // InternalSimplepalladio.g:6304:2: rule__AssemblyContext__Group_10__2__Impl rule__AssemblyContext__Group_10__3
             {
             pushFollow(FOLLOW_16);
             rule__AssemblyContext__Group_10__2__Impl();
@@ -19015,21 +18924,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyContext__Group_10__2__Impl"
-    // InternalSimplepalladio.g:6338:1: rule__AssemblyContext__Group_10__2__Impl : ( ( rule__AssemblyContext__RequiredRolesAssignment_10_2 ) ) ;
+    // InternalSimplepalladio.g:6311:1: rule__AssemblyContext__Group_10__2__Impl : ( ( rule__AssemblyContext__RequiredRolesAssignment_10_2 ) ) ;
     public final void rule__AssemblyContext__Group_10__2__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6342:1: ( ( ( rule__AssemblyContext__RequiredRolesAssignment_10_2 ) ) )
-            // InternalSimplepalladio.g:6343:1: ( ( rule__AssemblyContext__RequiredRolesAssignment_10_2 ) )
+            // InternalSimplepalladio.g:6315:1: ( ( ( rule__AssemblyContext__RequiredRolesAssignment_10_2 ) ) )
+            // InternalSimplepalladio.g:6316:1: ( ( rule__AssemblyContext__RequiredRolesAssignment_10_2 ) )
             {
-            // InternalSimplepalladio.g:6343:1: ( ( rule__AssemblyContext__RequiredRolesAssignment_10_2 ) )
-            // InternalSimplepalladio.g:6344:2: ( rule__AssemblyContext__RequiredRolesAssignment_10_2 )
+            // InternalSimplepalladio.g:6316:1: ( ( rule__AssemblyContext__RequiredRolesAssignment_10_2 ) )
+            // InternalSimplepalladio.g:6317:2: ( rule__AssemblyContext__RequiredRolesAssignment_10_2 )
             {
              before(grammarAccess.getAssemblyContextAccess().getRequiredRolesAssignment_10_2()); 
-            // InternalSimplepalladio.g:6345:2: ( rule__AssemblyContext__RequiredRolesAssignment_10_2 )
-            // InternalSimplepalladio.g:6345:3: rule__AssemblyContext__RequiredRolesAssignment_10_2
+            // InternalSimplepalladio.g:6318:2: ( rule__AssemblyContext__RequiredRolesAssignment_10_2 )
+            // InternalSimplepalladio.g:6318:3: rule__AssemblyContext__RequiredRolesAssignment_10_2
             {
             pushFollow(FOLLOW_2);
             rule__AssemblyContext__RequiredRolesAssignment_10_2();
@@ -19062,14 +18971,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyContext__Group_10__3"
-    // InternalSimplepalladio.g:6353:1: rule__AssemblyContext__Group_10__3 : rule__AssemblyContext__Group_10__3__Impl rule__AssemblyContext__Group_10__4 ;
+    // InternalSimplepalladio.g:6326:1: rule__AssemblyContext__Group_10__3 : rule__AssemblyContext__Group_10__3__Impl rule__AssemblyContext__Group_10__4 ;
     public final void rule__AssemblyContext__Group_10__3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6357:1: ( rule__AssemblyContext__Group_10__3__Impl rule__AssemblyContext__Group_10__4 )
-            // InternalSimplepalladio.g:6358:2: rule__AssemblyContext__Group_10__3__Impl rule__AssemblyContext__Group_10__4
+            // InternalSimplepalladio.g:6330:1: ( rule__AssemblyContext__Group_10__3__Impl rule__AssemblyContext__Group_10__4 )
+            // InternalSimplepalladio.g:6331:2: rule__AssemblyContext__Group_10__3__Impl rule__AssemblyContext__Group_10__4
             {
             pushFollow(FOLLOW_16);
             rule__AssemblyContext__Group_10__3__Impl();
@@ -19100,33 +19009,33 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyContext__Group_10__3__Impl"
-    // InternalSimplepalladio.g:6365:1: rule__AssemblyContext__Group_10__3__Impl : ( ( rule__AssemblyContext__Group_10_3__0 )* ) ;
+    // InternalSimplepalladio.g:6338:1: rule__AssemblyContext__Group_10__3__Impl : ( ( rule__AssemblyContext__Group_10_3__0 )* ) ;
     public final void rule__AssemblyContext__Group_10__3__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6369:1: ( ( ( rule__AssemblyContext__Group_10_3__0 )* ) )
-            // InternalSimplepalladio.g:6370:1: ( ( rule__AssemblyContext__Group_10_3__0 )* )
+            // InternalSimplepalladio.g:6342:1: ( ( ( rule__AssemblyContext__Group_10_3__0 )* ) )
+            // InternalSimplepalladio.g:6343:1: ( ( rule__AssemblyContext__Group_10_3__0 )* )
             {
-            // InternalSimplepalladio.g:6370:1: ( ( rule__AssemblyContext__Group_10_3__0 )* )
-            // InternalSimplepalladio.g:6371:2: ( rule__AssemblyContext__Group_10_3__0 )*
+            // InternalSimplepalladio.g:6343:1: ( ( rule__AssemblyContext__Group_10_3__0 )* )
+            // InternalSimplepalladio.g:6344:2: ( rule__AssemblyContext__Group_10_3__0 )*
             {
              before(grammarAccess.getAssemblyContextAccess().getGroup_10_3()); 
-            // InternalSimplepalladio.g:6372:2: ( rule__AssemblyContext__Group_10_3__0 )*
-            loop31:
+            // InternalSimplepalladio.g:6345:2: ( rule__AssemblyContext__Group_10_3__0 )*
+            loop30:
             do {
-                int alt31=2;
-                int LA31_0 = input.LA(1);
+                int alt30=2;
+                int LA30_0 = input.LA(1);
 
-                if ( (LA31_0==26) ) {
-                    alt31=1;
+                if ( (LA30_0==26) ) {
+                    alt30=1;
                 }
 
 
-                switch (alt31) {
+                switch (alt30) {
             	case 1 :
-            	    // InternalSimplepalladio.g:6372:3: rule__AssemblyContext__Group_10_3__0
+            	    // InternalSimplepalladio.g:6345:3: rule__AssemblyContext__Group_10_3__0
             	    {
             	    pushFollow(FOLLOW_12);
             	    rule__AssemblyContext__Group_10_3__0();
@@ -19138,7 +19047,7 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
             	    break;
 
             	default :
-            	    break loop31;
+            	    break loop30;
                 }
             } while (true);
 
@@ -19165,14 +19074,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyContext__Group_10__4"
-    // InternalSimplepalladio.g:6380:1: rule__AssemblyContext__Group_10__4 : rule__AssemblyContext__Group_10__4__Impl ;
+    // InternalSimplepalladio.g:6353:1: rule__AssemblyContext__Group_10__4 : rule__AssemblyContext__Group_10__4__Impl ;
     public final void rule__AssemblyContext__Group_10__4() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6384:1: ( rule__AssemblyContext__Group_10__4__Impl )
-            // InternalSimplepalladio.g:6385:2: rule__AssemblyContext__Group_10__4__Impl
+            // InternalSimplepalladio.g:6357:1: ( rule__AssemblyContext__Group_10__4__Impl )
+            // InternalSimplepalladio.g:6358:2: rule__AssemblyContext__Group_10__4__Impl
             {
             pushFollow(FOLLOW_2);
             rule__AssemblyContext__Group_10__4__Impl();
@@ -19198,17 +19107,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyContext__Group_10__4__Impl"
-    // InternalSimplepalladio.g:6391:1: rule__AssemblyContext__Group_10__4__Impl : ( ')' ) ;
+    // InternalSimplepalladio.g:6364:1: rule__AssemblyContext__Group_10__4__Impl : ( ')' ) ;
     public final void rule__AssemblyContext__Group_10__4__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6395:1: ( ( ')' ) )
-            // InternalSimplepalladio.g:6396:1: ( ')' )
+            // InternalSimplepalladio.g:6368:1: ( ( ')' ) )
+            // InternalSimplepalladio.g:6369:1: ( ')' )
             {
-            // InternalSimplepalladio.g:6396:1: ( ')' )
-            // InternalSimplepalladio.g:6397:2: ')'
+            // InternalSimplepalladio.g:6369:1: ( ')' )
+            // InternalSimplepalladio.g:6370:2: ')'
             {
              before(grammarAccess.getAssemblyContextAccess().getRightParenthesisKeyword_10_4()); 
             match(input,30,FOLLOW_2); 
@@ -19235,14 +19144,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyContext__Group_10_3__0"
-    // InternalSimplepalladio.g:6407:1: rule__AssemblyContext__Group_10_3__0 : rule__AssemblyContext__Group_10_3__0__Impl rule__AssemblyContext__Group_10_3__1 ;
+    // InternalSimplepalladio.g:6380:1: rule__AssemblyContext__Group_10_3__0 : rule__AssemblyContext__Group_10_3__0__Impl rule__AssemblyContext__Group_10_3__1 ;
     public final void rule__AssemblyContext__Group_10_3__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6411:1: ( rule__AssemblyContext__Group_10_3__0__Impl rule__AssemblyContext__Group_10_3__1 )
-            // InternalSimplepalladio.g:6412:2: rule__AssemblyContext__Group_10_3__0__Impl rule__AssemblyContext__Group_10_3__1
+            // InternalSimplepalladio.g:6384:1: ( rule__AssemblyContext__Group_10_3__0__Impl rule__AssemblyContext__Group_10_3__1 )
+            // InternalSimplepalladio.g:6385:2: rule__AssemblyContext__Group_10_3__0__Impl rule__AssemblyContext__Group_10_3__1
             {
             pushFollow(FOLLOW_13);
             rule__AssemblyContext__Group_10_3__0__Impl();
@@ -19273,17 +19182,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyContext__Group_10_3__0__Impl"
-    // InternalSimplepalladio.g:6419:1: rule__AssemblyContext__Group_10_3__0__Impl : ( ',' ) ;
+    // InternalSimplepalladio.g:6392:1: rule__AssemblyContext__Group_10_3__0__Impl : ( ',' ) ;
     public final void rule__AssemblyContext__Group_10_3__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6423:1: ( ( ',' ) )
-            // InternalSimplepalladio.g:6424:1: ( ',' )
+            // InternalSimplepalladio.g:6396:1: ( ( ',' ) )
+            // InternalSimplepalladio.g:6397:1: ( ',' )
             {
-            // InternalSimplepalladio.g:6424:1: ( ',' )
-            // InternalSimplepalladio.g:6425:2: ','
+            // InternalSimplepalladio.g:6397:1: ( ',' )
+            // InternalSimplepalladio.g:6398:2: ','
             {
              before(grammarAccess.getAssemblyContextAccess().getCommaKeyword_10_3_0()); 
             match(input,26,FOLLOW_2); 
@@ -19310,14 +19219,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyContext__Group_10_3__1"
-    // InternalSimplepalladio.g:6434:1: rule__AssemblyContext__Group_10_3__1 : rule__AssemblyContext__Group_10_3__1__Impl ;
+    // InternalSimplepalladio.g:6407:1: rule__AssemblyContext__Group_10_3__1 : rule__AssemblyContext__Group_10_3__1__Impl ;
     public final void rule__AssemblyContext__Group_10_3__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6438:1: ( rule__AssemblyContext__Group_10_3__1__Impl )
-            // InternalSimplepalladio.g:6439:2: rule__AssemblyContext__Group_10_3__1__Impl
+            // InternalSimplepalladio.g:6411:1: ( rule__AssemblyContext__Group_10_3__1__Impl )
+            // InternalSimplepalladio.g:6412:2: rule__AssemblyContext__Group_10_3__1__Impl
             {
             pushFollow(FOLLOW_2);
             rule__AssemblyContext__Group_10_3__1__Impl();
@@ -19343,21 +19252,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyContext__Group_10_3__1__Impl"
-    // InternalSimplepalladio.g:6445:1: rule__AssemblyContext__Group_10_3__1__Impl : ( ( rule__AssemblyContext__RequiredRolesAssignment_10_3_1 ) ) ;
+    // InternalSimplepalladio.g:6418:1: rule__AssemblyContext__Group_10_3__1__Impl : ( ( rule__AssemblyContext__RequiredRolesAssignment_10_3_1 ) ) ;
     public final void rule__AssemblyContext__Group_10_3__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6449:1: ( ( ( rule__AssemblyContext__RequiredRolesAssignment_10_3_1 ) ) )
-            // InternalSimplepalladio.g:6450:1: ( ( rule__AssemblyContext__RequiredRolesAssignment_10_3_1 ) )
+            // InternalSimplepalladio.g:6422:1: ( ( ( rule__AssemblyContext__RequiredRolesAssignment_10_3_1 ) ) )
+            // InternalSimplepalladio.g:6423:1: ( ( rule__AssemblyContext__RequiredRolesAssignment_10_3_1 ) )
             {
-            // InternalSimplepalladio.g:6450:1: ( ( rule__AssemblyContext__RequiredRolesAssignment_10_3_1 ) )
-            // InternalSimplepalladio.g:6451:2: ( rule__AssemblyContext__RequiredRolesAssignment_10_3_1 )
+            // InternalSimplepalladio.g:6423:1: ( ( rule__AssemblyContext__RequiredRolesAssignment_10_3_1 ) )
+            // InternalSimplepalladio.g:6424:2: ( rule__AssemblyContext__RequiredRolesAssignment_10_3_1 )
             {
              before(grammarAccess.getAssemblyContextAccess().getRequiredRolesAssignment_10_3_1()); 
-            // InternalSimplepalladio.g:6452:2: ( rule__AssemblyContext__RequiredRolesAssignment_10_3_1 )
-            // InternalSimplepalladio.g:6452:3: rule__AssemblyContext__RequiredRolesAssignment_10_3_1
+            // InternalSimplepalladio.g:6425:2: ( rule__AssemblyContext__RequiredRolesAssignment_10_3_1 )
+            // InternalSimplepalladio.g:6425:3: rule__AssemblyContext__RequiredRolesAssignment_10_3_1
             {
             pushFollow(FOLLOW_2);
             rule__AssemblyContext__RequiredRolesAssignment_10_3_1();
@@ -19390,14 +19299,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Role__Group__0"
-    // InternalSimplepalladio.g:6461:1: rule__Role__Group__0 : rule__Role__Group__0__Impl rule__Role__Group__1 ;
+    // InternalSimplepalladio.g:6434:1: rule__Role__Group__0 : rule__Role__Group__0__Impl rule__Role__Group__1 ;
     public final void rule__Role__Group__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6465:1: ( rule__Role__Group__0__Impl rule__Role__Group__1 )
-            // InternalSimplepalladio.g:6466:2: rule__Role__Group__0__Impl rule__Role__Group__1
+            // InternalSimplepalladio.g:6438:1: ( rule__Role__Group__0__Impl rule__Role__Group__1 )
+            // InternalSimplepalladio.g:6439:2: rule__Role__Group__0__Impl rule__Role__Group__1
             {
             pushFollow(FOLLOW_13);
             rule__Role__Group__0__Impl();
@@ -19428,17 +19337,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Role__Group__0__Impl"
-    // InternalSimplepalladio.g:6473:1: rule__Role__Group__0__Impl : ( 'Role' ) ;
+    // InternalSimplepalladio.g:6446:1: rule__Role__Group__0__Impl : ( 'Role' ) ;
     public final void rule__Role__Group__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6477:1: ( ( 'Role' ) )
-            // InternalSimplepalladio.g:6478:1: ( 'Role' )
+            // InternalSimplepalladio.g:6450:1: ( ( 'Role' ) )
+            // InternalSimplepalladio.g:6451:1: ( 'Role' )
             {
-            // InternalSimplepalladio.g:6478:1: ( 'Role' )
-            // InternalSimplepalladio.g:6479:2: 'Role'
+            // InternalSimplepalladio.g:6451:1: ( 'Role' )
+            // InternalSimplepalladio.g:6452:2: 'Role'
             {
              before(grammarAccess.getRoleAccess().getRoleKeyword_0()); 
             match(input,59,FOLLOW_2); 
@@ -19465,14 +19374,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Role__Group__1"
-    // InternalSimplepalladio.g:6488:1: rule__Role__Group__1 : rule__Role__Group__1__Impl rule__Role__Group__2 ;
+    // InternalSimplepalladio.g:6461:1: rule__Role__Group__1 : rule__Role__Group__1__Impl rule__Role__Group__2 ;
     public final void rule__Role__Group__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6492:1: ( rule__Role__Group__1__Impl rule__Role__Group__2 )
-            // InternalSimplepalladio.g:6493:2: rule__Role__Group__1__Impl rule__Role__Group__2
+            // InternalSimplepalladio.g:6465:1: ( rule__Role__Group__1__Impl rule__Role__Group__2 )
+            // InternalSimplepalladio.g:6466:2: rule__Role__Group__1__Impl rule__Role__Group__2
             {
             pushFollow(FOLLOW_8);
             rule__Role__Group__1__Impl();
@@ -19503,21 +19412,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Role__Group__1__Impl"
-    // InternalSimplepalladio.g:6500:1: rule__Role__Group__1__Impl : ( ( rule__Role__NameAssignment_1 ) ) ;
+    // InternalSimplepalladio.g:6473:1: rule__Role__Group__1__Impl : ( ( rule__Role__NameAssignment_1 ) ) ;
     public final void rule__Role__Group__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6504:1: ( ( ( rule__Role__NameAssignment_1 ) ) )
-            // InternalSimplepalladio.g:6505:1: ( ( rule__Role__NameAssignment_1 ) )
+            // InternalSimplepalladio.g:6477:1: ( ( ( rule__Role__NameAssignment_1 ) ) )
+            // InternalSimplepalladio.g:6478:1: ( ( rule__Role__NameAssignment_1 ) )
             {
-            // InternalSimplepalladio.g:6505:1: ( ( rule__Role__NameAssignment_1 ) )
-            // InternalSimplepalladio.g:6506:2: ( rule__Role__NameAssignment_1 )
+            // InternalSimplepalladio.g:6478:1: ( ( rule__Role__NameAssignment_1 ) )
+            // InternalSimplepalladio.g:6479:2: ( rule__Role__NameAssignment_1 )
             {
              before(grammarAccess.getRoleAccess().getNameAssignment_1()); 
-            // InternalSimplepalladio.g:6507:2: ( rule__Role__NameAssignment_1 )
-            // InternalSimplepalladio.g:6507:3: rule__Role__NameAssignment_1
+            // InternalSimplepalladio.g:6480:2: ( rule__Role__NameAssignment_1 )
+            // InternalSimplepalladio.g:6480:3: rule__Role__NameAssignment_1
             {
             pushFollow(FOLLOW_2);
             rule__Role__NameAssignment_1();
@@ -19550,16 +19459,16 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Role__Group__2"
-    // InternalSimplepalladio.g:6515:1: rule__Role__Group__2 : rule__Role__Group__2__Impl rule__Role__Group__3 ;
+    // InternalSimplepalladio.g:6488:1: rule__Role__Group__2 : rule__Role__Group__2__Impl rule__Role__Group__3 ;
     public final void rule__Role__Group__2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6519:1: ( rule__Role__Group__2__Impl rule__Role__Group__3 )
-            // InternalSimplepalladio.g:6520:2: rule__Role__Group__2__Impl rule__Role__Group__3
+            // InternalSimplepalladio.g:6492:1: ( rule__Role__Group__2__Impl rule__Role__Group__3 )
+            // InternalSimplepalladio.g:6493:2: rule__Role__Group__2__Impl rule__Role__Group__3
             {
-            pushFollow(FOLLOW_40);
+            pushFollow(FOLLOW_42);
             rule__Role__Group__2__Impl();
 
             state._fsp--;
@@ -19588,17 +19497,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Role__Group__2__Impl"
-    // InternalSimplepalladio.g:6527:1: rule__Role__Group__2__Impl : ( '{' ) ;
+    // InternalSimplepalladio.g:6500:1: rule__Role__Group__2__Impl : ( '{' ) ;
     public final void rule__Role__Group__2__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6531:1: ( ( '{' ) )
-            // InternalSimplepalladio.g:6532:1: ( '{' )
+            // InternalSimplepalladio.g:6504:1: ( ( '{' ) )
+            // InternalSimplepalladio.g:6505:1: ( '{' )
             {
-            // InternalSimplepalladio.g:6532:1: ( '{' )
-            // InternalSimplepalladio.g:6533:2: '{'
+            // InternalSimplepalladio.g:6505:1: ( '{' )
+            // InternalSimplepalladio.g:6506:2: '{'
             {
              before(grammarAccess.getRoleAccess().getLeftCurlyBracketKeyword_2()); 
             match(input,22,FOLLOW_2); 
@@ -19625,14 +19534,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Role__Group__3"
-    // InternalSimplepalladio.g:6542:1: rule__Role__Group__3 : rule__Role__Group__3__Impl rule__Role__Group__4 ;
+    // InternalSimplepalladio.g:6515:1: rule__Role__Group__3 : rule__Role__Group__3__Impl rule__Role__Group__4 ;
     public final void rule__Role__Group__3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6546:1: ( rule__Role__Group__3__Impl rule__Role__Group__4 )
-            // InternalSimplepalladio.g:6547:2: rule__Role__Group__3__Impl rule__Role__Group__4
+            // InternalSimplepalladio.g:6519:1: ( rule__Role__Group__3__Impl rule__Role__Group__4 )
+            // InternalSimplepalladio.g:6520:2: rule__Role__Group__3__Impl rule__Role__Group__4
             {
             pushFollow(FOLLOW_13);
             rule__Role__Group__3__Impl();
@@ -19663,17 +19572,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Role__Group__3__Impl"
-    // InternalSimplepalladio.g:6554:1: rule__Role__Group__3__Impl : ( 'interface' ) ;
+    // InternalSimplepalladio.g:6527:1: rule__Role__Group__3__Impl : ( 'interface' ) ;
     public final void rule__Role__Group__3__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6558:1: ( ( 'interface' ) )
-            // InternalSimplepalladio.g:6559:1: ( 'interface' )
+            // InternalSimplepalladio.g:6531:1: ( ( 'interface' ) )
+            // InternalSimplepalladio.g:6532:1: ( 'interface' )
             {
-            // InternalSimplepalladio.g:6559:1: ( 'interface' )
-            // InternalSimplepalladio.g:6560:2: 'interface'
+            // InternalSimplepalladio.g:6532:1: ( 'interface' )
+            // InternalSimplepalladio.g:6533:2: 'interface'
             {
              before(grammarAccess.getRoleAccess().getInterfaceKeyword_3()); 
             match(input,60,FOLLOW_2); 
@@ -19700,14 +19609,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Role__Group__4"
-    // InternalSimplepalladio.g:6569:1: rule__Role__Group__4 : rule__Role__Group__4__Impl rule__Role__Group__5 ;
+    // InternalSimplepalladio.g:6542:1: rule__Role__Group__4 : rule__Role__Group__4__Impl rule__Role__Group__5 ;
     public final void rule__Role__Group__4() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6573:1: ( rule__Role__Group__4__Impl rule__Role__Group__5 )
-            // InternalSimplepalladio.g:6574:2: rule__Role__Group__4__Impl rule__Role__Group__5
+            // InternalSimplepalladio.g:6546:1: ( rule__Role__Group__4__Impl rule__Role__Group__5 )
+            // InternalSimplepalladio.g:6547:2: rule__Role__Group__4__Impl rule__Role__Group__5
             {
             pushFollow(FOLLOW_7);
             rule__Role__Group__4__Impl();
@@ -19738,21 +19647,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Role__Group__4__Impl"
-    // InternalSimplepalladio.g:6581:1: rule__Role__Group__4__Impl : ( ( rule__Role__InterfaceAssignment_4 ) ) ;
+    // InternalSimplepalladio.g:6554:1: rule__Role__Group__4__Impl : ( ( rule__Role__InterfaceAssignment_4 ) ) ;
     public final void rule__Role__Group__4__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6585:1: ( ( ( rule__Role__InterfaceAssignment_4 ) ) )
-            // InternalSimplepalladio.g:6586:1: ( ( rule__Role__InterfaceAssignment_4 ) )
+            // InternalSimplepalladio.g:6558:1: ( ( ( rule__Role__InterfaceAssignment_4 ) ) )
+            // InternalSimplepalladio.g:6559:1: ( ( rule__Role__InterfaceAssignment_4 ) )
             {
-            // InternalSimplepalladio.g:6586:1: ( ( rule__Role__InterfaceAssignment_4 ) )
-            // InternalSimplepalladio.g:6587:2: ( rule__Role__InterfaceAssignment_4 )
+            // InternalSimplepalladio.g:6559:1: ( ( rule__Role__InterfaceAssignment_4 ) )
+            // InternalSimplepalladio.g:6560:2: ( rule__Role__InterfaceAssignment_4 )
             {
              before(grammarAccess.getRoleAccess().getInterfaceAssignment_4()); 
-            // InternalSimplepalladio.g:6588:2: ( rule__Role__InterfaceAssignment_4 )
-            // InternalSimplepalladio.g:6588:3: rule__Role__InterfaceAssignment_4
+            // InternalSimplepalladio.g:6561:2: ( rule__Role__InterfaceAssignment_4 )
+            // InternalSimplepalladio.g:6561:3: rule__Role__InterfaceAssignment_4
             {
             pushFollow(FOLLOW_2);
             rule__Role__InterfaceAssignment_4();
@@ -19785,14 +19694,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Role__Group__5"
-    // InternalSimplepalladio.g:6596:1: rule__Role__Group__5 : rule__Role__Group__5__Impl ;
+    // InternalSimplepalladio.g:6569:1: rule__Role__Group__5 : rule__Role__Group__5__Impl ;
     public final void rule__Role__Group__5() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6600:1: ( rule__Role__Group__5__Impl )
-            // InternalSimplepalladio.g:6601:2: rule__Role__Group__5__Impl
+            // InternalSimplepalladio.g:6573:1: ( rule__Role__Group__5__Impl )
+            // InternalSimplepalladio.g:6574:2: rule__Role__Group__5__Impl
             {
             pushFollow(FOLLOW_2);
             rule__Role__Group__5__Impl();
@@ -19818,17 +19727,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Role__Group__5__Impl"
-    // InternalSimplepalladio.g:6607:1: rule__Role__Group__5__Impl : ( '}' ) ;
+    // InternalSimplepalladio.g:6580:1: rule__Role__Group__5__Impl : ( '}' ) ;
     public final void rule__Role__Group__5__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6611:1: ( ( '}' ) )
-            // InternalSimplepalladio.g:6612:1: ( '}' )
+            // InternalSimplepalladio.g:6584:1: ( ( '}' ) )
+            // InternalSimplepalladio.g:6585:1: ( '}' )
             {
-            // InternalSimplepalladio.g:6612:1: ( '}' )
-            // InternalSimplepalladio.g:6613:2: '}'
+            // InternalSimplepalladio.g:6585:1: ( '}' )
+            // InternalSimplepalladio.g:6586:2: '}'
             {
              before(grammarAccess.getRoleAccess().getRightCurlyBracketKeyword_5()); 
             match(input,23,FOLLOW_2); 
@@ -19855,14 +19764,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__DelegationConnector__Group__0"
-    // InternalSimplepalladio.g:6623:1: rule__DelegationConnector__Group__0 : rule__DelegationConnector__Group__0__Impl rule__DelegationConnector__Group__1 ;
+    // InternalSimplepalladio.g:6596:1: rule__DelegationConnector__Group__0 : rule__DelegationConnector__Group__0__Impl rule__DelegationConnector__Group__1 ;
     public final void rule__DelegationConnector__Group__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6627:1: ( rule__DelegationConnector__Group__0__Impl rule__DelegationConnector__Group__1 )
-            // InternalSimplepalladio.g:6628:2: rule__DelegationConnector__Group__0__Impl rule__DelegationConnector__Group__1
+            // InternalSimplepalladio.g:6600:1: ( rule__DelegationConnector__Group__0__Impl rule__DelegationConnector__Group__1 )
+            // InternalSimplepalladio.g:6601:2: rule__DelegationConnector__Group__0__Impl rule__DelegationConnector__Group__1
             {
             pushFollow(FOLLOW_8);
             rule__DelegationConnector__Group__0__Impl();
@@ -19893,17 +19802,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__DelegationConnector__Group__0__Impl"
-    // InternalSimplepalladio.g:6635:1: rule__DelegationConnector__Group__0__Impl : ( 'DelegationConnector' ) ;
+    // InternalSimplepalladio.g:6608:1: rule__DelegationConnector__Group__0__Impl : ( 'DelegationConnector' ) ;
     public final void rule__DelegationConnector__Group__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6639:1: ( ( 'DelegationConnector' ) )
-            // InternalSimplepalladio.g:6640:1: ( 'DelegationConnector' )
+            // InternalSimplepalladio.g:6612:1: ( ( 'DelegationConnector' ) )
+            // InternalSimplepalladio.g:6613:1: ( 'DelegationConnector' )
             {
-            // InternalSimplepalladio.g:6640:1: ( 'DelegationConnector' )
-            // InternalSimplepalladio.g:6641:2: 'DelegationConnector'
+            // InternalSimplepalladio.g:6613:1: ( 'DelegationConnector' )
+            // InternalSimplepalladio.g:6614:2: 'DelegationConnector'
             {
              before(grammarAccess.getDelegationConnectorAccess().getDelegationConnectorKeyword_0()); 
             match(input,61,FOLLOW_2); 
@@ -19930,16 +19839,16 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__DelegationConnector__Group__1"
-    // InternalSimplepalladio.g:6650:1: rule__DelegationConnector__Group__1 : rule__DelegationConnector__Group__1__Impl rule__DelegationConnector__Group__2 ;
+    // InternalSimplepalladio.g:6623:1: rule__DelegationConnector__Group__1 : rule__DelegationConnector__Group__1__Impl rule__DelegationConnector__Group__2 ;
     public final void rule__DelegationConnector__Group__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6654:1: ( rule__DelegationConnector__Group__1__Impl rule__DelegationConnector__Group__2 )
-            // InternalSimplepalladio.g:6655:2: rule__DelegationConnector__Group__1__Impl rule__DelegationConnector__Group__2
+            // InternalSimplepalladio.g:6627:1: ( rule__DelegationConnector__Group__1__Impl rule__DelegationConnector__Group__2 )
+            // InternalSimplepalladio.g:6628:2: rule__DelegationConnector__Group__1__Impl rule__DelegationConnector__Group__2
             {
-            pushFollow(FOLLOW_41);
+            pushFollow(FOLLOW_43);
             rule__DelegationConnector__Group__1__Impl();
 
             state._fsp--;
@@ -19968,17 +19877,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__DelegationConnector__Group__1__Impl"
-    // InternalSimplepalladio.g:6662:1: rule__DelegationConnector__Group__1__Impl : ( '{' ) ;
+    // InternalSimplepalladio.g:6635:1: rule__DelegationConnector__Group__1__Impl : ( '{' ) ;
     public final void rule__DelegationConnector__Group__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6666:1: ( ( '{' ) )
-            // InternalSimplepalladio.g:6667:1: ( '{' )
+            // InternalSimplepalladio.g:6639:1: ( ( '{' ) )
+            // InternalSimplepalladio.g:6640:1: ( '{' )
             {
-            // InternalSimplepalladio.g:6667:1: ( '{' )
-            // InternalSimplepalladio.g:6668:2: '{'
+            // InternalSimplepalladio.g:6640:1: ( '{' )
+            // InternalSimplepalladio.g:6641:2: '{'
             {
              before(grammarAccess.getDelegationConnectorAccess().getLeftCurlyBracketKeyword_1()); 
             match(input,22,FOLLOW_2); 
@@ -20005,14 +19914,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__DelegationConnector__Group__2"
-    // InternalSimplepalladio.g:6677:1: rule__DelegationConnector__Group__2 : rule__DelegationConnector__Group__2__Impl rule__DelegationConnector__Group__3 ;
+    // InternalSimplepalladio.g:6650:1: rule__DelegationConnector__Group__2 : rule__DelegationConnector__Group__2__Impl rule__DelegationConnector__Group__3 ;
     public final void rule__DelegationConnector__Group__2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6681:1: ( rule__DelegationConnector__Group__2__Impl rule__DelegationConnector__Group__3 )
-            // InternalSimplepalladio.g:6682:2: rule__DelegationConnector__Group__2__Impl rule__DelegationConnector__Group__3
+            // InternalSimplepalladio.g:6654:1: ( rule__DelegationConnector__Group__2__Impl rule__DelegationConnector__Group__3 )
+            // InternalSimplepalladio.g:6655:2: rule__DelegationConnector__Group__2__Impl rule__DelegationConnector__Group__3
             {
             pushFollow(FOLLOW_13);
             rule__DelegationConnector__Group__2__Impl();
@@ -20043,17 +19952,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__DelegationConnector__Group__2__Impl"
-    // InternalSimplepalladio.g:6689:1: rule__DelegationConnector__Group__2__Impl : ( 'role' ) ;
+    // InternalSimplepalladio.g:6662:1: rule__DelegationConnector__Group__2__Impl : ( 'role' ) ;
     public final void rule__DelegationConnector__Group__2__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6693:1: ( ( 'role' ) )
-            // InternalSimplepalladio.g:6694:1: ( 'role' )
+            // InternalSimplepalladio.g:6666:1: ( ( 'role' ) )
+            // InternalSimplepalladio.g:6667:1: ( 'role' )
             {
-            // InternalSimplepalladio.g:6694:1: ( 'role' )
-            // InternalSimplepalladio.g:6695:2: 'role'
+            // InternalSimplepalladio.g:6667:1: ( 'role' )
+            // InternalSimplepalladio.g:6668:2: 'role'
             {
              before(grammarAccess.getDelegationConnectorAccess().getRoleKeyword_2()); 
             match(input,62,FOLLOW_2); 
@@ -20080,16 +19989,16 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__DelegationConnector__Group__3"
-    // InternalSimplepalladio.g:6704:1: rule__DelegationConnector__Group__3 : rule__DelegationConnector__Group__3__Impl rule__DelegationConnector__Group__4 ;
+    // InternalSimplepalladio.g:6677:1: rule__DelegationConnector__Group__3 : rule__DelegationConnector__Group__3__Impl rule__DelegationConnector__Group__4 ;
     public final void rule__DelegationConnector__Group__3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6708:1: ( rule__DelegationConnector__Group__3__Impl rule__DelegationConnector__Group__4 )
-            // InternalSimplepalladio.g:6709:2: rule__DelegationConnector__Group__3__Impl rule__DelegationConnector__Group__4
+            // InternalSimplepalladio.g:6681:1: ( rule__DelegationConnector__Group__3__Impl rule__DelegationConnector__Group__4 )
+            // InternalSimplepalladio.g:6682:2: rule__DelegationConnector__Group__3__Impl rule__DelegationConnector__Group__4
             {
-            pushFollow(FOLLOW_40);
+            pushFollow(FOLLOW_42);
             rule__DelegationConnector__Group__3__Impl();
 
             state._fsp--;
@@ -20118,21 +20027,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__DelegationConnector__Group__3__Impl"
-    // InternalSimplepalladio.g:6716:1: rule__DelegationConnector__Group__3__Impl : ( ( rule__DelegationConnector__RoleAssignment_3 ) ) ;
+    // InternalSimplepalladio.g:6689:1: rule__DelegationConnector__Group__3__Impl : ( ( rule__DelegationConnector__RoleAssignment_3 ) ) ;
     public final void rule__DelegationConnector__Group__3__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6720:1: ( ( ( rule__DelegationConnector__RoleAssignment_3 ) ) )
-            // InternalSimplepalladio.g:6721:1: ( ( rule__DelegationConnector__RoleAssignment_3 ) )
+            // InternalSimplepalladio.g:6693:1: ( ( ( rule__DelegationConnector__RoleAssignment_3 ) ) )
+            // InternalSimplepalladio.g:6694:1: ( ( rule__DelegationConnector__RoleAssignment_3 ) )
             {
-            // InternalSimplepalladio.g:6721:1: ( ( rule__DelegationConnector__RoleAssignment_3 ) )
-            // InternalSimplepalladio.g:6722:2: ( rule__DelegationConnector__RoleAssignment_3 )
+            // InternalSimplepalladio.g:6694:1: ( ( rule__DelegationConnector__RoleAssignment_3 ) )
+            // InternalSimplepalladio.g:6695:2: ( rule__DelegationConnector__RoleAssignment_3 )
             {
              before(grammarAccess.getDelegationConnectorAccess().getRoleAssignment_3()); 
-            // InternalSimplepalladio.g:6723:2: ( rule__DelegationConnector__RoleAssignment_3 )
-            // InternalSimplepalladio.g:6723:3: rule__DelegationConnector__RoleAssignment_3
+            // InternalSimplepalladio.g:6696:2: ( rule__DelegationConnector__RoleAssignment_3 )
+            // InternalSimplepalladio.g:6696:3: rule__DelegationConnector__RoleAssignment_3
             {
             pushFollow(FOLLOW_2);
             rule__DelegationConnector__RoleAssignment_3();
@@ -20165,14 +20074,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__DelegationConnector__Group__4"
-    // InternalSimplepalladio.g:6731:1: rule__DelegationConnector__Group__4 : rule__DelegationConnector__Group__4__Impl rule__DelegationConnector__Group__5 ;
+    // InternalSimplepalladio.g:6704:1: rule__DelegationConnector__Group__4 : rule__DelegationConnector__Group__4__Impl rule__DelegationConnector__Group__5 ;
     public final void rule__DelegationConnector__Group__4() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6735:1: ( rule__DelegationConnector__Group__4__Impl rule__DelegationConnector__Group__5 )
-            // InternalSimplepalladio.g:6736:2: rule__DelegationConnector__Group__4__Impl rule__DelegationConnector__Group__5
+            // InternalSimplepalladio.g:6708:1: ( rule__DelegationConnector__Group__4__Impl rule__DelegationConnector__Group__5 )
+            // InternalSimplepalladio.g:6709:2: rule__DelegationConnector__Group__4__Impl rule__DelegationConnector__Group__5
             {
             pushFollow(FOLLOW_13);
             rule__DelegationConnector__Group__4__Impl();
@@ -20203,17 +20112,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__DelegationConnector__Group__4__Impl"
-    // InternalSimplepalladio.g:6743:1: rule__DelegationConnector__Group__4__Impl : ( 'interface' ) ;
+    // InternalSimplepalladio.g:6716:1: rule__DelegationConnector__Group__4__Impl : ( 'interface' ) ;
     public final void rule__DelegationConnector__Group__4__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6747:1: ( ( 'interface' ) )
-            // InternalSimplepalladio.g:6748:1: ( 'interface' )
+            // InternalSimplepalladio.g:6720:1: ( ( 'interface' ) )
+            // InternalSimplepalladio.g:6721:1: ( 'interface' )
             {
-            // InternalSimplepalladio.g:6748:1: ( 'interface' )
-            // InternalSimplepalladio.g:6749:2: 'interface'
+            // InternalSimplepalladio.g:6721:1: ( 'interface' )
+            // InternalSimplepalladio.g:6722:2: 'interface'
             {
              before(grammarAccess.getDelegationConnectorAccess().getInterfaceKeyword_4()); 
             match(input,60,FOLLOW_2); 
@@ -20240,14 +20149,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__DelegationConnector__Group__5"
-    // InternalSimplepalladio.g:6758:1: rule__DelegationConnector__Group__5 : rule__DelegationConnector__Group__5__Impl rule__DelegationConnector__Group__6 ;
+    // InternalSimplepalladio.g:6731:1: rule__DelegationConnector__Group__5 : rule__DelegationConnector__Group__5__Impl rule__DelegationConnector__Group__6 ;
     public final void rule__DelegationConnector__Group__5() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6762:1: ( rule__DelegationConnector__Group__5__Impl rule__DelegationConnector__Group__6 )
-            // InternalSimplepalladio.g:6763:2: rule__DelegationConnector__Group__5__Impl rule__DelegationConnector__Group__6
+            // InternalSimplepalladio.g:6735:1: ( rule__DelegationConnector__Group__5__Impl rule__DelegationConnector__Group__6 )
+            // InternalSimplepalladio.g:6736:2: rule__DelegationConnector__Group__5__Impl rule__DelegationConnector__Group__6
             {
             pushFollow(FOLLOW_7);
             rule__DelegationConnector__Group__5__Impl();
@@ -20278,21 +20187,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__DelegationConnector__Group__5__Impl"
-    // InternalSimplepalladio.g:6770:1: rule__DelegationConnector__Group__5__Impl : ( ( rule__DelegationConnector__InterfaceAssignment_5 ) ) ;
+    // InternalSimplepalladio.g:6743:1: rule__DelegationConnector__Group__5__Impl : ( ( rule__DelegationConnector__InterfaceAssignment_5 ) ) ;
     public final void rule__DelegationConnector__Group__5__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6774:1: ( ( ( rule__DelegationConnector__InterfaceAssignment_5 ) ) )
-            // InternalSimplepalladio.g:6775:1: ( ( rule__DelegationConnector__InterfaceAssignment_5 ) )
+            // InternalSimplepalladio.g:6747:1: ( ( ( rule__DelegationConnector__InterfaceAssignment_5 ) ) )
+            // InternalSimplepalladio.g:6748:1: ( ( rule__DelegationConnector__InterfaceAssignment_5 ) )
             {
-            // InternalSimplepalladio.g:6775:1: ( ( rule__DelegationConnector__InterfaceAssignment_5 ) )
-            // InternalSimplepalladio.g:6776:2: ( rule__DelegationConnector__InterfaceAssignment_5 )
+            // InternalSimplepalladio.g:6748:1: ( ( rule__DelegationConnector__InterfaceAssignment_5 ) )
+            // InternalSimplepalladio.g:6749:2: ( rule__DelegationConnector__InterfaceAssignment_5 )
             {
              before(grammarAccess.getDelegationConnectorAccess().getInterfaceAssignment_5()); 
-            // InternalSimplepalladio.g:6777:2: ( rule__DelegationConnector__InterfaceAssignment_5 )
-            // InternalSimplepalladio.g:6777:3: rule__DelegationConnector__InterfaceAssignment_5
+            // InternalSimplepalladio.g:6750:2: ( rule__DelegationConnector__InterfaceAssignment_5 )
+            // InternalSimplepalladio.g:6750:3: rule__DelegationConnector__InterfaceAssignment_5
             {
             pushFollow(FOLLOW_2);
             rule__DelegationConnector__InterfaceAssignment_5();
@@ -20325,14 +20234,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__DelegationConnector__Group__6"
-    // InternalSimplepalladio.g:6785:1: rule__DelegationConnector__Group__6 : rule__DelegationConnector__Group__6__Impl ;
+    // InternalSimplepalladio.g:6758:1: rule__DelegationConnector__Group__6 : rule__DelegationConnector__Group__6__Impl ;
     public final void rule__DelegationConnector__Group__6() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6789:1: ( rule__DelegationConnector__Group__6__Impl )
-            // InternalSimplepalladio.g:6790:2: rule__DelegationConnector__Group__6__Impl
+            // InternalSimplepalladio.g:6762:1: ( rule__DelegationConnector__Group__6__Impl )
+            // InternalSimplepalladio.g:6763:2: rule__DelegationConnector__Group__6__Impl
             {
             pushFollow(FOLLOW_2);
             rule__DelegationConnector__Group__6__Impl();
@@ -20358,17 +20267,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__DelegationConnector__Group__6__Impl"
-    // InternalSimplepalladio.g:6796:1: rule__DelegationConnector__Group__6__Impl : ( '}' ) ;
+    // InternalSimplepalladio.g:6769:1: rule__DelegationConnector__Group__6__Impl : ( '}' ) ;
     public final void rule__DelegationConnector__Group__6__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6800:1: ( ( '}' ) )
-            // InternalSimplepalladio.g:6801:1: ( '}' )
+            // InternalSimplepalladio.g:6773:1: ( ( '}' ) )
+            // InternalSimplepalladio.g:6774:1: ( '}' )
             {
-            // InternalSimplepalladio.g:6801:1: ( '}' )
-            // InternalSimplepalladio.g:6802:2: '}'
+            // InternalSimplepalladio.g:6774:1: ( '}' )
+            // InternalSimplepalladio.g:6775:2: '}'
             {
              before(grammarAccess.getDelegationConnectorAccess().getRightCurlyBracketKeyword_6()); 
             match(input,23,FOLLOW_2); 
@@ -20395,14 +20304,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyConnector__Group__0"
-    // InternalSimplepalladio.g:6812:1: rule__AssemblyConnector__Group__0 : rule__AssemblyConnector__Group__0__Impl rule__AssemblyConnector__Group__1 ;
+    // InternalSimplepalladio.g:6785:1: rule__AssemblyConnector__Group__0 : rule__AssemblyConnector__Group__0__Impl rule__AssemblyConnector__Group__1 ;
     public final void rule__AssemblyConnector__Group__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6816:1: ( rule__AssemblyConnector__Group__0__Impl rule__AssemblyConnector__Group__1 )
-            // InternalSimplepalladio.g:6817:2: rule__AssemblyConnector__Group__0__Impl rule__AssemblyConnector__Group__1
+            // InternalSimplepalladio.g:6789:1: ( rule__AssemblyConnector__Group__0__Impl rule__AssemblyConnector__Group__1 )
+            // InternalSimplepalladio.g:6790:2: rule__AssemblyConnector__Group__0__Impl rule__AssemblyConnector__Group__1
             {
             pushFollow(FOLLOW_8);
             rule__AssemblyConnector__Group__0__Impl();
@@ -20433,17 +20342,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyConnector__Group__0__Impl"
-    // InternalSimplepalladio.g:6824:1: rule__AssemblyConnector__Group__0__Impl : ( 'AssemblyConnector' ) ;
+    // InternalSimplepalladio.g:6797:1: rule__AssemblyConnector__Group__0__Impl : ( 'AssemblyConnector' ) ;
     public final void rule__AssemblyConnector__Group__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6828:1: ( ( 'AssemblyConnector' ) )
-            // InternalSimplepalladio.g:6829:1: ( 'AssemblyConnector' )
+            // InternalSimplepalladio.g:6801:1: ( ( 'AssemblyConnector' ) )
+            // InternalSimplepalladio.g:6802:1: ( 'AssemblyConnector' )
             {
-            // InternalSimplepalladio.g:6829:1: ( 'AssemblyConnector' )
-            // InternalSimplepalladio.g:6830:2: 'AssemblyConnector'
+            // InternalSimplepalladio.g:6802:1: ( 'AssemblyConnector' )
+            // InternalSimplepalladio.g:6803:2: 'AssemblyConnector'
             {
              before(grammarAccess.getAssemblyConnectorAccess().getAssemblyConnectorKeyword_0()); 
             match(input,63,FOLLOW_2); 
@@ -20470,16 +20379,16 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyConnector__Group__1"
-    // InternalSimplepalladio.g:6839:1: rule__AssemblyConnector__Group__1 : rule__AssemblyConnector__Group__1__Impl rule__AssemblyConnector__Group__2 ;
+    // InternalSimplepalladio.g:6812:1: rule__AssemblyConnector__Group__1 : rule__AssemblyConnector__Group__1__Impl rule__AssemblyConnector__Group__2 ;
     public final void rule__AssemblyConnector__Group__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6843:1: ( rule__AssemblyConnector__Group__1__Impl rule__AssemblyConnector__Group__2 )
-            // InternalSimplepalladio.g:6844:2: rule__AssemblyConnector__Group__1__Impl rule__AssemblyConnector__Group__2
+            // InternalSimplepalladio.g:6816:1: ( rule__AssemblyConnector__Group__1__Impl rule__AssemblyConnector__Group__2 )
+            // InternalSimplepalladio.g:6817:2: rule__AssemblyConnector__Group__1__Impl rule__AssemblyConnector__Group__2
             {
-            pushFollow(FOLLOW_42);
+            pushFollow(FOLLOW_44);
             rule__AssemblyConnector__Group__1__Impl();
 
             state._fsp--;
@@ -20508,17 +20417,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyConnector__Group__1__Impl"
-    // InternalSimplepalladio.g:6851:1: rule__AssemblyConnector__Group__1__Impl : ( '{' ) ;
+    // InternalSimplepalladio.g:6824:1: rule__AssemblyConnector__Group__1__Impl : ( '{' ) ;
     public final void rule__AssemblyConnector__Group__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6855:1: ( ( '{' ) )
-            // InternalSimplepalladio.g:6856:1: ( '{' )
+            // InternalSimplepalladio.g:6828:1: ( ( '{' ) )
+            // InternalSimplepalladio.g:6829:1: ( '{' )
             {
-            // InternalSimplepalladio.g:6856:1: ( '{' )
-            // InternalSimplepalladio.g:6857:2: '{'
+            // InternalSimplepalladio.g:6829:1: ( '{' )
+            // InternalSimplepalladio.g:6830:2: '{'
             {
              before(grammarAccess.getAssemblyConnectorAccess().getLeftCurlyBracketKeyword_1()); 
             match(input,22,FOLLOW_2); 
@@ -20545,14 +20454,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyConnector__Group__2"
-    // InternalSimplepalladio.g:6866:1: rule__AssemblyConnector__Group__2 : rule__AssemblyConnector__Group__2__Impl rule__AssemblyConnector__Group__3 ;
+    // InternalSimplepalladio.g:6839:1: rule__AssemblyConnector__Group__2 : rule__AssemblyConnector__Group__2__Impl rule__AssemblyConnector__Group__3 ;
     public final void rule__AssemblyConnector__Group__2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6870:1: ( rule__AssemblyConnector__Group__2__Impl rule__AssemblyConnector__Group__3 )
-            // InternalSimplepalladio.g:6871:2: rule__AssemblyConnector__Group__2__Impl rule__AssemblyConnector__Group__3
+            // InternalSimplepalladio.g:6843:1: ( rule__AssemblyConnector__Group__2__Impl rule__AssemblyConnector__Group__3 )
+            // InternalSimplepalladio.g:6844:2: rule__AssemblyConnector__Group__2__Impl rule__AssemblyConnector__Group__3
             {
             pushFollow(FOLLOW_13);
             rule__AssemblyConnector__Group__2__Impl();
@@ -20583,17 +20492,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyConnector__Group__2__Impl"
-    // InternalSimplepalladio.g:6878:1: rule__AssemblyConnector__Group__2__Impl : ( 'providedRole' ) ;
+    // InternalSimplepalladio.g:6851:1: rule__AssemblyConnector__Group__2__Impl : ( 'providedRole' ) ;
     public final void rule__AssemblyConnector__Group__2__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6882:1: ( ( 'providedRole' ) )
-            // InternalSimplepalladio.g:6883:1: ( 'providedRole' )
+            // InternalSimplepalladio.g:6855:1: ( ( 'providedRole' ) )
+            // InternalSimplepalladio.g:6856:1: ( 'providedRole' )
             {
-            // InternalSimplepalladio.g:6883:1: ( 'providedRole' )
-            // InternalSimplepalladio.g:6884:2: 'providedRole'
+            // InternalSimplepalladio.g:6856:1: ( 'providedRole' )
+            // InternalSimplepalladio.g:6857:2: 'providedRole'
             {
              before(grammarAccess.getAssemblyConnectorAccess().getProvidedRoleKeyword_2()); 
             match(input,64,FOLLOW_2); 
@@ -20620,16 +20529,16 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyConnector__Group__3"
-    // InternalSimplepalladio.g:6893:1: rule__AssemblyConnector__Group__3 : rule__AssemblyConnector__Group__3__Impl rule__AssemblyConnector__Group__4 ;
+    // InternalSimplepalladio.g:6866:1: rule__AssemblyConnector__Group__3 : rule__AssemblyConnector__Group__3__Impl rule__AssemblyConnector__Group__4 ;
     public final void rule__AssemblyConnector__Group__3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6897:1: ( rule__AssemblyConnector__Group__3__Impl rule__AssemblyConnector__Group__4 )
-            // InternalSimplepalladio.g:6898:2: rule__AssemblyConnector__Group__3__Impl rule__AssemblyConnector__Group__4
+            // InternalSimplepalladio.g:6870:1: ( rule__AssemblyConnector__Group__3__Impl rule__AssemblyConnector__Group__4 )
+            // InternalSimplepalladio.g:6871:2: rule__AssemblyConnector__Group__3__Impl rule__AssemblyConnector__Group__4
             {
-            pushFollow(FOLLOW_43);
+            pushFollow(FOLLOW_45);
             rule__AssemblyConnector__Group__3__Impl();
 
             state._fsp--;
@@ -20658,21 +20567,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyConnector__Group__3__Impl"
-    // InternalSimplepalladio.g:6905:1: rule__AssemblyConnector__Group__3__Impl : ( ( rule__AssemblyConnector__ProvidedRoleAssignment_3 ) ) ;
+    // InternalSimplepalladio.g:6878:1: rule__AssemblyConnector__Group__3__Impl : ( ( rule__AssemblyConnector__ProvidedRoleAssignment_3 ) ) ;
     public final void rule__AssemblyConnector__Group__3__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6909:1: ( ( ( rule__AssemblyConnector__ProvidedRoleAssignment_3 ) ) )
-            // InternalSimplepalladio.g:6910:1: ( ( rule__AssemblyConnector__ProvidedRoleAssignment_3 ) )
+            // InternalSimplepalladio.g:6882:1: ( ( ( rule__AssemblyConnector__ProvidedRoleAssignment_3 ) ) )
+            // InternalSimplepalladio.g:6883:1: ( ( rule__AssemblyConnector__ProvidedRoleAssignment_3 ) )
             {
-            // InternalSimplepalladio.g:6910:1: ( ( rule__AssemblyConnector__ProvidedRoleAssignment_3 ) )
-            // InternalSimplepalladio.g:6911:2: ( rule__AssemblyConnector__ProvidedRoleAssignment_3 )
+            // InternalSimplepalladio.g:6883:1: ( ( rule__AssemblyConnector__ProvidedRoleAssignment_3 ) )
+            // InternalSimplepalladio.g:6884:2: ( rule__AssemblyConnector__ProvidedRoleAssignment_3 )
             {
              before(grammarAccess.getAssemblyConnectorAccess().getProvidedRoleAssignment_3()); 
-            // InternalSimplepalladio.g:6912:2: ( rule__AssemblyConnector__ProvidedRoleAssignment_3 )
-            // InternalSimplepalladio.g:6912:3: rule__AssemblyConnector__ProvidedRoleAssignment_3
+            // InternalSimplepalladio.g:6885:2: ( rule__AssemblyConnector__ProvidedRoleAssignment_3 )
+            // InternalSimplepalladio.g:6885:3: rule__AssemblyConnector__ProvidedRoleAssignment_3
             {
             pushFollow(FOLLOW_2);
             rule__AssemblyConnector__ProvidedRoleAssignment_3();
@@ -20705,14 +20614,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyConnector__Group__4"
-    // InternalSimplepalladio.g:6920:1: rule__AssemblyConnector__Group__4 : rule__AssemblyConnector__Group__4__Impl rule__AssemblyConnector__Group__5 ;
+    // InternalSimplepalladio.g:6893:1: rule__AssemblyConnector__Group__4 : rule__AssemblyConnector__Group__4__Impl rule__AssemblyConnector__Group__5 ;
     public final void rule__AssemblyConnector__Group__4() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6924:1: ( rule__AssemblyConnector__Group__4__Impl rule__AssemblyConnector__Group__5 )
-            // InternalSimplepalladio.g:6925:2: rule__AssemblyConnector__Group__4__Impl rule__AssemblyConnector__Group__5
+            // InternalSimplepalladio.g:6897:1: ( rule__AssemblyConnector__Group__4__Impl rule__AssemblyConnector__Group__5 )
+            // InternalSimplepalladio.g:6898:2: rule__AssemblyConnector__Group__4__Impl rule__AssemblyConnector__Group__5
             {
             pushFollow(FOLLOW_13);
             rule__AssemblyConnector__Group__4__Impl();
@@ -20743,17 +20652,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyConnector__Group__4__Impl"
-    // InternalSimplepalladio.g:6932:1: rule__AssemblyConnector__Group__4__Impl : ( 'requiredRole' ) ;
+    // InternalSimplepalladio.g:6905:1: rule__AssemblyConnector__Group__4__Impl : ( 'requiredRole' ) ;
     public final void rule__AssemblyConnector__Group__4__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6936:1: ( ( 'requiredRole' ) )
-            // InternalSimplepalladio.g:6937:1: ( 'requiredRole' )
+            // InternalSimplepalladio.g:6909:1: ( ( 'requiredRole' ) )
+            // InternalSimplepalladio.g:6910:1: ( 'requiredRole' )
             {
-            // InternalSimplepalladio.g:6937:1: ( 'requiredRole' )
-            // InternalSimplepalladio.g:6938:2: 'requiredRole'
+            // InternalSimplepalladio.g:6910:1: ( 'requiredRole' )
+            // InternalSimplepalladio.g:6911:2: 'requiredRole'
             {
              before(grammarAccess.getAssemblyConnectorAccess().getRequiredRoleKeyword_4()); 
             match(input,65,FOLLOW_2); 
@@ -20780,14 +20689,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyConnector__Group__5"
-    // InternalSimplepalladio.g:6947:1: rule__AssemblyConnector__Group__5 : rule__AssemblyConnector__Group__5__Impl rule__AssemblyConnector__Group__6 ;
+    // InternalSimplepalladio.g:6920:1: rule__AssemblyConnector__Group__5 : rule__AssemblyConnector__Group__5__Impl rule__AssemblyConnector__Group__6 ;
     public final void rule__AssemblyConnector__Group__5() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6951:1: ( rule__AssemblyConnector__Group__5__Impl rule__AssemblyConnector__Group__6 )
-            // InternalSimplepalladio.g:6952:2: rule__AssemblyConnector__Group__5__Impl rule__AssemblyConnector__Group__6
+            // InternalSimplepalladio.g:6924:1: ( rule__AssemblyConnector__Group__5__Impl rule__AssemblyConnector__Group__6 )
+            // InternalSimplepalladio.g:6925:2: rule__AssemblyConnector__Group__5__Impl rule__AssemblyConnector__Group__6
             {
             pushFollow(FOLLOW_7);
             rule__AssemblyConnector__Group__5__Impl();
@@ -20818,21 +20727,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyConnector__Group__5__Impl"
-    // InternalSimplepalladio.g:6959:1: rule__AssemblyConnector__Group__5__Impl : ( ( rule__AssemblyConnector__RequiredRoleAssignment_5 ) ) ;
+    // InternalSimplepalladio.g:6932:1: rule__AssemblyConnector__Group__5__Impl : ( ( rule__AssemblyConnector__RequiredRoleAssignment_5 ) ) ;
     public final void rule__AssemblyConnector__Group__5__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6963:1: ( ( ( rule__AssemblyConnector__RequiredRoleAssignment_5 ) ) )
-            // InternalSimplepalladio.g:6964:1: ( ( rule__AssemblyConnector__RequiredRoleAssignment_5 ) )
+            // InternalSimplepalladio.g:6936:1: ( ( ( rule__AssemblyConnector__RequiredRoleAssignment_5 ) ) )
+            // InternalSimplepalladio.g:6937:1: ( ( rule__AssemblyConnector__RequiredRoleAssignment_5 ) )
             {
-            // InternalSimplepalladio.g:6964:1: ( ( rule__AssemblyConnector__RequiredRoleAssignment_5 ) )
-            // InternalSimplepalladio.g:6965:2: ( rule__AssemblyConnector__RequiredRoleAssignment_5 )
+            // InternalSimplepalladio.g:6937:1: ( ( rule__AssemblyConnector__RequiredRoleAssignment_5 ) )
+            // InternalSimplepalladio.g:6938:2: ( rule__AssemblyConnector__RequiredRoleAssignment_5 )
             {
              before(grammarAccess.getAssemblyConnectorAccess().getRequiredRoleAssignment_5()); 
-            // InternalSimplepalladio.g:6966:2: ( rule__AssemblyConnector__RequiredRoleAssignment_5 )
-            // InternalSimplepalladio.g:6966:3: rule__AssemblyConnector__RequiredRoleAssignment_5
+            // InternalSimplepalladio.g:6939:2: ( rule__AssemblyConnector__RequiredRoleAssignment_5 )
+            // InternalSimplepalladio.g:6939:3: rule__AssemblyConnector__RequiredRoleAssignment_5
             {
             pushFollow(FOLLOW_2);
             rule__AssemblyConnector__RequiredRoleAssignment_5();
@@ -20865,14 +20774,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyConnector__Group__6"
-    // InternalSimplepalladio.g:6974:1: rule__AssemblyConnector__Group__6 : rule__AssemblyConnector__Group__6__Impl ;
+    // InternalSimplepalladio.g:6947:1: rule__AssemblyConnector__Group__6 : rule__AssemblyConnector__Group__6__Impl ;
     public final void rule__AssemblyConnector__Group__6() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6978:1: ( rule__AssemblyConnector__Group__6__Impl )
-            // InternalSimplepalladio.g:6979:2: rule__AssemblyConnector__Group__6__Impl
+            // InternalSimplepalladio.g:6951:1: ( rule__AssemblyConnector__Group__6__Impl )
+            // InternalSimplepalladio.g:6952:2: rule__AssemblyConnector__Group__6__Impl
             {
             pushFollow(FOLLOW_2);
             rule__AssemblyConnector__Group__6__Impl();
@@ -20898,17 +20807,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyConnector__Group__6__Impl"
-    // InternalSimplepalladio.g:6985:1: rule__AssemblyConnector__Group__6__Impl : ( '}' ) ;
+    // InternalSimplepalladio.g:6958:1: rule__AssemblyConnector__Group__6__Impl : ( '}' ) ;
     public final void rule__AssemblyConnector__Group__6__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:6989:1: ( ( '}' ) )
-            // InternalSimplepalladio.g:6990:1: ( '}' )
+            // InternalSimplepalladio.g:6962:1: ( ( '}' ) )
+            // InternalSimplepalladio.g:6963:1: ( '}' )
             {
-            // InternalSimplepalladio.g:6990:1: ( '}' )
-            // InternalSimplepalladio.g:6991:2: '}'
+            // InternalSimplepalladio.g:6963:1: ( '}' )
+            // InternalSimplepalladio.g:6964:2: '}'
             {
              before(grammarAccess.getAssemblyConnectorAccess().getRightCurlyBracketKeyword_6()); 
             match(input,23,FOLLOW_2); 
@@ -20935,14 +20844,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__EnvironmentViewType__Group__0"
-    // InternalSimplepalladio.g:7001:1: rule__EnvironmentViewType__Group__0 : rule__EnvironmentViewType__Group__0__Impl rule__EnvironmentViewType__Group__1 ;
+    // InternalSimplepalladio.g:6974:1: rule__EnvironmentViewType__Group__0 : rule__EnvironmentViewType__Group__0__Impl rule__EnvironmentViewType__Group__1 ;
     public final void rule__EnvironmentViewType__Group__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7005:1: ( rule__EnvironmentViewType__Group__0__Impl rule__EnvironmentViewType__Group__1 )
-            // InternalSimplepalladio.g:7006:2: rule__EnvironmentViewType__Group__0__Impl rule__EnvironmentViewType__Group__1
+            // InternalSimplepalladio.g:6978:1: ( rule__EnvironmentViewType__Group__0__Impl rule__EnvironmentViewType__Group__1 )
+            // InternalSimplepalladio.g:6979:2: rule__EnvironmentViewType__Group__0__Impl rule__EnvironmentViewType__Group__1
             {
             pushFollow(FOLLOW_8);
             rule__EnvironmentViewType__Group__0__Impl();
@@ -20973,17 +20882,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__EnvironmentViewType__Group__0__Impl"
-    // InternalSimplepalladio.g:7013:1: rule__EnvironmentViewType__Group__0__Impl : ( 'EnvironmentViewType' ) ;
+    // InternalSimplepalladio.g:6986:1: rule__EnvironmentViewType__Group__0__Impl : ( 'EnvironmentViewType' ) ;
     public final void rule__EnvironmentViewType__Group__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7017:1: ( ( 'EnvironmentViewType' ) )
-            // InternalSimplepalladio.g:7018:1: ( 'EnvironmentViewType' )
+            // InternalSimplepalladio.g:6990:1: ( ( 'EnvironmentViewType' ) )
+            // InternalSimplepalladio.g:6991:1: ( 'EnvironmentViewType' )
             {
-            // InternalSimplepalladio.g:7018:1: ( 'EnvironmentViewType' )
-            // InternalSimplepalladio.g:7019:2: 'EnvironmentViewType'
+            // InternalSimplepalladio.g:6991:1: ( 'EnvironmentViewType' )
+            // InternalSimplepalladio.g:6992:2: 'EnvironmentViewType'
             {
              before(grammarAccess.getEnvironmentViewTypeAccess().getEnvironmentViewTypeKeyword_0()); 
             match(input,66,FOLLOW_2); 
@@ -21010,16 +20919,16 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__EnvironmentViewType__Group__1"
-    // InternalSimplepalladio.g:7028:1: rule__EnvironmentViewType__Group__1 : rule__EnvironmentViewType__Group__1__Impl rule__EnvironmentViewType__Group__2 ;
+    // InternalSimplepalladio.g:7001:1: rule__EnvironmentViewType__Group__1 : rule__EnvironmentViewType__Group__1__Impl rule__EnvironmentViewType__Group__2 ;
     public final void rule__EnvironmentViewType__Group__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7032:1: ( rule__EnvironmentViewType__Group__1__Impl rule__EnvironmentViewType__Group__2 )
-            // InternalSimplepalladio.g:7033:2: rule__EnvironmentViewType__Group__1__Impl rule__EnvironmentViewType__Group__2
+            // InternalSimplepalladio.g:7005:1: ( rule__EnvironmentViewType__Group__1__Impl rule__EnvironmentViewType__Group__2 )
+            // InternalSimplepalladio.g:7006:2: rule__EnvironmentViewType__Group__1__Impl rule__EnvironmentViewType__Group__2
             {
-            pushFollow(FOLLOW_44);
+            pushFollow(FOLLOW_46);
             rule__EnvironmentViewType__Group__1__Impl();
 
             state._fsp--;
@@ -21048,17 +20957,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__EnvironmentViewType__Group__1__Impl"
-    // InternalSimplepalladio.g:7040:1: rule__EnvironmentViewType__Group__1__Impl : ( '{' ) ;
+    // InternalSimplepalladio.g:7013:1: rule__EnvironmentViewType__Group__1__Impl : ( '{' ) ;
     public final void rule__EnvironmentViewType__Group__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7044:1: ( ( '{' ) )
-            // InternalSimplepalladio.g:7045:1: ( '{' )
+            // InternalSimplepalladio.g:7017:1: ( ( '{' ) )
+            // InternalSimplepalladio.g:7018:1: ( '{' )
             {
-            // InternalSimplepalladio.g:7045:1: ( '{' )
-            // InternalSimplepalladio.g:7046:2: '{'
+            // InternalSimplepalladio.g:7018:1: ( '{' )
+            // InternalSimplepalladio.g:7019:2: '{'
             {
              before(grammarAccess.getEnvironmentViewTypeAccess().getLeftCurlyBracketKeyword_1()); 
             match(input,22,FOLLOW_2); 
@@ -21085,14 +20994,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__EnvironmentViewType__Group__2"
-    // InternalSimplepalladio.g:7055:1: rule__EnvironmentViewType__Group__2 : rule__EnvironmentViewType__Group__2__Impl rule__EnvironmentViewType__Group__3 ;
+    // InternalSimplepalladio.g:7028:1: rule__EnvironmentViewType__Group__2 : rule__EnvironmentViewType__Group__2__Impl rule__EnvironmentViewType__Group__3 ;
     public final void rule__EnvironmentViewType__Group__2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7059:1: ( rule__EnvironmentViewType__Group__2__Impl rule__EnvironmentViewType__Group__3 )
-            // InternalSimplepalladio.g:7060:2: rule__EnvironmentViewType__Group__2__Impl rule__EnvironmentViewType__Group__3
+            // InternalSimplepalladio.g:7032:1: ( rule__EnvironmentViewType__Group__2__Impl rule__EnvironmentViewType__Group__3 )
+            // InternalSimplepalladio.g:7033:2: rule__EnvironmentViewType__Group__2__Impl rule__EnvironmentViewType__Group__3
             {
             pushFollow(FOLLOW_8);
             rule__EnvironmentViewType__Group__2__Impl();
@@ -21123,17 +21032,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__EnvironmentViewType__Group__2__Impl"
-    // InternalSimplepalladio.g:7067:1: rule__EnvironmentViewType__Group__2__Impl : ( 'environmentElements' ) ;
+    // InternalSimplepalladio.g:7040:1: rule__EnvironmentViewType__Group__2__Impl : ( 'environmentElements' ) ;
     public final void rule__EnvironmentViewType__Group__2__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7071:1: ( ( 'environmentElements' ) )
-            // InternalSimplepalladio.g:7072:1: ( 'environmentElements' )
+            // InternalSimplepalladio.g:7044:1: ( ( 'environmentElements' ) )
+            // InternalSimplepalladio.g:7045:1: ( 'environmentElements' )
             {
-            // InternalSimplepalladio.g:7072:1: ( 'environmentElements' )
-            // InternalSimplepalladio.g:7073:2: 'environmentElements'
+            // InternalSimplepalladio.g:7045:1: ( 'environmentElements' )
+            // InternalSimplepalladio.g:7046:2: 'environmentElements'
             {
              before(grammarAccess.getEnvironmentViewTypeAccess().getEnvironmentElementsKeyword_2()); 
             match(input,67,FOLLOW_2); 
@@ -21160,16 +21069,16 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__EnvironmentViewType__Group__3"
-    // InternalSimplepalladio.g:7082:1: rule__EnvironmentViewType__Group__3 : rule__EnvironmentViewType__Group__3__Impl rule__EnvironmentViewType__Group__4 ;
+    // InternalSimplepalladio.g:7055:1: rule__EnvironmentViewType__Group__3 : rule__EnvironmentViewType__Group__3__Impl rule__EnvironmentViewType__Group__4 ;
     public final void rule__EnvironmentViewType__Group__3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7086:1: ( rule__EnvironmentViewType__Group__3__Impl rule__EnvironmentViewType__Group__4 )
-            // InternalSimplepalladio.g:7087:2: rule__EnvironmentViewType__Group__3__Impl rule__EnvironmentViewType__Group__4
+            // InternalSimplepalladio.g:7059:1: ( rule__EnvironmentViewType__Group__3__Impl rule__EnvironmentViewType__Group__4 )
+            // InternalSimplepalladio.g:7060:2: rule__EnvironmentViewType__Group__3__Impl rule__EnvironmentViewType__Group__4
             {
-            pushFollow(FOLLOW_45);
+            pushFollow(FOLLOW_47);
             rule__EnvironmentViewType__Group__3__Impl();
 
             state._fsp--;
@@ -21198,17 +21107,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__EnvironmentViewType__Group__3__Impl"
-    // InternalSimplepalladio.g:7094:1: rule__EnvironmentViewType__Group__3__Impl : ( '{' ) ;
+    // InternalSimplepalladio.g:7067:1: rule__EnvironmentViewType__Group__3__Impl : ( '{' ) ;
     public final void rule__EnvironmentViewType__Group__3__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7098:1: ( ( '{' ) )
-            // InternalSimplepalladio.g:7099:1: ( '{' )
+            // InternalSimplepalladio.g:7071:1: ( ( '{' ) )
+            // InternalSimplepalladio.g:7072:1: ( '{' )
             {
-            // InternalSimplepalladio.g:7099:1: ( '{' )
-            // InternalSimplepalladio.g:7100:2: '{'
+            // InternalSimplepalladio.g:7072:1: ( '{' )
+            // InternalSimplepalladio.g:7073:2: '{'
             {
              before(grammarAccess.getEnvironmentViewTypeAccess().getLeftCurlyBracketKeyword_3()); 
             match(input,22,FOLLOW_2); 
@@ -21235,14 +21144,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__EnvironmentViewType__Group__4"
-    // InternalSimplepalladio.g:7109:1: rule__EnvironmentViewType__Group__4 : rule__EnvironmentViewType__Group__4__Impl rule__EnvironmentViewType__Group__5 ;
+    // InternalSimplepalladio.g:7082:1: rule__EnvironmentViewType__Group__4 : rule__EnvironmentViewType__Group__4__Impl rule__EnvironmentViewType__Group__5 ;
     public final void rule__EnvironmentViewType__Group__4() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7113:1: ( rule__EnvironmentViewType__Group__4__Impl rule__EnvironmentViewType__Group__5 )
-            // InternalSimplepalladio.g:7114:2: rule__EnvironmentViewType__Group__4__Impl rule__EnvironmentViewType__Group__5
+            // InternalSimplepalladio.g:7086:1: ( rule__EnvironmentViewType__Group__4__Impl rule__EnvironmentViewType__Group__5 )
+            // InternalSimplepalladio.g:7087:2: rule__EnvironmentViewType__Group__4__Impl rule__EnvironmentViewType__Group__5
             {
             pushFollow(FOLLOW_11);
             rule__EnvironmentViewType__Group__4__Impl();
@@ -21273,21 +21182,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__EnvironmentViewType__Group__4__Impl"
-    // InternalSimplepalladio.g:7121:1: rule__EnvironmentViewType__Group__4__Impl : ( ( rule__EnvironmentViewType__EnvironmentElementsAssignment_4 ) ) ;
+    // InternalSimplepalladio.g:7094:1: rule__EnvironmentViewType__Group__4__Impl : ( ( rule__EnvironmentViewType__EnvironmentElementsAssignment_4 ) ) ;
     public final void rule__EnvironmentViewType__Group__4__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7125:1: ( ( ( rule__EnvironmentViewType__EnvironmentElementsAssignment_4 ) ) )
-            // InternalSimplepalladio.g:7126:1: ( ( rule__EnvironmentViewType__EnvironmentElementsAssignment_4 ) )
+            // InternalSimplepalladio.g:7098:1: ( ( ( rule__EnvironmentViewType__EnvironmentElementsAssignment_4 ) ) )
+            // InternalSimplepalladio.g:7099:1: ( ( rule__EnvironmentViewType__EnvironmentElementsAssignment_4 ) )
             {
-            // InternalSimplepalladio.g:7126:1: ( ( rule__EnvironmentViewType__EnvironmentElementsAssignment_4 ) )
-            // InternalSimplepalladio.g:7127:2: ( rule__EnvironmentViewType__EnvironmentElementsAssignment_4 )
+            // InternalSimplepalladio.g:7099:1: ( ( rule__EnvironmentViewType__EnvironmentElementsAssignment_4 ) )
+            // InternalSimplepalladio.g:7100:2: ( rule__EnvironmentViewType__EnvironmentElementsAssignment_4 )
             {
              before(grammarAccess.getEnvironmentViewTypeAccess().getEnvironmentElementsAssignment_4()); 
-            // InternalSimplepalladio.g:7128:2: ( rule__EnvironmentViewType__EnvironmentElementsAssignment_4 )
-            // InternalSimplepalladio.g:7128:3: rule__EnvironmentViewType__EnvironmentElementsAssignment_4
+            // InternalSimplepalladio.g:7101:2: ( rule__EnvironmentViewType__EnvironmentElementsAssignment_4 )
+            // InternalSimplepalladio.g:7101:3: rule__EnvironmentViewType__EnvironmentElementsAssignment_4
             {
             pushFollow(FOLLOW_2);
             rule__EnvironmentViewType__EnvironmentElementsAssignment_4();
@@ -21320,14 +21229,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__EnvironmentViewType__Group__5"
-    // InternalSimplepalladio.g:7136:1: rule__EnvironmentViewType__Group__5 : rule__EnvironmentViewType__Group__5__Impl rule__EnvironmentViewType__Group__6 ;
+    // InternalSimplepalladio.g:7109:1: rule__EnvironmentViewType__Group__5 : rule__EnvironmentViewType__Group__5__Impl rule__EnvironmentViewType__Group__6 ;
     public final void rule__EnvironmentViewType__Group__5() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7140:1: ( rule__EnvironmentViewType__Group__5__Impl rule__EnvironmentViewType__Group__6 )
-            // InternalSimplepalladio.g:7141:2: rule__EnvironmentViewType__Group__5__Impl rule__EnvironmentViewType__Group__6
+            // InternalSimplepalladio.g:7113:1: ( rule__EnvironmentViewType__Group__5__Impl rule__EnvironmentViewType__Group__6 )
+            // InternalSimplepalladio.g:7114:2: rule__EnvironmentViewType__Group__5__Impl rule__EnvironmentViewType__Group__6
             {
             pushFollow(FOLLOW_11);
             rule__EnvironmentViewType__Group__5__Impl();
@@ -21358,33 +21267,33 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__EnvironmentViewType__Group__5__Impl"
-    // InternalSimplepalladio.g:7148:1: rule__EnvironmentViewType__Group__5__Impl : ( ( rule__EnvironmentViewType__Group_5__0 )* ) ;
+    // InternalSimplepalladio.g:7121:1: rule__EnvironmentViewType__Group__5__Impl : ( ( rule__EnvironmentViewType__Group_5__0 )* ) ;
     public final void rule__EnvironmentViewType__Group__5__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7152:1: ( ( ( rule__EnvironmentViewType__Group_5__0 )* ) )
-            // InternalSimplepalladio.g:7153:1: ( ( rule__EnvironmentViewType__Group_5__0 )* )
+            // InternalSimplepalladio.g:7125:1: ( ( ( rule__EnvironmentViewType__Group_5__0 )* ) )
+            // InternalSimplepalladio.g:7126:1: ( ( rule__EnvironmentViewType__Group_5__0 )* )
             {
-            // InternalSimplepalladio.g:7153:1: ( ( rule__EnvironmentViewType__Group_5__0 )* )
-            // InternalSimplepalladio.g:7154:2: ( rule__EnvironmentViewType__Group_5__0 )*
+            // InternalSimplepalladio.g:7126:1: ( ( rule__EnvironmentViewType__Group_5__0 )* )
+            // InternalSimplepalladio.g:7127:2: ( rule__EnvironmentViewType__Group_5__0 )*
             {
              before(grammarAccess.getEnvironmentViewTypeAccess().getGroup_5()); 
-            // InternalSimplepalladio.g:7155:2: ( rule__EnvironmentViewType__Group_5__0 )*
-            loop32:
+            // InternalSimplepalladio.g:7128:2: ( rule__EnvironmentViewType__Group_5__0 )*
+            loop31:
             do {
-                int alt32=2;
-                int LA32_0 = input.LA(1);
+                int alt31=2;
+                int LA31_0 = input.LA(1);
 
-                if ( (LA32_0==26) ) {
-                    alt32=1;
+                if ( (LA31_0==26) ) {
+                    alt31=1;
                 }
 
 
-                switch (alt32) {
+                switch (alt31) {
             	case 1 :
-            	    // InternalSimplepalladio.g:7155:3: rule__EnvironmentViewType__Group_5__0
+            	    // InternalSimplepalladio.g:7128:3: rule__EnvironmentViewType__Group_5__0
             	    {
             	    pushFollow(FOLLOW_12);
             	    rule__EnvironmentViewType__Group_5__0();
@@ -21396,7 +21305,7 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
             	    break;
 
             	default :
-            	    break loop32;
+            	    break loop31;
                 }
             } while (true);
 
@@ -21423,14 +21332,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__EnvironmentViewType__Group__6"
-    // InternalSimplepalladio.g:7163:1: rule__EnvironmentViewType__Group__6 : rule__EnvironmentViewType__Group__6__Impl rule__EnvironmentViewType__Group__7 ;
+    // InternalSimplepalladio.g:7136:1: rule__EnvironmentViewType__Group__6 : rule__EnvironmentViewType__Group__6__Impl rule__EnvironmentViewType__Group__7 ;
     public final void rule__EnvironmentViewType__Group__6() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7167:1: ( rule__EnvironmentViewType__Group__6__Impl rule__EnvironmentViewType__Group__7 )
-            // InternalSimplepalladio.g:7168:2: rule__EnvironmentViewType__Group__6__Impl rule__EnvironmentViewType__Group__7
+            // InternalSimplepalladio.g:7140:1: ( rule__EnvironmentViewType__Group__6__Impl rule__EnvironmentViewType__Group__7 )
+            // InternalSimplepalladio.g:7141:2: rule__EnvironmentViewType__Group__6__Impl rule__EnvironmentViewType__Group__7
             {
             pushFollow(FOLLOW_7);
             rule__EnvironmentViewType__Group__6__Impl();
@@ -21461,17 +21370,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__EnvironmentViewType__Group__6__Impl"
-    // InternalSimplepalladio.g:7175:1: rule__EnvironmentViewType__Group__6__Impl : ( '}' ) ;
+    // InternalSimplepalladio.g:7148:1: rule__EnvironmentViewType__Group__6__Impl : ( '}' ) ;
     public final void rule__EnvironmentViewType__Group__6__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7179:1: ( ( '}' ) )
-            // InternalSimplepalladio.g:7180:1: ( '}' )
+            // InternalSimplepalladio.g:7152:1: ( ( '}' ) )
+            // InternalSimplepalladio.g:7153:1: ( '}' )
             {
-            // InternalSimplepalladio.g:7180:1: ( '}' )
-            // InternalSimplepalladio.g:7181:2: '}'
+            // InternalSimplepalladio.g:7153:1: ( '}' )
+            // InternalSimplepalladio.g:7154:2: '}'
             {
              before(grammarAccess.getEnvironmentViewTypeAccess().getRightCurlyBracketKeyword_6()); 
             match(input,23,FOLLOW_2); 
@@ -21498,14 +21407,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__EnvironmentViewType__Group__7"
-    // InternalSimplepalladio.g:7190:1: rule__EnvironmentViewType__Group__7 : rule__EnvironmentViewType__Group__7__Impl ;
+    // InternalSimplepalladio.g:7163:1: rule__EnvironmentViewType__Group__7 : rule__EnvironmentViewType__Group__7__Impl ;
     public final void rule__EnvironmentViewType__Group__7() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7194:1: ( rule__EnvironmentViewType__Group__7__Impl )
-            // InternalSimplepalladio.g:7195:2: rule__EnvironmentViewType__Group__7__Impl
+            // InternalSimplepalladio.g:7167:1: ( rule__EnvironmentViewType__Group__7__Impl )
+            // InternalSimplepalladio.g:7168:2: rule__EnvironmentViewType__Group__7__Impl
             {
             pushFollow(FOLLOW_2);
             rule__EnvironmentViewType__Group__7__Impl();
@@ -21531,17 +21440,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__EnvironmentViewType__Group__7__Impl"
-    // InternalSimplepalladio.g:7201:1: rule__EnvironmentViewType__Group__7__Impl : ( '}' ) ;
+    // InternalSimplepalladio.g:7174:1: rule__EnvironmentViewType__Group__7__Impl : ( '}' ) ;
     public final void rule__EnvironmentViewType__Group__7__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7205:1: ( ( '}' ) )
-            // InternalSimplepalladio.g:7206:1: ( '}' )
+            // InternalSimplepalladio.g:7178:1: ( ( '}' ) )
+            // InternalSimplepalladio.g:7179:1: ( '}' )
             {
-            // InternalSimplepalladio.g:7206:1: ( '}' )
-            // InternalSimplepalladio.g:7207:2: '}'
+            // InternalSimplepalladio.g:7179:1: ( '}' )
+            // InternalSimplepalladio.g:7180:2: '}'
             {
              before(grammarAccess.getEnvironmentViewTypeAccess().getRightCurlyBracketKeyword_7()); 
             match(input,23,FOLLOW_2); 
@@ -21568,16 +21477,16 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__EnvironmentViewType__Group_5__0"
-    // InternalSimplepalladio.g:7217:1: rule__EnvironmentViewType__Group_5__0 : rule__EnvironmentViewType__Group_5__0__Impl rule__EnvironmentViewType__Group_5__1 ;
+    // InternalSimplepalladio.g:7190:1: rule__EnvironmentViewType__Group_5__0 : rule__EnvironmentViewType__Group_5__0__Impl rule__EnvironmentViewType__Group_5__1 ;
     public final void rule__EnvironmentViewType__Group_5__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7221:1: ( rule__EnvironmentViewType__Group_5__0__Impl rule__EnvironmentViewType__Group_5__1 )
-            // InternalSimplepalladio.g:7222:2: rule__EnvironmentViewType__Group_5__0__Impl rule__EnvironmentViewType__Group_5__1
+            // InternalSimplepalladio.g:7194:1: ( rule__EnvironmentViewType__Group_5__0__Impl rule__EnvironmentViewType__Group_5__1 )
+            // InternalSimplepalladio.g:7195:2: rule__EnvironmentViewType__Group_5__0__Impl rule__EnvironmentViewType__Group_5__1
             {
-            pushFollow(FOLLOW_45);
+            pushFollow(FOLLOW_47);
             rule__EnvironmentViewType__Group_5__0__Impl();
 
             state._fsp--;
@@ -21606,17 +21515,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__EnvironmentViewType__Group_5__0__Impl"
-    // InternalSimplepalladio.g:7229:1: rule__EnvironmentViewType__Group_5__0__Impl : ( ',' ) ;
+    // InternalSimplepalladio.g:7202:1: rule__EnvironmentViewType__Group_5__0__Impl : ( ',' ) ;
     public final void rule__EnvironmentViewType__Group_5__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7233:1: ( ( ',' ) )
-            // InternalSimplepalladio.g:7234:1: ( ',' )
+            // InternalSimplepalladio.g:7206:1: ( ( ',' ) )
+            // InternalSimplepalladio.g:7207:1: ( ',' )
             {
-            // InternalSimplepalladio.g:7234:1: ( ',' )
-            // InternalSimplepalladio.g:7235:2: ','
+            // InternalSimplepalladio.g:7207:1: ( ',' )
+            // InternalSimplepalladio.g:7208:2: ','
             {
              before(grammarAccess.getEnvironmentViewTypeAccess().getCommaKeyword_5_0()); 
             match(input,26,FOLLOW_2); 
@@ -21643,14 +21552,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__EnvironmentViewType__Group_5__1"
-    // InternalSimplepalladio.g:7244:1: rule__EnvironmentViewType__Group_5__1 : rule__EnvironmentViewType__Group_5__1__Impl ;
+    // InternalSimplepalladio.g:7217:1: rule__EnvironmentViewType__Group_5__1 : rule__EnvironmentViewType__Group_5__1__Impl ;
     public final void rule__EnvironmentViewType__Group_5__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7248:1: ( rule__EnvironmentViewType__Group_5__1__Impl )
-            // InternalSimplepalladio.g:7249:2: rule__EnvironmentViewType__Group_5__1__Impl
+            // InternalSimplepalladio.g:7221:1: ( rule__EnvironmentViewType__Group_5__1__Impl )
+            // InternalSimplepalladio.g:7222:2: rule__EnvironmentViewType__Group_5__1__Impl
             {
             pushFollow(FOLLOW_2);
             rule__EnvironmentViewType__Group_5__1__Impl();
@@ -21676,21 +21585,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__EnvironmentViewType__Group_5__1__Impl"
-    // InternalSimplepalladio.g:7255:1: rule__EnvironmentViewType__Group_5__1__Impl : ( ( rule__EnvironmentViewType__EnvironmentElementsAssignment_5_1 ) ) ;
+    // InternalSimplepalladio.g:7228:1: rule__EnvironmentViewType__Group_5__1__Impl : ( ( rule__EnvironmentViewType__EnvironmentElementsAssignment_5_1 ) ) ;
     public final void rule__EnvironmentViewType__Group_5__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7259:1: ( ( ( rule__EnvironmentViewType__EnvironmentElementsAssignment_5_1 ) ) )
-            // InternalSimplepalladio.g:7260:1: ( ( rule__EnvironmentViewType__EnvironmentElementsAssignment_5_1 ) )
+            // InternalSimplepalladio.g:7232:1: ( ( ( rule__EnvironmentViewType__EnvironmentElementsAssignment_5_1 ) ) )
+            // InternalSimplepalladio.g:7233:1: ( ( rule__EnvironmentViewType__EnvironmentElementsAssignment_5_1 ) )
             {
-            // InternalSimplepalladio.g:7260:1: ( ( rule__EnvironmentViewType__EnvironmentElementsAssignment_5_1 ) )
-            // InternalSimplepalladio.g:7261:2: ( rule__EnvironmentViewType__EnvironmentElementsAssignment_5_1 )
+            // InternalSimplepalladio.g:7233:1: ( ( rule__EnvironmentViewType__EnvironmentElementsAssignment_5_1 ) )
+            // InternalSimplepalladio.g:7234:2: ( rule__EnvironmentViewType__EnvironmentElementsAssignment_5_1 )
             {
              before(grammarAccess.getEnvironmentViewTypeAccess().getEnvironmentElementsAssignment_5_1()); 
-            // InternalSimplepalladio.g:7262:2: ( rule__EnvironmentViewType__EnvironmentElementsAssignment_5_1 )
-            // InternalSimplepalladio.g:7262:3: rule__EnvironmentViewType__EnvironmentElementsAssignment_5_1
+            // InternalSimplepalladio.g:7235:2: ( rule__EnvironmentViewType__EnvironmentElementsAssignment_5_1 )
+            // InternalSimplepalladio.g:7235:3: rule__EnvironmentViewType__EnvironmentElementsAssignment_5_1
             {
             pushFollow(FOLLOW_2);
             rule__EnvironmentViewType__EnvironmentElementsAssignment_5_1();
@@ -21723,16 +21632,16 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Container__Group__0"
-    // InternalSimplepalladio.g:7271:1: rule__Container__Group__0 : rule__Container__Group__0__Impl rule__Container__Group__1 ;
+    // InternalSimplepalladio.g:7244:1: rule__Container__Group__0 : rule__Container__Group__0__Impl rule__Container__Group__1 ;
     public final void rule__Container__Group__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7275:1: ( rule__Container__Group__0__Impl rule__Container__Group__1 )
-            // InternalSimplepalladio.g:7276:2: rule__Container__Group__0__Impl rule__Container__Group__1
+            // InternalSimplepalladio.g:7248:1: ( rule__Container__Group__0__Impl rule__Container__Group__1 )
+            // InternalSimplepalladio.g:7249:2: rule__Container__Group__0__Impl rule__Container__Group__1
             {
-            pushFollow(FOLLOW_46);
+            pushFollow(FOLLOW_48);
             rule__Container__Group__0__Impl();
 
             state._fsp--;
@@ -21761,21 +21670,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Container__Group__0__Impl"
-    // InternalSimplepalladio.g:7283:1: rule__Container__Group__0__Impl : ( () ) ;
+    // InternalSimplepalladio.g:7256:1: rule__Container__Group__0__Impl : ( () ) ;
     public final void rule__Container__Group__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7287:1: ( ( () ) )
-            // InternalSimplepalladio.g:7288:1: ( () )
+            // InternalSimplepalladio.g:7260:1: ( ( () ) )
+            // InternalSimplepalladio.g:7261:1: ( () )
             {
-            // InternalSimplepalladio.g:7288:1: ( () )
-            // InternalSimplepalladio.g:7289:2: ()
+            // InternalSimplepalladio.g:7261:1: ( () )
+            // InternalSimplepalladio.g:7262:2: ()
             {
              before(grammarAccess.getContainerAccess().getContainerAction_0()); 
-            // InternalSimplepalladio.g:7290:2: ()
-            // InternalSimplepalladio.g:7290:3: 
+            // InternalSimplepalladio.g:7263:2: ()
+            // InternalSimplepalladio.g:7263:3: 
             {
             }
 
@@ -21798,14 +21707,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Container__Group__1"
-    // InternalSimplepalladio.g:7298:1: rule__Container__Group__1 : rule__Container__Group__1__Impl rule__Container__Group__2 ;
+    // InternalSimplepalladio.g:7271:1: rule__Container__Group__1 : rule__Container__Group__1__Impl rule__Container__Group__2 ;
     public final void rule__Container__Group__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7302:1: ( rule__Container__Group__1__Impl rule__Container__Group__2 )
-            // InternalSimplepalladio.g:7303:2: rule__Container__Group__1__Impl rule__Container__Group__2
+            // InternalSimplepalladio.g:7275:1: ( rule__Container__Group__1__Impl rule__Container__Group__2 )
+            // InternalSimplepalladio.g:7276:2: rule__Container__Group__1__Impl rule__Container__Group__2
             {
             pushFollow(FOLLOW_13);
             rule__Container__Group__1__Impl();
@@ -21836,17 +21745,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Container__Group__1__Impl"
-    // InternalSimplepalladio.g:7310:1: rule__Container__Group__1__Impl : ( 'Container' ) ;
+    // InternalSimplepalladio.g:7283:1: rule__Container__Group__1__Impl : ( 'Container' ) ;
     public final void rule__Container__Group__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7314:1: ( ( 'Container' ) )
-            // InternalSimplepalladio.g:7315:1: ( 'Container' )
+            // InternalSimplepalladio.g:7287:1: ( ( 'Container' ) )
+            // InternalSimplepalladio.g:7288:1: ( 'Container' )
             {
-            // InternalSimplepalladio.g:7315:1: ( 'Container' )
-            // InternalSimplepalladio.g:7316:2: 'Container'
+            // InternalSimplepalladio.g:7288:1: ( 'Container' )
+            // InternalSimplepalladio.g:7289:2: 'Container'
             {
              before(grammarAccess.getContainerAccess().getContainerKeyword_1()); 
             match(input,68,FOLLOW_2); 
@@ -21873,14 +21782,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Container__Group__2"
-    // InternalSimplepalladio.g:7325:1: rule__Container__Group__2 : rule__Container__Group__2__Impl ;
+    // InternalSimplepalladio.g:7298:1: rule__Container__Group__2 : rule__Container__Group__2__Impl ;
     public final void rule__Container__Group__2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7329:1: ( rule__Container__Group__2__Impl )
-            // InternalSimplepalladio.g:7330:2: rule__Container__Group__2__Impl
+            // InternalSimplepalladio.g:7302:1: ( rule__Container__Group__2__Impl )
+            // InternalSimplepalladio.g:7303:2: rule__Container__Group__2__Impl
             {
             pushFollow(FOLLOW_2);
             rule__Container__Group__2__Impl();
@@ -21906,21 +21815,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Container__Group__2__Impl"
-    // InternalSimplepalladio.g:7336:1: rule__Container__Group__2__Impl : ( ( rule__Container__NameAssignment_2 ) ) ;
+    // InternalSimplepalladio.g:7309:1: rule__Container__Group__2__Impl : ( ( rule__Container__NameAssignment_2 ) ) ;
     public final void rule__Container__Group__2__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7340:1: ( ( ( rule__Container__NameAssignment_2 ) ) )
-            // InternalSimplepalladio.g:7341:1: ( ( rule__Container__NameAssignment_2 ) )
+            // InternalSimplepalladio.g:7313:1: ( ( ( rule__Container__NameAssignment_2 ) ) )
+            // InternalSimplepalladio.g:7314:1: ( ( rule__Container__NameAssignment_2 ) )
             {
-            // InternalSimplepalladio.g:7341:1: ( ( rule__Container__NameAssignment_2 ) )
-            // InternalSimplepalladio.g:7342:2: ( rule__Container__NameAssignment_2 )
+            // InternalSimplepalladio.g:7314:1: ( ( rule__Container__NameAssignment_2 ) )
+            // InternalSimplepalladio.g:7315:2: ( rule__Container__NameAssignment_2 )
             {
              before(grammarAccess.getContainerAccess().getNameAssignment_2()); 
-            // InternalSimplepalladio.g:7343:2: ( rule__Container__NameAssignment_2 )
-            // InternalSimplepalladio.g:7343:3: rule__Container__NameAssignment_2
+            // InternalSimplepalladio.g:7316:2: ( rule__Container__NameAssignment_2 )
+            // InternalSimplepalladio.g:7316:3: rule__Container__NameAssignment_2
             {
             pushFollow(FOLLOW_2);
             rule__Container__NameAssignment_2();
@@ -21953,14 +21862,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Link__Group__0"
-    // InternalSimplepalladio.g:7352:1: rule__Link__Group__0 : rule__Link__Group__0__Impl rule__Link__Group__1 ;
+    // InternalSimplepalladio.g:7325:1: rule__Link__Group__0 : rule__Link__Group__0__Impl rule__Link__Group__1 ;
     public final void rule__Link__Group__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7356:1: ( rule__Link__Group__0__Impl rule__Link__Group__1 )
-            // InternalSimplepalladio.g:7357:2: rule__Link__Group__0__Impl rule__Link__Group__1
+            // InternalSimplepalladio.g:7329:1: ( rule__Link__Group__0__Impl rule__Link__Group__1 )
+            // InternalSimplepalladio.g:7330:2: rule__Link__Group__0__Impl rule__Link__Group__1
             {
             pushFollow(FOLLOW_13);
             rule__Link__Group__0__Impl();
@@ -21991,17 +21900,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Link__Group__0__Impl"
-    // InternalSimplepalladio.g:7364:1: rule__Link__Group__0__Impl : ( 'Link' ) ;
+    // InternalSimplepalladio.g:7337:1: rule__Link__Group__0__Impl : ( 'Link' ) ;
     public final void rule__Link__Group__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7368:1: ( ( 'Link' ) )
-            // InternalSimplepalladio.g:7369:1: ( 'Link' )
+            // InternalSimplepalladio.g:7341:1: ( ( 'Link' ) )
+            // InternalSimplepalladio.g:7342:1: ( 'Link' )
             {
-            // InternalSimplepalladio.g:7369:1: ( 'Link' )
-            // InternalSimplepalladio.g:7370:2: 'Link'
+            // InternalSimplepalladio.g:7342:1: ( 'Link' )
+            // InternalSimplepalladio.g:7343:2: 'Link'
             {
              before(grammarAccess.getLinkAccess().getLinkKeyword_0()); 
             match(input,69,FOLLOW_2); 
@@ -22028,14 +21937,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Link__Group__1"
-    // InternalSimplepalladio.g:7379:1: rule__Link__Group__1 : rule__Link__Group__1__Impl rule__Link__Group__2 ;
+    // InternalSimplepalladio.g:7352:1: rule__Link__Group__1 : rule__Link__Group__1__Impl rule__Link__Group__2 ;
     public final void rule__Link__Group__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7383:1: ( rule__Link__Group__1__Impl rule__Link__Group__2 )
-            // InternalSimplepalladio.g:7384:2: rule__Link__Group__1__Impl rule__Link__Group__2
+            // InternalSimplepalladio.g:7356:1: ( rule__Link__Group__1__Impl rule__Link__Group__2 )
+            // InternalSimplepalladio.g:7357:2: rule__Link__Group__1__Impl rule__Link__Group__2
             {
             pushFollow(FOLLOW_8);
             rule__Link__Group__1__Impl();
@@ -22066,21 +21975,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Link__Group__1__Impl"
-    // InternalSimplepalladio.g:7391:1: rule__Link__Group__1__Impl : ( ( rule__Link__NameAssignment_1 ) ) ;
+    // InternalSimplepalladio.g:7364:1: rule__Link__Group__1__Impl : ( ( rule__Link__NameAssignment_1 ) ) ;
     public final void rule__Link__Group__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7395:1: ( ( ( rule__Link__NameAssignment_1 ) ) )
-            // InternalSimplepalladio.g:7396:1: ( ( rule__Link__NameAssignment_1 ) )
+            // InternalSimplepalladio.g:7368:1: ( ( ( rule__Link__NameAssignment_1 ) ) )
+            // InternalSimplepalladio.g:7369:1: ( ( rule__Link__NameAssignment_1 ) )
             {
-            // InternalSimplepalladio.g:7396:1: ( ( rule__Link__NameAssignment_1 ) )
-            // InternalSimplepalladio.g:7397:2: ( rule__Link__NameAssignment_1 )
+            // InternalSimplepalladio.g:7369:1: ( ( rule__Link__NameAssignment_1 ) )
+            // InternalSimplepalladio.g:7370:2: ( rule__Link__NameAssignment_1 )
             {
              before(grammarAccess.getLinkAccess().getNameAssignment_1()); 
-            // InternalSimplepalladio.g:7398:2: ( rule__Link__NameAssignment_1 )
-            // InternalSimplepalladio.g:7398:3: rule__Link__NameAssignment_1
+            // InternalSimplepalladio.g:7371:2: ( rule__Link__NameAssignment_1 )
+            // InternalSimplepalladio.g:7371:3: rule__Link__NameAssignment_1
             {
             pushFollow(FOLLOW_2);
             rule__Link__NameAssignment_1();
@@ -22113,16 +22022,16 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Link__Group__2"
-    // InternalSimplepalladio.g:7406:1: rule__Link__Group__2 : rule__Link__Group__2__Impl rule__Link__Group__3 ;
+    // InternalSimplepalladio.g:7379:1: rule__Link__Group__2 : rule__Link__Group__2__Impl rule__Link__Group__3 ;
     public final void rule__Link__Group__2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7410:1: ( rule__Link__Group__2__Impl rule__Link__Group__3 )
-            // InternalSimplepalladio.g:7411:2: rule__Link__Group__2__Impl rule__Link__Group__3
+            // InternalSimplepalladio.g:7383:1: ( rule__Link__Group__2__Impl rule__Link__Group__3 )
+            // InternalSimplepalladio.g:7384:2: rule__Link__Group__2__Impl rule__Link__Group__3
             {
-            pushFollow(FOLLOW_47);
+            pushFollow(FOLLOW_49);
             rule__Link__Group__2__Impl();
 
             state._fsp--;
@@ -22151,17 +22060,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Link__Group__2__Impl"
-    // InternalSimplepalladio.g:7418:1: rule__Link__Group__2__Impl : ( '{' ) ;
+    // InternalSimplepalladio.g:7391:1: rule__Link__Group__2__Impl : ( '{' ) ;
     public final void rule__Link__Group__2__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7422:1: ( ( '{' ) )
-            // InternalSimplepalladio.g:7423:1: ( '{' )
+            // InternalSimplepalladio.g:7395:1: ( ( '{' ) )
+            // InternalSimplepalladio.g:7396:1: ( '{' )
             {
-            // InternalSimplepalladio.g:7423:1: ( '{' )
-            // InternalSimplepalladio.g:7424:2: '{'
+            // InternalSimplepalladio.g:7396:1: ( '{' )
+            // InternalSimplepalladio.g:7397:2: '{'
             {
              before(grammarAccess.getLinkAccess().getLeftCurlyBracketKeyword_2()); 
             match(input,22,FOLLOW_2); 
@@ -22188,14 +22097,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Link__Group__3"
-    // InternalSimplepalladio.g:7433:1: rule__Link__Group__3 : rule__Link__Group__3__Impl rule__Link__Group__4 ;
+    // InternalSimplepalladio.g:7406:1: rule__Link__Group__3 : rule__Link__Group__3__Impl rule__Link__Group__4 ;
     public final void rule__Link__Group__3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7437:1: ( rule__Link__Group__3__Impl rule__Link__Group__4 )
-            // InternalSimplepalladio.g:7438:2: rule__Link__Group__3__Impl rule__Link__Group__4
+            // InternalSimplepalladio.g:7410:1: ( rule__Link__Group__3__Impl rule__Link__Group__4 )
+            // InternalSimplepalladio.g:7411:2: rule__Link__Group__3__Impl rule__Link__Group__4
             {
             pushFollow(FOLLOW_15);
             rule__Link__Group__3__Impl();
@@ -22226,17 +22135,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Link__Group__3__Impl"
-    // InternalSimplepalladio.g:7445:1: rule__Link__Group__3__Impl : ( 'containers' ) ;
+    // InternalSimplepalladio.g:7418:1: rule__Link__Group__3__Impl : ( 'containers' ) ;
     public final void rule__Link__Group__3__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7449:1: ( ( 'containers' ) )
-            // InternalSimplepalladio.g:7450:1: ( 'containers' )
+            // InternalSimplepalladio.g:7422:1: ( ( 'containers' ) )
+            // InternalSimplepalladio.g:7423:1: ( 'containers' )
             {
-            // InternalSimplepalladio.g:7450:1: ( 'containers' )
-            // InternalSimplepalladio.g:7451:2: 'containers'
+            // InternalSimplepalladio.g:7423:1: ( 'containers' )
+            // InternalSimplepalladio.g:7424:2: 'containers'
             {
              before(grammarAccess.getLinkAccess().getContainersKeyword_3()); 
             match(input,70,FOLLOW_2); 
@@ -22263,14 +22172,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Link__Group__4"
-    // InternalSimplepalladio.g:7460:1: rule__Link__Group__4 : rule__Link__Group__4__Impl rule__Link__Group__5 ;
+    // InternalSimplepalladio.g:7433:1: rule__Link__Group__4 : rule__Link__Group__4__Impl rule__Link__Group__5 ;
     public final void rule__Link__Group__4() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7464:1: ( rule__Link__Group__4__Impl rule__Link__Group__5 )
-            // InternalSimplepalladio.g:7465:2: rule__Link__Group__4__Impl rule__Link__Group__5
+            // InternalSimplepalladio.g:7437:1: ( rule__Link__Group__4__Impl rule__Link__Group__5 )
+            // InternalSimplepalladio.g:7438:2: rule__Link__Group__4__Impl rule__Link__Group__5
             {
             pushFollow(FOLLOW_13);
             rule__Link__Group__4__Impl();
@@ -22301,17 +22210,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Link__Group__4__Impl"
-    // InternalSimplepalladio.g:7472:1: rule__Link__Group__4__Impl : ( '(' ) ;
+    // InternalSimplepalladio.g:7445:1: rule__Link__Group__4__Impl : ( '(' ) ;
     public final void rule__Link__Group__4__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7476:1: ( ( '(' ) )
-            // InternalSimplepalladio.g:7477:1: ( '(' )
+            // InternalSimplepalladio.g:7449:1: ( ( '(' ) )
+            // InternalSimplepalladio.g:7450:1: ( '(' )
             {
-            // InternalSimplepalladio.g:7477:1: ( '(' )
-            // InternalSimplepalladio.g:7478:2: '('
+            // InternalSimplepalladio.g:7450:1: ( '(' )
+            // InternalSimplepalladio.g:7451:2: '('
             {
              before(grammarAccess.getLinkAccess().getLeftParenthesisKeyword_4()); 
             match(input,29,FOLLOW_2); 
@@ -22338,16 +22247,16 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Link__Group__5"
-    // InternalSimplepalladio.g:7487:1: rule__Link__Group__5 : rule__Link__Group__5__Impl rule__Link__Group__6 ;
+    // InternalSimplepalladio.g:7460:1: rule__Link__Group__5 : rule__Link__Group__5__Impl rule__Link__Group__6 ;
     public final void rule__Link__Group__5() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7491:1: ( rule__Link__Group__5__Impl rule__Link__Group__6 )
-            // InternalSimplepalladio.g:7492:2: rule__Link__Group__5__Impl rule__Link__Group__6
+            // InternalSimplepalladio.g:7464:1: ( rule__Link__Group__5__Impl rule__Link__Group__6 )
+            // InternalSimplepalladio.g:7465:2: rule__Link__Group__5__Impl rule__Link__Group__6
             {
-            pushFollow(FOLLOW_48);
+            pushFollow(FOLLOW_50);
             rule__Link__Group__5__Impl();
 
             state._fsp--;
@@ -22376,21 +22285,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Link__Group__5__Impl"
-    // InternalSimplepalladio.g:7499:1: rule__Link__Group__5__Impl : ( ( rule__Link__ContainersAssignment_5 ) ) ;
+    // InternalSimplepalladio.g:7472:1: rule__Link__Group__5__Impl : ( ( rule__Link__ContainersAssignment_5 ) ) ;
     public final void rule__Link__Group__5__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7503:1: ( ( ( rule__Link__ContainersAssignment_5 ) ) )
-            // InternalSimplepalladio.g:7504:1: ( ( rule__Link__ContainersAssignment_5 ) )
+            // InternalSimplepalladio.g:7476:1: ( ( ( rule__Link__ContainersAssignment_5 ) ) )
+            // InternalSimplepalladio.g:7477:1: ( ( rule__Link__ContainersAssignment_5 ) )
             {
-            // InternalSimplepalladio.g:7504:1: ( ( rule__Link__ContainersAssignment_5 ) )
-            // InternalSimplepalladio.g:7505:2: ( rule__Link__ContainersAssignment_5 )
+            // InternalSimplepalladio.g:7477:1: ( ( rule__Link__ContainersAssignment_5 ) )
+            // InternalSimplepalladio.g:7478:2: ( rule__Link__ContainersAssignment_5 )
             {
              before(grammarAccess.getLinkAccess().getContainersAssignment_5()); 
-            // InternalSimplepalladio.g:7506:2: ( rule__Link__ContainersAssignment_5 )
-            // InternalSimplepalladio.g:7506:3: rule__Link__ContainersAssignment_5
+            // InternalSimplepalladio.g:7479:2: ( rule__Link__ContainersAssignment_5 )
+            // InternalSimplepalladio.g:7479:3: rule__Link__ContainersAssignment_5
             {
             pushFollow(FOLLOW_2);
             rule__Link__ContainersAssignment_5();
@@ -22423,16 +22332,16 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Link__Group__6"
-    // InternalSimplepalladio.g:7514:1: rule__Link__Group__6 : rule__Link__Group__6__Impl rule__Link__Group__7 ;
+    // InternalSimplepalladio.g:7487:1: rule__Link__Group__6 : rule__Link__Group__6__Impl rule__Link__Group__7 ;
     public final void rule__Link__Group__6() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7518:1: ( rule__Link__Group__6__Impl rule__Link__Group__7 )
-            // InternalSimplepalladio.g:7519:2: rule__Link__Group__6__Impl rule__Link__Group__7
+            // InternalSimplepalladio.g:7491:1: ( rule__Link__Group__6__Impl rule__Link__Group__7 )
+            // InternalSimplepalladio.g:7492:2: rule__Link__Group__6__Impl rule__Link__Group__7
             {
-            pushFollow(FOLLOW_49);
+            pushFollow(FOLLOW_51);
             rule__Link__Group__6__Impl();
 
             state._fsp--;
@@ -22461,24 +22370,24 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Link__Group__6__Impl"
-    // InternalSimplepalladio.g:7526:1: rule__Link__Group__6__Impl : ( ( ( rule__Link__Group_6__0 ) ) ( ( rule__Link__Group_6__0 )* ) ) ;
+    // InternalSimplepalladio.g:7499:1: rule__Link__Group__6__Impl : ( ( ( rule__Link__Group_6__0 ) ) ( ( rule__Link__Group_6__0 )* ) ) ;
     public final void rule__Link__Group__6__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7530:1: ( ( ( ( rule__Link__Group_6__0 ) ) ( ( rule__Link__Group_6__0 )* ) ) )
-            // InternalSimplepalladio.g:7531:1: ( ( ( rule__Link__Group_6__0 ) ) ( ( rule__Link__Group_6__0 )* ) )
+            // InternalSimplepalladio.g:7503:1: ( ( ( ( rule__Link__Group_6__0 ) ) ( ( rule__Link__Group_6__0 )* ) ) )
+            // InternalSimplepalladio.g:7504:1: ( ( ( rule__Link__Group_6__0 ) ) ( ( rule__Link__Group_6__0 )* ) )
             {
-            // InternalSimplepalladio.g:7531:1: ( ( ( rule__Link__Group_6__0 ) ) ( ( rule__Link__Group_6__0 )* ) )
-            // InternalSimplepalladio.g:7532:2: ( ( rule__Link__Group_6__0 ) ) ( ( rule__Link__Group_6__0 )* )
+            // InternalSimplepalladio.g:7504:1: ( ( ( rule__Link__Group_6__0 ) ) ( ( rule__Link__Group_6__0 )* ) )
+            // InternalSimplepalladio.g:7505:2: ( ( rule__Link__Group_6__0 ) ) ( ( rule__Link__Group_6__0 )* )
             {
-            // InternalSimplepalladio.g:7532:2: ( ( rule__Link__Group_6__0 ) )
-            // InternalSimplepalladio.g:7533:3: ( rule__Link__Group_6__0 )
+            // InternalSimplepalladio.g:7505:2: ( ( rule__Link__Group_6__0 ) )
+            // InternalSimplepalladio.g:7506:3: ( rule__Link__Group_6__0 )
             {
              before(grammarAccess.getLinkAccess().getGroup_6()); 
-            // InternalSimplepalladio.g:7534:3: ( rule__Link__Group_6__0 )
-            // InternalSimplepalladio.g:7534:4: rule__Link__Group_6__0
+            // InternalSimplepalladio.g:7507:3: ( rule__Link__Group_6__0 )
+            // InternalSimplepalladio.g:7507:4: rule__Link__Group_6__0
             {
             pushFollow(FOLLOW_12);
             rule__Link__Group_6__0();
@@ -22492,24 +22401,24 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
             }
 
-            // InternalSimplepalladio.g:7537:2: ( ( rule__Link__Group_6__0 )* )
-            // InternalSimplepalladio.g:7538:3: ( rule__Link__Group_6__0 )*
+            // InternalSimplepalladio.g:7510:2: ( ( rule__Link__Group_6__0 )* )
+            // InternalSimplepalladio.g:7511:3: ( rule__Link__Group_6__0 )*
             {
              before(grammarAccess.getLinkAccess().getGroup_6()); 
-            // InternalSimplepalladio.g:7539:3: ( rule__Link__Group_6__0 )*
-            loop33:
+            // InternalSimplepalladio.g:7512:3: ( rule__Link__Group_6__0 )*
+            loop32:
             do {
-                int alt33=2;
-                int LA33_0 = input.LA(1);
+                int alt32=2;
+                int LA32_0 = input.LA(1);
 
-                if ( (LA33_0==26) ) {
-                    alt33=1;
+                if ( (LA32_0==26) ) {
+                    alt32=1;
                 }
 
 
-                switch (alt33) {
+                switch (alt32) {
             	case 1 :
-            	    // InternalSimplepalladio.g:7539:4: rule__Link__Group_6__0
+            	    // InternalSimplepalladio.g:7512:4: rule__Link__Group_6__0
             	    {
             	    pushFollow(FOLLOW_12);
             	    rule__Link__Group_6__0();
@@ -22521,7 +22430,7 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
             	    break;
 
             	default :
-            	    break loop33;
+            	    break loop32;
                 }
             } while (true);
 
@@ -22551,14 +22460,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Link__Group__7"
-    // InternalSimplepalladio.g:7548:1: rule__Link__Group__7 : rule__Link__Group__7__Impl rule__Link__Group__8 ;
+    // InternalSimplepalladio.g:7521:1: rule__Link__Group__7 : rule__Link__Group__7__Impl rule__Link__Group__8 ;
     public final void rule__Link__Group__7() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7552:1: ( rule__Link__Group__7__Impl rule__Link__Group__8 )
-            // InternalSimplepalladio.g:7553:2: rule__Link__Group__7__Impl rule__Link__Group__8
+            // InternalSimplepalladio.g:7525:1: ( rule__Link__Group__7__Impl rule__Link__Group__8 )
+            // InternalSimplepalladio.g:7526:2: rule__Link__Group__7__Impl rule__Link__Group__8
             {
             pushFollow(FOLLOW_7);
             rule__Link__Group__7__Impl();
@@ -22589,17 +22498,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Link__Group__7__Impl"
-    // InternalSimplepalladio.g:7560:1: rule__Link__Group__7__Impl : ( ')' ) ;
+    // InternalSimplepalladio.g:7533:1: rule__Link__Group__7__Impl : ( ')' ) ;
     public final void rule__Link__Group__7__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7564:1: ( ( ')' ) )
-            // InternalSimplepalladio.g:7565:1: ( ')' )
+            // InternalSimplepalladio.g:7537:1: ( ( ')' ) )
+            // InternalSimplepalladio.g:7538:1: ( ')' )
             {
-            // InternalSimplepalladio.g:7565:1: ( ')' )
-            // InternalSimplepalladio.g:7566:2: ')'
+            // InternalSimplepalladio.g:7538:1: ( ')' )
+            // InternalSimplepalladio.g:7539:2: ')'
             {
              before(grammarAccess.getLinkAccess().getRightParenthesisKeyword_7()); 
             match(input,30,FOLLOW_2); 
@@ -22626,14 +22535,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Link__Group__8"
-    // InternalSimplepalladio.g:7575:1: rule__Link__Group__8 : rule__Link__Group__8__Impl ;
+    // InternalSimplepalladio.g:7548:1: rule__Link__Group__8 : rule__Link__Group__8__Impl ;
     public final void rule__Link__Group__8() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7579:1: ( rule__Link__Group__8__Impl )
-            // InternalSimplepalladio.g:7580:2: rule__Link__Group__8__Impl
+            // InternalSimplepalladio.g:7552:1: ( rule__Link__Group__8__Impl )
+            // InternalSimplepalladio.g:7553:2: rule__Link__Group__8__Impl
             {
             pushFollow(FOLLOW_2);
             rule__Link__Group__8__Impl();
@@ -22659,17 +22568,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Link__Group__8__Impl"
-    // InternalSimplepalladio.g:7586:1: rule__Link__Group__8__Impl : ( '}' ) ;
+    // InternalSimplepalladio.g:7559:1: rule__Link__Group__8__Impl : ( '}' ) ;
     public final void rule__Link__Group__8__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7590:1: ( ( '}' ) )
-            // InternalSimplepalladio.g:7591:1: ( '}' )
+            // InternalSimplepalladio.g:7563:1: ( ( '}' ) )
+            // InternalSimplepalladio.g:7564:1: ( '}' )
             {
-            // InternalSimplepalladio.g:7591:1: ( '}' )
-            // InternalSimplepalladio.g:7592:2: '}'
+            // InternalSimplepalladio.g:7564:1: ( '}' )
+            // InternalSimplepalladio.g:7565:2: '}'
             {
              before(grammarAccess.getLinkAccess().getRightCurlyBracketKeyword_8()); 
             match(input,23,FOLLOW_2); 
@@ -22696,14 +22605,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Link__Group_6__0"
-    // InternalSimplepalladio.g:7602:1: rule__Link__Group_6__0 : rule__Link__Group_6__0__Impl rule__Link__Group_6__1 ;
+    // InternalSimplepalladio.g:7575:1: rule__Link__Group_6__0 : rule__Link__Group_6__0__Impl rule__Link__Group_6__1 ;
     public final void rule__Link__Group_6__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7606:1: ( rule__Link__Group_6__0__Impl rule__Link__Group_6__1 )
-            // InternalSimplepalladio.g:7607:2: rule__Link__Group_6__0__Impl rule__Link__Group_6__1
+            // InternalSimplepalladio.g:7579:1: ( rule__Link__Group_6__0__Impl rule__Link__Group_6__1 )
+            // InternalSimplepalladio.g:7580:2: rule__Link__Group_6__0__Impl rule__Link__Group_6__1
             {
             pushFollow(FOLLOW_13);
             rule__Link__Group_6__0__Impl();
@@ -22734,17 +22643,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Link__Group_6__0__Impl"
-    // InternalSimplepalladio.g:7614:1: rule__Link__Group_6__0__Impl : ( ',' ) ;
+    // InternalSimplepalladio.g:7587:1: rule__Link__Group_6__0__Impl : ( ',' ) ;
     public final void rule__Link__Group_6__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7618:1: ( ( ',' ) )
-            // InternalSimplepalladio.g:7619:1: ( ',' )
+            // InternalSimplepalladio.g:7591:1: ( ( ',' ) )
+            // InternalSimplepalladio.g:7592:1: ( ',' )
             {
-            // InternalSimplepalladio.g:7619:1: ( ',' )
-            // InternalSimplepalladio.g:7620:2: ','
+            // InternalSimplepalladio.g:7592:1: ( ',' )
+            // InternalSimplepalladio.g:7593:2: ','
             {
              before(grammarAccess.getLinkAccess().getCommaKeyword_6_0()); 
             match(input,26,FOLLOW_2); 
@@ -22771,14 +22680,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Link__Group_6__1"
-    // InternalSimplepalladio.g:7629:1: rule__Link__Group_6__1 : rule__Link__Group_6__1__Impl ;
+    // InternalSimplepalladio.g:7602:1: rule__Link__Group_6__1 : rule__Link__Group_6__1__Impl ;
     public final void rule__Link__Group_6__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7633:1: ( rule__Link__Group_6__1__Impl )
-            // InternalSimplepalladio.g:7634:2: rule__Link__Group_6__1__Impl
+            // InternalSimplepalladio.g:7606:1: ( rule__Link__Group_6__1__Impl )
+            // InternalSimplepalladio.g:7607:2: rule__Link__Group_6__1__Impl
             {
             pushFollow(FOLLOW_2);
             rule__Link__Group_6__1__Impl();
@@ -22804,21 +22713,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Link__Group_6__1__Impl"
-    // InternalSimplepalladio.g:7640:1: rule__Link__Group_6__1__Impl : ( ( rule__Link__ContainersAssignment_6_1 ) ) ;
+    // InternalSimplepalladio.g:7613:1: rule__Link__Group_6__1__Impl : ( ( rule__Link__ContainersAssignment_6_1 ) ) ;
     public final void rule__Link__Group_6__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7644:1: ( ( ( rule__Link__ContainersAssignment_6_1 ) ) )
-            // InternalSimplepalladio.g:7645:1: ( ( rule__Link__ContainersAssignment_6_1 ) )
+            // InternalSimplepalladio.g:7617:1: ( ( ( rule__Link__ContainersAssignment_6_1 ) ) )
+            // InternalSimplepalladio.g:7618:1: ( ( rule__Link__ContainersAssignment_6_1 ) )
             {
-            // InternalSimplepalladio.g:7645:1: ( ( rule__Link__ContainersAssignment_6_1 ) )
-            // InternalSimplepalladio.g:7646:2: ( rule__Link__ContainersAssignment_6_1 )
+            // InternalSimplepalladio.g:7618:1: ( ( rule__Link__ContainersAssignment_6_1 ) )
+            // InternalSimplepalladio.g:7619:2: ( rule__Link__ContainersAssignment_6_1 )
             {
              before(grammarAccess.getLinkAccess().getContainersAssignment_6_1()); 
-            // InternalSimplepalladio.g:7647:2: ( rule__Link__ContainersAssignment_6_1 )
-            // InternalSimplepalladio.g:7647:3: rule__Link__ContainersAssignment_6_1
+            // InternalSimplepalladio.g:7620:2: ( rule__Link__ContainersAssignment_6_1 )
+            // InternalSimplepalladio.g:7620:3: rule__Link__ContainersAssignment_6_1
             {
             pushFollow(FOLLOW_2);
             rule__Link__ContainersAssignment_6_1();
@@ -22851,14 +22760,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AllocationViewType__Group__0"
-    // InternalSimplepalladio.g:7656:1: rule__AllocationViewType__Group__0 : rule__AllocationViewType__Group__0__Impl rule__AllocationViewType__Group__1 ;
+    // InternalSimplepalladio.g:7629:1: rule__AllocationViewType__Group__0 : rule__AllocationViewType__Group__0__Impl rule__AllocationViewType__Group__1 ;
     public final void rule__AllocationViewType__Group__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7660:1: ( rule__AllocationViewType__Group__0__Impl rule__AllocationViewType__Group__1 )
-            // InternalSimplepalladio.g:7661:2: rule__AllocationViewType__Group__0__Impl rule__AllocationViewType__Group__1
+            // InternalSimplepalladio.g:7633:1: ( rule__AllocationViewType__Group__0__Impl rule__AllocationViewType__Group__1 )
+            // InternalSimplepalladio.g:7634:2: rule__AllocationViewType__Group__0__Impl rule__AllocationViewType__Group__1
             {
             pushFollow(FOLLOW_8);
             rule__AllocationViewType__Group__0__Impl();
@@ -22889,17 +22798,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AllocationViewType__Group__0__Impl"
-    // InternalSimplepalladio.g:7668:1: rule__AllocationViewType__Group__0__Impl : ( 'AllocationViewType' ) ;
+    // InternalSimplepalladio.g:7641:1: rule__AllocationViewType__Group__0__Impl : ( 'AllocationViewType' ) ;
     public final void rule__AllocationViewType__Group__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7672:1: ( ( 'AllocationViewType' ) )
-            // InternalSimplepalladio.g:7673:1: ( 'AllocationViewType' )
+            // InternalSimplepalladio.g:7645:1: ( ( 'AllocationViewType' ) )
+            // InternalSimplepalladio.g:7646:1: ( 'AllocationViewType' )
             {
-            // InternalSimplepalladio.g:7673:1: ( 'AllocationViewType' )
-            // InternalSimplepalladio.g:7674:2: 'AllocationViewType'
+            // InternalSimplepalladio.g:7646:1: ( 'AllocationViewType' )
+            // InternalSimplepalladio.g:7647:2: 'AllocationViewType'
             {
              before(grammarAccess.getAllocationViewTypeAccess().getAllocationViewTypeKeyword_0()); 
             match(input,71,FOLLOW_2); 
@@ -22926,16 +22835,16 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AllocationViewType__Group__1"
-    // InternalSimplepalladio.g:7683:1: rule__AllocationViewType__Group__1 : rule__AllocationViewType__Group__1__Impl rule__AllocationViewType__Group__2 ;
+    // InternalSimplepalladio.g:7656:1: rule__AllocationViewType__Group__1 : rule__AllocationViewType__Group__1__Impl rule__AllocationViewType__Group__2 ;
     public final void rule__AllocationViewType__Group__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7687:1: ( rule__AllocationViewType__Group__1__Impl rule__AllocationViewType__Group__2 )
-            // InternalSimplepalladio.g:7688:2: rule__AllocationViewType__Group__1__Impl rule__AllocationViewType__Group__2
+            // InternalSimplepalladio.g:7660:1: ( rule__AllocationViewType__Group__1__Impl rule__AllocationViewType__Group__2 )
+            // InternalSimplepalladio.g:7661:2: rule__AllocationViewType__Group__1__Impl rule__AllocationViewType__Group__2
             {
-            pushFollow(FOLLOW_50);
+            pushFollow(FOLLOW_52);
             rule__AllocationViewType__Group__1__Impl();
 
             state._fsp--;
@@ -22964,17 +22873,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AllocationViewType__Group__1__Impl"
-    // InternalSimplepalladio.g:7695:1: rule__AllocationViewType__Group__1__Impl : ( '{' ) ;
+    // InternalSimplepalladio.g:7668:1: rule__AllocationViewType__Group__1__Impl : ( '{' ) ;
     public final void rule__AllocationViewType__Group__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7699:1: ( ( '{' ) )
-            // InternalSimplepalladio.g:7700:1: ( '{' )
+            // InternalSimplepalladio.g:7672:1: ( ( '{' ) )
+            // InternalSimplepalladio.g:7673:1: ( '{' )
             {
-            // InternalSimplepalladio.g:7700:1: ( '{' )
-            // InternalSimplepalladio.g:7701:2: '{'
+            // InternalSimplepalladio.g:7673:1: ( '{' )
+            // InternalSimplepalladio.g:7674:2: '{'
             {
              before(grammarAccess.getAllocationViewTypeAccess().getLeftCurlyBracketKeyword_1()); 
             match(input,22,FOLLOW_2); 
@@ -23001,14 +22910,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AllocationViewType__Group__2"
-    // InternalSimplepalladio.g:7710:1: rule__AllocationViewType__Group__2 : rule__AllocationViewType__Group__2__Impl rule__AllocationViewType__Group__3 ;
+    // InternalSimplepalladio.g:7683:1: rule__AllocationViewType__Group__2 : rule__AllocationViewType__Group__2__Impl rule__AllocationViewType__Group__3 ;
     public final void rule__AllocationViewType__Group__2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7714:1: ( rule__AllocationViewType__Group__2__Impl rule__AllocationViewType__Group__3 )
-            // InternalSimplepalladio.g:7715:2: rule__AllocationViewType__Group__2__Impl rule__AllocationViewType__Group__3
+            // InternalSimplepalladio.g:7687:1: ( rule__AllocationViewType__Group__2__Impl rule__AllocationViewType__Group__3 )
+            // InternalSimplepalladio.g:7688:2: rule__AllocationViewType__Group__2__Impl rule__AllocationViewType__Group__3
             {
             pushFollow(FOLLOW_8);
             rule__AllocationViewType__Group__2__Impl();
@@ -23039,17 +22948,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AllocationViewType__Group__2__Impl"
-    // InternalSimplepalladio.g:7722:1: rule__AllocationViewType__Group__2__Impl : ( 'allocationContexts' ) ;
+    // InternalSimplepalladio.g:7695:1: rule__AllocationViewType__Group__2__Impl : ( 'allocationContexts' ) ;
     public final void rule__AllocationViewType__Group__2__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7726:1: ( ( 'allocationContexts' ) )
-            // InternalSimplepalladio.g:7727:1: ( 'allocationContexts' )
+            // InternalSimplepalladio.g:7699:1: ( ( 'allocationContexts' ) )
+            // InternalSimplepalladio.g:7700:1: ( 'allocationContexts' )
             {
-            // InternalSimplepalladio.g:7727:1: ( 'allocationContexts' )
-            // InternalSimplepalladio.g:7728:2: 'allocationContexts'
+            // InternalSimplepalladio.g:7700:1: ( 'allocationContexts' )
+            // InternalSimplepalladio.g:7701:2: 'allocationContexts'
             {
              before(grammarAccess.getAllocationViewTypeAccess().getAllocationContextsKeyword_2()); 
             match(input,72,FOLLOW_2); 
@@ -23076,16 +22985,16 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AllocationViewType__Group__3"
-    // InternalSimplepalladio.g:7737:1: rule__AllocationViewType__Group__3 : rule__AllocationViewType__Group__3__Impl rule__AllocationViewType__Group__4 ;
+    // InternalSimplepalladio.g:7710:1: rule__AllocationViewType__Group__3 : rule__AllocationViewType__Group__3__Impl rule__AllocationViewType__Group__4 ;
     public final void rule__AllocationViewType__Group__3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7741:1: ( rule__AllocationViewType__Group__3__Impl rule__AllocationViewType__Group__4 )
-            // InternalSimplepalladio.g:7742:2: rule__AllocationViewType__Group__3__Impl rule__AllocationViewType__Group__4
+            // InternalSimplepalladio.g:7714:1: ( rule__AllocationViewType__Group__3__Impl rule__AllocationViewType__Group__4 )
+            // InternalSimplepalladio.g:7715:2: rule__AllocationViewType__Group__3__Impl rule__AllocationViewType__Group__4
             {
-            pushFollow(FOLLOW_51);
+            pushFollow(FOLLOW_53);
             rule__AllocationViewType__Group__3__Impl();
 
             state._fsp--;
@@ -23114,17 +23023,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AllocationViewType__Group__3__Impl"
-    // InternalSimplepalladio.g:7749:1: rule__AllocationViewType__Group__3__Impl : ( '{' ) ;
+    // InternalSimplepalladio.g:7722:1: rule__AllocationViewType__Group__3__Impl : ( '{' ) ;
     public final void rule__AllocationViewType__Group__3__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7753:1: ( ( '{' ) )
-            // InternalSimplepalladio.g:7754:1: ( '{' )
+            // InternalSimplepalladio.g:7726:1: ( ( '{' ) )
+            // InternalSimplepalladio.g:7727:1: ( '{' )
             {
-            // InternalSimplepalladio.g:7754:1: ( '{' )
-            // InternalSimplepalladio.g:7755:2: '{'
+            // InternalSimplepalladio.g:7727:1: ( '{' )
+            // InternalSimplepalladio.g:7728:2: '{'
             {
              before(grammarAccess.getAllocationViewTypeAccess().getLeftCurlyBracketKeyword_3()); 
             match(input,22,FOLLOW_2); 
@@ -23151,14 +23060,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AllocationViewType__Group__4"
-    // InternalSimplepalladio.g:7764:1: rule__AllocationViewType__Group__4 : rule__AllocationViewType__Group__4__Impl rule__AllocationViewType__Group__5 ;
+    // InternalSimplepalladio.g:7737:1: rule__AllocationViewType__Group__4 : rule__AllocationViewType__Group__4__Impl rule__AllocationViewType__Group__5 ;
     public final void rule__AllocationViewType__Group__4() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7768:1: ( rule__AllocationViewType__Group__4__Impl rule__AllocationViewType__Group__5 )
-            // InternalSimplepalladio.g:7769:2: rule__AllocationViewType__Group__4__Impl rule__AllocationViewType__Group__5
+            // InternalSimplepalladio.g:7741:1: ( rule__AllocationViewType__Group__4__Impl rule__AllocationViewType__Group__5 )
+            // InternalSimplepalladio.g:7742:2: rule__AllocationViewType__Group__4__Impl rule__AllocationViewType__Group__5
             {
             pushFollow(FOLLOW_11);
             rule__AllocationViewType__Group__4__Impl();
@@ -23189,21 +23098,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AllocationViewType__Group__4__Impl"
-    // InternalSimplepalladio.g:7776:1: rule__AllocationViewType__Group__4__Impl : ( ( rule__AllocationViewType__AllocationContextsAssignment_4 ) ) ;
+    // InternalSimplepalladio.g:7749:1: rule__AllocationViewType__Group__4__Impl : ( ( rule__AllocationViewType__AllocationContextsAssignment_4 ) ) ;
     public final void rule__AllocationViewType__Group__4__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7780:1: ( ( ( rule__AllocationViewType__AllocationContextsAssignment_4 ) ) )
-            // InternalSimplepalladio.g:7781:1: ( ( rule__AllocationViewType__AllocationContextsAssignment_4 ) )
+            // InternalSimplepalladio.g:7753:1: ( ( ( rule__AllocationViewType__AllocationContextsAssignment_4 ) ) )
+            // InternalSimplepalladio.g:7754:1: ( ( rule__AllocationViewType__AllocationContextsAssignment_4 ) )
             {
-            // InternalSimplepalladio.g:7781:1: ( ( rule__AllocationViewType__AllocationContextsAssignment_4 ) )
-            // InternalSimplepalladio.g:7782:2: ( rule__AllocationViewType__AllocationContextsAssignment_4 )
+            // InternalSimplepalladio.g:7754:1: ( ( rule__AllocationViewType__AllocationContextsAssignment_4 ) )
+            // InternalSimplepalladio.g:7755:2: ( rule__AllocationViewType__AllocationContextsAssignment_4 )
             {
              before(grammarAccess.getAllocationViewTypeAccess().getAllocationContextsAssignment_4()); 
-            // InternalSimplepalladio.g:7783:2: ( rule__AllocationViewType__AllocationContextsAssignment_4 )
-            // InternalSimplepalladio.g:7783:3: rule__AllocationViewType__AllocationContextsAssignment_4
+            // InternalSimplepalladio.g:7756:2: ( rule__AllocationViewType__AllocationContextsAssignment_4 )
+            // InternalSimplepalladio.g:7756:3: rule__AllocationViewType__AllocationContextsAssignment_4
             {
             pushFollow(FOLLOW_2);
             rule__AllocationViewType__AllocationContextsAssignment_4();
@@ -23236,14 +23145,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AllocationViewType__Group__5"
-    // InternalSimplepalladio.g:7791:1: rule__AllocationViewType__Group__5 : rule__AllocationViewType__Group__5__Impl rule__AllocationViewType__Group__6 ;
+    // InternalSimplepalladio.g:7764:1: rule__AllocationViewType__Group__5 : rule__AllocationViewType__Group__5__Impl rule__AllocationViewType__Group__6 ;
     public final void rule__AllocationViewType__Group__5() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7795:1: ( rule__AllocationViewType__Group__5__Impl rule__AllocationViewType__Group__6 )
-            // InternalSimplepalladio.g:7796:2: rule__AllocationViewType__Group__5__Impl rule__AllocationViewType__Group__6
+            // InternalSimplepalladio.g:7768:1: ( rule__AllocationViewType__Group__5__Impl rule__AllocationViewType__Group__6 )
+            // InternalSimplepalladio.g:7769:2: rule__AllocationViewType__Group__5__Impl rule__AllocationViewType__Group__6
             {
             pushFollow(FOLLOW_11);
             rule__AllocationViewType__Group__5__Impl();
@@ -23274,33 +23183,33 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AllocationViewType__Group__5__Impl"
-    // InternalSimplepalladio.g:7803:1: rule__AllocationViewType__Group__5__Impl : ( ( rule__AllocationViewType__Group_5__0 )* ) ;
+    // InternalSimplepalladio.g:7776:1: rule__AllocationViewType__Group__5__Impl : ( ( rule__AllocationViewType__Group_5__0 )* ) ;
     public final void rule__AllocationViewType__Group__5__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7807:1: ( ( ( rule__AllocationViewType__Group_5__0 )* ) )
-            // InternalSimplepalladio.g:7808:1: ( ( rule__AllocationViewType__Group_5__0 )* )
+            // InternalSimplepalladio.g:7780:1: ( ( ( rule__AllocationViewType__Group_5__0 )* ) )
+            // InternalSimplepalladio.g:7781:1: ( ( rule__AllocationViewType__Group_5__0 )* )
             {
-            // InternalSimplepalladio.g:7808:1: ( ( rule__AllocationViewType__Group_5__0 )* )
-            // InternalSimplepalladio.g:7809:2: ( rule__AllocationViewType__Group_5__0 )*
+            // InternalSimplepalladio.g:7781:1: ( ( rule__AllocationViewType__Group_5__0 )* )
+            // InternalSimplepalladio.g:7782:2: ( rule__AllocationViewType__Group_5__0 )*
             {
              before(grammarAccess.getAllocationViewTypeAccess().getGroup_5()); 
-            // InternalSimplepalladio.g:7810:2: ( rule__AllocationViewType__Group_5__0 )*
-            loop34:
+            // InternalSimplepalladio.g:7783:2: ( rule__AllocationViewType__Group_5__0 )*
+            loop33:
             do {
-                int alt34=2;
-                int LA34_0 = input.LA(1);
+                int alt33=2;
+                int LA33_0 = input.LA(1);
 
-                if ( (LA34_0==26) ) {
-                    alt34=1;
+                if ( (LA33_0==26) ) {
+                    alt33=1;
                 }
 
 
-                switch (alt34) {
+                switch (alt33) {
             	case 1 :
-            	    // InternalSimplepalladio.g:7810:3: rule__AllocationViewType__Group_5__0
+            	    // InternalSimplepalladio.g:7783:3: rule__AllocationViewType__Group_5__0
             	    {
             	    pushFollow(FOLLOW_12);
             	    rule__AllocationViewType__Group_5__0();
@@ -23312,7 +23221,7 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
             	    break;
 
             	default :
-            	    break loop34;
+            	    break loop33;
                 }
             } while (true);
 
@@ -23339,14 +23248,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AllocationViewType__Group__6"
-    // InternalSimplepalladio.g:7818:1: rule__AllocationViewType__Group__6 : rule__AllocationViewType__Group__6__Impl rule__AllocationViewType__Group__7 ;
+    // InternalSimplepalladio.g:7791:1: rule__AllocationViewType__Group__6 : rule__AllocationViewType__Group__6__Impl rule__AllocationViewType__Group__7 ;
     public final void rule__AllocationViewType__Group__6() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7822:1: ( rule__AllocationViewType__Group__6__Impl rule__AllocationViewType__Group__7 )
-            // InternalSimplepalladio.g:7823:2: rule__AllocationViewType__Group__6__Impl rule__AllocationViewType__Group__7
+            // InternalSimplepalladio.g:7795:1: ( rule__AllocationViewType__Group__6__Impl rule__AllocationViewType__Group__7 )
+            // InternalSimplepalladio.g:7796:2: rule__AllocationViewType__Group__6__Impl rule__AllocationViewType__Group__7
             {
             pushFollow(FOLLOW_7);
             rule__AllocationViewType__Group__6__Impl();
@@ -23377,17 +23286,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AllocationViewType__Group__6__Impl"
-    // InternalSimplepalladio.g:7830:1: rule__AllocationViewType__Group__6__Impl : ( '}' ) ;
+    // InternalSimplepalladio.g:7803:1: rule__AllocationViewType__Group__6__Impl : ( '}' ) ;
     public final void rule__AllocationViewType__Group__6__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7834:1: ( ( '}' ) )
-            // InternalSimplepalladio.g:7835:1: ( '}' )
+            // InternalSimplepalladio.g:7807:1: ( ( '}' ) )
+            // InternalSimplepalladio.g:7808:1: ( '}' )
             {
-            // InternalSimplepalladio.g:7835:1: ( '}' )
-            // InternalSimplepalladio.g:7836:2: '}'
+            // InternalSimplepalladio.g:7808:1: ( '}' )
+            // InternalSimplepalladio.g:7809:2: '}'
             {
              before(grammarAccess.getAllocationViewTypeAccess().getRightCurlyBracketKeyword_6()); 
             match(input,23,FOLLOW_2); 
@@ -23414,14 +23323,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AllocationViewType__Group__7"
-    // InternalSimplepalladio.g:7845:1: rule__AllocationViewType__Group__7 : rule__AllocationViewType__Group__7__Impl ;
+    // InternalSimplepalladio.g:7818:1: rule__AllocationViewType__Group__7 : rule__AllocationViewType__Group__7__Impl ;
     public final void rule__AllocationViewType__Group__7() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7849:1: ( rule__AllocationViewType__Group__7__Impl )
-            // InternalSimplepalladio.g:7850:2: rule__AllocationViewType__Group__7__Impl
+            // InternalSimplepalladio.g:7822:1: ( rule__AllocationViewType__Group__7__Impl )
+            // InternalSimplepalladio.g:7823:2: rule__AllocationViewType__Group__7__Impl
             {
             pushFollow(FOLLOW_2);
             rule__AllocationViewType__Group__7__Impl();
@@ -23447,17 +23356,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AllocationViewType__Group__7__Impl"
-    // InternalSimplepalladio.g:7856:1: rule__AllocationViewType__Group__7__Impl : ( '}' ) ;
+    // InternalSimplepalladio.g:7829:1: rule__AllocationViewType__Group__7__Impl : ( '}' ) ;
     public final void rule__AllocationViewType__Group__7__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7860:1: ( ( '}' ) )
-            // InternalSimplepalladio.g:7861:1: ( '}' )
+            // InternalSimplepalladio.g:7833:1: ( ( '}' ) )
+            // InternalSimplepalladio.g:7834:1: ( '}' )
             {
-            // InternalSimplepalladio.g:7861:1: ( '}' )
-            // InternalSimplepalladio.g:7862:2: '}'
+            // InternalSimplepalladio.g:7834:1: ( '}' )
+            // InternalSimplepalladio.g:7835:2: '}'
             {
              before(grammarAccess.getAllocationViewTypeAccess().getRightCurlyBracketKeyword_7()); 
             match(input,23,FOLLOW_2); 
@@ -23484,16 +23393,16 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AllocationViewType__Group_5__0"
-    // InternalSimplepalladio.g:7872:1: rule__AllocationViewType__Group_5__0 : rule__AllocationViewType__Group_5__0__Impl rule__AllocationViewType__Group_5__1 ;
+    // InternalSimplepalladio.g:7845:1: rule__AllocationViewType__Group_5__0 : rule__AllocationViewType__Group_5__0__Impl rule__AllocationViewType__Group_5__1 ;
     public final void rule__AllocationViewType__Group_5__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7876:1: ( rule__AllocationViewType__Group_5__0__Impl rule__AllocationViewType__Group_5__1 )
-            // InternalSimplepalladio.g:7877:2: rule__AllocationViewType__Group_5__0__Impl rule__AllocationViewType__Group_5__1
+            // InternalSimplepalladio.g:7849:1: ( rule__AllocationViewType__Group_5__0__Impl rule__AllocationViewType__Group_5__1 )
+            // InternalSimplepalladio.g:7850:2: rule__AllocationViewType__Group_5__0__Impl rule__AllocationViewType__Group_5__1
             {
-            pushFollow(FOLLOW_51);
+            pushFollow(FOLLOW_53);
             rule__AllocationViewType__Group_5__0__Impl();
 
             state._fsp--;
@@ -23522,17 +23431,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AllocationViewType__Group_5__0__Impl"
-    // InternalSimplepalladio.g:7884:1: rule__AllocationViewType__Group_5__0__Impl : ( ',' ) ;
+    // InternalSimplepalladio.g:7857:1: rule__AllocationViewType__Group_5__0__Impl : ( ',' ) ;
     public final void rule__AllocationViewType__Group_5__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7888:1: ( ( ',' ) )
-            // InternalSimplepalladio.g:7889:1: ( ',' )
+            // InternalSimplepalladio.g:7861:1: ( ( ',' ) )
+            // InternalSimplepalladio.g:7862:1: ( ',' )
             {
-            // InternalSimplepalladio.g:7889:1: ( ',' )
-            // InternalSimplepalladio.g:7890:2: ','
+            // InternalSimplepalladio.g:7862:1: ( ',' )
+            // InternalSimplepalladio.g:7863:2: ','
             {
              before(grammarAccess.getAllocationViewTypeAccess().getCommaKeyword_5_0()); 
             match(input,26,FOLLOW_2); 
@@ -23559,14 +23468,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AllocationViewType__Group_5__1"
-    // InternalSimplepalladio.g:7899:1: rule__AllocationViewType__Group_5__1 : rule__AllocationViewType__Group_5__1__Impl ;
+    // InternalSimplepalladio.g:7872:1: rule__AllocationViewType__Group_5__1 : rule__AllocationViewType__Group_5__1__Impl ;
     public final void rule__AllocationViewType__Group_5__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7903:1: ( rule__AllocationViewType__Group_5__1__Impl )
-            // InternalSimplepalladio.g:7904:2: rule__AllocationViewType__Group_5__1__Impl
+            // InternalSimplepalladio.g:7876:1: ( rule__AllocationViewType__Group_5__1__Impl )
+            // InternalSimplepalladio.g:7877:2: rule__AllocationViewType__Group_5__1__Impl
             {
             pushFollow(FOLLOW_2);
             rule__AllocationViewType__Group_5__1__Impl();
@@ -23592,21 +23501,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AllocationViewType__Group_5__1__Impl"
-    // InternalSimplepalladio.g:7910:1: rule__AllocationViewType__Group_5__1__Impl : ( ( rule__AllocationViewType__AllocationContextsAssignment_5_1 ) ) ;
+    // InternalSimplepalladio.g:7883:1: rule__AllocationViewType__Group_5__1__Impl : ( ( rule__AllocationViewType__AllocationContextsAssignment_5_1 ) ) ;
     public final void rule__AllocationViewType__Group_5__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7914:1: ( ( ( rule__AllocationViewType__AllocationContextsAssignment_5_1 ) ) )
-            // InternalSimplepalladio.g:7915:1: ( ( rule__AllocationViewType__AllocationContextsAssignment_5_1 ) )
+            // InternalSimplepalladio.g:7887:1: ( ( ( rule__AllocationViewType__AllocationContextsAssignment_5_1 ) ) )
+            // InternalSimplepalladio.g:7888:1: ( ( rule__AllocationViewType__AllocationContextsAssignment_5_1 ) )
             {
-            // InternalSimplepalladio.g:7915:1: ( ( rule__AllocationViewType__AllocationContextsAssignment_5_1 ) )
-            // InternalSimplepalladio.g:7916:2: ( rule__AllocationViewType__AllocationContextsAssignment_5_1 )
+            // InternalSimplepalladio.g:7888:1: ( ( rule__AllocationViewType__AllocationContextsAssignment_5_1 ) )
+            // InternalSimplepalladio.g:7889:2: ( rule__AllocationViewType__AllocationContextsAssignment_5_1 )
             {
              before(grammarAccess.getAllocationViewTypeAccess().getAllocationContextsAssignment_5_1()); 
-            // InternalSimplepalladio.g:7917:2: ( rule__AllocationViewType__AllocationContextsAssignment_5_1 )
-            // InternalSimplepalladio.g:7917:3: rule__AllocationViewType__AllocationContextsAssignment_5_1
+            // InternalSimplepalladio.g:7890:2: ( rule__AllocationViewType__AllocationContextsAssignment_5_1 )
+            // InternalSimplepalladio.g:7890:3: rule__AllocationViewType__AllocationContextsAssignment_5_1
             {
             pushFollow(FOLLOW_2);
             rule__AllocationViewType__AllocationContextsAssignment_5_1();
@@ -23639,14 +23548,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AllocationContext__Group__0"
-    // InternalSimplepalladio.g:7926:1: rule__AllocationContext__Group__0 : rule__AllocationContext__Group__0__Impl rule__AllocationContext__Group__1 ;
+    // InternalSimplepalladio.g:7899:1: rule__AllocationContext__Group__0 : rule__AllocationContext__Group__0__Impl rule__AllocationContext__Group__1 ;
     public final void rule__AllocationContext__Group__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7930:1: ( rule__AllocationContext__Group__0__Impl rule__AllocationContext__Group__1 )
-            // InternalSimplepalladio.g:7931:2: rule__AllocationContext__Group__0__Impl rule__AllocationContext__Group__1
+            // InternalSimplepalladio.g:7903:1: ( rule__AllocationContext__Group__0__Impl rule__AllocationContext__Group__1 )
+            // InternalSimplepalladio.g:7904:2: rule__AllocationContext__Group__0__Impl rule__AllocationContext__Group__1
             {
             pushFollow(FOLLOW_8);
             rule__AllocationContext__Group__0__Impl();
@@ -23677,17 +23586,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AllocationContext__Group__0__Impl"
-    // InternalSimplepalladio.g:7938:1: rule__AllocationContext__Group__0__Impl : ( 'AllocationContext' ) ;
+    // InternalSimplepalladio.g:7911:1: rule__AllocationContext__Group__0__Impl : ( 'AllocationContext' ) ;
     public final void rule__AllocationContext__Group__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7942:1: ( ( 'AllocationContext' ) )
-            // InternalSimplepalladio.g:7943:1: ( 'AllocationContext' )
+            // InternalSimplepalladio.g:7915:1: ( ( 'AllocationContext' ) )
+            // InternalSimplepalladio.g:7916:1: ( 'AllocationContext' )
             {
-            // InternalSimplepalladio.g:7943:1: ( 'AllocationContext' )
-            // InternalSimplepalladio.g:7944:2: 'AllocationContext'
+            // InternalSimplepalladio.g:7916:1: ( 'AllocationContext' )
+            // InternalSimplepalladio.g:7917:2: 'AllocationContext'
             {
              before(grammarAccess.getAllocationContextAccess().getAllocationContextKeyword_0()); 
             match(input,73,FOLLOW_2); 
@@ -23714,16 +23623,16 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AllocationContext__Group__1"
-    // InternalSimplepalladio.g:7953:1: rule__AllocationContext__Group__1 : rule__AllocationContext__Group__1__Impl rule__AllocationContext__Group__2 ;
+    // InternalSimplepalladio.g:7926:1: rule__AllocationContext__Group__1 : rule__AllocationContext__Group__1__Impl rule__AllocationContext__Group__2 ;
     public final void rule__AllocationContext__Group__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7957:1: ( rule__AllocationContext__Group__1__Impl rule__AllocationContext__Group__2 )
-            // InternalSimplepalladio.g:7958:2: rule__AllocationContext__Group__1__Impl rule__AllocationContext__Group__2
+            // InternalSimplepalladio.g:7930:1: ( rule__AllocationContext__Group__1__Impl rule__AllocationContext__Group__2 )
+            // InternalSimplepalladio.g:7931:2: rule__AllocationContext__Group__1__Impl rule__AllocationContext__Group__2
             {
-            pushFollow(FOLLOW_52);
+            pushFollow(FOLLOW_54);
             rule__AllocationContext__Group__1__Impl();
 
             state._fsp--;
@@ -23752,17 +23661,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AllocationContext__Group__1__Impl"
-    // InternalSimplepalladio.g:7965:1: rule__AllocationContext__Group__1__Impl : ( '{' ) ;
+    // InternalSimplepalladio.g:7938:1: rule__AllocationContext__Group__1__Impl : ( '{' ) ;
     public final void rule__AllocationContext__Group__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7969:1: ( ( '{' ) )
-            // InternalSimplepalladio.g:7970:1: ( '{' )
+            // InternalSimplepalladio.g:7942:1: ( ( '{' ) )
+            // InternalSimplepalladio.g:7943:1: ( '{' )
             {
-            // InternalSimplepalladio.g:7970:1: ( '{' )
-            // InternalSimplepalladio.g:7971:2: '{'
+            // InternalSimplepalladio.g:7943:1: ( '{' )
+            // InternalSimplepalladio.g:7944:2: '{'
             {
              before(grammarAccess.getAllocationContextAccess().getLeftCurlyBracketKeyword_1()); 
             match(input,22,FOLLOW_2); 
@@ -23789,14 +23698,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AllocationContext__Group__2"
-    // InternalSimplepalladio.g:7980:1: rule__AllocationContext__Group__2 : rule__AllocationContext__Group__2__Impl rule__AllocationContext__Group__3 ;
+    // InternalSimplepalladio.g:7953:1: rule__AllocationContext__Group__2 : rule__AllocationContext__Group__2__Impl rule__AllocationContext__Group__3 ;
     public final void rule__AllocationContext__Group__2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7984:1: ( rule__AllocationContext__Group__2__Impl rule__AllocationContext__Group__3 )
-            // InternalSimplepalladio.g:7985:2: rule__AllocationContext__Group__2__Impl rule__AllocationContext__Group__3
+            // InternalSimplepalladio.g:7957:1: ( rule__AllocationContext__Group__2__Impl rule__AllocationContext__Group__3 )
+            // InternalSimplepalladio.g:7958:2: rule__AllocationContext__Group__2__Impl rule__AllocationContext__Group__3
             {
             pushFollow(FOLLOW_13);
             rule__AllocationContext__Group__2__Impl();
@@ -23827,17 +23736,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AllocationContext__Group__2__Impl"
-    // InternalSimplepalladio.g:7992:1: rule__AllocationContext__Group__2__Impl : ( 'container' ) ;
+    // InternalSimplepalladio.g:7965:1: rule__AllocationContext__Group__2__Impl : ( 'container' ) ;
     public final void rule__AllocationContext__Group__2__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:7996:1: ( ( 'container' ) )
-            // InternalSimplepalladio.g:7997:1: ( 'container' )
+            // InternalSimplepalladio.g:7969:1: ( ( 'container' ) )
+            // InternalSimplepalladio.g:7970:1: ( 'container' )
             {
-            // InternalSimplepalladio.g:7997:1: ( 'container' )
-            // InternalSimplepalladio.g:7998:2: 'container'
+            // InternalSimplepalladio.g:7970:1: ( 'container' )
+            // InternalSimplepalladio.g:7971:2: 'container'
             {
              before(grammarAccess.getAllocationContextAccess().getContainerKeyword_2()); 
             match(input,74,FOLLOW_2); 
@@ -23864,16 +23773,16 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AllocationContext__Group__3"
-    // InternalSimplepalladio.g:8007:1: rule__AllocationContext__Group__3 : rule__AllocationContext__Group__3__Impl rule__AllocationContext__Group__4 ;
+    // InternalSimplepalladio.g:7980:1: rule__AllocationContext__Group__3 : rule__AllocationContext__Group__3__Impl rule__AllocationContext__Group__4 ;
     public final void rule__AllocationContext__Group__3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:8011:1: ( rule__AllocationContext__Group__3__Impl rule__AllocationContext__Group__4 )
-            // InternalSimplepalladio.g:8012:2: rule__AllocationContext__Group__3__Impl rule__AllocationContext__Group__4
+            // InternalSimplepalladio.g:7984:1: ( rule__AllocationContext__Group__3__Impl rule__AllocationContext__Group__4 )
+            // InternalSimplepalladio.g:7985:2: rule__AllocationContext__Group__3__Impl rule__AllocationContext__Group__4
             {
-            pushFollow(FOLLOW_53);
+            pushFollow(FOLLOW_55);
             rule__AllocationContext__Group__3__Impl();
 
             state._fsp--;
@@ -23902,21 +23811,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AllocationContext__Group__3__Impl"
-    // InternalSimplepalladio.g:8019:1: rule__AllocationContext__Group__3__Impl : ( ( rule__AllocationContext__ContainerAssignment_3 ) ) ;
+    // InternalSimplepalladio.g:7992:1: rule__AllocationContext__Group__3__Impl : ( ( rule__AllocationContext__ContainerAssignment_3 ) ) ;
     public final void rule__AllocationContext__Group__3__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:8023:1: ( ( ( rule__AllocationContext__ContainerAssignment_3 ) ) )
-            // InternalSimplepalladio.g:8024:1: ( ( rule__AllocationContext__ContainerAssignment_3 ) )
+            // InternalSimplepalladio.g:7996:1: ( ( ( rule__AllocationContext__ContainerAssignment_3 ) ) )
+            // InternalSimplepalladio.g:7997:1: ( ( rule__AllocationContext__ContainerAssignment_3 ) )
             {
-            // InternalSimplepalladio.g:8024:1: ( ( rule__AllocationContext__ContainerAssignment_3 ) )
-            // InternalSimplepalladio.g:8025:2: ( rule__AllocationContext__ContainerAssignment_3 )
+            // InternalSimplepalladio.g:7997:1: ( ( rule__AllocationContext__ContainerAssignment_3 ) )
+            // InternalSimplepalladio.g:7998:2: ( rule__AllocationContext__ContainerAssignment_3 )
             {
              before(grammarAccess.getAllocationContextAccess().getContainerAssignment_3()); 
-            // InternalSimplepalladio.g:8026:2: ( rule__AllocationContext__ContainerAssignment_3 )
-            // InternalSimplepalladio.g:8026:3: rule__AllocationContext__ContainerAssignment_3
+            // InternalSimplepalladio.g:7999:2: ( rule__AllocationContext__ContainerAssignment_3 )
+            // InternalSimplepalladio.g:7999:3: rule__AllocationContext__ContainerAssignment_3
             {
             pushFollow(FOLLOW_2);
             rule__AllocationContext__ContainerAssignment_3();
@@ -23949,16 +23858,16 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AllocationContext__Group__4"
-    // InternalSimplepalladio.g:8034:1: rule__AllocationContext__Group__4 : rule__AllocationContext__Group__4__Impl rule__AllocationContext__Group__5 ;
+    // InternalSimplepalladio.g:8007:1: rule__AllocationContext__Group__4 : rule__AllocationContext__Group__4__Impl rule__AllocationContext__Group__5 ;
     public final void rule__AllocationContext__Group__4() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:8038:1: ( rule__AllocationContext__Group__4__Impl rule__AllocationContext__Group__5 )
-            // InternalSimplepalladio.g:8039:2: rule__AllocationContext__Group__4__Impl rule__AllocationContext__Group__5
+            // InternalSimplepalladio.g:8011:1: ( rule__AllocationContext__Group__4__Impl rule__AllocationContext__Group__5 )
+            // InternalSimplepalladio.g:8012:2: rule__AllocationContext__Group__4__Impl rule__AllocationContext__Group__5
             {
-            pushFollow(FOLLOW_54);
+            pushFollow(FOLLOW_19);
             rule__AllocationContext__Group__4__Impl();
 
             state._fsp--;
@@ -23987,17 +23896,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AllocationContext__Group__4__Impl"
-    // InternalSimplepalladio.g:8046:1: rule__AllocationContext__Group__4__Impl : ( 'assembly' ) ;
+    // InternalSimplepalladio.g:8019:1: rule__AllocationContext__Group__4__Impl : ( 'assembly' ) ;
     public final void rule__AllocationContext__Group__4__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:8050:1: ( ( 'assembly' ) )
-            // InternalSimplepalladio.g:8051:1: ( 'assembly' )
+            // InternalSimplepalladio.g:8023:1: ( ( 'assembly' ) )
+            // InternalSimplepalladio.g:8024:1: ( 'assembly' )
             {
-            // InternalSimplepalladio.g:8051:1: ( 'assembly' )
-            // InternalSimplepalladio.g:8052:2: 'assembly'
+            // InternalSimplepalladio.g:8024:1: ( 'assembly' )
+            // InternalSimplepalladio.g:8025:2: 'assembly'
             {
              before(grammarAccess.getAllocationContextAccess().getAssemblyKeyword_4()); 
             match(input,75,FOLLOW_2); 
@@ -24024,14 +23933,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AllocationContext__Group__5"
-    // InternalSimplepalladio.g:8061:1: rule__AllocationContext__Group__5 : rule__AllocationContext__Group__5__Impl rule__AllocationContext__Group__6 ;
+    // InternalSimplepalladio.g:8034:1: rule__AllocationContext__Group__5 : rule__AllocationContext__Group__5__Impl rule__AllocationContext__Group__6 ;
     public final void rule__AllocationContext__Group__5() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:8065:1: ( rule__AllocationContext__Group__5__Impl rule__AllocationContext__Group__6 )
-            // InternalSimplepalladio.g:8066:2: rule__AllocationContext__Group__5__Impl rule__AllocationContext__Group__6
+            // InternalSimplepalladio.g:8038:1: ( rule__AllocationContext__Group__5__Impl rule__AllocationContext__Group__6 )
+            // InternalSimplepalladio.g:8039:2: rule__AllocationContext__Group__5__Impl rule__AllocationContext__Group__6
             {
             pushFollow(FOLLOW_7);
             rule__AllocationContext__Group__5__Impl();
@@ -24062,21 +23971,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AllocationContext__Group__5__Impl"
-    // InternalSimplepalladio.g:8073:1: rule__AllocationContext__Group__5__Impl : ( ( rule__AllocationContext__AssemblyAssignment_5 ) ) ;
+    // InternalSimplepalladio.g:8046:1: rule__AllocationContext__Group__5__Impl : ( ( rule__AllocationContext__AssemblyAssignment_5 ) ) ;
     public final void rule__AllocationContext__Group__5__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:8077:1: ( ( ( rule__AllocationContext__AssemblyAssignment_5 ) ) )
-            // InternalSimplepalladio.g:8078:1: ( ( rule__AllocationContext__AssemblyAssignment_5 ) )
+            // InternalSimplepalladio.g:8050:1: ( ( ( rule__AllocationContext__AssemblyAssignment_5 ) ) )
+            // InternalSimplepalladio.g:8051:1: ( ( rule__AllocationContext__AssemblyAssignment_5 ) )
             {
-            // InternalSimplepalladio.g:8078:1: ( ( rule__AllocationContext__AssemblyAssignment_5 ) )
-            // InternalSimplepalladio.g:8079:2: ( rule__AllocationContext__AssemblyAssignment_5 )
+            // InternalSimplepalladio.g:8051:1: ( ( rule__AllocationContext__AssemblyAssignment_5 ) )
+            // InternalSimplepalladio.g:8052:2: ( rule__AllocationContext__AssemblyAssignment_5 )
             {
              before(grammarAccess.getAllocationContextAccess().getAssemblyAssignment_5()); 
-            // InternalSimplepalladio.g:8080:2: ( rule__AllocationContext__AssemblyAssignment_5 )
-            // InternalSimplepalladio.g:8080:3: rule__AllocationContext__AssemblyAssignment_5
+            // InternalSimplepalladio.g:8053:2: ( rule__AllocationContext__AssemblyAssignment_5 )
+            // InternalSimplepalladio.g:8053:3: rule__AllocationContext__AssemblyAssignment_5
             {
             pushFollow(FOLLOW_2);
             rule__AllocationContext__AssemblyAssignment_5();
@@ -24109,14 +24018,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AllocationContext__Group__6"
-    // InternalSimplepalladio.g:8088:1: rule__AllocationContext__Group__6 : rule__AllocationContext__Group__6__Impl ;
+    // InternalSimplepalladio.g:8061:1: rule__AllocationContext__Group__6 : rule__AllocationContext__Group__6__Impl ;
     public final void rule__AllocationContext__Group__6() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:8092:1: ( rule__AllocationContext__Group__6__Impl )
-            // InternalSimplepalladio.g:8093:2: rule__AllocationContext__Group__6__Impl
+            // InternalSimplepalladio.g:8065:1: ( rule__AllocationContext__Group__6__Impl )
+            // InternalSimplepalladio.g:8066:2: rule__AllocationContext__Group__6__Impl
             {
             pushFollow(FOLLOW_2);
             rule__AllocationContext__Group__6__Impl();
@@ -24142,17 +24051,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AllocationContext__Group__6__Impl"
-    // InternalSimplepalladio.g:8099:1: rule__AllocationContext__Group__6__Impl : ( '}' ) ;
+    // InternalSimplepalladio.g:8072:1: rule__AllocationContext__Group__6__Impl : ( '}' ) ;
     public final void rule__AllocationContext__Group__6__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:8103:1: ( ( '}' ) )
-            // InternalSimplepalladio.g:8104:1: ( '}' )
+            // InternalSimplepalladio.g:8076:1: ( ( '}' ) )
+            // InternalSimplepalladio.g:8077:1: ( '}' )
             {
-            // InternalSimplepalladio.g:8104:1: ( '}' )
-            // InternalSimplepalladio.g:8105:2: '}'
+            // InternalSimplepalladio.g:8077:1: ( '}' )
+            // InternalSimplepalladio.g:8078:2: '}'
             {
              before(grammarAccess.getAllocationContextAccess().getRightCurlyBracketKeyword_6()); 
             match(input,23,FOLLOW_2); 
@@ -24179,16 +24088,16 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__QualifiedName__Group__0"
-    // InternalSimplepalladio.g:8115:1: rule__QualifiedName__Group__0 : rule__QualifiedName__Group__0__Impl rule__QualifiedName__Group__1 ;
+    // InternalSimplepalladio.g:8088:1: rule__QualifiedName__Group__0 : rule__QualifiedName__Group__0__Impl rule__QualifiedName__Group__1 ;
     public final void rule__QualifiedName__Group__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:8119:1: ( rule__QualifiedName__Group__0__Impl rule__QualifiedName__Group__1 )
-            // InternalSimplepalladio.g:8120:2: rule__QualifiedName__Group__0__Impl rule__QualifiedName__Group__1
+            // InternalSimplepalladio.g:8092:1: ( rule__QualifiedName__Group__0__Impl rule__QualifiedName__Group__1 )
+            // InternalSimplepalladio.g:8093:2: rule__QualifiedName__Group__0__Impl rule__QualifiedName__Group__1
             {
-            pushFollow(FOLLOW_55);
+            pushFollow(FOLLOW_56);
             rule__QualifiedName__Group__0__Impl();
 
             state._fsp--;
@@ -24217,17 +24126,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__QualifiedName__Group__0__Impl"
-    // InternalSimplepalladio.g:8127:1: rule__QualifiedName__Group__0__Impl : ( RULE_ID ) ;
+    // InternalSimplepalladio.g:8100:1: rule__QualifiedName__Group__0__Impl : ( RULE_ID ) ;
     public final void rule__QualifiedName__Group__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:8131:1: ( ( RULE_ID ) )
-            // InternalSimplepalladio.g:8132:1: ( RULE_ID )
+            // InternalSimplepalladio.g:8104:1: ( ( RULE_ID ) )
+            // InternalSimplepalladio.g:8105:1: ( RULE_ID )
             {
-            // InternalSimplepalladio.g:8132:1: ( RULE_ID )
-            // InternalSimplepalladio.g:8133:2: RULE_ID
+            // InternalSimplepalladio.g:8105:1: ( RULE_ID )
+            // InternalSimplepalladio.g:8106:2: RULE_ID
             {
              before(grammarAccess.getQualifiedNameAccess().getIDTerminalRuleCall_0()); 
             match(input,RULE_ID,FOLLOW_2); 
@@ -24254,14 +24163,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__QualifiedName__Group__1"
-    // InternalSimplepalladio.g:8142:1: rule__QualifiedName__Group__1 : rule__QualifiedName__Group__1__Impl ;
+    // InternalSimplepalladio.g:8115:1: rule__QualifiedName__Group__1 : rule__QualifiedName__Group__1__Impl ;
     public final void rule__QualifiedName__Group__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:8146:1: ( rule__QualifiedName__Group__1__Impl )
-            // InternalSimplepalladio.g:8147:2: rule__QualifiedName__Group__1__Impl
+            // InternalSimplepalladio.g:8119:1: ( rule__QualifiedName__Group__1__Impl )
+            // InternalSimplepalladio.g:8120:2: rule__QualifiedName__Group__1__Impl
             {
             pushFollow(FOLLOW_2);
             rule__QualifiedName__Group__1__Impl();
@@ -24287,35 +24196,35 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__QualifiedName__Group__1__Impl"
-    // InternalSimplepalladio.g:8153:1: rule__QualifiedName__Group__1__Impl : ( ( rule__QualifiedName__Group_1__0 )* ) ;
+    // InternalSimplepalladio.g:8126:1: rule__QualifiedName__Group__1__Impl : ( ( rule__QualifiedName__Group_1__0 )* ) ;
     public final void rule__QualifiedName__Group__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:8157:1: ( ( ( rule__QualifiedName__Group_1__0 )* ) )
-            // InternalSimplepalladio.g:8158:1: ( ( rule__QualifiedName__Group_1__0 )* )
+            // InternalSimplepalladio.g:8130:1: ( ( ( rule__QualifiedName__Group_1__0 )* ) )
+            // InternalSimplepalladio.g:8131:1: ( ( rule__QualifiedName__Group_1__0 )* )
             {
-            // InternalSimplepalladio.g:8158:1: ( ( rule__QualifiedName__Group_1__0 )* )
-            // InternalSimplepalladio.g:8159:2: ( rule__QualifiedName__Group_1__0 )*
+            // InternalSimplepalladio.g:8131:1: ( ( rule__QualifiedName__Group_1__0 )* )
+            // InternalSimplepalladio.g:8132:2: ( rule__QualifiedName__Group_1__0 )*
             {
              before(grammarAccess.getQualifiedNameAccess().getGroup_1()); 
-            // InternalSimplepalladio.g:8160:2: ( rule__QualifiedName__Group_1__0 )*
-            loop35:
+            // InternalSimplepalladio.g:8133:2: ( rule__QualifiedName__Group_1__0 )*
+            loop34:
             do {
-                int alt35=2;
-                int LA35_0 = input.LA(1);
+                int alt34=2;
+                int LA34_0 = input.LA(1);
 
-                if ( (LA35_0==76) ) {
-                    alt35=1;
+                if ( (LA34_0==76) ) {
+                    alt34=1;
                 }
 
 
-                switch (alt35) {
+                switch (alt34) {
             	case 1 :
-            	    // InternalSimplepalladio.g:8160:3: rule__QualifiedName__Group_1__0
+            	    // InternalSimplepalladio.g:8133:3: rule__QualifiedName__Group_1__0
             	    {
-            	    pushFollow(FOLLOW_56);
+            	    pushFollow(FOLLOW_57);
             	    rule__QualifiedName__Group_1__0();
 
             	    state._fsp--;
@@ -24325,7 +24234,7 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
             	    break;
 
             	default :
-            	    break loop35;
+            	    break loop34;
                 }
             } while (true);
 
@@ -24352,16 +24261,16 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__QualifiedName__Group_1__0"
-    // InternalSimplepalladio.g:8169:1: rule__QualifiedName__Group_1__0 : rule__QualifiedName__Group_1__0__Impl rule__QualifiedName__Group_1__1 ;
+    // InternalSimplepalladio.g:8142:1: rule__QualifiedName__Group_1__0 : rule__QualifiedName__Group_1__0__Impl rule__QualifiedName__Group_1__1 ;
     public final void rule__QualifiedName__Group_1__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:8173:1: ( rule__QualifiedName__Group_1__0__Impl rule__QualifiedName__Group_1__1 )
-            // InternalSimplepalladio.g:8174:2: rule__QualifiedName__Group_1__0__Impl rule__QualifiedName__Group_1__1
+            // InternalSimplepalladio.g:8146:1: ( rule__QualifiedName__Group_1__0__Impl rule__QualifiedName__Group_1__1 )
+            // InternalSimplepalladio.g:8147:2: rule__QualifiedName__Group_1__0__Impl rule__QualifiedName__Group_1__1
             {
-            pushFollow(FOLLOW_54);
+            pushFollow(FOLLOW_19);
             rule__QualifiedName__Group_1__0__Impl();
 
             state._fsp--;
@@ -24390,17 +24299,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__QualifiedName__Group_1__0__Impl"
-    // InternalSimplepalladio.g:8181:1: rule__QualifiedName__Group_1__0__Impl : ( '.' ) ;
+    // InternalSimplepalladio.g:8154:1: rule__QualifiedName__Group_1__0__Impl : ( '.' ) ;
     public final void rule__QualifiedName__Group_1__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:8185:1: ( ( '.' ) )
-            // InternalSimplepalladio.g:8186:1: ( '.' )
+            // InternalSimplepalladio.g:8158:1: ( ( '.' ) )
+            // InternalSimplepalladio.g:8159:1: ( '.' )
             {
-            // InternalSimplepalladio.g:8186:1: ( '.' )
-            // InternalSimplepalladio.g:8187:2: '.'
+            // InternalSimplepalladio.g:8159:1: ( '.' )
+            // InternalSimplepalladio.g:8160:2: '.'
             {
              before(grammarAccess.getQualifiedNameAccess().getFullStopKeyword_1_0()); 
             match(input,76,FOLLOW_2); 
@@ -24427,14 +24336,14 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__QualifiedName__Group_1__1"
-    // InternalSimplepalladio.g:8196:1: rule__QualifiedName__Group_1__1 : rule__QualifiedName__Group_1__1__Impl ;
+    // InternalSimplepalladio.g:8169:1: rule__QualifiedName__Group_1__1 : rule__QualifiedName__Group_1__1__Impl ;
     public final void rule__QualifiedName__Group_1__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:8200:1: ( rule__QualifiedName__Group_1__1__Impl )
-            // InternalSimplepalladio.g:8201:2: rule__QualifiedName__Group_1__1__Impl
+            // InternalSimplepalladio.g:8173:1: ( rule__QualifiedName__Group_1__1__Impl )
+            // InternalSimplepalladio.g:8174:2: rule__QualifiedName__Group_1__1__Impl
             {
             pushFollow(FOLLOW_2);
             rule__QualifiedName__Group_1__1__Impl();
@@ -24460,17 +24369,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__QualifiedName__Group_1__1__Impl"
-    // InternalSimplepalladio.g:8207:1: rule__QualifiedName__Group_1__1__Impl : ( RULE_ID ) ;
+    // InternalSimplepalladio.g:8180:1: rule__QualifiedName__Group_1__1__Impl : ( RULE_ID ) ;
     public final void rule__QualifiedName__Group_1__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:8211:1: ( ( RULE_ID ) )
-            // InternalSimplepalladio.g:8212:1: ( RULE_ID )
+            // InternalSimplepalladio.g:8184:1: ( ( RULE_ID ) )
+            // InternalSimplepalladio.g:8185:1: ( RULE_ID )
             {
-            // InternalSimplepalladio.g:8212:1: ( RULE_ID )
-            // InternalSimplepalladio.g:8213:2: RULE_ID
+            // InternalSimplepalladio.g:8185:1: ( RULE_ID )
+            // InternalSimplepalladio.g:8186:2: RULE_ID
             {
              before(grammarAccess.getQualifiedNameAccess().getIDTerminalRuleCall_1_1()); 
             match(input,RULE_ID,FOLLOW_2); 
@@ -24497,17 +24406,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Model__RepositoryViewTypeAssignment_1"
-    // InternalSimplepalladio.g:8223:1: rule__Model__RepositoryViewTypeAssignment_1 : ( ruleRepositoryViewType ) ;
+    // InternalSimplepalladio.g:8196:1: rule__Model__RepositoryViewTypeAssignment_1 : ( ruleRepositoryViewType ) ;
     public final void rule__Model__RepositoryViewTypeAssignment_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:8227:1: ( ( ruleRepositoryViewType ) )
-            // InternalSimplepalladio.g:8228:2: ( ruleRepositoryViewType )
+            // InternalSimplepalladio.g:8200:1: ( ( ruleRepositoryViewType ) )
+            // InternalSimplepalladio.g:8201:2: ( ruleRepositoryViewType )
             {
-            // InternalSimplepalladio.g:8228:2: ( ruleRepositoryViewType )
-            // InternalSimplepalladio.g:8229:3: ruleRepositoryViewType
+            // InternalSimplepalladio.g:8201:2: ( ruleRepositoryViewType )
+            // InternalSimplepalladio.g:8202:3: ruleRepositoryViewType
             {
              before(grammarAccess.getModelAccess().getRepositoryViewTypeRepositoryViewTypeParserRuleCall_1_0()); 
             pushFollow(FOLLOW_2);
@@ -24538,17 +24447,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Model__AssemblyViewTypeAssignment_2"
-    // InternalSimplepalladio.g:8238:1: rule__Model__AssemblyViewTypeAssignment_2 : ( ruleAssemblyViewType ) ;
+    // InternalSimplepalladio.g:8211:1: rule__Model__AssemblyViewTypeAssignment_2 : ( ruleAssemblyViewType ) ;
     public final void rule__Model__AssemblyViewTypeAssignment_2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:8242:1: ( ( ruleAssemblyViewType ) )
-            // InternalSimplepalladio.g:8243:2: ( ruleAssemblyViewType )
+            // InternalSimplepalladio.g:8215:1: ( ( ruleAssemblyViewType ) )
+            // InternalSimplepalladio.g:8216:2: ( ruleAssemblyViewType )
             {
-            // InternalSimplepalladio.g:8243:2: ( ruleAssemblyViewType )
-            // InternalSimplepalladio.g:8244:3: ruleAssemblyViewType
+            // InternalSimplepalladio.g:8216:2: ( ruleAssemblyViewType )
+            // InternalSimplepalladio.g:8217:3: ruleAssemblyViewType
             {
              before(grammarAccess.getModelAccess().getAssemblyViewTypeAssemblyViewTypeParserRuleCall_2_0()); 
             pushFollow(FOLLOW_2);
@@ -24579,17 +24488,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Model__EnvironmentViewTypeAssignment_3"
-    // InternalSimplepalladio.g:8253:1: rule__Model__EnvironmentViewTypeAssignment_3 : ( ruleEnvironmentViewType ) ;
+    // InternalSimplepalladio.g:8226:1: rule__Model__EnvironmentViewTypeAssignment_3 : ( ruleEnvironmentViewType ) ;
     public final void rule__Model__EnvironmentViewTypeAssignment_3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:8257:1: ( ( ruleEnvironmentViewType ) )
-            // InternalSimplepalladio.g:8258:2: ( ruleEnvironmentViewType )
+            // InternalSimplepalladio.g:8230:1: ( ( ruleEnvironmentViewType ) )
+            // InternalSimplepalladio.g:8231:2: ( ruleEnvironmentViewType )
             {
-            // InternalSimplepalladio.g:8258:2: ( ruleEnvironmentViewType )
-            // InternalSimplepalladio.g:8259:3: ruleEnvironmentViewType
+            // InternalSimplepalladio.g:8231:2: ( ruleEnvironmentViewType )
+            // InternalSimplepalladio.g:8232:3: ruleEnvironmentViewType
             {
              before(grammarAccess.getModelAccess().getEnvironmentViewTypeEnvironmentViewTypeParserRuleCall_3_0()); 
             pushFollow(FOLLOW_2);
@@ -24620,17 +24529,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Model__AllocationViewTypeAssignment_4"
-    // InternalSimplepalladio.g:8268:1: rule__Model__AllocationViewTypeAssignment_4 : ( ruleAllocationViewType ) ;
+    // InternalSimplepalladio.g:8241:1: rule__Model__AllocationViewTypeAssignment_4 : ( ruleAllocationViewType ) ;
     public final void rule__Model__AllocationViewTypeAssignment_4() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:8272:1: ( ( ruleAllocationViewType ) )
-            // InternalSimplepalladio.g:8273:2: ( ruleAllocationViewType )
+            // InternalSimplepalladio.g:8245:1: ( ( ruleAllocationViewType ) )
+            // InternalSimplepalladio.g:8246:2: ( ruleAllocationViewType )
             {
-            // InternalSimplepalladio.g:8273:2: ( ruleAllocationViewType )
-            // InternalSimplepalladio.g:8274:3: ruleAllocationViewType
+            // InternalSimplepalladio.g:8246:2: ( ruleAllocationViewType )
+            // InternalSimplepalladio.g:8247:3: ruleAllocationViewType
             {
              before(grammarAccess.getModelAccess().getAllocationViewTypeAllocationViewTypeParserRuleCall_4_0()); 
             pushFollow(FOLLOW_2);
@@ -24661,17 +24570,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__RepositoryViewType__RepositoryElementsAssignment_4"
-    // InternalSimplepalladio.g:8283:1: rule__RepositoryViewType__RepositoryElementsAssignment_4 : ( ruleAbstractRepositoryElement ) ;
+    // InternalSimplepalladio.g:8256:1: rule__RepositoryViewType__RepositoryElementsAssignment_4 : ( ruleAbstractRepositoryElement ) ;
     public final void rule__RepositoryViewType__RepositoryElementsAssignment_4() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:8287:1: ( ( ruleAbstractRepositoryElement ) )
-            // InternalSimplepalladio.g:8288:2: ( ruleAbstractRepositoryElement )
+            // InternalSimplepalladio.g:8260:1: ( ( ruleAbstractRepositoryElement ) )
+            // InternalSimplepalladio.g:8261:2: ( ruleAbstractRepositoryElement )
             {
-            // InternalSimplepalladio.g:8288:2: ( ruleAbstractRepositoryElement )
-            // InternalSimplepalladio.g:8289:3: ruleAbstractRepositoryElement
+            // InternalSimplepalladio.g:8261:2: ( ruleAbstractRepositoryElement )
+            // InternalSimplepalladio.g:8262:3: ruleAbstractRepositoryElement
             {
              before(grammarAccess.getRepositoryViewTypeAccess().getRepositoryElementsAbstractRepositoryElementParserRuleCall_4_0()); 
             pushFollow(FOLLOW_2);
@@ -24702,17 +24611,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__RepositoryViewType__RepositoryElementsAssignment_5_1"
-    // InternalSimplepalladio.g:8298:1: rule__RepositoryViewType__RepositoryElementsAssignment_5_1 : ( ruleAbstractRepositoryElement ) ;
+    // InternalSimplepalladio.g:8271:1: rule__RepositoryViewType__RepositoryElementsAssignment_5_1 : ( ruleAbstractRepositoryElement ) ;
     public final void rule__RepositoryViewType__RepositoryElementsAssignment_5_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:8302:1: ( ( ruleAbstractRepositoryElement ) )
-            // InternalSimplepalladio.g:8303:2: ( ruleAbstractRepositoryElement )
+            // InternalSimplepalladio.g:8275:1: ( ( ruleAbstractRepositoryElement ) )
+            // InternalSimplepalladio.g:8276:2: ( ruleAbstractRepositoryElement )
             {
-            // InternalSimplepalladio.g:8303:2: ( ruleAbstractRepositoryElement )
-            // InternalSimplepalladio.g:8304:3: ruleAbstractRepositoryElement
+            // InternalSimplepalladio.g:8276:2: ( ruleAbstractRepositoryElement )
+            // InternalSimplepalladio.g:8277:3: ruleAbstractRepositoryElement
             {
              before(grammarAccess.getRepositoryViewTypeAccess().getRepositoryElementsAbstractRepositoryElementParserRuleCall_5_1_0()); 
             pushFollow(FOLLOW_2);
@@ -24743,17 +24652,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Interface__NameAssignment_1"
-    // InternalSimplepalladio.g:8313:1: rule__Interface__NameAssignment_1 : ( ruleEString ) ;
+    // InternalSimplepalladio.g:8286:1: rule__Interface__NameAssignment_1 : ( ruleEString ) ;
     public final void rule__Interface__NameAssignment_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:8317:1: ( ( ruleEString ) )
-            // InternalSimplepalladio.g:8318:2: ( ruleEString )
+            // InternalSimplepalladio.g:8290:1: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:8291:2: ( ruleEString )
             {
-            // InternalSimplepalladio.g:8318:2: ( ruleEString )
-            // InternalSimplepalladio.g:8319:3: ruleEString
+            // InternalSimplepalladio.g:8291:2: ( ruleEString )
+            // InternalSimplepalladio.g:8292:3: ruleEString
             {
              before(grammarAccess.getInterfaceAccess().getNameEStringParserRuleCall_1_0()); 
             pushFollow(FOLLOW_2);
@@ -24784,21 +24693,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Interface__SignaturesAssignment_5"
-    // InternalSimplepalladio.g:8328:1: rule__Interface__SignaturesAssignment_5 : ( ( ruleEString ) ) ;
+    // InternalSimplepalladio.g:8301:1: rule__Interface__SignaturesAssignment_5 : ( ( ruleEString ) ) ;
     public final void rule__Interface__SignaturesAssignment_5() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:8332:1: ( ( ( ruleEString ) ) )
-            // InternalSimplepalladio.g:8333:2: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:8305:1: ( ( ( ruleEString ) ) )
+            // InternalSimplepalladio.g:8306:2: ( ( ruleEString ) )
             {
-            // InternalSimplepalladio.g:8333:2: ( ( ruleEString ) )
-            // InternalSimplepalladio.g:8334:3: ( ruleEString )
+            // InternalSimplepalladio.g:8306:2: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:8307:3: ( ruleEString )
             {
              before(grammarAccess.getInterfaceAccess().getSignaturesSignatureCrossReference_5_0()); 
-            // InternalSimplepalladio.g:8335:3: ( ruleEString )
-            // InternalSimplepalladio.g:8336:4: ruleEString
+            // InternalSimplepalladio.g:8308:3: ( ruleEString )
+            // InternalSimplepalladio.g:8309:4: ruleEString
             {
              before(grammarAccess.getInterfaceAccess().getSignaturesSignatureEStringParserRuleCall_5_0_1()); 
             pushFollow(FOLLOW_2);
@@ -24833,21 +24742,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Interface__SignaturesAssignment_6_1"
-    // InternalSimplepalladio.g:8347:1: rule__Interface__SignaturesAssignment_6_1 : ( ( ruleEString ) ) ;
+    // InternalSimplepalladio.g:8320:1: rule__Interface__SignaturesAssignment_6_1 : ( ( ruleEString ) ) ;
     public final void rule__Interface__SignaturesAssignment_6_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:8351:1: ( ( ( ruleEString ) ) )
-            // InternalSimplepalladio.g:8352:2: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:8324:1: ( ( ( ruleEString ) ) )
+            // InternalSimplepalladio.g:8325:2: ( ( ruleEString ) )
             {
-            // InternalSimplepalladio.g:8352:2: ( ( ruleEString ) )
-            // InternalSimplepalladio.g:8353:3: ( ruleEString )
+            // InternalSimplepalladio.g:8325:2: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:8326:3: ( ruleEString )
             {
              before(grammarAccess.getInterfaceAccess().getSignaturesSignatureCrossReference_6_1_0()); 
-            // InternalSimplepalladio.g:8354:3: ( ruleEString )
-            // InternalSimplepalladio.g:8355:4: ruleEString
+            // InternalSimplepalladio.g:8327:3: ( ruleEString )
+            // InternalSimplepalladio.g:8328:4: ruleEString
             {
              before(grammarAccess.getInterfaceAccess().getSignaturesSignatureEStringParserRuleCall_6_1_0_1()); 
             pushFollow(FOLLOW_2);
@@ -24882,17 +24791,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__CompositeComponent__NameAssignment_1"
-    // InternalSimplepalladio.g:8366:1: rule__CompositeComponent__NameAssignment_1 : ( ruleEString ) ;
+    // InternalSimplepalladio.g:8339:1: rule__CompositeComponent__NameAssignment_1 : ( ruleEString ) ;
     public final void rule__CompositeComponent__NameAssignment_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:8370:1: ( ( ruleEString ) )
-            // InternalSimplepalladio.g:8371:2: ( ruleEString )
+            // InternalSimplepalladio.g:8343:1: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:8344:2: ( ruleEString )
             {
-            // InternalSimplepalladio.g:8371:2: ( ruleEString )
-            // InternalSimplepalladio.g:8372:3: ruleEString
+            // InternalSimplepalladio.g:8344:2: ( ruleEString )
+            // InternalSimplepalladio.g:8345:3: ruleEString
             {
              before(grammarAccess.getCompositeComponentAccess().getNameEStringParserRuleCall_1_0()); 
             pushFollow(FOLLOW_2);
@@ -24923,21 +24832,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__CompositeComponent__RequiredInterfacesAssignment_3_2"
-    // InternalSimplepalladio.g:8381:1: rule__CompositeComponent__RequiredInterfacesAssignment_3_2 : ( ( ruleEString ) ) ;
+    // InternalSimplepalladio.g:8354:1: rule__CompositeComponent__RequiredInterfacesAssignment_3_2 : ( ( ruleEString ) ) ;
     public final void rule__CompositeComponent__RequiredInterfacesAssignment_3_2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:8385:1: ( ( ( ruleEString ) ) )
-            // InternalSimplepalladio.g:8386:2: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:8358:1: ( ( ( ruleEString ) ) )
+            // InternalSimplepalladio.g:8359:2: ( ( ruleEString ) )
             {
-            // InternalSimplepalladio.g:8386:2: ( ( ruleEString ) )
-            // InternalSimplepalladio.g:8387:3: ( ruleEString )
+            // InternalSimplepalladio.g:8359:2: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:8360:3: ( ruleEString )
             {
              before(grammarAccess.getCompositeComponentAccess().getRequiredInterfacesInterfaceCrossReference_3_2_0()); 
-            // InternalSimplepalladio.g:8388:3: ( ruleEString )
-            // InternalSimplepalladio.g:8389:4: ruleEString
+            // InternalSimplepalladio.g:8361:3: ( ruleEString )
+            // InternalSimplepalladio.g:8362:4: ruleEString
             {
              before(grammarAccess.getCompositeComponentAccess().getRequiredInterfacesInterfaceEStringParserRuleCall_3_2_0_1()); 
             pushFollow(FOLLOW_2);
@@ -24972,21 +24881,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__CompositeComponent__RequiredInterfacesAssignment_3_3_1"
-    // InternalSimplepalladio.g:8400:1: rule__CompositeComponent__RequiredInterfacesAssignment_3_3_1 : ( ( ruleEString ) ) ;
+    // InternalSimplepalladio.g:8373:1: rule__CompositeComponent__RequiredInterfacesAssignment_3_3_1 : ( ( ruleEString ) ) ;
     public final void rule__CompositeComponent__RequiredInterfacesAssignment_3_3_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:8404:1: ( ( ( ruleEString ) ) )
-            // InternalSimplepalladio.g:8405:2: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:8377:1: ( ( ( ruleEString ) ) )
+            // InternalSimplepalladio.g:8378:2: ( ( ruleEString ) )
             {
-            // InternalSimplepalladio.g:8405:2: ( ( ruleEString ) )
-            // InternalSimplepalladio.g:8406:3: ( ruleEString )
+            // InternalSimplepalladio.g:8378:2: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:8379:3: ( ruleEString )
             {
              before(grammarAccess.getCompositeComponentAccess().getRequiredInterfacesInterfaceCrossReference_3_3_1_0()); 
-            // InternalSimplepalladio.g:8407:3: ( ruleEString )
-            // InternalSimplepalladio.g:8408:4: ruleEString
+            // InternalSimplepalladio.g:8380:3: ( ruleEString )
+            // InternalSimplepalladio.g:8381:4: ruleEString
             {
              before(grammarAccess.getCompositeComponentAccess().getRequiredInterfacesInterfaceEStringParserRuleCall_3_3_1_0_1()); 
             pushFollow(FOLLOW_2);
@@ -25021,21 +24930,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__CompositeComponent__ProvidedInterfacesAssignment_6"
-    // InternalSimplepalladio.g:8419:1: rule__CompositeComponent__ProvidedInterfacesAssignment_6 : ( ( ruleEString ) ) ;
+    // InternalSimplepalladio.g:8392:1: rule__CompositeComponent__ProvidedInterfacesAssignment_6 : ( ( ruleEString ) ) ;
     public final void rule__CompositeComponent__ProvidedInterfacesAssignment_6() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:8423:1: ( ( ( ruleEString ) ) )
-            // InternalSimplepalladio.g:8424:2: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:8396:1: ( ( ( ruleEString ) ) )
+            // InternalSimplepalladio.g:8397:2: ( ( ruleEString ) )
             {
-            // InternalSimplepalladio.g:8424:2: ( ( ruleEString ) )
-            // InternalSimplepalladio.g:8425:3: ( ruleEString )
+            // InternalSimplepalladio.g:8397:2: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:8398:3: ( ruleEString )
             {
              before(grammarAccess.getCompositeComponentAccess().getProvidedInterfacesInterfaceCrossReference_6_0()); 
-            // InternalSimplepalladio.g:8426:3: ( ruleEString )
-            // InternalSimplepalladio.g:8427:4: ruleEString
+            // InternalSimplepalladio.g:8399:3: ( ruleEString )
+            // InternalSimplepalladio.g:8400:4: ruleEString
             {
              before(grammarAccess.getCompositeComponentAccess().getProvidedInterfacesInterfaceEStringParserRuleCall_6_0_1()); 
             pushFollow(FOLLOW_2);
@@ -25070,21 +24979,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__CompositeComponent__ProvidedInterfacesAssignment_7_1"
-    // InternalSimplepalladio.g:8438:1: rule__CompositeComponent__ProvidedInterfacesAssignment_7_1 : ( ( ruleEString ) ) ;
+    // InternalSimplepalladio.g:8411:1: rule__CompositeComponent__ProvidedInterfacesAssignment_7_1 : ( ( ruleEString ) ) ;
     public final void rule__CompositeComponent__ProvidedInterfacesAssignment_7_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:8442:1: ( ( ( ruleEString ) ) )
-            // InternalSimplepalladio.g:8443:2: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:8415:1: ( ( ( ruleEString ) ) )
+            // InternalSimplepalladio.g:8416:2: ( ( ruleEString ) )
             {
-            // InternalSimplepalladio.g:8443:2: ( ( ruleEString ) )
-            // InternalSimplepalladio.g:8444:3: ( ruleEString )
+            // InternalSimplepalladio.g:8416:2: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:8417:3: ( ruleEString )
             {
              before(grammarAccess.getCompositeComponentAccess().getProvidedInterfacesInterfaceCrossReference_7_1_0()); 
-            // InternalSimplepalladio.g:8445:3: ( ruleEString )
-            // InternalSimplepalladio.g:8446:4: ruleEString
+            // InternalSimplepalladio.g:8418:3: ( ruleEString )
+            // InternalSimplepalladio.g:8419:4: ruleEString
             {
              before(grammarAccess.getCompositeComponentAccess().getProvidedInterfacesInterfaceEStringParserRuleCall_7_1_0_1()); 
             pushFollow(FOLLOW_2);
@@ -25119,29 +25028,29 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__CompositeComponent__SystemAssignment_10"
-    // InternalSimplepalladio.g:8457:1: rule__CompositeComponent__SystemAssignment_10 : ( ( ruleEString ) ) ;
+    // InternalSimplepalladio.g:8430:1: rule__CompositeComponent__SystemAssignment_10 : ( ( ruleQualifiedName ) ) ;
     public final void rule__CompositeComponent__SystemAssignment_10() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:8461:1: ( ( ( ruleEString ) ) )
-            // InternalSimplepalladio.g:8462:2: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:8434:1: ( ( ( ruleQualifiedName ) ) )
+            // InternalSimplepalladio.g:8435:2: ( ( ruleQualifiedName ) )
             {
-            // InternalSimplepalladio.g:8462:2: ( ( ruleEString ) )
-            // InternalSimplepalladio.g:8463:3: ( ruleEString )
+            // InternalSimplepalladio.g:8435:2: ( ( ruleQualifiedName ) )
+            // InternalSimplepalladio.g:8436:3: ( ruleQualifiedName )
             {
              before(grammarAccess.getCompositeComponentAccess().getSystemSystemCrossReference_10_0()); 
-            // InternalSimplepalladio.g:8464:3: ( ruleEString )
-            // InternalSimplepalladio.g:8465:4: ruleEString
+            // InternalSimplepalladio.g:8437:3: ( ruleQualifiedName )
+            // InternalSimplepalladio.g:8438:4: ruleQualifiedName
             {
-             before(grammarAccess.getCompositeComponentAccess().getSystemSystemEStringParserRuleCall_10_0_1()); 
+             before(grammarAccess.getCompositeComponentAccess().getSystemSystemQualifiedNameParserRuleCall_10_0_1()); 
             pushFollow(FOLLOW_2);
-            ruleEString();
+            ruleQualifiedName();
 
             state._fsp--;
 
-             after(grammarAccess.getCompositeComponentAccess().getSystemSystemEStringParserRuleCall_10_0_1()); 
+             after(grammarAccess.getCompositeComponentAccess().getSystemSystemQualifiedNameParserRuleCall_10_0_1()); 
 
             }
 
@@ -25168,17 +25077,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Signature__NameAssignment_1"
-    // InternalSimplepalladio.g:8476:1: rule__Signature__NameAssignment_1 : ( ruleEString ) ;
+    // InternalSimplepalladio.g:8449:1: rule__Signature__NameAssignment_1 : ( ruleEString ) ;
     public final void rule__Signature__NameAssignment_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:8480:1: ( ( ruleEString ) )
-            // InternalSimplepalladio.g:8481:2: ( ruleEString )
+            // InternalSimplepalladio.g:8453:1: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:8454:2: ( ruleEString )
             {
-            // InternalSimplepalladio.g:8481:2: ( ruleEString )
-            // InternalSimplepalladio.g:8482:3: ruleEString
+            // InternalSimplepalladio.g:8454:2: ( ruleEString )
+            // InternalSimplepalladio.g:8455:3: ruleEString
             {
              before(grammarAccess.getSignatureAccess().getNameEStringParserRuleCall_1_0()); 
             pushFollow(FOLLOW_2);
@@ -25209,17 +25118,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Signature__ReturnValueAssignment_4"
-    // InternalSimplepalladio.g:8491:1: rule__Signature__ReturnValueAssignment_4 : ( ruleType ) ;
+    // InternalSimplepalladio.g:8464:1: rule__Signature__ReturnValueAssignment_4 : ( ruleType ) ;
     public final void rule__Signature__ReturnValueAssignment_4() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:8495:1: ( ( ruleType ) )
-            // InternalSimplepalladio.g:8496:2: ( ruleType )
+            // InternalSimplepalladio.g:8468:1: ( ( ruleType ) )
+            // InternalSimplepalladio.g:8469:2: ( ruleType )
             {
-            // InternalSimplepalladio.g:8496:2: ( ruleType )
-            // InternalSimplepalladio.g:8497:3: ruleType
+            // InternalSimplepalladio.g:8469:2: ( ruleType )
+            // InternalSimplepalladio.g:8470:3: ruleType
             {
              before(grammarAccess.getSignatureAccess().getReturnValueTypeEnumRuleCall_4_0()); 
             pushFollow(FOLLOW_2);
@@ -25250,17 +25159,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Signature__ParametersAssignment_5_2"
-    // InternalSimplepalladio.g:8506:1: rule__Signature__ParametersAssignment_5_2 : ( ruleParameter ) ;
+    // InternalSimplepalladio.g:8479:1: rule__Signature__ParametersAssignment_5_2 : ( ruleParameter ) ;
     public final void rule__Signature__ParametersAssignment_5_2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:8510:1: ( ( ruleParameter ) )
-            // InternalSimplepalladio.g:8511:2: ( ruleParameter )
+            // InternalSimplepalladio.g:8483:1: ( ( ruleParameter ) )
+            // InternalSimplepalladio.g:8484:2: ( ruleParameter )
             {
-            // InternalSimplepalladio.g:8511:2: ( ruleParameter )
-            // InternalSimplepalladio.g:8512:3: ruleParameter
+            // InternalSimplepalladio.g:8484:2: ( ruleParameter )
+            // InternalSimplepalladio.g:8485:3: ruleParameter
             {
              before(grammarAccess.getSignatureAccess().getParametersParameterParserRuleCall_5_2_0()); 
             pushFollow(FOLLOW_2);
@@ -25291,17 +25200,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Signature__ParametersAssignment_5_3_1"
-    // InternalSimplepalladio.g:8521:1: rule__Signature__ParametersAssignment_5_3_1 : ( ruleParameter ) ;
+    // InternalSimplepalladio.g:8494:1: rule__Signature__ParametersAssignment_5_3_1 : ( ruleParameter ) ;
     public final void rule__Signature__ParametersAssignment_5_3_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:8525:1: ( ( ruleParameter ) )
-            // InternalSimplepalladio.g:8526:2: ( ruleParameter )
+            // InternalSimplepalladio.g:8498:1: ( ( ruleParameter ) )
+            // InternalSimplepalladio.g:8499:2: ( ruleParameter )
             {
-            // InternalSimplepalladio.g:8526:2: ( ruleParameter )
-            // InternalSimplepalladio.g:8527:3: ruleParameter
+            // InternalSimplepalladio.g:8499:2: ( ruleParameter )
+            // InternalSimplepalladio.g:8500:3: ruleParameter
             {
              before(grammarAccess.getSignatureAccess().getParametersParameterParserRuleCall_5_3_1_0()); 
             pushFollow(FOLLOW_2);
@@ -25332,17 +25241,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Component__NameAssignment_1"
-    // InternalSimplepalladio.g:8536:1: rule__Component__NameAssignment_1 : ( ruleEString ) ;
+    // InternalSimplepalladio.g:8509:1: rule__Component__NameAssignment_1 : ( ruleEString ) ;
     public final void rule__Component__NameAssignment_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:8540:1: ( ( ruleEString ) )
-            // InternalSimplepalladio.g:8541:2: ( ruleEString )
+            // InternalSimplepalladio.g:8513:1: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:8514:2: ( ruleEString )
             {
-            // InternalSimplepalladio.g:8541:2: ( ruleEString )
-            // InternalSimplepalladio.g:8542:3: ruleEString
+            // InternalSimplepalladio.g:8514:2: ( ruleEString )
+            // InternalSimplepalladio.g:8515:3: ruleEString
             {
              before(grammarAccess.getComponentAccess().getNameEStringParserRuleCall_1_0()); 
             pushFollow(FOLLOW_2);
@@ -25373,21 +25282,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Component__RequiredInterfacesAssignment_3_2"
-    // InternalSimplepalladio.g:8551:1: rule__Component__RequiredInterfacesAssignment_3_2 : ( ( ruleEString ) ) ;
+    // InternalSimplepalladio.g:8524:1: rule__Component__RequiredInterfacesAssignment_3_2 : ( ( ruleEString ) ) ;
     public final void rule__Component__RequiredInterfacesAssignment_3_2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:8555:1: ( ( ( ruleEString ) ) )
-            // InternalSimplepalladio.g:8556:2: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:8528:1: ( ( ( ruleEString ) ) )
+            // InternalSimplepalladio.g:8529:2: ( ( ruleEString ) )
             {
-            // InternalSimplepalladio.g:8556:2: ( ( ruleEString ) )
-            // InternalSimplepalladio.g:8557:3: ( ruleEString )
+            // InternalSimplepalladio.g:8529:2: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:8530:3: ( ruleEString )
             {
              before(grammarAccess.getComponentAccess().getRequiredInterfacesInterfaceCrossReference_3_2_0()); 
-            // InternalSimplepalladio.g:8558:3: ( ruleEString )
-            // InternalSimplepalladio.g:8559:4: ruleEString
+            // InternalSimplepalladio.g:8531:3: ( ruleEString )
+            // InternalSimplepalladio.g:8532:4: ruleEString
             {
              before(grammarAccess.getComponentAccess().getRequiredInterfacesInterfaceEStringParserRuleCall_3_2_0_1()); 
             pushFollow(FOLLOW_2);
@@ -25422,21 +25331,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Component__RequiredInterfacesAssignment_3_3_1"
-    // InternalSimplepalladio.g:8570:1: rule__Component__RequiredInterfacesAssignment_3_3_1 : ( ( ruleEString ) ) ;
+    // InternalSimplepalladio.g:8543:1: rule__Component__RequiredInterfacesAssignment_3_3_1 : ( ( ruleEString ) ) ;
     public final void rule__Component__RequiredInterfacesAssignment_3_3_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:8574:1: ( ( ( ruleEString ) ) )
-            // InternalSimplepalladio.g:8575:2: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:8547:1: ( ( ( ruleEString ) ) )
+            // InternalSimplepalladio.g:8548:2: ( ( ruleEString ) )
             {
-            // InternalSimplepalladio.g:8575:2: ( ( ruleEString ) )
-            // InternalSimplepalladio.g:8576:3: ( ruleEString )
+            // InternalSimplepalladio.g:8548:2: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:8549:3: ( ruleEString )
             {
              before(grammarAccess.getComponentAccess().getRequiredInterfacesInterfaceCrossReference_3_3_1_0()); 
-            // InternalSimplepalladio.g:8577:3: ( ruleEString )
-            // InternalSimplepalladio.g:8578:4: ruleEString
+            // InternalSimplepalladio.g:8550:3: ( ruleEString )
+            // InternalSimplepalladio.g:8551:4: ruleEString
             {
              before(grammarAccess.getComponentAccess().getRequiredInterfacesInterfaceEStringParserRuleCall_3_3_1_0_1()); 
             pushFollow(FOLLOW_2);
@@ -25471,21 +25380,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Component__ProvidedInterfacesAssignment_6"
-    // InternalSimplepalladio.g:8589:1: rule__Component__ProvidedInterfacesAssignment_6 : ( ( ruleEString ) ) ;
+    // InternalSimplepalladio.g:8562:1: rule__Component__ProvidedInterfacesAssignment_6 : ( ( ruleEString ) ) ;
     public final void rule__Component__ProvidedInterfacesAssignment_6() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:8593:1: ( ( ( ruleEString ) ) )
-            // InternalSimplepalladio.g:8594:2: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:8566:1: ( ( ( ruleEString ) ) )
+            // InternalSimplepalladio.g:8567:2: ( ( ruleEString ) )
             {
-            // InternalSimplepalladio.g:8594:2: ( ( ruleEString ) )
-            // InternalSimplepalladio.g:8595:3: ( ruleEString )
+            // InternalSimplepalladio.g:8567:2: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:8568:3: ( ruleEString )
             {
              before(grammarAccess.getComponentAccess().getProvidedInterfacesInterfaceCrossReference_6_0()); 
-            // InternalSimplepalladio.g:8596:3: ( ruleEString )
-            // InternalSimplepalladio.g:8597:4: ruleEString
+            // InternalSimplepalladio.g:8569:3: ( ruleEString )
+            // InternalSimplepalladio.g:8570:4: ruleEString
             {
              before(grammarAccess.getComponentAccess().getProvidedInterfacesInterfaceEStringParserRuleCall_6_0_1()); 
             pushFollow(FOLLOW_2);
@@ -25520,21 +25429,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Component__ProvidedInterfacesAssignment_7_1"
-    // InternalSimplepalladio.g:8608:1: rule__Component__ProvidedInterfacesAssignment_7_1 : ( ( ruleEString ) ) ;
+    // InternalSimplepalladio.g:8581:1: rule__Component__ProvidedInterfacesAssignment_7_1 : ( ( ruleEString ) ) ;
     public final void rule__Component__ProvidedInterfacesAssignment_7_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:8612:1: ( ( ( ruleEString ) ) )
-            // InternalSimplepalladio.g:8613:2: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:8585:1: ( ( ( ruleEString ) ) )
+            // InternalSimplepalladio.g:8586:2: ( ( ruleEString ) )
             {
-            // InternalSimplepalladio.g:8613:2: ( ( ruleEString ) )
-            // InternalSimplepalladio.g:8614:3: ( ruleEString )
+            // InternalSimplepalladio.g:8586:2: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:8587:3: ( ruleEString )
             {
              before(grammarAccess.getComponentAccess().getProvidedInterfacesInterfaceCrossReference_7_1_0()); 
-            // InternalSimplepalladio.g:8615:3: ( ruleEString )
-            // InternalSimplepalladio.g:8616:4: ruleEString
+            // InternalSimplepalladio.g:8588:3: ( ruleEString )
+            // InternalSimplepalladio.g:8589:4: ruleEString
             {
              before(grammarAccess.getComponentAccess().getProvidedInterfacesInterfaceEStringParserRuleCall_7_1_0_1()); 
             pushFollow(FOLLOW_2);
@@ -25569,17 +25478,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Component__ServicesAssignment_11"
-    // InternalSimplepalladio.g:8627:1: rule__Component__ServicesAssignment_11 : ( ruleService ) ;
+    // InternalSimplepalladio.g:8600:1: rule__Component__ServicesAssignment_11 : ( ruleService ) ;
     public final void rule__Component__ServicesAssignment_11() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:8631:1: ( ( ruleService ) )
-            // InternalSimplepalladio.g:8632:2: ( ruleService )
+            // InternalSimplepalladio.g:8604:1: ( ( ruleService ) )
+            // InternalSimplepalladio.g:8605:2: ( ruleService )
             {
-            // InternalSimplepalladio.g:8632:2: ( ruleService )
-            // InternalSimplepalladio.g:8633:3: ruleService
+            // InternalSimplepalladio.g:8605:2: ( ruleService )
+            // InternalSimplepalladio.g:8606:3: ruleService
             {
              before(grammarAccess.getComponentAccess().getServicesServiceParserRuleCall_11_0()); 
             pushFollow(FOLLOW_2);
@@ -25610,17 +25519,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Component__ServicesAssignment_12_1"
-    // InternalSimplepalladio.g:8642:1: rule__Component__ServicesAssignment_12_1 : ( ruleService ) ;
+    // InternalSimplepalladio.g:8615:1: rule__Component__ServicesAssignment_12_1 : ( ruleService ) ;
     public final void rule__Component__ServicesAssignment_12_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:8646:1: ( ( ruleService ) )
-            // InternalSimplepalladio.g:8647:2: ( ruleService )
+            // InternalSimplepalladio.g:8619:1: ( ( ruleService ) )
+            // InternalSimplepalladio.g:8620:2: ( ruleService )
             {
-            // InternalSimplepalladio.g:8647:2: ( ruleService )
-            // InternalSimplepalladio.g:8648:3: ruleService
+            // InternalSimplepalladio.g:8620:2: ( ruleService )
+            // InternalSimplepalladio.g:8621:3: ruleService
             {
              before(grammarAccess.getComponentAccess().getServicesServiceParserRuleCall_12_1_0()); 
             pushFollow(FOLLOW_2);
@@ -25651,17 +25560,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Parameter__NameAssignment_1"
-    // InternalSimplepalladio.g:8657:1: rule__Parameter__NameAssignment_1 : ( ruleEString ) ;
+    // InternalSimplepalladio.g:8630:1: rule__Parameter__NameAssignment_1 : ( ruleEString ) ;
     public final void rule__Parameter__NameAssignment_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:8661:1: ( ( ruleEString ) )
-            // InternalSimplepalladio.g:8662:2: ( ruleEString )
+            // InternalSimplepalladio.g:8634:1: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:8635:2: ( ruleEString )
             {
-            // InternalSimplepalladio.g:8662:2: ( ruleEString )
-            // InternalSimplepalladio.g:8663:3: ruleEString
+            // InternalSimplepalladio.g:8635:2: ( ruleEString )
+            // InternalSimplepalladio.g:8636:3: ruleEString
             {
              before(grammarAccess.getParameterAccess().getNameEStringParserRuleCall_1_0()); 
             pushFollow(FOLLOW_2);
@@ -25692,17 +25601,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Parameter__TypeAssignment_4"
-    // InternalSimplepalladio.g:8672:1: rule__Parameter__TypeAssignment_4 : ( ruleType ) ;
+    // InternalSimplepalladio.g:8645:1: rule__Parameter__TypeAssignment_4 : ( ruleType ) ;
     public final void rule__Parameter__TypeAssignment_4() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:8676:1: ( ( ruleType ) )
-            // InternalSimplepalladio.g:8677:2: ( ruleType )
+            // InternalSimplepalladio.g:8649:1: ( ( ruleType ) )
+            // InternalSimplepalladio.g:8650:2: ( ruleType )
             {
-            // InternalSimplepalladio.g:8677:2: ( ruleType )
-            // InternalSimplepalladio.g:8678:3: ruleType
+            // InternalSimplepalladio.g:8650:2: ( ruleType )
+            // InternalSimplepalladio.g:8651:3: ruleType
             {
              before(grammarAccess.getParameterAccess().getTypeTypeEnumRuleCall_4_0()); 
             pushFollow(FOLLOW_2);
@@ -25733,21 +25642,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Service__SignatureAssignment_3"
-    // InternalSimplepalladio.g:8687:1: rule__Service__SignatureAssignment_3 : ( ( ruleEString ) ) ;
+    // InternalSimplepalladio.g:8660:1: rule__Service__SignatureAssignment_3 : ( ( ruleEString ) ) ;
     public final void rule__Service__SignatureAssignment_3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:8691:1: ( ( ( ruleEString ) ) )
-            // InternalSimplepalladio.g:8692:2: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:8664:1: ( ( ( ruleEString ) ) )
+            // InternalSimplepalladio.g:8665:2: ( ( ruleEString ) )
             {
-            // InternalSimplepalladio.g:8692:2: ( ( ruleEString ) )
-            // InternalSimplepalladio.g:8693:3: ( ruleEString )
+            // InternalSimplepalladio.g:8665:2: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:8666:3: ( ruleEString )
             {
              before(grammarAccess.getServiceAccess().getSignatureSignatureCrossReference_3_0()); 
-            // InternalSimplepalladio.g:8694:3: ( ruleEString )
-            // InternalSimplepalladio.g:8695:4: ruleEString
+            // InternalSimplepalladio.g:8667:3: ( ruleEString )
+            // InternalSimplepalladio.g:8668:4: ruleEString
             {
              before(grammarAccess.getServiceAccess().getSignatureSignatureEStringParserRuleCall_3_0_1()); 
             pushFollow(FOLLOW_2);
@@ -25782,17 +25691,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Service__BehaviourDescriptionAssignment_5"
-    // InternalSimplepalladio.g:8706:1: rule__Service__BehaviourDescriptionAssignment_5 : ( ruleBehaviourDescription ) ;
+    // InternalSimplepalladio.g:8679:1: rule__Service__BehaviourDescriptionAssignment_5 : ( ruleBehaviourDescription ) ;
     public final void rule__Service__BehaviourDescriptionAssignment_5() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:8710:1: ( ( ruleBehaviourDescription ) )
-            // InternalSimplepalladio.g:8711:2: ( ruleBehaviourDescription )
+            // InternalSimplepalladio.g:8683:1: ( ( ruleBehaviourDescription ) )
+            // InternalSimplepalladio.g:8684:2: ( ruleBehaviourDescription )
             {
-            // InternalSimplepalladio.g:8711:2: ( ruleBehaviourDescription )
-            // InternalSimplepalladio.g:8712:3: ruleBehaviourDescription
+            // InternalSimplepalladio.g:8684:2: ( ruleBehaviourDescription )
+            // InternalSimplepalladio.g:8685:3: ruleBehaviourDescription
             {
              before(grammarAccess.getServiceAccess().getBehaviourDescriptionBehaviourDescriptionParserRuleCall_5_0()); 
             pushFollow(FOLLOW_2);
@@ -25822,26 +25731,26 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
     // $ANTLR end "rule__Service__BehaviourDescriptionAssignment_5"
 
 
-    // $ANTLR start "rule__BehaviourDescription__BehaviorElementsAssignment_3_2"
-    // InternalSimplepalladio.g:8721:1: rule__BehaviourDescription__BehaviorElementsAssignment_3_2 : ( ruleBehaviorElement ) ;
-    public final void rule__BehaviourDescription__BehaviorElementsAssignment_3_2() throws RecognitionException {
+    // $ANTLR start "rule__BehaviourDescription__BehaviorElementsAssignment_5"
+    // InternalSimplepalladio.g:8694:1: rule__BehaviourDescription__BehaviorElementsAssignment_5 : ( ruleBehaviorElement ) ;
+    public final void rule__BehaviourDescription__BehaviorElementsAssignment_5() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:8725:1: ( ( ruleBehaviorElement ) )
-            // InternalSimplepalladio.g:8726:2: ( ruleBehaviorElement )
+            // InternalSimplepalladio.g:8698:1: ( ( ruleBehaviorElement ) )
+            // InternalSimplepalladio.g:8699:2: ( ruleBehaviorElement )
             {
-            // InternalSimplepalladio.g:8726:2: ( ruleBehaviorElement )
-            // InternalSimplepalladio.g:8727:3: ruleBehaviorElement
+            // InternalSimplepalladio.g:8699:2: ( ruleBehaviorElement )
+            // InternalSimplepalladio.g:8700:3: ruleBehaviorElement
             {
-             before(grammarAccess.getBehaviourDescriptionAccess().getBehaviorElementsBehaviorElementParserRuleCall_3_2_0()); 
+             before(grammarAccess.getBehaviourDescriptionAccess().getBehaviorElementsBehaviorElementParserRuleCall_5_0()); 
             pushFollow(FOLLOW_2);
             ruleBehaviorElement();
 
             state._fsp--;
 
-             after(grammarAccess.getBehaviourDescriptionAccess().getBehaviorElementsBehaviorElementParserRuleCall_3_2_0()); 
+             after(grammarAccess.getBehaviourDescriptionAccess().getBehaviorElementsBehaviorElementParserRuleCall_5_0()); 
 
             }
 
@@ -25860,29 +25769,29 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
         }
         return ;
     }
-    // $ANTLR end "rule__BehaviourDescription__BehaviorElementsAssignment_3_2"
+    // $ANTLR end "rule__BehaviourDescription__BehaviorElementsAssignment_5"
 
 
-    // $ANTLR start "rule__BehaviourDescription__BehaviorElementsAssignment_3_3_1"
-    // InternalSimplepalladio.g:8736:1: rule__BehaviourDescription__BehaviorElementsAssignment_3_3_1 : ( ruleBehaviorElement ) ;
-    public final void rule__BehaviourDescription__BehaviorElementsAssignment_3_3_1() throws RecognitionException {
+    // $ANTLR start "rule__BehaviourDescription__BehaviorElementsAssignment_6_1"
+    // InternalSimplepalladio.g:8709:1: rule__BehaviourDescription__BehaviorElementsAssignment_6_1 : ( ruleBehaviorElement ) ;
+    public final void rule__BehaviourDescription__BehaviorElementsAssignment_6_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:8740:1: ( ( ruleBehaviorElement ) )
-            // InternalSimplepalladio.g:8741:2: ( ruleBehaviorElement )
+            // InternalSimplepalladio.g:8713:1: ( ( ruleBehaviorElement ) )
+            // InternalSimplepalladio.g:8714:2: ( ruleBehaviorElement )
             {
-            // InternalSimplepalladio.g:8741:2: ( ruleBehaviorElement )
-            // InternalSimplepalladio.g:8742:3: ruleBehaviorElement
+            // InternalSimplepalladio.g:8714:2: ( ruleBehaviorElement )
+            // InternalSimplepalladio.g:8715:3: ruleBehaviorElement
             {
-             before(grammarAccess.getBehaviourDescriptionAccess().getBehaviorElementsBehaviorElementParserRuleCall_3_3_1_0()); 
+             before(grammarAccess.getBehaviourDescriptionAccess().getBehaviorElementsBehaviorElementParserRuleCall_6_1_0()); 
             pushFollow(FOLLOW_2);
             ruleBehaviorElement();
 
             state._fsp--;
 
-             after(grammarAccess.getBehaviourDescriptionAccess().getBehaviorElementsBehaviorElementParserRuleCall_3_3_1_0()); 
+             after(grammarAccess.getBehaviourDescriptionAccess().getBehaviorElementsBehaviorElementParserRuleCall_6_1_0()); 
 
             }
 
@@ -25901,25 +25810,25 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
         }
         return ;
     }
-    // $ANTLR end "rule__BehaviourDescription__BehaviorElementsAssignment_3_3_1"
+    // $ANTLR end "rule__BehaviourDescription__BehaviorElementsAssignment_6_1"
 
 
     // $ANTLR start "rule__ExternalCall__SignatureAssignment_3"
-    // InternalSimplepalladio.g:8751:1: rule__ExternalCall__SignatureAssignment_3 : ( ( ruleEString ) ) ;
+    // InternalSimplepalladio.g:8724:1: rule__ExternalCall__SignatureAssignment_3 : ( ( ruleEString ) ) ;
     public final void rule__ExternalCall__SignatureAssignment_3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:8755:1: ( ( ( ruleEString ) ) )
-            // InternalSimplepalladio.g:8756:2: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:8728:1: ( ( ( ruleEString ) ) )
+            // InternalSimplepalladio.g:8729:2: ( ( ruleEString ) )
             {
-            // InternalSimplepalladio.g:8756:2: ( ( ruleEString ) )
-            // InternalSimplepalladio.g:8757:3: ( ruleEString )
+            // InternalSimplepalladio.g:8729:2: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:8730:3: ( ruleEString )
             {
              before(grammarAccess.getExternalCallAccess().getSignatureSignatureCrossReference_3_0()); 
-            // InternalSimplepalladio.g:8758:3: ( ruleEString )
-            // InternalSimplepalladio.g:8759:4: ruleEString
+            // InternalSimplepalladio.g:8731:3: ( ruleEString )
+            // InternalSimplepalladio.g:8732:4: ruleEString
             {
              before(grammarAccess.getExternalCallAccess().getSignatureSignatureEStringParserRuleCall_3_0_1()); 
             pushFollow(FOLLOW_2);
@@ -25954,33 +25863,25 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Loop__BehaviorElementsAssignment_3_2"
-    // InternalSimplepalladio.g:8770:1: rule__Loop__BehaviorElementsAssignment_3_2 : ( ( ruleEString ) ) ;
+    // InternalSimplepalladio.g:8743:1: rule__Loop__BehaviorElementsAssignment_3_2 : ( ruleBehaviorElement ) ;
     public final void rule__Loop__BehaviorElementsAssignment_3_2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:8774:1: ( ( ( ruleEString ) ) )
-            // InternalSimplepalladio.g:8775:2: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:8747:1: ( ( ruleBehaviorElement ) )
+            // InternalSimplepalladio.g:8748:2: ( ruleBehaviorElement )
             {
-            // InternalSimplepalladio.g:8775:2: ( ( ruleEString ) )
-            // InternalSimplepalladio.g:8776:3: ( ruleEString )
+            // InternalSimplepalladio.g:8748:2: ( ruleBehaviorElement )
+            // InternalSimplepalladio.g:8749:3: ruleBehaviorElement
             {
-             before(grammarAccess.getLoopAccess().getBehaviorElementsBehaviorElementCrossReference_3_2_0()); 
-            // InternalSimplepalladio.g:8777:3: ( ruleEString )
-            // InternalSimplepalladio.g:8778:4: ruleEString
-            {
-             before(grammarAccess.getLoopAccess().getBehaviorElementsBehaviorElementEStringParserRuleCall_3_2_0_1()); 
+             before(grammarAccess.getLoopAccess().getBehaviorElementsBehaviorElementParserRuleCall_3_2_0()); 
             pushFollow(FOLLOW_2);
-            ruleEString();
+            ruleBehaviorElement();
 
             state._fsp--;
 
-             after(grammarAccess.getLoopAccess().getBehaviorElementsBehaviorElementEStringParserRuleCall_3_2_0_1()); 
-
-            }
-
-             after(grammarAccess.getLoopAccess().getBehaviorElementsBehaviorElementCrossReference_3_2_0()); 
+             after(grammarAccess.getLoopAccess().getBehaviorElementsBehaviorElementParserRuleCall_3_2_0()); 
 
             }
 
@@ -26003,33 +25904,25 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Loop__BehaviorElementsAssignment_3_3_1"
-    // InternalSimplepalladio.g:8789:1: rule__Loop__BehaviorElementsAssignment_3_3_1 : ( ( ruleEString ) ) ;
+    // InternalSimplepalladio.g:8758:1: rule__Loop__BehaviorElementsAssignment_3_3_1 : ( ruleBehaviorElement ) ;
     public final void rule__Loop__BehaviorElementsAssignment_3_3_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:8793:1: ( ( ( ruleEString ) ) )
-            // InternalSimplepalladio.g:8794:2: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:8762:1: ( ( ruleBehaviorElement ) )
+            // InternalSimplepalladio.g:8763:2: ( ruleBehaviorElement )
             {
-            // InternalSimplepalladio.g:8794:2: ( ( ruleEString ) )
-            // InternalSimplepalladio.g:8795:3: ( ruleEString )
+            // InternalSimplepalladio.g:8763:2: ( ruleBehaviorElement )
+            // InternalSimplepalladio.g:8764:3: ruleBehaviorElement
             {
-             before(grammarAccess.getLoopAccess().getBehaviorElementsBehaviorElementCrossReference_3_3_1_0()); 
-            // InternalSimplepalladio.g:8796:3: ( ruleEString )
-            // InternalSimplepalladio.g:8797:4: ruleEString
-            {
-             before(grammarAccess.getLoopAccess().getBehaviorElementsBehaviorElementEStringParserRuleCall_3_3_1_0_1()); 
+             before(grammarAccess.getLoopAccess().getBehaviorElementsBehaviorElementParserRuleCall_3_3_1_0()); 
             pushFollow(FOLLOW_2);
-            ruleEString();
+            ruleBehaviorElement();
 
             state._fsp--;
 
-             after(grammarAccess.getLoopAccess().getBehaviorElementsBehaviorElementEStringParserRuleCall_3_3_1_0_1()); 
-
-            }
-
-             after(grammarAccess.getLoopAccess().getBehaviorElementsBehaviorElementCrossReference_3_3_1_0()); 
+             after(grammarAccess.getLoopAccess().getBehaviorElementsBehaviorElementParserRuleCall_3_3_1_0()); 
 
             }
 
@@ -26052,33 +25945,25 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Branch__BehaviorElementsAssignment_3_2"
-    // InternalSimplepalladio.g:8808:1: rule__Branch__BehaviorElementsAssignment_3_2 : ( ( ruleEString ) ) ;
+    // InternalSimplepalladio.g:8773:1: rule__Branch__BehaviorElementsAssignment_3_2 : ( ruleBehaviorElement ) ;
     public final void rule__Branch__BehaviorElementsAssignment_3_2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:8812:1: ( ( ( ruleEString ) ) )
-            // InternalSimplepalladio.g:8813:2: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:8777:1: ( ( ruleBehaviorElement ) )
+            // InternalSimplepalladio.g:8778:2: ( ruleBehaviorElement )
             {
-            // InternalSimplepalladio.g:8813:2: ( ( ruleEString ) )
-            // InternalSimplepalladio.g:8814:3: ( ruleEString )
+            // InternalSimplepalladio.g:8778:2: ( ruleBehaviorElement )
+            // InternalSimplepalladio.g:8779:3: ruleBehaviorElement
             {
-             before(grammarAccess.getBranchAccess().getBehaviorElementsBehaviorElementCrossReference_3_2_0()); 
-            // InternalSimplepalladio.g:8815:3: ( ruleEString )
-            // InternalSimplepalladio.g:8816:4: ruleEString
-            {
-             before(grammarAccess.getBranchAccess().getBehaviorElementsBehaviorElementEStringParserRuleCall_3_2_0_1()); 
+             before(grammarAccess.getBranchAccess().getBehaviorElementsBehaviorElementParserRuleCall_3_2_0()); 
             pushFollow(FOLLOW_2);
-            ruleEString();
+            ruleBehaviorElement();
 
             state._fsp--;
 
-             after(grammarAccess.getBranchAccess().getBehaviorElementsBehaviorElementEStringParserRuleCall_3_2_0_1()); 
-
-            }
-
-             after(grammarAccess.getBranchAccess().getBehaviorElementsBehaviorElementCrossReference_3_2_0()); 
+             after(grammarAccess.getBranchAccess().getBehaviorElementsBehaviorElementParserRuleCall_3_2_0()); 
 
             }
 
@@ -26101,33 +25986,25 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Branch__BehaviorElementsAssignment_3_3_1"
-    // InternalSimplepalladio.g:8827:1: rule__Branch__BehaviorElementsAssignment_3_3_1 : ( ( ruleEString ) ) ;
+    // InternalSimplepalladio.g:8788:1: rule__Branch__BehaviorElementsAssignment_3_3_1 : ( ruleBehaviorElement ) ;
     public final void rule__Branch__BehaviorElementsAssignment_3_3_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:8831:1: ( ( ( ruleEString ) ) )
-            // InternalSimplepalladio.g:8832:2: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:8792:1: ( ( ruleBehaviorElement ) )
+            // InternalSimplepalladio.g:8793:2: ( ruleBehaviorElement )
             {
-            // InternalSimplepalladio.g:8832:2: ( ( ruleEString ) )
-            // InternalSimplepalladio.g:8833:3: ( ruleEString )
+            // InternalSimplepalladio.g:8793:2: ( ruleBehaviorElement )
+            // InternalSimplepalladio.g:8794:3: ruleBehaviorElement
             {
-             before(grammarAccess.getBranchAccess().getBehaviorElementsBehaviorElementCrossReference_3_3_1_0()); 
-            // InternalSimplepalladio.g:8834:3: ( ruleEString )
-            // InternalSimplepalladio.g:8835:4: ruleEString
-            {
-             before(grammarAccess.getBranchAccess().getBehaviorElementsBehaviorElementEStringParserRuleCall_3_3_1_0_1()); 
+             before(grammarAccess.getBranchAccess().getBehaviorElementsBehaviorElementParserRuleCall_3_3_1_0()); 
             pushFollow(FOLLOW_2);
-            ruleEString();
+            ruleBehaviorElement();
 
             state._fsp--;
 
-             after(grammarAccess.getBranchAccess().getBehaviorElementsBehaviorElementEStringParserRuleCall_3_3_1_0_1()); 
-
-            }
-
-             after(grammarAccess.getBranchAccess().getBehaviorElementsBehaviorElementCrossReference_3_3_1_0()); 
+             after(grammarAccess.getBranchAccess().getBehaviorElementsBehaviorElementParserRuleCall_3_3_1_0()); 
 
             }
 
@@ -26150,17 +26027,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyViewType__SystemsAssignment_4"
-    // InternalSimplepalladio.g:8846:1: rule__AssemblyViewType__SystemsAssignment_4 : ( ruleSystem ) ;
+    // InternalSimplepalladio.g:8803:1: rule__AssemblyViewType__SystemsAssignment_4 : ( ruleSystem ) ;
     public final void rule__AssemblyViewType__SystemsAssignment_4() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:8850:1: ( ( ruleSystem ) )
-            // InternalSimplepalladio.g:8851:2: ( ruleSystem )
+            // InternalSimplepalladio.g:8807:1: ( ( ruleSystem ) )
+            // InternalSimplepalladio.g:8808:2: ( ruleSystem )
             {
-            // InternalSimplepalladio.g:8851:2: ( ruleSystem )
-            // InternalSimplepalladio.g:8852:3: ruleSystem
+            // InternalSimplepalladio.g:8808:2: ( ruleSystem )
+            // InternalSimplepalladio.g:8809:3: ruleSystem
             {
              before(grammarAccess.getAssemblyViewTypeAccess().getSystemsSystemParserRuleCall_4_0()); 
             pushFollow(FOLLOW_2);
@@ -26191,17 +26068,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyViewType__SystemsAssignment_5_1"
-    // InternalSimplepalladio.g:8861:1: rule__AssemblyViewType__SystemsAssignment_5_1 : ( ruleSystem ) ;
+    // InternalSimplepalladio.g:8818:1: rule__AssemblyViewType__SystemsAssignment_5_1 : ( ruleSystem ) ;
     public final void rule__AssemblyViewType__SystemsAssignment_5_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:8865:1: ( ( ruleSystem ) )
-            // InternalSimplepalladio.g:8866:2: ( ruleSystem )
+            // InternalSimplepalladio.g:8822:1: ( ( ruleSystem ) )
+            // InternalSimplepalladio.g:8823:2: ( ruleSystem )
             {
-            // InternalSimplepalladio.g:8866:2: ( ruleSystem )
-            // InternalSimplepalladio.g:8867:3: ruleSystem
+            // InternalSimplepalladio.g:8823:2: ( ruleSystem )
+            // InternalSimplepalladio.g:8824:3: ruleSystem
             {
              before(grammarAccess.getAssemblyViewTypeAccess().getSystemsSystemParserRuleCall_5_1_0()); 
             pushFollow(FOLLOW_2);
@@ -26232,17 +26109,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__System__NameAssignment_1"
-    // InternalSimplepalladio.g:8876:1: rule__System__NameAssignment_1 : ( ruleEString ) ;
+    // InternalSimplepalladio.g:8833:1: rule__System__NameAssignment_1 : ( ruleEString ) ;
     public final void rule__System__NameAssignment_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:8880:1: ( ( ruleEString ) )
-            // InternalSimplepalladio.g:8881:2: ( ruleEString )
+            // InternalSimplepalladio.g:8837:1: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:8838:2: ( ruleEString )
             {
-            // InternalSimplepalladio.g:8881:2: ( ruleEString )
-            // InternalSimplepalladio.g:8882:3: ruleEString
+            // InternalSimplepalladio.g:8838:2: ( ruleEString )
+            // InternalSimplepalladio.g:8839:3: ruleEString
             {
              before(grammarAccess.getSystemAccess().getNameEStringParserRuleCall_1_0()); 
             pushFollow(FOLLOW_2);
@@ -26273,21 +26150,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__System__RequiredInterfacesAssignment_3_2"
-    // InternalSimplepalladio.g:8891:1: rule__System__RequiredInterfacesAssignment_3_2 : ( ( ruleEString ) ) ;
+    // InternalSimplepalladio.g:8848:1: rule__System__RequiredInterfacesAssignment_3_2 : ( ( ruleEString ) ) ;
     public final void rule__System__RequiredInterfacesAssignment_3_2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:8895:1: ( ( ( ruleEString ) ) )
-            // InternalSimplepalladio.g:8896:2: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:8852:1: ( ( ( ruleEString ) ) )
+            // InternalSimplepalladio.g:8853:2: ( ( ruleEString ) )
             {
-            // InternalSimplepalladio.g:8896:2: ( ( ruleEString ) )
-            // InternalSimplepalladio.g:8897:3: ( ruleEString )
+            // InternalSimplepalladio.g:8853:2: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:8854:3: ( ruleEString )
             {
              before(grammarAccess.getSystemAccess().getRequiredInterfacesInterfaceCrossReference_3_2_0()); 
-            // InternalSimplepalladio.g:8898:3: ( ruleEString )
-            // InternalSimplepalladio.g:8899:4: ruleEString
+            // InternalSimplepalladio.g:8855:3: ( ruleEString )
+            // InternalSimplepalladio.g:8856:4: ruleEString
             {
              before(grammarAccess.getSystemAccess().getRequiredInterfacesInterfaceEStringParserRuleCall_3_2_0_1()); 
             pushFollow(FOLLOW_2);
@@ -26322,21 +26199,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__System__RequiredInterfacesAssignment_3_3_1"
-    // InternalSimplepalladio.g:8910:1: rule__System__RequiredInterfacesAssignment_3_3_1 : ( ( ruleEString ) ) ;
+    // InternalSimplepalladio.g:8867:1: rule__System__RequiredInterfacesAssignment_3_3_1 : ( ( ruleEString ) ) ;
     public final void rule__System__RequiredInterfacesAssignment_3_3_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:8914:1: ( ( ( ruleEString ) ) )
-            // InternalSimplepalladio.g:8915:2: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:8871:1: ( ( ( ruleEString ) ) )
+            // InternalSimplepalladio.g:8872:2: ( ( ruleEString ) )
             {
-            // InternalSimplepalladio.g:8915:2: ( ( ruleEString ) )
-            // InternalSimplepalladio.g:8916:3: ( ruleEString )
+            // InternalSimplepalladio.g:8872:2: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:8873:3: ( ruleEString )
             {
              before(grammarAccess.getSystemAccess().getRequiredInterfacesInterfaceCrossReference_3_3_1_0()); 
-            // InternalSimplepalladio.g:8917:3: ( ruleEString )
-            // InternalSimplepalladio.g:8918:4: ruleEString
+            // InternalSimplepalladio.g:8874:3: ( ruleEString )
+            // InternalSimplepalladio.g:8875:4: ruleEString
             {
              before(grammarAccess.getSystemAccess().getRequiredInterfacesInterfaceEStringParserRuleCall_3_3_1_0_1()); 
             pushFollow(FOLLOW_2);
@@ -26371,21 +26248,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__System__ProvidedInterfacesAssignment_6"
-    // InternalSimplepalladio.g:8929:1: rule__System__ProvidedInterfacesAssignment_6 : ( ( ruleEString ) ) ;
+    // InternalSimplepalladio.g:8886:1: rule__System__ProvidedInterfacesAssignment_6 : ( ( ruleEString ) ) ;
     public final void rule__System__ProvidedInterfacesAssignment_6() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:8933:1: ( ( ( ruleEString ) ) )
-            // InternalSimplepalladio.g:8934:2: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:8890:1: ( ( ( ruleEString ) ) )
+            // InternalSimplepalladio.g:8891:2: ( ( ruleEString ) )
             {
-            // InternalSimplepalladio.g:8934:2: ( ( ruleEString ) )
-            // InternalSimplepalladio.g:8935:3: ( ruleEString )
+            // InternalSimplepalladio.g:8891:2: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:8892:3: ( ruleEString )
             {
              before(grammarAccess.getSystemAccess().getProvidedInterfacesInterfaceCrossReference_6_0()); 
-            // InternalSimplepalladio.g:8936:3: ( ruleEString )
-            // InternalSimplepalladio.g:8937:4: ruleEString
+            // InternalSimplepalladio.g:8893:3: ( ruleEString )
+            // InternalSimplepalladio.g:8894:4: ruleEString
             {
              before(grammarAccess.getSystemAccess().getProvidedInterfacesInterfaceEStringParserRuleCall_6_0_1()); 
             pushFollow(FOLLOW_2);
@@ -26420,21 +26297,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__System__ProvidedInterfacesAssignment_7_1"
-    // InternalSimplepalladio.g:8948:1: rule__System__ProvidedInterfacesAssignment_7_1 : ( ( ruleEString ) ) ;
+    // InternalSimplepalladio.g:8905:1: rule__System__ProvidedInterfacesAssignment_7_1 : ( ( ruleEString ) ) ;
     public final void rule__System__ProvidedInterfacesAssignment_7_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:8952:1: ( ( ( ruleEString ) ) )
-            // InternalSimplepalladio.g:8953:2: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:8909:1: ( ( ( ruleEString ) ) )
+            // InternalSimplepalladio.g:8910:2: ( ( ruleEString ) )
             {
-            // InternalSimplepalladio.g:8953:2: ( ( ruleEString ) )
-            // InternalSimplepalladio.g:8954:3: ( ruleEString )
+            // InternalSimplepalladio.g:8910:2: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:8911:3: ( ruleEString )
             {
              before(grammarAccess.getSystemAccess().getProvidedInterfacesInterfaceCrossReference_7_1_0()); 
-            // InternalSimplepalladio.g:8955:3: ( ruleEString )
-            // InternalSimplepalladio.g:8956:4: ruleEString
+            // InternalSimplepalladio.g:8912:3: ( ruleEString )
+            // InternalSimplepalladio.g:8913:4: ruleEString
             {
              before(grammarAccess.getSystemAccess().getProvidedInterfacesInterfaceEStringParserRuleCall_7_1_0_1()); 
             pushFollow(FOLLOW_2);
@@ -26469,17 +26346,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__System__SystemElementsAssignment_11"
-    // InternalSimplepalladio.g:8967:1: rule__System__SystemElementsAssignment_11 : ( ruleAbstractSystemElement ) ;
+    // InternalSimplepalladio.g:8924:1: rule__System__SystemElementsAssignment_11 : ( ruleAbstractSystemElement ) ;
     public final void rule__System__SystemElementsAssignment_11() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:8971:1: ( ( ruleAbstractSystemElement ) )
-            // InternalSimplepalladio.g:8972:2: ( ruleAbstractSystemElement )
+            // InternalSimplepalladio.g:8928:1: ( ( ruleAbstractSystemElement ) )
+            // InternalSimplepalladio.g:8929:2: ( ruleAbstractSystemElement )
             {
-            // InternalSimplepalladio.g:8972:2: ( ruleAbstractSystemElement )
-            // InternalSimplepalladio.g:8973:3: ruleAbstractSystemElement
+            // InternalSimplepalladio.g:8929:2: ( ruleAbstractSystemElement )
+            // InternalSimplepalladio.g:8930:3: ruleAbstractSystemElement
             {
              before(grammarAccess.getSystemAccess().getSystemElementsAbstractSystemElementParserRuleCall_11_0()); 
             pushFollow(FOLLOW_2);
@@ -26510,17 +26387,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__System__SystemElementsAssignment_12_1"
-    // InternalSimplepalladio.g:8982:1: rule__System__SystemElementsAssignment_12_1 : ( ruleAbstractSystemElement ) ;
+    // InternalSimplepalladio.g:8939:1: rule__System__SystemElementsAssignment_12_1 : ( ruleAbstractSystemElement ) ;
     public final void rule__System__SystemElementsAssignment_12_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:8986:1: ( ( ruleAbstractSystemElement ) )
-            // InternalSimplepalladio.g:8987:2: ( ruleAbstractSystemElement )
+            // InternalSimplepalladio.g:8943:1: ( ( ruleAbstractSystemElement ) )
+            // InternalSimplepalladio.g:8944:2: ( ruleAbstractSystemElement )
             {
-            // InternalSimplepalladio.g:8987:2: ( ruleAbstractSystemElement )
-            // InternalSimplepalladio.g:8988:3: ruleAbstractSystemElement
+            // InternalSimplepalladio.g:8944:2: ( ruleAbstractSystemElement )
+            // InternalSimplepalladio.g:8945:3: ruleAbstractSystemElement
             {
              before(grammarAccess.getSystemAccess().getSystemElementsAbstractSystemElementParserRuleCall_12_1_0()); 
             pushFollow(FOLLOW_2);
@@ -26551,17 +26428,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyContext__NameAssignment_1"
-    // InternalSimplepalladio.g:8997:1: rule__AssemblyContext__NameAssignment_1 : ( ruleEString ) ;
+    // InternalSimplepalladio.g:8954:1: rule__AssemblyContext__NameAssignment_1 : ( ruleEString ) ;
     public final void rule__AssemblyContext__NameAssignment_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:9001:1: ( ( ruleEString ) )
-            // InternalSimplepalladio.g:9002:2: ( ruleEString )
+            // InternalSimplepalladio.g:8958:1: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:8959:2: ( ruleEString )
             {
-            // InternalSimplepalladio.g:9002:2: ( ruleEString )
-            // InternalSimplepalladio.g:9003:3: ruleEString
+            // InternalSimplepalladio.g:8959:2: ( ruleEString )
+            // InternalSimplepalladio.g:8960:3: ruleEString
             {
              before(grammarAccess.getAssemblyContextAccess().getNameEStringParserRuleCall_1_0()); 
             pushFollow(FOLLOW_2);
@@ -26592,21 +26469,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyContext__ComponentAssignment_4"
-    // InternalSimplepalladio.g:9012:1: rule__AssemblyContext__ComponentAssignment_4 : ( ( ruleEString ) ) ;
+    // InternalSimplepalladio.g:8969:1: rule__AssemblyContext__ComponentAssignment_4 : ( ( ruleEString ) ) ;
     public final void rule__AssemblyContext__ComponentAssignment_4() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:9016:1: ( ( ( ruleEString ) ) )
-            // InternalSimplepalladio.g:9017:2: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:8973:1: ( ( ( ruleEString ) ) )
+            // InternalSimplepalladio.g:8974:2: ( ( ruleEString ) )
             {
-            // InternalSimplepalladio.g:9017:2: ( ( ruleEString ) )
-            // InternalSimplepalladio.g:9018:3: ( ruleEString )
+            // InternalSimplepalladio.g:8974:2: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:8975:3: ( ruleEString )
             {
              before(grammarAccess.getAssemblyContextAccess().getComponentAbstractComponentCrossReference_4_0()); 
-            // InternalSimplepalladio.g:9019:3: ( ruleEString )
-            // InternalSimplepalladio.g:9020:4: ruleEString
+            // InternalSimplepalladio.g:8976:3: ( ruleEString )
+            // InternalSimplepalladio.g:8977:4: ruleEString
             {
              before(grammarAccess.getAssemblyContextAccess().getComponentAbstractComponentEStringParserRuleCall_4_0_1()); 
             pushFollow(FOLLOW_2);
@@ -26641,21 +26518,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyContext__ProvidedRolesAssignment_7"
-    // InternalSimplepalladio.g:9031:1: rule__AssemblyContext__ProvidedRolesAssignment_7 : ( ( ruleEString ) ) ;
+    // InternalSimplepalladio.g:8988:1: rule__AssemblyContext__ProvidedRolesAssignment_7 : ( ( ruleEString ) ) ;
     public final void rule__AssemblyContext__ProvidedRolesAssignment_7() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:9035:1: ( ( ( ruleEString ) ) )
-            // InternalSimplepalladio.g:9036:2: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:8992:1: ( ( ( ruleEString ) ) )
+            // InternalSimplepalladio.g:8993:2: ( ( ruleEString ) )
             {
-            // InternalSimplepalladio.g:9036:2: ( ( ruleEString ) )
-            // InternalSimplepalladio.g:9037:3: ( ruleEString )
+            // InternalSimplepalladio.g:8993:2: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:8994:3: ( ruleEString )
             {
              before(grammarAccess.getAssemblyContextAccess().getProvidedRolesRoleCrossReference_7_0()); 
-            // InternalSimplepalladio.g:9038:3: ( ruleEString )
-            // InternalSimplepalladio.g:9039:4: ruleEString
+            // InternalSimplepalladio.g:8995:3: ( ruleEString )
+            // InternalSimplepalladio.g:8996:4: ruleEString
             {
              before(grammarAccess.getAssemblyContextAccess().getProvidedRolesRoleEStringParserRuleCall_7_0_1()); 
             pushFollow(FOLLOW_2);
@@ -26690,21 +26567,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyContext__ProvidedRolesAssignment_8_1"
-    // InternalSimplepalladio.g:9050:1: rule__AssemblyContext__ProvidedRolesAssignment_8_1 : ( ( ruleEString ) ) ;
+    // InternalSimplepalladio.g:9007:1: rule__AssemblyContext__ProvidedRolesAssignment_8_1 : ( ( ruleEString ) ) ;
     public final void rule__AssemblyContext__ProvidedRolesAssignment_8_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:9054:1: ( ( ( ruleEString ) ) )
-            // InternalSimplepalladio.g:9055:2: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:9011:1: ( ( ( ruleEString ) ) )
+            // InternalSimplepalladio.g:9012:2: ( ( ruleEString ) )
             {
-            // InternalSimplepalladio.g:9055:2: ( ( ruleEString ) )
-            // InternalSimplepalladio.g:9056:3: ( ruleEString )
+            // InternalSimplepalladio.g:9012:2: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:9013:3: ( ruleEString )
             {
              before(grammarAccess.getAssemblyContextAccess().getProvidedRolesRoleCrossReference_8_1_0()); 
-            // InternalSimplepalladio.g:9057:3: ( ruleEString )
-            // InternalSimplepalladio.g:9058:4: ruleEString
+            // InternalSimplepalladio.g:9014:3: ( ruleEString )
+            // InternalSimplepalladio.g:9015:4: ruleEString
             {
              before(grammarAccess.getAssemblyContextAccess().getProvidedRolesRoleEStringParserRuleCall_8_1_0_1()); 
             pushFollow(FOLLOW_2);
@@ -26739,21 +26616,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyContext__RequiredRolesAssignment_10_2"
-    // InternalSimplepalladio.g:9069:1: rule__AssemblyContext__RequiredRolesAssignment_10_2 : ( ( ruleEString ) ) ;
+    // InternalSimplepalladio.g:9026:1: rule__AssemblyContext__RequiredRolesAssignment_10_2 : ( ( ruleEString ) ) ;
     public final void rule__AssemblyContext__RequiredRolesAssignment_10_2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:9073:1: ( ( ( ruleEString ) ) )
-            // InternalSimplepalladio.g:9074:2: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:9030:1: ( ( ( ruleEString ) ) )
+            // InternalSimplepalladio.g:9031:2: ( ( ruleEString ) )
             {
-            // InternalSimplepalladio.g:9074:2: ( ( ruleEString ) )
-            // InternalSimplepalladio.g:9075:3: ( ruleEString )
+            // InternalSimplepalladio.g:9031:2: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:9032:3: ( ruleEString )
             {
              before(grammarAccess.getAssemblyContextAccess().getRequiredRolesRoleCrossReference_10_2_0()); 
-            // InternalSimplepalladio.g:9076:3: ( ruleEString )
-            // InternalSimplepalladio.g:9077:4: ruleEString
+            // InternalSimplepalladio.g:9033:3: ( ruleEString )
+            // InternalSimplepalladio.g:9034:4: ruleEString
             {
              before(grammarAccess.getAssemblyContextAccess().getRequiredRolesRoleEStringParserRuleCall_10_2_0_1()); 
             pushFollow(FOLLOW_2);
@@ -26788,21 +26665,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyContext__RequiredRolesAssignment_10_3_1"
-    // InternalSimplepalladio.g:9088:1: rule__AssemblyContext__RequiredRolesAssignment_10_3_1 : ( ( ruleEString ) ) ;
+    // InternalSimplepalladio.g:9045:1: rule__AssemblyContext__RequiredRolesAssignment_10_3_1 : ( ( ruleEString ) ) ;
     public final void rule__AssemblyContext__RequiredRolesAssignment_10_3_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:9092:1: ( ( ( ruleEString ) ) )
-            // InternalSimplepalladio.g:9093:2: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:9049:1: ( ( ( ruleEString ) ) )
+            // InternalSimplepalladio.g:9050:2: ( ( ruleEString ) )
             {
-            // InternalSimplepalladio.g:9093:2: ( ( ruleEString ) )
-            // InternalSimplepalladio.g:9094:3: ( ruleEString )
+            // InternalSimplepalladio.g:9050:2: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:9051:3: ( ruleEString )
             {
              before(grammarAccess.getAssemblyContextAccess().getRequiredRolesRoleCrossReference_10_3_1_0()); 
-            // InternalSimplepalladio.g:9095:3: ( ruleEString )
-            // InternalSimplepalladio.g:9096:4: ruleEString
+            // InternalSimplepalladio.g:9052:3: ( ruleEString )
+            // InternalSimplepalladio.g:9053:4: ruleEString
             {
              before(grammarAccess.getAssemblyContextAccess().getRequiredRolesRoleEStringParserRuleCall_10_3_1_0_1()); 
             pushFollow(FOLLOW_2);
@@ -26837,17 +26714,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Role__NameAssignment_1"
-    // InternalSimplepalladio.g:9107:1: rule__Role__NameAssignment_1 : ( ruleEString ) ;
+    // InternalSimplepalladio.g:9064:1: rule__Role__NameAssignment_1 : ( ruleEString ) ;
     public final void rule__Role__NameAssignment_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:9111:1: ( ( ruleEString ) )
-            // InternalSimplepalladio.g:9112:2: ( ruleEString )
+            // InternalSimplepalladio.g:9068:1: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:9069:2: ( ruleEString )
             {
-            // InternalSimplepalladio.g:9112:2: ( ruleEString )
-            // InternalSimplepalladio.g:9113:3: ruleEString
+            // InternalSimplepalladio.g:9069:2: ( ruleEString )
+            // InternalSimplepalladio.g:9070:3: ruleEString
             {
              before(grammarAccess.getRoleAccess().getNameEStringParserRuleCall_1_0()); 
             pushFollow(FOLLOW_2);
@@ -26878,21 +26755,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Role__InterfaceAssignment_4"
-    // InternalSimplepalladio.g:9122:1: rule__Role__InterfaceAssignment_4 : ( ( ruleEString ) ) ;
+    // InternalSimplepalladio.g:9079:1: rule__Role__InterfaceAssignment_4 : ( ( ruleEString ) ) ;
     public final void rule__Role__InterfaceAssignment_4() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:9126:1: ( ( ( ruleEString ) ) )
-            // InternalSimplepalladio.g:9127:2: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:9083:1: ( ( ( ruleEString ) ) )
+            // InternalSimplepalladio.g:9084:2: ( ( ruleEString ) )
             {
-            // InternalSimplepalladio.g:9127:2: ( ( ruleEString ) )
-            // InternalSimplepalladio.g:9128:3: ( ruleEString )
+            // InternalSimplepalladio.g:9084:2: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:9085:3: ( ruleEString )
             {
              before(grammarAccess.getRoleAccess().getInterfaceInterfaceCrossReference_4_0()); 
-            // InternalSimplepalladio.g:9129:3: ( ruleEString )
-            // InternalSimplepalladio.g:9130:4: ruleEString
+            // InternalSimplepalladio.g:9086:3: ( ruleEString )
+            // InternalSimplepalladio.g:9087:4: ruleEString
             {
              before(grammarAccess.getRoleAccess().getInterfaceInterfaceEStringParserRuleCall_4_0_1()); 
             pushFollow(FOLLOW_2);
@@ -26927,21 +26804,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__DelegationConnector__RoleAssignment_3"
-    // InternalSimplepalladio.g:9141:1: rule__DelegationConnector__RoleAssignment_3 : ( ( ruleEString ) ) ;
+    // InternalSimplepalladio.g:9098:1: rule__DelegationConnector__RoleAssignment_3 : ( ( ruleEString ) ) ;
     public final void rule__DelegationConnector__RoleAssignment_3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:9145:1: ( ( ( ruleEString ) ) )
-            // InternalSimplepalladio.g:9146:2: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:9102:1: ( ( ( ruleEString ) ) )
+            // InternalSimplepalladio.g:9103:2: ( ( ruleEString ) )
             {
-            // InternalSimplepalladio.g:9146:2: ( ( ruleEString ) )
-            // InternalSimplepalladio.g:9147:3: ( ruleEString )
+            // InternalSimplepalladio.g:9103:2: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:9104:3: ( ruleEString )
             {
              before(grammarAccess.getDelegationConnectorAccess().getRoleRoleCrossReference_3_0()); 
-            // InternalSimplepalladio.g:9148:3: ( ruleEString )
-            // InternalSimplepalladio.g:9149:4: ruleEString
+            // InternalSimplepalladio.g:9105:3: ( ruleEString )
+            // InternalSimplepalladio.g:9106:4: ruleEString
             {
              before(grammarAccess.getDelegationConnectorAccess().getRoleRoleEStringParserRuleCall_3_0_1()); 
             pushFollow(FOLLOW_2);
@@ -26976,21 +26853,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__DelegationConnector__InterfaceAssignment_5"
-    // InternalSimplepalladio.g:9160:1: rule__DelegationConnector__InterfaceAssignment_5 : ( ( ruleEString ) ) ;
+    // InternalSimplepalladio.g:9117:1: rule__DelegationConnector__InterfaceAssignment_5 : ( ( ruleEString ) ) ;
     public final void rule__DelegationConnector__InterfaceAssignment_5() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:9164:1: ( ( ( ruleEString ) ) )
-            // InternalSimplepalladio.g:9165:2: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:9121:1: ( ( ( ruleEString ) ) )
+            // InternalSimplepalladio.g:9122:2: ( ( ruleEString ) )
             {
-            // InternalSimplepalladio.g:9165:2: ( ( ruleEString ) )
-            // InternalSimplepalladio.g:9166:3: ( ruleEString )
+            // InternalSimplepalladio.g:9122:2: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:9123:3: ( ruleEString )
             {
              before(grammarAccess.getDelegationConnectorAccess().getInterfaceInterfaceCrossReference_5_0()); 
-            // InternalSimplepalladio.g:9167:3: ( ruleEString )
-            // InternalSimplepalladio.g:9168:4: ruleEString
+            // InternalSimplepalladio.g:9124:3: ( ruleEString )
+            // InternalSimplepalladio.g:9125:4: ruleEString
             {
              before(grammarAccess.getDelegationConnectorAccess().getInterfaceInterfaceEStringParserRuleCall_5_0_1()); 
             pushFollow(FOLLOW_2);
@@ -27025,21 +26902,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyConnector__ProvidedRoleAssignment_3"
-    // InternalSimplepalladio.g:9179:1: rule__AssemblyConnector__ProvidedRoleAssignment_3 : ( ( ruleEString ) ) ;
+    // InternalSimplepalladio.g:9136:1: rule__AssemblyConnector__ProvidedRoleAssignment_3 : ( ( ruleEString ) ) ;
     public final void rule__AssemblyConnector__ProvidedRoleAssignment_3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:9183:1: ( ( ( ruleEString ) ) )
-            // InternalSimplepalladio.g:9184:2: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:9140:1: ( ( ( ruleEString ) ) )
+            // InternalSimplepalladio.g:9141:2: ( ( ruleEString ) )
             {
-            // InternalSimplepalladio.g:9184:2: ( ( ruleEString ) )
-            // InternalSimplepalladio.g:9185:3: ( ruleEString )
+            // InternalSimplepalladio.g:9141:2: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:9142:3: ( ruleEString )
             {
              before(grammarAccess.getAssemblyConnectorAccess().getProvidedRoleRoleCrossReference_3_0()); 
-            // InternalSimplepalladio.g:9186:3: ( ruleEString )
-            // InternalSimplepalladio.g:9187:4: ruleEString
+            // InternalSimplepalladio.g:9143:3: ( ruleEString )
+            // InternalSimplepalladio.g:9144:4: ruleEString
             {
              before(grammarAccess.getAssemblyConnectorAccess().getProvidedRoleRoleEStringParserRuleCall_3_0_1()); 
             pushFollow(FOLLOW_2);
@@ -27074,21 +26951,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AssemblyConnector__RequiredRoleAssignment_5"
-    // InternalSimplepalladio.g:9198:1: rule__AssemblyConnector__RequiredRoleAssignment_5 : ( ( ruleEString ) ) ;
+    // InternalSimplepalladio.g:9155:1: rule__AssemblyConnector__RequiredRoleAssignment_5 : ( ( ruleEString ) ) ;
     public final void rule__AssemblyConnector__RequiredRoleAssignment_5() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:9202:1: ( ( ( ruleEString ) ) )
-            // InternalSimplepalladio.g:9203:2: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:9159:1: ( ( ( ruleEString ) ) )
+            // InternalSimplepalladio.g:9160:2: ( ( ruleEString ) )
             {
-            // InternalSimplepalladio.g:9203:2: ( ( ruleEString ) )
-            // InternalSimplepalladio.g:9204:3: ( ruleEString )
+            // InternalSimplepalladio.g:9160:2: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:9161:3: ( ruleEString )
             {
              before(grammarAccess.getAssemblyConnectorAccess().getRequiredRoleRoleCrossReference_5_0()); 
-            // InternalSimplepalladio.g:9205:3: ( ruleEString )
-            // InternalSimplepalladio.g:9206:4: ruleEString
+            // InternalSimplepalladio.g:9162:3: ( ruleEString )
+            // InternalSimplepalladio.g:9163:4: ruleEString
             {
              before(grammarAccess.getAssemblyConnectorAccess().getRequiredRoleRoleEStringParserRuleCall_5_0_1()); 
             pushFollow(FOLLOW_2);
@@ -27123,17 +27000,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__EnvironmentViewType__EnvironmentElementsAssignment_4"
-    // InternalSimplepalladio.g:9217:1: rule__EnvironmentViewType__EnvironmentElementsAssignment_4 : ( ruleAbstractEnvironmentElement ) ;
+    // InternalSimplepalladio.g:9174:1: rule__EnvironmentViewType__EnvironmentElementsAssignment_4 : ( ruleAbstractEnvironmentElement ) ;
     public final void rule__EnvironmentViewType__EnvironmentElementsAssignment_4() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:9221:1: ( ( ruleAbstractEnvironmentElement ) )
-            // InternalSimplepalladio.g:9222:2: ( ruleAbstractEnvironmentElement )
+            // InternalSimplepalladio.g:9178:1: ( ( ruleAbstractEnvironmentElement ) )
+            // InternalSimplepalladio.g:9179:2: ( ruleAbstractEnvironmentElement )
             {
-            // InternalSimplepalladio.g:9222:2: ( ruleAbstractEnvironmentElement )
-            // InternalSimplepalladio.g:9223:3: ruleAbstractEnvironmentElement
+            // InternalSimplepalladio.g:9179:2: ( ruleAbstractEnvironmentElement )
+            // InternalSimplepalladio.g:9180:3: ruleAbstractEnvironmentElement
             {
              before(grammarAccess.getEnvironmentViewTypeAccess().getEnvironmentElementsAbstractEnvironmentElementParserRuleCall_4_0()); 
             pushFollow(FOLLOW_2);
@@ -27164,17 +27041,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__EnvironmentViewType__EnvironmentElementsAssignment_5_1"
-    // InternalSimplepalladio.g:9232:1: rule__EnvironmentViewType__EnvironmentElementsAssignment_5_1 : ( ruleAbstractEnvironmentElement ) ;
+    // InternalSimplepalladio.g:9189:1: rule__EnvironmentViewType__EnvironmentElementsAssignment_5_1 : ( ruleAbstractEnvironmentElement ) ;
     public final void rule__EnvironmentViewType__EnvironmentElementsAssignment_5_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:9236:1: ( ( ruleAbstractEnvironmentElement ) )
-            // InternalSimplepalladio.g:9237:2: ( ruleAbstractEnvironmentElement )
+            // InternalSimplepalladio.g:9193:1: ( ( ruleAbstractEnvironmentElement ) )
+            // InternalSimplepalladio.g:9194:2: ( ruleAbstractEnvironmentElement )
             {
-            // InternalSimplepalladio.g:9237:2: ( ruleAbstractEnvironmentElement )
-            // InternalSimplepalladio.g:9238:3: ruleAbstractEnvironmentElement
+            // InternalSimplepalladio.g:9194:2: ( ruleAbstractEnvironmentElement )
+            // InternalSimplepalladio.g:9195:3: ruleAbstractEnvironmentElement
             {
              before(grammarAccess.getEnvironmentViewTypeAccess().getEnvironmentElementsAbstractEnvironmentElementParserRuleCall_5_1_0()); 
             pushFollow(FOLLOW_2);
@@ -27205,17 +27082,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Container__NameAssignment_2"
-    // InternalSimplepalladio.g:9247:1: rule__Container__NameAssignment_2 : ( ruleEString ) ;
+    // InternalSimplepalladio.g:9204:1: rule__Container__NameAssignment_2 : ( ruleEString ) ;
     public final void rule__Container__NameAssignment_2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:9251:1: ( ( ruleEString ) )
-            // InternalSimplepalladio.g:9252:2: ( ruleEString )
+            // InternalSimplepalladio.g:9208:1: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:9209:2: ( ruleEString )
             {
-            // InternalSimplepalladio.g:9252:2: ( ruleEString )
-            // InternalSimplepalladio.g:9253:3: ruleEString
+            // InternalSimplepalladio.g:9209:2: ( ruleEString )
+            // InternalSimplepalladio.g:9210:3: ruleEString
             {
              before(grammarAccess.getContainerAccess().getNameEStringParserRuleCall_2_0()); 
             pushFollow(FOLLOW_2);
@@ -27246,17 +27123,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Link__NameAssignment_1"
-    // InternalSimplepalladio.g:9262:1: rule__Link__NameAssignment_1 : ( ruleEString ) ;
+    // InternalSimplepalladio.g:9219:1: rule__Link__NameAssignment_1 : ( ruleEString ) ;
     public final void rule__Link__NameAssignment_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:9266:1: ( ( ruleEString ) )
-            // InternalSimplepalladio.g:9267:2: ( ruleEString )
+            // InternalSimplepalladio.g:9223:1: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:9224:2: ( ruleEString )
             {
-            // InternalSimplepalladio.g:9267:2: ( ruleEString )
-            // InternalSimplepalladio.g:9268:3: ruleEString
+            // InternalSimplepalladio.g:9224:2: ( ruleEString )
+            // InternalSimplepalladio.g:9225:3: ruleEString
             {
              before(grammarAccess.getLinkAccess().getNameEStringParserRuleCall_1_0()); 
             pushFollow(FOLLOW_2);
@@ -27287,21 +27164,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Link__ContainersAssignment_5"
-    // InternalSimplepalladio.g:9277:1: rule__Link__ContainersAssignment_5 : ( ( ruleEString ) ) ;
+    // InternalSimplepalladio.g:9234:1: rule__Link__ContainersAssignment_5 : ( ( ruleEString ) ) ;
     public final void rule__Link__ContainersAssignment_5() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:9281:1: ( ( ( ruleEString ) ) )
-            // InternalSimplepalladio.g:9282:2: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:9238:1: ( ( ( ruleEString ) ) )
+            // InternalSimplepalladio.g:9239:2: ( ( ruleEString ) )
             {
-            // InternalSimplepalladio.g:9282:2: ( ( ruleEString ) )
-            // InternalSimplepalladio.g:9283:3: ( ruleEString )
+            // InternalSimplepalladio.g:9239:2: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:9240:3: ( ruleEString )
             {
              before(grammarAccess.getLinkAccess().getContainersContainerCrossReference_5_0()); 
-            // InternalSimplepalladio.g:9284:3: ( ruleEString )
-            // InternalSimplepalladio.g:9285:4: ruleEString
+            // InternalSimplepalladio.g:9241:3: ( ruleEString )
+            // InternalSimplepalladio.g:9242:4: ruleEString
             {
              before(grammarAccess.getLinkAccess().getContainersContainerEStringParserRuleCall_5_0_1()); 
             pushFollow(FOLLOW_2);
@@ -27336,21 +27213,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__Link__ContainersAssignment_6_1"
-    // InternalSimplepalladio.g:9296:1: rule__Link__ContainersAssignment_6_1 : ( ( ruleEString ) ) ;
+    // InternalSimplepalladio.g:9253:1: rule__Link__ContainersAssignment_6_1 : ( ( ruleEString ) ) ;
     public final void rule__Link__ContainersAssignment_6_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:9300:1: ( ( ( ruleEString ) ) )
-            // InternalSimplepalladio.g:9301:2: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:9257:1: ( ( ( ruleEString ) ) )
+            // InternalSimplepalladio.g:9258:2: ( ( ruleEString ) )
             {
-            // InternalSimplepalladio.g:9301:2: ( ( ruleEString ) )
-            // InternalSimplepalladio.g:9302:3: ( ruleEString )
+            // InternalSimplepalladio.g:9258:2: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:9259:3: ( ruleEString )
             {
              before(grammarAccess.getLinkAccess().getContainersContainerCrossReference_6_1_0()); 
-            // InternalSimplepalladio.g:9303:3: ( ruleEString )
-            // InternalSimplepalladio.g:9304:4: ruleEString
+            // InternalSimplepalladio.g:9260:3: ( ruleEString )
+            // InternalSimplepalladio.g:9261:4: ruleEString
             {
              before(grammarAccess.getLinkAccess().getContainersContainerEStringParserRuleCall_6_1_0_1()); 
             pushFollow(FOLLOW_2);
@@ -27385,17 +27262,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AllocationViewType__AllocationContextsAssignment_4"
-    // InternalSimplepalladio.g:9315:1: rule__AllocationViewType__AllocationContextsAssignment_4 : ( ruleAllocationContext ) ;
+    // InternalSimplepalladio.g:9272:1: rule__AllocationViewType__AllocationContextsAssignment_4 : ( ruleAllocationContext ) ;
     public final void rule__AllocationViewType__AllocationContextsAssignment_4() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:9319:1: ( ( ruleAllocationContext ) )
-            // InternalSimplepalladio.g:9320:2: ( ruleAllocationContext )
+            // InternalSimplepalladio.g:9276:1: ( ( ruleAllocationContext ) )
+            // InternalSimplepalladio.g:9277:2: ( ruleAllocationContext )
             {
-            // InternalSimplepalladio.g:9320:2: ( ruleAllocationContext )
-            // InternalSimplepalladio.g:9321:3: ruleAllocationContext
+            // InternalSimplepalladio.g:9277:2: ( ruleAllocationContext )
+            // InternalSimplepalladio.g:9278:3: ruleAllocationContext
             {
              before(grammarAccess.getAllocationViewTypeAccess().getAllocationContextsAllocationContextParserRuleCall_4_0()); 
             pushFollow(FOLLOW_2);
@@ -27426,17 +27303,17 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AllocationViewType__AllocationContextsAssignment_5_1"
-    // InternalSimplepalladio.g:9330:1: rule__AllocationViewType__AllocationContextsAssignment_5_1 : ( ruleAllocationContext ) ;
+    // InternalSimplepalladio.g:9287:1: rule__AllocationViewType__AllocationContextsAssignment_5_1 : ( ruleAllocationContext ) ;
     public final void rule__AllocationViewType__AllocationContextsAssignment_5_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:9334:1: ( ( ruleAllocationContext ) )
-            // InternalSimplepalladio.g:9335:2: ( ruleAllocationContext )
+            // InternalSimplepalladio.g:9291:1: ( ( ruleAllocationContext ) )
+            // InternalSimplepalladio.g:9292:2: ( ruleAllocationContext )
             {
-            // InternalSimplepalladio.g:9335:2: ( ruleAllocationContext )
-            // InternalSimplepalladio.g:9336:3: ruleAllocationContext
+            // InternalSimplepalladio.g:9292:2: ( ruleAllocationContext )
+            // InternalSimplepalladio.g:9293:3: ruleAllocationContext
             {
              before(grammarAccess.getAllocationViewTypeAccess().getAllocationContextsAllocationContextParserRuleCall_5_1_0()); 
             pushFollow(FOLLOW_2);
@@ -27467,21 +27344,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AllocationContext__ContainerAssignment_3"
-    // InternalSimplepalladio.g:9345:1: rule__AllocationContext__ContainerAssignment_3 : ( ( ruleEString ) ) ;
+    // InternalSimplepalladio.g:9302:1: rule__AllocationContext__ContainerAssignment_3 : ( ( ruleEString ) ) ;
     public final void rule__AllocationContext__ContainerAssignment_3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:9349:1: ( ( ( ruleEString ) ) )
-            // InternalSimplepalladio.g:9350:2: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:9306:1: ( ( ( ruleEString ) ) )
+            // InternalSimplepalladio.g:9307:2: ( ( ruleEString ) )
             {
-            // InternalSimplepalladio.g:9350:2: ( ( ruleEString ) )
-            // InternalSimplepalladio.g:9351:3: ( ruleEString )
+            // InternalSimplepalladio.g:9307:2: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:9308:3: ( ruleEString )
             {
              before(grammarAccess.getAllocationContextAccess().getContainerContainerCrossReference_3_0()); 
-            // InternalSimplepalladio.g:9352:3: ( ruleEString )
-            // InternalSimplepalladio.g:9353:4: ruleEString
+            // InternalSimplepalladio.g:9309:3: ( ruleEString )
+            // InternalSimplepalladio.g:9310:4: ruleEString
             {
              before(grammarAccess.getAllocationContextAccess().getContainerContainerEStringParserRuleCall_3_0_1()); 
             pushFollow(FOLLOW_2);
@@ -27516,21 +27393,21 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
 
 
     // $ANTLR start "rule__AllocationContext__AssemblyAssignment_5"
-    // InternalSimplepalladio.g:9364:1: rule__AllocationContext__AssemblyAssignment_5 : ( ( ruleQualifiedName ) ) ;
+    // InternalSimplepalladio.g:9321:1: rule__AllocationContext__AssemblyAssignment_5 : ( ( ruleQualifiedName ) ) ;
     public final void rule__AllocationContext__AssemblyAssignment_5() throws RecognitionException {
 
         		int stackSize = keepStackSize();
         	
         try {
-            // InternalSimplepalladio.g:9368:1: ( ( ( ruleQualifiedName ) ) )
-            // InternalSimplepalladio.g:9369:2: ( ( ruleQualifiedName ) )
+            // InternalSimplepalladio.g:9325:1: ( ( ( ruleQualifiedName ) ) )
+            // InternalSimplepalladio.g:9326:2: ( ( ruleQualifiedName ) )
             {
-            // InternalSimplepalladio.g:9369:2: ( ( ruleQualifiedName ) )
-            // InternalSimplepalladio.g:9370:3: ( ruleQualifiedName )
+            // InternalSimplepalladio.g:9326:2: ( ( ruleQualifiedName ) )
+            // InternalSimplepalladio.g:9327:3: ( ruleQualifiedName )
             {
              before(grammarAccess.getAllocationContextAccess().getAssemblyAssemblyContextCrossReference_5_0()); 
-            // InternalSimplepalladio.g:9371:3: ( ruleQualifiedName )
-            // InternalSimplepalladio.g:9372:4: ruleQualifiedName
+            // InternalSimplepalladio.g:9328:3: ( ruleQualifiedName )
+            // InternalSimplepalladio.g:9329:4: ruleQualifiedName
             {
              before(grammarAccess.getAllocationContextAccess().getAssemblyAssemblyContextQualifiedNameParserRuleCall_5_0_1()); 
             pushFollow(FOLLOW_2);
@@ -27586,43 +27463,44 @@ public class InternalSimplepalladioParser extends AbstractInternalContentAssistP
     public static final BitSet FOLLOW_16 = new BitSet(new long[]{0x0000000044000000L});
     public static final BitSet FOLLOW_17 = new BitSet(new long[]{0x0000000500000000L});
     public static final BitSet FOLLOW_18 = new BitSet(new long[]{0x0000000200000000L});
-    public static final BitSet FOLLOW_19 = new BitSet(new long[]{0x0000001000000000L});
-    public static final BitSet FOLLOW_20 = new BitSet(new long[]{0x00000000003FF800L});
-    public static final BitSet FOLLOW_21 = new BitSet(new long[]{0x0000002000800000L});
-    public static final BitSet FOLLOW_22 = new BitSet(new long[]{0x0000010000000000L});
-    public static final BitSet FOLLOW_23 = new BitSet(new long[]{0x0000008000000000L});
-    public static final BitSet FOLLOW_24 = new BitSet(new long[]{0x0000040000000000L});
-    public static final BitSet FOLLOW_25 = new BitSet(new long[]{0x0000020000000000L});
-    public static final BitSet FOLLOW_26 = new BitSet(new long[]{0x0000080000000000L});
-    public static final BitSet FOLLOW_27 = new BitSet(new long[]{0x0000100000000000L});
-    public static final BitSet FOLLOW_28 = new BitSet(new long[]{0x0000200000000000L});
-    public static final BitSet FOLLOW_29 = new BitSet(new long[]{0x0000400000800000L});
-    public static final BitSet FOLLOW_30 = new BitSet(new long[]{0x0007800000000000L});
-    public static final BitSet FOLLOW_31 = new BitSet(new long[]{0x0000800000000000L});
-    public static final BitSet FOLLOW_32 = new BitSet(new long[]{0x0002000000000000L});
-    public static final BitSet FOLLOW_33 = new BitSet(new long[]{0x0010000000000000L});
-    public static final BitSet FOLLOW_34 = new BitSet(new long[]{0x0020000000000000L});
-    public static final BitSet FOLLOW_35 = new BitSet(new long[]{0x0040000000000000L});
-    public static final BitSet FOLLOW_36 = new BitSet(new long[]{0xA880000000000000L});
-    public static final BitSet FOLLOW_37 = new BitSet(new long[]{0x0100000000000000L});
-    public static final BitSet FOLLOW_38 = new BitSet(new long[]{0x0200000000000000L});
-    public static final BitSet FOLLOW_39 = new BitSet(new long[]{0x0400000000800000L});
-    public static final BitSet FOLLOW_40 = new BitSet(new long[]{0x1000000000000000L});
-    public static final BitSet FOLLOW_41 = new BitSet(new long[]{0x4000000000000000L});
-    public static final BitSet FOLLOW_42 = new BitSet(new long[]{0x0000000000000000L,0x0000000000000001L});
-    public static final BitSet FOLLOW_43 = new BitSet(new long[]{0x0000000000000000L,0x0000000000000002L});
-    public static final BitSet FOLLOW_44 = new BitSet(new long[]{0x0000000000000000L,0x0000000000000008L});
-    public static final BitSet FOLLOW_45 = new BitSet(new long[]{0x0000000000000000L,0x0000000000000030L});
-    public static final BitSet FOLLOW_46 = new BitSet(new long[]{0x0000000000000000L,0x0000000000000010L});
-    public static final BitSet FOLLOW_47 = new BitSet(new long[]{0x0000000000000000L,0x0000000000000040L});
-    public static final BitSet FOLLOW_48 = new BitSet(new long[]{0x0000000004000000L});
-    public static final BitSet FOLLOW_49 = new BitSet(new long[]{0x0000000040000000L});
-    public static final BitSet FOLLOW_50 = new BitSet(new long[]{0x0000000000000000L,0x0000000000000100L});
-    public static final BitSet FOLLOW_51 = new BitSet(new long[]{0x0000000000000000L,0x0000000000000200L});
-    public static final BitSet FOLLOW_52 = new BitSet(new long[]{0x0000000000000000L,0x0000000000000400L});
-    public static final BitSet FOLLOW_53 = new BitSet(new long[]{0x0000000000000000L,0x0000000000000800L});
-    public static final BitSet FOLLOW_54 = new BitSet(new long[]{0x0000000000000020L});
-    public static final BitSet FOLLOW_55 = new BitSet(new long[]{0x0000000000000000L,0x0000000000001000L});
-    public static final BitSet FOLLOW_56 = new BitSet(new long[]{0x0000000000000002L,0x0000000000001000L});
+    public static final BitSet FOLLOW_19 = new BitSet(new long[]{0x0000000000000020L});
+    public static final BitSet FOLLOW_20 = new BitSet(new long[]{0x0000001000000000L});
+    public static final BitSet FOLLOW_21 = new BitSet(new long[]{0x00000000003FF800L});
+    public static final BitSet FOLLOW_22 = new BitSet(new long[]{0x0000002000800000L});
+    public static final BitSet FOLLOW_23 = new BitSet(new long[]{0x0000010000000000L});
+    public static final BitSet FOLLOW_24 = new BitSet(new long[]{0x0000008000000000L});
+    public static final BitSet FOLLOW_25 = new BitSet(new long[]{0x0000040000000000L});
+    public static final BitSet FOLLOW_26 = new BitSet(new long[]{0x0000020000000000L});
+    public static final BitSet FOLLOW_27 = new BitSet(new long[]{0x0000080000000000L});
+    public static final BitSet FOLLOW_28 = new BitSet(new long[]{0x0000100000000000L});
+    public static final BitSet FOLLOW_29 = new BitSet(new long[]{0x0000200000000000L});
+    public static final BitSet FOLLOW_30 = new BitSet(new long[]{0x0000400000000000L});
+    public static final BitSet FOLLOW_31 = new BitSet(new long[]{0x0007800000000000L});
+    public static final BitSet FOLLOW_32 = new BitSet(new long[]{0x0000800000000000L});
+    public static final BitSet FOLLOW_33 = new BitSet(new long[]{0x0002000000000000L});
+    public static final BitSet FOLLOW_34 = new BitSet(new long[]{0x0000400000800000L});
+    public static final BitSet FOLLOW_35 = new BitSet(new long[]{0x0010000000000000L});
+    public static final BitSet FOLLOW_36 = new BitSet(new long[]{0x0020000000000000L});
+    public static final BitSet FOLLOW_37 = new BitSet(new long[]{0x0040000000000000L});
+    public static final BitSet FOLLOW_38 = new BitSet(new long[]{0xA880000000000000L});
+    public static final BitSet FOLLOW_39 = new BitSet(new long[]{0x0100000000000000L});
+    public static final BitSet FOLLOW_40 = new BitSet(new long[]{0x0200000000000000L});
+    public static final BitSet FOLLOW_41 = new BitSet(new long[]{0x0400000000800000L});
+    public static final BitSet FOLLOW_42 = new BitSet(new long[]{0x1000000000000000L});
+    public static final BitSet FOLLOW_43 = new BitSet(new long[]{0x4000000000000000L});
+    public static final BitSet FOLLOW_44 = new BitSet(new long[]{0x0000000000000000L,0x0000000000000001L});
+    public static final BitSet FOLLOW_45 = new BitSet(new long[]{0x0000000000000000L,0x0000000000000002L});
+    public static final BitSet FOLLOW_46 = new BitSet(new long[]{0x0000000000000000L,0x0000000000000008L});
+    public static final BitSet FOLLOW_47 = new BitSet(new long[]{0x0000000000000000L,0x0000000000000030L});
+    public static final BitSet FOLLOW_48 = new BitSet(new long[]{0x0000000000000000L,0x0000000000000010L});
+    public static final BitSet FOLLOW_49 = new BitSet(new long[]{0x0000000000000000L,0x0000000000000040L});
+    public static final BitSet FOLLOW_50 = new BitSet(new long[]{0x0000000004000000L});
+    public static final BitSet FOLLOW_51 = new BitSet(new long[]{0x0000000040000000L});
+    public static final BitSet FOLLOW_52 = new BitSet(new long[]{0x0000000000000000L,0x0000000000000100L});
+    public static final BitSet FOLLOW_53 = new BitSet(new long[]{0x0000000000000000L,0x0000000000000200L});
+    public static final BitSet FOLLOW_54 = new BitSet(new long[]{0x0000000000000000L,0x0000000000000400L});
+    public static final BitSet FOLLOW_55 = new BitSet(new long[]{0x0000000000000000L,0x0000000000000800L});
+    public static final BitSet FOLLOW_56 = new BitSet(new long[]{0x0000000000000000L,0x0000000000001000L});
+    public static final BitSet FOLLOW_57 = new BitSet(new long[]{0x0000000000000002L,0x0000000000001000L});
 
 }
