@@ -6,6 +6,7 @@ modeltype PCMAllocation uses 'http://palladiosimulator.org/PalladioComponentMode
 modeltype PCMSystem uses 'http://palladiosimulator.org/PalladioComponentModel/System/5.2';
 modeltype PCMComposition uses 'http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2';
 modeltype PCMRepository uses 'http://palladiosimulator.org/PalladioComponentModel/Repository/5.2';
+modeltype PCMSEFF uses 'http://palladiosimulator.org/PalladioComponentModel/SEFF/5.2';
 
 transformation MainTransformation(in sD:SIMPLEDeployment, in sA:SIMPLEAssembly, in sR:SIMPLESystemIndependent, out pRE:PCMResourceEnvironment, out pA:PCMAllocation, out pS: PCMSystem, out pR: PCMRepository);
 
@@ -72,9 +73,11 @@ mapping SIMPLESystemIndependent::RepositoryViewType::repvtMapping() : PCMReposit
 	result.id := 'Repository';
 	result.entityName := 'Repository';
 	result.repositoryDescription := 'Description';
+	//TODO: Datatype mapping here
+	result.dataTypes__Repository += SIMPLESystemIndependent::Type::BOOLEAN.map typeMapping(); 
+	result.interfaces__Repository += ifs -> collect(c|c->map interfaceMapping());
 	result.components__Repository += bCom -> collect(c|c->map basicComponentMapping());
 	result.components__Repository += cCom -> collect(c|c->map compositeComponentMapping());
-	result.interfaces__Repository += ifs -> collect(c|c->map interfaceMapping());
 	//result.failureTypes do not exist in SimplePalladio
 	//primitive Datatype
 	result.dataTypes__Repository += object PCMRepository::PrimitiveDataType {type := PCMRepository::PrimitiveTypeEnum::BOOL};
@@ -110,17 +113,93 @@ mapping SIMPLESystemIndependent::RepositoryViewType::repvtMapping() : PCMReposit
 
 mapping SIMPLESystemIndependent::Component::basicComponentMapping() : PCMRepository::BasicComponent{
 	result.id := self.name;
-	//TODO
+	result.entityName := self.name;
+	result.providedRoles_InterfaceProvidingEntity := self.providedInterfaces->
+		collect(i| object PCMRepository::OperationProvidedRole { 
+			providedInterface__OperationProvidedRole := i.resolveone(PCMRepository::OperationInterface);
+		});
+	result.requiredRoles_InterfaceRequiringEntity := self.requiredInterfaces->
+		collect(i| object PCMRepository::OperationRequiredRole { 
+			requiredInterface__OperationRequiredRole := i.resolveone(PCMRepository::OperationInterface);
+		});
+	result.serviceEffectSpecifications__BasicComponent := self.services->collect(srv|srv->map serviceMapping());
 }
+
+mapping SIMPLESystemIndependent::Service::serviceMapping() : PCMSEFF::ResourceDemandingSEFF {
+	result.describedService__SEFF := self.signature.resolveone(PCMRepository::OperationSignature);
+	result.steps_Behaviour := self.behaviourDescription.behaviorElements->collect(be|be -> map behaviorElementMapping());
+}
+
+mapping SIMPLESystemIndependent::BehaviorElement::behaviorElementMapping() : PCMSEFF::AbstractAction {
+	init {
+		result := switch {
+			case(self.oclIsKindOf(SIMPLESystemIndependent::InternalAction)) { self.oclAsType(SIMPLESystemIndependent::InternalAction).map internalActionMapping()}
+			case(self.oclIsKindOf(SIMPLESystemIndependent::ExternalCall)) { self.oclAsType(SIMPLESystemIndependent::ExternalCall).map externalCallMapping()}
+			case(self.oclIsKindOf(SIMPLESystemIndependent::Loop)) { self.oclAsType(SIMPLESystemIndependent::Loop).map loopMapping()}
+			case(self.oclIsKindOf(SIMPLESystemIndependent::Branch)) { self.oclAsType(SIMPLESystemIndependent::Branch).map branchMapping()}
+		}
+	}
+}
+
+mapping SIMPLESystemIndependent::InternalAction::internalActionMapping() : PCMSEFF::InternalAction {
+}
+
+mapping SIMPLESystemIndependent::ExternalCall::externalCallMapping() : PCMSEFF::ExternalCallAction {
+	result.retryCount := 3;
+	result.calledService_ExternalService := self.signature.resolveone(PCMRepository::OperationSignature);
+	//TODO: Interface role
+}
+
+mapping SIMPLESystemIndependent::Loop::loopMapping() : PCMSEFF::LoopAction {
+	//TODO: Variables
+	result.bodyBehaviour_Loop := object PCMSEFF::ResourceDemandingBehaviour {
+		steps_Behaviour := self.behaviorElements->collect(be|be -> map behaviorElementMapping());
+	}
+}
+
+mapping SIMPLESystemIndependent::Branch::branchMapping() : PCMSEFF::BranchAction {
+	//TODO: Variables
+	result.branches_Branch := object PCMSEFF::GuardedBranchTransition {
+		branchBehaviour_BranchTransition := object PCMSEFF::ResourceDemandingBehaviour {
+			steps_Behaviour := self.behaviorElements->collect(be|be -> map behaviorElementMapping());
+		} 
+	}
+}
+
 mapping SIMPLESystemIndependent::CompositeComponent::compositeComponentMapping() : PCMRepository::CompositeComponent{
 	result.id := self.name;
+	result.entityName := self.name;
+	result.providedRoles_InterfaceProvidingEntity := self.providedInterfaces->
+		collect(i| object PCMRepository::OperationProvidedRole {
+			providedInterface__OperationProvidedRole := i.resolveone(PCMRepository::OperationInterface);
+		});
+	result.requiredRoles_InterfaceRequiringEntity := self.requiredInterfaces->
+		collect(i| object PCMRepository::OperationRequiredRole { 
+			requiredInterface__OperationRequiredRole := i.resolveone(PCMRepository::OperationInterface);
+		});	
 	//TODO
 }
 // Map to OperationInterface; Other subclass (Infrastructureinterface) is not modelled in SimplePalladio.
 // Distinction between both interface kinds is not possible
 mapping SIMPLESystemIndependent::Interface::interfaceMapping() : PCMRepository::OperationInterface{
 	result.id := self.name;
-	//TODO
+	result.entityName := self.name;
+	result.signatures__OperationInterface := self.signatures->collect(sig|sig->map signatureMapping());
+}
+
+mapping SIMPLESystemIndependent::Signature::signatureMapping() : PCMRepository::OperationSignature {
+	result.id := self.name;
+	result.entityName := self.name;
+	if (self.returnValue <> SIMPLESystemIndependent::Type::VOID) then
+		result.returnType__OperationSignature := self.returnValue.resolveone(PCMRepository::DataType)
+	endif;
+	result.parameters__OperationSignature := self.parameters->collect(par| par->map parameterMapping())
+}
+
+mapping SIMPLESystemIndependent::Parameter::parameterMapping() : PCMRepository::Parameter {
+	result.parameterName := self.name;
+	result.modifier__Parameter := PCMRepository::ParameterModifier::none;
+	result.dataType__Parameter := self.type.resolveone(PCMRepository::DataType);
 }
 
 /* ONLY FOR PRESENTAION PURPOSE
@@ -142,13 +221,18 @@ mapping SIMPLESystemIndependent::Type::primitiveTypeMapping() : PCMRepository::P
 	};
 }
 */
+mapping SIMPLESystemIndependent::Type::typeMapping() : PCMRepository::DataType{
+	init {
+		result := object PCMRepository::PrimitiveDataType {type := PCMRepository::PrimitiveTypeEnum::BOOL};
+	}
+}
 //---------- RepositoryViewType :: Simple -> PCMRepository ----------
 
 //++++++++++ AssemblyViewType :: Simple -> PCMSystem ++++++++++
 mapping SIMPLEAssembly::AssemblyViewType::assvtMapping() : PCMSystem::System{
 	//Main System/ Root System is always named 'Sys' (Convention) 
 	init{
-		var sys = sA->objectsOfType(SIMPLEAssembly::System) -> select(it|it.name->includes('Sys'));
+		var sys = sA->objectsOfType(SIMPLEAssembly::System) -> select(it|it.name->includes('Sys'))->asSequence()->first();
 		var sysElements = sys -> collect(c|c.systemElements);
 		var assContexts = sysElements -> select(s|s->oclIsTypeOf(SIMPLEAssembly::AssemblyContext)->includes(true))->oclAsType(SIMPLEAssembly::AssemblyContext)		
 	}
@@ -160,9 +244,15 @@ mapping SIMPLEAssembly::AssemblyViewType::assvtMapping() : PCMSystem::System{
 	//not used in simplePalladio
 	//result.eventChannel__ComposedStructure;
 	result.connectors__ComposedStructure;
-	result.providedRoles_InterfaceProvidingEntity;// := sys.providedInterfaces->collect(i|i.resolveone());
+	result.providedRoles_InterfaceProvidingEntity := sys.providedInterfaces->
+		collect(i| object PCMRepository::OperationProvidedRole { 
+			providedInterface__OperationProvidedRole := i.resolveone(PCMRepository::OperationInterface);
+		});
 	result.resourceRequiredRoles__ResourceInterfaceRequiringEntity;
-	result.requiredRoles_InterfaceRequiringEntity;
+	result.requiredRoles_InterfaceRequiringEntity := sys.requiredInterfaces->
+		collect(i| object PCMRepository::OperationRequiredRole { 
+			requiredInterface__OperationRequiredRole := i.resolveone(PCMRepository::OperationInterface);
+		});
 	//not used in simplePalladio
 	//result.qosAnnotations_System;
 }
