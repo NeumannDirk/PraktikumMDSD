@@ -53,32 +53,39 @@ mapping SIMPLESystemIndependent::RepositoryViewType::repvtMapping() : PCMReposit
 		var cCom = aRepElems -> select(s|s->oclIsTypeOf(SIMPLESystemIndependent::CompositeComponent)->includes(true))->oclAsType(SIMPLESystemIndependent::CompositeComponent);
 		//Interfaces
 		var ifs = aRepElems -> select(s|s->oclIsTypeOf(SIMPLESystemIndependent::Interface)->includes(true))->oclAsType(SIMPLESystemIndependent::Interface);		
-		var string = object PCMRepository::PrimitiveDataType {type := PCMRepository::PrimitiveTypeEnum::STRING};
-		var long = object PCMRepository::PrimitiveDataType {type := PCMRepository::PrimitiveTypeEnum::LONG};
-		var keyValuePair = object PCMRepository::CompositeDataType {
-			id := 'KeyValuePair';
-			entityName := 'KeyValuePair';
-			//key
-			innerDeclaration_CompositeDataType += object PCMRepository::InnerDeclaration{ 				
-				entityName := 'KEY'; 
-				datatype_InnerDeclaration := long;
-			};
-			//value
-			innerDeclaration_CompositeDataType += object PCMRepository::InnerDeclaration{
-				entityName := 'VALUE';
-				datatype_InnerDeclaration := string;
-			};
-		};
 	}	
 	result.id := 'Repository';
 	result.entityName := 'Repository';
 	result.repositoryDescription := 'Description';
 		
-	result.dataTypes__Repository += SIMPLESystemIndependent::Type::BOOLEAN.map typeMapping(); 
+	result.dataTypes__Repository += SIMPLESystemIndependent::Type::BOOLEAN.map basicDataTypeMapping(result.dataTypes__Repository);
+	result.dataTypes__Repository += SIMPLESystemIndependent::Type::CHAR.map basicDataTypeMapping(result.dataTypes__Repository);
+	result.dataTypes__Repository += SIMPLESystemIndependent::Type::INT.map basicDataTypeMapping(result.dataTypes__Repository);
+	result.dataTypes__Repository += SIMPLESystemIndependent::Type::LONG.map basicDataTypeMapping(result.dataTypes__Repository);
+	result.dataTypes__Repository += SIMPLESystemIndependent::Type::FLOAT.map basicDataTypeMapping(result.dataTypes__Repository);
+	result.dataTypes__Repository += SIMPLESystemIndependent::Type::DOUBLE.map basicDataTypeMapping(result.dataTypes__Repository);
+	result.dataTypes__Repository += SIMPLESystemIndependent::Type::STRING.map basicDataTypeMapping(result.dataTypes__Repository);
+	result.dataTypes__Repository += object PCMRepository::CompositeDataType {
+			id := 'KeyValuePair';
+			entityName := 'KeyValuePair';
+			//key
+			innerDeclaration_CompositeDataType += object PCMRepository::InnerDeclaration{ 				
+				entityName := 'KEY'; 
+				datatype_InnerDeclaration := SIMPLESystemIndependent::Type::LONG.resolveone(PCMRepository::DataType);
+			};
+			//value
+			innerDeclaration_CompositeDataType += object PCMRepository::InnerDeclaration{
+				entityName := 'VALUE';
+				datatype_InnerDeclaration := SIMPLESystemIndependent::Type::STRING.resolveone(PCMRepository::DataType);
+			};
+		};
+	result.dataTypes__Repository += SIMPLESystemIndependent::Type::DATE.map basicDataTypeMapping(result.dataTypes__Repository);
+	result.dataTypes__Repository += SIMPLESystemIndependent::Type::MAP.map basicDataTypeMapping(result.dataTypes__Repository);
+	result.dataTypes__Repository += SIMPLESystemIndependent::Type::LIST.map basicDataTypeMapping(result.dataTypes__Repository);
 	result.interfaces__Repository += ifs -> collect(c|c->map interfaceMapping());
 	result.components__Repository += bCom -> collect(c|c->map basicComponentMapping());
 	result.components__Repository += cCom -> collect(c|c->map compositeComponentMapping());
-	//TODO: Datatype mapping here
+	//Presentation purpose
 	//result.failureTypes do not exist in SimplePalladio
 	//primitive Datatype
 //	result.dataTypes__Repository += object PCMRepository::PrimitiveDataType {type := PCMRepository::PrimitiveTypeEnum::BOOL};
@@ -97,7 +104,6 @@ mapping SIMPLESystemIndependent::RepositoryViewType::repvtMapping() : PCMReposit
 //		};
 //	};
 	//MAP
-	result.dataTypes__Repository += keyValuePair;
 //	result.dataTypes__Repository += object PCMRepository::CollectionDataType{ 
 //		id := 'MAP';
 //		entityName := 'MAP';		
@@ -110,24 +116,10 @@ mapping SIMPLESystemIndependent::RepositoryViewType::repvtMapping() : PCMReposit
 //		innerType_CollectionDataType := string;		
 //	};
 	//VOID does not exist explicitly in PCM represantation.
-	result.dataTypes__Repository += SIMPLESystemIndependent::Type::BOOLEAN.map basicDataTypeMapping(result.dataTypes__Repository);
-	result.dataTypes__Repository += SIMPLESystemIndependent::Type::CHAR.map basicDataTypeMapping(result.dataTypes__Repository);
-	result.dataTypes__Repository += SIMPLESystemIndependent::Type::DATE.map basicDataTypeMapping(result.dataTypes__Repository);
-	result.dataTypes__Repository += SIMPLESystemIndependent::Type::DOUBLE.map basicDataTypeMapping(result.dataTypes__Repository);
-	result.dataTypes__Repository += SIMPLESystemIndependent::Type::INT.map basicDataTypeMapping(result.dataTypes__Repository);
-	result.dataTypes__Repository += SIMPLESystemIndependent::Type::FLOAT.map basicDataTypeMapping(result.dataTypes__Repository);
-	result.dataTypes__Repository += SIMPLESystemIndependent::Type::LONG.map basicDataTypeMapping(result.dataTypes__Repository);
-	result.dataTypes__Repository += SIMPLESystemIndependent::Type::LIST.map basicDataTypeMapping(result.dataTypes__Repository);
-	result.dataTypes__Repository += SIMPLESystemIndependent::Type::MAP.map basicDataTypeMapping(result.dataTypes__Repository);
-	result.dataTypes__Repository += SIMPLESystemIndependent::Type::STRING.map basicDataTypeMapping(result.dataTypes__Repository);
 }
 
 mapping SIMPLESystemIndependent::Type::basicDataTypeMapping(in rS:Set(PCMRepository::DataType)) : PCMRepository::DataType {
 	init {
-		var string = object PCMRepository::PrimitiveDataType {type := PCMRepository::PrimitiveTypeEnum::STRING};
-		var long = object PCMRepository::PrimitiveDataType {type := PCMRepository::PrimitiveTypeEnum::LONG};
-		var keyValuePair = rS -> select(s|s.oclIsKindOf(PCMRepository::CompositeDataType))->oclAsType(PCMRepository::CompositeDataType) -> select (s|s.id = 'KeyValuePair');
-		
 		result := switch {
 			case(self = SIMPLESystemIndependent::Type::VOID) {null}
 			case(self = SIMPLESystemIndependent::Type::BOOLEAN) {object PCMRepository::PrimitiveDataType {type := PCMRepository::PrimitiveTypeEnum::BOOL}}
@@ -137,25 +129,25 @@ mapping SIMPLESystemIndependent::Type::basicDataTypeMapping(in rS:Set(PCMReposit
 				entityName := 'DATE';
 				innerDeclaration_CompositeDataType += object PCMRepository::InnerDeclaration{ 
 				entityName := 'UnixEpochTime';
-				datatype_InnerDeclaration := long;
+				datatype_InnerDeclaration := SIMPLESystemIndependent::Type::LONG.resolveone(PCMRepository::DataType);
 				};
 			}}
 			case(self = SIMPLESystemIndependent::Type::DOUBLE) {object PCMRepository::PrimitiveDataType {type := PCMRepository::PrimitiveTypeEnum::DOUBLE}}
 			//Convert float to double
-			case(self = SIMPLESystemIndependent::Type::FLOAT) {object PCMRepository::PrimitiveDataType {type := PCMRepository::PrimitiveTypeEnum::DOUBLE}}
+			case(self = SIMPLESystemIndependent::Type::FLOAT) {SIMPLESystemIndependent::Type::DOUBLE.resolveone(PCMRepository::DataType)}
 			case(self = SIMPLESystemIndependent::Type::LIST) {object PCMRepository::CollectionDataType{
 				id := 'LIST';
 				entityName := 'LIST';
-				innerType_CollectionDataType := string;		
+				innerType_CollectionDataType := SIMPLESystemIndependent::Type::STRING.resolveone(PCMRepository::DataType);		
 			}}
 			case(self = SIMPLESystemIndependent::Type::INT) {object PCMRepository::PrimitiveDataType {type := PCMRepository::PrimitiveTypeEnum::INT}}
-			case(self = SIMPLESystemIndependent::Type::LONG) {long}
+			case(self = SIMPLESystemIndependent::Type::LONG) {object PCMRepository::PrimitiveDataType {type := PCMRepository::PrimitiveTypeEnum::LONG};}
 			case(self = SIMPLESystemIndependent::Type::MAP) {object PCMRepository::CollectionDataType{ 
 				id := 'MAP';
 				entityName := 'MAP';		
-				innerType_CollectionDataType := keyValuePair->asSequence()->first();
+				innerType_CollectionDataType := rS -> select(s|s.oclIsKindOf(PCMRepository::CompositeDataType))->oclAsType(PCMRepository::CompositeDataType) -> select (s|s.id = 'KeyValuePair')->asSequence()->first();
 			}}
-			case(self = SIMPLESystemIndependent::Type::STRING) {string}
+			case(self = SIMPLESystemIndependent::Type::STRING) {object PCMRepository::PrimitiveDataType {type := PCMRepository::PrimitiveTypeEnum::STRING};}
 		}
 	}
 }
@@ -216,6 +208,12 @@ mapping SIMPLESystemIndependent::Branch::branchMapping() : PCMSEFF::BranchAction
 }
 
 mapping SIMPLESystemIndependent::CompositeComponent::compositeComponentMapping() : PCMRepository::CompositeComponent{
+	init {
+		var sys := self.system;
+		var sysElements = sys -> collect(c|c.systemElements);
+		var assContexts = sysElements -> select(s|s->oclIsTypeOf(SIMPLEAssembly::AssemblyContext)->includes(true))->oclAsType(SIMPLEAssembly::AssemblyContext);
+		var assConnectors = sysElements -> select(s|s->oclIsTypeOf(SIMPLEAssembly::AbstractConnector)->includes(true))->oclAsType(SIMPLEAssembly::AbstractConnector);
+	}
 	result.id := self.name;
 	result.entityName := self.name;
 	result.providedRoles_InterfaceProvidingEntity := self.providedInterfaces->
@@ -225,8 +223,10 @@ mapping SIMPLESystemIndependent::CompositeComponent::compositeComponentMapping()
 	result.requiredRoles_InterfaceRequiringEntity := self.requiredInterfaces->
 		collect(i| object PCMRepository::OperationRequiredRole { 
 			requiredInterface__OperationRequiredRole := i.resolveone(PCMRepository::OperationInterface);
-		});	
-	//TODO
+		});
+	result.assemblyContexts__ComposedStructure += assContexts -> collect(c|c->map assemblyContextMapping());
+	result.connectors__ComposedStructure += assConnectors ->  collect(c|c->map abstractConnectorMapping());
+	//TODO self->system (Connectoren, ...) 
 }
 // Map to OperationInterface; Other subclass (Infrastructureinterface) is not modelled in SimplePalladio.
 // Distinction between both interface kinds is not possible
@@ -270,11 +270,6 @@ mapping SIMPLESystemIndependent::Type::primitiveTypeMapping() : PCMRepository::P
 	};
 }
 */
-mapping SIMPLESystemIndependent::Type::typeMapping() : PCMRepository::DataType{
-	init {
-		result := object PCMRepository::PrimitiveDataType {type := PCMRepository::PrimitiveTypeEnum::BOOL};
-	}
-}
 //---------- RepositoryViewType :: Simple -> PCMRepository ----------
 
 //++++++++++ AssemblyViewType :: Simple -> PCMSystem ++++++++++
@@ -283,32 +278,61 @@ mapping SIMPLEAssembly::AssemblyViewType::assvtMapping() : PCMSystem::System{
 	init{
 		var sys = sA->objectsOfType(SIMPLEAssembly::System) -> select(it|it.name->includes('Sys'))->asSequence()->first();
 		var sysElements = sys -> collect(c|c.systemElements);
-		var assContexts = sysElements -> select(s|s->oclIsTypeOf(SIMPLEAssembly::AssemblyContext)->includes(true))->oclAsType(SIMPLEAssembly::AssemblyContext)		
+		var assContexts = sysElements -> select(s|s->oclIsTypeOf(SIMPLEAssembly::AssemblyContext)->includes(true))->oclAsType(SIMPLEAssembly::AssemblyContext);
+		var assConnectors = sysElements -> select(s|s->oclIsTypeOf(SIMPLEAssembly::AbstractConnector)->includes(true))->oclAsType(SIMPLEAssembly::AbstractConnector); 	
 	}
 	//see convention above
 	result.id := 'Sys';
 	result.entityName := 'Sys';
-	result.assemblyContexts__ComposedStructure += assContexts -> collect(c|c->map assemblyContextMapping());
 	result.resourceRequiredDelegationConnectors_ComposedStructure;
 	//not used in simplePalladio
 	//result.eventChannel__ComposedStructure;
-	result.connectors__ComposedStructure;
 	result.providedRoles_InterfaceProvidingEntity := sys.providedInterfaces->
 		collect(i| object PCMRepository::OperationProvidedRole { 
 			providedInterface__OperationProvidedRole := i.resolveone(PCMRepository::OperationInterface);
 		});
-	result.resourceRequiredRoles__ResourceInterfaceRequiringEntity;
 	result.requiredRoles_InterfaceRequiringEntity := sys.requiredInterfaces->
 		collect(i| object PCMRepository::OperationRequiredRole { 
 			requiredInterface__OperationRequiredRole := i.resolveone(PCMRepository::OperationInterface);
 		});
+	result.assemblyContexts__ComposedStructure += assContexts -> collect(c|c->map assemblyContextMapping());
+	result.connectors__ComposedStructure += assConnectors ->  collect(c|c->map abstractConnectorMapping());
 	//not used in simplePalladio
 	//result.qosAnnotations_System;
 }
 
 mapping SIMPLEAssembly::AssemblyContext::assemblyContextMapping() : PCMComposition::AssemblyContext{
+	result.id := self.name;
+	result.entityName := self.name;
 	result.encapsulatedComponent__AssemblyContext := self.component.resolveone(PCMRepository::RepositoryComponent);
 }
+
+mapping SIMPLEAssembly::AbstractConnector::abstractConnectorMapping() : PCMComposition::Connector 
+disjuncts SIMPLEAssembly::AssemblyConnector::assemblyConnectorMapping, SIMPLEAssembly::DelegationConnector::provDelegationConnectorMapping, SIMPLEAssembly::DelegationConnector::reqDelegationConnectorMapping {}
+
+mapping SIMPLEAssembly::AssemblyConnector::assemblyConnectorMapping() : PCMComposition::AssemblyConnector {
+	//result.id
+	//result.entityName
+	result.requiringAssemblyContext_AssemblyConnector;
+	result.providingAssemblyContext_AssemblyConnector;
+	result.requiredRole_AssemblyConnector;
+	result.providedRole_AssemblyConnector;
+}
+
+mapping SIMPLEAssembly::DelegationConnector::provDelegationConnectorMapping() : PCMComposition::ProvidedDelegationConnector when {false} {
+	//result.id
+	//result.entityName
+	result.innerProvidedRole_ProvidedDelegationConnector;
+	result.outerProvidedRole_ProvidedDelegationConnector;
+	result.assemblyContext_ProvidedDelegationConnector;
+}
+mapping SIMPLEAssembly::DelegationConnector::reqDelegationConnectorMapping() : PCMComposition::RequiredDelegationConnector when {true} {
+	result.innerRequiredRole_RequiredDelegationConnector;
+	result.outerRequiredRole_RequiredDelegationConnector;
+	result.assemblyContext_RequiredDelegationConnector;
+}
+
+
 //---------- AssemblyViewType :: Simple -> PCMSystem ----------
 
 
