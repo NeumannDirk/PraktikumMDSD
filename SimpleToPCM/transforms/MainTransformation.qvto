@@ -73,42 +73,91 @@ mapping SIMPLESystemIndependent::RepositoryViewType::repvtMapping() : PCMReposit
 	result.id := 'Repository';
 	result.entityName := 'Repository';
 	result.repositoryDescription := 'Description';
-	//TODO: Datatype mapping here
+		
 	result.dataTypes__Repository += SIMPLESystemIndependent::Type::BOOLEAN.map typeMapping(); 
 	result.interfaces__Repository += ifs -> collect(c|c->map interfaceMapping());
 	result.components__Repository += bCom -> collect(c|c->map basicComponentMapping());
 	result.components__Repository += cCom -> collect(c|c->map compositeComponentMapping());
+	//TODO: Datatype mapping here
 	//result.failureTypes do not exist in SimplePalladio
 	//primitive Datatype
-	result.dataTypes__Repository += object PCMRepository::PrimitiveDataType {type := PCMRepository::PrimitiveTypeEnum::BOOL};
-	result.dataTypes__Repository += object PCMRepository::PrimitiveDataType {type := PCMRepository::PrimitiveTypeEnum::CHAR};
-	result.dataTypes__Repository += object PCMRepository::PrimitiveDataType {type := PCMRepository::PrimitiveTypeEnum::DOUBLE};
-	result.dataTypes__Repository += object PCMRepository::PrimitiveDataType {type := PCMRepository::PrimitiveTypeEnum::INT};
-	result.dataTypes__Repository += long;
-	result.dataTypes__Repository += string;
+//	result.dataTypes__Repository += object PCMRepository::PrimitiveDataType {type := PCMRepository::PrimitiveTypeEnum::BOOL};
+//	result.dataTypes__Repository += object PCMRepository::PrimitiveDataType {type := PCMRepository::PrimitiveTypeEnum::CHAR};
+//	result.dataTypes__Repository += object PCMRepository::PrimitiveDataType {type := PCMRepository::PrimitiveTypeEnum::DOUBLE};
+//	result.dataTypes__Repository += object PCMRepository::PrimitiveDataType {type := PCMRepository::PrimitiveTypeEnum::INT};
+//	result.dataTypes__Repository += long;
+//	result.dataTypes__Repository += string;
 	//DATE
-	result.dataTypes__Repository += object PCMRepository::CompositeDataType {
-		id := 'DATE';
-		entityName := 'DATE';
-		innerDeclaration_CompositeDataType += object PCMRepository::InnerDeclaration{ 
-			entityName := 'UnixEpochTime';
-			datatype_InnerDeclaration := long;
-		};
-	};
+//	result.dataTypes__Repository += object PCMRepository::CompositeDataType {
+//		id := 'DATE';
+//		entityName := 'DATE';
+//		innerDeclaration_CompositeDataType += object PCMRepository::InnerDeclaration{ 
+//			entityName := 'UnixEpochTime';
+//			datatype_InnerDeclaration := long;
+//		};
+//	};
 	//MAP
 	result.dataTypes__Repository += keyValuePair;
-	result.dataTypes__Repository += object PCMRepository::CollectionDataType{ 
-		id := 'MAP';
-		entityName := 'MAP';		
-		innerType_CollectionDataType := keyValuePair;
-	};
+//	result.dataTypes__Repository += object PCMRepository::CollectionDataType{ 
+//		id := 'MAP';
+//		entityName := 'MAP';		
+//		innerType_CollectionDataType := keyValuePair;
+//	};
 	//LIST
-	result.dataTypes__Repository += object PCMRepository::CollectionDataType{
-		id := 'LIST';
-		entityName := 'LIST';
-		innerType_CollectionDataType := string;		
-	};
+//	result.dataTypes__Repository += object PCMRepository::CollectionDataType{
+//		id := 'LIST';
+//		entityName := 'LIST';
+//		innerType_CollectionDataType := string;		
+//	};
 	//VOID does not exist explicitly in PCM represantation.
+	result.dataTypes__Repository += SIMPLESystemIndependent::Type::BOOLEAN.map basicDataTypeMapping(result.dataTypes__Repository);
+	result.dataTypes__Repository += SIMPLESystemIndependent::Type::CHAR.map basicDataTypeMapping(result.dataTypes__Repository);
+	result.dataTypes__Repository += SIMPLESystemIndependent::Type::DATE.map basicDataTypeMapping(result.dataTypes__Repository);
+	result.dataTypes__Repository += SIMPLESystemIndependent::Type::DOUBLE.map basicDataTypeMapping(result.dataTypes__Repository);
+	result.dataTypes__Repository += SIMPLESystemIndependent::Type::INT.map basicDataTypeMapping(result.dataTypes__Repository);
+	result.dataTypes__Repository += SIMPLESystemIndependent::Type::FLOAT.map basicDataTypeMapping(result.dataTypes__Repository);
+	result.dataTypes__Repository += SIMPLESystemIndependent::Type::LONG.map basicDataTypeMapping(result.dataTypes__Repository);
+	result.dataTypes__Repository += SIMPLESystemIndependent::Type::LIST.map basicDataTypeMapping(result.dataTypes__Repository);
+	result.dataTypes__Repository += SIMPLESystemIndependent::Type::MAP.map basicDataTypeMapping(result.dataTypes__Repository);
+	result.dataTypes__Repository += SIMPLESystemIndependent::Type::STRING.map basicDataTypeMapping(result.dataTypes__Repository);
+}
+
+mapping SIMPLESystemIndependent::Type::basicDataTypeMapping(in rS:Set(PCMRepository::DataType)) : PCMRepository::DataType {
+	init {
+		var string = object PCMRepository::PrimitiveDataType {type := PCMRepository::PrimitiveTypeEnum::STRING};
+		var long = object PCMRepository::PrimitiveDataType {type := PCMRepository::PrimitiveTypeEnum::LONG};
+		var keyValuePair = rS -> select(s|s.oclIsKindOf(PCMRepository::CompositeDataType))->oclAsType(PCMRepository::CompositeDataType) -> select (s|s.id = 'KeyValuePair');
+		
+		result := switch {
+			case(self = SIMPLESystemIndependent::Type::VOID) {null}
+			case(self = SIMPLESystemIndependent::Type::BOOLEAN) {object PCMRepository::PrimitiveDataType {type := PCMRepository::PrimitiveTypeEnum::BOOL}}
+			case(self = SIMPLESystemIndependent::Type::CHAR) {object PCMRepository::PrimitiveDataType {type := PCMRepository::PrimitiveTypeEnum::CHAR}}
+			case(self = SIMPLESystemIndependent::Type::DATE) {object PCMRepository::CompositeDataType {
+				id := 'DATE';
+				entityName := 'DATE';
+				innerDeclaration_CompositeDataType += object PCMRepository::InnerDeclaration{ 
+				entityName := 'UnixEpochTime';
+				datatype_InnerDeclaration := long;
+				};
+			}}
+			case(self = SIMPLESystemIndependent::Type::DOUBLE) {object PCMRepository::PrimitiveDataType {type := PCMRepository::PrimitiveTypeEnum::DOUBLE}}
+			//Convert float to double
+			case(self = SIMPLESystemIndependent::Type::FLOAT) {object PCMRepository::PrimitiveDataType {type := PCMRepository::PrimitiveTypeEnum::DOUBLE}}
+			case(self = SIMPLESystemIndependent::Type::LIST) {object PCMRepository::CollectionDataType{
+				id := 'LIST';
+				entityName := 'LIST';
+				innerType_CollectionDataType := string;		
+			}}
+			case(self = SIMPLESystemIndependent::Type::INT) {object PCMRepository::PrimitiveDataType {type := PCMRepository::PrimitiveTypeEnum::INT}}
+			case(self = SIMPLESystemIndependent::Type::LONG) {long}
+			case(self = SIMPLESystemIndependent::Type::MAP) {object PCMRepository::CollectionDataType{ 
+				id := 'MAP';
+				entityName := 'MAP';		
+				innerType_CollectionDataType := keyValuePair->asSequence()->first();
+			}}
+			case(self = SIMPLESystemIndependent::Type::STRING) {string}
+		}
+	}
 }
 
 mapping SIMPLESystemIndependent::Component::basicComponentMapping() : PCMRepository::BasicComponent{
@@ -202,7 +251,7 @@ mapping SIMPLESystemIndependent::Parameter::parameterMapping() : PCMRepository::
 	result.dataType__Parameter := self.type.resolveone(PCMRepository::DataType);
 }
 
-/* ONLY FOR PRESENTAION PURPOSE
+/* ONLY FOR PRESENTATION PURPOSE
 mapping SIMPLESystemIndependent::Type::primitiveTypeMapping() : PCMRepository::PrimitiveDataType{
 	//For VOID, DATE, LIST and MAP no sufficient pendants exist in the PCMRepository::PrimitiveTypeEnum.
 	result.type := switch{ 
