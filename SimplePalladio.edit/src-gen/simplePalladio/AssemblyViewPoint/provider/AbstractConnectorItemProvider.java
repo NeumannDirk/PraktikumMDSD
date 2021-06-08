@@ -9,6 +9,7 @@ import org.eclipse.emf.common.notify.AdapterFactory;
 import org.eclipse.emf.common.notify.Notification;
 
 import org.eclipse.emf.edit.provider.IItemPropertyDescriptor;
+import simplePalladio.AssemblyViewPoint.AbstractConnector;
 
 /**
  * This is the item provider adapter for a {@link simplePalladio.AssemblyViewPoint.AbstractConnector} object.
@@ -71,7 +72,9 @@ public class AbstractConnectorItemProvider extends AbstractSystemElementItemProv
 	 */
 	@Override
 	public String getText(Object object) {
-		return getString("_UI_AbstractConnector_type");
+		String label = ((AbstractConnector) object).getName();
+		return label == null || label.length() == 0 ? getString("_UI_AbstractConnector_type")
+				: getString("_UI_AbstractConnector_type") + " " + label;
 	}
 
 	/**

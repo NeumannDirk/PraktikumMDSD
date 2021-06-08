@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:resourceenvironment="http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.2" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.2" xsi:schemaLocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2 http://palladiosimulator.org/PalladioComponentModel/5.2#//allocation http://palladiosimulator.org/PalladioComponentModel/Repository/5.2 http://palladiosimulator.org/PalladioComponentModel/5.2#//repository http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.2 http://palladiosimulator.org/PalladioComponentModel/5.2#//resourceenvironment http://palladiosimulator.org/PalladioComponentModel/System/5.2 http://palladiosimulator.org/PalladioComponentModel/5.2#//system">
+  <resourceenvironment:ResourceEnvironment>
+    <linkingResources__ResourceEnvironment id="Network" entityName="Network" connectedResourceContainers_LinkingResource="ApplicationServer DatabaseServer"/>
+    <resourceContainer_ResourceEnvironment id="ApplicationServer" entityName="ApplicationServer"/>
+    <resourceContainer_ResourceEnvironment id="DatabaseServer" entityName="DatabaseServer"/>
+  </resourceenvironment:ResourceEnvironment>
+  <repository:Repository id="Repository" entityName="Repository" repositoryDescription="Description">
+    <dataTypes__Repository xsi:type="repository:PrimitiveDataType"/>
+    <dataTypes__Repository xsi:type="repository:PrimitiveDataType"/>
+    <dataTypes__Repository xsi:type="repository:PrimitiveDataType"/>
+    <dataTypes__Repository xsi:type="repository:PrimitiveDataType"/>
+    <dataTypes__Repository xsi:type="repository:PrimitiveDataType"/>
+    <dataTypes__Repository xsi:type="repository:PrimitiveDataType"/>
+    <dataTypes__Repository xsi:type="repository:PrimitiveDataType"/>
+    <dataTypes__Repository xsi:type="repository:CompositeDataType" id="KeyValuePair" entityName="KeyValuePair">
+      <innerDeclaration_CompositeDataType entityName="KEY" datatype_InnerDeclaration="/1/@dataTypes__Repository.3"/>
+      <innerDeclaration_CompositeDataType entityName="VALUE" datatype_InnerDeclaration="/1/@dataTypes__Repository.6"/>
+    </dataTypes__Repository>
+    <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_q2UjAshrEeuJN8wtq9YZ2g"/>
+    <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_q2VxIMhrEeuJN8wtq9YZ2g"/>
+    <dataTypes__Repository xsi:type="repository:CollectionDataType" id="_q2VxIshrEeuJN8wtq9YZ2g"/>
+  </repository:Repository>
+  <repository:CompositeDataType id="DATE" entityName="DATE">
+    <innerDeclaration_CompositeDataType entityName="UnixEpochTime" datatype_InnerDeclaration="/1/@dataTypes__Repository.3"/>
+  </repository:CompositeDataType>
+  <repository:CollectionDataType id="MAP" entityName="MAP" innerType_CollectionDataType="KeyValuePair"/>
+  <repository:CollectionDataType id="LIST" entityName="LIST" innerType_CollectionDataType="/1/@dataTypes__Repository.6"/>
+  <system:System id="Sys" entityName="Sys">
+    <assemblyContexts__ComposedStructure id="PoolingAudioDBAC" entityName="PoolingAudioDBAC"/>
+    <assemblyContexts__ComposedStructure id="WebGUIAC" entityName="WebGUIAC"/>
+    <assemblyContexts__ComposedStructure id="MediaStoreAC" entityName="MediaStoreAC"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="Sys_HTTP_1_provider" entityName="Sys_HTTP_1_provider"/>
+  </system:System>
+  <allocation:Allocation id="_q2W_QshrEeuJN8wtq9YZ2g">
+    <allocationContexts_Allocation id="_q2W_RMhrEeuJN8wtq9YZ2g" resourceContainer_AllocationContext="ApplicationServer" assemblyContext_AllocationContext="MediaStoreAC"/>
+    <allocationContexts_Allocation id="_q2W_Q8hrEeuJN8wtq9YZ2g" resourceContainer_AllocationContext="ApplicationServer" assemblyContext_AllocationContext="WebGUIAC"/>
+    <allocationContexts_Allocation id="_q2XmUMhrEeuJN8wtq9YZ2g" resourceContainer_AllocationContext="DatabaseServer" assemblyContext_AllocationContext="PoolingAudioDBAC"/>
+  </allocation:Allocation>
+</xmi:XMI>

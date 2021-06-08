@@ -125,6 +125,8 @@ public class AssemblyViewPointSwitch<T> extends Switch<T> {
 			if (result == null)
 				result = caseAbstractSystemElement(delegationConnector);
 			if (result == null)
+				result = caseNamedElement(delegationConnector);
+			if (result == null)
 				result = defaultCase(theEObject);
 			return result;
 		}
@@ -136,6 +138,8 @@ public class AssemblyViewPointSwitch<T> extends Switch<T> {
 			if (result == null)
 				result = caseAbstractSystemElement(assemblyConnector);
 			if (result == null)
+				result = caseNamedElement(assemblyConnector);
+			if (result == null)
 				result = defaultCase(theEObject);
 			return result;
 		}
@@ -145,12 +149,16 @@ public class AssemblyViewPointSwitch<T> extends Switch<T> {
 			if (result == null)
 				result = caseAbstractSystemElement(abstractConnector);
 			if (result == null)
+				result = caseNamedElement(abstractConnector);
+			if (result == null)
 				result = defaultCase(theEObject);
 			return result;
 		}
 		case AssemblyViewPointPackage.ABSTRACT_SYSTEM_ELEMENT: {
 			AbstractSystemElement abstractSystemElement = (AbstractSystemElement) theEObject;
 			T result = caseAbstractSystemElement(abstractSystemElement);
+			if (result == null)
+				result = caseNamedElement(abstractSystemElement);
 			if (result == null)
 				result = defaultCase(theEObject);
 			return result;

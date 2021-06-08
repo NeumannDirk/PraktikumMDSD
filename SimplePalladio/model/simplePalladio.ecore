@@ -135,7 +135,7 @@
           upperBound="-1" eType="#//AssemblyViewPoint/AbstractSystemElement" containment="true"
           eOpposite="#//AssemblyViewPoint/AbstractSystemElement/system"/>
     </eClassifiers>
-    <eClassifiers xsi:type="ecore:EClass" name="AssemblyContext" eSuperTypes="#//AssemblyViewPoint/AbstractSystemElement #//Common/NamedElement">
+    <eClassifiers xsi:type="ecore:EClass" name="AssemblyContext" eSuperTypes="#//AssemblyViewPoint/AbstractSystemElement">
       <eStructuralFeatures xsi:type="ecore:EReference" name="component" lowerBound="1"
           eType="#//SystemIndependentViewPoint/AbstractComponent"/>
       <eStructuralFeatures xsi:type="ecore:EReference" name="providedRoles" lowerBound="1"
@@ -145,7 +145,7 @@
       <eStructuralFeatures xsi:type="ecore:EReference" name="allocationContext" eType="#//DeploymentViewPoint/AllocationContext"
           eOpposite="#//DeploymentViewPoint/AllocationContext/assembly"/>
     </eClassifiers>
-    <eClassifiers xsi:type="ecore:EClass" name="Role" eSuperTypes="#//AssemblyViewPoint/AbstractSystemElement #//Common/NamedElement">
+    <eClassifiers xsi:type="ecore:EClass" name="Role" eSuperTypes="#//AssemblyViewPoint/AbstractSystemElement">
       <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore">
         <details key="constraints" value="MustHaveOnlyOneParent"/>
       </eAnnotations>
@@ -190,7 +190,8 @@
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="AbstractConnector" abstract="true"
         eSuperTypes="#//AssemblyViewPoint/AbstractSystemElement"/>
-    <eClassifiers xsi:type="ecore:EClass" name="AbstractSystemElement" abstract="true">
+    <eClassifiers xsi:type="ecore:EClass" name="AbstractSystemElement" abstract="true"
+        eSuperTypes="#//Common/NamedElement">
       <eStructuralFeatures xsi:type="ecore:EReference" name="system" lowerBound="1"
           eType="#//AssemblyViewPoint/System" eOpposite="#//AssemblyViewPoint/System/systemElements"/>
     </eClassifiers>

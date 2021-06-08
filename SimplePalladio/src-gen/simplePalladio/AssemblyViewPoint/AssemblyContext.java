@@ -3,9 +3,6 @@
 package simplePalladio.AssemblyViewPoint;
 
 import org.eclipse.emf.common.util.EList;
-
-import simplePalladio.Common.NamedElement;
-
 import simplePalladio.DeploymentViewPoint.AllocationContext;
 
 import simplePalladio.SystemIndependentViewPoint.AbstractComponent;
@@ -29,7 +26,7 @@ import simplePalladio.SystemIndependentViewPoint.AbstractComponent;
  * @model
  * @generated
  */
-public interface AssemblyContext extends AbstractSystemElement, NamedElement {
+public interface AssemblyContext extends AbstractSystemElement {
 	/**
 	 * Returns the value of the '<em><b>Component</b></em>' reference.
 	 * <!-- begin-user-doc -->

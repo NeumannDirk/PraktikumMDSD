@@ -9,12 +9,11 @@ import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.InternalEObject;
 
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
-import org.eclipse.emf.ecore.impl.MinimalEObjectImpl;
-
 import org.eclipse.emf.ecore.util.EcoreUtil;
 
 import simplePalladio.AssemblyViewPoint.AbstractSystemElement;
 import simplePalladio.AssemblyViewPoint.AssemblyViewPointPackage;
+import simplePalladio.Common.impl.NamedElementImpl;
 
 /**
  * <!-- begin-user-doc -->
@@ -29,7 +28,7 @@ import simplePalladio.AssemblyViewPoint.AssemblyViewPointPackage;
  *
  * @generated
  */
-public abstract class AbstractSystemElementImpl extends MinimalEObjectImpl.Container implements AbstractSystemElement {
+public abstract class AbstractSystemElementImpl extends NamedElementImpl implements AbstractSystemElement {
 	/**
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->

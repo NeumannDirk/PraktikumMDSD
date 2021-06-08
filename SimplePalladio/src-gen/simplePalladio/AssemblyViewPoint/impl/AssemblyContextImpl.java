@@ -20,10 +20,6 @@ import org.eclipse.emf.ecore.util.InternalEList;
 import simplePalladio.AssemblyViewPoint.AssemblyContext;
 import simplePalladio.AssemblyViewPoint.AssemblyViewPointPackage;
 import simplePalladio.AssemblyViewPoint.Role;
-
-import simplePalladio.Common.CommonPackage;
-import simplePalladio.Common.NamedElement;
-
 import simplePalladio.DeploymentViewPoint.AllocationContext;
 import simplePalladio.DeploymentViewPoint.DeploymentViewPointPackage;
 
@@ -37,7 +33,6 @@ import simplePalladio.SystemIndependentViewPoint.AbstractComponent;
  * The following features are implemented:
  * </p>
  * <ul>
- *   <li>{@link simplePalladio.AssemblyViewPoint.impl.AssemblyContextImpl#getName <em>Name</em>}</li>
  *   <li>{@link simplePalladio.AssemblyViewPoint.impl.AssemblyContextImpl#getComponent <em>Component</em>}</li>
  *   <li>{@link simplePalladio.AssemblyViewPoint.impl.AssemblyContextImpl#getProvidedRoles <em>Provided Roles</em>}</li>
  *   <li>{@link simplePalladio.AssemblyViewPoint.impl.AssemblyContextImpl#getRequiredRoles <em>Required Roles</em>}</li>
@@ -47,26 +42,6 @@ import simplePalladio.SystemIndependentViewPoint.AbstractComponent;
  * @generated
  */
 public class AssemblyContextImpl extends AbstractSystemElementImpl implements AssemblyContext {
-	/**
-	 * The default value of the '{@link #getName() <em>Name</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #getName()
-	 * @generated
-	 * @ordered
-	 */
-	protected static final String NAME_EDEFAULT = null;
-
-	/**
-	 * The cached value of the '{@link #getName() <em>Name</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #getName()
-	 * @generated
-	 * @ordered
-	 */
-	protected String name = NAME_EDEFAULT;
-
 	/**
 	 * The cached value of the '{@link #getComponent() <em>Component</em>}' reference.
 	 * <!-- begin-user-doc -->
@@ -124,28 +99,6 @@ public class AssemblyContextImpl extends AbstractSystemElementImpl implements As
 	@Override
 	protected EClass eStaticClass() {
 		return AssemblyViewPointPackage.Literals.ASSEMBLY_CONTEXT;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getName() {
-		return name;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setName(String newName) {
-		String oldName = name;
-		name = newName;
-		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET, AssemblyViewPointPackage.ASSEMBLY_CONTEXT__NAME,
-					oldName, name));
 	}
 
 	/**
@@ -335,8 +288,6 @@ public class AssemblyContextImpl extends AbstractSystemElementImpl implements As
 	@Override
 	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
-		case AssemblyViewPointPackage.ASSEMBLY_CONTEXT__NAME:
-			return getName();
 		case AssemblyViewPointPackage.ASSEMBLY_CONTEXT__COMPONENT:
 			if (resolve)
 				return getComponent();
@@ -362,9 +313,6 @@ public class AssemblyContextImpl extends AbstractSystemElementImpl implements As
 	@Override
 	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
-		case AssemblyViewPointPackage.ASSEMBLY_CONTEXT__NAME:
-			setName((String) newValue);
-			return;
 		case AssemblyViewPointPackage.ASSEMBLY_CONTEXT__COMPONENT:
 			setComponent((AbstractComponent) newValue);
 			return;
@@ -391,9 +339,6 @@ public class AssemblyContextImpl extends AbstractSystemElementImpl implements As
 	@Override
 	public void eUnset(int featureID) {
 		switch (featureID) {
-		case AssemblyViewPointPackage.ASSEMBLY_CONTEXT__NAME:
-			setName(NAME_EDEFAULT);
-			return;
 		case AssemblyViewPointPackage.ASSEMBLY_CONTEXT__COMPONENT:
 			setComponent((AbstractComponent) null);
 			return;
@@ -418,8 +363,6 @@ public class AssemblyContextImpl extends AbstractSystemElementImpl implements As
 	@Override
 	public boolean eIsSet(int featureID) {
 		switch (featureID) {
-		case AssemblyViewPointPackage.ASSEMBLY_CONTEXT__NAME:
-			return NAME_EDEFAULT == null ? name != null : !NAME_EDEFAULT.equals(name);
 		case AssemblyViewPointPackage.ASSEMBLY_CONTEXT__COMPONENT:
 			return component != null;
 		case AssemblyViewPointPackage.ASSEMBLY_CONTEXT__PROVIDED_ROLES:
@@ -430,59 +373,6 @@ public class AssemblyContextImpl extends AbstractSystemElementImpl implements As
 			return allocationContext != null;
 		}
 		return super.eIsSet(featureID);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public int eBaseStructuralFeatureID(int derivedFeatureID, Class<?> baseClass) {
-		if (baseClass == NamedElement.class) {
-			switch (derivedFeatureID) {
-			case AssemblyViewPointPackage.ASSEMBLY_CONTEXT__NAME:
-				return CommonPackage.NAMED_ELEMENT__NAME;
-			default:
-				return -1;
-			}
-		}
-		return super.eBaseStructuralFeatureID(derivedFeatureID, baseClass);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public int eDerivedStructuralFeatureID(int baseFeatureID, Class<?> baseClass) {
-		if (baseClass == NamedElement.class) {
-			switch (baseFeatureID) {
-			case CommonPackage.NAMED_ELEMENT__NAME:
-				return AssemblyViewPointPackage.ASSEMBLY_CONTEXT__NAME;
-			default:
-				return -1;
-			}
-		}
-		return super.eDerivedStructuralFeatureID(baseFeatureID, baseClass);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public String toString() {
-		if (eIsProxy())
-			return super.toString();
-
-		StringBuilder result = new StringBuilder(super.toString());
-		result.append(" (name: ");
-		result.append(name);
-		result.append(')');
-		return result.toString();
 	}
 
 } //AssemblyContextImpl

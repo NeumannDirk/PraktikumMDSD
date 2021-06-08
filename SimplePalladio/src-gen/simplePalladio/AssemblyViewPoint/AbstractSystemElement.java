@@ -2,7 +2,7 @@
  */
 package simplePalladio.AssemblyViewPoint;
 
-import org.eclipse.emf.ecore.EObject;
+import simplePalladio.Common.NamedElement;
 
 /**
  * <!-- begin-user-doc -->
@@ -20,7 +20,7 @@ import org.eclipse.emf.ecore.EObject;
  * @model abstract="true"
  * @generated
  */
-public interface AbstractSystemElement extends EObject {
+public interface AbstractSystemElement extends NamedElement {
 	/**
 	 * Returns the value of the '<em><b>System</b></em>' container reference.
 	 * It is bidirectional and its opposite is '{@link simplePalladio.AssemblyViewPoint.System#getSystemElements <em>System Elements</em>}'.

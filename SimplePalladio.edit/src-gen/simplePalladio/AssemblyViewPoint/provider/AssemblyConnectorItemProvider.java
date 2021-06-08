@@ -11,6 +11,7 @@ import org.eclipse.emf.common.notify.Notification;
 import org.eclipse.emf.edit.provider.ComposeableAdapterFactory;
 import org.eclipse.emf.edit.provider.IItemPropertyDescriptor;
 
+import simplePalladio.AssemblyViewPoint.AssemblyConnector;
 import simplePalladio.AssemblyViewPoint.AssemblyViewPointPackage;
 
 /**
@@ -108,7 +109,9 @@ public class AssemblyConnectorItemProvider extends AbstractConnectorItemProvider
 	 */
 	@Override
 	public String getText(Object object) {
-		return getString("_UI_AssemblyConnector_type");
+		String label = ((AssemblyConnector) object).getName();
+		return label == null || label.length() == 0 ? getString("_UI_AssemblyConnector_type")
+				: getString("_UI_AssemblyConnector_type") + " " + label;
 	}
 
 	/**

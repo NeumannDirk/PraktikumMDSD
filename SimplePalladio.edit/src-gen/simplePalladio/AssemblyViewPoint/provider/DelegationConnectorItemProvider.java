@@ -12,6 +12,7 @@ import org.eclipse.emf.edit.provider.ComposeableAdapterFactory;
 import org.eclipse.emf.edit.provider.IItemPropertyDescriptor;
 
 import simplePalladio.AssemblyViewPoint.AssemblyViewPointPackage;
+import simplePalladio.AssemblyViewPoint.DelegationConnector;
 
 /**
  * This is the item provider adapter for a {@link simplePalladio.AssemblyViewPoint.DelegationConnector} object.
@@ -107,7 +108,9 @@ public class DelegationConnectorItemProvider extends AbstractConnectorItemProvid
 	 */
 	@Override
 	public String getText(Object object) {
-		return getString("_UI_DelegationConnector_type");
+		String label = ((DelegationConnector) object).getName();
+		return label == null || label.length() == 0 ? getString("_UI_DelegationConnector_type")
+				: getString("_UI_DelegationConnector_type") + " " + label;
 	}
 
 	/**
