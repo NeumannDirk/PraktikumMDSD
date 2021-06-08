@@ -31,13 +31,11 @@ mapping SIMPLEDeployment::EnvironmentViewType::envvtMapping() : PCMResourceEnvir
 }
 
 mapping SIMPLEDeployment::Link::linkMapping() : PCMResourceEnvironment::LinkingResource{
-	result.id := self.name;
 	result.entityName := self.name;
 	result.connectedResourceContainers_LinkingResource := self.containers -> collect(c | c.resolveone(PCMResourceEnvironment::ResourceContainer)) -> asSet();
 }
 
 mapping SIMPLEDeployment::Container::containerMapping() : PCMResourceEnvironment::ResourceContainer{
-	result.id := self.name;
 	result.entityName := self.name;
 }
 //---------- EnvironmentViewType :: Simple -> PCMResourceEnvironment ----------
@@ -48,13 +46,10 @@ mapping SIMPLESystemIndependent::RepositoryViewType::repvtMapping() : PCMReposit
 		//AbstractRepositoryElement
 		var aRepElems = sRep.objectsOfType(SIMPLESystemIndependent::AbstractRepositoryElement);
 		//Component
-		var bCom = aRepElems -> select(s|s->oclIsTypeOf(SIMPLESystemIndependent::Component)->includes(true))->oclAsType(SIMPLESystemIndependent::Component);
+		var bCom = self.repositoryElements->selectByKind(SIMPLESystemIndependent::Component); //aRepElems -> select(s|s->oclIsTypeOf(SIMPLESystemIndependent::Component)->includes(true))->oclAsType(SIMPLESystemIndependent::Component);
 		//CompositeComponent
-		var cCom = aRepElems -> select(s|s->oclIsTypeOf(SIMPLESystemIndependent::CompositeComponent)->includes(true))->oclAsType(SIMPLESystemIndependent::CompositeComponent);
-		//Interfaces
-		var ifs = aRepElems -> select(s|s->oclIsTypeOf(SIMPLESystemIndependent::Interface)->includes(true))->oclAsType(SIMPLESystemIndependent::Interface);		
+		var cCom =  self.repositoryElements->selectByKind(SIMPLESystemIndependent::CompositeComponent); //aRepElems -> select(s|s->oclIsTypeOf(SIMPLESystemIndependent::CompositeComponent)->includes(true))->oclAsType(SIMPLESystemIndependent::CompositeComponent);
 	}	
-	result.id := 'Repository';
 	result.entityName := 'Repository';
 	result.repositoryDescription := 'Description';
 		
@@ -81,7 +76,7 @@ mapping SIMPLESystemIndependent::RepositoryViewType::repvtMapping() : PCMReposit
 	result.dataTypes__Repository += SIMPLESystemIndependent::Type::DATE.map basicDataTypeMapping(result.dataTypes__Repository);
 	result.dataTypes__Repository += SIMPLESystemIndependent::Type::MAP.map basicDataTypeMapping(result.dataTypes__Repository);
 	result.dataTypes__Repository += SIMPLESystemIndependent::Type::LIST.map basicDataTypeMapping(result.dataTypes__Repository);
-	result.interfaces__Repository += ifs -> collect(c|c->map interfaceMapping());
+	result.interfaces__Repository := self.repositoryElements->select(it| it.oclIsKindOf(SIMPLESystemIndependent::Interface))->collect(it|it.oclAsType(SIMPLESystemIndependent::Interface)) -> collect(c|c->map interfaceMapping());
 	result.components__Repository += bCom -> collect(c|c->map basicComponentMapping());
 	result.components__Repository += cCom -> collect(c|c->map compositeComponentMapping());
 	//Presentation purpose
@@ -166,19 +161,16 @@ when{Set{SIMPLESystemIndependent::Type::DATE}->includes(self)}
 }
 
 mapping SIMPLESystemIndependent::Component::basicComponentMapping() : PCMRepository::BasicComponent{
-	result.id := self.name;
 	result.entityName := self.name;
 	result.providedRoles_InterfaceProvidingEntity := self.providedInterfaces->
 		collect(i| object PCMRepository::OperationProvidedRole { 			
 			var x = self.name.concat('_').concat(i.name).concat('_').concat(self.providedInterfaces->indexOf(i).toString()).concat('_provider');
-			id := x;
 			entityName := x;  			
 			providedInterface__OperationProvidedRole := i.resolveone(PCMRepository::OperationInterface);
 		});
 	result.requiredRoles_InterfaceRequiringEntity := self.requiredInterfaces->
 		collect(i| object PCMRepository::OperationRequiredRole { 			
 			var x = self.name.concat('_').concat(i.name).concat('_').concat(self.requiredInterfaces->indexOf(i).toString()).concat('_requiree');
-			id := x;
 			entityName := x;
 			requiredInterface__OperationRequiredRole := i.resolveone(PCMRepository::OperationInterface);
 		});
@@ -190,16 +182,9 @@ mapping SIMPLESystemIndependent::Service::serviceMapping() : PCMSEFF::ResourceDe
 	result.steps_Behaviour := self.behaviourDescription.behaviorElements->collect(be|be -> map behaviorElementMapping());
 }
 
-mapping SIMPLESystemIndependent::BehaviorElement::behaviorElementMapping() : PCMSEFF::AbstractAction {
-	init {
-		result := switch {
-			case(self.oclIsKindOf(SIMPLESystemIndependent::InternalAction)) { self.oclAsType(SIMPLESystemIndependent::InternalAction).map internalActionMapping()}
-			case(self.oclIsKindOf(SIMPLESystemIndependent::ExternalCall)) { self.oclAsType(SIMPLESystemIndependent::ExternalCall).map externalCallMapping()}
-			case(self.oclIsKindOf(SIMPLESystemIndependent::Loop)) { self.oclAsType(SIMPLESystemIndependent::Loop).map loopMapping()}
-			case(self.oclIsKindOf(SIMPLESystemIndependent::Branch)) { self.oclAsType(SIMPLESystemIndependent::Branch).map branchMapping()}
-		}
-	}
-}
+mapping SIMPLESystemIndependent::BehaviorElement::behaviorElementMapping() : PCMSEFF::AbstractAction 
+disjuncts SIMPLESystemIndependent::InternalAction::internalActionMapping, SIMPLESystemIndependent::ExternalCall::externalCallMapping, SIMPLESystemIndependent::Loop::loopMapping, SIMPLESystemIndependent::Branch::branchMapping 
+{}
 
 mapping SIMPLESystemIndependent::InternalAction::internalActionMapping() : PCMSEFF::InternalAction {
 }
@@ -229,40 +214,33 @@ mapping SIMPLESystemIndependent::Branch::branchMapping() : PCMSEFF::BranchAction
 mapping SIMPLESystemIndependent::CompositeComponent::compositeComponentMapping() : PCMRepository::CompositeComponent{
 	init {
 		var sys := self.system;
-		var sysElements = sys -> collect(c|c.systemElements);
-		var assContexts = sysElements -> select(s|s->oclIsTypeOf(SIMPLEAssembly::AssemblyContext)->includes(true))->oclAsType(SIMPLEAssembly::AssemblyContext);
-		var assConnectors = sysElements -> select(s|s->oclIsTypeOf(SIMPLEAssembly::AbstractConnector)->includes(true))->oclAsType(SIMPLEAssembly::AbstractConnector);
+		var assContexts = sys.systemElements -> select(s|s.oclIsKindOf(SIMPLEAssembly::AssemblyContext))->oclAsType(SIMPLEAssembly::AssemblyContext);
+		var assConnectors = sys.systemElements -> select(s|s.oclIsTypeOf(SIMPLEAssembly::AbstractConnector))->oclAsType(SIMPLEAssembly::AbstractConnector);
 	}
-	result.id := self.name;
 	result.entityName := self.name;
 	result.providedRoles_InterfaceProvidingEntity := self.providedInterfaces->
 		collect(i| object PCMRepository::OperationProvidedRole { 			
 			var x = self.name.concat('_').concat(i.name).concat('_').concat(self.providedInterfaces->indexOf(i).toString()).concat('_provider');
-			id := x;
 			entityName := x;  			
 			providedInterface__OperationProvidedRole := i.resolveone(PCMRepository::OperationInterface);
 		});
 	result.requiredRoles_InterfaceRequiringEntity := self.requiredInterfaces->
 		collect(i| object PCMRepository::OperationRequiredRole { 			
 			var x = self.name.concat('_').concat(i.name).concat('_').concat(self.requiredInterfaces->indexOf(i).toString()).concat('_requiree');
-			id := x;
 			entityName := x;
 			requiredInterface__OperationRequiredRole := i.resolveone(PCMRepository::OperationInterface);
 		});
-	result.assemblyContexts__ComposedStructure += assContexts -> collect(c|c->map assemblyContextMapping());
-	result.connectors__ComposedStructure += assConnectors ->  collect(c|c->map abstractConnectorMapping());
-	//TODO self->system (Connectoren, ...) 
+	result.assemblyContexts__ComposedStructure := assContexts -> collect(c|c->map assemblyContextMapping());
+	result.connectors__ComposedStructure := self.system.systemElements -> select(s|s.oclIsTypeOf(SIMPLEAssembly::AbstractConnector))->collect(s|s.oclAsType(SIMPLEAssembly::AbstractConnector)) ->  collect(c|c->map abstractConnectorMapping());
 }
 // Map to OperationInterface; Other subclass (Infrastructureinterface) is not modelled in SimplePalladio.
 // Distinction between both interface kinds is not possible
 mapping SIMPLESystemIndependent::Interface::interfaceMapping() : PCMRepository::OperationInterface{
-	result.id := self.name;
 	result.entityName := self.name;
 	result.signatures__OperationInterface := self.signatures->collect(sig|sig->map signatureMapping());
 }
 
 mapping SIMPLESystemIndependent::Signature::signatureMapping() : PCMRepository::OperationSignature {
-	result.id := self.name;
 	result.entityName := self.name;
 	if (self.returnValue <> SIMPLESystemIndependent::Type::VOID) then
 		result.returnType__OperationSignature := self.returnValue.resolveone(PCMRepository::DataType)
@@ -307,24 +285,21 @@ mapping SIMPLEAssembly::AssemblyViewType::assvtMapping() : PCMSystem::System@pS{
 		var assConnectors = sysElements -> select(s|s->oclIsTypeOf(SIMPLEAssembly::AbstractConnector)->includes(true))->oclAsType(SIMPLEAssembly::AbstractConnector); 	
 	}
 	//see convention above
-	result.id := 'Sys';
 	result.entityName := 'Sys';	
 	result.providedRoles_InterfaceProvidingEntity := sys.providedInterfaces->
 		collect(i| object PCMRepository::OperationProvidedRole { 			
 			var x = 'Sys_'.concat(i.name).concat('_').concat(sys.providedInterfaces->indexOf(i).toString()).concat('_provider');
-			id := x;
 			entityName := x;  			
 			providedInterface__OperationProvidedRole := i.resolveone(PCMRepository::OperationInterface);
 		});
 	result.requiredRoles_InterfaceRequiringEntity := sys.requiredInterfaces->
 		collect(i| object PCMRepository::OperationRequiredRole { 			
 			var x = 'Sys_'.concat(i.name).concat('_').concat(sys.requiredInterfaces->indexOf(i)->asSequence()->first().toString()).concat('_requiree');
-			id := x;
 			entityName := x;
 			requiredInterface__OperationRequiredRole := i.resolveone(PCMRepository::OperationInterface);
 		});
-	result.assemblyContexts__ComposedStructure += assContexts -> collect(c|c->map assemblyContextMapping());
-	result.connectors__ComposedStructure += assConnectors->collect(c|c->map abstractConnectorMapping());
+	result.assemblyContexts__ComposedStructure := assContexts -> collect(c|c->map assemblyContextMapping());
+	result.connectors__ComposedStructure := assConnectors->collect(c|c->map abstractConnectorMapping());
 	//not used in simplePalladio
 	//result.qosAnnotations_System;	
 	//result.resourceRequiredRoles__ResourceInterfaceRequiringEntity;
@@ -333,7 +308,6 @@ mapping SIMPLEAssembly::AssemblyViewType::assvtMapping() : PCMSystem::System@pS{
 }
 
 mapping SIMPLEAssembly::AssemblyContext::assemblyContextMapping() : PCMComposition::AssemblyContext{
-	result.id := self.name;
 	result.entityName := self.name;
 	result.encapsulatedComponent__AssemblyContext := self.component.resolveone(PCMRepository::RepositoryComponent);
 }
@@ -344,7 +318,6 @@ disjuncts SIMPLEAssembly::AssemblyConnector::assemblyConnectorMapping, SIMPLEAss
 
 
 mapping SIMPLEAssembly::AssemblyConnector::assemblyConnectorMapping() : PCMComposition::AssemblyConnector {
-	result.id := self.name;
 	result.entityName := self.name;
 	result.requiringAssemblyContext_AssemblyConnector := self.requiredRole.parentRequirereeAssemblyContext.resolveone(PCMComposition::AssemblyContext);
 	result.providingAssemblyContext_AssemblyConnector := self.providedRole.parentProviderAssemblyContext.resolveone(PCMComposition::AssemblyContext);
@@ -354,7 +327,6 @@ mapping SIMPLEAssembly::AssemblyConnector::assemblyConnectorMapping() : PCMCompo
 
 mapping SIMPLEAssembly::DelegationConnector::provDelegationConnectorMapping() : PCMComposition::ProvidedDelegationConnector 
 when {self.role.parentProviderAssemblyContext->notEmpty()} {
-	result.id := self.name;
 	result.entityName := self.name;
 	result.assemblyContext_ProvidedDelegationConnector := self.role.parentProviderAssemblyContext.resolveone(PCMComposition::AssemblyContext);
 //	result.innerProvidedRole_ProvidedDelegationConnector;
@@ -362,7 +334,6 @@ when {self.role.parentProviderAssemblyContext->notEmpty()} {
 }
 mapping SIMPLEAssembly::DelegationConnector::reqDelegationConnectorMapping() : PCMComposition::RequiredDelegationConnector 
 when {self.role.parentRequirereeAssemblyContext->notEmpty()} {
-	result.id := self.name;
 	result.entityName := self.name;
 	result.assemblyContext_RequiredDelegationConnector := self.role.parentRequirereeAssemblyContext.resolveone(PCMComposition::AssemblyContext);
 //	result.innerRequiredRole_RequiredDelegationConnector;
