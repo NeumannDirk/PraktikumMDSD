@@ -13,7 +13,7 @@
     <result>
       <result kind="OUT" name="result" type="ResourceEnvironment">
         <value>
-          <modelElement href="MainTransformation.resourceenvironment#/0"/>
+          <modelElement href="MainTransformation.resourceenvironment#/"/>
         </value>
       </result>
     </result>
@@ -85,7 +85,7 @@
     <result>
       <result kind="OUT" name="result" type="Repository">
         <value>
-          <modelElement href="MainTransformation.resourceenvironment#Repository"/>
+          <modelElement href="MainTransformation.repository#Repository"/>
         </value>
       </result>
     </result>
@@ -105,7 +105,7 @@
     <result>
       <result kind="OUT" name="result" type="PrimitiveDataType">
         <value>
-          <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.0"/>
+          <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
         </value>
       </result>
     </result>
@@ -125,7 +125,7 @@
     <result>
       <result kind="OUT" name="result" type="DataType">
         <value>
-          <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.0"/>
+          <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
         </value>
       </result>
     </result>
@@ -141,7 +141,7 @@
       <parameters name="rS" type="Set(DataType)">
         <value collectionType="Set">
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.0"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
           </collection>
         </value>
       </parameters>
@@ -149,7 +149,7 @@
     <result>
       <result kind="OUT" name="result" type="PrimitiveDataType">
         <value>
-          <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.1"/>
+          <modelElement href="MainTransformation.repository#//@dataTypes__Repository.1"/>
         </value>
       </result>
     </result>
@@ -165,7 +165,7 @@
       <parameters name="rS" type="Set(DataType)">
         <value collectionType="Set">
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.0"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
           </collection>
         </value>
       </parameters>
@@ -173,7 +173,7 @@
     <result>
       <result kind="OUT" name="result" type="DataType">
         <value>
-          <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.1"/>
+          <modelElement href="MainTransformation.repository#//@dataTypes__Repository.1"/>
         </value>
       </result>
     </result>
@@ -189,10 +189,10 @@
       <parameters name="rS" type="Set(DataType)">
         <value collectionType="Set">
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.0"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.1"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.1"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
           </collection>
         </value>
       </parameters>
@@ -200,7 +200,7 @@
     <result>
       <result kind="OUT" name="result" type="PrimitiveDataType">
         <value>
-          <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.2"/>
+          <modelElement href="MainTransformation.repository#//@dataTypes__Repository.2"/>
         </value>
       </result>
     </result>
@@ -216,10 +216,10 @@
       <parameters name="rS" type="Set(DataType)">
         <value collectionType="Set">
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.0"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.1"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.1"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
           </collection>
         </value>
       </parameters>
@@ -227,7 +227,7 @@
     <result>
       <result kind="OUT" name="result" type="DataType">
         <value>
-          <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.2"/>
+          <modelElement href="MainTransformation.repository#//@dataTypes__Repository.2"/>
         </value>
       </result>
     </result>
@@ -243,13 +243,13 @@
       <parameters name="rS" type="Set(DataType)">
         <value collectionType="Set">
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.0"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.2"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.2"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.1"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.1"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
           </collection>
         </value>
       </parameters>
@@ -257,7 +257,7 @@
     <result>
       <result kind="OUT" name="result" type="PrimitiveDataType">
         <value>
-          <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.3"/>
+          <modelElement href="MainTransformation.repository#//@dataTypes__Repository.3"/>
         </value>
       </result>
     </result>
@@ -273,13 +273,13 @@
       <parameters name="rS" type="Set(DataType)">
         <value collectionType="Set">
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.0"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.2"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.2"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.1"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.1"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
           </collection>
         </value>
       </parameters>
@@ -287,7 +287,7 @@
     <result>
       <result kind="OUT" name="result" type="DataType">
         <value>
-          <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.3"/>
+          <modelElement href="MainTransformation.repository#//@dataTypes__Repository.3"/>
         </value>
       </result>
     </result>
@@ -303,16 +303,16 @@
       <parameters name="rS" type="Set(DataType)">
         <value collectionType="Set">
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.0"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.2"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.3"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.1"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.2"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.3"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.1"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
           </collection>
         </value>
       </parameters>
@@ -320,7 +320,7 @@
     <result>
       <result kind="OUT" name="result" type="PrimitiveDataType">
         <value>
-          <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.4"/>
+          <modelElement href="MainTransformation.repository#//@dataTypes__Repository.4"/>
         </value>
       </result>
     </result>
@@ -336,16 +336,16 @@
       <parameters name="rS" type="Set(DataType)">
         <value collectionType="Set">
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.0"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.2"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.3"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.1"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.2"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.3"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.1"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
           </collection>
         </value>
       </parameters>
@@ -353,7 +353,7 @@
     <result>
       <result kind="OUT" name="result" type="DataType">
         <value>
-          <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.4"/>
+          <modelElement href="MainTransformation.repository#//@dataTypes__Repository.4"/>
         </value>
       </result>
     </result>
@@ -369,19 +369,19 @@
       <parameters name="rS" type="Set(DataType)">
         <value collectionType="Set">
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.0"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.2"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.3"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.4"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.2"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.1"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.4"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.3"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.1"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
           </collection>
         </value>
       </parameters>
@@ -389,7 +389,7 @@
     <result>
       <result kind="OUT" name="result" type="PrimitiveDataType">
         <value>
-          <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.5"/>
+          <modelElement href="MainTransformation.repository#//@dataTypes__Repository.5"/>
         </value>
       </result>
     </result>
@@ -405,19 +405,19 @@
       <parameters name="rS" type="Set(DataType)">
         <value collectionType="Set">
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.0"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.2"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.3"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.4"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.2"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.1"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.4"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.3"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.1"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
           </collection>
         </value>
       </parameters>
@@ -425,7 +425,7 @@
     <result>
       <result kind="OUT" name="result" type="DataType">
         <value>
-          <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.5"/>
+          <modelElement href="MainTransformation.repository#//@dataTypes__Repository.5"/>
         </value>
       </result>
     </result>
@@ -441,22 +441,22 @@
       <parameters name="rS" type="Set(DataType)">
         <value collectionType="Set">
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.0"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.5"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.3"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.2"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.2"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.4"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.5"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.1"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.4"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.3"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.1"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
           </collection>
         </value>
       </parameters>
@@ -464,7 +464,7 @@
     <result>
       <result kind="OUT" name="result" type="PrimitiveDataType">
         <value>
-          <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.6"/>
+          <modelElement href="MainTransformation.repository#//@dataTypes__Repository.6"/>
         </value>
       </result>
     </result>
@@ -480,22 +480,22 @@
       <parameters name="rS" type="Set(DataType)">
         <value collectionType="Set">
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.0"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.5"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.3"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.2"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.2"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.4"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.5"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.1"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.4"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.3"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.1"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
           </collection>
         </value>
       </parameters>
@@ -503,7 +503,7 @@
     <result>
       <result kind="OUT" name="result" type="DataType">
         <value>
-          <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.6"/>
+          <modelElement href="MainTransformation.repository#//@dataTypes__Repository.6"/>
         </value>
       </result>
     </result>
@@ -519,28 +519,28 @@
       <parameters name="rS" type="Set(DataType)">
         <value collectionType="Set">
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.0"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.6"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.3"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.5"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.6"/>
+            <modelElement href="MainTransformation.repository#_Z0ZukMh1EeuGlfi7NcswBA"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.2"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.2"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.5"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.4"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.4"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.1"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.1"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.3"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#KeyValuePair"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
           </collection>
         </value>
       </parameters>
@@ -548,7 +548,7 @@
     <result>
       <result kind="OUT" name="result" type="CompositeDataType">
         <value>
-          <modelElement href="MainTransformation.resourceenvironment#_q2UjAshrEeuJN8wtq9YZ2g"/>
+          <modelElement href="MainTransformation.repository#_Z0aVoMh1EeuGlfi7NcswBA"/>
         </value>
       </result>
     </result>
@@ -564,28 +564,28 @@
       <parameters name="rS" type="Set(DataType)">
         <value collectionType="Set">
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.0"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.6"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.3"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.5"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.6"/>
+            <modelElement href="MainTransformation.repository#_Z0ZukMh1EeuGlfi7NcswBA"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.2"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.2"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.5"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.4"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.4"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.1"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.1"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.3"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#KeyValuePair"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
           </collection>
         </value>
       </parameters>
@@ -593,13 +593,13 @@
     <result>
       <result kind="OUT" name="result" type="DataType">
         <value>
-          <modelElement href="MainTransformation.resourceenvironment#_q2UjAshrEeuJN8wtq9YZ2g"/>
+          <modelElement href="MainTransformation.repository#_Z0aVoMh1EeuGlfi7NcswBA"/>
         </value>
       </result>
     </result>
   </traceRecords>
   <traceRecords>
-    <mappingOperation name="compositeDataTypeMapping" package="MainTransformation" module="MainTransformation"/>
+    <mappingOperation name="collectionDataTypeMapping" package="MainTransformation" module="MainTransformation"/>
     <context>
       <context name="self" type="Type">
         <value primitiveValue="MAP"/>
@@ -609,39 +609,39 @@
       <parameters name="rS" type="Set(DataType)">
         <value collectionType="Set">
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.0"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.6"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.3"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.5"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.6"/>
+            <modelElement href="MainTransformation.repository#_Z0ZukMh1EeuGlfi7NcswBA"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#_q2UjAshrEeuJN8wtq9YZ2g"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.2"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.2"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.4"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.5"/>
+            <modelElement href="MainTransformation.repository#_Z0aVoMh1EeuGlfi7NcswBA"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.4"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.1"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.1"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.3"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#KeyValuePair"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
           </collection>
         </value>
       </parameters>
     </parameters>
     <result>
-      <result kind="OUT" name="result" type="CompositeDataType">
+      <result kind="OUT" name="result" type="CollectionDataType">
         <value>
-          <modelElement href="MainTransformation.resourceenvironment#_q2VxIMhrEeuJN8wtq9YZ2g"/>
+          <modelElement href="MainTransformation.repository#_Z0a8sMh1EeuGlfi7NcswBA"/>
         </value>
       </result>
     </result>
@@ -657,31 +657,31 @@
       <parameters name="rS" type="Set(DataType)">
         <value collectionType="Set">
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.0"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.6"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.3"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.5"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.6"/>
+            <modelElement href="MainTransformation.repository#_Z0ZukMh1EeuGlfi7NcswBA"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#_q2UjAshrEeuJN8wtq9YZ2g"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.2"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.2"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.4"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.5"/>
+            <modelElement href="MainTransformation.repository#_Z0aVoMh1EeuGlfi7NcswBA"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.4"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.1"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.1"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.3"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#KeyValuePair"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
           </collection>
         </value>
       </parameters>
@@ -689,7 +689,7 @@
     <result>
       <result kind="OUT" name="result" type="DataType">
         <value>
-          <modelElement href="MainTransformation.resourceenvironment#_q2VxIMhrEeuJN8wtq9YZ2g"/>
+          <modelElement href="MainTransformation.repository#_Z0a8sMh1EeuGlfi7NcswBA"/>
         </value>
       </result>
     </result>
@@ -705,34 +705,34 @@
       <parameters name="rS" type="Set(DataType)">
         <value collectionType="Set">
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.0"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.6"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.3"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.5"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.6"/>
+            <modelElement href="MainTransformation.repository#_Z0ZukMh1EeuGlfi7NcswBA"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#_q2UjAshrEeuJN8wtq9YZ2g"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.2"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.2"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.4"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#_q2VxIMhrEeuJN8wtq9YZ2g"/>
+            <modelElement href="MainTransformation.repository#_Z0aVoMh1EeuGlfi7NcswBA"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.5"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.1"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.4"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.3"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.1"/>
+            <modelElement href="MainTransformation.repository#_Z0a8sMh1EeuGlfi7NcswBA"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#KeyValuePair"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
           </collection>
         </value>
       </parameters>
@@ -740,7 +740,7 @@
     <result>
       <result kind="OUT" name="result" type="CollectionDataType">
         <value>
-          <modelElement href="MainTransformation.resourceenvironment#_q2VxIshrEeuJN8wtq9YZ2g"/>
+          <modelElement href="MainTransformation.repository#_Z0bjwMh1EeuGlfi7NcswBA"/>
         </value>
       </result>
     </result>
@@ -756,34 +756,34 @@
       <parameters name="rS" type="Set(DataType)">
         <value collectionType="Set">
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.0"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.6"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.3"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.5"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.6"/>
+            <modelElement href="MainTransformation.repository#_Z0ZukMh1EeuGlfi7NcswBA"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#_q2UjAshrEeuJN8wtq9YZ2g"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.2"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.2"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.4"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#_q2VxIMhrEeuJN8wtq9YZ2g"/>
+            <modelElement href="MainTransformation.repository#_Z0aVoMh1EeuGlfi7NcswBA"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.5"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.1"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.4"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.3"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#/1/@dataTypes__Repository.1"/>
+            <modelElement href="MainTransformation.repository#_Z0a8sMh1EeuGlfi7NcswBA"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.resourceenvironment#KeyValuePair"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
           </collection>
         </value>
       </parameters>
@@ -791,7 +791,7 @@
     <result>
       <result kind="OUT" name="result" type="DataType">
         <value>
-          <modelElement href="MainTransformation.resourceenvironment#_q2VxIshrEeuJN8wtq9YZ2g"/>
+          <modelElement href="MainTransformation.repository#_Z0bjwMh1EeuGlfi7NcswBA"/>
         </value>
       </result>
     </result>
@@ -809,7 +809,7 @@
     <result>
       <result kind="OUT" name="result" type="System">
         <value>
-          <modelElement href="MainTransformation.resourceenvironment#Sys"/>
+          <modelElement href="MainTransformation.system#Sys"/>
         </value>
       </result>
     </result>
@@ -827,25 +827,7 @@
     <result>
       <result kind="OUT" name="result" type="AssemblyContext">
         <value>
-          <modelElement href="MainTransformation.resourceenvironment#WebGUIAC"/>
-        </value>
-      </result>
-    </result>
-  </traceRecords>
-  <traceRecords>
-    <mappingOperation name="assemblyContextMapping" package="MainTransformation" module="MainTransformation"/>
-    <context>
-      <context name="self" type="AssemblyContext">
-        <value>
-          <modelElement href="../mediastore.assemblyviewpoint#MediaStoreAC"/>
-        </value>
-      </context>
-    </context>
-    <parameters/>
-    <result>
-      <result kind="OUT" name="result" type="AssemblyContext">
-        <value>
-          <modelElement href="MainTransformation.resourceenvironment#MediaStoreAC"/>
+          <modelElement href="MainTransformation.system#WebGUIAC"/>
         </value>
       </result>
     </result>
@@ -863,7 +845,25 @@
     <result>
       <result kind="OUT" name="result" type="AssemblyContext">
         <value>
-          <modelElement href="MainTransformation.resourceenvironment#PoolingAudioDBAC"/>
+          <modelElement href="MainTransformation.system#PoolingAudioDBAC"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="assemblyContextMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="AssemblyContext">
+        <value>
+          <modelElement href="../mediastore.assemblyviewpoint#MediaStoreAC"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="AssemblyContext">
+        <value>
+          <modelElement href="MainTransformation.system#MediaStoreAC"/>
         </value>
       </result>
     </result>
@@ -881,7 +881,7 @@
     <result>
       <result kind="OUT" name="result" type="Allocation">
         <value>
-          <modelElement href="MainTransformation.resourceenvironment#_q2W_QshrEeuJN8wtq9YZ2g"/>
+          <modelElement href="MainTransformation.allocation#_Z0fOIMh1EeuGlfi7NcswBA"/>
         </value>
       </result>
     </result>
@@ -899,7 +899,7 @@
     <result>
       <result kind="OUT" name="result" type="AllocationContext">
         <value>
-          <modelElement href="MainTransformation.resourceenvironment#_q2W_Q8hrEeuJN8wtq9YZ2g"/>
+          <modelElement href="MainTransformation.allocation#_Z0f1MMh1EeuGlfi7NcswBA"/>
         </value>
       </result>
     </result>
@@ -917,7 +917,7 @@
     <result>
       <result kind="OUT" name="result" type="AllocationContext">
         <value>
-          <modelElement href="MainTransformation.resourceenvironment#_q2W_RMhrEeuJN8wtq9YZ2g"/>
+          <modelElement href="MainTransformation.allocation#_Z0f1Mch1EeuGlfi7NcswBA"/>
         </value>
       </result>
     </result>
@@ -935,7 +935,7 @@
     <result>
       <result kind="OUT" name="result" type="AllocationContext">
         <value>
-          <modelElement href="MainTransformation.resourceenvironment#_q2XmUMhrEeuJN8wtq9YZ2g"/>
+          <modelElement href="MainTransformation.allocation#_Z0f1Msh1EeuGlfi7NcswBA"/>
         </value>
       </result>
     </result>

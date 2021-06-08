@@ -1,2 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"/>
+<repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xsi:schemaLocation="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2 http://palladiosimulator.org/PalladioComponentModel/5.2#//repository" id="Repository" entityName="Repository" repositoryDescription="Description">
+  <dataTypes__Repository xsi:type="repository:PrimitiveDataType" type="BOOL"/>
+  <dataTypes__Repository xsi:type="repository:PrimitiveDataType" type="CHAR"/>
+  <dataTypes__Repository xsi:type="repository:PrimitiveDataType"/>
+  <dataTypes__Repository xsi:type="repository:PrimitiveDataType" type="LONG"/>
+  <dataTypes__Repository xsi:type="repository:PrimitiveDataType" type="DOUBLE"/>
+  <dataTypes__Repository xsi:type="repository:PrimitiveDataType" type="DOUBLE"/>
+  <dataTypes__Repository xsi:type="repository:PrimitiveDataType" type="STRING"/>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_Z0ZukMh1EeuGlfi7NcswBA" entityName="KeyValuePair">
+    <innerDeclaration_CompositeDataType entityName="KEY" datatype_InnerDeclaration="//@dataTypes__Repository.3"/>
+    <innerDeclaration_CompositeDataType entityName="VALUE" datatype_InnerDeclaration="//@dataTypes__Repository.6"/>
+  </dataTypes__Repository>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_Z0aVoMh1EeuGlfi7NcswBA" entityName="DATE">
+    <innerDeclaration_CompositeDataType entityName="UnixEpochTime" datatype_InnerDeclaration="//@dataTypes__Repository.3"/>
+  </dataTypes__Repository>
+  <dataTypes__Repository xsi:type="repository:CollectionDataType" id="_Z0a8sMh1EeuGlfi7NcswBA" entityName="MAP" innerType_CollectionDataType="_Z0ZukMh1EeuGlfi7NcswBA"/>
+  <dataTypes__Repository xsi:type="repository:CollectionDataType" id="_Z0bjwMh1EeuGlfi7NcswBA" entityName="LIST" innerType_CollectionDataType="//@dataTypes__Repository.6"/>
+</repository:Repository>
