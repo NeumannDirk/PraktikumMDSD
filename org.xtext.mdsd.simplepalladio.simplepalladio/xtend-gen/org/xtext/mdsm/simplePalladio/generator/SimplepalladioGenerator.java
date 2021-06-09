@@ -3,10 +3,25 @@
  */
 package org.xtext.mdsm.simplePalladio.generator;
 
+import com.google.inject.Inject;
+import org.eclipse.emf.common.util.EList;
+import org.eclipse.emf.common.util.URI;
+import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.ecore.resource.Resource;
 import org.eclipse.xtext.generator.AbstractGenerator;
 import org.eclipse.xtext.generator.IFileSystemAccess2;
 import org.eclipse.xtext.generator.IGeneratorContext;
+import org.eclipse.xtext.resource.FileExtensionProvider;
+import org.eclipse.xtext.resource.XtextResourceSet;
+import org.eclipse.xtext.xbase.lib.CollectionLiterals;
+import org.eclipse.xtext.xbase.lib.Exceptions;
+import org.eclipse.xtext.xbase.lib.Extension;
+import org.eclipse.xtext.xbase.lib.IterableExtensions;
+import org.xtext.mdsm.simplePalladio.simplepalladio.Model;
+import simplePalladio.AssemblyViewPoint.AssemblyViewType;
+import simplePalladio.DeploymentViewPoint.AllocationViewType;
+import simplePalladio.DeploymentViewPoint.EnvironmentViewType;
+import simplePalladio.SystemIndependentViewPoint.RepositoryViewType;
 
 /**
  * Generates code from your model files on save.
@@ -15,7 +30,121 @@ import org.eclipse.xtext.generator.IGeneratorContext;
  */
 @SuppressWarnings("all")
 public class SimplepalladioGenerator extends AbstractGenerator {
+  @Inject
+  @Extension
+  private FileExtensionProvider _fileExtensionProvider;
+  
   @Override
   public void doGenerate(final Resource resource, final IFileSystemAccess2 fsa, final IGeneratorContext context) {
+    EObject _head = IterableExtensions.<EObject>head(resource.getContents());
+    this.serialize(resource, ((Model) _head));
+  }
+  
+  private void serialize(final Resource resource, final Model model) {
+    this.serialize(this.toOutputURIRepVT(resource), model.getRepositoryViewType(), model.getRepositoryViewType2());
+    this.serialize(this.toOutputURIAssVT(resource), model.getAssemblyViewType(), model.getAssemblyViewType2());
+    this.serialize(this.toOutputURIEnvVT(resource), model.getEnvironmentViewType());
+    this.serialize(this.toOutputURIAllVT(resource), model.getAllocationViewType());
+  }
+  
+  private void serialize(final URI outputURI, final AllocationViewType allocation) {
+    try {
+      final Resource resource = new XtextResourceSet().createResource(outputURI);
+      EList<EObject> _contents = resource.getContents();
+      _contents.add(allocation);
+      resource.save(CollectionLiterals.<Object, Object>newHashMap());
+    } catch (Throwable _e) {
+      throw Exceptions.sneakyThrow(_e);
+    }
+  }
+  
+  private URI toOutputURIAllVT(final Resource input) {
+    URI _xblockexpression = null;
+    {
+      final URI inputUri = input.getURI();
+      System.out.print(inputUri);
+      final String inputPath = inputUri.toPlatformString(true);
+      String _primaryFileExtension = this._fileExtensionProvider.getPrimaryFileExtension();
+      String _plus = ("." + _primaryFileExtension);
+      final String outputPath = inputPath.replace(_plus, "_allocation.deploymentviewpoint");
+      _xblockexpression = URI.createPlatformResourceURI(outputPath, true);
+    }
+    return _xblockexpression;
+  }
+  
+  private void serialize(final URI outputURI, final AssemblyViewType assembly1, final AssemblyViewType assembly2) {
+    try {
+      final Resource resource = new XtextResourceSet().createResource(outputURI);
+      EList<EObject> _contents = resource.getContents();
+      _contents.add(assembly1);
+      EList<EObject> _contents_1 = resource.getContents();
+      _contents_1.add(assembly2);
+      resource.save(CollectionLiterals.<Object, Object>newHashMap());
+    } catch (Throwable _e) {
+      throw Exceptions.sneakyThrow(_e);
+    }
+  }
+  
+  private URI toOutputURIAssVT(final Resource input) {
+    URI _xblockexpression = null;
+    {
+      final URI inputUri = input.getURI();
+      final String inputPath = inputUri.toPlatformString(true);
+      String _primaryFileExtension = this._fileExtensionProvider.getPrimaryFileExtension();
+      String _plus = ("." + _primaryFileExtension);
+      final String outputPath = inputPath.replace(_plus, ".assemblyviewpoint");
+      _xblockexpression = URI.createPlatformResourceURI(outputPath, true);
+    }
+    return _xblockexpression;
+  }
+  
+  private void serialize(final URI outputURI, final EnvironmentViewType environment) {
+    try {
+      final Resource resource = new XtextResourceSet().createResource(outputURI);
+      EList<EObject> _contents = resource.getContents();
+      _contents.add(environment);
+      resource.save(CollectionLiterals.<Object, Object>newHashMap());
+    } catch (Throwable _e) {
+      throw Exceptions.sneakyThrow(_e);
+    }
+  }
+  
+  private URI toOutputURIEnvVT(final Resource input) {
+    URI _xblockexpression = null;
+    {
+      final URI inputUri = input.getURI();
+      final String inputPath = inputUri.toPlatformString(true);
+      String _primaryFileExtension = this._fileExtensionProvider.getPrimaryFileExtension();
+      String _plus = ("." + _primaryFileExtension);
+      final String outputPath = inputPath.replace(_plus, "_environment.deploymentviewpoint");
+      _xblockexpression = URI.createPlatformResourceURI(outputPath, true);
+    }
+    return _xblockexpression;
+  }
+  
+  private void serialize(final URI outputURI, final RepositoryViewType repository1, final RepositoryViewType repository2) {
+    try {
+      final Resource resource = new XtextResourceSet().createResource(outputURI);
+      EList<EObject> _contents = resource.getContents();
+      _contents.add(repository1);
+      EList<EObject> _contents_1 = resource.getContents();
+      _contents_1.add(repository2);
+      resource.save(CollectionLiterals.<Object, Object>newHashMap());
+    } catch (Throwable _e) {
+      throw Exceptions.sneakyThrow(_e);
+    }
+  }
+  
+  private URI toOutputURIRepVT(final Resource input) {
+    URI _xblockexpression = null;
+    {
+      final URI inputUri = input.getURI();
+      final String inputPath = inputUri.toPlatformString(true);
+      String _primaryFileExtension = this._fileExtensionProvider.getPrimaryFileExtension();
+      String _plus = ("." + _primaryFileExtension);
+      final String outputPath = inputPath.replace(_plus, ".systemindependentviewpoint");
+      _xblockexpression = URI.createPlatformResourceURI(outputPath, true);
+    }
+    return _xblockexpression;
   }
 }

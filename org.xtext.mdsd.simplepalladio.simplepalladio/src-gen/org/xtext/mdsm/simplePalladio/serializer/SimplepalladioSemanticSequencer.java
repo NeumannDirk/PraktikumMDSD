@@ -182,18 +182,21 @@ public class SimplepalladioSemanticSequencer extends AbstractDelegatingSemanticS
 	 *     AssemblyConnector returns AssemblyConnector
 	 *
 	 * Constraint:
-	 *     (providedRole=[Role|EString] requiredRole=[Role|EString])
+	 *     (name=EString providedRole=[Role|EString] requiredRole=[Role|EString])
 	 */
 	protected void sequence_AssemblyConnector(ISerializationContext context, AssemblyConnector semanticObject) {
 		if (errorAcceptor != null) {
+			if (transientValues.isValueTransient(semanticObject, CommonPackage.Literals.NAMED_ELEMENT__NAME) == ValueTransient.YES)
+				errorAcceptor.accept(diagnosticProvider.createFeatureValueMissing(semanticObject, CommonPackage.Literals.NAMED_ELEMENT__NAME));
 			if (transientValues.isValueTransient(semanticObject, AssemblyViewPointPackage.Literals.ASSEMBLY_CONNECTOR__PROVIDED_ROLE) == ValueTransient.YES)
 				errorAcceptor.accept(diagnosticProvider.createFeatureValueMissing(semanticObject, AssemblyViewPointPackage.Literals.ASSEMBLY_CONNECTOR__PROVIDED_ROLE));
 			if (transientValues.isValueTransient(semanticObject, AssemblyViewPointPackage.Literals.ASSEMBLY_CONNECTOR__REQUIRED_ROLE) == ValueTransient.YES)
 				errorAcceptor.accept(diagnosticProvider.createFeatureValueMissing(semanticObject, AssemblyViewPointPackage.Literals.ASSEMBLY_CONNECTOR__REQUIRED_ROLE));
 		}
 		SequenceFeeder feeder = createSequencerFeeder(context, semanticObject);
-		feeder.accept(grammarAccess.getAssemblyConnectorAccess().getProvidedRoleRoleEStringParserRuleCall_3_0_1(), semanticObject.eGet(AssemblyViewPointPackage.Literals.ASSEMBLY_CONNECTOR__PROVIDED_ROLE, false));
-		feeder.accept(grammarAccess.getAssemblyConnectorAccess().getRequiredRoleRoleEStringParserRuleCall_5_0_1(), semanticObject.eGet(AssemblyViewPointPackage.Literals.ASSEMBLY_CONNECTOR__REQUIRED_ROLE, false));
+		feeder.accept(grammarAccess.getAssemblyConnectorAccess().getNameEStringParserRuleCall_1_0(), semanticObject.getName());
+		feeder.accept(grammarAccess.getAssemblyConnectorAccess().getProvidedRoleRoleEStringParserRuleCall_4_0_1(), semanticObject.eGet(AssemblyViewPointPackage.Literals.ASSEMBLY_CONNECTOR__PROVIDED_ROLE, false));
+		feeder.accept(grammarAccess.getAssemblyConnectorAccess().getRequiredRoleRoleEStringParserRuleCall_6_0_1(), semanticObject.eGet(AssemblyViewPointPackage.Literals.ASSEMBLY_CONNECTOR__REQUIRED_ROLE, false));
 		feeder.finish();
 	}
 	
@@ -322,18 +325,21 @@ public class SimplepalladioSemanticSequencer extends AbstractDelegatingSemanticS
 	 *     DelegationConnector returns DelegationConnector
 	 *
 	 * Constraint:
-	 *     (role=[Role|EString] interface=[Interface|EString])
+	 *     (name=EString role=[Role|EString] interface=[Interface|EString])
 	 */
 	protected void sequence_DelegationConnector(ISerializationContext context, DelegationConnector semanticObject) {
 		if (errorAcceptor != null) {
+			if (transientValues.isValueTransient(semanticObject, CommonPackage.Literals.NAMED_ELEMENT__NAME) == ValueTransient.YES)
+				errorAcceptor.accept(diagnosticProvider.createFeatureValueMissing(semanticObject, CommonPackage.Literals.NAMED_ELEMENT__NAME));
 			if (transientValues.isValueTransient(semanticObject, AssemblyViewPointPackage.Literals.DELEGATION_CONNECTOR__ROLE) == ValueTransient.YES)
 				errorAcceptor.accept(diagnosticProvider.createFeatureValueMissing(semanticObject, AssemblyViewPointPackage.Literals.DELEGATION_CONNECTOR__ROLE));
 			if (transientValues.isValueTransient(semanticObject, AssemblyViewPointPackage.Literals.DELEGATION_CONNECTOR__INTERFACE) == ValueTransient.YES)
 				errorAcceptor.accept(diagnosticProvider.createFeatureValueMissing(semanticObject, AssemblyViewPointPackage.Literals.DELEGATION_CONNECTOR__INTERFACE));
 		}
 		SequenceFeeder feeder = createSequencerFeeder(context, semanticObject);
-		feeder.accept(grammarAccess.getDelegationConnectorAccess().getRoleRoleEStringParserRuleCall_3_0_1(), semanticObject.eGet(AssemblyViewPointPackage.Literals.DELEGATION_CONNECTOR__ROLE, false));
-		feeder.accept(grammarAccess.getDelegationConnectorAccess().getInterfaceInterfaceEStringParserRuleCall_5_0_1(), semanticObject.eGet(AssemblyViewPointPackage.Literals.DELEGATION_CONNECTOR__INTERFACE, false));
+		feeder.accept(grammarAccess.getDelegationConnectorAccess().getNameEStringParserRuleCall_1_0(), semanticObject.getName());
+		feeder.accept(grammarAccess.getDelegationConnectorAccess().getRoleRoleEStringParserRuleCall_4_0_1(), semanticObject.eGet(AssemblyViewPointPackage.Literals.DELEGATION_CONNECTOR__ROLE, false));
+		feeder.accept(grammarAccess.getDelegationConnectorAccess().getInterfaceInterfaceEStringParserRuleCall_6_0_1(), semanticObject.eGet(AssemblyViewPointPackage.Literals.DELEGATION_CONNECTOR__INTERFACE, false));
 		feeder.finish();
 	}
 	
@@ -429,27 +435,14 @@ public class SimplepalladioSemanticSequencer extends AbstractDelegatingSemanticS
 	 *     (
 	 *         repositoryViewType=RepositoryViewType 
 	 *         assemblyViewType=AssemblyViewType 
+	 *         repositoryViewType2=RepositoryViewType? 
+	 *         assemblyViewType2=AssemblyViewType? 
 	 *         environmentViewType=EnvironmentViewType 
 	 *         allocationViewType=AllocationViewType
 	 *     )
 	 */
 	protected void sequence_Model(ISerializationContext context, Model semanticObject) {
-		if (errorAcceptor != null) {
-			if (transientValues.isValueTransient(semanticObject, SimplepalladioPackage.Literals.MODEL__REPOSITORY_VIEW_TYPE) == ValueTransient.YES)
-				errorAcceptor.accept(diagnosticProvider.createFeatureValueMissing(semanticObject, SimplepalladioPackage.Literals.MODEL__REPOSITORY_VIEW_TYPE));
-			if (transientValues.isValueTransient(semanticObject, SimplepalladioPackage.Literals.MODEL__ASSEMBLY_VIEW_TYPE) == ValueTransient.YES)
-				errorAcceptor.accept(diagnosticProvider.createFeatureValueMissing(semanticObject, SimplepalladioPackage.Literals.MODEL__ASSEMBLY_VIEW_TYPE));
-			if (transientValues.isValueTransient(semanticObject, SimplepalladioPackage.Literals.MODEL__ENVIRONMENT_VIEW_TYPE) == ValueTransient.YES)
-				errorAcceptor.accept(diagnosticProvider.createFeatureValueMissing(semanticObject, SimplepalladioPackage.Literals.MODEL__ENVIRONMENT_VIEW_TYPE));
-			if (transientValues.isValueTransient(semanticObject, SimplepalladioPackage.Literals.MODEL__ALLOCATION_VIEW_TYPE) == ValueTransient.YES)
-				errorAcceptor.accept(diagnosticProvider.createFeatureValueMissing(semanticObject, SimplepalladioPackage.Literals.MODEL__ALLOCATION_VIEW_TYPE));
-		}
-		SequenceFeeder feeder = createSequencerFeeder(context, semanticObject);
-		feeder.accept(grammarAccess.getModelAccess().getRepositoryViewTypeRepositoryViewTypeParserRuleCall_1_0(), semanticObject.getRepositoryViewType());
-		feeder.accept(grammarAccess.getModelAccess().getAssemblyViewTypeAssemblyViewTypeParserRuleCall_2_0(), semanticObject.getAssemblyViewType());
-		feeder.accept(grammarAccess.getModelAccess().getEnvironmentViewTypeEnvironmentViewTypeParserRuleCall_3_0(), semanticObject.getEnvironmentViewType());
-		feeder.accept(grammarAccess.getModelAccess().getAllocationViewTypeAllocationViewTypeParserRuleCall_4_0(), semanticObject.getAllocationViewType());
-		feeder.finish();
+		genericSequencer.createSequence(context, semanticObject);
 	}
 	
 	

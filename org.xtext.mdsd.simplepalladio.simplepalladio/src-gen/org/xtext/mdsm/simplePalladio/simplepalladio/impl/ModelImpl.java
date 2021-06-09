@@ -32,6 +32,8 @@ import simplePalladio.SystemIndependentViewPoint.RepositoryViewType;
  * <ul>
  *   <li>{@link org.xtext.mdsm.simplePalladio.simplepalladio.impl.ModelImpl#getRepositoryViewType <em>Repository View Type</em>}</li>
  *   <li>{@link org.xtext.mdsm.simplePalladio.simplepalladio.impl.ModelImpl#getAssemblyViewType <em>Assembly View Type</em>}</li>
+ *   <li>{@link org.xtext.mdsm.simplePalladio.simplepalladio.impl.ModelImpl#getRepositoryViewType2 <em>Repository View Type2</em>}</li>
+ *   <li>{@link org.xtext.mdsm.simplePalladio.simplepalladio.impl.ModelImpl#getAssemblyViewType2 <em>Assembly View Type2</em>}</li>
  *   <li>{@link org.xtext.mdsm.simplePalladio.simplepalladio.impl.ModelImpl#getEnvironmentViewType <em>Environment View Type</em>}</li>
  *   <li>{@link org.xtext.mdsm.simplePalladio.simplepalladio.impl.ModelImpl#getAllocationViewType <em>Allocation View Type</em>}</li>
  * </ul>
@@ -59,6 +61,26 @@ public class ModelImpl extends MinimalEObjectImpl.Container implements Model
    * @ordered
    */
   protected AssemblyViewType assemblyViewType;
+
+  /**
+   * The cached value of the '{@link #getRepositoryViewType2() <em>Repository View Type2</em>}' containment reference.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @see #getRepositoryViewType2()
+   * @generated
+   * @ordered
+   */
+  protected RepositoryViewType repositoryViewType2;
+
+  /**
+   * The cached value of the '{@link #getAssemblyViewType2() <em>Assembly View Type2</em>}' containment reference.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @see #getAssemblyViewType2()
+   * @generated
+   * @ordered
+   */
+  protected AssemblyViewType assemblyViewType2;
 
   /**
    * The cached value of the '{@link #getEnvironmentViewType() <em>Environment View Type</em>}' containment reference.
@@ -207,6 +229,106 @@ public class ModelImpl extends MinimalEObjectImpl.Container implements Model
    * @generated
    */
   @Override
+  public RepositoryViewType getRepositoryViewType2()
+  {
+    return repositoryViewType2;
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  public NotificationChain basicSetRepositoryViewType2(RepositoryViewType newRepositoryViewType2, NotificationChain msgs)
+  {
+    RepositoryViewType oldRepositoryViewType2 = repositoryViewType2;
+    repositoryViewType2 = newRepositoryViewType2;
+    if (eNotificationRequired())
+    {
+      ENotificationImpl notification = new ENotificationImpl(this, Notification.SET, SimplepalladioPackage.MODEL__REPOSITORY_VIEW_TYPE2, oldRepositoryViewType2, newRepositoryViewType2);
+      if (msgs == null) msgs = notification; else msgs.add(notification);
+    }
+    return msgs;
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
+  public void setRepositoryViewType2(RepositoryViewType newRepositoryViewType2)
+  {
+    if (newRepositoryViewType2 != repositoryViewType2)
+    {
+      NotificationChain msgs = null;
+      if (repositoryViewType2 != null)
+        msgs = ((InternalEObject)repositoryViewType2).eInverseRemove(this, EOPPOSITE_FEATURE_BASE - SimplepalladioPackage.MODEL__REPOSITORY_VIEW_TYPE2, null, msgs);
+      if (newRepositoryViewType2 != null)
+        msgs = ((InternalEObject)newRepositoryViewType2).eInverseAdd(this, EOPPOSITE_FEATURE_BASE - SimplepalladioPackage.MODEL__REPOSITORY_VIEW_TYPE2, null, msgs);
+      msgs = basicSetRepositoryViewType2(newRepositoryViewType2, msgs);
+      if (msgs != null) msgs.dispatch();
+    }
+    else if (eNotificationRequired())
+      eNotify(new ENotificationImpl(this, Notification.SET, SimplepalladioPackage.MODEL__REPOSITORY_VIEW_TYPE2, newRepositoryViewType2, newRepositoryViewType2));
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
+  public AssemblyViewType getAssemblyViewType2()
+  {
+    return assemblyViewType2;
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  public NotificationChain basicSetAssemblyViewType2(AssemblyViewType newAssemblyViewType2, NotificationChain msgs)
+  {
+    AssemblyViewType oldAssemblyViewType2 = assemblyViewType2;
+    assemblyViewType2 = newAssemblyViewType2;
+    if (eNotificationRequired())
+    {
+      ENotificationImpl notification = new ENotificationImpl(this, Notification.SET, SimplepalladioPackage.MODEL__ASSEMBLY_VIEW_TYPE2, oldAssemblyViewType2, newAssemblyViewType2);
+      if (msgs == null) msgs = notification; else msgs.add(notification);
+    }
+    return msgs;
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
+  public void setAssemblyViewType2(AssemblyViewType newAssemblyViewType2)
+  {
+    if (newAssemblyViewType2 != assemblyViewType2)
+    {
+      NotificationChain msgs = null;
+      if (assemblyViewType2 != null)
+        msgs = ((InternalEObject)assemblyViewType2).eInverseRemove(this, EOPPOSITE_FEATURE_BASE - SimplepalladioPackage.MODEL__ASSEMBLY_VIEW_TYPE2, null, msgs);
+      if (newAssemblyViewType2 != null)
+        msgs = ((InternalEObject)newAssemblyViewType2).eInverseAdd(this, EOPPOSITE_FEATURE_BASE - SimplepalladioPackage.MODEL__ASSEMBLY_VIEW_TYPE2, null, msgs);
+      msgs = basicSetAssemblyViewType2(newAssemblyViewType2, msgs);
+      if (msgs != null) msgs.dispatch();
+    }
+    else if (eNotificationRequired())
+      eNotify(new ENotificationImpl(this, Notification.SET, SimplepalladioPackage.MODEL__ASSEMBLY_VIEW_TYPE2, newAssemblyViewType2, newAssemblyViewType2));
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
   public EnvironmentViewType getEnvironmentViewType()
   {
     return environmentViewType;
@@ -315,6 +437,10 @@ public class ModelImpl extends MinimalEObjectImpl.Container implements Model
         return basicSetRepositoryViewType(null, msgs);
       case SimplepalladioPackage.MODEL__ASSEMBLY_VIEW_TYPE:
         return basicSetAssemblyViewType(null, msgs);
+      case SimplepalladioPackage.MODEL__REPOSITORY_VIEW_TYPE2:
+        return basicSetRepositoryViewType2(null, msgs);
+      case SimplepalladioPackage.MODEL__ASSEMBLY_VIEW_TYPE2:
+        return basicSetAssemblyViewType2(null, msgs);
       case SimplepalladioPackage.MODEL__ENVIRONMENT_VIEW_TYPE:
         return basicSetEnvironmentViewType(null, msgs);
       case SimplepalladioPackage.MODEL__ALLOCATION_VIEW_TYPE:
@@ -337,6 +463,10 @@ public class ModelImpl extends MinimalEObjectImpl.Container implements Model
         return getRepositoryViewType();
       case SimplepalladioPackage.MODEL__ASSEMBLY_VIEW_TYPE:
         return getAssemblyViewType();
+      case SimplepalladioPackage.MODEL__REPOSITORY_VIEW_TYPE2:
+        return getRepositoryViewType2();
+      case SimplepalladioPackage.MODEL__ASSEMBLY_VIEW_TYPE2:
+        return getAssemblyViewType2();
       case SimplepalladioPackage.MODEL__ENVIRONMENT_VIEW_TYPE:
         return getEnvironmentViewType();
       case SimplepalladioPackage.MODEL__ALLOCATION_VIEW_TYPE:
@@ -360,6 +490,12 @@ public class ModelImpl extends MinimalEObjectImpl.Container implements Model
         return;
       case SimplepalladioPackage.MODEL__ASSEMBLY_VIEW_TYPE:
         setAssemblyViewType((AssemblyViewType)newValue);
+        return;
+      case SimplepalladioPackage.MODEL__REPOSITORY_VIEW_TYPE2:
+        setRepositoryViewType2((RepositoryViewType)newValue);
+        return;
+      case SimplepalladioPackage.MODEL__ASSEMBLY_VIEW_TYPE2:
+        setAssemblyViewType2((AssemblyViewType)newValue);
         return;
       case SimplepalladioPackage.MODEL__ENVIRONMENT_VIEW_TYPE:
         setEnvironmentViewType((EnvironmentViewType)newValue);
@@ -387,6 +523,12 @@ public class ModelImpl extends MinimalEObjectImpl.Container implements Model
       case SimplepalladioPackage.MODEL__ASSEMBLY_VIEW_TYPE:
         setAssemblyViewType((AssemblyViewType)null);
         return;
+      case SimplepalladioPackage.MODEL__REPOSITORY_VIEW_TYPE2:
+        setRepositoryViewType2((RepositoryViewType)null);
+        return;
+      case SimplepalladioPackage.MODEL__ASSEMBLY_VIEW_TYPE2:
+        setAssemblyViewType2((AssemblyViewType)null);
+        return;
       case SimplepalladioPackage.MODEL__ENVIRONMENT_VIEW_TYPE:
         setEnvironmentViewType((EnvironmentViewType)null);
         return;
@@ -411,6 +553,10 @@ public class ModelImpl extends MinimalEObjectImpl.Container implements Model
         return repositoryViewType != null;
       case SimplepalladioPackage.MODEL__ASSEMBLY_VIEW_TYPE:
         return assemblyViewType != null;
+      case SimplepalladioPackage.MODEL__REPOSITORY_VIEW_TYPE2:
+        return repositoryViewType2 != null;
+      case SimplepalladioPackage.MODEL__ASSEMBLY_VIEW_TYPE2:
+        return assemblyViewType2 != null;
       case SimplepalladioPackage.MODEL__ENVIRONMENT_VIEW_TYPE:
         return environmentViewType != null;
       case SimplepalladioPackage.MODEL__ALLOCATION_VIEW_TYPE:

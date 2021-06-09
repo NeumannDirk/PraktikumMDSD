@@ -34,16 +34,22 @@ public class SimplepalladioGrammarAccess extends AbstractElementFinder.AbstractG
 		private final RuleCall cRepositoryViewTypeRepositoryViewTypeParserRuleCall_1_0 = (RuleCall)cRepositoryViewTypeAssignment_1.eContents().get(0);
 		private final Assignment cAssemblyViewTypeAssignment_2 = (Assignment)cGroup.eContents().get(2);
 		private final RuleCall cAssemblyViewTypeAssemblyViewTypeParserRuleCall_2_0 = (RuleCall)cAssemblyViewTypeAssignment_2.eContents().get(0);
-		private final Assignment cEnvironmentViewTypeAssignment_3 = (Assignment)cGroup.eContents().get(3);
-		private final RuleCall cEnvironmentViewTypeEnvironmentViewTypeParserRuleCall_3_0 = (RuleCall)cEnvironmentViewTypeAssignment_3.eContents().get(0);
-		private final Assignment cAllocationViewTypeAssignment_4 = (Assignment)cGroup.eContents().get(4);
-		private final RuleCall cAllocationViewTypeAllocationViewTypeParserRuleCall_4_0 = (RuleCall)cAllocationViewTypeAssignment_4.eContents().get(0);
-		private final Keyword cRightCurlyBracketKeyword_5 = (Keyword)cGroup.eContents().get(5);
+		private final Assignment cRepositoryViewType2Assignment_3 = (Assignment)cGroup.eContents().get(3);
+		private final RuleCall cRepositoryViewType2RepositoryViewTypeParserRuleCall_3_0 = (RuleCall)cRepositoryViewType2Assignment_3.eContents().get(0);
+		private final Assignment cAssemblyViewType2Assignment_4 = (Assignment)cGroup.eContents().get(4);
+		private final RuleCall cAssemblyViewType2AssemblyViewTypeParserRuleCall_4_0 = (RuleCall)cAssemblyViewType2Assignment_4.eContents().get(0);
+		private final Assignment cEnvironmentViewTypeAssignment_5 = (Assignment)cGroup.eContents().get(5);
+		private final RuleCall cEnvironmentViewTypeEnvironmentViewTypeParserRuleCall_5_0 = (RuleCall)cEnvironmentViewTypeAssignment_5.eContents().get(0);
+		private final Assignment cAllocationViewTypeAssignment_6 = (Assignment)cGroup.eContents().get(6);
+		private final RuleCall cAllocationViewTypeAllocationViewTypeParserRuleCall_6_0 = (RuleCall)cAllocationViewTypeAssignment_6.eContents().get(0);
+		private final Keyword cRightCurlyBracketKeyword_7 = (Keyword)cGroup.eContents().get(7);
 		
 		//Model:
 		//	'{'
 		//	repositoryViewType=RepositoryViewType
 		//	assemblyViewType=AssemblyViewType
+		//	repositoryViewType2=RepositoryViewType?
+		//	assemblyViewType2=AssemblyViewType?
 		//	environmentViewType=EnvironmentViewType
 		//	allocationViewType=AllocationViewType
 		//	'}';
@@ -52,6 +58,8 @@ public class SimplepalladioGrammarAccess extends AbstractElementFinder.AbstractG
 		//'{'
 		//repositoryViewType=RepositoryViewType
 		//assemblyViewType=AssemblyViewType
+		//repositoryViewType2=RepositoryViewType?
+		//assemblyViewType2=AssemblyViewType?
 		//environmentViewType=EnvironmentViewType
 		//allocationViewType=AllocationViewType
 		//'}'
@@ -72,20 +80,32 @@ public class SimplepalladioGrammarAccess extends AbstractElementFinder.AbstractG
 		//AssemblyViewType
 		public RuleCall getAssemblyViewTypeAssemblyViewTypeParserRuleCall_2_0() { return cAssemblyViewTypeAssemblyViewTypeParserRuleCall_2_0; }
 		
+		//repositoryViewType2=RepositoryViewType?
+		public Assignment getRepositoryViewType2Assignment_3() { return cRepositoryViewType2Assignment_3; }
+		
+		//RepositoryViewType
+		public RuleCall getRepositoryViewType2RepositoryViewTypeParserRuleCall_3_0() { return cRepositoryViewType2RepositoryViewTypeParserRuleCall_3_0; }
+		
+		//assemblyViewType2=AssemblyViewType?
+		public Assignment getAssemblyViewType2Assignment_4() { return cAssemblyViewType2Assignment_4; }
+		
+		//AssemblyViewType
+		public RuleCall getAssemblyViewType2AssemblyViewTypeParserRuleCall_4_0() { return cAssemblyViewType2AssemblyViewTypeParserRuleCall_4_0; }
+		
 		//environmentViewType=EnvironmentViewType
-		public Assignment getEnvironmentViewTypeAssignment_3() { return cEnvironmentViewTypeAssignment_3; }
+		public Assignment getEnvironmentViewTypeAssignment_5() { return cEnvironmentViewTypeAssignment_5; }
 		
 		//EnvironmentViewType
-		public RuleCall getEnvironmentViewTypeEnvironmentViewTypeParserRuleCall_3_0() { return cEnvironmentViewTypeEnvironmentViewTypeParserRuleCall_3_0; }
+		public RuleCall getEnvironmentViewTypeEnvironmentViewTypeParserRuleCall_5_0() { return cEnvironmentViewTypeEnvironmentViewTypeParserRuleCall_5_0; }
 		
 		//allocationViewType=AllocationViewType
-		public Assignment getAllocationViewTypeAssignment_4() { return cAllocationViewTypeAssignment_4; }
+		public Assignment getAllocationViewTypeAssignment_6() { return cAllocationViewTypeAssignment_6; }
 		
 		//AllocationViewType
-		public RuleCall getAllocationViewTypeAllocationViewTypeParserRuleCall_4_0() { return cAllocationViewTypeAllocationViewTypeParserRuleCall_4_0; }
+		public RuleCall getAllocationViewTypeAllocationViewTypeParserRuleCall_6_0() { return cAllocationViewTypeAllocationViewTypeParserRuleCall_6_0; }
 		
 		//'}'
-		public Keyword getRightCurlyBracketKeyword_5() { return cRightCurlyBracketKeyword_5; }
+		public Keyword getRightCurlyBracketKeyword_7() { return cRightCurlyBracketKeyword_7; }
 	}
 	public class RepositoryViewTypeElements extends AbstractParserRuleElementFinder {
 		private final ParserRule rule = (ParserRule) GrammarUtil.findRuleForName(getGrammar(), "org.xtext.mdsm.simplePalladio.Simplepalladio.RepositoryViewType");
@@ -1643,26 +1663,28 @@ public class SimplepalladioGrammarAccess extends AbstractElementFinder.AbstractG
 		private final ParserRule rule = (ParserRule) GrammarUtil.findRuleForName(getGrammar(), "org.xtext.mdsm.simplePalladio.Simplepalladio.DelegationConnector");
 		private final Group cGroup = (Group)rule.eContents().get(1);
 		private final Keyword cDelegationConnectorKeyword_0 = (Keyword)cGroup.eContents().get(0);
-		private final Keyword cLeftCurlyBracketKeyword_1 = (Keyword)cGroup.eContents().get(1);
-		private final Keyword cRoleKeyword_2 = (Keyword)cGroup.eContents().get(2);
-		private final Assignment cRoleAssignment_3 = (Assignment)cGroup.eContents().get(3);
-		private final CrossReference cRoleRoleCrossReference_3_0 = (CrossReference)cRoleAssignment_3.eContents().get(0);
-		private final RuleCall cRoleRoleEStringParserRuleCall_3_0_1 = (RuleCall)cRoleRoleCrossReference_3_0.eContents().get(1);
-		private final Keyword cInterfaceKeyword_4 = (Keyword)cGroup.eContents().get(4);
-		private final Assignment cInterfaceAssignment_5 = (Assignment)cGroup.eContents().get(5);
-		private final CrossReference cInterfaceInterfaceCrossReference_5_0 = (CrossReference)cInterfaceAssignment_5.eContents().get(0);
-		private final RuleCall cInterfaceInterfaceEStringParserRuleCall_5_0_1 = (RuleCall)cInterfaceInterfaceCrossReference_5_0.eContents().get(1);
-		private final Keyword cRightCurlyBracketKeyword_6 = (Keyword)cGroup.eContents().get(6);
+		private final Assignment cNameAssignment_1 = (Assignment)cGroup.eContents().get(1);
+		private final RuleCall cNameEStringParserRuleCall_1_0 = (RuleCall)cNameAssignment_1.eContents().get(0);
+		private final Keyword cLeftCurlyBracketKeyword_2 = (Keyword)cGroup.eContents().get(2);
+		private final Keyword cRoleKeyword_3 = (Keyword)cGroup.eContents().get(3);
+		private final Assignment cRoleAssignment_4 = (Assignment)cGroup.eContents().get(4);
+		private final CrossReference cRoleRoleCrossReference_4_0 = (CrossReference)cRoleAssignment_4.eContents().get(0);
+		private final RuleCall cRoleRoleEStringParserRuleCall_4_0_1 = (RuleCall)cRoleRoleCrossReference_4_0.eContents().get(1);
+		private final Keyword cInterfaceKeyword_5 = (Keyword)cGroup.eContents().get(5);
+		private final Assignment cInterfaceAssignment_6 = (Assignment)cGroup.eContents().get(6);
+		private final CrossReference cInterfaceInterfaceCrossReference_6_0 = (CrossReference)cInterfaceAssignment_6.eContents().get(0);
+		private final RuleCall cInterfaceInterfaceEStringParserRuleCall_6_0_1 = (RuleCall)cInterfaceInterfaceCrossReference_6_0.eContents().get(1);
+		private final Keyword cRightCurlyBracketKeyword_7 = (Keyword)cGroup.eContents().get(7);
 		
 		//DelegationConnector AssemblyViewPoint::DelegationConnector:
-		//	'DelegationConnector'
+		//	'DelegationConnector' name=EString
 		//	'{'
 		//	'role' role=[AssemblyViewPoint::Role|EString]
 		//	'interface' interface=[SystemIndependentViewPoint::Interface|EString]
 		//	'}';
 		@Override public ParserRule getRule() { return rule; }
 		
-		//'DelegationConnector'
+		//'DelegationConnector' name=EString
 		//'{'
 		//'role' role=[AssemblyViewPoint::Role|EString]
 		//'interface' interface=[SystemIndependentViewPoint::Interface|EString]
@@ -1672,60 +1694,68 @@ public class SimplepalladioGrammarAccess extends AbstractElementFinder.AbstractG
 		//'DelegationConnector'
 		public Keyword getDelegationConnectorKeyword_0() { return cDelegationConnectorKeyword_0; }
 		
+		//name=EString
+		public Assignment getNameAssignment_1() { return cNameAssignment_1; }
+		
+		//EString
+		public RuleCall getNameEStringParserRuleCall_1_0() { return cNameEStringParserRuleCall_1_0; }
+		
 		//'{'
-		public Keyword getLeftCurlyBracketKeyword_1() { return cLeftCurlyBracketKeyword_1; }
+		public Keyword getLeftCurlyBracketKeyword_2() { return cLeftCurlyBracketKeyword_2; }
 		
 		//'role'
-		public Keyword getRoleKeyword_2() { return cRoleKeyword_2; }
+		public Keyword getRoleKeyword_3() { return cRoleKeyword_3; }
 		
 		//role=[AssemblyViewPoint::Role|EString]
-		public Assignment getRoleAssignment_3() { return cRoleAssignment_3; }
+		public Assignment getRoleAssignment_4() { return cRoleAssignment_4; }
 		
 		//[AssemblyViewPoint::Role|EString]
-		public CrossReference getRoleRoleCrossReference_3_0() { return cRoleRoleCrossReference_3_0; }
+		public CrossReference getRoleRoleCrossReference_4_0() { return cRoleRoleCrossReference_4_0; }
 		
 		//EString
-		public RuleCall getRoleRoleEStringParserRuleCall_3_0_1() { return cRoleRoleEStringParserRuleCall_3_0_1; }
+		public RuleCall getRoleRoleEStringParserRuleCall_4_0_1() { return cRoleRoleEStringParserRuleCall_4_0_1; }
 		
 		//'interface'
-		public Keyword getInterfaceKeyword_4() { return cInterfaceKeyword_4; }
+		public Keyword getInterfaceKeyword_5() { return cInterfaceKeyword_5; }
 		
 		//interface=[SystemIndependentViewPoint::Interface|EString]
-		public Assignment getInterfaceAssignment_5() { return cInterfaceAssignment_5; }
+		public Assignment getInterfaceAssignment_6() { return cInterfaceAssignment_6; }
 		
 		//[SystemIndependentViewPoint::Interface|EString]
-		public CrossReference getInterfaceInterfaceCrossReference_5_0() { return cInterfaceInterfaceCrossReference_5_0; }
+		public CrossReference getInterfaceInterfaceCrossReference_6_0() { return cInterfaceInterfaceCrossReference_6_0; }
 		
 		//EString
-		public RuleCall getInterfaceInterfaceEStringParserRuleCall_5_0_1() { return cInterfaceInterfaceEStringParserRuleCall_5_0_1; }
+		public RuleCall getInterfaceInterfaceEStringParserRuleCall_6_0_1() { return cInterfaceInterfaceEStringParserRuleCall_6_0_1; }
 		
 		//'}'
-		public Keyword getRightCurlyBracketKeyword_6() { return cRightCurlyBracketKeyword_6; }
+		public Keyword getRightCurlyBracketKeyword_7() { return cRightCurlyBracketKeyword_7; }
 	}
 	public class AssemblyConnectorElements extends AbstractParserRuleElementFinder {
 		private final ParserRule rule = (ParserRule) GrammarUtil.findRuleForName(getGrammar(), "org.xtext.mdsm.simplePalladio.Simplepalladio.AssemblyConnector");
 		private final Group cGroup = (Group)rule.eContents().get(1);
 		private final Keyword cAssemblyConnectorKeyword_0 = (Keyword)cGroup.eContents().get(0);
-		private final Keyword cLeftCurlyBracketKeyword_1 = (Keyword)cGroup.eContents().get(1);
-		private final Keyword cProvidedRoleKeyword_2 = (Keyword)cGroup.eContents().get(2);
-		private final Assignment cProvidedRoleAssignment_3 = (Assignment)cGroup.eContents().get(3);
-		private final CrossReference cProvidedRoleRoleCrossReference_3_0 = (CrossReference)cProvidedRoleAssignment_3.eContents().get(0);
-		private final RuleCall cProvidedRoleRoleEStringParserRuleCall_3_0_1 = (RuleCall)cProvidedRoleRoleCrossReference_3_0.eContents().get(1);
-		private final Keyword cRequiredRoleKeyword_4 = (Keyword)cGroup.eContents().get(4);
-		private final Assignment cRequiredRoleAssignment_5 = (Assignment)cGroup.eContents().get(5);
-		private final CrossReference cRequiredRoleRoleCrossReference_5_0 = (CrossReference)cRequiredRoleAssignment_5.eContents().get(0);
-		private final RuleCall cRequiredRoleRoleEStringParserRuleCall_5_0_1 = (RuleCall)cRequiredRoleRoleCrossReference_5_0.eContents().get(1);
-		private final Keyword cRightCurlyBracketKeyword_6 = (Keyword)cGroup.eContents().get(6);
+		private final Assignment cNameAssignment_1 = (Assignment)cGroup.eContents().get(1);
+		private final RuleCall cNameEStringParserRuleCall_1_0 = (RuleCall)cNameAssignment_1.eContents().get(0);
+		private final Keyword cLeftCurlyBracketKeyword_2 = (Keyword)cGroup.eContents().get(2);
+		private final Keyword cProvidedRoleKeyword_3 = (Keyword)cGroup.eContents().get(3);
+		private final Assignment cProvidedRoleAssignment_4 = (Assignment)cGroup.eContents().get(4);
+		private final CrossReference cProvidedRoleRoleCrossReference_4_0 = (CrossReference)cProvidedRoleAssignment_4.eContents().get(0);
+		private final RuleCall cProvidedRoleRoleEStringParserRuleCall_4_0_1 = (RuleCall)cProvidedRoleRoleCrossReference_4_0.eContents().get(1);
+		private final Keyword cRequiredRoleKeyword_5 = (Keyword)cGroup.eContents().get(5);
+		private final Assignment cRequiredRoleAssignment_6 = (Assignment)cGroup.eContents().get(6);
+		private final CrossReference cRequiredRoleRoleCrossReference_6_0 = (CrossReference)cRequiredRoleAssignment_6.eContents().get(0);
+		private final RuleCall cRequiredRoleRoleEStringParserRuleCall_6_0_1 = (RuleCall)cRequiredRoleRoleCrossReference_6_0.eContents().get(1);
+		private final Keyword cRightCurlyBracketKeyword_7 = (Keyword)cGroup.eContents().get(7);
 		
 		//AssemblyConnector AssemblyViewPoint::AssemblyConnector:
-		//	'AssemblyConnector'
+		//	'AssemblyConnector' name=EString
 		//	'{'
 		//	'providedRole' providedRole=[AssemblyViewPoint::Role|EString]
 		//	'requiredRole' requiredRole=[AssemblyViewPoint::Role|EString]
 		//	'}';
 		@Override public ParserRule getRule() { return rule; }
 		
-		//'AssemblyConnector'
+		//'AssemblyConnector' name=EString
 		//'{'
 		//'providedRole' providedRole=[AssemblyViewPoint::Role|EString]
 		//'requiredRole' requiredRole=[AssemblyViewPoint::Role|EString]
@@ -1735,35 +1765,41 @@ public class SimplepalladioGrammarAccess extends AbstractElementFinder.AbstractG
 		//'AssemblyConnector'
 		public Keyword getAssemblyConnectorKeyword_0() { return cAssemblyConnectorKeyword_0; }
 		
+		//name=EString
+		public Assignment getNameAssignment_1() { return cNameAssignment_1; }
+		
+		//EString
+		public RuleCall getNameEStringParserRuleCall_1_0() { return cNameEStringParserRuleCall_1_0; }
+		
 		//'{'
-		public Keyword getLeftCurlyBracketKeyword_1() { return cLeftCurlyBracketKeyword_1; }
+		public Keyword getLeftCurlyBracketKeyword_2() { return cLeftCurlyBracketKeyword_2; }
 		
 		//'providedRole'
-		public Keyword getProvidedRoleKeyword_2() { return cProvidedRoleKeyword_2; }
+		public Keyword getProvidedRoleKeyword_3() { return cProvidedRoleKeyword_3; }
 		
 		//providedRole=[AssemblyViewPoint::Role|EString]
-		public Assignment getProvidedRoleAssignment_3() { return cProvidedRoleAssignment_3; }
+		public Assignment getProvidedRoleAssignment_4() { return cProvidedRoleAssignment_4; }
 		
 		//[AssemblyViewPoint::Role|EString]
-		public CrossReference getProvidedRoleRoleCrossReference_3_0() { return cProvidedRoleRoleCrossReference_3_0; }
+		public CrossReference getProvidedRoleRoleCrossReference_4_0() { return cProvidedRoleRoleCrossReference_4_0; }
 		
 		//EString
-		public RuleCall getProvidedRoleRoleEStringParserRuleCall_3_0_1() { return cProvidedRoleRoleEStringParserRuleCall_3_0_1; }
+		public RuleCall getProvidedRoleRoleEStringParserRuleCall_4_0_1() { return cProvidedRoleRoleEStringParserRuleCall_4_0_1; }
 		
 		//'requiredRole'
-		public Keyword getRequiredRoleKeyword_4() { return cRequiredRoleKeyword_4; }
+		public Keyword getRequiredRoleKeyword_5() { return cRequiredRoleKeyword_5; }
 		
 		//requiredRole=[AssemblyViewPoint::Role|EString]
-		public Assignment getRequiredRoleAssignment_5() { return cRequiredRoleAssignment_5; }
+		public Assignment getRequiredRoleAssignment_6() { return cRequiredRoleAssignment_6; }
 		
 		//[AssemblyViewPoint::Role|EString]
-		public CrossReference getRequiredRoleRoleCrossReference_5_0() { return cRequiredRoleRoleCrossReference_5_0; }
+		public CrossReference getRequiredRoleRoleCrossReference_6_0() { return cRequiredRoleRoleCrossReference_6_0; }
 		
 		//EString
-		public RuleCall getRequiredRoleRoleEStringParserRuleCall_5_0_1() { return cRequiredRoleRoleEStringParserRuleCall_5_0_1; }
+		public RuleCall getRequiredRoleRoleEStringParserRuleCall_6_0_1() { return cRequiredRoleRoleEStringParserRuleCall_6_0_1; }
 		
 		//'}'
-		public Keyword getRightCurlyBracketKeyword_6() { return cRightCurlyBracketKeyword_6; }
+		public Keyword getRightCurlyBracketKeyword_7() { return cRightCurlyBracketKeyword_7; }
 	}
 	public class EnvironmentViewTypeElements extends AbstractParserRuleElementFinder {
 		private final ParserRule rule = (ParserRule) GrammarUtil.findRuleForName(getGrammar(), "org.xtext.mdsm.simplePalladio.Simplepalladio.EnvironmentViewType");
@@ -2334,6 +2370,8 @@ public class SimplepalladioGrammarAccess extends AbstractElementFinder.AbstractG
 	//	'{'
 	//	repositoryViewType=RepositoryViewType
 	//	assemblyViewType=AssemblyViewType
+	//	repositoryViewType2=RepositoryViewType?
+	//	assemblyViewType2=AssemblyViewType?
 	//	environmentViewType=EnvironmentViewType
 	//	allocationViewType=AllocationViewType
 	//	'}';
@@ -2646,7 +2684,7 @@ public class SimplepalladioGrammarAccess extends AbstractElementFinder.AbstractG
 	}
 	
 	//DelegationConnector AssemblyViewPoint::DelegationConnector:
-	//	'DelegationConnector'
+	//	'DelegationConnector' name=EString
 	//	'{'
 	//	'role' role=[AssemblyViewPoint::Role|EString]
 	//	'interface' interface=[SystemIndependentViewPoint::Interface|EString]
@@ -2660,7 +2698,7 @@ public class SimplepalladioGrammarAccess extends AbstractElementFinder.AbstractG
 	}
 	
 	//AssemblyConnector AssemblyViewPoint::AssemblyConnector:
-	//	'AssemblyConnector'
+	//	'AssemblyConnector' name=EString
 	//	'{'
 	//	'providedRole' providedRole=[AssemblyViewPoint::Role|EString]
 	//	'requiredRole' requiredRole=[AssemblyViewPoint::Role|EString]

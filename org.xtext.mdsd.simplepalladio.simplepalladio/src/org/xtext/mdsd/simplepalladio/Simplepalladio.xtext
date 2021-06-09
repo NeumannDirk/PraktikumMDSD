@@ -12,6 +12,8 @@ Model:
 	'{'
 	    repositoryViewType = RepositoryViewType
 	    assemblyViewType = AssemblyViewType
+	    (repositoryViewType2 = RepositoryViewType)?
+	    (assemblyViewType2 = AssemblyViewType)?
 	    environmentViewType = EnvironmentViewType
 	    allocationViewType = AllocationViewType
 	'}';
@@ -156,14 +158,14 @@ Role returns AssemblyViewPoint::Role:
 	'}';
 
 DelegationConnector returns AssemblyViewPoint::DelegationConnector:
-	'DelegationConnector'
+	'DelegationConnector' name=EString
 	'{'
 		'role' role=[AssemblyViewPoint::Role|EString]
 		'interface' interface=[SystemIndependentViewPoint::Interface|EString]
 	'}';
 
 AssemblyConnector returns AssemblyViewPoint::AssemblyConnector:
-	'AssemblyConnector'
+	'AssemblyConnector' name=EString
 	'{'
 		'providedRole' providedRole=[AssemblyViewPoint::Role|EString]
 		'requiredRole' requiredRole=[AssemblyViewPoint::Role|EString]

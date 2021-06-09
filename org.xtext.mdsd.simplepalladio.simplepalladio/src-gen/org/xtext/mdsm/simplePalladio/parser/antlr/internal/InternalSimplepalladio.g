@@ -122,9 +122,47 @@ ruleModel returns [EObject current=null]
 		(
 			(
 				{
-					newCompositeNode(grammarAccess.getModelAccess().getEnvironmentViewTypeEnvironmentViewTypeParserRuleCall_3_0());
+					newCompositeNode(grammarAccess.getModelAccess().getRepositoryViewType2RepositoryViewTypeParserRuleCall_3_0());
 				}
-				lv_environmentViewType_3_0=ruleEnvironmentViewType
+				lv_repositoryViewType2_3_0=ruleRepositoryViewType
+				{
+					if ($current==null) {
+						$current = createModelElementForParent(grammarAccess.getModelRule());
+					}
+					set(
+						$current,
+						"repositoryViewType2",
+						lv_repositoryViewType2_3_0,
+						"org.xtext.mdsm.simplePalladio.Simplepalladio.RepositoryViewType");
+					afterParserOrEnumRuleCall();
+				}
+			)
+		)?
+		(
+			(
+				{
+					newCompositeNode(grammarAccess.getModelAccess().getAssemblyViewType2AssemblyViewTypeParserRuleCall_4_0());
+				}
+				lv_assemblyViewType2_4_0=ruleAssemblyViewType
+				{
+					if ($current==null) {
+						$current = createModelElementForParent(grammarAccess.getModelRule());
+					}
+					set(
+						$current,
+						"assemblyViewType2",
+						lv_assemblyViewType2_4_0,
+						"org.xtext.mdsm.simplePalladio.Simplepalladio.AssemblyViewType");
+					afterParserOrEnumRuleCall();
+				}
+			)
+		)?
+		(
+			(
+				{
+					newCompositeNode(grammarAccess.getModelAccess().getEnvironmentViewTypeEnvironmentViewTypeParserRuleCall_5_0());
+				}
+				lv_environmentViewType_5_0=ruleEnvironmentViewType
 				{
 					if ($current==null) {
 						$current = createModelElementForParent(grammarAccess.getModelRule());
@@ -132,7 +170,7 @@ ruleModel returns [EObject current=null]
 					set(
 						$current,
 						"environmentViewType",
-						lv_environmentViewType_3_0,
+						lv_environmentViewType_5_0,
 						"org.xtext.mdsm.simplePalladio.Simplepalladio.EnvironmentViewType");
 					afterParserOrEnumRuleCall();
 				}
@@ -141,9 +179,9 @@ ruleModel returns [EObject current=null]
 		(
 			(
 				{
-					newCompositeNode(grammarAccess.getModelAccess().getAllocationViewTypeAllocationViewTypeParserRuleCall_4_0());
+					newCompositeNode(grammarAccess.getModelAccess().getAllocationViewTypeAllocationViewTypeParserRuleCall_6_0());
 				}
-				lv_allocationViewType_4_0=ruleAllocationViewType
+				lv_allocationViewType_6_0=ruleAllocationViewType
 				{
 					if ($current==null) {
 						$current = createModelElementForParent(grammarAccess.getModelRule());
@@ -151,15 +189,15 @@ ruleModel returns [EObject current=null]
 					set(
 						$current,
 						"allocationViewType",
-						lv_allocationViewType_4_0,
+						lv_allocationViewType_6_0,
 						"org.xtext.mdsm.simplePalladio.Simplepalladio.AllocationViewType");
 					afterParserOrEnumRuleCall();
 				}
 			)
 		)
-		otherlv_5='}'
+		otherlv_7='}'
 		{
-			newLeafNode(otherlv_5, grammarAccess.getModelAccess().getRightCurlyBracketKeyword_5());
+			newLeafNode(otherlv_7, grammarAccess.getModelAccess().getRightCurlyBracketKeyword_7());
 		}
 	)
 ;
@@ -2129,13 +2167,32 @@ ruleDelegationConnector returns [EObject current=null]
 		{
 			newLeafNode(otherlv_0, grammarAccess.getDelegationConnectorAccess().getDelegationConnectorKeyword_0());
 		}
-		otherlv_1='{'
+		(
+			(
+				{
+					newCompositeNode(grammarAccess.getDelegationConnectorAccess().getNameEStringParserRuleCall_1_0());
+				}
+				lv_name_1_0=ruleEString
+				{
+					if ($current==null) {
+						$current = createModelElementForParent(grammarAccess.getDelegationConnectorRule());
+					}
+					set(
+						$current,
+						"name",
+						lv_name_1_0,
+						"org.xtext.mdsm.simplePalladio.Simplepalladio.EString");
+					afterParserOrEnumRuleCall();
+				}
+			)
+		)
+		otherlv_2='{'
 		{
-			newLeafNode(otherlv_1, grammarAccess.getDelegationConnectorAccess().getLeftCurlyBracketKeyword_1());
+			newLeafNode(otherlv_2, grammarAccess.getDelegationConnectorAccess().getLeftCurlyBracketKeyword_2());
 		}
-		otherlv_2='role'
+		otherlv_3='role'
 		{
-			newLeafNode(otherlv_2, grammarAccess.getDelegationConnectorAccess().getRoleKeyword_2());
+			newLeafNode(otherlv_3, grammarAccess.getDelegationConnectorAccess().getRoleKeyword_3());
 		}
 		(
 			(
@@ -2145,7 +2202,7 @@ ruleDelegationConnector returns [EObject current=null]
 					}
 				}
 				{
-					newCompositeNode(grammarAccess.getDelegationConnectorAccess().getRoleRoleCrossReference_3_0());
+					newCompositeNode(grammarAccess.getDelegationConnectorAccess().getRoleRoleCrossReference_4_0());
 				}
 				ruleEString
 				{
@@ -2153,9 +2210,9 @@ ruleDelegationConnector returns [EObject current=null]
 				}
 			)
 		)
-		otherlv_4='interface'
+		otherlv_5='interface'
 		{
-			newLeafNode(otherlv_4, grammarAccess.getDelegationConnectorAccess().getInterfaceKeyword_4());
+			newLeafNode(otherlv_5, grammarAccess.getDelegationConnectorAccess().getInterfaceKeyword_5());
 		}
 		(
 			(
@@ -2165,7 +2222,7 @@ ruleDelegationConnector returns [EObject current=null]
 					}
 				}
 				{
-					newCompositeNode(grammarAccess.getDelegationConnectorAccess().getInterfaceInterfaceCrossReference_5_0());
+					newCompositeNode(grammarAccess.getDelegationConnectorAccess().getInterfaceInterfaceCrossReference_6_0());
 				}
 				ruleEString
 				{
@@ -2173,9 +2230,9 @@ ruleDelegationConnector returns [EObject current=null]
 				}
 			)
 		)
-		otherlv_6='}'
+		otherlv_7='}'
 		{
-			newLeafNode(otherlv_6, grammarAccess.getDelegationConnectorAccess().getRightCurlyBracketKeyword_6());
+			newLeafNode(otherlv_7, grammarAccess.getDelegationConnectorAccess().getRightCurlyBracketKeyword_7());
 		}
 	)
 ;
@@ -2200,13 +2257,32 @@ ruleAssemblyConnector returns [EObject current=null]
 		{
 			newLeafNode(otherlv_0, grammarAccess.getAssemblyConnectorAccess().getAssemblyConnectorKeyword_0());
 		}
-		otherlv_1='{'
+		(
+			(
+				{
+					newCompositeNode(grammarAccess.getAssemblyConnectorAccess().getNameEStringParserRuleCall_1_0());
+				}
+				lv_name_1_0=ruleEString
+				{
+					if ($current==null) {
+						$current = createModelElementForParent(grammarAccess.getAssemblyConnectorRule());
+					}
+					set(
+						$current,
+						"name",
+						lv_name_1_0,
+						"org.xtext.mdsm.simplePalladio.Simplepalladio.EString");
+					afterParserOrEnumRuleCall();
+				}
+			)
+		)
+		otherlv_2='{'
 		{
-			newLeafNode(otherlv_1, grammarAccess.getAssemblyConnectorAccess().getLeftCurlyBracketKeyword_1());
+			newLeafNode(otherlv_2, grammarAccess.getAssemblyConnectorAccess().getLeftCurlyBracketKeyword_2());
 		}
-		otherlv_2='providedRole'
+		otherlv_3='providedRole'
 		{
-			newLeafNode(otherlv_2, grammarAccess.getAssemblyConnectorAccess().getProvidedRoleKeyword_2());
+			newLeafNode(otherlv_3, grammarAccess.getAssemblyConnectorAccess().getProvidedRoleKeyword_3());
 		}
 		(
 			(
@@ -2216,7 +2292,7 @@ ruleAssemblyConnector returns [EObject current=null]
 					}
 				}
 				{
-					newCompositeNode(grammarAccess.getAssemblyConnectorAccess().getProvidedRoleRoleCrossReference_3_0());
+					newCompositeNode(grammarAccess.getAssemblyConnectorAccess().getProvidedRoleRoleCrossReference_4_0());
 				}
 				ruleEString
 				{
@@ -2224,9 +2300,9 @@ ruleAssemblyConnector returns [EObject current=null]
 				}
 			)
 		)
-		otherlv_4='requiredRole'
+		otherlv_5='requiredRole'
 		{
-			newLeafNode(otherlv_4, grammarAccess.getAssemblyConnectorAccess().getRequiredRoleKeyword_4());
+			newLeafNode(otherlv_5, grammarAccess.getAssemblyConnectorAccess().getRequiredRoleKeyword_5());
 		}
 		(
 			(
@@ -2236,7 +2312,7 @@ ruleAssemblyConnector returns [EObject current=null]
 					}
 				}
 				{
-					newCompositeNode(grammarAccess.getAssemblyConnectorAccess().getRequiredRoleRoleCrossReference_5_0());
+					newCompositeNode(grammarAccess.getAssemblyConnectorAccess().getRequiredRoleRoleCrossReference_6_0());
 				}
 				ruleEString
 				{
@@ -2244,9 +2320,9 @@ ruleAssemblyConnector returns [EObject current=null]
 				}
 			)
 		)
-		otherlv_6='}'
+		otherlv_7='}'
 		{
-			newLeafNode(otherlv_6, grammarAccess.getAssemblyConnectorAccess().getRightCurlyBracketKeyword_6());
+			newLeafNode(otherlv_7, grammarAccess.getAssemblyConnectorAccess().getRightCurlyBracketKeyword_7());
 		}
 	)
 ;

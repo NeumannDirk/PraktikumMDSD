@@ -7,6 +7,10 @@
         containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="assemblyViewType" eType="ecore:EClass platform:/resource/SimplePalladio/model/simplePalladio.ecore#//AssemblyViewPoint/AssemblyViewType"
         containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="repositoryViewType2" eType="ecore:EClass platform:/resource/SimplePalladio/model/simplePalladio.ecore#//SystemIndependentViewPoint/RepositoryViewType"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="assemblyViewType2" eType="ecore:EClass platform:/resource/SimplePalladio/model/simplePalladio.ecore#//AssemblyViewPoint/AssemblyViewType"
+        containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="environmentViewType" eType="ecore:EClass platform:/resource/SimplePalladio/model/simplePalladio.ecore#//DeploymentViewPoint/EnvironmentViewType"
         containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="allocationViewType" eType="ecore:EClass platform:/resource/SimplePalladio/model/simplePalladio.ecore#//DeploymentViewPoint/AllocationViewType"

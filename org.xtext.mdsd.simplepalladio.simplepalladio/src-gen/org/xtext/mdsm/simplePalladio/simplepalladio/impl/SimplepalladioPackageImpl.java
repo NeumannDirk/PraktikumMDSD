@@ -144,7 +144,7 @@ public class SimplepalladioPackageImpl extends EPackageImpl implements Simplepal
    * @generated
    */
   @Override
-  public EReference getModel_EnvironmentViewType()
+  public EReference getModel_RepositoryViewType2()
   {
     return (EReference)modelEClass.getEStructuralFeatures().get(2);
   }
@@ -155,9 +155,31 @@ public class SimplepalladioPackageImpl extends EPackageImpl implements Simplepal
    * @generated
    */
   @Override
-  public EReference getModel_AllocationViewType()
+  public EReference getModel_AssemblyViewType2()
   {
     return (EReference)modelEClass.getEStructuralFeatures().get(3);
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
+  public EReference getModel_EnvironmentViewType()
+  {
+    return (EReference)modelEClass.getEStructuralFeatures().get(4);
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
+  public EReference getModel_AllocationViewType()
+  {
+    return (EReference)modelEClass.getEStructuralFeatures().get(5);
   }
 
   /**
@@ -194,6 +216,8 @@ public class SimplepalladioPackageImpl extends EPackageImpl implements Simplepal
     modelEClass = createEClass(MODEL);
     createEReference(modelEClass, MODEL__REPOSITORY_VIEW_TYPE);
     createEReference(modelEClass, MODEL__ASSEMBLY_VIEW_TYPE);
+    createEReference(modelEClass, MODEL__REPOSITORY_VIEW_TYPE2);
+    createEReference(modelEClass, MODEL__ASSEMBLY_VIEW_TYPE2);
     createEReference(modelEClass, MODEL__ENVIRONMENT_VIEW_TYPE);
     createEReference(modelEClass, MODEL__ALLOCATION_VIEW_TYPE);
   }
@@ -237,6 +261,8 @@ public class SimplepalladioPackageImpl extends EPackageImpl implements Simplepal
     initEClass(modelEClass, Model.class, "Model", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
     initEReference(getModel_RepositoryViewType(), theSystemIndependentViewPointPackage.getRepositoryViewType(), null, "repositoryViewType", null, 0, 1, Model.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
     initEReference(getModel_AssemblyViewType(), theAssemblyViewPointPackage.getAssemblyViewType(), null, "assemblyViewType", null, 0, 1, Model.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+    initEReference(getModel_RepositoryViewType2(), theSystemIndependentViewPointPackage.getRepositoryViewType(), null, "repositoryViewType2", null, 0, 1, Model.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+    initEReference(getModel_AssemblyViewType2(), theAssemblyViewPointPackage.getAssemblyViewType(), null, "assemblyViewType2", null, 0, 1, Model.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
     initEReference(getModel_EnvironmentViewType(), theDeploymentViewPointPackage.getEnvironmentViewType(), null, "environmentViewType", null, 0, 1, Model.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
     initEReference(getModel_AllocationViewType(), theDeploymentViewPointPackage.getAllocationViewType(), null, "allocationViewType", null, 0, 1, Model.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 

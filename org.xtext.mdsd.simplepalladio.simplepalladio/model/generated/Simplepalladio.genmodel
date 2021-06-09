@@ -9,6 +9,8 @@
     <genClasses ecoreClass="Simplepalladio.ecore#//Model">
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Simplepalladio.ecore#//Model/repositoryViewType"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Simplepalladio.ecore#//Model/assemblyViewType"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Simplepalladio.ecore#//Model/repositoryViewType2"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Simplepalladio.ecore#//Model/assemblyViewType2"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Simplepalladio.ecore#//Model/environmentViewType"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Simplepalladio.ecore#//Model/allocationViewType"/>
     </genClasses>

@@ -23,6 +23,8 @@ import simplePalladio.SystemIndependentViewPoint.RepositoryViewType;
  * <ul>
  *   <li>{@link org.xtext.mdsm.simplePalladio.simplepalladio.Model#getRepositoryViewType <em>Repository View Type</em>}</li>
  *   <li>{@link org.xtext.mdsm.simplePalladio.simplepalladio.Model#getAssemblyViewType <em>Assembly View Type</em>}</li>
+ *   <li>{@link org.xtext.mdsm.simplePalladio.simplepalladio.Model#getRepositoryViewType2 <em>Repository View Type2</em>}</li>
+ *   <li>{@link org.xtext.mdsm.simplePalladio.simplepalladio.Model#getAssemblyViewType2 <em>Assembly View Type2</em>}</li>
  *   <li>{@link org.xtext.mdsm.simplePalladio.simplepalladio.Model#getEnvironmentViewType <em>Environment View Type</em>}</li>
  *   <li>{@link org.xtext.mdsm.simplePalladio.simplepalladio.Model#getAllocationViewType <em>Allocation View Type</em>}</li>
  * </ul>
@@ -76,6 +78,50 @@ public interface Model extends EObject
    * @generated
    */
   void setAssemblyViewType(AssemblyViewType value);
+
+  /**
+   * Returns the value of the '<em><b>Repository View Type2</b></em>' containment reference.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the value of the '<em>Repository View Type2</em>' containment reference.
+   * @see #setRepositoryViewType2(RepositoryViewType)
+   * @see org.xtext.mdsm.simplePalladio.simplepalladio.SimplepalladioPackage#getModel_RepositoryViewType2()
+   * @model containment="true"
+   * @generated
+   */
+  RepositoryViewType getRepositoryViewType2();
+
+  /**
+   * Sets the value of the '{@link org.xtext.mdsm.simplePalladio.simplepalladio.Model#getRepositoryViewType2 <em>Repository View Type2</em>}' containment reference.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @param value the new value of the '<em>Repository View Type2</em>' containment reference.
+   * @see #getRepositoryViewType2()
+   * @generated
+   */
+  void setRepositoryViewType2(RepositoryViewType value);
+
+  /**
+   * Returns the value of the '<em><b>Assembly View Type2</b></em>' containment reference.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the value of the '<em>Assembly View Type2</em>' containment reference.
+   * @see #setAssemblyViewType2(AssemblyViewType)
+   * @see org.xtext.mdsm.simplePalladio.simplepalladio.SimplepalladioPackage#getModel_AssemblyViewType2()
+   * @model containment="true"
+   * @generated
+   */
+  AssemblyViewType getAssemblyViewType2();
+
+  /**
+   * Sets the value of the '{@link org.xtext.mdsm.simplePalladio.simplepalladio.Model#getAssemblyViewType2 <em>Assembly View Type2</em>}' containment reference.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @param value the new value of the '<em>Assembly View Type2</em>' containment reference.
+   * @see #getAssemblyViewType2()
+   * @generated
+   */
+  void setAssemblyViewType2(AssemblyViewType value);
 
   /**
    * Returns the value of the '<em><b>Environment View Type</b></em>' containment reference.

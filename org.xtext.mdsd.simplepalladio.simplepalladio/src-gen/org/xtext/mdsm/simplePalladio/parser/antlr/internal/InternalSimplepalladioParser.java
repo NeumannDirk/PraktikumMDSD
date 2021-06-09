@@ -175,30 +175,34 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "ruleModel"
-    // InternalSimplepalladio.g:72:1: ruleModel returns [EObject current=null] : (otherlv_0= '{' ( (lv_repositoryViewType_1_0= ruleRepositoryViewType ) ) ( (lv_assemblyViewType_2_0= ruleAssemblyViewType ) ) ( (lv_environmentViewType_3_0= ruleEnvironmentViewType ) ) ( (lv_allocationViewType_4_0= ruleAllocationViewType ) ) otherlv_5= '}' ) ;
+    // InternalSimplepalladio.g:72:1: ruleModel returns [EObject current=null] : (otherlv_0= '{' ( (lv_repositoryViewType_1_0= ruleRepositoryViewType ) ) ( (lv_assemblyViewType_2_0= ruleAssemblyViewType ) ) ( (lv_repositoryViewType2_3_0= ruleRepositoryViewType ) )? ( (lv_assemblyViewType2_4_0= ruleAssemblyViewType ) )? ( (lv_environmentViewType_5_0= ruleEnvironmentViewType ) ) ( (lv_allocationViewType_6_0= ruleAllocationViewType ) ) otherlv_7= '}' ) ;
     public final EObject ruleModel() throws RecognitionException {
         EObject current = null;
 
         Token otherlv_0=null;
-        Token otherlv_5=null;
+        Token otherlv_7=null;
         EObject lv_repositoryViewType_1_0 = null;
 
         EObject lv_assemblyViewType_2_0 = null;
 
-        EObject lv_environmentViewType_3_0 = null;
+        EObject lv_repositoryViewType2_3_0 = null;
 
-        EObject lv_allocationViewType_4_0 = null;
+        EObject lv_assemblyViewType2_4_0 = null;
+
+        EObject lv_environmentViewType_5_0 = null;
+
+        EObject lv_allocationViewType_6_0 = null;
 
 
 
         	enterRule();
 
         try {
-            // InternalSimplepalladio.g:78:2: ( (otherlv_0= '{' ( (lv_repositoryViewType_1_0= ruleRepositoryViewType ) ) ( (lv_assemblyViewType_2_0= ruleAssemblyViewType ) ) ( (lv_environmentViewType_3_0= ruleEnvironmentViewType ) ) ( (lv_allocationViewType_4_0= ruleAllocationViewType ) ) otherlv_5= '}' ) )
-            // InternalSimplepalladio.g:79:2: (otherlv_0= '{' ( (lv_repositoryViewType_1_0= ruleRepositoryViewType ) ) ( (lv_assemblyViewType_2_0= ruleAssemblyViewType ) ) ( (lv_environmentViewType_3_0= ruleEnvironmentViewType ) ) ( (lv_allocationViewType_4_0= ruleAllocationViewType ) ) otherlv_5= '}' )
+            // InternalSimplepalladio.g:78:2: ( (otherlv_0= '{' ( (lv_repositoryViewType_1_0= ruleRepositoryViewType ) ) ( (lv_assemblyViewType_2_0= ruleAssemblyViewType ) ) ( (lv_repositoryViewType2_3_0= ruleRepositoryViewType ) )? ( (lv_assemblyViewType2_4_0= ruleAssemblyViewType ) )? ( (lv_environmentViewType_5_0= ruleEnvironmentViewType ) ) ( (lv_allocationViewType_6_0= ruleAllocationViewType ) ) otherlv_7= '}' ) )
+            // InternalSimplepalladio.g:79:2: (otherlv_0= '{' ( (lv_repositoryViewType_1_0= ruleRepositoryViewType ) ) ( (lv_assemblyViewType_2_0= ruleAssemblyViewType ) ) ( (lv_repositoryViewType2_3_0= ruleRepositoryViewType ) )? ( (lv_assemblyViewType2_4_0= ruleAssemblyViewType ) )? ( (lv_environmentViewType_5_0= ruleEnvironmentViewType ) ) ( (lv_allocationViewType_6_0= ruleAllocationViewType ) ) otherlv_7= '}' )
             {
-            // InternalSimplepalladio.g:79:2: (otherlv_0= '{' ( (lv_repositoryViewType_1_0= ruleRepositoryViewType ) ) ( (lv_assemblyViewType_2_0= ruleAssemblyViewType ) ) ( (lv_environmentViewType_3_0= ruleEnvironmentViewType ) ) ( (lv_allocationViewType_4_0= ruleAllocationViewType ) ) otherlv_5= '}' )
-            // InternalSimplepalladio.g:80:3: otherlv_0= '{' ( (lv_repositoryViewType_1_0= ruleRepositoryViewType ) ) ( (lv_assemblyViewType_2_0= ruleAssemblyViewType ) ) ( (lv_environmentViewType_3_0= ruleEnvironmentViewType ) ) ( (lv_allocationViewType_4_0= ruleAllocationViewType ) ) otherlv_5= '}'
+            // InternalSimplepalladio.g:79:2: (otherlv_0= '{' ( (lv_repositoryViewType_1_0= ruleRepositoryViewType ) ) ( (lv_assemblyViewType_2_0= ruleAssemblyViewType ) ) ( (lv_repositoryViewType2_3_0= ruleRepositoryViewType ) )? ( (lv_assemblyViewType2_4_0= ruleAssemblyViewType ) )? ( (lv_environmentViewType_5_0= ruleEnvironmentViewType ) ) ( (lv_allocationViewType_6_0= ruleAllocationViewType ) ) otherlv_7= '}' )
+            // InternalSimplepalladio.g:80:3: otherlv_0= '{' ( (lv_repositoryViewType_1_0= ruleRepositoryViewType ) ) ( (lv_assemblyViewType_2_0= ruleAssemblyViewType ) ) ( (lv_repositoryViewType2_3_0= ruleRepositoryViewType ) )? ( (lv_assemblyViewType2_4_0= ruleAssemblyViewType ) )? ( (lv_environmentViewType_5_0= ruleEnvironmentViewType ) ) ( (lv_allocationViewType_6_0= ruleAllocationViewType ) ) otherlv_7= '}'
             {
             otherlv_0=(Token)match(input,11,FOLLOW_3); 
 
@@ -266,17 +270,101 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
             }
 
-            // InternalSimplepalladio.g:122:3: ( (lv_environmentViewType_3_0= ruleEnvironmentViewType ) )
-            // InternalSimplepalladio.g:123:4: (lv_environmentViewType_3_0= ruleEnvironmentViewType )
+            // InternalSimplepalladio.g:122:3: ( (lv_repositoryViewType2_3_0= ruleRepositoryViewType ) )?
+            int alt1=2;
+            int LA1_0 = input.LA(1);
+
+            if ( (LA1_0==13) ) {
+                alt1=1;
+            }
+            switch (alt1) {
+                case 1 :
+                    // InternalSimplepalladio.g:123:4: (lv_repositoryViewType2_3_0= ruleRepositoryViewType )
+                    {
+                    // InternalSimplepalladio.g:123:4: (lv_repositoryViewType2_3_0= ruleRepositoryViewType )
+                    // InternalSimplepalladio.g:124:5: lv_repositoryViewType2_3_0= ruleRepositoryViewType
+                    {
+
+                    					newCompositeNode(grammarAccess.getModelAccess().getRepositoryViewType2RepositoryViewTypeParserRuleCall_3_0());
+                    				
+                    pushFollow(FOLLOW_5);
+                    lv_repositoryViewType2_3_0=ruleRepositoryViewType();
+
+                    state._fsp--;
+
+
+                    					if (current==null) {
+                    						current = createModelElementForParent(grammarAccess.getModelRule());
+                    					}
+                    					set(
+                    						current,
+                    						"repositoryViewType2",
+                    						lv_repositoryViewType2_3_0,
+                    						"org.xtext.mdsm.simplePalladio.Simplepalladio.RepositoryViewType");
+                    					afterParserOrEnumRuleCall();
+                    				
+
+                    }
+
+
+                    }
+                    break;
+
+            }
+
+            // InternalSimplepalladio.g:141:3: ( (lv_assemblyViewType2_4_0= ruleAssemblyViewType ) )?
+            int alt2=2;
+            int LA2_0 = input.LA(1);
+
+            if ( (LA2_0==40) ) {
+                alt2=1;
+            }
+            switch (alt2) {
+                case 1 :
+                    // InternalSimplepalladio.g:142:4: (lv_assemblyViewType2_4_0= ruleAssemblyViewType )
+                    {
+                    // InternalSimplepalladio.g:142:4: (lv_assemblyViewType2_4_0= ruleAssemblyViewType )
+                    // InternalSimplepalladio.g:143:5: lv_assemblyViewType2_4_0= ruleAssemblyViewType
+                    {
+
+                    					newCompositeNode(grammarAccess.getModelAccess().getAssemblyViewType2AssemblyViewTypeParserRuleCall_4_0());
+                    				
+                    pushFollow(FOLLOW_5);
+                    lv_assemblyViewType2_4_0=ruleAssemblyViewType();
+
+                    state._fsp--;
+
+
+                    					if (current==null) {
+                    						current = createModelElementForParent(grammarAccess.getModelRule());
+                    					}
+                    					set(
+                    						current,
+                    						"assemblyViewType2",
+                    						lv_assemblyViewType2_4_0,
+                    						"org.xtext.mdsm.simplePalladio.Simplepalladio.AssemblyViewType");
+                    					afterParserOrEnumRuleCall();
+                    				
+
+                    }
+
+
+                    }
+                    break;
+
+            }
+
+            // InternalSimplepalladio.g:160:3: ( (lv_environmentViewType_5_0= ruleEnvironmentViewType ) )
+            // InternalSimplepalladio.g:161:4: (lv_environmentViewType_5_0= ruleEnvironmentViewType )
             {
-            // InternalSimplepalladio.g:123:4: (lv_environmentViewType_3_0= ruleEnvironmentViewType )
-            // InternalSimplepalladio.g:124:5: lv_environmentViewType_3_0= ruleEnvironmentViewType
+            // InternalSimplepalladio.g:161:4: (lv_environmentViewType_5_0= ruleEnvironmentViewType )
+            // InternalSimplepalladio.g:162:5: lv_environmentViewType_5_0= ruleEnvironmentViewType
             {
 
-            					newCompositeNode(grammarAccess.getModelAccess().getEnvironmentViewTypeEnvironmentViewTypeParserRuleCall_3_0());
+            					newCompositeNode(grammarAccess.getModelAccess().getEnvironmentViewTypeEnvironmentViewTypeParserRuleCall_5_0());
             				
             pushFollow(FOLLOW_6);
-            lv_environmentViewType_3_0=ruleEnvironmentViewType();
+            lv_environmentViewType_5_0=ruleEnvironmentViewType();
 
             state._fsp--;
 
@@ -287,7 +375,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
             					set(
             						current,
             						"environmentViewType",
-            						lv_environmentViewType_3_0,
+            						lv_environmentViewType_5_0,
             						"org.xtext.mdsm.simplePalladio.Simplepalladio.EnvironmentViewType");
             					afterParserOrEnumRuleCall();
             				
@@ -297,17 +385,17 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
             }
 
-            // InternalSimplepalladio.g:141:3: ( (lv_allocationViewType_4_0= ruleAllocationViewType ) )
-            // InternalSimplepalladio.g:142:4: (lv_allocationViewType_4_0= ruleAllocationViewType )
+            // InternalSimplepalladio.g:179:3: ( (lv_allocationViewType_6_0= ruleAllocationViewType ) )
+            // InternalSimplepalladio.g:180:4: (lv_allocationViewType_6_0= ruleAllocationViewType )
             {
-            // InternalSimplepalladio.g:142:4: (lv_allocationViewType_4_0= ruleAllocationViewType )
-            // InternalSimplepalladio.g:143:5: lv_allocationViewType_4_0= ruleAllocationViewType
+            // InternalSimplepalladio.g:180:4: (lv_allocationViewType_6_0= ruleAllocationViewType )
+            // InternalSimplepalladio.g:181:5: lv_allocationViewType_6_0= ruleAllocationViewType
             {
 
-            					newCompositeNode(grammarAccess.getModelAccess().getAllocationViewTypeAllocationViewTypeParserRuleCall_4_0());
+            					newCompositeNode(grammarAccess.getModelAccess().getAllocationViewTypeAllocationViewTypeParserRuleCall_6_0());
             				
             pushFollow(FOLLOW_7);
-            lv_allocationViewType_4_0=ruleAllocationViewType();
+            lv_allocationViewType_6_0=ruleAllocationViewType();
 
             state._fsp--;
 
@@ -318,7 +406,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
             					set(
             						current,
             						"allocationViewType",
-            						lv_allocationViewType_4_0,
+            						lv_allocationViewType_6_0,
             						"org.xtext.mdsm.simplePalladio.Simplepalladio.AllocationViewType");
             					afterParserOrEnumRuleCall();
             				
@@ -328,9 +416,9 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
             }
 
-            otherlv_5=(Token)match(input,12,FOLLOW_2); 
+            otherlv_7=(Token)match(input,12,FOLLOW_2); 
 
-            			newLeafNode(otherlv_5, grammarAccess.getModelAccess().getRightCurlyBracketKeyword_5());
+            			newLeafNode(otherlv_7, grammarAccess.getModelAccess().getRightCurlyBracketKeyword_7());
             		
 
             }
@@ -355,7 +443,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "entryRuleRepositoryViewType"
-    // InternalSimplepalladio.g:168:1: entryRuleRepositoryViewType returns [EObject current=null] : iv_ruleRepositoryViewType= ruleRepositoryViewType EOF ;
+    // InternalSimplepalladio.g:206:1: entryRuleRepositoryViewType returns [EObject current=null] : iv_ruleRepositoryViewType= ruleRepositoryViewType EOF ;
     public final EObject entryRuleRepositoryViewType() throws RecognitionException {
         EObject current = null;
 
@@ -363,8 +451,8 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
         try {
-            // InternalSimplepalladio.g:168:59: (iv_ruleRepositoryViewType= ruleRepositoryViewType EOF )
-            // InternalSimplepalladio.g:169:2: iv_ruleRepositoryViewType= ruleRepositoryViewType EOF
+            // InternalSimplepalladio.g:206:59: (iv_ruleRepositoryViewType= ruleRepositoryViewType EOF )
+            // InternalSimplepalladio.g:207:2: iv_ruleRepositoryViewType= ruleRepositoryViewType EOF
             {
              newCompositeNode(grammarAccess.getRepositoryViewTypeRule()); 
             pushFollow(FOLLOW_1);
@@ -391,7 +479,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "ruleRepositoryViewType"
-    // InternalSimplepalladio.g:175:1: ruleRepositoryViewType returns [EObject current=null] : (otherlv_0= 'RepositoryViewType' otherlv_1= '{' otherlv_2= 'repositoryElements' otherlv_3= '{' ( (lv_repositoryElements_4_0= ruleAbstractRepositoryElement ) ) (otherlv_5= ',' ( (lv_repositoryElements_6_0= ruleAbstractRepositoryElement ) ) )* otherlv_7= '}' otherlv_8= '}' ) ;
+    // InternalSimplepalladio.g:213:1: ruleRepositoryViewType returns [EObject current=null] : (otherlv_0= 'RepositoryViewType' otherlv_1= '{' otherlv_2= 'repositoryElements' otherlv_3= '{' ( (lv_repositoryElements_4_0= ruleAbstractRepositoryElement ) ) (otherlv_5= ',' ( (lv_repositoryElements_6_0= ruleAbstractRepositoryElement ) ) )* otherlv_7= '}' otherlv_8= '}' ) ;
     public final EObject ruleRepositoryViewType() throws RecognitionException {
         EObject current = null;
 
@@ -411,11 +499,11 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
         	enterRule();
 
         try {
-            // InternalSimplepalladio.g:181:2: ( (otherlv_0= 'RepositoryViewType' otherlv_1= '{' otherlv_2= 'repositoryElements' otherlv_3= '{' ( (lv_repositoryElements_4_0= ruleAbstractRepositoryElement ) ) (otherlv_5= ',' ( (lv_repositoryElements_6_0= ruleAbstractRepositoryElement ) ) )* otherlv_7= '}' otherlv_8= '}' ) )
-            // InternalSimplepalladio.g:182:2: (otherlv_0= 'RepositoryViewType' otherlv_1= '{' otherlv_2= 'repositoryElements' otherlv_3= '{' ( (lv_repositoryElements_4_0= ruleAbstractRepositoryElement ) ) (otherlv_5= ',' ( (lv_repositoryElements_6_0= ruleAbstractRepositoryElement ) ) )* otherlv_7= '}' otherlv_8= '}' )
+            // InternalSimplepalladio.g:219:2: ( (otherlv_0= 'RepositoryViewType' otherlv_1= '{' otherlv_2= 'repositoryElements' otherlv_3= '{' ( (lv_repositoryElements_4_0= ruleAbstractRepositoryElement ) ) (otherlv_5= ',' ( (lv_repositoryElements_6_0= ruleAbstractRepositoryElement ) ) )* otherlv_7= '}' otherlv_8= '}' ) )
+            // InternalSimplepalladio.g:220:2: (otherlv_0= 'RepositoryViewType' otherlv_1= '{' otherlv_2= 'repositoryElements' otherlv_3= '{' ( (lv_repositoryElements_4_0= ruleAbstractRepositoryElement ) ) (otherlv_5= ',' ( (lv_repositoryElements_6_0= ruleAbstractRepositoryElement ) ) )* otherlv_7= '}' otherlv_8= '}' )
             {
-            // InternalSimplepalladio.g:182:2: (otherlv_0= 'RepositoryViewType' otherlv_1= '{' otherlv_2= 'repositoryElements' otherlv_3= '{' ( (lv_repositoryElements_4_0= ruleAbstractRepositoryElement ) ) (otherlv_5= ',' ( (lv_repositoryElements_6_0= ruleAbstractRepositoryElement ) ) )* otherlv_7= '}' otherlv_8= '}' )
-            // InternalSimplepalladio.g:183:3: otherlv_0= 'RepositoryViewType' otherlv_1= '{' otherlv_2= 'repositoryElements' otherlv_3= '{' ( (lv_repositoryElements_4_0= ruleAbstractRepositoryElement ) ) (otherlv_5= ',' ( (lv_repositoryElements_6_0= ruleAbstractRepositoryElement ) ) )* otherlv_7= '}' otherlv_8= '}'
+            // InternalSimplepalladio.g:220:2: (otherlv_0= 'RepositoryViewType' otherlv_1= '{' otherlv_2= 'repositoryElements' otherlv_3= '{' ( (lv_repositoryElements_4_0= ruleAbstractRepositoryElement ) ) (otherlv_5= ',' ( (lv_repositoryElements_6_0= ruleAbstractRepositoryElement ) ) )* otherlv_7= '}' otherlv_8= '}' )
+            // InternalSimplepalladio.g:221:3: otherlv_0= 'RepositoryViewType' otherlv_1= '{' otherlv_2= 'repositoryElements' otherlv_3= '{' ( (lv_repositoryElements_4_0= ruleAbstractRepositoryElement ) ) (otherlv_5= ',' ( (lv_repositoryElements_6_0= ruleAbstractRepositoryElement ) ) )* otherlv_7= '}' otherlv_8= '}'
             {
             otherlv_0=(Token)match(input,13,FOLLOW_8); 
 
@@ -433,11 +521,11 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
             			newLeafNode(otherlv_3, grammarAccess.getRepositoryViewTypeAccess().getLeftCurlyBracketKeyword_3());
             		
-            // InternalSimplepalladio.g:199:3: ( (lv_repositoryElements_4_0= ruleAbstractRepositoryElement ) )
-            // InternalSimplepalladio.g:200:4: (lv_repositoryElements_4_0= ruleAbstractRepositoryElement )
+            // InternalSimplepalladio.g:237:3: ( (lv_repositoryElements_4_0= ruleAbstractRepositoryElement ) )
+            // InternalSimplepalladio.g:238:4: (lv_repositoryElements_4_0= ruleAbstractRepositoryElement )
             {
-            // InternalSimplepalladio.g:200:4: (lv_repositoryElements_4_0= ruleAbstractRepositoryElement )
-            // InternalSimplepalladio.g:201:5: lv_repositoryElements_4_0= ruleAbstractRepositoryElement
+            // InternalSimplepalladio.g:238:4: (lv_repositoryElements_4_0= ruleAbstractRepositoryElement )
+            // InternalSimplepalladio.g:239:5: lv_repositoryElements_4_0= ruleAbstractRepositoryElement
             {
 
             					newCompositeNode(grammarAccess.getRepositoryViewTypeAccess().getRepositoryElementsAbstractRepositoryElementParserRuleCall_4_0());
@@ -464,30 +552,30 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
             }
 
-            // InternalSimplepalladio.g:218:3: (otherlv_5= ',' ( (lv_repositoryElements_6_0= ruleAbstractRepositoryElement ) ) )*
-            loop1:
+            // InternalSimplepalladio.g:256:3: (otherlv_5= ',' ( (lv_repositoryElements_6_0= ruleAbstractRepositoryElement ) ) )*
+            loop3:
             do {
-                int alt1=2;
-                int LA1_0 = input.LA(1);
+                int alt3=2;
+                int LA3_0 = input.LA(1);
 
-                if ( (LA1_0==15) ) {
-                    alt1=1;
+                if ( (LA3_0==15) ) {
+                    alt3=1;
                 }
 
 
-                switch (alt1) {
+                switch (alt3) {
             	case 1 :
-            	    // InternalSimplepalladio.g:219:4: otherlv_5= ',' ( (lv_repositoryElements_6_0= ruleAbstractRepositoryElement ) )
+            	    // InternalSimplepalladio.g:257:4: otherlv_5= ',' ( (lv_repositoryElements_6_0= ruleAbstractRepositoryElement ) )
             	    {
             	    otherlv_5=(Token)match(input,15,FOLLOW_10); 
 
             	    				newLeafNode(otherlv_5, grammarAccess.getRepositoryViewTypeAccess().getCommaKeyword_5_0());
             	    			
-            	    // InternalSimplepalladio.g:223:4: ( (lv_repositoryElements_6_0= ruleAbstractRepositoryElement ) )
-            	    // InternalSimplepalladio.g:224:5: (lv_repositoryElements_6_0= ruleAbstractRepositoryElement )
+            	    // InternalSimplepalladio.g:261:4: ( (lv_repositoryElements_6_0= ruleAbstractRepositoryElement ) )
+            	    // InternalSimplepalladio.g:262:5: (lv_repositoryElements_6_0= ruleAbstractRepositoryElement )
             	    {
-            	    // InternalSimplepalladio.g:224:5: (lv_repositoryElements_6_0= ruleAbstractRepositoryElement )
-            	    // InternalSimplepalladio.g:225:6: lv_repositoryElements_6_0= ruleAbstractRepositoryElement
+            	    // InternalSimplepalladio.g:262:5: (lv_repositoryElements_6_0= ruleAbstractRepositoryElement )
+            	    // InternalSimplepalladio.g:263:6: lv_repositoryElements_6_0= ruleAbstractRepositoryElement
             	    {
 
             	    						newCompositeNode(grammarAccess.getRepositoryViewTypeAccess().getRepositoryElementsAbstractRepositoryElementParserRuleCall_5_1_0());
@@ -519,7 +607,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
             	    break;
 
             	default :
-            	    break loop1;
+            	    break loop3;
                 }
             } while (true);
 
@@ -554,7 +642,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "entryRuleAbstractRepositoryElement"
-    // InternalSimplepalladio.g:255:1: entryRuleAbstractRepositoryElement returns [EObject current=null] : iv_ruleAbstractRepositoryElement= ruleAbstractRepositoryElement EOF ;
+    // InternalSimplepalladio.g:293:1: entryRuleAbstractRepositoryElement returns [EObject current=null] : iv_ruleAbstractRepositoryElement= ruleAbstractRepositoryElement EOF ;
     public final EObject entryRuleAbstractRepositoryElement() throws RecognitionException {
         EObject current = null;
 
@@ -562,8 +650,8 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
         try {
-            // InternalSimplepalladio.g:255:66: (iv_ruleAbstractRepositoryElement= ruleAbstractRepositoryElement EOF )
-            // InternalSimplepalladio.g:256:2: iv_ruleAbstractRepositoryElement= ruleAbstractRepositoryElement EOF
+            // InternalSimplepalladio.g:293:66: (iv_ruleAbstractRepositoryElement= ruleAbstractRepositoryElement EOF )
+            // InternalSimplepalladio.g:294:2: iv_ruleAbstractRepositoryElement= ruleAbstractRepositoryElement EOF
             {
              newCompositeNode(grammarAccess.getAbstractRepositoryElementRule()); 
             pushFollow(FOLLOW_1);
@@ -590,7 +678,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "ruleAbstractRepositoryElement"
-    // InternalSimplepalladio.g:262:1: ruleAbstractRepositoryElement returns [EObject current=null] : (this_Interface_0= ruleInterface | this_CompositeComponent_1= ruleCompositeComponent | this_Signature_2= ruleSignature | this_Component_3= ruleComponent ) ;
+    // InternalSimplepalladio.g:300:1: ruleAbstractRepositoryElement returns [EObject current=null] : (this_Interface_0= ruleInterface | this_CompositeComponent_1= ruleCompositeComponent | this_Signature_2= ruleSignature | this_Component_3= ruleComponent ) ;
     public final EObject ruleAbstractRepositoryElement() throws RecognitionException {
         EObject current = null;
 
@@ -607,42 +695,42 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
         	enterRule();
 
         try {
-            // InternalSimplepalladio.g:268:2: ( (this_Interface_0= ruleInterface | this_CompositeComponent_1= ruleCompositeComponent | this_Signature_2= ruleSignature | this_Component_3= ruleComponent ) )
-            // InternalSimplepalladio.g:269:2: (this_Interface_0= ruleInterface | this_CompositeComponent_1= ruleCompositeComponent | this_Signature_2= ruleSignature | this_Component_3= ruleComponent )
+            // InternalSimplepalladio.g:306:2: ( (this_Interface_0= ruleInterface | this_CompositeComponent_1= ruleCompositeComponent | this_Signature_2= ruleSignature | this_Component_3= ruleComponent ) )
+            // InternalSimplepalladio.g:307:2: (this_Interface_0= ruleInterface | this_CompositeComponent_1= ruleCompositeComponent | this_Signature_2= ruleSignature | this_Component_3= ruleComponent )
             {
-            // InternalSimplepalladio.g:269:2: (this_Interface_0= ruleInterface | this_CompositeComponent_1= ruleCompositeComponent | this_Signature_2= ruleSignature | this_Component_3= ruleComponent )
-            int alt2=4;
+            // InternalSimplepalladio.g:307:2: (this_Interface_0= ruleInterface | this_CompositeComponent_1= ruleCompositeComponent | this_Signature_2= ruleSignature | this_Component_3= ruleComponent )
+            int alt4=4;
             switch ( input.LA(1) ) {
             case 16:
                 {
-                alt2=1;
+                alt4=1;
                 }
                 break;
             case 20:
                 {
-                alt2=2;
+                alt4=2;
                 }
                 break;
             case 24:
                 {
-                alt2=3;
+                alt4=3;
                 }
                 break;
             case 27:
                 {
-                alt2=4;
+                alt4=4;
                 }
                 break;
             default:
                 NoViableAltException nvae =
-                    new NoViableAltException("", 2, 0, input);
+                    new NoViableAltException("", 4, 0, input);
 
                 throw nvae;
             }
 
-            switch (alt2) {
+            switch (alt4) {
                 case 1 :
-                    // InternalSimplepalladio.g:270:3: this_Interface_0= ruleInterface
+                    // InternalSimplepalladio.g:308:3: this_Interface_0= ruleInterface
                     {
 
                     			newCompositeNode(grammarAccess.getAbstractRepositoryElementAccess().getInterfaceParserRuleCall_0());
@@ -660,7 +748,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
                     }
                     break;
                 case 2 :
-                    // InternalSimplepalladio.g:279:3: this_CompositeComponent_1= ruleCompositeComponent
+                    // InternalSimplepalladio.g:317:3: this_CompositeComponent_1= ruleCompositeComponent
                     {
 
                     			newCompositeNode(grammarAccess.getAbstractRepositoryElementAccess().getCompositeComponentParserRuleCall_1());
@@ -678,7 +766,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
                     }
                     break;
                 case 3 :
-                    // InternalSimplepalladio.g:288:3: this_Signature_2= ruleSignature
+                    // InternalSimplepalladio.g:326:3: this_Signature_2= ruleSignature
                     {
 
                     			newCompositeNode(grammarAccess.getAbstractRepositoryElementAccess().getSignatureParserRuleCall_2());
@@ -696,7 +784,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
                     }
                     break;
                 case 4 :
-                    // InternalSimplepalladio.g:297:3: this_Component_3= ruleComponent
+                    // InternalSimplepalladio.g:335:3: this_Component_3= ruleComponent
                     {
 
                     			newCompositeNode(grammarAccess.getAbstractRepositoryElementAccess().getComponentParserRuleCall_3());
@@ -736,7 +824,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "entryRuleBehaviorElement"
-    // InternalSimplepalladio.g:309:1: entryRuleBehaviorElement returns [EObject current=null] : iv_ruleBehaviorElement= ruleBehaviorElement EOF ;
+    // InternalSimplepalladio.g:347:1: entryRuleBehaviorElement returns [EObject current=null] : iv_ruleBehaviorElement= ruleBehaviorElement EOF ;
     public final EObject entryRuleBehaviorElement() throws RecognitionException {
         EObject current = null;
 
@@ -744,8 +832,8 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
         try {
-            // InternalSimplepalladio.g:309:56: (iv_ruleBehaviorElement= ruleBehaviorElement EOF )
-            // InternalSimplepalladio.g:310:2: iv_ruleBehaviorElement= ruleBehaviorElement EOF
+            // InternalSimplepalladio.g:347:56: (iv_ruleBehaviorElement= ruleBehaviorElement EOF )
+            // InternalSimplepalladio.g:348:2: iv_ruleBehaviorElement= ruleBehaviorElement EOF
             {
              newCompositeNode(grammarAccess.getBehaviorElementRule()); 
             pushFollow(FOLLOW_1);
@@ -772,7 +860,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "ruleBehaviorElement"
-    // InternalSimplepalladio.g:316:1: ruleBehaviorElement returns [EObject current=null] : (this_InternalAction_0= ruleInternalAction | this_ExternalCall_1= ruleExternalCall | this_Loop_2= ruleLoop | this_Branch_3= ruleBranch ) ;
+    // InternalSimplepalladio.g:354:1: ruleBehaviorElement returns [EObject current=null] : (this_InternalAction_0= ruleInternalAction | this_ExternalCall_1= ruleExternalCall | this_Loop_2= ruleLoop | this_Branch_3= ruleBranch ) ;
     public final EObject ruleBehaviorElement() throws RecognitionException {
         EObject current = null;
 
@@ -789,42 +877,42 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
         	enterRule();
 
         try {
-            // InternalSimplepalladio.g:322:2: ( (this_InternalAction_0= ruleInternalAction | this_ExternalCall_1= ruleExternalCall | this_Loop_2= ruleLoop | this_Branch_3= ruleBranch ) )
-            // InternalSimplepalladio.g:323:2: (this_InternalAction_0= ruleInternalAction | this_ExternalCall_1= ruleExternalCall | this_Loop_2= ruleLoop | this_Branch_3= ruleBranch )
+            // InternalSimplepalladio.g:360:2: ( (this_InternalAction_0= ruleInternalAction | this_ExternalCall_1= ruleExternalCall | this_Loop_2= ruleLoop | this_Branch_3= ruleBranch ) )
+            // InternalSimplepalladio.g:361:2: (this_InternalAction_0= ruleInternalAction | this_ExternalCall_1= ruleExternalCall | this_Loop_2= ruleLoop | this_Branch_3= ruleBranch )
             {
-            // InternalSimplepalladio.g:323:2: (this_InternalAction_0= ruleInternalAction | this_ExternalCall_1= ruleExternalCall | this_Loop_2= ruleLoop | this_Branch_3= ruleBranch )
-            int alt3=4;
+            // InternalSimplepalladio.g:361:2: (this_InternalAction_0= ruleInternalAction | this_ExternalCall_1= ruleExternalCall | this_Loop_2= ruleLoop | this_Branch_3= ruleBranch )
+            int alt5=4;
             switch ( input.LA(1) ) {
             case 36:
                 {
-                alt3=1;
+                alt5=1;
                 }
                 break;
             case 37:
                 {
-                alt3=2;
+                alt5=2;
                 }
                 break;
             case 38:
                 {
-                alt3=3;
+                alt5=3;
                 }
                 break;
             case 39:
                 {
-                alt3=4;
+                alt5=4;
                 }
                 break;
             default:
                 NoViableAltException nvae =
-                    new NoViableAltException("", 3, 0, input);
+                    new NoViableAltException("", 5, 0, input);
 
                 throw nvae;
             }
 
-            switch (alt3) {
+            switch (alt5) {
                 case 1 :
-                    // InternalSimplepalladio.g:324:3: this_InternalAction_0= ruleInternalAction
+                    // InternalSimplepalladio.g:362:3: this_InternalAction_0= ruleInternalAction
                     {
 
                     			newCompositeNode(grammarAccess.getBehaviorElementAccess().getInternalActionParserRuleCall_0());
@@ -842,7 +930,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
                     }
                     break;
                 case 2 :
-                    // InternalSimplepalladio.g:333:3: this_ExternalCall_1= ruleExternalCall
+                    // InternalSimplepalladio.g:371:3: this_ExternalCall_1= ruleExternalCall
                     {
 
                     			newCompositeNode(grammarAccess.getBehaviorElementAccess().getExternalCallParserRuleCall_1());
@@ -860,7 +948,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
                     }
                     break;
                 case 3 :
-                    // InternalSimplepalladio.g:342:3: this_Loop_2= ruleLoop
+                    // InternalSimplepalladio.g:380:3: this_Loop_2= ruleLoop
                     {
 
                     			newCompositeNode(grammarAccess.getBehaviorElementAccess().getLoopParserRuleCall_2());
@@ -878,7 +966,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
                     }
                     break;
                 case 4 :
-                    // InternalSimplepalladio.g:351:3: this_Branch_3= ruleBranch
+                    // InternalSimplepalladio.g:389:3: this_Branch_3= ruleBranch
                     {
 
                     			newCompositeNode(grammarAccess.getBehaviorElementAccess().getBranchParserRuleCall_3());
@@ -918,7 +1006,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "entryRuleEString"
-    // InternalSimplepalladio.g:363:1: entryRuleEString returns [String current=null] : iv_ruleEString= ruleEString EOF ;
+    // InternalSimplepalladio.g:401:1: entryRuleEString returns [String current=null] : iv_ruleEString= ruleEString EOF ;
     public final String entryRuleEString() throws RecognitionException {
         String current = null;
 
@@ -926,8 +1014,8 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
         try {
-            // InternalSimplepalladio.g:363:47: (iv_ruleEString= ruleEString EOF )
-            // InternalSimplepalladio.g:364:2: iv_ruleEString= ruleEString EOF
+            // InternalSimplepalladio.g:401:47: (iv_ruleEString= ruleEString EOF )
+            // InternalSimplepalladio.g:402:2: iv_ruleEString= ruleEString EOF
             {
              newCompositeNode(grammarAccess.getEStringRule()); 
             pushFollow(FOLLOW_1);
@@ -954,7 +1042,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "ruleEString"
-    // InternalSimplepalladio.g:370:1: ruleEString returns [AntlrDatatypeRuleToken current=new AntlrDatatypeRuleToken()] : (this_STRING_0= RULE_STRING | this_ID_1= RULE_ID ) ;
+    // InternalSimplepalladio.g:408:1: ruleEString returns [AntlrDatatypeRuleToken current=new AntlrDatatypeRuleToken()] : (this_STRING_0= RULE_STRING | this_ID_1= RULE_ID ) ;
     public final AntlrDatatypeRuleToken ruleEString() throws RecognitionException {
         AntlrDatatypeRuleToken current = new AntlrDatatypeRuleToken();
 
@@ -965,28 +1053,28 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
         	enterRule();
 
         try {
-            // InternalSimplepalladio.g:376:2: ( (this_STRING_0= RULE_STRING | this_ID_1= RULE_ID ) )
-            // InternalSimplepalladio.g:377:2: (this_STRING_0= RULE_STRING | this_ID_1= RULE_ID )
+            // InternalSimplepalladio.g:414:2: ( (this_STRING_0= RULE_STRING | this_ID_1= RULE_ID ) )
+            // InternalSimplepalladio.g:415:2: (this_STRING_0= RULE_STRING | this_ID_1= RULE_ID )
             {
-            // InternalSimplepalladio.g:377:2: (this_STRING_0= RULE_STRING | this_ID_1= RULE_ID )
-            int alt4=2;
-            int LA4_0 = input.LA(1);
+            // InternalSimplepalladio.g:415:2: (this_STRING_0= RULE_STRING | this_ID_1= RULE_ID )
+            int alt6=2;
+            int LA6_0 = input.LA(1);
 
-            if ( (LA4_0==RULE_STRING) ) {
-                alt4=1;
+            if ( (LA6_0==RULE_STRING) ) {
+                alt6=1;
             }
-            else if ( (LA4_0==RULE_ID) ) {
-                alt4=2;
+            else if ( (LA6_0==RULE_ID) ) {
+                alt6=2;
             }
             else {
                 NoViableAltException nvae =
-                    new NoViableAltException("", 4, 0, input);
+                    new NoViableAltException("", 6, 0, input);
 
                 throw nvae;
             }
-            switch (alt4) {
+            switch (alt6) {
                 case 1 :
-                    // InternalSimplepalladio.g:378:3: this_STRING_0= RULE_STRING
+                    // InternalSimplepalladio.g:416:3: this_STRING_0= RULE_STRING
                     {
                     this_STRING_0=(Token)match(input,RULE_STRING,FOLLOW_2); 
 
@@ -999,7 +1087,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
                     }
                     break;
                 case 2 :
-                    // InternalSimplepalladio.g:386:3: this_ID_1= RULE_ID
+                    // InternalSimplepalladio.g:424:3: this_ID_1= RULE_ID
                     {
                     this_ID_1=(Token)match(input,RULE_ID,FOLLOW_2); 
 
@@ -1034,7 +1122,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "entryRuleInterface"
-    // InternalSimplepalladio.g:397:1: entryRuleInterface returns [EObject current=null] : iv_ruleInterface= ruleInterface EOF ;
+    // InternalSimplepalladio.g:435:1: entryRuleInterface returns [EObject current=null] : iv_ruleInterface= ruleInterface EOF ;
     public final EObject entryRuleInterface() throws RecognitionException {
         EObject current = null;
 
@@ -1042,8 +1130,8 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
         try {
-            // InternalSimplepalladio.g:397:50: (iv_ruleInterface= ruleInterface EOF )
-            // InternalSimplepalladio.g:398:2: iv_ruleInterface= ruleInterface EOF
+            // InternalSimplepalladio.g:435:50: (iv_ruleInterface= ruleInterface EOF )
+            // InternalSimplepalladio.g:436:2: iv_ruleInterface= ruleInterface EOF
             {
              newCompositeNode(grammarAccess.getInterfaceRule()); 
             pushFollow(FOLLOW_1);
@@ -1070,7 +1158,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "ruleInterface"
-    // InternalSimplepalladio.g:404:1: ruleInterface returns [EObject current=null] : (otherlv_0= 'Interface' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'signatures' otherlv_4= '(' ( ( ruleEString ) ) (otherlv_6= ',' ( ( ruleEString ) ) )* otherlv_8= ')' otherlv_9= '}' ) ;
+    // InternalSimplepalladio.g:442:1: ruleInterface returns [EObject current=null] : (otherlv_0= 'Interface' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'signatures' otherlv_4= '(' ( ( ruleEString ) ) (otherlv_6= ',' ( ( ruleEString ) ) )* otherlv_8= ')' otherlv_9= '}' ) ;
     public final EObject ruleInterface() throws RecognitionException {
         EObject current = null;
 
@@ -1088,21 +1176,21 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
         	enterRule();
 
         try {
-            // InternalSimplepalladio.g:410:2: ( (otherlv_0= 'Interface' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'signatures' otherlv_4= '(' ( ( ruleEString ) ) (otherlv_6= ',' ( ( ruleEString ) ) )* otherlv_8= ')' otherlv_9= '}' ) )
-            // InternalSimplepalladio.g:411:2: (otherlv_0= 'Interface' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'signatures' otherlv_4= '(' ( ( ruleEString ) ) (otherlv_6= ',' ( ( ruleEString ) ) )* otherlv_8= ')' otherlv_9= '}' )
+            // InternalSimplepalladio.g:448:2: ( (otherlv_0= 'Interface' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'signatures' otherlv_4= '(' ( ( ruleEString ) ) (otherlv_6= ',' ( ( ruleEString ) ) )* otherlv_8= ')' otherlv_9= '}' ) )
+            // InternalSimplepalladio.g:449:2: (otherlv_0= 'Interface' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'signatures' otherlv_4= '(' ( ( ruleEString ) ) (otherlv_6= ',' ( ( ruleEString ) ) )* otherlv_8= ')' otherlv_9= '}' )
             {
-            // InternalSimplepalladio.g:411:2: (otherlv_0= 'Interface' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'signatures' otherlv_4= '(' ( ( ruleEString ) ) (otherlv_6= ',' ( ( ruleEString ) ) )* otherlv_8= ')' otherlv_9= '}' )
-            // InternalSimplepalladio.g:412:3: otherlv_0= 'Interface' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'signatures' otherlv_4= '(' ( ( ruleEString ) ) (otherlv_6= ',' ( ( ruleEString ) ) )* otherlv_8= ')' otherlv_9= '}'
+            // InternalSimplepalladio.g:449:2: (otherlv_0= 'Interface' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'signatures' otherlv_4= '(' ( ( ruleEString ) ) (otherlv_6= ',' ( ( ruleEString ) ) )* otherlv_8= ')' otherlv_9= '}' )
+            // InternalSimplepalladio.g:450:3: otherlv_0= 'Interface' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'signatures' otherlv_4= '(' ( ( ruleEString ) ) (otherlv_6= ',' ( ( ruleEString ) ) )* otherlv_8= ')' otherlv_9= '}'
             {
             otherlv_0=(Token)match(input,16,FOLLOW_12); 
 
             			newLeafNode(otherlv_0, grammarAccess.getInterfaceAccess().getInterfaceKeyword_0());
             		
-            // InternalSimplepalladio.g:416:3: ( (lv_name_1_0= ruleEString ) )
-            // InternalSimplepalladio.g:417:4: (lv_name_1_0= ruleEString )
+            // InternalSimplepalladio.g:454:3: ( (lv_name_1_0= ruleEString ) )
+            // InternalSimplepalladio.g:455:4: (lv_name_1_0= ruleEString )
             {
-            // InternalSimplepalladio.g:417:4: (lv_name_1_0= ruleEString )
-            // InternalSimplepalladio.g:418:5: lv_name_1_0= ruleEString
+            // InternalSimplepalladio.g:455:4: (lv_name_1_0= ruleEString )
+            // InternalSimplepalladio.g:456:5: lv_name_1_0= ruleEString
             {
 
             					newCompositeNode(grammarAccess.getInterfaceAccess().getNameEStringParserRuleCall_1_0());
@@ -1141,11 +1229,11 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
             			newLeafNode(otherlv_4, grammarAccess.getInterfaceAccess().getLeftParenthesisKeyword_4());
             		
-            // InternalSimplepalladio.g:447:3: ( ( ruleEString ) )
-            // InternalSimplepalladio.g:448:4: ( ruleEString )
+            // InternalSimplepalladio.g:485:3: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:486:4: ( ruleEString )
             {
-            // InternalSimplepalladio.g:448:4: ( ruleEString )
-            // InternalSimplepalladio.g:449:5: ruleEString
+            // InternalSimplepalladio.g:486:4: ( ruleEString )
+            // InternalSimplepalladio.g:487:5: ruleEString
             {
 
             					if (current==null) {
@@ -1169,30 +1257,30 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
             }
 
-            // InternalSimplepalladio.g:463:3: (otherlv_6= ',' ( ( ruleEString ) ) )*
-            loop5:
+            // InternalSimplepalladio.g:501:3: (otherlv_6= ',' ( ( ruleEString ) ) )*
+            loop7:
             do {
-                int alt5=2;
-                int LA5_0 = input.LA(1);
+                int alt7=2;
+                int LA7_0 = input.LA(1);
 
-                if ( (LA5_0==15) ) {
-                    alt5=1;
+                if ( (LA7_0==15) ) {
+                    alt7=1;
                 }
 
 
-                switch (alt5) {
+                switch (alt7) {
             	case 1 :
-            	    // InternalSimplepalladio.g:464:4: otherlv_6= ',' ( ( ruleEString ) )
+            	    // InternalSimplepalladio.g:502:4: otherlv_6= ',' ( ( ruleEString ) )
             	    {
             	    otherlv_6=(Token)match(input,15,FOLLOW_12); 
 
             	    				newLeafNode(otherlv_6, grammarAccess.getInterfaceAccess().getCommaKeyword_6_0());
             	    			
-            	    // InternalSimplepalladio.g:468:4: ( ( ruleEString ) )
-            	    // InternalSimplepalladio.g:469:5: ( ruleEString )
+            	    // InternalSimplepalladio.g:506:4: ( ( ruleEString ) )
+            	    // InternalSimplepalladio.g:507:5: ( ruleEString )
             	    {
-            	    // InternalSimplepalladio.g:469:5: ( ruleEString )
-            	    // InternalSimplepalladio.g:470:6: ruleEString
+            	    // InternalSimplepalladio.g:507:5: ( ruleEString )
+            	    // InternalSimplepalladio.g:508:6: ruleEString
             	    {
 
             	    						if (current==null) {
@@ -1221,7 +1309,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
             	    break;
 
             	default :
-            	    break loop5;
+            	    break loop7;
                 }
             } while (true);
 
@@ -1256,7 +1344,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "entryRuleCompositeComponent"
-    // InternalSimplepalladio.g:497:1: entryRuleCompositeComponent returns [EObject current=null] : iv_ruleCompositeComponent= ruleCompositeComponent EOF ;
+    // InternalSimplepalladio.g:535:1: entryRuleCompositeComponent returns [EObject current=null] : iv_ruleCompositeComponent= ruleCompositeComponent EOF ;
     public final EObject entryRuleCompositeComponent() throws RecognitionException {
         EObject current = null;
 
@@ -1264,8 +1352,8 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
         try {
-            // InternalSimplepalladio.g:497:59: (iv_ruleCompositeComponent= ruleCompositeComponent EOF )
-            // InternalSimplepalladio.g:498:2: iv_ruleCompositeComponent= ruleCompositeComponent EOF
+            // InternalSimplepalladio.g:535:59: (iv_ruleCompositeComponent= ruleCompositeComponent EOF )
+            // InternalSimplepalladio.g:536:2: iv_ruleCompositeComponent= ruleCompositeComponent EOF
             {
              newCompositeNode(grammarAccess.getCompositeComponentRule()); 
             pushFollow(FOLLOW_1);
@@ -1292,7 +1380,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "ruleCompositeComponent"
-    // InternalSimplepalladio.g:504:1: ruleCompositeComponent returns [EObject current=null] : (otherlv_0= 'CompositeComponent' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' (otherlv_3= 'requiredInterfaces' otherlv_4= '(' ( ( ruleEString ) ) (otherlv_6= ',' ( ( ruleEString ) ) )* otherlv_8= ')' )? otherlv_9= 'providedInterfaces' otherlv_10= '(' ( ( ruleEString ) ) (otherlv_12= ',' ( ( ruleEString ) ) )* otherlv_14= ')' otherlv_15= 'system' ( ( ruleQualifiedName ) ) otherlv_17= '}' ) ;
+    // InternalSimplepalladio.g:542:1: ruleCompositeComponent returns [EObject current=null] : (otherlv_0= 'CompositeComponent' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' (otherlv_3= 'requiredInterfaces' otherlv_4= '(' ( ( ruleEString ) ) (otherlv_6= ',' ( ( ruleEString ) ) )* otherlv_8= ')' )? otherlv_9= 'providedInterfaces' otherlv_10= '(' ( ( ruleEString ) ) (otherlv_12= ',' ( ( ruleEString ) ) )* otherlv_14= ')' otherlv_15= 'system' ( ( ruleQualifiedName ) ) otherlv_17= '}' ) ;
     public final EObject ruleCompositeComponent() throws RecognitionException {
         EObject current = null;
 
@@ -1315,21 +1403,21 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
         	enterRule();
 
         try {
-            // InternalSimplepalladio.g:510:2: ( (otherlv_0= 'CompositeComponent' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' (otherlv_3= 'requiredInterfaces' otherlv_4= '(' ( ( ruleEString ) ) (otherlv_6= ',' ( ( ruleEString ) ) )* otherlv_8= ')' )? otherlv_9= 'providedInterfaces' otherlv_10= '(' ( ( ruleEString ) ) (otherlv_12= ',' ( ( ruleEString ) ) )* otherlv_14= ')' otherlv_15= 'system' ( ( ruleQualifiedName ) ) otherlv_17= '}' ) )
-            // InternalSimplepalladio.g:511:2: (otherlv_0= 'CompositeComponent' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' (otherlv_3= 'requiredInterfaces' otherlv_4= '(' ( ( ruleEString ) ) (otherlv_6= ',' ( ( ruleEString ) ) )* otherlv_8= ')' )? otherlv_9= 'providedInterfaces' otherlv_10= '(' ( ( ruleEString ) ) (otherlv_12= ',' ( ( ruleEString ) ) )* otherlv_14= ')' otherlv_15= 'system' ( ( ruleQualifiedName ) ) otherlv_17= '}' )
+            // InternalSimplepalladio.g:548:2: ( (otherlv_0= 'CompositeComponent' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' (otherlv_3= 'requiredInterfaces' otherlv_4= '(' ( ( ruleEString ) ) (otherlv_6= ',' ( ( ruleEString ) ) )* otherlv_8= ')' )? otherlv_9= 'providedInterfaces' otherlv_10= '(' ( ( ruleEString ) ) (otherlv_12= ',' ( ( ruleEString ) ) )* otherlv_14= ')' otherlv_15= 'system' ( ( ruleQualifiedName ) ) otherlv_17= '}' ) )
+            // InternalSimplepalladio.g:549:2: (otherlv_0= 'CompositeComponent' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' (otherlv_3= 'requiredInterfaces' otherlv_4= '(' ( ( ruleEString ) ) (otherlv_6= ',' ( ( ruleEString ) ) )* otherlv_8= ')' )? otherlv_9= 'providedInterfaces' otherlv_10= '(' ( ( ruleEString ) ) (otherlv_12= ',' ( ( ruleEString ) ) )* otherlv_14= ')' otherlv_15= 'system' ( ( ruleQualifiedName ) ) otherlv_17= '}' )
             {
-            // InternalSimplepalladio.g:511:2: (otherlv_0= 'CompositeComponent' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' (otherlv_3= 'requiredInterfaces' otherlv_4= '(' ( ( ruleEString ) ) (otherlv_6= ',' ( ( ruleEString ) ) )* otherlv_8= ')' )? otherlv_9= 'providedInterfaces' otherlv_10= '(' ( ( ruleEString ) ) (otherlv_12= ',' ( ( ruleEString ) ) )* otherlv_14= ')' otherlv_15= 'system' ( ( ruleQualifiedName ) ) otherlv_17= '}' )
-            // InternalSimplepalladio.g:512:3: otherlv_0= 'CompositeComponent' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' (otherlv_3= 'requiredInterfaces' otherlv_4= '(' ( ( ruleEString ) ) (otherlv_6= ',' ( ( ruleEString ) ) )* otherlv_8= ')' )? otherlv_9= 'providedInterfaces' otherlv_10= '(' ( ( ruleEString ) ) (otherlv_12= ',' ( ( ruleEString ) ) )* otherlv_14= ')' otherlv_15= 'system' ( ( ruleQualifiedName ) ) otherlv_17= '}'
+            // InternalSimplepalladio.g:549:2: (otherlv_0= 'CompositeComponent' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' (otherlv_3= 'requiredInterfaces' otherlv_4= '(' ( ( ruleEString ) ) (otherlv_6= ',' ( ( ruleEString ) ) )* otherlv_8= ')' )? otherlv_9= 'providedInterfaces' otherlv_10= '(' ( ( ruleEString ) ) (otherlv_12= ',' ( ( ruleEString ) ) )* otherlv_14= ')' otherlv_15= 'system' ( ( ruleQualifiedName ) ) otherlv_17= '}' )
+            // InternalSimplepalladio.g:550:3: otherlv_0= 'CompositeComponent' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' (otherlv_3= 'requiredInterfaces' otherlv_4= '(' ( ( ruleEString ) ) (otherlv_6= ',' ( ( ruleEString ) ) )* otherlv_8= ')' )? otherlv_9= 'providedInterfaces' otherlv_10= '(' ( ( ruleEString ) ) (otherlv_12= ',' ( ( ruleEString ) ) )* otherlv_14= ')' otherlv_15= 'system' ( ( ruleQualifiedName ) ) otherlv_17= '}'
             {
             otherlv_0=(Token)match(input,20,FOLLOW_12); 
 
             			newLeafNode(otherlv_0, grammarAccess.getCompositeComponentAccess().getCompositeComponentKeyword_0());
             		
-            // InternalSimplepalladio.g:516:3: ( (lv_name_1_0= ruleEString ) )
-            // InternalSimplepalladio.g:517:4: (lv_name_1_0= ruleEString )
+            // InternalSimplepalladio.g:554:3: ( (lv_name_1_0= ruleEString ) )
+            // InternalSimplepalladio.g:555:4: (lv_name_1_0= ruleEString )
             {
-            // InternalSimplepalladio.g:517:4: (lv_name_1_0= ruleEString )
-            // InternalSimplepalladio.g:518:5: lv_name_1_0= ruleEString
+            // InternalSimplepalladio.g:555:4: (lv_name_1_0= ruleEString )
+            // InternalSimplepalladio.g:556:5: lv_name_1_0= ruleEString
             {
 
             					newCompositeNode(grammarAccess.getCompositeComponentAccess().getNameEStringParserRuleCall_1_0());
@@ -1360,16 +1448,16 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
             			newLeafNode(otherlv_2, grammarAccess.getCompositeComponentAccess().getLeftCurlyBracketKeyword_2());
             		
-            // InternalSimplepalladio.g:539:3: (otherlv_3= 'requiredInterfaces' otherlv_4= '(' ( ( ruleEString ) ) (otherlv_6= ',' ( ( ruleEString ) ) )* otherlv_8= ')' )?
-            int alt7=2;
-            int LA7_0 = input.LA(1);
+            // InternalSimplepalladio.g:577:3: (otherlv_3= 'requiredInterfaces' otherlv_4= '(' ( ( ruleEString ) ) (otherlv_6= ',' ( ( ruleEString ) ) )* otherlv_8= ')' )?
+            int alt9=2;
+            int LA9_0 = input.LA(1);
 
-            if ( (LA7_0==21) ) {
-                alt7=1;
+            if ( (LA9_0==21) ) {
+                alt9=1;
             }
-            switch (alt7) {
+            switch (alt9) {
                 case 1 :
-                    // InternalSimplepalladio.g:540:4: otherlv_3= 'requiredInterfaces' otherlv_4= '(' ( ( ruleEString ) ) (otherlv_6= ',' ( ( ruleEString ) ) )* otherlv_8= ')'
+                    // InternalSimplepalladio.g:578:4: otherlv_3= 'requiredInterfaces' otherlv_4= '(' ( ( ruleEString ) ) (otherlv_6= ',' ( ( ruleEString ) ) )* otherlv_8= ')'
                     {
                     otherlv_3=(Token)match(input,21,FOLLOW_14); 
 
@@ -1379,11 +1467,11 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
                     				newLeafNode(otherlv_4, grammarAccess.getCompositeComponentAccess().getLeftParenthesisKeyword_3_1());
                     			
-                    // InternalSimplepalladio.g:548:4: ( ( ruleEString ) )
-                    // InternalSimplepalladio.g:549:5: ( ruleEString )
+                    // InternalSimplepalladio.g:586:4: ( ( ruleEString ) )
+                    // InternalSimplepalladio.g:587:5: ( ruleEString )
                     {
-                    // InternalSimplepalladio.g:549:5: ( ruleEString )
-                    // InternalSimplepalladio.g:550:6: ruleEString
+                    // InternalSimplepalladio.g:587:5: ( ruleEString )
+                    // InternalSimplepalladio.g:588:6: ruleEString
                     {
 
                     						if (current==null) {
@@ -1407,30 +1495,30 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
                     }
 
-                    // InternalSimplepalladio.g:564:4: (otherlv_6= ',' ( ( ruleEString ) ) )*
-                    loop6:
+                    // InternalSimplepalladio.g:602:4: (otherlv_6= ',' ( ( ruleEString ) ) )*
+                    loop8:
                     do {
-                        int alt6=2;
-                        int LA6_0 = input.LA(1);
+                        int alt8=2;
+                        int LA8_0 = input.LA(1);
 
-                        if ( (LA6_0==15) ) {
-                            alt6=1;
+                        if ( (LA8_0==15) ) {
+                            alt8=1;
                         }
 
 
-                        switch (alt6) {
+                        switch (alt8) {
                     	case 1 :
-                    	    // InternalSimplepalladio.g:565:5: otherlv_6= ',' ( ( ruleEString ) )
+                    	    // InternalSimplepalladio.g:603:5: otherlv_6= ',' ( ( ruleEString ) )
                     	    {
                     	    otherlv_6=(Token)match(input,15,FOLLOW_12); 
 
                     	    					newLeafNode(otherlv_6, grammarAccess.getCompositeComponentAccess().getCommaKeyword_3_3_0());
                     	    				
-                    	    // InternalSimplepalladio.g:569:5: ( ( ruleEString ) )
-                    	    // InternalSimplepalladio.g:570:6: ( ruleEString )
+                    	    // InternalSimplepalladio.g:607:5: ( ( ruleEString ) )
+                    	    // InternalSimplepalladio.g:608:6: ( ruleEString )
                     	    {
-                    	    // InternalSimplepalladio.g:570:6: ( ruleEString )
-                    	    // InternalSimplepalladio.g:571:7: ruleEString
+                    	    // InternalSimplepalladio.g:608:6: ( ruleEString )
+                    	    // InternalSimplepalladio.g:609:7: ruleEString
                     	    {
 
                     	    							if (current==null) {
@@ -1459,7 +1547,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
                     	    break;
 
                     	default :
-                    	    break loop6;
+                    	    break loop8;
                         }
                     } while (true);
 
@@ -1481,11 +1569,11 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
             			newLeafNode(otherlv_10, grammarAccess.getCompositeComponentAccess().getLeftParenthesisKeyword_5());
             		
-            // InternalSimplepalladio.g:599:3: ( ( ruleEString ) )
-            // InternalSimplepalladio.g:600:4: ( ruleEString )
+            // InternalSimplepalladio.g:637:3: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:638:4: ( ruleEString )
             {
-            // InternalSimplepalladio.g:600:4: ( ruleEString )
-            // InternalSimplepalladio.g:601:5: ruleEString
+            // InternalSimplepalladio.g:638:4: ( ruleEString )
+            // InternalSimplepalladio.g:639:5: ruleEString
             {
 
             					if (current==null) {
@@ -1509,30 +1597,30 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
             }
 
-            // InternalSimplepalladio.g:615:3: (otherlv_12= ',' ( ( ruleEString ) ) )*
-            loop8:
+            // InternalSimplepalladio.g:653:3: (otherlv_12= ',' ( ( ruleEString ) ) )*
+            loop10:
             do {
-                int alt8=2;
-                int LA8_0 = input.LA(1);
+                int alt10=2;
+                int LA10_0 = input.LA(1);
 
-                if ( (LA8_0==15) ) {
-                    alt8=1;
+                if ( (LA10_0==15) ) {
+                    alt10=1;
                 }
 
 
-                switch (alt8) {
+                switch (alt10) {
             	case 1 :
-            	    // InternalSimplepalladio.g:616:4: otherlv_12= ',' ( ( ruleEString ) )
+            	    // InternalSimplepalladio.g:654:4: otherlv_12= ',' ( ( ruleEString ) )
             	    {
             	    otherlv_12=(Token)match(input,15,FOLLOW_12); 
 
             	    				newLeafNode(otherlv_12, grammarAccess.getCompositeComponentAccess().getCommaKeyword_7_0());
             	    			
-            	    // InternalSimplepalladio.g:620:4: ( ( ruleEString ) )
-            	    // InternalSimplepalladio.g:621:5: ( ruleEString )
+            	    // InternalSimplepalladio.g:658:4: ( ( ruleEString ) )
+            	    // InternalSimplepalladio.g:659:5: ( ruleEString )
             	    {
-            	    // InternalSimplepalladio.g:621:5: ( ruleEString )
-            	    // InternalSimplepalladio.g:622:6: ruleEString
+            	    // InternalSimplepalladio.g:659:5: ( ruleEString )
+            	    // InternalSimplepalladio.g:660:6: ruleEString
             	    {
 
             	    						if (current==null) {
@@ -1561,7 +1649,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
             	    break;
 
             	default :
-            	    break loop8;
+            	    break loop10;
                 }
             } while (true);
 
@@ -1573,11 +1661,11 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
             			newLeafNode(otherlv_15, grammarAccess.getCompositeComponentAccess().getSystemKeyword_9());
             		
-            // InternalSimplepalladio.g:645:3: ( ( ruleQualifiedName ) )
-            // InternalSimplepalladio.g:646:4: ( ruleQualifiedName )
+            // InternalSimplepalladio.g:683:3: ( ( ruleQualifiedName ) )
+            // InternalSimplepalladio.g:684:4: ( ruleQualifiedName )
             {
-            // InternalSimplepalladio.g:646:4: ( ruleQualifiedName )
-            // InternalSimplepalladio.g:647:5: ruleQualifiedName
+            // InternalSimplepalladio.g:684:4: ( ruleQualifiedName )
+            // InternalSimplepalladio.g:685:5: ruleQualifiedName
             {
 
             					if (current==null) {
@@ -1628,7 +1716,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "entryRuleSignature"
-    // InternalSimplepalladio.g:669:1: entryRuleSignature returns [EObject current=null] : iv_ruleSignature= ruleSignature EOF ;
+    // InternalSimplepalladio.g:707:1: entryRuleSignature returns [EObject current=null] : iv_ruleSignature= ruleSignature EOF ;
     public final EObject entryRuleSignature() throws RecognitionException {
         EObject current = null;
 
@@ -1636,8 +1724,8 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
         try {
-            // InternalSimplepalladio.g:669:50: (iv_ruleSignature= ruleSignature EOF )
-            // InternalSimplepalladio.g:670:2: iv_ruleSignature= ruleSignature EOF
+            // InternalSimplepalladio.g:707:50: (iv_ruleSignature= ruleSignature EOF )
+            // InternalSimplepalladio.g:708:2: iv_ruleSignature= ruleSignature EOF
             {
              newCompositeNode(grammarAccess.getSignatureRule()); 
             pushFollow(FOLLOW_1);
@@ -1664,7 +1752,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "ruleSignature"
-    // InternalSimplepalladio.g:676:1: ruleSignature returns [EObject current=null] : (otherlv_0= 'Signature' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'returnValue' ( (lv_returnValue_4_0= ruleType ) ) (otherlv_5= 'parameters' otherlv_6= '{' ( (lv_parameters_7_0= ruleParameter ) ) (otherlv_8= ',' ( (lv_parameters_9_0= ruleParameter ) ) )* otherlv_10= '}' )? otherlv_11= '}' ) ;
+    // InternalSimplepalladio.g:714:1: ruleSignature returns [EObject current=null] : (otherlv_0= 'Signature' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'returnValue' ( (lv_returnValue_4_0= ruleType ) ) (otherlv_5= 'parameters' otherlv_6= '{' ( (lv_parameters_7_0= ruleParameter ) ) (otherlv_8= ',' ( (lv_parameters_9_0= ruleParameter ) ) )* otherlv_10= '}' )? otherlv_11= '}' ) ;
     public final EObject ruleSignature() throws RecognitionException {
         EObject current = null;
 
@@ -1689,21 +1777,21 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
         	enterRule();
 
         try {
-            // InternalSimplepalladio.g:682:2: ( (otherlv_0= 'Signature' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'returnValue' ( (lv_returnValue_4_0= ruleType ) ) (otherlv_5= 'parameters' otherlv_6= '{' ( (lv_parameters_7_0= ruleParameter ) ) (otherlv_8= ',' ( (lv_parameters_9_0= ruleParameter ) ) )* otherlv_10= '}' )? otherlv_11= '}' ) )
-            // InternalSimplepalladio.g:683:2: (otherlv_0= 'Signature' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'returnValue' ( (lv_returnValue_4_0= ruleType ) ) (otherlv_5= 'parameters' otherlv_6= '{' ( (lv_parameters_7_0= ruleParameter ) ) (otherlv_8= ',' ( (lv_parameters_9_0= ruleParameter ) ) )* otherlv_10= '}' )? otherlv_11= '}' )
+            // InternalSimplepalladio.g:720:2: ( (otherlv_0= 'Signature' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'returnValue' ( (lv_returnValue_4_0= ruleType ) ) (otherlv_5= 'parameters' otherlv_6= '{' ( (lv_parameters_7_0= ruleParameter ) ) (otherlv_8= ',' ( (lv_parameters_9_0= ruleParameter ) ) )* otherlv_10= '}' )? otherlv_11= '}' ) )
+            // InternalSimplepalladio.g:721:2: (otherlv_0= 'Signature' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'returnValue' ( (lv_returnValue_4_0= ruleType ) ) (otherlv_5= 'parameters' otherlv_6= '{' ( (lv_parameters_7_0= ruleParameter ) ) (otherlv_8= ',' ( (lv_parameters_9_0= ruleParameter ) ) )* otherlv_10= '}' )? otherlv_11= '}' )
             {
-            // InternalSimplepalladio.g:683:2: (otherlv_0= 'Signature' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'returnValue' ( (lv_returnValue_4_0= ruleType ) ) (otherlv_5= 'parameters' otherlv_6= '{' ( (lv_parameters_7_0= ruleParameter ) ) (otherlv_8= ',' ( (lv_parameters_9_0= ruleParameter ) ) )* otherlv_10= '}' )? otherlv_11= '}' )
-            // InternalSimplepalladio.g:684:3: otherlv_0= 'Signature' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'returnValue' ( (lv_returnValue_4_0= ruleType ) ) (otherlv_5= 'parameters' otherlv_6= '{' ( (lv_parameters_7_0= ruleParameter ) ) (otherlv_8= ',' ( (lv_parameters_9_0= ruleParameter ) ) )* otherlv_10= '}' )? otherlv_11= '}'
+            // InternalSimplepalladio.g:721:2: (otherlv_0= 'Signature' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'returnValue' ( (lv_returnValue_4_0= ruleType ) ) (otherlv_5= 'parameters' otherlv_6= '{' ( (lv_parameters_7_0= ruleParameter ) ) (otherlv_8= ',' ( (lv_parameters_9_0= ruleParameter ) ) )* otherlv_10= '}' )? otherlv_11= '}' )
+            // InternalSimplepalladio.g:722:3: otherlv_0= 'Signature' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'returnValue' ( (lv_returnValue_4_0= ruleType ) ) (otherlv_5= 'parameters' otherlv_6= '{' ( (lv_parameters_7_0= ruleParameter ) ) (otherlv_8= ',' ( (lv_parameters_9_0= ruleParameter ) ) )* otherlv_10= '}' )? otherlv_11= '}'
             {
             otherlv_0=(Token)match(input,24,FOLLOW_12); 
 
             			newLeafNode(otherlv_0, grammarAccess.getSignatureAccess().getSignatureKeyword_0());
             		
-            // InternalSimplepalladio.g:688:3: ( (lv_name_1_0= ruleEString ) )
-            // InternalSimplepalladio.g:689:4: (lv_name_1_0= ruleEString )
+            // InternalSimplepalladio.g:726:3: ( (lv_name_1_0= ruleEString ) )
+            // InternalSimplepalladio.g:727:4: (lv_name_1_0= ruleEString )
             {
-            // InternalSimplepalladio.g:689:4: (lv_name_1_0= ruleEString )
-            // InternalSimplepalladio.g:690:5: lv_name_1_0= ruleEString
+            // InternalSimplepalladio.g:727:4: (lv_name_1_0= ruleEString )
+            // InternalSimplepalladio.g:728:5: lv_name_1_0= ruleEString
             {
 
             					newCompositeNode(grammarAccess.getSignatureAccess().getNameEStringParserRuleCall_1_0());
@@ -1738,11 +1826,11 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
             			newLeafNode(otherlv_3, grammarAccess.getSignatureAccess().getReturnValueKeyword_3());
             		
-            // InternalSimplepalladio.g:715:3: ( (lv_returnValue_4_0= ruleType ) )
-            // InternalSimplepalladio.g:716:4: (lv_returnValue_4_0= ruleType )
+            // InternalSimplepalladio.g:753:3: ( (lv_returnValue_4_0= ruleType ) )
+            // InternalSimplepalladio.g:754:4: (lv_returnValue_4_0= ruleType )
             {
-            // InternalSimplepalladio.g:716:4: (lv_returnValue_4_0= ruleType )
-            // InternalSimplepalladio.g:717:5: lv_returnValue_4_0= ruleType
+            // InternalSimplepalladio.g:754:4: (lv_returnValue_4_0= ruleType )
+            // InternalSimplepalladio.g:755:5: lv_returnValue_4_0= ruleType
             {
 
             					newCompositeNode(grammarAccess.getSignatureAccess().getReturnValueTypeEnumRuleCall_4_0());
@@ -1769,16 +1857,16 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
             }
 
-            // InternalSimplepalladio.g:734:3: (otherlv_5= 'parameters' otherlv_6= '{' ( (lv_parameters_7_0= ruleParameter ) ) (otherlv_8= ',' ( (lv_parameters_9_0= ruleParameter ) ) )* otherlv_10= '}' )?
-            int alt10=2;
-            int LA10_0 = input.LA(1);
+            // InternalSimplepalladio.g:772:3: (otherlv_5= 'parameters' otherlv_6= '{' ( (lv_parameters_7_0= ruleParameter ) ) (otherlv_8= ',' ( (lv_parameters_9_0= ruleParameter ) ) )* otherlv_10= '}' )?
+            int alt12=2;
+            int LA12_0 = input.LA(1);
 
-            if ( (LA10_0==26) ) {
-                alt10=1;
+            if ( (LA12_0==26) ) {
+                alt12=1;
             }
-            switch (alt10) {
+            switch (alt12) {
                 case 1 :
-                    // InternalSimplepalladio.g:735:4: otherlv_5= 'parameters' otherlv_6= '{' ( (lv_parameters_7_0= ruleParameter ) ) (otherlv_8= ',' ( (lv_parameters_9_0= ruleParameter ) ) )* otherlv_10= '}'
+                    // InternalSimplepalladio.g:773:4: otherlv_5= 'parameters' otherlv_6= '{' ( (lv_parameters_7_0= ruleParameter ) ) (otherlv_8= ',' ( (lv_parameters_9_0= ruleParameter ) ) )* otherlv_10= '}'
                     {
                     otherlv_5=(Token)match(input,26,FOLLOW_8); 
 
@@ -1788,11 +1876,11 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
                     				newLeafNode(otherlv_6, grammarAccess.getSignatureAccess().getLeftCurlyBracketKeyword_5_1());
                     			
-                    // InternalSimplepalladio.g:743:4: ( (lv_parameters_7_0= ruleParameter ) )
-                    // InternalSimplepalladio.g:744:5: (lv_parameters_7_0= ruleParameter )
+                    // InternalSimplepalladio.g:781:4: ( (lv_parameters_7_0= ruleParameter ) )
+                    // InternalSimplepalladio.g:782:5: (lv_parameters_7_0= ruleParameter )
                     {
-                    // InternalSimplepalladio.g:744:5: (lv_parameters_7_0= ruleParameter )
-                    // InternalSimplepalladio.g:745:6: lv_parameters_7_0= ruleParameter
+                    // InternalSimplepalladio.g:782:5: (lv_parameters_7_0= ruleParameter )
+                    // InternalSimplepalladio.g:783:6: lv_parameters_7_0= ruleParameter
                     {
 
                     						newCompositeNode(grammarAccess.getSignatureAccess().getParametersParameterParserRuleCall_5_2_0());
@@ -1819,30 +1907,30 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
                     }
 
-                    // InternalSimplepalladio.g:762:4: (otherlv_8= ',' ( (lv_parameters_9_0= ruleParameter ) ) )*
-                    loop9:
+                    // InternalSimplepalladio.g:800:4: (otherlv_8= ',' ( (lv_parameters_9_0= ruleParameter ) ) )*
+                    loop11:
                     do {
-                        int alt9=2;
-                        int LA9_0 = input.LA(1);
+                        int alt11=2;
+                        int LA11_0 = input.LA(1);
 
-                        if ( (LA9_0==15) ) {
-                            alt9=1;
+                        if ( (LA11_0==15) ) {
+                            alt11=1;
                         }
 
 
-                        switch (alt9) {
+                        switch (alt11) {
                     	case 1 :
-                    	    // InternalSimplepalladio.g:763:5: otherlv_8= ',' ( (lv_parameters_9_0= ruleParameter ) )
+                    	    // InternalSimplepalladio.g:801:5: otherlv_8= ',' ( (lv_parameters_9_0= ruleParameter ) )
                     	    {
                     	    otherlv_8=(Token)match(input,15,FOLLOW_23); 
 
                     	    					newLeafNode(otherlv_8, grammarAccess.getSignatureAccess().getCommaKeyword_5_3_0());
                     	    				
-                    	    // InternalSimplepalladio.g:767:5: ( (lv_parameters_9_0= ruleParameter ) )
-                    	    // InternalSimplepalladio.g:768:6: (lv_parameters_9_0= ruleParameter )
+                    	    // InternalSimplepalladio.g:805:5: ( (lv_parameters_9_0= ruleParameter ) )
+                    	    // InternalSimplepalladio.g:806:6: (lv_parameters_9_0= ruleParameter )
                     	    {
-                    	    // InternalSimplepalladio.g:768:6: (lv_parameters_9_0= ruleParameter )
-                    	    // InternalSimplepalladio.g:769:7: lv_parameters_9_0= ruleParameter
+                    	    // InternalSimplepalladio.g:806:6: (lv_parameters_9_0= ruleParameter )
+                    	    // InternalSimplepalladio.g:807:7: lv_parameters_9_0= ruleParameter
                     	    {
 
                     	    							newCompositeNode(grammarAccess.getSignatureAccess().getParametersParameterParserRuleCall_5_3_1_0());
@@ -1874,7 +1962,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
                     	    break;
 
                     	default :
-                    	    break loop9;
+                    	    break loop11;
                         }
                     } while (true);
 
@@ -1915,7 +2003,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "entryRuleComponent"
-    // InternalSimplepalladio.g:800:1: entryRuleComponent returns [EObject current=null] : iv_ruleComponent= ruleComponent EOF ;
+    // InternalSimplepalladio.g:838:1: entryRuleComponent returns [EObject current=null] : iv_ruleComponent= ruleComponent EOF ;
     public final EObject entryRuleComponent() throws RecognitionException {
         EObject current = null;
 
@@ -1923,8 +2011,8 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
         try {
-            // InternalSimplepalladio.g:800:50: (iv_ruleComponent= ruleComponent EOF )
-            // InternalSimplepalladio.g:801:2: iv_ruleComponent= ruleComponent EOF
+            // InternalSimplepalladio.g:838:50: (iv_ruleComponent= ruleComponent EOF )
+            // InternalSimplepalladio.g:839:2: iv_ruleComponent= ruleComponent EOF
             {
              newCompositeNode(grammarAccess.getComponentRule()); 
             pushFollow(FOLLOW_1);
@@ -1951,7 +2039,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "ruleComponent"
-    // InternalSimplepalladio.g:807:1: ruleComponent returns [EObject current=null] : (otherlv_0= 'Component' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' (otherlv_3= 'requiredInterfaces' otherlv_4= '(' ( ( ruleEString ) ) (otherlv_6= ',' ( ( ruleEString ) ) )* otherlv_8= ')' )? otherlv_9= 'providedInterfaces' otherlv_10= '(' ( ( ruleEString ) ) (otherlv_12= ',' ( ( ruleEString ) ) )* otherlv_14= ')' otherlv_15= 'services' otherlv_16= '{' ( (lv_services_17_0= ruleService ) ) (otherlv_18= ',' ( (lv_services_19_0= ruleService ) ) )* otherlv_20= '}' otherlv_21= '}' ) ;
+    // InternalSimplepalladio.g:845:1: ruleComponent returns [EObject current=null] : (otherlv_0= 'Component' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' (otherlv_3= 'requiredInterfaces' otherlv_4= '(' ( ( ruleEString ) ) (otherlv_6= ',' ( ( ruleEString ) ) )* otherlv_8= ')' )? otherlv_9= 'providedInterfaces' otherlv_10= '(' ( ( ruleEString ) ) (otherlv_12= ',' ( ( ruleEString ) ) )* otherlv_14= ')' otherlv_15= 'services' otherlv_16= '{' ( (lv_services_17_0= ruleService ) ) (otherlv_18= ',' ( (lv_services_19_0= ruleService ) ) )* otherlv_20= '}' otherlv_21= '}' ) ;
     public final EObject ruleComponent() throws RecognitionException {
         EObject current = null;
 
@@ -1981,21 +2069,21 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
         	enterRule();
 
         try {
-            // InternalSimplepalladio.g:813:2: ( (otherlv_0= 'Component' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' (otherlv_3= 'requiredInterfaces' otherlv_4= '(' ( ( ruleEString ) ) (otherlv_6= ',' ( ( ruleEString ) ) )* otherlv_8= ')' )? otherlv_9= 'providedInterfaces' otherlv_10= '(' ( ( ruleEString ) ) (otherlv_12= ',' ( ( ruleEString ) ) )* otherlv_14= ')' otherlv_15= 'services' otherlv_16= '{' ( (lv_services_17_0= ruleService ) ) (otherlv_18= ',' ( (lv_services_19_0= ruleService ) ) )* otherlv_20= '}' otherlv_21= '}' ) )
-            // InternalSimplepalladio.g:814:2: (otherlv_0= 'Component' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' (otherlv_3= 'requiredInterfaces' otherlv_4= '(' ( ( ruleEString ) ) (otherlv_6= ',' ( ( ruleEString ) ) )* otherlv_8= ')' )? otherlv_9= 'providedInterfaces' otherlv_10= '(' ( ( ruleEString ) ) (otherlv_12= ',' ( ( ruleEString ) ) )* otherlv_14= ')' otherlv_15= 'services' otherlv_16= '{' ( (lv_services_17_0= ruleService ) ) (otherlv_18= ',' ( (lv_services_19_0= ruleService ) ) )* otherlv_20= '}' otherlv_21= '}' )
+            // InternalSimplepalladio.g:851:2: ( (otherlv_0= 'Component' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' (otherlv_3= 'requiredInterfaces' otherlv_4= '(' ( ( ruleEString ) ) (otherlv_6= ',' ( ( ruleEString ) ) )* otherlv_8= ')' )? otherlv_9= 'providedInterfaces' otherlv_10= '(' ( ( ruleEString ) ) (otherlv_12= ',' ( ( ruleEString ) ) )* otherlv_14= ')' otherlv_15= 'services' otherlv_16= '{' ( (lv_services_17_0= ruleService ) ) (otherlv_18= ',' ( (lv_services_19_0= ruleService ) ) )* otherlv_20= '}' otherlv_21= '}' ) )
+            // InternalSimplepalladio.g:852:2: (otherlv_0= 'Component' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' (otherlv_3= 'requiredInterfaces' otherlv_4= '(' ( ( ruleEString ) ) (otherlv_6= ',' ( ( ruleEString ) ) )* otherlv_8= ')' )? otherlv_9= 'providedInterfaces' otherlv_10= '(' ( ( ruleEString ) ) (otherlv_12= ',' ( ( ruleEString ) ) )* otherlv_14= ')' otherlv_15= 'services' otherlv_16= '{' ( (lv_services_17_0= ruleService ) ) (otherlv_18= ',' ( (lv_services_19_0= ruleService ) ) )* otherlv_20= '}' otherlv_21= '}' )
             {
-            // InternalSimplepalladio.g:814:2: (otherlv_0= 'Component' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' (otherlv_3= 'requiredInterfaces' otherlv_4= '(' ( ( ruleEString ) ) (otherlv_6= ',' ( ( ruleEString ) ) )* otherlv_8= ')' )? otherlv_9= 'providedInterfaces' otherlv_10= '(' ( ( ruleEString ) ) (otherlv_12= ',' ( ( ruleEString ) ) )* otherlv_14= ')' otherlv_15= 'services' otherlv_16= '{' ( (lv_services_17_0= ruleService ) ) (otherlv_18= ',' ( (lv_services_19_0= ruleService ) ) )* otherlv_20= '}' otherlv_21= '}' )
-            // InternalSimplepalladio.g:815:3: otherlv_0= 'Component' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' (otherlv_3= 'requiredInterfaces' otherlv_4= '(' ( ( ruleEString ) ) (otherlv_6= ',' ( ( ruleEString ) ) )* otherlv_8= ')' )? otherlv_9= 'providedInterfaces' otherlv_10= '(' ( ( ruleEString ) ) (otherlv_12= ',' ( ( ruleEString ) ) )* otherlv_14= ')' otherlv_15= 'services' otherlv_16= '{' ( (lv_services_17_0= ruleService ) ) (otherlv_18= ',' ( (lv_services_19_0= ruleService ) ) )* otherlv_20= '}' otherlv_21= '}'
+            // InternalSimplepalladio.g:852:2: (otherlv_0= 'Component' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' (otherlv_3= 'requiredInterfaces' otherlv_4= '(' ( ( ruleEString ) ) (otherlv_6= ',' ( ( ruleEString ) ) )* otherlv_8= ')' )? otherlv_9= 'providedInterfaces' otherlv_10= '(' ( ( ruleEString ) ) (otherlv_12= ',' ( ( ruleEString ) ) )* otherlv_14= ')' otherlv_15= 'services' otherlv_16= '{' ( (lv_services_17_0= ruleService ) ) (otherlv_18= ',' ( (lv_services_19_0= ruleService ) ) )* otherlv_20= '}' otherlv_21= '}' )
+            // InternalSimplepalladio.g:853:3: otherlv_0= 'Component' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' (otherlv_3= 'requiredInterfaces' otherlv_4= '(' ( ( ruleEString ) ) (otherlv_6= ',' ( ( ruleEString ) ) )* otherlv_8= ')' )? otherlv_9= 'providedInterfaces' otherlv_10= '(' ( ( ruleEString ) ) (otherlv_12= ',' ( ( ruleEString ) ) )* otherlv_14= ')' otherlv_15= 'services' otherlv_16= '{' ( (lv_services_17_0= ruleService ) ) (otherlv_18= ',' ( (lv_services_19_0= ruleService ) ) )* otherlv_20= '}' otherlv_21= '}'
             {
             otherlv_0=(Token)match(input,27,FOLLOW_12); 
 
             			newLeafNode(otherlv_0, grammarAccess.getComponentAccess().getComponentKeyword_0());
             		
-            // InternalSimplepalladio.g:819:3: ( (lv_name_1_0= ruleEString ) )
-            // InternalSimplepalladio.g:820:4: (lv_name_1_0= ruleEString )
+            // InternalSimplepalladio.g:857:3: ( (lv_name_1_0= ruleEString ) )
+            // InternalSimplepalladio.g:858:4: (lv_name_1_0= ruleEString )
             {
-            // InternalSimplepalladio.g:820:4: (lv_name_1_0= ruleEString )
-            // InternalSimplepalladio.g:821:5: lv_name_1_0= ruleEString
+            // InternalSimplepalladio.g:858:4: (lv_name_1_0= ruleEString )
+            // InternalSimplepalladio.g:859:5: lv_name_1_0= ruleEString
             {
 
             					newCompositeNode(grammarAccess.getComponentAccess().getNameEStringParserRuleCall_1_0());
@@ -2026,16 +2114,16 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
             			newLeafNode(otherlv_2, grammarAccess.getComponentAccess().getLeftCurlyBracketKeyword_2());
             		
-            // InternalSimplepalladio.g:842:3: (otherlv_3= 'requiredInterfaces' otherlv_4= '(' ( ( ruleEString ) ) (otherlv_6= ',' ( ( ruleEString ) ) )* otherlv_8= ')' )?
-            int alt12=2;
-            int LA12_0 = input.LA(1);
+            // InternalSimplepalladio.g:880:3: (otherlv_3= 'requiredInterfaces' otherlv_4= '(' ( ( ruleEString ) ) (otherlv_6= ',' ( ( ruleEString ) ) )* otherlv_8= ')' )?
+            int alt14=2;
+            int LA14_0 = input.LA(1);
 
-            if ( (LA12_0==21) ) {
-                alt12=1;
+            if ( (LA14_0==21) ) {
+                alt14=1;
             }
-            switch (alt12) {
+            switch (alt14) {
                 case 1 :
-                    // InternalSimplepalladio.g:843:4: otherlv_3= 'requiredInterfaces' otherlv_4= '(' ( ( ruleEString ) ) (otherlv_6= ',' ( ( ruleEString ) ) )* otherlv_8= ')'
+                    // InternalSimplepalladio.g:881:4: otherlv_3= 'requiredInterfaces' otherlv_4= '(' ( ( ruleEString ) ) (otherlv_6= ',' ( ( ruleEString ) ) )* otherlv_8= ')'
                     {
                     otherlv_3=(Token)match(input,21,FOLLOW_14); 
 
@@ -2045,11 +2133,11 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
                     				newLeafNode(otherlv_4, grammarAccess.getComponentAccess().getLeftParenthesisKeyword_3_1());
                     			
-                    // InternalSimplepalladio.g:851:4: ( ( ruleEString ) )
-                    // InternalSimplepalladio.g:852:5: ( ruleEString )
+                    // InternalSimplepalladio.g:889:4: ( ( ruleEString ) )
+                    // InternalSimplepalladio.g:890:5: ( ruleEString )
                     {
-                    // InternalSimplepalladio.g:852:5: ( ruleEString )
-                    // InternalSimplepalladio.g:853:6: ruleEString
+                    // InternalSimplepalladio.g:890:5: ( ruleEString )
+                    // InternalSimplepalladio.g:891:6: ruleEString
                     {
 
                     						if (current==null) {
@@ -2073,30 +2161,30 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
                     }
 
-                    // InternalSimplepalladio.g:867:4: (otherlv_6= ',' ( ( ruleEString ) ) )*
-                    loop11:
+                    // InternalSimplepalladio.g:905:4: (otherlv_6= ',' ( ( ruleEString ) ) )*
+                    loop13:
                     do {
-                        int alt11=2;
-                        int LA11_0 = input.LA(1);
+                        int alt13=2;
+                        int LA13_0 = input.LA(1);
 
-                        if ( (LA11_0==15) ) {
-                            alt11=1;
+                        if ( (LA13_0==15) ) {
+                            alt13=1;
                         }
 
 
-                        switch (alt11) {
+                        switch (alt13) {
                     	case 1 :
-                    	    // InternalSimplepalladio.g:868:5: otherlv_6= ',' ( ( ruleEString ) )
+                    	    // InternalSimplepalladio.g:906:5: otherlv_6= ',' ( ( ruleEString ) )
                     	    {
                     	    otherlv_6=(Token)match(input,15,FOLLOW_12); 
 
                     	    					newLeafNode(otherlv_6, grammarAccess.getComponentAccess().getCommaKeyword_3_3_0());
                     	    				
-                    	    // InternalSimplepalladio.g:872:5: ( ( ruleEString ) )
-                    	    // InternalSimplepalladio.g:873:6: ( ruleEString )
+                    	    // InternalSimplepalladio.g:910:5: ( ( ruleEString ) )
+                    	    // InternalSimplepalladio.g:911:6: ( ruleEString )
                     	    {
-                    	    // InternalSimplepalladio.g:873:6: ( ruleEString )
-                    	    // InternalSimplepalladio.g:874:7: ruleEString
+                    	    // InternalSimplepalladio.g:911:6: ( ruleEString )
+                    	    // InternalSimplepalladio.g:912:7: ruleEString
                     	    {
 
                     	    							if (current==null) {
@@ -2125,7 +2213,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
                     	    break;
 
                     	default :
-                    	    break loop11;
+                    	    break loop13;
                         }
                     } while (true);
 
@@ -2147,11 +2235,11 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
             			newLeafNode(otherlv_10, grammarAccess.getComponentAccess().getLeftParenthesisKeyword_5());
             		
-            // InternalSimplepalladio.g:902:3: ( ( ruleEString ) )
-            // InternalSimplepalladio.g:903:4: ( ruleEString )
+            // InternalSimplepalladio.g:940:3: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:941:4: ( ruleEString )
             {
-            // InternalSimplepalladio.g:903:4: ( ruleEString )
-            // InternalSimplepalladio.g:904:5: ruleEString
+            // InternalSimplepalladio.g:941:4: ( ruleEString )
+            // InternalSimplepalladio.g:942:5: ruleEString
             {
 
             					if (current==null) {
@@ -2175,30 +2263,30 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
             }
 
-            // InternalSimplepalladio.g:918:3: (otherlv_12= ',' ( ( ruleEString ) ) )*
-            loop13:
+            // InternalSimplepalladio.g:956:3: (otherlv_12= ',' ( ( ruleEString ) ) )*
+            loop15:
             do {
-                int alt13=2;
-                int LA13_0 = input.LA(1);
+                int alt15=2;
+                int LA15_0 = input.LA(1);
 
-                if ( (LA13_0==15) ) {
-                    alt13=1;
+                if ( (LA15_0==15) ) {
+                    alt15=1;
                 }
 
 
-                switch (alt13) {
+                switch (alt15) {
             	case 1 :
-            	    // InternalSimplepalladio.g:919:4: otherlv_12= ',' ( ( ruleEString ) )
+            	    // InternalSimplepalladio.g:957:4: otherlv_12= ',' ( ( ruleEString ) )
             	    {
             	    otherlv_12=(Token)match(input,15,FOLLOW_12); 
 
             	    				newLeafNode(otherlv_12, grammarAccess.getComponentAccess().getCommaKeyword_7_0());
             	    			
-            	    // InternalSimplepalladio.g:923:4: ( ( ruleEString ) )
-            	    // InternalSimplepalladio.g:924:5: ( ruleEString )
+            	    // InternalSimplepalladio.g:961:4: ( ( ruleEString ) )
+            	    // InternalSimplepalladio.g:962:5: ( ruleEString )
             	    {
-            	    // InternalSimplepalladio.g:924:5: ( ruleEString )
-            	    // InternalSimplepalladio.g:925:6: ruleEString
+            	    // InternalSimplepalladio.g:962:5: ( ruleEString )
+            	    // InternalSimplepalladio.g:963:6: ruleEString
             	    {
 
             	    						if (current==null) {
@@ -2227,7 +2315,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
             	    break;
 
             	default :
-            	    break loop13;
+            	    break loop15;
                 }
             } while (true);
 
@@ -2243,11 +2331,11 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
             			newLeafNode(otherlv_16, grammarAccess.getComponentAccess().getLeftCurlyBracketKeyword_10());
             		
-            // InternalSimplepalladio.g:952:3: ( (lv_services_17_0= ruleService ) )
-            // InternalSimplepalladio.g:953:4: (lv_services_17_0= ruleService )
+            // InternalSimplepalladio.g:990:3: ( (lv_services_17_0= ruleService ) )
+            // InternalSimplepalladio.g:991:4: (lv_services_17_0= ruleService )
             {
-            // InternalSimplepalladio.g:953:4: (lv_services_17_0= ruleService )
-            // InternalSimplepalladio.g:954:5: lv_services_17_0= ruleService
+            // InternalSimplepalladio.g:991:4: (lv_services_17_0= ruleService )
+            // InternalSimplepalladio.g:992:5: lv_services_17_0= ruleService
             {
 
             					newCompositeNode(grammarAccess.getComponentAccess().getServicesServiceParserRuleCall_11_0());
@@ -2274,30 +2362,30 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
             }
 
-            // InternalSimplepalladio.g:971:3: (otherlv_18= ',' ( (lv_services_19_0= ruleService ) ) )*
-            loop14:
+            // InternalSimplepalladio.g:1009:3: (otherlv_18= ',' ( (lv_services_19_0= ruleService ) ) )*
+            loop16:
             do {
-                int alt14=2;
-                int LA14_0 = input.LA(1);
+                int alt16=2;
+                int LA16_0 = input.LA(1);
 
-                if ( (LA14_0==15) ) {
-                    alt14=1;
+                if ( (LA16_0==15) ) {
+                    alt16=1;
                 }
 
 
-                switch (alt14) {
+                switch (alt16) {
             	case 1 :
-            	    // InternalSimplepalladio.g:972:4: otherlv_18= ',' ( (lv_services_19_0= ruleService ) )
+            	    // InternalSimplepalladio.g:1010:4: otherlv_18= ',' ( (lv_services_19_0= ruleService ) )
             	    {
             	    otherlv_18=(Token)match(input,15,FOLLOW_25); 
 
             	    				newLeafNode(otherlv_18, grammarAccess.getComponentAccess().getCommaKeyword_12_0());
             	    			
-            	    // InternalSimplepalladio.g:976:4: ( (lv_services_19_0= ruleService ) )
-            	    // InternalSimplepalladio.g:977:5: (lv_services_19_0= ruleService )
+            	    // InternalSimplepalladio.g:1014:4: ( (lv_services_19_0= ruleService ) )
+            	    // InternalSimplepalladio.g:1015:5: (lv_services_19_0= ruleService )
             	    {
-            	    // InternalSimplepalladio.g:977:5: (lv_services_19_0= ruleService )
-            	    // InternalSimplepalladio.g:978:6: lv_services_19_0= ruleService
+            	    // InternalSimplepalladio.g:1015:5: (lv_services_19_0= ruleService )
+            	    // InternalSimplepalladio.g:1016:6: lv_services_19_0= ruleService
             	    {
 
             	    						newCompositeNode(grammarAccess.getComponentAccess().getServicesServiceParserRuleCall_12_1_0());
@@ -2329,7 +2417,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
             	    break;
 
             	default :
-            	    break loop14;
+            	    break loop16;
                 }
             } while (true);
 
@@ -2364,7 +2452,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "entryRuleParameter"
-    // InternalSimplepalladio.g:1008:1: entryRuleParameter returns [EObject current=null] : iv_ruleParameter= ruleParameter EOF ;
+    // InternalSimplepalladio.g:1046:1: entryRuleParameter returns [EObject current=null] : iv_ruleParameter= ruleParameter EOF ;
     public final EObject entryRuleParameter() throws RecognitionException {
         EObject current = null;
 
@@ -2372,8 +2460,8 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
         try {
-            // InternalSimplepalladio.g:1008:50: (iv_ruleParameter= ruleParameter EOF )
-            // InternalSimplepalladio.g:1009:2: iv_ruleParameter= ruleParameter EOF
+            // InternalSimplepalladio.g:1046:50: (iv_ruleParameter= ruleParameter EOF )
+            // InternalSimplepalladio.g:1047:2: iv_ruleParameter= ruleParameter EOF
             {
              newCompositeNode(grammarAccess.getParameterRule()); 
             pushFollow(FOLLOW_1);
@@ -2400,7 +2488,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "ruleParameter"
-    // InternalSimplepalladio.g:1015:1: ruleParameter returns [EObject current=null] : (otherlv_0= 'Parameter' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'type' ( (lv_type_4_0= ruleType ) ) otherlv_5= '}' ) ;
+    // InternalSimplepalladio.g:1053:1: ruleParameter returns [EObject current=null] : (otherlv_0= 'Parameter' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'type' ( (lv_type_4_0= ruleType ) ) otherlv_5= '}' ) ;
     public final EObject ruleParameter() throws RecognitionException {
         EObject current = null;
 
@@ -2417,21 +2505,21 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
         	enterRule();
 
         try {
-            // InternalSimplepalladio.g:1021:2: ( (otherlv_0= 'Parameter' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'type' ( (lv_type_4_0= ruleType ) ) otherlv_5= '}' ) )
-            // InternalSimplepalladio.g:1022:2: (otherlv_0= 'Parameter' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'type' ( (lv_type_4_0= ruleType ) ) otherlv_5= '}' )
+            // InternalSimplepalladio.g:1059:2: ( (otherlv_0= 'Parameter' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'type' ( (lv_type_4_0= ruleType ) ) otherlv_5= '}' ) )
+            // InternalSimplepalladio.g:1060:2: (otherlv_0= 'Parameter' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'type' ( (lv_type_4_0= ruleType ) ) otherlv_5= '}' )
             {
-            // InternalSimplepalladio.g:1022:2: (otherlv_0= 'Parameter' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'type' ( (lv_type_4_0= ruleType ) ) otherlv_5= '}' )
-            // InternalSimplepalladio.g:1023:3: otherlv_0= 'Parameter' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'type' ( (lv_type_4_0= ruleType ) ) otherlv_5= '}'
+            // InternalSimplepalladio.g:1060:2: (otherlv_0= 'Parameter' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'type' ( (lv_type_4_0= ruleType ) ) otherlv_5= '}' )
+            // InternalSimplepalladio.g:1061:3: otherlv_0= 'Parameter' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'type' ( (lv_type_4_0= ruleType ) ) otherlv_5= '}'
             {
             otherlv_0=(Token)match(input,29,FOLLOW_12); 
 
             			newLeafNode(otherlv_0, grammarAccess.getParameterAccess().getParameterKeyword_0());
             		
-            // InternalSimplepalladio.g:1027:3: ( (lv_name_1_0= ruleEString ) )
-            // InternalSimplepalladio.g:1028:4: (lv_name_1_0= ruleEString )
+            // InternalSimplepalladio.g:1065:3: ( (lv_name_1_0= ruleEString ) )
+            // InternalSimplepalladio.g:1066:4: (lv_name_1_0= ruleEString )
             {
-            // InternalSimplepalladio.g:1028:4: (lv_name_1_0= ruleEString )
-            // InternalSimplepalladio.g:1029:5: lv_name_1_0= ruleEString
+            // InternalSimplepalladio.g:1066:4: (lv_name_1_0= ruleEString )
+            // InternalSimplepalladio.g:1067:5: lv_name_1_0= ruleEString
             {
 
             					newCompositeNode(grammarAccess.getParameterAccess().getNameEStringParserRuleCall_1_0());
@@ -2466,11 +2554,11 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
             			newLeafNode(otherlv_3, grammarAccess.getParameterAccess().getTypeKeyword_3());
             		
-            // InternalSimplepalladio.g:1054:3: ( (lv_type_4_0= ruleType ) )
-            // InternalSimplepalladio.g:1055:4: (lv_type_4_0= ruleType )
+            // InternalSimplepalladio.g:1092:3: ( (lv_type_4_0= ruleType ) )
+            // InternalSimplepalladio.g:1093:4: (lv_type_4_0= ruleType )
             {
-            // InternalSimplepalladio.g:1055:4: (lv_type_4_0= ruleType )
-            // InternalSimplepalladio.g:1056:5: lv_type_4_0= ruleType
+            // InternalSimplepalladio.g:1093:4: (lv_type_4_0= ruleType )
+            // InternalSimplepalladio.g:1094:5: lv_type_4_0= ruleType
             {
 
             					newCompositeNode(grammarAccess.getParameterAccess().getTypeTypeEnumRuleCall_4_0());
@@ -2524,7 +2612,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "entryRuleService"
-    // InternalSimplepalladio.g:1081:1: entryRuleService returns [EObject current=null] : iv_ruleService= ruleService EOF ;
+    // InternalSimplepalladio.g:1119:1: entryRuleService returns [EObject current=null] : iv_ruleService= ruleService EOF ;
     public final EObject entryRuleService() throws RecognitionException {
         EObject current = null;
 
@@ -2532,8 +2620,8 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
         try {
-            // InternalSimplepalladio.g:1081:48: (iv_ruleService= ruleService EOF )
-            // InternalSimplepalladio.g:1082:2: iv_ruleService= ruleService EOF
+            // InternalSimplepalladio.g:1119:48: (iv_ruleService= ruleService EOF )
+            // InternalSimplepalladio.g:1120:2: iv_ruleService= ruleService EOF
             {
              newCompositeNode(grammarAccess.getServiceRule()); 
             pushFollow(FOLLOW_1);
@@ -2560,7 +2648,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "ruleService"
-    // InternalSimplepalladio.g:1088:1: ruleService returns [EObject current=null] : (otherlv_0= 'Service' otherlv_1= '{' otherlv_2= 'signature' ( ( ruleEString ) ) otherlv_4= 'behaviourDescription' ( (lv_behaviourDescription_5_0= ruleBehaviourDescription ) ) otherlv_6= '}' ) ;
+    // InternalSimplepalladio.g:1126:1: ruleService returns [EObject current=null] : (otherlv_0= 'Service' otherlv_1= '{' otherlv_2= 'signature' ( ( ruleEString ) ) otherlv_4= 'behaviourDescription' ( (lv_behaviourDescription_5_0= ruleBehaviourDescription ) ) otherlv_6= '}' ) ;
     public final EObject ruleService() throws RecognitionException {
         EObject current = null;
 
@@ -2576,11 +2664,11 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
         	enterRule();
 
         try {
-            // InternalSimplepalladio.g:1094:2: ( (otherlv_0= 'Service' otherlv_1= '{' otherlv_2= 'signature' ( ( ruleEString ) ) otherlv_4= 'behaviourDescription' ( (lv_behaviourDescription_5_0= ruleBehaviourDescription ) ) otherlv_6= '}' ) )
-            // InternalSimplepalladio.g:1095:2: (otherlv_0= 'Service' otherlv_1= '{' otherlv_2= 'signature' ( ( ruleEString ) ) otherlv_4= 'behaviourDescription' ( (lv_behaviourDescription_5_0= ruleBehaviourDescription ) ) otherlv_6= '}' )
+            // InternalSimplepalladio.g:1132:2: ( (otherlv_0= 'Service' otherlv_1= '{' otherlv_2= 'signature' ( ( ruleEString ) ) otherlv_4= 'behaviourDescription' ( (lv_behaviourDescription_5_0= ruleBehaviourDescription ) ) otherlv_6= '}' ) )
+            // InternalSimplepalladio.g:1133:2: (otherlv_0= 'Service' otherlv_1= '{' otherlv_2= 'signature' ( ( ruleEString ) ) otherlv_4= 'behaviourDescription' ( (lv_behaviourDescription_5_0= ruleBehaviourDescription ) ) otherlv_6= '}' )
             {
-            // InternalSimplepalladio.g:1095:2: (otherlv_0= 'Service' otherlv_1= '{' otherlv_2= 'signature' ( ( ruleEString ) ) otherlv_4= 'behaviourDescription' ( (lv_behaviourDescription_5_0= ruleBehaviourDescription ) ) otherlv_6= '}' )
-            // InternalSimplepalladio.g:1096:3: otherlv_0= 'Service' otherlv_1= '{' otherlv_2= 'signature' ( ( ruleEString ) ) otherlv_4= 'behaviourDescription' ( (lv_behaviourDescription_5_0= ruleBehaviourDescription ) ) otherlv_6= '}'
+            // InternalSimplepalladio.g:1133:2: (otherlv_0= 'Service' otherlv_1= '{' otherlv_2= 'signature' ( ( ruleEString ) ) otherlv_4= 'behaviourDescription' ( (lv_behaviourDescription_5_0= ruleBehaviourDescription ) ) otherlv_6= '}' )
+            // InternalSimplepalladio.g:1134:3: otherlv_0= 'Service' otherlv_1= '{' otherlv_2= 'signature' ( ( ruleEString ) ) otherlv_4= 'behaviourDescription' ( (lv_behaviourDescription_5_0= ruleBehaviourDescription ) ) otherlv_6= '}'
             {
             otherlv_0=(Token)match(input,31,FOLLOW_8); 
 
@@ -2594,11 +2682,11 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
             			newLeafNode(otherlv_2, grammarAccess.getServiceAccess().getSignatureKeyword_2());
             		
-            // InternalSimplepalladio.g:1108:3: ( ( ruleEString ) )
-            // InternalSimplepalladio.g:1109:4: ( ruleEString )
+            // InternalSimplepalladio.g:1146:3: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:1147:4: ( ruleEString )
             {
-            // InternalSimplepalladio.g:1109:4: ( ruleEString )
-            // InternalSimplepalladio.g:1110:5: ruleEString
+            // InternalSimplepalladio.g:1147:4: ( ruleEString )
+            // InternalSimplepalladio.g:1148:5: ruleEString
             {
 
             					if (current==null) {
@@ -2626,11 +2714,11 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
             			newLeafNode(otherlv_4, grammarAccess.getServiceAccess().getBehaviourDescriptionKeyword_4());
             		
-            // InternalSimplepalladio.g:1128:3: ( (lv_behaviourDescription_5_0= ruleBehaviourDescription ) )
-            // InternalSimplepalladio.g:1129:4: (lv_behaviourDescription_5_0= ruleBehaviourDescription )
+            // InternalSimplepalladio.g:1166:3: ( (lv_behaviourDescription_5_0= ruleBehaviourDescription ) )
+            // InternalSimplepalladio.g:1167:4: (lv_behaviourDescription_5_0= ruleBehaviourDescription )
             {
-            // InternalSimplepalladio.g:1129:4: (lv_behaviourDescription_5_0= ruleBehaviourDescription )
-            // InternalSimplepalladio.g:1130:5: lv_behaviourDescription_5_0= ruleBehaviourDescription
+            // InternalSimplepalladio.g:1167:4: (lv_behaviourDescription_5_0= ruleBehaviourDescription )
+            // InternalSimplepalladio.g:1168:5: lv_behaviourDescription_5_0= ruleBehaviourDescription
             {
 
             					newCompositeNode(grammarAccess.getServiceAccess().getBehaviourDescriptionBehaviourDescriptionParserRuleCall_5_0());
@@ -2684,7 +2772,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "entryRuleBehaviourDescription"
-    // InternalSimplepalladio.g:1155:1: entryRuleBehaviourDescription returns [EObject current=null] : iv_ruleBehaviourDescription= ruleBehaviourDescription EOF ;
+    // InternalSimplepalladio.g:1193:1: entryRuleBehaviourDescription returns [EObject current=null] : iv_ruleBehaviourDescription= ruleBehaviourDescription EOF ;
     public final EObject entryRuleBehaviourDescription() throws RecognitionException {
         EObject current = null;
 
@@ -2692,8 +2780,8 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
         try {
-            // InternalSimplepalladio.g:1155:61: (iv_ruleBehaviourDescription= ruleBehaviourDescription EOF )
-            // InternalSimplepalladio.g:1156:2: iv_ruleBehaviourDescription= ruleBehaviourDescription EOF
+            // InternalSimplepalladio.g:1193:61: (iv_ruleBehaviourDescription= ruleBehaviourDescription EOF )
+            // InternalSimplepalladio.g:1194:2: iv_ruleBehaviourDescription= ruleBehaviourDescription EOF
             {
              newCompositeNode(grammarAccess.getBehaviourDescriptionRule()); 
             pushFollow(FOLLOW_1);
@@ -2720,7 +2808,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "ruleBehaviourDescription"
-    // InternalSimplepalladio.g:1162:1: ruleBehaviourDescription returns [EObject current=null] : ( () otherlv_1= 'BehaviourDescription' otherlv_2= '{' otherlv_3= 'behaviorElements' otherlv_4= '{' ( (lv_behaviorElements_5_0= ruleBehaviorElement ) ) (otherlv_6= ',' ( (lv_behaviorElements_7_0= ruleBehaviorElement ) ) )* otherlv_8= '}' otherlv_9= '}' ) ;
+    // InternalSimplepalladio.g:1200:1: ruleBehaviourDescription returns [EObject current=null] : ( () otherlv_1= 'BehaviourDescription' otherlv_2= '{' otherlv_3= 'behaviorElements' otherlv_4= '{' ( (lv_behaviorElements_5_0= ruleBehaviorElement ) ) (otherlv_6= ',' ( (lv_behaviorElements_7_0= ruleBehaviorElement ) ) )* otherlv_8= '}' otherlv_9= '}' ) ;
     public final EObject ruleBehaviourDescription() throws RecognitionException {
         EObject current = null;
 
@@ -2740,14 +2828,14 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
         	enterRule();
 
         try {
-            // InternalSimplepalladio.g:1168:2: ( ( () otherlv_1= 'BehaviourDescription' otherlv_2= '{' otherlv_3= 'behaviorElements' otherlv_4= '{' ( (lv_behaviorElements_5_0= ruleBehaviorElement ) ) (otherlv_6= ',' ( (lv_behaviorElements_7_0= ruleBehaviorElement ) ) )* otherlv_8= '}' otherlv_9= '}' ) )
-            // InternalSimplepalladio.g:1169:2: ( () otherlv_1= 'BehaviourDescription' otherlv_2= '{' otherlv_3= 'behaviorElements' otherlv_4= '{' ( (lv_behaviorElements_5_0= ruleBehaviorElement ) ) (otherlv_6= ',' ( (lv_behaviorElements_7_0= ruleBehaviorElement ) ) )* otherlv_8= '}' otherlv_9= '}' )
+            // InternalSimplepalladio.g:1206:2: ( ( () otherlv_1= 'BehaviourDescription' otherlv_2= '{' otherlv_3= 'behaviorElements' otherlv_4= '{' ( (lv_behaviorElements_5_0= ruleBehaviorElement ) ) (otherlv_6= ',' ( (lv_behaviorElements_7_0= ruleBehaviorElement ) ) )* otherlv_8= '}' otherlv_9= '}' ) )
+            // InternalSimplepalladio.g:1207:2: ( () otherlv_1= 'BehaviourDescription' otherlv_2= '{' otherlv_3= 'behaviorElements' otherlv_4= '{' ( (lv_behaviorElements_5_0= ruleBehaviorElement ) ) (otherlv_6= ',' ( (lv_behaviorElements_7_0= ruleBehaviorElement ) ) )* otherlv_8= '}' otherlv_9= '}' )
             {
-            // InternalSimplepalladio.g:1169:2: ( () otherlv_1= 'BehaviourDescription' otherlv_2= '{' otherlv_3= 'behaviorElements' otherlv_4= '{' ( (lv_behaviorElements_5_0= ruleBehaviorElement ) ) (otherlv_6= ',' ( (lv_behaviorElements_7_0= ruleBehaviorElement ) ) )* otherlv_8= '}' otherlv_9= '}' )
-            // InternalSimplepalladio.g:1170:3: () otherlv_1= 'BehaviourDescription' otherlv_2= '{' otherlv_3= 'behaviorElements' otherlv_4= '{' ( (lv_behaviorElements_5_0= ruleBehaviorElement ) ) (otherlv_6= ',' ( (lv_behaviorElements_7_0= ruleBehaviorElement ) ) )* otherlv_8= '}' otherlv_9= '}'
+            // InternalSimplepalladio.g:1207:2: ( () otherlv_1= 'BehaviourDescription' otherlv_2= '{' otherlv_3= 'behaviorElements' otherlv_4= '{' ( (lv_behaviorElements_5_0= ruleBehaviorElement ) ) (otherlv_6= ',' ( (lv_behaviorElements_7_0= ruleBehaviorElement ) ) )* otherlv_8= '}' otherlv_9= '}' )
+            // InternalSimplepalladio.g:1208:3: () otherlv_1= 'BehaviourDescription' otherlv_2= '{' otherlv_3= 'behaviorElements' otherlv_4= '{' ( (lv_behaviorElements_5_0= ruleBehaviorElement ) ) (otherlv_6= ',' ( (lv_behaviorElements_7_0= ruleBehaviorElement ) ) )* otherlv_8= '}' otherlv_9= '}'
             {
-            // InternalSimplepalladio.g:1170:3: ()
-            // InternalSimplepalladio.g:1171:4: 
+            // InternalSimplepalladio.g:1208:3: ()
+            // InternalSimplepalladio.g:1209:4: 
             {
 
             				current = forceCreateModelElement(
@@ -2773,11 +2861,11 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
             			newLeafNode(otherlv_4, grammarAccess.getBehaviourDescriptionAccess().getLeftCurlyBracketKeyword_4());
             		
-            // InternalSimplepalladio.g:1193:3: ( (lv_behaviorElements_5_0= ruleBehaviorElement ) )
-            // InternalSimplepalladio.g:1194:4: (lv_behaviorElements_5_0= ruleBehaviorElement )
+            // InternalSimplepalladio.g:1231:3: ( (lv_behaviorElements_5_0= ruleBehaviorElement ) )
+            // InternalSimplepalladio.g:1232:4: (lv_behaviorElements_5_0= ruleBehaviorElement )
             {
-            // InternalSimplepalladio.g:1194:4: (lv_behaviorElements_5_0= ruleBehaviorElement )
-            // InternalSimplepalladio.g:1195:5: lv_behaviorElements_5_0= ruleBehaviorElement
+            // InternalSimplepalladio.g:1232:4: (lv_behaviorElements_5_0= ruleBehaviorElement )
+            // InternalSimplepalladio.g:1233:5: lv_behaviorElements_5_0= ruleBehaviorElement
             {
 
             					newCompositeNode(grammarAccess.getBehaviourDescriptionAccess().getBehaviorElementsBehaviorElementParserRuleCall_5_0());
@@ -2804,30 +2892,30 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
             }
 
-            // InternalSimplepalladio.g:1212:3: (otherlv_6= ',' ( (lv_behaviorElements_7_0= ruleBehaviorElement ) ) )*
-            loop15:
+            // InternalSimplepalladio.g:1250:3: (otherlv_6= ',' ( (lv_behaviorElements_7_0= ruleBehaviorElement ) ) )*
+            loop17:
             do {
-                int alt15=2;
-                int LA15_0 = input.LA(1);
+                int alt17=2;
+                int LA17_0 = input.LA(1);
 
-                if ( (LA15_0==15) ) {
-                    alt15=1;
+                if ( (LA17_0==15) ) {
+                    alt17=1;
                 }
 
 
-                switch (alt15) {
+                switch (alt17) {
             	case 1 :
-            	    // InternalSimplepalladio.g:1213:4: otherlv_6= ',' ( (lv_behaviorElements_7_0= ruleBehaviorElement ) )
+            	    // InternalSimplepalladio.g:1251:4: otherlv_6= ',' ( (lv_behaviorElements_7_0= ruleBehaviorElement ) )
             	    {
             	    otherlv_6=(Token)match(input,15,FOLLOW_31); 
 
             	    				newLeafNode(otherlv_6, grammarAccess.getBehaviourDescriptionAccess().getCommaKeyword_6_0());
             	    			
-            	    // InternalSimplepalladio.g:1217:4: ( (lv_behaviorElements_7_0= ruleBehaviorElement ) )
-            	    // InternalSimplepalladio.g:1218:5: (lv_behaviorElements_7_0= ruleBehaviorElement )
+            	    // InternalSimplepalladio.g:1255:4: ( (lv_behaviorElements_7_0= ruleBehaviorElement ) )
+            	    // InternalSimplepalladio.g:1256:5: (lv_behaviorElements_7_0= ruleBehaviorElement )
             	    {
-            	    // InternalSimplepalladio.g:1218:5: (lv_behaviorElements_7_0= ruleBehaviorElement )
-            	    // InternalSimplepalladio.g:1219:6: lv_behaviorElements_7_0= ruleBehaviorElement
+            	    // InternalSimplepalladio.g:1256:5: (lv_behaviorElements_7_0= ruleBehaviorElement )
+            	    // InternalSimplepalladio.g:1257:6: lv_behaviorElements_7_0= ruleBehaviorElement
             	    {
 
             	    						newCompositeNode(grammarAccess.getBehaviourDescriptionAccess().getBehaviorElementsBehaviorElementParserRuleCall_6_1_0());
@@ -2859,7 +2947,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
             	    break;
 
             	default :
-            	    break loop15;
+            	    break loop17;
                 }
             } while (true);
 
@@ -2894,7 +2982,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "entryRuleInternalAction"
-    // InternalSimplepalladio.g:1249:1: entryRuleInternalAction returns [EObject current=null] : iv_ruleInternalAction= ruleInternalAction EOF ;
+    // InternalSimplepalladio.g:1287:1: entryRuleInternalAction returns [EObject current=null] : iv_ruleInternalAction= ruleInternalAction EOF ;
     public final EObject entryRuleInternalAction() throws RecognitionException {
         EObject current = null;
 
@@ -2902,8 +2990,8 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
         try {
-            // InternalSimplepalladio.g:1249:55: (iv_ruleInternalAction= ruleInternalAction EOF )
-            // InternalSimplepalladio.g:1250:2: iv_ruleInternalAction= ruleInternalAction EOF
+            // InternalSimplepalladio.g:1287:55: (iv_ruleInternalAction= ruleInternalAction EOF )
+            // InternalSimplepalladio.g:1288:2: iv_ruleInternalAction= ruleInternalAction EOF
             {
              newCompositeNode(grammarAccess.getInternalActionRule()); 
             pushFollow(FOLLOW_1);
@@ -2930,7 +3018,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "ruleInternalAction"
-    // InternalSimplepalladio.g:1256:1: ruleInternalAction returns [EObject current=null] : ( () otherlv_1= 'InternalAction' ) ;
+    // InternalSimplepalladio.g:1294:1: ruleInternalAction returns [EObject current=null] : ( () otherlv_1= 'InternalAction' ) ;
     public final EObject ruleInternalAction() throws RecognitionException {
         EObject current = null;
 
@@ -2940,14 +3028,14 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
         	enterRule();
 
         try {
-            // InternalSimplepalladio.g:1262:2: ( ( () otherlv_1= 'InternalAction' ) )
-            // InternalSimplepalladio.g:1263:2: ( () otherlv_1= 'InternalAction' )
+            // InternalSimplepalladio.g:1300:2: ( ( () otherlv_1= 'InternalAction' ) )
+            // InternalSimplepalladio.g:1301:2: ( () otherlv_1= 'InternalAction' )
             {
-            // InternalSimplepalladio.g:1263:2: ( () otherlv_1= 'InternalAction' )
-            // InternalSimplepalladio.g:1264:3: () otherlv_1= 'InternalAction'
+            // InternalSimplepalladio.g:1301:2: ( () otherlv_1= 'InternalAction' )
+            // InternalSimplepalladio.g:1302:3: () otherlv_1= 'InternalAction'
             {
-            // InternalSimplepalladio.g:1264:3: ()
-            // InternalSimplepalladio.g:1265:4: 
+            // InternalSimplepalladio.g:1302:3: ()
+            // InternalSimplepalladio.g:1303:4: 
             {
 
             				current = forceCreateModelElement(
@@ -2984,7 +3072,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "entryRuleExternalCall"
-    // InternalSimplepalladio.g:1279:1: entryRuleExternalCall returns [EObject current=null] : iv_ruleExternalCall= ruleExternalCall EOF ;
+    // InternalSimplepalladio.g:1317:1: entryRuleExternalCall returns [EObject current=null] : iv_ruleExternalCall= ruleExternalCall EOF ;
     public final EObject entryRuleExternalCall() throws RecognitionException {
         EObject current = null;
 
@@ -2992,8 +3080,8 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
         try {
-            // InternalSimplepalladio.g:1279:53: (iv_ruleExternalCall= ruleExternalCall EOF )
-            // InternalSimplepalladio.g:1280:2: iv_ruleExternalCall= ruleExternalCall EOF
+            // InternalSimplepalladio.g:1317:53: (iv_ruleExternalCall= ruleExternalCall EOF )
+            // InternalSimplepalladio.g:1318:2: iv_ruleExternalCall= ruleExternalCall EOF
             {
              newCompositeNode(grammarAccess.getExternalCallRule()); 
             pushFollow(FOLLOW_1);
@@ -3020,7 +3108,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "ruleExternalCall"
-    // InternalSimplepalladio.g:1286:1: ruleExternalCall returns [EObject current=null] : (otherlv_0= 'ExternalCall' otherlv_1= '{' otherlv_2= 'signature' ( ( ruleEString ) ) otherlv_4= '}' ) ;
+    // InternalSimplepalladio.g:1324:1: ruleExternalCall returns [EObject current=null] : (otherlv_0= 'ExternalCall' otherlv_1= '{' otherlv_2= 'signature' ( ( ruleEString ) ) otherlv_4= '}' ) ;
     public final EObject ruleExternalCall() throws RecognitionException {
         EObject current = null;
 
@@ -3033,11 +3121,11 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
         	enterRule();
 
         try {
-            // InternalSimplepalladio.g:1292:2: ( (otherlv_0= 'ExternalCall' otherlv_1= '{' otherlv_2= 'signature' ( ( ruleEString ) ) otherlv_4= '}' ) )
-            // InternalSimplepalladio.g:1293:2: (otherlv_0= 'ExternalCall' otherlv_1= '{' otherlv_2= 'signature' ( ( ruleEString ) ) otherlv_4= '}' )
+            // InternalSimplepalladio.g:1330:2: ( (otherlv_0= 'ExternalCall' otherlv_1= '{' otherlv_2= 'signature' ( ( ruleEString ) ) otherlv_4= '}' ) )
+            // InternalSimplepalladio.g:1331:2: (otherlv_0= 'ExternalCall' otherlv_1= '{' otherlv_2= 'signature' ( ( ruleEString ) ) otherlv_4= '}' )
             {
-            // InternalSimplepalladio.g:1293:2: (otherlv_0= 'ExternalCall' otherlv_1= '{' otherlv_2= 'signature' ( ( ruleEString ) ) otherlv_4= '}' )
-            // InternalSimplepalladio.g:1294:3: otherlv_0= 'ExternalCall' otherlv_1= '{' otherlv_2= 'signature' ( ( ruleEString ) ) otherlv_4= '}'
+            // InternalSimplepalladio.g:1331:2: (otherlv_0= 'ExternalCall' otherlv_1= '{' otherlv_2= 'signature' ( ( ruleEString ) ) otherlv_4= '}' )
+            // InternalSimplepalladio.g:1332:3: otherlv_0= 'ExternalCall' otherlv_1= '{' otherlv_2= 'signature' ( ( ruleEString ) ) otherlv_4= '}'
             {
             otherlv_0=(Token)match(input,37,FOLLOW_8); 
 
@@ -3051,11 +3139,11 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
             			newLeafNode(otherlv_2, grammarAccess.getExternalCallAccess().getSignatureKeyword_2());
             		
-            // InternalSimplepalladio.g:1306:3: ( ( ruleEString ) )
-            // InternalSimplepalladio.g:1307:4: ( ruleEString )
+            // InternalSimplepalladio.g:1344:3: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:1345:4: ( ruleEString )
             {
-            // InternalSimplepalladio.g:1307:4: ( ruleEString )
-            // InternalSimplepalladio.g:1308:5: ruleEString
+            // InternalSimplepalladio.g:1345:4: ( ruleEString )
+            // InternalSimplepalladio.g:1346:5: ruleEString
             {
 
             					if (current==null) {
@@ -3106,7 +3194,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "entryRuleLoop"
-    // InternalSimplepalladio.g:1330:1: entryRuleLoop returns [EObject current=null] : iv_ruleLoop= ruleLoop EOF ;
+    // InternalSimplepalladio.g:1368:1: entryRuleLoop returns [EObject current=null] : iv_ruleLoop= ruleLoop EOF ;
     public final EObject entryRuleLoop() throws RecognitionException {
         EObject current = null;
 
@@ -3114,8 +3202,8 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
         try {
-            // InternalSimplepalladio.g:1330:45: (iv_ruleLoop= ruleLoop EOF )
-            // InternalSimplepalladio.g:1331:2: iv_ruleLoop= ruleLoop EOF
+            // InternalSimplepalladio.g:1368:45: (iv_ruleLoop= ruleLoop EOF )
+            // InternalSimplepalladio.g:1369:2: iv_ruleLoop= ruleLoop EOF
             {
              newCompositeNode(grammarAccess.getLoopRule()); 
             pushFollow(FOLLOW_1);
@@ -3142,7 +3230,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "ruleLoop"
-    // InternalSimplepalladio.g:1337:1: ruleLoop returns [EObject current=null] : ( () otherlv_1= 'Loop' otherlv_2= '{' (otherlv_3= 'behaviorElements' otherlv_4= '{' ( (lv_behaviorElements_5_0= ruleBehaviorElement ) ) (otherlv_6= ',' ( (lv_behaviorElements_7_0= ruleBehaviorElement ) ) )* otherlv_8= '}' )? otherlv_9= '}' ) ;
+    // InternalSimplepalladio.g:1375:1: ruleLoop returns [EObject current=null] : ( () otherlv_1= 'Loop' otherlv_2= '{' (otherlv_3= 'behaviorElements' otherlv_4= '{' ( (lv_behaviorElements_5_0= ruleBehaviorElement ) ) (otherlv_6= ',' ( (lv_behaviorElements_7_0= ruleBehaviorElement ) ) )* otherlv_8= '}' )? otherlv_9= '}' ) ;
     public final EObject ruleLoop() throws RecognitionException {
         EObject current = null;
 
@@ -3162,14 +3250,14 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
         	enterRule();
 
         try {
-            // InternalSimplepalladio.g:1343:2: ( ( () otherlv_1= 'Loop' otherlv_2= '{' (otherlv_3= 'behaviorElements' otherlv_4= '{' ( (lv_behaviorElements_5_0= ruleBehaviorElement ) ) (otherlv_6= ',' ( (lv_behaviorElements_7_0= ruleBehaviorElement ) ) )* otherlv_8= '}' )? otherlv_9= '}' ) )
-            // InternalSimplepalladio.g:1344:2: ( () otherlv_1= 'Loop' otherlv_2= '{' (otherlv_3= 'behaviorElements' otherlv_4= '{' ( (lv_behaviorElements_5_0= ruleBehaviorElement ) ) (otherlv_6= ',' ( (lv_behaviorElements_7_0= ruleBehaviorElement ) ) )* otherlv_8= '}' )? otherlv_9= '}' )
+            // InternalSimplepalladio.g:1381:2: ( ( () otherlv_1= 'Loop' otherlv_2= '{' (otherlv_3= 'behaviorElements' otherlv_4= '{' ( (lv_behaviorElements_5_0= ruleBehaviorElement ) ) (otherlv_6= ',' ( (lv_behaviorElements_7_0= ruleBehaviorElement ) ) )* otherlv_8= '}' )? otherlv_9= '}' ) )
+            // InternalSimplepalladio.g:1382:2: ( () otherlv_1= 'Loop' otherlv_2= '{' (otherlv_3= 'behaviorElements' otherlv_4= '{' ( (lv_behaviorElements_5_0= ruleBehaviorElement ) ) (otherlv_6= ',' ( (lv_behaviorElements_7_0= ruleBehaviorElement ) ) )* otherlv_8= '}' )? otherlv_9= '}' )
             {
-            // InternalSimplepalladio.g:1344:2: ( () otherlv_1= 'Loop' otherlv_2= '{' (otherlv_3= 'behaviorElements' otherlv_4= '{' ( (lv_behaviorElements_5_0= ruleBehaviorElement ) ) (otherlv_6= ',' ( (lv_behaviorElements_7_0= ruleBehaviorElement ) ) )* otherlv_8= '}' )? otherlv_9= '}' )
-            // InternalSimplepalladio.g:1345:3: () otherlv_1= 'Loop' otherlv_2= '{' (otherlv_3= 'behaviorElements' otherlv_4= '{' ( (lv_behaviorElements_5_0= ruleBehaviorElement ) ) (otherlv_6= ',' ( (lv_behaviorElements_7_0= ruleBehaviorElement ) ) )* otherlv_8= '}' )? otherlv_9= '}'
+            // InternalSimplepalladio.g:1382:2: ( () otherlv_1= 'Loop' otherlv_2= '{' (otherlv_3= 'behaviorElements' otherlv_4= '{' ( (lv_behaviorElements_5_0= ruleBehaviorElement ) ) (otherlv_6= ',' ( (lv_behaviorElements_7_0= ruleBehaviorElement ) ) )* otherlv_8= '}' )? otherlv_9= '}' )
+            // InternalSimplepalladio.g:1383:3: () otherlv_1= 'Loop' otherlv_2= '{' (otherlv_3= 'behaviorElements' otherlv_4= '{' ( (lv_behaviorElements_5_0= ruleBehaviorElement ) ) (otherlv_6= ',' ( (lv_behaviorElements_7_0= ruleBehaviorElement ) ) )* otherlv_8= '}' )? otherlv_9= '}'
             {
-            // InternalSimplepalladio.g:1345:3: ()
-            // InternalSimplepalladio.g:1346:4: 
+            // InternalSimplepalladio.g:1383:3: ()
+            // InternalSimplepalladio.g:1384:4: 
             {
 
             				current = forceCreateModelElement(
@@ -3187,16 +3275,16 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
             			newLeafNode(otherlv_2, grammarAccess.getLoopAccess().getLeftCurlyBracketKeyword_2());
             		
-            // InternalSimplepalladio.g:1360:3: (otherlv_3= 'behaviorElements' otherlv_4= '{' ( (lv_behaviorElements_5_0= ruleBehaviorElement ) ) (otherlv_6= ',' ( (lv_behaviorElements_7_0= ruleBehaviorElement ) ) )* otherlv_8= '}' )?
-            int alt17=2;
-            int LA17_0 = input.LA(1);
+            // InternalSimplepalladio.g:1398:3: (otherlv_3= 'behaviorElements' otherlv_4= '{' ( (lv_behaviorElements_5_0= ruleBehaviorElement ) ) (otherlv_6= ',' ( (lv_behaviorElements_7_0= ruleBehaviorElement ) ) )* otherlv_8= '}' )?
+            int alt19=2;
+            int LA19_0 = input.LA(1);
 
-            if ( (LA17_0==35) ) {
-                alt17=1;
+            if ( (LA19_0==35) ) {
+                alt19=1;
             }
-            switch (alt17) {
+            switch (alt19) {
                 case 1 :
-                    // InternalSimplepalladio.g:1361:4: otherlv_3= 'behaviorElements' otherlv_4= '{' ( (lv_behaviorElements_5_0= ruleBehaviorElement ) ) (otherlv_6= ',' ( (lv_behaviorElements_7_0= ruleBehaviorElement ) ) )* otherlv_8= '}'
+                    // InternalSimplepalladio.g:1399:4: otherlv_3= 'behaviorElements' otherlv_4= '{' ( (lv_behaviorElements_5_0= ruleBehaviorElement ) ) (otherlv_6= ',' ( (lv_behaviorElements_7_0= ruleBehaviorElement ) ) )* otherlv_8= '}'
                     {
                     otherlv_3=(Token)match(input,35,FOLLOW_8); 
 
@@ -3206,11 +3294,11 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
                     				newLeafNode(otherlv_4, grammarAccess.getLoopAccess().getLeftCurlyBracketKeyword_3_1());
                     			
-                    // InternalSimplepalladio.g:1369:4: ( (lv_behaviorElements_5_0= ruleBehaviorElement ) )
-                    // InternalSimplepalladio.g:1370:5: (lv_behaviorElements_5_0= ruleBehaviorElement )
+                    // InternalSimplepalladio.g:1407:4: ( (lv_behaviorElements_5_0= ruleBehaviorElement ) )
+                    // InternalSimplepalladio.g:1408:5: (lv_behaviorElements_5_0= ruleBehaviorElement )
                     {
-                    // InternalSimplepalladio.g:1370:5: (lv_behaviorElements_5_0= ruleBehaviorElement )
-                    // InternalSimplepalladio.g:1371:6: lv_behaviorElements_5_0= ruleBehaviorElement
+                    // InternalSimplepalladio.g:1408:5: (lv_behaviorElements_5_0= ruleBehaviorElement )
+                    // InternalSimplepalladio.g:1409:6: lv_behaviorElements_5_0= ruleBehaviorElement
                     {
 
                     						newCompositeNode(grammarAccess.getLoopAccess().getBehaviorElementsBehaviorElementParserRuleCall_3_2_0());
@@ -3237,30 +3325,30 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
                     }
 
-                    // InternalSimplepalladio.g:1388:4: (otherlv_6= ',' ( (lv_behaviorElements_7_0= ruleBehaviorElement ) ) )*
-                    loop16:
+                    // InternalSimplepalladio.g:1426:4: (otherlv_6= ',' ( (lv_behaviorElements_7_0= ruleBehaviorElement ) ) )*
+                    loop18:
                     do {
-                        int alt16=2;
-                        int LA16_0 = input.LA(1);
+                        int alt18=2;
+                        int LA18_0 = input.LA(1);
 
-                        if ( (LA16_0==15) ) {
-                            alt16=1;
+                        if ( (LA18_0==15) ) {
+                            alt18=1;
                         }
 
 
-                        switch (alt16) {
+                        switch (alt18) {
                     	case 1 :
-                    	    // InternalSimplepalladio.g:1389:5: otherlv_6= ',' ( (lv_behaviorElements_7_0= ruleBehaviorElement ) )
+                    	    // InternalSimplepalladio.g:1427:5: otherlv_6= ',' ( (lv_behaviorElements_7_0= ruleBehaviorElement ) )
                     	    {
                     	    otherlv_6=(Token)match(input,15,FOLLOW_31); 
 
                     	    					newLeafNode(otherlv_6, grammarAccess.getLoopAccess().getCommaKeyword_3_3_0());
                     	    				
-                    	    // InternalSimplepalladio.g:1393:5: ( (lv_behaviorElements_7_0= ruleBehaviorElement ) )
-                    	    // InternalSimplepalladio.g:1394:6: (lv_behaviorElements_7_0= ruleBehaviorElement )
+                    	    // InternalSimplepalladio.g:1431:5: ( (lv_behaviorElements_7_0= ruleBehaviorElement ) )
+                    	    // InternalSimplepalladio.g:1432:6: (lv_behaviorElements_7_0= ruleBehaviorElement )
                     	    {
-                    	    // InternalSimplepalladio.g:1394:6: (lv_behaviorElements_7_0= ruleBehaviorElement )
-                    	    // InternalSimplepalladio.g:1395:7: lv_behaviorElements_7_0= ruleBehaviorElement
+                    	    // InternalSimplepalladio.g:1432:6: (lv_behaviorElements_7_0= ruleBehaviorElement )
+                    	    // InternalSimplepalladio.g:1433:7: lv_behaviorElements_7_0= ruleBehaviorElement
                     	    {
 
                     	    							newCompositeNode(grammarAccess.getLoopAccess().getBehaviorElementsBehaviorElementParserRuleCall_3_3_1_0());
@@ -3292,7 +3380,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
                     	    break;
 
                     	default :
-                    	    break loop16;
+                    	    break loop18;
                         }
                     } while (true);
 
@@ -3333,7 +3421,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "entryRuleBranch"
-    // InternalSimplepalladio.g:1426:1: entryRuleBranch returns [EObject current=null] : iv_ruleBranch= ruleBranch EOF ;
+    // InternalSimplepalladio.g:1464:1: entryRuleBranch returns [EObject current=null] : iv_ruleBranch= ruleBranch EOF ;
     public final EObject entryRuleBranch() throws RecognitionException {
         EObject current = null;
 
@@ -3341,8 +3429,8 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
         try {
-            // InternalSimplepalladio.g:1426:47: (iv_ruleBranch= ruleBranch EOF )
-            // InternalSimplepalladio.g:1427:2: iv_ruleBranch= ruleBranch EOF
+            // InternalSimplepalladio.g:1464:47: (iv_ruleBranch= ruleBranch EOF )
+            // InternalSimplepalladio.g:1465:2: iv_ruleBranch= ruleBranch EOF
             {
              newCompositeNode(grammarAccess.getBranchRule()); 
             pushFollow(FOLLOW_1);
@@ -3369,7 +3457,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "ruleBranch"
-    // InternalSimplepalladio.g:1433:1: ruleBranch returns [EObject current=null] : ( () otherlv_1= 'Branch' otherlv_2= '{' (otherlv_3= 'behaviorElements' otherlv_4= '{' ( (lv_behaviorElements_5_0= ruleBehaviorElement ) ) (otherlv_6= ',' ( (lv_behaviorElements_7_0= ruleBehaviorElement ) ) )* otherlv_8= '}' )? otherlv_9= '}' ) ;
+    // InternalSimplepalladio.g:1471:1: ruleBranch returns [EObject current=null] : ( () otherlv_1= 'Branch' otherlv_2= '{' (otherlv_3= 'behaviorElements' otherlv_4= '{' ( (lv_behaviorElements_5_0= ruleBehaviorElement ) ) (otherlv_6= ',' ( (lv_behaviorElements_7_0= ruleBehaviorElement ) ) )* otherlv_8= '}' )? otherlv_9= '}' ) ;
     public final EObject ruleBranch() throws RecognitionException {
         EObject current = null;
 
@@ -3389,14 +3477,14 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
         	enterRule();
 
         try {
-            // InternalSimplepalladio.g:1439:2: ( ( () otherlv_1= 'Branch' otherlv_2= '{' (otherlv_3= 'behaviorElements' otherlv_4= '{' ( (lv_behaviorElements_5_0= ruleBehaviorElement ) ) (otherlv_6= ',' ( (lv_behaviorElements_7_0= ruleBehaviorElement ) ) )* otherlv_8= '}' )? otherlv_9= '}' ) )
-            // InternalSimplepalladio.g:1440:2: ( () otherlv_1= 'Branch' otherlv_2= '{' (otherlv_3= 'behaviorElements' otherlv_4= '{' ( (lv_behaviorElements_5_0= ruleBehaviorElement ) ) (otherlv_6= ',' ( (lv_behaviorElements_7_0= ruleBehaviorElement ) ) )* otherlv_8= '}' )? otherlv_9= '}' )
+            // InternalSimplepalladio.g:1477:2: ( ( () otherlv_1= 'Branch' otherlv_2= '{' (otherlv_3= 'behaviorElements' otherlv_4= '{' ( (lv_behaviorElements_5_0= ruleBehaviorElement ) ) (otherlv_6= ',' ( (lv_behaviorElements_7_0= ruleBehaviorElement ) ) )* otherlv_8= '}' )? otherlv_9= '}' ) )
+            // InternalSimplepalladio.g:1478:2: ( () otherlv_1= 'Branch' otherlv_2= '{' (otherlv_3= 'behaviorElements' otherlv_4= '{' ( (lv_behaviorElements_5_0= ruleBehaviorElement ) ) (otherlv_6= ',' ( (lv_behaviorElements_7_0= ruleBehaviorElement ) ) )* otherlv_8= '}' )? otherlv_9= '}' )
             {
-            // InternalSimplepalladio.g:1440:2: ( () otherlv_1= 'Branch' otherlv_2= '{' (otherlv_3= 'behaviorElements' otherlv_4= '{' ( (lv_behaviorElements_5_0= ruleBehaviorElement ) ) (otherlv_6= ',' ( (lv_behaviorElements_7_0= ruleBehaviorElement ) ) )* otherlv_8= '}' )? otherlv_9= '}' )
-            // InternalSimplepalladio.g:1441:3: () otherlv_1= 'Branch' otherlv_2= '{' (otherlv_3= 'behaviorElements' otherlv_4= '{' ( (lv_behaviorElements_5_0= ruleBehaviorElement ) ) (otherlv_6= ',' ( (lv_behaviorElements_7_0= ruleBehaviorElement ) ) )* otherlv_8= '}' )? otherlv_9= '}'
+            // InternalSimplepalladio.g:1478:2: ( () otherlv_1= 'Branch' otherlv_2= '{' (otherlv_3= 'behaviorElements' otherlv_4= '{' ( (lv_behaviorElements_5_0= ruleBehaviorElement ) ) (otherlv_6= ',' ( (lv_behaviorElements_7_0= ruleBehaviorElement ) ) )* otherlv_8= '}' )? otherlv_9= '}' )
+            // InternalSimplepalladio.g:1479:3: () otherlv_1= 'Branch' otherlv_2= '{' (otherlv_3= 'behaviorElements' otherlv_4= '{' ( (lv_behaviorElements_5_0= ruleBehaviorElement ) ) (otherlv_6= ',' ( (lv_behaviorElements_7_0= ruleBehaviorElement ) ) )* otherlv_8= '}' )? otherlv_9= '}'
             {
-            // InternalSimplepalladio.g:1441:3: ()
-            // InternalSimplepalladio.g:1442:4: 
+            // InternalSimplepalladio.g:1479:3: ()
+            // InternalSimplepalladio.g:1480:4: 
             {
 
             				current = forceCreateModelElement(
@@ -3414,16 +3502,16 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
             			newLeafNode(otherlv_2, grammarAccess.getBranchAccess().getLeftCurlyBracketKeyword_2());
             		
-            // InternalSimplepalladio.g:1456:3: (otherlv_3= 'behaviorElements' otherlv_4= '{' ( (lv_behaviorElements_5_0= ruleBehaviorElement ) ) (otherlv_6= ',' ( (lv_behaviorElements_7_0= ruleBehaviorElement ) ) )* otherlv_8= '}' )?
-            int alt19=2;
-            int LA19_0 = input.LA(1);
+            // InternalSimplepalladio.g:1494:3: (otherlv_3= 'behaviorElements' otherlv_4= '{' ( (lv_behaviorElements_5_0= ruleBehaviorElement ) ) (otherlv_6= ',' ( (lv_behaviorElements_7_0= ruleBehaviorElement ) ) )* otherlv_8= '}' )?
+            int alt21=2;
+            int LA21_0 = input.LA(1);
 
-            if ( (LA19_0==35) ) {
-                alt19=1;
+            if ( (LA21_0==35) ) {
+                alt21=1;
             }
-            switch (alt19) {
+            switch (alt21) {
                 case 1 :
-                    // InternalSimplepalladio.g:1457:4: otherlv_3= 'behaviorElements' otherlv_4= '{' ( (lv_behaviorElements_5_0= ruleBehaviorElement ) ) (otherlv_6= ',' ( (lv_behaviorElements_7_0= ruleBehaviorElement ) ) )* otherlv_8= '}'
+                    // InternalSimplepalladio.g:1495:4: otherlv_3= 'behaviorElements' otherlv_4= '{' ( (lv_behaviorElements_5_0= ruleBehaviorElement ) ) (otherlv_6= ',' ( (lv_behaviorElements_7_0= ruleBehaviorElement ) ) )* otherlv_8= '}'
                     {
                     otherlv_3=(Token)match(input,35,FOLLOW_8); 
 
@@ -3433,11 +3521,11 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
                     				newLeafNode(otherlv_4, grammarAccess.getBranchAccess().getLeftCurlyBracketKeyword_3_1());
                     			
-                    // InternalSimplepalladio.g:1465:4: ( (lv_behaviorElements_5_0= ruleBehaviorElement ) )
-                    // InternalSimplepalladio.g:1466:5: (lv_behaviorElements_5_0= ruleBehaviorElement )
+                    // InternalSimplepalladio.g:1503:4: ( (lv_behaviorElements_5_0= ruleBehaviorElement ) )
+                    // InternalSimplepalladio.g:1504:5: (lv_behaviorElements_5_0= ruleBehaviorElement )
                     {
-                    // InternalSimplepalladio.g:1466:5: (lv_behaviorElements_5_0= ruleBehaviorElement )
-                    // InternalSimplepalladio.g:1467:6: lv_behaviorElements_5_0= ruleBehaviorElement
+                    // InternalSimplepalladio.g:1504:5: (lv_behaviorElements_5_0= ruleBehaviorElement )
+                    // InternalSimplepalladio.g:1505:6: lv_behaviorElements_5_0= ruleBehaviorElement
                     {
 
                     						newCompositeNode(grammarAccess.getBranchAccess().getBehaviorElementsBehaviorElementParserRuleCall_3_2_0());
@@ -3464,30 +3552,30 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
                     }
 
-                    // InternalSimplepalladio.g:1484:4: (otherlv_6= ',' ( (lv_behaviorElements_7_0= ruleBehaviorElement ) ) )*
-                    loop18:
+                    // InternalSimplepalladio.g:1522:4: (otherlv_6= ',' ( (lv_behaviorElements_7_0= ruleBehaviorElement ) ) )*
+                    loop20:
                     do {
-                        int alt18=2;
-                        int LA18_0 = input.LA(1);
+                        int alt20=2;
+                        int LA20_0 = input.LA(1);
 
-                        if ( (LA18_0==15) ) {
-                            alt18=1;
+                        if ( (LA20_0==15) ) {
+                            alt20=1;
                         }
 
 
-                        switch (alt18) {
+                        switch (alt20) {
                     	case 1 :
-                    	    // InternalSimplepalladio.g:1485:5: otherlv_6= ',' ( (lv_behaviorElements_7_0= ruleBehaviorElement ) )
+                    	    // InternalSimplepalladio.g:1523:5: otherlv_6= ',' ( (lv_behaviorElements_7_0= ruleBehaviorElement ) )
                     	    {
                     	    otherlv_6=(Token)match(input,15,FOLLOW_31); 
 
                     	    					newLeafNode(otherlv_6, grammarAccess.getBranchAccess().getCommaKeyword_3_3_0());
                     	    				
-                    	    // InternalSimplepalladio.g:1489:5: ( (lv_behaviorElements_7_0= ruleBehaviorElement ) )
-                    	    // InternalSimplepalladio.g:1490:6: (lv_behaviorElements_7_0= ruleBehaviorElement )
+                    	    // InternalSimplepalladio.g:1527:5: ( (lv_behaviorElements_7_0= ruleBehaviorElement ) )
+                    	    // InternalSimplepalladio.g:1528:6: (lv_behaviorElements_7_0= ruleBehaviorElement )
                     	    {
-                    	    // InternalSimplepalladio.g:1490:6: (lv_behaviorElements_7_0= ruleBehaviorElement )
-                    	    // InternalSimplepalladio.g:1491:7: lv_behaviorElements_7_0= ruleBehaviorElement
+                    	    // InternalSimplepalladio.g:1528:6: (lv_behaviorElements_7_0= ruleBehaviorElement )
+                    	    // InternalSimplepalladio.g:1529:7: lv_behaviorElements_7_0= ruleBehaviorElement
                     	    {
 
                     	    							newCompositeNode(grammarAccess.getBranchAccess().getBehaviorElementsBehaviorElementParserRuleCall_3_3_1_0());
@@ -3519,7 +3607,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
                     	    break;
 
                     	default :
-                    	    break loop18;
+                    	    break loop20;
                         }
                     } while (true);
 
@@ -3560,7 +3648,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "entryRuleAssemblyViewType"
-    // InternalSimplepalladio.g:1522:1: entryRuleAssemblyViewType returns [EObject current=null] : iv_ruleAssemblyViewType= ruleAssemblyViewType EOF ;
+    // InternalSimplepalladio.g:1560:1: entryRuleAssemblyViewType returns [EObject current=null] : iv_ruleAssemblyViewType= ruleAssemblyViewType EOF ;
     public final EObject entryRuleAssemblyViewType() throws RecognitionException {
         EObject current = null;
 
@@ -3568,8 +3656,8 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
         try {
-            // InternalSimplepalladio.g:1522:57: (iv_ruleAssemblyViewType= ruleAssemblyViewType EOF )
-            // InternalSimplepalladio.g:1523:2: iv_ruleAssemblyViewType= ruleAssemblyViewType EOF
+            // InternalSimplepalladio.g:1560:57: (iv_ruleAssemblyViewType= ruleAssemblyViewType EOF )
+            // InternalSimplepalladio.g:1561:2: iv_ruleAssemblyViewType= ruleAssemblyViewType EOF
             {
              newCompositeNode(grammarAccess.getAssemblyViewTypeRule()); 
             pushFollow(FOLLOW_1);
@@ -3596,7 +3684,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "ruleAssemblyViewType"
-    // InternalSimplepalladio.g:1529:1: ruleAssemblyViewType returns [EObject current=null] : (otherlv_0= 'AssemblyViewType' otherlv_1= '{' otherlv_2= 'systems' otherlv_3= '{' ( (lv_systems_4_0= ruleSystem ) ) (otherlv_5= ',' ( (lv_systems_6_0= ruleSystem ) ) )* otherlv_7= '}' otherlv_8= '}' ) ;
+    // InternalSimplepalladio.g:1567:1: ruleAssemblyViewType returns [EObject current=null] : (otherlv_0= 'AssemblyViewType' otherlv_1= '{' otherlv_2= 'systems' otherlv_3= '{' ( (lv_systems_4_0= ruleSystem ) ) (otherlv_5= ',' ( (lv_systems_6_0= ruleSystem ) ) )* otherlv_7= '}' otherlv_8= '}' ) ;
     public final EObject ruleAssemblyViewType() throws RecognitionException {
         EObject current = null;
 
@@ -3616,11 +3704,11 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
         	enterRule();
 
         try {
-            // InternalSimplepalladio.g:1535:2: ( (otherlv_0= 'AssemblyViewType' otherlv_1= '{' otherlv_2= 'systems' otherlv_3= '{' ( (lv_systems_4_0= ruleSystem ) ) (otherlv_5= ',' ( (lv_systems_6_0= ruleSystem ) ) )* otherlv_7= '}' otherlv_8= '}' ) )
-            // InternalSimplepalladio.g:1536:2: (otherlv_0= 'AssemblyViewType' otherlv_1= '{' otherlv_2= 'systems' otherlv_3= '{' ( (lv_systems_4_0= ruleSystem ) ) (otherlv_5= ',' ( (lv_systems_6_0= ruleSystem ) ) )* otherlv_7= '}' otherlv_8= '}' )
+            // InternalSimplepalladio.g:1573:2: ( (otherlv_0= 'AssemblyViewType' otherlv_1= '{' otherlv_2= 'systems' otherlv_3= '{' ( (lv_systems_4_0= ruleSystem ) ) (otherlv_5= ',' ( (lv_systems_6_0= ruleSystem ) ) )* otherlv_7= '}' otherlv_8= '}' ) )
+            // InternalSimplepalladio.g:1574:2: (otherlv_0= 'AssemblyViewType' otherlv_1= '{' otherlv_2= 'systems' otherlv_3= '{' ( (lv_systems_4_0= ruleSystem ) ) (otherlv_5= ',' ( (lv_systems_6_0= ruleSystem ) ) )* otherlv_7= '}' otherlv_8= '}' )
             {
-            // InternalSimplepalladio.g:1536:2: (otherlv_0= 'AssemblyViewType' otherlv_1= '{' otherlv_2= 'systems' otherlv_3= '{' ( (lv_systems_4_0= ruleSystem ) ) (otherlv_5= ',' ( (lv_systems_6_0= ruleSystem ) ) )* otherlv_7= '}' otherlv_8= '}' )
-            // InternalSimplepalladio.g:1537:3: otherlv_0= 'AssemblyViewType' otherlv_1= '{' otherlv_2= 'systems' otherlv_3= '{' ( (lv_systems_4_0= ruleSystem ) ) (otherlv_5= ',' ( (lv_systems_6_0= ruleSystem ) ) )* otherlv_7= '}' otherlv_8= '}'
+            // InternalSimplepalladio.g:1574:2: (otherlv_0= 'AssemblyViewType' otherlv_1= '{' otherlv_2= 'systems' otherlv_3= '{' ( (lv_systems_4_0= ruleSystem ) ) (otherlv_5= ',' ( (lv_systems_6_0= ruleSystem ) ) )* otherlv_7= '}' otherlv_8= '}' )
+            // InternalSimplepalladio.g:1575:3: otherlv_0= 'AssemblyViewType' otherlv_1= '{' otherlv_2= 'systems' otherlv_3= '{' ( (lv_systems_4_0= ruleSystem ) ) (otherlv_5= ',' ( (lv_systems_6_0= ruleSystem ) ) )* otherlv_7= '}' otherlv_8= '}'
             {
             otherlv_0=(Token)match(input,40,FOLLOW_8); 
 
@@ -3638,11 +3726,11 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
             			newLeafNode(otherlv_3, grammarAccess.getAssemblyViewTypeAccess().getLeftCurlyBracketKeyword_3());
             		
-            // InternalSimplepalladio.g:1553:3: ( (lv_systems_4_0= ruleSystem ) )
-            // InternalSimplepalladio.g:1554:4: (lv_systems_4_0= ruleSystem )
+            // InternalSimplepalladio.g:1591:3: ( (lv_systems_4_0= ruleSystem ) )
+            // InternalSimplepalladio.g:1592:4: (lv_systems_4_0= ruleSystem )
             {
-            // InternalSimplepalladio.g:1554:4: (lv_systems_4_0= ruleSystem )
-            // InternalSimplepalladio.g:1555:5: lv_systems_4_0= ruleSystem
+            // InternalSimplepalladio.g:1592:4: (lv_systems_4_0= ruleSystem )
+            // InternalSimplepalladio.g:1593:5: lv_systems_4_0= ruleSystem
             {
 
             					newCompositeNode(grammarAccess.getAssemblyViewTypeAccess().getSystemsSystemParserRuleCall_4_0());
@@ -3669,30 +3757,30 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
             }
 
-            // InternalSimplepalladio.g:1572:3: (otherlv_5= ',' ( (lv_systems_6_0= ruleSystem ) ) )*
-            loop20:
+            // InternalSimplepalladio.g:1610:3: (otherlv_5= ',' ( (lv_systems_6_0= ruleSystem ) ) )*
+            loop22:
             do {
-                int alt20=2;
-                int LA20_0 = input.LA(1);
+                int alt22=2;
+                int LA22_0 = input.LA(1);
 
-                if ( (LA20_0==15) ) {
-                    alt20=1;
+                if ( (LA22_0==15) ) {
+                    alt22=1;
                 }
 
 
-                switch (alt20) {
+                switch (alt22) {
             	case 1 :
-            	    // InternalSimplepalladio.g:1573:4: otherlv_5= ',' ( (lv_systems_6_0= ruleSystem ) )
+            	    // InternalSimplepalladio.g:1611:4: otherlv_5= ',' ( (lv_systems_6_0= ruleSystem ) )
             	    {
             	    otherlv_5=(Token)match(input,15,FOLLOW_34); 
 
             	    				newLeafNode(otherlv_5, grammarAccess.getAssemblyViewTypeAccess().getCommaKeyword_5_0());
             	    			
-            	    // InternalSimplepalladio.g:1577:4: ( (lv_systems_6_0= ruleSystem ) )
-            	    // InternalSimplepalladio.g:1578:5: (lv_systems_6_0= ruleSystem )
+            	    // InternalSimplepalladio.g:1615:4: ( (lv_systems_6_0= ruleSystem ) )
+            	    // InternalSimplepalladio.g:1616:5: (lv_systems_6_0= ruleSystem )
             	    {
-            	    // InternalSimplepalladio.g:1578:5: (lv_systems_6_0= ruleSystem )
-            	    // InternalSimplepalladio.g:1579:6: lv_systems_6_0= ruleSystem
+            	    // InternalSimplepalladio.g:1616:5: (lv_systems_6_0= ruleSystem )
+            	    // InternalSimplepalladio.g:1617:6: lv_systems_6_0= ruleSystem
             	    {
 
             	    						newCompositeNode(grammarAccess.getAssemblyViewTypeAccess().getSystemsSystemParserRuleCall_5_1_0());
@@ -3724,7 +3812,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
             	    break;
 
             	default :
-            	    break loop20;
+            	    break loop22;
                 }
             } while (true);
 
@@ -3759,7 +3847,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "entryRuleAbstractSystemElement"
-    // InternalSimplepalladio.g:1609:1: entryRuleAbstractSystemElement returns [EObject current=null] : iv_ruleAbstractSystemElement= ruleAbstractSystemElement EOF ;
+    // InternalSimplepalladio.g:1647:1: entryRuleAbstractSystemElement returns [EObject current=null] : iv_ruleAbstractSystemElement= ruleAbstractSystemElement EOF ;
     public final EObject entryRuleAbstractSystemElement() throws RecognitionException {
         EObject current = null;
 
@@ -3767,8 +3855,8 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
         try {
-            // InternalSimplepalladio.g:1609:62: (iv_ruleAbstractSystemElement= ruleAbstractSystemElement EOF )
-            // InternalSimplepalladio.g:1610:2: iv_ruleAbstractSystemElement= ruleAbstractSystemElement EOF
+            // InternalSimplepalladio.g:1647:62: (iv_ruleAbstractSystemElement= ruleAbstractSystemElement EOF )
+            // InternalSimplepalladio.g:1648:2: iv_ruleAbstractSystemElement= ruleAbstractSystemElement EOF
             {
              newCompositeNode(grammarAccess.getAbstractSystemElementRule()); 
             pushFollow(FOLLOW_1);
@@ -3795,7 +3883,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "ruleAbstractSystemElement"
-    // InternalSimplepalladio.g:1616:1: ruleAbstractSystemElement returns [EObject current=null] : (this_AssemblyContext_0= ruleAssemblyContext | this_Role_1= ruleRole | this_DelegationConnector_2= ruleDelegationConnector | this_AssemblyConnector_3= ruleAssemblyConnector ) ;
+    // InternalSimplepalladio.g:1654:1: ruleAbstractSystemElement returns [EObject current=null] : (this_AssemblyContext_0= ruleAssemblyContext | this_Role_1= ruleRole | this_DelegationConnector_2= ruleDelegationConnector | this_AssemblyConnector_3= ruleAssemblyConnector ) ;
     public final EObject ruleAbstractSystemElement() throws RecognitionException {
         EObject current = null;
 
@@ -3812,42 +3900,42 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
         	enterRule();
 
         try {
-            // InternalSimplepalladio.g:1622:2: ( (this_AssemblyContext_0= ruleAssemblyContext | this_Role_1= ruleRole | this_DelegationConnector_2= ruleDelegationConnector | this_AssemblyConnector_3= ruleAssemblyConnector ) )
-            // InternalSimplepalladio.g:1623:2: (this_AssemblyContext_0= ruleAssemblyContext | this_Role_1= ruleRole | this_DelegationConnector_2= ruleDelegationConnector | this_AssemblyConnector_3= ruleAssemblyConnector )
+            // InternalSimplepalladio.g:1660:2: ( (this_AssemblyContext_0= ruleAssemblyContext | this_Role_1= ruleRole | this_DelegationConnector_2= ruleDelegationConnector | this_AssemblyConnector_3= ruleAssemblyConnector ) )
+            // InternalSimplepalladio.g:1661:2: (this_AssemblyContext_0= ruleAssemblyContext | this_Role_1= ruleRole | this_DelegationConnector_2= ruleDelegationConnector | this_AssemblyConnector_3= ruleAssemblyConnector )
             {
-            // InternalSimplepalladio.g:1623:2: (this_AssemblyContext_0= ruleAssemblyContext | this_Role_1= ruleRole | this_DelegationConnector_2= ruleDelegationConnector | this_AssemblyConnector_3= ruleAssemblyConnector )
-            int alt21=4;
+            // InternalSimplepalladio.g:1661:2: (this_AssemblyContext_0= ruleAssemblyContext | this_Role_1= ruleRole | this_DelegationConnector_2= ruleDelegationConnector | this_AssemblyConnector_3= ruleAssemblyConnector )
+            int alt23=4;
             switch ( input.LA(1) ) {
             case 44:
                 {
-                alt21=1;
+                alt23=1;
                 }
                 break;
             case 48:
                 {
-                alt21=2;
+                alt23=2;
                 }
                 break;
             case 50:
                 {
-                alt21=3;
+                alt23=3;
                 }
                 break;
             case 52:
                 {
-                alt21=4;
+                alt23=4;
                 }
                 break;
             default:
                 NoViableAltException nvae =
-                    new NoViableAltException("", 21, 0, input);
+                    new NoViableAltException("", 23, 0, input);
 
                 throw nvae;
             }
 
-            switch (alt21) {
+            switch (alt23) {
                 case 1 :
-                    // InternalSimplepalladio.g:1624:3: this_AssemblyContext_0= ruleAssemblyContext
+                    // InternalSimplepalladio.g:1662:3: this_AssemblyContext_0= ruleAssemblyContext
                     {
 
                     			newCompositeNode(grammarAccess.getAbstractSystemElementAccess().getAssemblyContextParserRuleCall_0());
@@ -3865,7 +3953,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
                     }
                     break;
                 case 2 :
-                    // InternalSimplepalladio.g:1633:3: this_Role_1= ruleRole
+                    // InternalSimplepalladio.g:1671:3: this_Role_1= ruleRole
                     {
 
                     			newCompositeNode(grammarAccess.getAbstractSystemElementAccess().getRoleParserRuleCall_1());
@@ -3883,7 +3971,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
                     }
                     break;
                 case 3 :
-                    // InternalSimplepalladio.g:1642:3: this_DelegationConnector_2= ruleDelegationConnector
+                    // InternalSimplepalladio.g:1680:3: this_DelegationConnector_2= ruleDelegationConnector
                     {
 
                     			newCompositeNode(grammarAccess.getAbstractSystemElementAccess().getDelegationConnectorParserRuleCall_2());
@@ -3901,7 +3989,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
                     }
                     break;
                 case 4 :
-                    // InternalSimplepalladio.g:1651:3: this_AssemblyConnector_3= ruleAssemblyConnector
+                    // InternalSimplepalladio.g:1689:3: this_AssemblyConnector_3= ruleAssemblyConnector
                     {
 
                     			newCompositeNode(grammarAccess.getAbstractSystemElementAccess().getAssemblyConnectorParserRuleCall_3());
@@ -3941,7 +4029,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "entryRuleSystem"
-    // InternalSimplepalladio.g:1663:1: entryRuleSystem returns [EObject current=null] : iv_ruleSystem= ruleSystem EOF ;
+    // InternalSimplepalladio.g:1701:1: entryRuleSystem returns [EObject current=null] : iv_ruleSystem= ruleSystem EOF ;
     public final EObject entryRuleSystem() throws RecognitionException {
         EObject current = null;
 
@@ -3949,8 +4037,8 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
         try {
-            // InternalSimplepalladio.g:1663:47: (iv_ruleSystem= ruleSystem EOF )
-            // InternalSimplepalladio.g:1664:2: iv_ruleSystem= ruleSystem EOF
+            // InternalSimplepalladio.g:1701:47: (iv_ruleSystem= ruleSystem EOF )
+            // InternalSimplepalladio.g:1702:2: iv_ruleSystem= ruleSystem EOF
             {
              newCompositeNode(grammarAccess.getSystemRule()); 
             pushFollow(FOLLOW_1);
@@ -3977,7 +4065,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "ruleSystem"
-    // InternalSimplepalladio.g:1670:1: ruleSystem returns [EObject current=null] : (otherlv_0= 'System' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' (otherlv_3= 'requiredInterfaces' otherlv_4= '(' ( ( ruleEString ) ) (otherlv_6= ',' ( ( ruleEString ) ) )* otherlv_8= ')' )? otherlv_9= 'providedInterfaces' otherlv_10= '(' ( ( ruleEString ) ) (otherlv_12= ',' ( ( ruleEString ) ) )* otherlv_14= ')' otherlv_15= 'systemElements' otherlv_16= '{' ( (lv_systemElements_17_0= ruleAbstractSystemElement ) ) (otherlv_18= ',' ( (lv_systemElements_19_0= ruleAbstractSystemElement ) ) )* otherlv_20= '}' otherlv_21= '}' ) ;
+    // InternalSimplepalladio.g:1708:1: ruleSystem returns [EObject current=null] : (otherlv_0= 'System' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' (otherlv_3= 'requiredInterfaces' otherlv_4= '(' ( ( ruleEString ) ) (otherlv_6= ',' ( ( ruleEString ) ) )* otherlv_8= ')' )? otherlv_9= 'providedInterfaces' otherlv_10= '(' ( ( ruleEString ) ) (otherlv_12= ',' ( ( ruleEString ) ) )* otherlv_14= ')' otherlv_15= 'systemElements' otherlv_16= '{' ( (lv_systemElements_17_0= ruleAbstractSystemElement ) ) (otherlv_18= ',' ( (lv_systemElements_19_0= ruleAbstractSystemElement ) ) )* otherlv_20= '}' otherlv_21= '}' ) ;
     public final EObject ruleSystem() throws RecognitionException {
         EObject current = null;
 
@@ -4007,21 +4095,21 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
         	enterRule();
 
         try {
-            // InternalSimplepalladio.g:1676:2: ( (otherlv_0= 'System' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' (otherlv_3= 'requiredInterfaces' otherlv_4= '(' ( ( ruleEString ) ) (otherlv_6= ',' ( ( ruleEString ) ) )* otherlv_8= ')' )? otherlv_9= 'providedInterfaces' otherlv_10= '(' ( ( ruleEString ) ) (otherlv_12= ',' ( ( ruleEString ) ) )* otherlv_14= ')' otherlv_15= 'systemElements' otherlv_16= '{' ( (lv_systemElements_17_0= ruleAbstractSystemElement ) ) (otherlv_18= ',' ( (lv_systemElements_19_0= ruleAbstractSystemElement ) ) )* otherlv_20= '}' otherlv_21= '}' ) )
-            // InternalSimplepalladio.g:1677:2: (otherlv_0= 'System' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' (otherlv_3= 'requiredInterfaces' otherlv_4= '(' ( ( ruleEString ) ) (otherlv_6= ',' ( ( ruleEString ) ) )* otherlv_8= ')' )? otherlv_9= 'providedInterfaces' otherlv_10= '(' ( ( ruleEString ) ) (otherlv_12= ',' ( ( ruleEString ) ) )* otherlv_14= ')' otherlv_15= 'systemElements' otherlv_16= '{' ( (lv_systemElements_17_0= ruleAbstractSystemElement ) ) (otherlv_18= ',' ( (lv_systemElements_19_0= ruleAbstractSystemElement ) ) )* otherlv_20= '}' otherlv_21= '}' )
+            // InternalSimplepalladio.g:1714:2: ( (otherlv_0= 'System' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' (otherlv_3= 'requiredInterfaces' otherlv_4= '(' ( ( ruleEString ) ) (otherlv_6= ',' ( ( ruleEString ) ) )* otherlv_8= ')' )? otherlv_9= 'providedInterfaces' otherlv_10= '(' ( ( ruleEString ) ) (otherlv_12= ',' ( ( ruleEString ) ) )* otherlv_14= ')' otherlv_15= 'systemElements' otherlv_16= '{' ( (lv_systemElements_17_0= ruleAbstractSystemElement ) ) (otherlv_18= ',' ( (lv_systemElements_19_0= ruleAbstractSystemElement ) ) )* otherlv_20= '}' otherlv_21= '}' ) )
+            // InternalSimplepalladio.g:1715:2: (otherlv_0= 'System' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' (otherlv_3= 'requiredInterfaces' otherlv_4= '(' ( ( ruleEString ) ) (otherlv_6= ',' ( ( ruleEString ) ) )* otherlv_8= ')' )? otherlv_9= 'providedInterfaces' otherlv_10= '(' ( ( ruleEString ) ) (otherlv_12= ',' ( ( ruleEString ) ) )* otherlv_14= ')' otherlv_15= 'systemElements' otherlv_16= '{' ( (lv_systemElements_17_0= ruleAbstractSystemElement ) ) (otherlv_18= ',' ( (lv_systemElements_19_0= ruleAbstractSystemElement ) ) )* otherlv_20= '}' otherlv_21= '}' )
             {
-            // InternalSimplepalladio.g:1677:2: (otherlv_0= 'System' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' (otherlv_3= 'requiredInterfaces' otherlv_4= '(' ( ( ruleEString ) ) (otherlv_6= ',' ( ( ruleEString ) ) )* otherlv_8= ')' )? otherlv_9= 'providedInterfaces' otherlv_10= '(' ( ( ruleEString ) ) (otherlv_12= ',' ( ( ruleEString ) ) )* otherlv_14= ')' otherlv_15= 'systemElements' otherlv_16= '{' ( (lv_systemElements_17_0= ruleAbstractSystemElement ) ) (otherlv_18= ',' ( (lv_systemElements_19_0= ruleAbstractSystemElement ) ) )* otherlv_20= '}' otherlv_21= '}' )
-            // InternalSimplepalladio.g:1678:3: otherlv_0= 'System' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' (otherlv_3= 'requiredInterfaces' otherlv_4= '(' ( ( ruleEString ) ) (otherlv_6= ',' ( ( ruleEString ) ) )* otherlv_8= ')' )? otherlv_9= 'providedInterfaces' otherlv_10= '(' ( ( ruleEString ) ) (otherlv_12= ',' ( ( ruleEString ) ) )* otherlv_14= ')' otherlv_15= 'systemElements' otherlv_16= '{' ( (lv_systemElements_17_0= ruleAbstractSystemElement ) ) (otherlv_18= ',' ( (lv_systemElements_19_0= ruleAbstractSystemElement ) ) )* otherlv_20= '}' otherlv_21= '}'
+            // InternalSimplepalladio.g:1715:2: (otherlv_0= 'System' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' (otherlv_3= 'requiredInterfaces' otherlv_4= '(' ( ( ruleEString ) ) (otherlv_6= ',' ( ( ruleEString ) ) )* otherlv_8= ')' )? otherlv_9= 'providedInterfaces' otherlv_10= '(' ( ( ruleEString ) ) (otherlv_12= ',' ( ( ruleEString ) ) )* otherlv_14= ')' otherlv_15= 'systemElements' otherlv_16= '{' ( (lv_systemElements_17_0= ruleAbstractSystemElement ) ) (otherlv_18= ',' ( (lv_systemElements_19_0= ruleAbstractSystemElement ) ) )* otherlv_20= '}' otherlv_21= '}' )
+            // InternalSimplepalladio.g:1716:3: otherlv_0= 'System' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' (otherlv_3= 'requiredInterfaces' otherlv_4= '(' ( ( ruleEString ) ) (otherlv_6= ',' ( ( ruleEString ) ) )* otherlv_8= ')' )? otherlv_9= 'providedInterfaces' otherlv_10= '(' ( ( ruleEString ) ) (otherlv_12= ',' ( ( ruleEString ) ) )* otherlv_14= ')' otherlv_15= 'systemElements' otherlv_16= '{' ( (lv_systemElements_17_0= ruleAbstractSystemElement ) ) (otherlv_18= ',' ( (lv_systemElements_19_0= ruleAbstractSystemElement ) ) )* otherlv_20= '}' otherlv_21= '}'
             {
             otherlv_0=(Token)match(input,42,FOLLOW_12); 
 
             			newLeafNode(otherlv_0, grammarAccess.getSystemAccess().getSystemKeyword_0());
             		
-            // InternalSimplepalladio.g:1682:3: ( (lv_name_1_0= ruleEString ) )
-            // InternalSimplepalladio.g:1683:4: (lv_name_1_0= ruleEString )
+            // InternalSimplepalladio.g:1720:3: ( (lv_name_1_0= ruleEString ) )
+            // InternalSimplepalladio.g:1721:4: (lv_name_1_0= ruleEString )
             {
-            // InternalSimplepalladio.g:1683:4: (lv_name_1_0= ruleEString )
-            // InternalSimplepalladio.g:1684:5: lv_name_1_0= ruleEString
+            // InternalSimplepalladio.g:1721:4: (lv_name_1_0= ruleEString )
+            // InternalSimplepalladio.g:1722:5: lv_name_1_0= ruleEString
             {
 
             					newCompositeNode(grammarAccess.getSystemAccess().getNameEStringParserRuleCall_1_0());
@@ -4052,16 +4140,16 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
             			newLeafNode(otherlv_2, grammarAccess.getSystemAccess().getLeftCurlyBracketKeyword_2());
             		
-            // InternalSimplepalladio.g:1705:3: (otherlv_3= 'requiredInterfaces' otherlv_4= '(' ( ( ruleEString ) ) (otherlv_6= ',' ( ( ruleEString ) ) )* otherlv_8= ')' )?
-            int alt23=2;
-            int LA23_0 = input.LA(1);
+            // InternalSimplepalladio.g:1743:3: (otherlv_3= 'requiredInterfaces' otherlv_4= '(' ( ( ruleEString ) ) (otherlv_6= ',' ( ( ruleEString ) ) )* otherlv_8= ')' )?
+            int alt25=2;
+            int LA25_0 = input.LA(1);
 
-            if ( (LA23_0==21) ) {
-                alt23=1;
+            if ( (LA25_0==21) ) {
+                alt25=1;
             }
-            switch (alt23) {
+            switch (alt25) {
                 case 1 :
-                    // InternalSimplepalladio.g:1706:4: otherlv_3= 'requiredInterfaces' otherlv_4= '(' ( ( ruleEString ) ) (otherlv_6= ',' ( ( ruleEString ) ) )* otherlv_8= ')'
+                    // InternalSimplepalladio.g:1744:4: otherlv_3= 'requiredInterfaces' otherlv_4= '(' ( ( ruleEString ) ) (otherlv_6= ',' ( ( ruleEString ) ) )* otherlv_8= ')'
                     {
                     otherlv_3=(Token)match(input,21,FOLLOW_14); 
 
@@ -4071,11 +4159,11 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
                     				newLeafNode(otherlv_4, grammarAccess.getSystemAccess().getLeftParenthesisKeyword_3_1());
                     			
-                    // InternalSimplepalladio.g:1714:4: ( ( ruleEString ) )
-                    // InternalSimplepalladio.g:1715:5: ( ruleEString )
+                    // InternalSimplepalladio.g:1752:4: ( ( ruleEString ) )
+                    // InternalSimplepalladio.g:1753:5: ( ruleEString )
                     {
-                    // InternalSimplepalladio.g:1715:5: ( ruleEString )
-                    // InternalSimplepalladio.g:1716:6: ruleEString
+                    // InternalSimplepalladio.g:1753:5: ( ruleEString )
+                    // InternalSimplepalladio.g:1754:6: ruleEString
                     {
 
                     						if (current==null) {
@@ -4099,30 +4187,30 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
                     }
 
-                    // InternalSimplepalladio.g:1730:4: (otherlv_6= ',' ( ( ruleEString ) ) )*
-                    loop22:
+                    // InternalSimplepalladio.g:1768:4: (otherlv_6= ',' ( ( ruleEString ) ) )*
+                    loop24:
                     do {
-                        int alt22=2;
-                        int LA22_0 = input.LA(1);
+                        int alt24=2;
+                        int LA24_0 = input.LA(1);
 
-                        if ( (LA22_0==15) ) {
-                            alt22=1;
+                        if ( (LA24_0==15) ) {
+                            alt24=1;
                         }
 
 
-                        switch (alt22) {
+                        switch (alt24) {
                     	case 1 :
-                    	    // InternalSimplepalladio.g:1731:5: otherlv_6= ',' ( ( ruleEString ) )
+                    	    // InternalSimplepalladio.g:1769:5: otherlv_6= ',' ( ( ruleEString ) )
                     	    {
                     	    otherlv_6=(Token)match(input,15,FOLLOW_12); 
 
                     	    					newLeafNode(otherlv_6, grammarAccess.getSystemAccess().getCommaKeyword_3_3_0());
                     	    				
-                    	    // InternalSimplepalladio.g:1735:5: ( ( ruleEString ) )
-                    	    // InternalSimplepalladio.g:1736:6: ( ruleEString )
+                    	    // InternalSimplepalladio.g:1773:5: ( ( ruleEString ) )
+                    	    // InternalSimplepalladio.g:1774:6: ( ruleEString )
                     	    {
-                    	    // InternalSimplepalladio.g:1736:6: ( ruleEString )
-                    	    // InternalSimplepalladio.g:1737:7: ruleEString
+                    	    // InternalSimplepalladio.g:1774:6: ( ruleEString )
+                    	    // InternalSimplepalladio.g:1775:7: ruleEString
                     	    {
 
                     	    							if (current==null) {
@@ -4151,7 +4239,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
                     	    break;
 
                     	default :
-                    	    break loop22;
+                    	    break loop24;
                         }
                     } while (true);
 
@@ -4173,11 +4261,11 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
             			newLeafNode(otherlv_10, grammarAccess.getSystemAccess().getLeftParenthesisKeyword_5());
             		
-            // InternalSimplepalladio.g:1765:3: ( ( ruleEString ) )
-            // InternalSimplepalladio.g:1766:4: ( ruleEString )
+            // InternalSimplepalladio.g:1803:3: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:1804:4: ( ruleEString )
             {
-            // InternalSimplepalladio.g:1766:4: ( ruleEString )
-            // InternalSimplepalladio.g:1767:5: ruleEString
+            // InternalSimplepalladio.g:1804:4: ( ruleEString )
+            // InternalSimplepalladio.g:1805:5: ruleEString
             {
 
             					if (current==null) {
@@ -4201,30 +4289,30 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
             }
 
-            // InternalSimplepalladio.g:1781:3: (otherlv_12= ',' ( ( ruleEString ) ) )*
-            loop24:
+            // InternalSimplepalladio.g:1819:3: (otherlv_12= ',' ( ( ruleEString ) ) )*
+            loop26:
             do {
-                int alt24=2;
-                int LA24_0 = input.LA(1);
+                int alt26=2;
+                int LA26_0 = input.LA(1);
 
-                if ( (LA24_0==15) ) {
-                    alt24=1;
+                if ( (LA26_0==15) ) {
+                    alt26=1;
                 }
 
 
-                switch (alt24) {
+                switch (alt26) {
             	case 1 :
-            	    // InternalSimplepalladio.g:1782:4: otherlv_12= ',' ( ( ruleEString ) )
+            	    // InternalSimplepalladio.g:1820:4: otherlv_12= ',' ( ( ruleEString ) )
             	    {
             	    otherlv_12=(Token)match(input,15,FOLLOW_12); 
 
             	    				newLeafNode(otherlv_12, grammarAccess.getSystemAccess().getCommaKeyword_7_0());
             	    			
-            	    // InternalSimplepalladio.g:1786:4: ( ( ruleEString ) )
-            	    // InternalSimplepalladio.g:1787:5: ( ruleEString )
+            	    // InternalSimplepalladio.g:1824:4: ( ( ruleEString ) )
+            	    // InternalSimplepalladio.g:1825:5: ( ruleEString )
             	    {
-            	    // InternalSimplepalladio.g:1787:5: ( ruleEString )
-            	    // InternalSimplepalladio.g:1788:6: ruleEString
+            	    // InternalSimplepalladio.g:1825:5: ( ruleEString )
+            	    // InternalSimplepalladio.g:1826:6: ruleEString
             	    {
 
             	    						if (current==null) {
@@ -4253,7 +4341,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
             	    break;
 
             	default :
-            	    break loop24;
+            	    break loop26;
                 }
             } while (true);
 
@@ -4269,11 +4357,11 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
             			newLeafNode(otherlv_16, grammarAccess.getSystemAccess().getLeftCurlyBracketKeyword_10());
             		
-            // InternalSimplepalladio.g:1815:3: ( (lv_systemElements_17_0= ruleAbstractSystemElement ) )
-            // InternalSimplepalladio.g:1816:4: (lv_systemElements_17_0= ruleAbstractSystemElement )
+            // InternalSimplepalladio.g:1853:3: ( (lv_systemElements_17_0= ruleAbstractSystemElement ) )
+            // InternalSimplepalladio.g:1854:4: (lv_systemElements_17_0= ruleAbstractSystemElement )
             {
-            // InternalSimplepalladio.g:1816:4: (lv_systemElements_17_0= ruleAbstractSystemElement )
-            // InternalSimplepalladio.g:1817:5: lv_systemElements_17_0= ruleAbstractSystemElement
+            // InternalSimplepalladio.g:1854:4: (lv_systemElements_17_0= ruleAbstractSystemElement )
+            // InternalSimplepalladio.g:1855:5: lv_systemElements_17_0= ruleAbstractSystemElement
             {
 
             					newCompositeNode(grammarAccess.getSystemAccess().getSystemElementsAbstractSystemElementParserRuleCall_11_0());
@@ -4300,30 +4388,30 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
             }
 
-            // InternalSimplepalladio.g:1834:3: (otherlv_18= ',' ( (lv_systemElements_19_0= ruleAbstractSystemElement ) ) )*
-            loop25:
+            // InternalSimplepalladio.g:1872:3: (otherlv_18= ',' ( (lv_systemElements_19_0= ruleAbstractSystemElement ) ) )*
+            loop27:
             do {
-                int alt25=2;
-                int LA25_0 = input.LA(1);
+                int alt27=2;
+                int LA27_0 = input.LA(1);
 
-                if ( (LA25_0==15) ) {
-                    alt25=1;
+                if ( (LA27_0==15) ) {
+                    alt27=1;
                 }
 
 
-                switch (alt25) {
+                switch (alt27) {
             	case 1 :
-            	    // InternalSimplepalladio.g:1835:4: otherlv_18= ',' ( (lv_systemElements_19_0= ruleAbstractSystemElement ) )
+            	    // InternalSimplepalladio.g:1873:4: otherlv_18= ',' ( (lv_systemElements_19_0= ruleAbstractSystemElement ) )
             	    {
             	    otherlv_18=(Token)match(input,15,FOLLOW_36); 
 
             	    				newLeafNode(otherlv_18, grammarAccess.getSystemAccess().getCommaKeyword_12_0());
             	    			
-            	    // InternalSimplepalladio.g:1839:4: ( (lv_systemElements_19_0= ruleAbstractSystemElement ) )
-            	    // InternalSimplepalladio.g:1840:5: (lv_systemElements_19_0= ruleAbstractSystemElement )
+            	    // InternalSimplepalladio.g:1877:4: ( (lv_systemElements_19_0= ruleAbstractSystemElement ) )
+            	    // InternalSimplepalladio.g:1878:5: (lv_systemElements_19_0= ruleAbstractSystemElement )
             	    {
-            	    // InternalSimplepalladio.g:1840:5: (lv_systemElements_19_0= ruleAbstractSystemElement )
-            	    // InternalSimplepalladio.g:1841:6: lv_systemElements_19_0= ruleAbstractSystemElement
+            	    // InternalSimplepalladio.g:1878:5: (lv_systemElements_19_0= ruleAbstractSystemElement )
+            	    // InternalSimplepalladio.g:1879:6: lv_systemElements_19_0= ruleAbstractSystemElement
             	    {
 
             	    						newCompositeNode(grammarAccess.getSystemAccess().getSystemElementsAbstractSystemElementParserRuleCall_12_1_0());
@@ -4355,7 +4443,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
             	    break;
 
             	default :
-            	    break loop25;
+            	    break loop27;
                 }
             } while (true);
 
@@ -4390,7 +4478,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "entryRuleAssemblyContext"
-    // InternalSimplepalladio.g:1871:1: entryRuleAssemblyContext returns [EObject current=null] : iv_ruleAssemblyContext= ruleAssemblyContext EOF ;
+    // InternalSimplepalladio.g:1909:1: entryRuleAssemblyContext returns [EObject current=null] : iv_ruleAssemblyContext= ruleAssemblyContext EOF ;
     public final EObject entryRuleAssemblyContext() throws RecognitionException {
         EObject current = null;
 
@@ -4398,8 +4486,8 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
         try {
-            // InternalSimplepalladio.g:1871:56: (iv_ruleAssemblyContext= ruleAssemblyContext EOF )
-            // InternalSimplepalladio.g:1872:2: iv_ruleAssemblyContext= ruleAssemblyContext EOF
+            // InternalSimplepalladio.g:1909:56: (iv_ruleAssemblyContext= ruleAssemblyContext EOF )
+            // InternalSimplepalladio.g:1910:2: iv_ruleAssemblyContext= ruleAssemblyContext EOF
             {
              newCompositeNode(grammarAccess.getAssemblyContextRule()); 
             pushFollow(FOLLOW_1);
@@ -4426,7 +4514,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "ruleAssemblyContext"
-    // InternalSimplepalladio.g:1878:1: ruleAssemblyContext returns [EObject current=null] : (otherlv_0= 'AssemblyContext' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'component' ( ( ruleEString ) ) otherlv_5= 'providedRoles' otherlv_6= '(' ( ( ruleEString ) ) (otherlv_8= ',' ( ( ruleEString ) ) )* otherlv_10= ')' (otherlv_11= 'requiredRoles' otherlv_12= '(' ( ( ruleEString ) ) (otherlv_14= ',' ( ( ruleEString ) ) )* otherlv_16= ')' )? otherlv_17= '}' ) ;
+    // InternalSimplepalladio.g:1916:1: ruleAssemblyContext returns [EObject current=null] : (otherlv_0= 'AssemblyContext' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'component' ( ( ruleEString ) ) otherlv_5= 'providedRoles' otherlv_6= '(' ( ( ruleEString ) ) (otherlv_8= ',' ( ( ruleEString ) ) )* otherlv_10= ')' (otherlv_11= 'requiredRoles' otherlv_12= '(' ( ( ruleEString ) ) (otherlv_14= ',' ( ( ruleEString ) ) )* otherlv_16= ')' )? otherlv_17= '}' ) ;
     public final EObject ruleAssemblyContext() throws RecognitionException {
         EObject current = null;
 
@@ -4449,21 +4537,21 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
         	enterRule();
 
         try {
-            // InternalSimplepalladio.g:1884:2: ( (otherlv_0= 'AssemblyContext' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'component' ( ( ruleEString ) ) otherlv_5= 'providedRoles' otherlv_6= '(' ( ( ruleEString ) ) (otherlv_8= ',' ( ( ruleEString ) ) )* otherlv_10= ')' (otherlv_11= 'requiredRoles' otherlv_12= '(' ( ( ruleEString ) ) (otherlv_14= ',' ( ( ruleEString ) ) )* otherlv_16= ')' )? otherlv_17= '}' ) )
-            // InternalSimplepalladio.g:1885:2: (otherlv_0= 'AssemblyContext' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'component' ( ( ruleEString ) ) otherlv_5= 'providedRoles' otherlv_6= '(' ( ( ruleEString ) ) (otherlv_8= ',' ( ( ruleEString ) ) )* otherlv_10= ')' (otherlv_11= 'requiredRoles' otherlv_12= '(' ( ( ruleEString ) ) (otherlv_14= ',' ( ( ruleEString ) ) )* otherlv_16= ')' )? otherlv_17= '}' )
+            // InternalSimplepalladio.g:1922:2: ( (otherlv_0= 'AssemblyContext' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'component' ( ( ruleEString ) ) otherlv_5= 'providedRoles' otherlv_6= '(' ( ( ruleEString ) ) (otherlv_8= ',' ( ( ruleEString ) ) )* otherlv_10= ')' (otherlv_11= 'requiredRoles' otherlv_12= '(' ( ( ruleEString ) ) (otherlv_14= ',' ( ( ruleEString ) ) )* otherlv_16= ')' )? otherlv_17= '}' ) )
+            // InternalSimplepalladio.g:1923:2: (otherlv_0= 'AssemblyContext' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'component' ( ( ruleEString ) ) otherlv_5= 'providedRoles' otherlv_6= '(' ( ( ruleEString ) ) (otherlv_8= ',' ( ( ruleEString ) ) )* otherlv_10= ')' (otherlv_11= 'requiredRoles' otherlv_12= '(' ( ( ruleEString ) ) (otherlv_14= ',' ( ( ruleEString ) ) )* otherlv_16= ')' )? otherlv_17= '}' )
             {
-            // InternalSimplepalladio.g:1885:2: (otherlv_0= 'AssemblyContext' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'component' ( ( ruleEString ) ) otherlv_5= 'providedRoles' otherlv_6= '(' ( ( ruleEString ) ) (otherlv_8= ',' ( ( ruleEString ) ) )* otherlv_10= ')' (otherlv_11= 'requiredRoles' otherlv_12= '(' ( ( ruleEString ) ) (otherlv_14= ',' ( ( ruleEString ) ) )* otherlv_16= ')' )? otherlv_17= '}' )
-            // InternalSimplepalladio.g:1886:3: otherlv_0= 'AssemblyContext' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'component' ( ( ruleEString ) ) otherlv_5= 'providedRoles' otherlv_6= '(' ( ( ruleEString ) ) (otherlv_8= ',' ( ( ruleEString ) ) )* otherlv_10= ')' (otherlv_11= 'requiredRoles' otherlv_12= '(' ( ( ruleEString ) ) (otherlv_14= ',' ( ( ruleEString ) ) )* otherlv_16= ')' )? otherlv_17= '}'
+            // InternalSimplepalladio.g:1923:2: (otherlv_0= 'AssemblyContext' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'component' ( ( ruleEString ) ) otherlv_5= 'providedRoles' otherlv_6= '(' ( ( ruleEString ) ) (otherlv_8= ',' ( ( ruleEString ) ) )* otherlv_10= ')' (otherlv_11= 'requiredRoles' otherlv_12= '(' ( ( ruleEString ) ) (otherlv_14= ',' ( ( ruleEString ) ) )* otherlv_16= ')' )? otherlv_17= '}' )
+            // InternalSimplepalladio.g:1924:3: otherlv_0= 'AssemblyContext' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'component' ( ( ruleEString ) ) otherlv_5= 'providedRoles' otherlv_6= '(' ( ( ruleEString ) ) (otherlv_8= ',' ( ( ruleEString ) ) )* otherlv_10= ')' (otherlv_11= 'requiredRoles' otherlv_12= '(' ( ( ruleEString ) ) (otherlv_14= ',' ( ( ruleEString ) ) )* otherlv_16= ')' )? otherlv_17= '}'
             {
             otherlv_0=(Token)match(input,44,FOLLOW_12); 
 
             			newLeafNode(otherlv_0, grammarAccess.getAssemblyContextAccess().getAssemblyContextKeyword_0());
             		
-            // InternalSimplepalladio.g:1890:3: ( (lv_name_1_0= ruleEString ) )
-            // InternalSimplepalladio.g:1891:4: (lv_name_1_0= ruleEString )
+            // InternalSimplepalladio.g:1928:3: ( (lv_name_1_0= ruleEString ) )
+            // InternalSimplepalladio.g:1929:4: (lv_name_1_0= ruleEString )
             {
-            // InternalSimplepalladio.g:1891:4: (lv_name_1_0= ruleEString )
-            // InternalSimplepalladio.g:1892:5: lv_name_1_0= ruleEString
+            // InternalSimplepalladio.g:1929:4: (lv_name_1_0= ruleEString )
+            // InternalSimplepalladio.g:1930:5: lv_name_1_0= ruleEString
             {
 
             					newCompositeNode(grammarAccess.getAssemblyContextAccess().getNameEStringParserRuleCall_1_0());
@@ -4498,11 +4586,11 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
             			newLeafNode(otherlv_3, grammarAccess.getAssemblyContextAccess().getComponentKeyword_3());
             		
-            // InternalSimplepalladio.g:1917:3: ( ( ruleEString ) )
-            // InternalSimplepalladio.g:1918:4: ( ruleEString )
+            // InternalSimplepalladio.g:1955:3: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:1956:4: ( ruleEString )
             {
-            // InternalSimplepalladio.g:1918:4: ( ruleEString )
-            // InternalSimplepalladio.g:1919:5: ruleEString
+            // InternalSimplepalladio.g:1956:4: ( ruleEString )
+            // InternalSimplepalladio.g:1957:5: ruleEString
             {
 
             					if (current==null) {
@@ -4534,11 +4622,11 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
             			newLeafNode(otherlv_6, grammarAccess.getAssemblyContextAccess().getLeftParenthesisKeyword_6());
             		
-            // InternalSimplepalladio.g:1941:3: ( ( ruleEString ) )
-            // InternalSimplepalladio.g:1942:4: ( ruleEString )
+            // InternalSimplepalladio.g:1979:3: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:1980:4: ( ruleEString )
             {
-            // InternalSimplepalladio.g:1942:4: ( ruleEString )
-            // InternalSimplepalladio.g:1943:5: ruleEString
+            // InternalSimplepalladio.g:1980:4: ( ruleEString )
+            // InternalSimplepalladio.g:1981:5: ruleEString
             {
 
             					if (current==null) {
@@ -4562,30 +4650,30 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
             }
 
-            // InternalSimplepalladio.g:1957:3: (otherlv_8= ',' ( ( ruleEString ) ) )*
-            loop26:
+            // InternalSimplepalladio.g:1995:3: (otherlv_8= ',' ( ( ruleEString ) ) )*
+            loop28:
             do {
-                int alt26=2;
-                int LA26_0 = input.LA(1);
+                int alt28=2;
+                int LA28_0 = input.LA(1);
 
-                if ( (LA26_0==15) ) {
-                    alt26=1;
+                if ( (LA28_0==15) ) {
+                    alt28=1;
                 }
 
 
-                switch (alt26) {
+                switch (alt28) {
             	case 1 :
-            	    // InternalSimplepalladio.g:1958:4: otherlv_8= ',' ( ( ruleEString ) )
+            	    // InternalSimplepalladio.g:1996:4: otherlv_8= ',' ( ( ruleEString ) )
             	    {
             	    otherlv_8=(Token)match(input,15,FOLLOW_12); 
 
             	    				newLeafNode(otherlv_8, grammarAccess.getAssemblyContextAccess().getCommaKeyword_8_0());
             	    			
-            	    // InternalSimplepalladio.g:1962:4: ( ( ruleEString ) )
-            	    // InternalSimplepalladio.g:1963:5: ( ruleEString )
+            	    // InternalSimplepalladio.g:2000:4: ( ( ruleEString ) )
+            	    // InternalSimplepalladio.g:2001:5: ( ruleEString )
             	    {
-            	    // InternalSimplepalladio.g:1963:5: ( ruleEString )
-            	    // InternalSimplepalladio.g:1964:6: ruleEString
+            	    // InternalSimplepalladio.g:2001:5: ( ruleEString )
+            	    // InternalSimplepalladio.g:2002:6: ruleEString
             	    {
 
             	    						if (current==null) {
@@ -4614,7 +4702,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
             	    break;
 
             	default :
-            	    break loop26;
+            	    break loop28;
                 }
             } while (true);
 
@@ -4622,16 +4710,16 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
             			newLeafNode(otherlv_10, grammarAccess.getAssemblyContextAccess().getRightParenthesisKeyword_9());
             		
-            // InternalSimplepalladio.g:1983:3: (otherlv_11= 'requiredRoles' otherlv_12= '(' ( ( ruleEString ) ) (otherlv_14= ',' ( ( ruleEString ) ) )* otherlv_16= ')' )?
-            int alt28=2;
-            int LA28_0 = input.LA(1);
+            // InternalSimplepalladio.g:2021:3: (otherlv_11= 'requiredRoles' otherlv_12= '(' ( ( ruleEString ) ) (otherlv_14= ',' ( ( ruleEString ) ) )* otherlv_16= ')' )?
+            int alt30=2;
+            int LA30_0 = input.LA(1);
 
-            if ( (LA28_0==47) ) {
-                alt28=1;
+            if ( (LA30_0==47) ) {
+                alt30=1;
             }
-            switch (alt28) {
+            switch (alt30) {
                 case 1 :
-                    // InternalSimplepalladio.g:1984:4: otherlv_11= 'requiredRoles' otherlv_12= '(' ( ( ruleEString ) ) (otherlv_14= ',' ( ( ruleEString ) ) )* otherlv_16= ')'
+                    // InternalSimplepalladio.g:2022:4: otherlv_11= 'requiredRoles' otherlv_12= '(' ( ( ruleEString ) ) (otherlv_14= ',' ( ( ruleEString ) ) )* otherlv_16= ')'
                     {
                     otherlv_11=(Token)match(input,47,FOLLOW_14); 
 
@@ -4641,11 +4729,11 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
                     				newLeafNode(otherlv_12, grammarAccess.getAssemblyContextAccess().getLeftParenthesisKeyword_10_1());
                     			
-                    // InternalSimplepalladio.g:1992:4: ( ( ruleEString ) )
-                    // InternalSimplepalladio.g:1993:5: ( ruleEString )
+                    // InternalSimplepalladio.g:2030:4: ( ( ruleEString ) )
+                    // InternalSimplepalladio.g:2031:5: ( ruleEString )
                     {
-                    // InternalSimplepalladio.g:1993:5: ( ruleEString )
-                    // InternalSimplepalladio.g:1994:6: ruleEString
+                    // InternalSimplepalladio.g:2031:5: ( ruleEString )
+                    // InternalSimplepalladio.g:2032:6: ruleEString
                     {
 
                     						if (current==null) {
@@ -4669,30 +4757,30 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
                     }
 
-                    // InternalSimplepalladio.g:2008:4: (otherlv_14= ',' ( ( ruleEString ) ) )*
-                    loop27:
+                    // InternalSimplepalladio.g:2046:4: (otherlv_14= ',' ( ( ruleEString ) ) )*
+                    loop29:
                     do {
-                        int alt27=2;
-                        int LA27_0 = input.LA(1);
+                        int alt29=2;
+                        int LA29_0 = input.LA(1);
 
-                        if ( (LA27_0==15) ) {
-                            alt27=1;
+                        if ( (LA29_0==15) ) {
+                            alt29=1;
                         }
 
 
-                        switch (alt27) {
+                        switch (alt29) {
                     	case 1 :
-                    	    // InternalSimplepalladio.g:2009:5: otherlv_14= ',' ( ( ruleEString ) )
+                    	    // InternalSimplepalladio.g:2047:5: otherlv_14= ',' ( ( ruleEString ) )
                     	    {
                     	    otherlv_14=(Token)match(input,15,FOLLOW_12); 
 
                     	    					newLeafNode(otherlv_14, grammarAccess.getAssemblyContextAccess().getCommaKeyword_10_3_0());
                     	    				
-                    	    // InternalSimplepalladio.g:2013:5: ( ( ruleEString ) )
-                    	    // InternalSimplepalladio.g:2014:6: ( ruleEString )
+                    	    // InternalSimplepalladio.g:2051:5: ( ( ruleEString ) )
+                    	    // InternalSimplepalladio.g:2052:6: ( ruleEString )
                     	    {
-                    	    // InternalSimplepalladio.g:2014:6: ( ruleEString )
-                    	    // InternalSimplepalladio.g:2015:7: ruleEString
+                    	    // InternalSimplepalladio.g:2052:6: ( ruleEString )
+                    	    // InternalSimplepalladio.g:2053:7: ruleEString
                     	    {
 
                     	    							if (current==null) {
@@ -4721,7 +4809,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
                     	    break;
 
                     	default :
-                    	    break loop27;
+                    	    break loop29;
                         }
                     } while (true);
 
@@ -4762,7 +4850,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "entryRuleRole"
-    // InternalSimplepalladio.g:2043:1: entryRuleRole returns [EObject current=null] : iv_ruleRole= ruleRole EOF ;
+    // InternalSimplepalladio.g:2081:1: entryRuleRole returns [EObject current=null] : iv_ruleRole= ruleRole EOF ;
     public final EObject entryRuleRole() throws RecognitionException {
         EObject current = null;
 
@@ -4770,8 +4858,8 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
         try {
-            // InternalSimplepalladio.g:2043:45: (iv_ruleRole= ruleRole EOF )
-            // InternalSimplepalladio.g:2044:2: iv_ruleRole= ruleRole EOF
+            // InternalSimplepalladio.g:2081:45: (iv_ruleRole= ruleRole EOF )
+            // InternalSimplepalladio.g:2082:2: iv_ruleRole= ruleRole EOF
             {
              newCompositeNode(grammarAccess.getRoleRule()); 
             pushFollow(FOLLOW_1);
@@ -4798,7 +4886,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "ruleRole"
-    // InternalSimplepalladio.g:2050:1: ruleRole returns [EObject current=null] : (otherlv_0= 'Role' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'interface' ( ( ruleEString ) ) otherlv_5= '}' ) ;
+    // InternalSimplepalladio.g:2088:1: ruleRole returns [EObject current=null] : (otherlv_0= 'Role' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'interface' ( ( ruleEString ) ) otherlv_5= '}' ) ;
     public final EObject ruleRole() throws RecognitionException {
         EObject current = null;
 
@@ -4813,21 +4901,21 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
         	enterRule();
 
         try {
-            // InternalSimplepalladio.g:2056:2: ( (otherlv_0= 'Role' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'interface' ( ( ruleEString ) ) otherlv_5= '}' ) )
-            // InternalSimplepalladio.g:2057:2: (otherlv_0= 'Role' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'interface' ( ( ruleEString ) ) otherlv_5= '}' )
+            // InternalSimplepalladio.g:2094:2: ( (otherlv_0= 'Role' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'interface' ( ( ruleEString ) ) otherlv_5= '}' ) )
+            // InternalSimplepalladio.g:2095:2: (otherlv_0= 'Role' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'interface' ( ( ruleEString ) ) otherlv_5= '}' )
             {
-            // InternalSimplepalladio.g:2057:2: (otherlv_0= 'Role' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'interface' ( ( ruleEString ) ) otherlv_5= '}' )
-            // InternalSimplepalladio.g:2058:3: otherlv_0= 'Role' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'interface' ( ( ruleEString ) ) otherlv_5= '}'
+            // InternalSimplepalladio.g:2095:2: (otherlv_0= 'Role' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'interface' ( ( ruleEString ) ) otherlv_5= '}' )
+            // InternalSimplepalladio.g:2096:3: otherlv_0= 'Role' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'interface' ( ( ruleEString ) ) otherlv_5= '}'
             {
             otherlv_0=(Token)match(input,48,FOLLOW_12); 
 
             			newLeafNode(otherlv_0, grammarAccess.getRoleAccess().getRoleKeyword_0());
             		
-            // InternalSimplepalladio.g:2062:3: ( (lv_name_1_0= ruleEString ) )
-            // InternalSimplepalladio.g:2063:4: (lv_name_1_0= ruleEString )
+            // InternalSimplepalladio.g:2100:3: ( (lv_name_1_0= ruleEString ) )
+            // InternalSimplepalladio.g:2101:4: (lv_name_1_0= ruleEString )
             {
-            // InternalSimplepalladio.g:2063:4: (lv_name_1_0= ruleEString )
-            // InternalSimplepalladio.g:2064:5: lv_name_1_0= ruleEString
+            // InternalSimplepalladio.g:2101:4: (lv_name_1_0= ruleEString )
+            // InternalSimplepalladio.g:2102:5: lv_name_1_0= ruleEString
             {
 
             					newCompositeNode(grammarAccess.getRoleAccess().getNameEStringParserRuleCall_1_0());
@@ -4862,11 +4950,11 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
             			newLeafNode(otherlv_3, grammarAccess.getRoleAccess().getInterfaceKeyword_3());
             		
-            // InternalSimplepalladio.g:2089:3: ( ( ruleEString ) )
-            // InternalSimplepalladio.g:2090:4: ( ruleEString )
+            // InternalSimplepalladio.g:2127:3: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:2128:4: ( ruleEString )
             {
-            // InternalSimplepalladio.g:2090:4: ( ruleEString )
-            // InternalSimplepalladio.g:2091:5: ruleEString
+            // InternalSimplepalladio.g:2128:4: ( ruleEString )
+            // InternalSimplepalladio.g:2129:5: ruleEString
             {
 
             					if (current==null) {
@@ -4917,7 +5005,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "entryRuleDelegationConnector"
-    // InternalSimplepalladio.g:2113:1: entryRuleDelegationConnector returns [EObject current=null] : iv_ruleDelegationConnector= ruleDelegationConnector EOF ;
+    // InternalSimplepalladio.g:2151:1: entryRuleDelegationConnector returns [EObject current=null] : iv_ruleDelegationConnector= ruleDelegationConnector EOF ;
     public final EObject entryRuleDelegationConnector() throws RecognitionException {
         EObject current = null;
 
@@ -4925,8 +5013,8 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
         try {
-            // InternalSimplepalladio.g:2113:60: (iv_ruleDelegationConnector= ruleDelegationConnector EOF )
-            // InternalSimplepalladio.g:2114:2: iv_ruleDelegationConnector= ruleDelegationConnector EOF
+            // InternalSimplepalladio.g:2151:60: (iv_ruleDelegationConnector= ruleDelegationConnector EOF )
+            // InternalSimplepalladio.g:2152:2: iv_ruleDelegationConnector= ruleDelegationConnector EOF
             {
              newCompositeNode(grammarAccess.getDelegationConnectorRule()); 
             pushFollow(FOLLOW_1);
@@ -4953,43 +5041,76 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "ruleDelegationConnector"
-    // InternalSimplepalladio.g:2120:1: ruleDelegationConnector returns [EObject current=null] : (otherlv_0= 'DelegationConnector' otherlv_1= '{' otherlv_2= 'role' ( ( ruleEString ) ) otherlv_4= 'interface' ( ( ruleEString ) ) otherlv_6= '}' ) ;
+    // InternalSimplepalladio.g:2158:1: ruleDelegationConnector returns [EObject current=null] : (otherlv_0= 'DelegationConnector' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'role' ( ( ruleEString ) ) otherlv_5= 'interface' ( ( ruleEString ) ) otherlv_7= '}' ) ;
     public final EObject ruleDelegationConnector() throws RecognitionException {
         EObject current = null;
 
         Token otherlv_0=null;
-        Token otherlv_1=null;
         Token otherlv_2=null;
-        Token otherlv_4=null;
-        Token otherlv_6=null;
+        Token otherlv_3=null;
+        Token otherlv_5=null;
+        Token otherlv_7=null;
+        AntlrDatatypeRuleToken lv_name_1_0 = null;
+
 
 
         	enterRule();
 
         try {
-            // InternalSimplepalladio.g:2126:2: ( (otherlv_0= 'DelegationConnector' otherlv_1= '{' otherlv_2= 'role' ( ( ruleEString ) ) otherlv_4= 'interface' ( ( ruleEString ) ) otherlv_6= '}' ) )
-            // InternalSimplepalladio.g:2127:2: (otherlv_0= 'DelegationConnector' otherlv_1= '{' otherlv_2= 'role' ( ( ruleEString ) ) otherlv_4= 'interface' ( ( ruleEString ) ) otherlv_6= '}' )
+            // InternalSimplepalladio.g:2164:2: ( (otherlv_0= 'DelegationConnector' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'role' ( ( ruleEString ) ) otherlv_5= 'interface' ( ( ruleEString ) ) otherlv_7= '}' ) )
+            // InternalSimplepalladio.g:2165:2: (otherlv_0= 'DelegationConnector' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'role' ( ( ruleEString ) ) otherlv_5= 'interface' ( ( ruleEString ) ) otherlv_7= '}' )
             {
-            // InternalSimplepalladio.g:2127:2: (otherlv_0= 'DelegationConnector' otherlv_1= '{' otherlv_2= 'role' ( ( ruleEString ) ) otherlv_4= 'interface' ( ( ruleEString ) ) otherlv_6= '}' )
-            // InternalSimplepalladio.g:2128:3: otherlv_0= 'DelegationConnector' otherlv_1= '{' otherlv_2= 'role' ( ( ruleEString ) ) otherlv_4= 'interface' ( ( ruleEString ) ) otherlv_6= '}'
+            // InternalSimplepalladio.g:2165:2: (otherlv_0= 'DelegationConnector' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'role' ( ( ruleEString ) ) otherlv_5= 'interface' ( ( ruleEString ) ) otherlv_7= '}' )
+            // InternalSimplepalladio.g:2166:3: otherlv_0= 'DelegationConnector' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'role' ( ( ruleEString ) ) otherlv_5= 'interface' ( ( ruleEString ) ) otherlv_7= '}'
             {
-            otherlv_0=(Token)match(input,50,FOLLOW_8); 
+            otherlv_0=(Token)match(input,50,FOLLOW_12); 
 
             			newLeafNode(otherlv_0, grammarAccess.getDelegationConnectorAccess().getDelegationConnectorKeyword_0());
             		
-            otherlv_1=(Token)match(input,11,FOLLOW_41); 
-
-            			newLeafNode(otherlv_1, grammarAccess.getDelegationConnectorAccess().getLeftCurlyBracketKeyword_1());
-            		
-            otherlv_2=(Token)match(input,51,FOLLOW_12); 
-
-            			newLeafNode(otherlv_2, grammarAccess.getDelegationConnectorAccess().getRoleKeyword_2());
-            		
-            // InternalSimplepalladio.g:2140:3: ( ( ruleEString ) )
-            // InternalSimplepalladio.g:2141:4: ( ruleEString )
+            // InternalSimplepalladio.g:2170:3: ( (lv_name_1_0= ruleEString ) )
+            // InternalSimplepalladio.g:2171:4: (lv_name_1_0= ruleEString )
             {
-            // InternalSimplepalladio.g:2141:4: ( ruleEString )
-            // InternalSimplepalladio.g:2142:5: ruleEString
+            // InternalSimplepalladio.g:2171:4: (lv_name_1_0= ruleEString )
+            // InternalSimplepalladio.g:2172:5: lv_name_1_0= ruleEString
+            {
+
+            					newCompositeNode(grammarAccess.getDelegationConnectorAccess().getNameEStringParserRuleCall_1_0());
+            				
+            pushFollow(FOLLOW_8);
+            lv_name_1_0=ruleEString();
+
+            state._fsp--;
+
+
+            					if (current==null) {
+            						current = createModelElementForParent(grammarAccess.getDelegationConnectorRule());
+            					}
+            					set(
+            						current,
+            						"name",
+            						lv_name_1_0,
+            						"org.xtext.mdsm.simplePalladio.Simplepalladio.EString");
+            					afterParserOrEnumRuleCall();
+            				
+
+            }
+
+
+            }
+
+            otherlv_2=(Token)match(input,11,FOLLOW_41); 
+
+            			newLeafNode(otherlv_2, grammarAccess.getDelegationConnectorAccess().getLeftCurlyBracketKeyword_2());
+            		
+            otherlv_3=(Token)match(input,51,FOLLOW_12); 
+
+            			newLeafNode(otherlv_3, grammarAccess.getDelegationConnectorAccess().getRoleKeyword_3());
+            		
+            // InternalSimplepalladio.g:2197:3: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:2198:4: ( ruleEString )
+            {
+            // InternalSimplepalladio.g:2198:4: ( ruleEString )
+            // InternalSimplepalladio.g:2199:5: ruleEString
             {
 
             					if (current==null) {
@@ -4997,7 +5118,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
             					}
             				
 
-            					newCompositeNode(grammarAccess.getDelegationConnectorAccess().getRoleRoleCrossReference_3_0());
+            					newCompositeNode(grammarAccess.getDelegationConnectorAccess().getRoleRoleCrossReference_4_0());
             				
             pushFollow(FOLLOW_40);
             ruleEString();
@@ -5013,15 +5134,15 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
             }
 
-            otherlv_4=(Token)match(input,49,FOLLOW_12); 
+            otherlv_5=(Token)match(input,49,FOLLOW_12); 
 
-            			newLeafNode(otherlv_4, grammarAccess.getDelegationConnectorAccess().getInterfaceKeyword_4());
+            			newLeafNode(otherlv_5, grammarAccess.getDelegationConnectorAccess().getInterfaceKeyword_5());
             		
-            // InternalSimplepalladio.g:2160:3: ( ( ruleEString ) )
-            // InternalSimplepalladio.g:2161:4: ( ruleEString )
+            // InternalSimplepalladio.g:2217:3: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:2218:4: ( ruleEString )
             {
-            // InternalSimplepalladio.g:2161:4: ( ruleEString )
-            // InternalSimplepalladio.g:2162:5: ruleEString
+            // InternalSimplepalladio.g:2218:4: ( ruleEString )
+            // InternalSimplepalladio.g:2219:5: ruleEString
             {
 
             					if (current==null) {
@@ -5029,7 +5150,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
             					}
             				
 
-            					newCompositeNode(grammarAccess.getDelegationConnectorAccess().getInterfaceInterfaceCrossReference_5_0());
+            					newCompositeNode(grammarAccess.getDelegationConnectorAccess().getInterfaceInterfaceCrossReference_6_0());
             				
             pushFollow(FOLLOW_7);
             ruleEString();
@@ -5045,9 +5166,9 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
             }
 
-            otherlv_6=(Token)match(input,12,FOLLOW_2); 
+            otherlv_7=(Token)match(input,12,FOLLOW_2); 
 
-            			newLeafNode(otherlv_6, grammarAccess.getDelegationConnectorAccess().getRightCurlyBracketKeyword_6());
+            			newLeafNode(otherlv_7, grammarAccess.getDelegationConnectorAccess().getRightCurlyBracketKeyword_7());
             		
 
             }
@@ -5072,7 +5193,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "entryRuleAssemblyConnector"
-    // InternalSimplepalladio.g:2184:1: entryRuleAssemblyConnector returns [EObject current=null] : iv_ruleAssemblyConnector= ruleAssemblyConnector EOF ;
+    // InternalSimplepalladio.g:2241:1: entryRuleAssemblyConnector returns [EObject current=null] : iv_ruleAssemblyConnector= ruleAssemblyConnector EOF ;
     public final EObject entryRuleAssemblyConnector() throws RecognitionException {
         EObject current = null;
 
@@ -5080,8 +5201,8 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
         try {
-            // InternalSimplepalladio.g:2184:58: (iv_ruleAssemblyConnector= ruleAssemblyConnector EOF )
-            // InternalSimplepalladio.g:2185:2: iv_ruleAssemblyConnector= ruleAssemblyConnector EOF
+            // InternalSimplepalladio.g:2241:58: (iv_ruleAssemblyConnector= ruleAssemblyConnector EOF )
+            // InternalSimplepalladio.g:2242:2: iv_ruleAssemblyConnector= ruleAssemblyConnector EOF
             {
              newCompositeNode(grammarAccess.getAssemblyConnectorRule()); 
             pushFollow(FOLLOW_1);
@@ -5108,43 +5229,76 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "ruleAssemblyConnector"
-    // InternalSimplepalladio.g:2191:1: ruleAssemblyConnector returns [EObject current=null] : (otherlv_0= 'AssemblyConnector' otherlv_1= '{' otherlv_2= 'providedRole' ( ( ruleEString ) ) otherlv_4= 'requiredRole' ( ( ruleEString ) ) otherlv_6= '}' ) ;
+    // InternalSimplepalladio.g:2248:1: ruleAssemblyConnector returns [EObject current=null] : (otherlv_0= 'AssemblyConnector' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'providedRole' ( ( ruleEString ) ) otherlv_5= 'requiredRole' ( ( ruleEString ) ) otherlv_7= '}' ) ;
     public final EObject ruleAssemblyConnector() throws RecognitionException {
         EObject current = null;
 
         Token otherlv_0=null;
-        Token otherlv_1=null;
         Token otherlv_2=null;
-        Token otherlv_4=null;
-        Token otherlv_6=null;
+        Token otherlv_3=null;
+        Token otherlv_5=null;
+        Token otherlv_7=null;
+        AntlrDatatypeRuleToken lv_name_1_0 = null;
+
 
 
         	enterRule();
 
         try {
-            // InternalSimplepalladio.g:2197:2: ( (otherlv_0= 'AssemblyConnector' otherlv_1= '{' otherlv_2= 'providedRole' ( ( ruleEString ) ) otherlv_4= 'requiredRole' ( ( ruleEString ) ) otherlv_6= '}' ) )
-            // InternalSimplepalladio.g:2198:2: (otherlv_0= 'AssemblyConnector' otherlv_1= '{' otherlv_2= 'providedRole' ( ( ruleEString ) ) otherlv_4= 'requiredRole' ( ( ruleEString ) ) otherlv_6= '}' )
+            // InternalSimplepalladio.g:2254:2: ( (otherlv_0= 'AssemblyConnector' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'providedRole' ( ( ruleEString ) ) otherlv_5= 'requiredRole' ( ( ruleEString ) ) otherlv_7= '}' ) )
+            // InternalSimplepalladio.g:2255:2: (otherlv_0= 'AssemblyConnector' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'providedRole' ( ( ruleEString ) ) otherlv_5= 'requiredRole' ( ( ruleEString ) ) otherlv_7= '}' )
             {
-            // InternalSimplepalladio.g:2198:2: (otherlv_0= 'AssemblyConnector' otherlv_1= '{' otherlv_2= 'providedRole' ( ( ruleEString ) ) otherlv_4= 'requiredRole' ( ( ruleEString ) ) otherlv_6= '}' )
-            // InternalSimplepalladio.g:2199:3: otherlv_0= 'AssemblyConnector' otherlv_1= '{' otherlv_2= 'providedRole' ( ( ruleEString ) ) otherlv_4= 'requiredRole' ( ( ruleEString ) ) otherlv_6= '}'
+            // InternalSimplepalladio.g:2255:2: (otherlv_0= 'AssemblyConnector' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'providedRole' ( ( ruleEString ) ) otherlv_5= 'requiredRole' ( ( ruleEString ) ) otherlv_7= '}' )
+            // InternalSimplepalladio.g:2256:3: otherlv_0= 'AssemblyConnector' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'providedRole' ( ( ruleEString ) ) otherlv_5= 'requiredRole' ( ( ruleEString ) ) otherlv_7= '}'
             {
-            otherlv_0=(Token)match(input,52,FOLLOW_8); 
+            otherlv_0=(Token)match(input,52,FOLLOW_12); 
 
             			newLeafNode(otherlv_0, grammarAccess.getAssemblyConnectorAccess().getAssemblyConnectorKeyword_0());
             		
-            otherlv_1=(Token)match(input,11,FOLLOW_42); 
-
-            			newLeafNode(otherlv_1, grammarAccess.getAssemblyConnectorAccess().getLeftCurlyBracketKeyword_1());
-            		
-            otherlv_2=(Token)match(input,53,FOLLOW_12); 
-
-            			newLeafNode(otherlv_2, grammarAccess.getAssemblyConnectorAccess().getProvidedRoleKeyword_2());
-            		
-            // InternalSimplepalladio.g:2211:3: ( ( ruleEString ) )
-            // InternalSimplepalladio.g:2212:4: ( ruleEString )
+            // InternalSimplepalladio.g:2260:3: ( (lv_name_1_0= ruleEString ) )
+            // InternalSimplepalladio.g:2261:4: (lv_name_1_0= ruleEString )
             {
-            // InternalSimplepalladio.g:2212:4: ( ruleEString )
-            // InternalSimplepalladio.g:2213:5: ruleEString
+            // InternalSimplepalladio.g:2261:4: (lv_name_1_0= ruleEString )
+            // InternalSimplepalladio.g:2262:5: lv_name_1_0= ruleEString
+            {
+
+            					newCompositeNode(grammarAccess.getAssemblyConnectorAccess().getNameEStringParserRuleCall_1_0());
+            				
+            pushFollow(FOLLOW_8);
+            lv_name_1_0=ruleEString();
+
+            state._fsp--;
+
+
+            					if (current==null) {
+            						current = createModelElementForParent(grammarAccess.getAssemblyConnectorRule());
+            					}
+            					set(
+            						current,
+            						"name",
+            						lv_name_1_0,
+            						"org.xtext.mdsm.simplePalladio.Simplepalladio.EString");
+            					afterParserOrEnumRuleCall();
+            				
+
+            }
+
+
+            }
+
+            otherlv_2=(Token)match(input,11,FOLLOW_42); 
+
+            			newLeafNode(otherlv_2, grammarAccess.getAssemblyConnectorAccess().getLeftCurlyBracketKeyword_2());
+            		
+            otherlv_3=(Token)match(input,53,FOLLOW_12); 
+
+            			newLeafNode(otherlv_3, grammarAccess.getAssemblyConnectorAccess().getProvidedRoleKeyword_3());
+            		
+            // InternalSimplepalladio.g:2287:3: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:2288:4: ( ruleEString )
+            {
+            // InternalSimplepalladio.g:2288:4: ( ruleEString )
+            // InternalSimplepalladio.g:2289:5: ruleEString
             {
 
             					if (current==null) {
@@ -5152,7 +5306,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
             					}
             				
 
-            					newCompositeNode(grammarAccess.getAssemblyConnectorAccess().getProvidedRoleRoleCrossReference_3_0());
+            					newCompositeNode(grammarAccess.getAssemblyConnectorAccess().getProvidedRoleRoleCrossReference_4_0());
             				
             pushFollow(FOLLOW_43);
             ruleEString();
@@ -5168,15 +5322,15 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
             }
 
-            otherlv_4=(Token)match(input,54,FOLLOW_12); 
+            otherlv_5=(Token)match(input,54,FOLLOW_12); 
 
-            			newLeafNode(otherlv_4, grammarAccess.getAssemblyConnectorAccess().getRequiredRoleKeyword_4());
+            			newLeafNode(otherlv_5, grammarAccess.getAssemblyConnectorAccess().getRequiredRoleKeyword_5());
             		
-            // InternalSimplepalladio.g:2231:3: ( ( ruleEString ) )
-            // InternalSimplepalladio.g:2232:4: ( ruleEString )
+            // InternalSimplepalladio.g:2307:3: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:2308:4: ( ruleEString )
             {
-            // InternalSimplepalladio.g:2232:4: ( ruleEString )
-            // InternalSimplepalladio.g:2233:5: ruleEString
+            // InternalSimplepalladio.g:2308:4: ( ruleEString )
+            // InternalSimplepalladio.g:2309:5: ruleEString
             {
 
             					if (current==null) {
@@ -5184,7 +5338,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
             					}
             				
 
-            					newCompositeNode(grammarAccess.getAssemblyConnectorAccess().getRequiredRoleRoleCrossReference_5_0());
+            					newCompositeNode(grammarAccess.getAssemblyConnectorAccess().getRequiredRoleRoleCrossReference_6_0());
             				
             pushFollow(FOLLOW_7);
             ruleEString();
@@ -5200,9 +5354,9 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
             }
 
-            otherlv_6=(Token)match(input,12,FOLLOW_2); 
+            otherlv_7=(Token)match(input,12,FOLLOW_2); 
 
-            			newLeafNode(otherlv_6, grammarAccess.getAssemblyConnectorAccess().getRightCurlyBracketKeyword_6());
+            			newLeafNode(otherlv_7, grammarAccess.getAssemblyConnectorAccess().getRightCurlyBracketKeyword_7());
             		
 
             }
@@ -5227,7 +5381,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "entryRuleEnvironmentViewType"
-    // InternalSimplepalladio.g:2255:1: entryRuleEnvironmentViewType returns [EObject current=null] : iv_ruleEnvironmentViewType= ruleEnvironmentViewType EOF ;
+    // InternalSimplepalladio.g:2331:1: entryRuleEnvironmentViewType returns [EObject current=null] : iv_ruleEnvironmentViewType= ruleEnvironmentViewType EOF ;
     public final EObject entryRuleEnvironmentViewType() throws RecognitionException {
         EObject current = null;
 
@@ -5235,8 +5389,8 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
         try {
-            // InternalSimplepalladio.g:2255:60: (iv_ruleEnvironmentViewType= ruleEnvironmentViewType EOF )
-            // InternalSimplepalladio.g:2256:2: iv_ruleEnvironmentViewType= ruleEnvironmentViewType EOF
+            // InternalSimplepalladio.g:2331:60: (iv_ruleEnvironmentViewType= ruleEnvironmentViewType EOF )
+            // InternalSimplepalladio.g:2332:2: iv_ruleEnvironmentViewType= ruleEnvironmentViewType EOF
             {
              newCompositeNode(grammarAccess.getEnvironmentViewTypeRule()); 
             pushFollow(FOLLOW_1);
@@ -5263,7 +5417,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "ruleEnvironmentViewType"
-    // InternalSimplepalladio.g:2262:1: ruleEnvironmentViewType returns [EObject current=null] : (otherlv_0= 'EnvironmentViewType' otherlv_1= '{' otherlv_2= 'environmentElements' otherlv_3= '{' ( (lv_environmentElements_4_0= ruleAbstractEnvironmentElement ) ) (otherlv_5= ',' ( (lv_environmentElements_6_0= ruleAbstractEnvironmentElement ) ) )* otherlv_7= '}' otherlv_8= '}' ) ;
+    // InternalSimplepalladio.g:2338:1: ruleEnvironmentViewType returns [EObject current=null] : (otherlv_0= 'EnvironmentViewType' otherlv_1= '{' otherlv_2= 'environmentElements' otherlv_3= '{' ( (lv_environmentElements_4_0= ruleAbstractEnvironmentElement ) ) (otherlv_5= ',' ( (lv_environmentElements_6_0= ruleAbstractEnvironmentElement ) ) )* otherlv_7= '}' otherlv_8= '}' ) ;
     public final EObject ruleEnvironmentViewType() throws RecognitionException {
         EObject current = null;
 
@@ -5283,11 +5437,11 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
         	enterRule();
 
         try {
-            // InternalSimplepalladio.g:2268:2: ( (otherlv_0= 'EnvironmentViewType' otherlv_1= '{' otherlv_2= 'environmentElements' otherlv_3= '{' ( (lv_environmentElements_4_0= ruleAbstractEnvironmentElement ) ) (otherlv_5= ',' ( (lv_environmentElements_6_0= ruleAbstractEnvironmentElement ) ) )* otherlv_7= '}' otherlv_8= '}' ) )
-            // InternalSimplepalladio.g:2269:2: (otherlv_0= 'EnvironmentViewType' otherlv_1= '{' otherlv_2= 'environmentElements' otherlv_3= '{' ( (lv_environmentElements_4_0= ruleAbstractEnvironmentElement ) ) (otherlv_5= ',' ( (lv_environmentElements_6_0= ruleAbstractEnvironmentElement ) ) )* otherlv_7= '}' otherlv_8= '}' )
+            // InternalSimplepalladio.g:2344:2: ( (otherlv_0= 'EnvironmentViewType' otherlv_1= '{' otherlv_2= 'environmentElements' otherlv_3= '{' ( (lv_environmentElements_4_0= ruleAbstractEnvironmentElement ) ) (otherlv_5= ',' ( (lv_environmentElements_6_0= ruleAbstractEnvironmentElement ) ) )* otherlv_7= '}' otherlv_8= '}' ) )
+            // InternalSimplepalladio.g:2345:2: (otherlv_0= 'EnvironmentViewType' otherlv_1= '{' otherlv_2= 'environmentElements' otherlv_3= '{' ( (lv_environmentElements_4_0= ruleAbstractEnvironmentElement ) ) (otherlv_5= ',' ( (lv_environmentElements_6_0= ruleAbstractEnvironmentElement ) ) )* otherlv_7= '}' otherlv_8= '}' )
             {
-            // InternalSimplepalladio.g:2269:2: (otherlv_0= 'EnvironmentViewType' otherlv_1= '{' otherlv_2= 'environmentElements' otherlv_3= '{' ( (lv_environmentElements_4_0= ruleAbstractEnvironmentElement ) ) (otherlv_5= ',' ( (lv_environmentElements_6_0= ruleAbstractEnvironmentElement ) ) )* otherlv_7= '}' otherlv_8= '}' )
-            // InternalSimplepalladio.g:2270:3: otherlv_0= 'EnvironmentViewType' otherlv_1= '{' otherlv_2= 'environmentElements' otherlv_3= '{' ( (lv_environmentElements_4_0= ruleAbstractEnvironmentElement ) ) (otherlv_5= ',' ( (lv_environmentElements_6_0= ruleAbstractEnvironmentElement ) ) )* otherlv_7= '}' otherlv_8= '}'
+            // InternalSimplepalladio.g:2345:2: (otherlv_0= 'EnvironmentViewType' otherlv_1= '{' otherlv_2= 'environmentElements' otherlv_3= '{' ( (lv_environmentElements_4_0= ruleAbstractEnvironmentElement ) ) (otherlv_5= ',' ( (lv_environmentElements_6_0= ruleAbstractEnvironmentElement ) ) )* otherlv_7= '}' otherlv_8= '}' )
+            // InternalSimplepalladio.g:2346:3: otherlv_0= 'EnvironmentViewType' otherlv_1= '{' otherlv_2= 'environmentElements' otherlv_3= '{' ( (lv_environmentElements_4_0= ruleAbstractEnvironmentElement ) ) (otherlv_5= ',' ( (lv_environmentElements_6_0= ruleAbstractEnvironmentElement ) ) )* otherlv_7= '}' otherlv_8= '}'
             {
             otherlv_0=(Token)match(input,55,FOLLOW_8); 
 
@@ -5305,11 +5459,11 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
             			newLeafNode(otherlv_3, grammarAccess.getEnvironmentViewTypeAccess().getLeftCurlyBracketKeyword_3());
             		
-            // InternalSimplepalladio.g:2286:3: ( (lv_environmentElements_4_0= ruleAbstractEnvironmentElement ) )
-            // InternalSimplepalladio.g:2287:4: (lv_environmentElements_4_0= ruleAbstractEnvironmentElement )
+            // InternalSimplepalladio.g:2362:3: ( (lv_environmentElements_4_0= ruleAbstractEnvironmentElement ) )
+            // InternalSimplepalladio.g:2363:4: (lv_environmentElements_4_0= ruleAbstractEnvironmentElement )
             {
-            // InternalSimplepalladio.g:2287:4: (lv_environmentElements_4_0= ruleAbstractEnvironmentElement )
-            // InternalSimplepalladio.g:2288:5: lv_environmentElements_4_0= ruleAbstractEnvironmentElement
+            // InternalSimplepalladio.g:2363:4: (lv_environmentElements_4_0= ruleAbstractEnvironmentElement )
+            // InternalSimplepalladio.g:2364:5: lv_environmentElements_4_0= ruleAbstractEnvironmentElement
             {
 
             					newCompositeNode(grammarAccess.getEnvironmentViewTypeAccess().getEnvironmentElementsAbstractEnvironmentElementParserRuleCall_4_0());
@@ -5336,30 +5490,30 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
             }
 
-            // InternalSimplepalladio.g:2305:3: (otherlv_5= ',' ( (lv_environmentElements_6_0= ruleAbstractEnvironmentElement ) ) )*
-            loop29:
+            // InternalSimplepalladio.g:2381:3: (otherlv_5= ',' ( (lv_environmentElements_6_0= ruleAbstractEnvironmentElement ) ) )*
+            loop31:
             do {
-                int alt29=2;
-                int LA29_0 = input.LA(1);
+                int alt31=2;
+                int LA31_0 = input.LA(1);
 
-                if ( (LA29_0==15) ) {
-                    alt29=1;
+                if ( (LA31_0==15) ) {
+                    alt31=1;
                 }
 
 
-                switch (alt29) {
+                switch (alt31) {
             	case 1 :
-            	    // InternalSimplepalladio.g:2306:4: otherlv_5= ',' ( (lv_environmentElements_6_0= ruleAbstractEnvironmentElement ) )
+            	    // InternalSimplepalladio.g:2382:4: otherlv_5= ',' ( (lv_environmentElements_6_0= ruleAbstractEnvironmentElement ) )
             	    {
             	    otherlv_5=(Token)match(input,15,FOLLOW_45); 
 
             	    				newLeafNode(otherlv_5, grammarAccess.getEnvironmentViewTypeAccess().getCommaKeyword_5_0());
             	    			
-            	    // InternalSimplepalladio.g:2310:4: ( (lv_environmentElements_6_0= ruleAbstractEnvironmentElement ) )
-            	    // InternalSimplepalladio.g:2311:5: (lv_environmentElements_6_0= ruleAbstractEnvironmentElement )
+            	    // InternalSimplepalladio.g:2386:4: ( (lv_environmentElements_6_0= ruleAbstractEnvironmentElement ) )
+            	    // InternalSimplepalladio.g:2387:5: (lv_environmentElements_6_0= ruleAbstractEnvironmentElement )
             	    {
-            	    // InternalSimplepalladio.g:2311:5: (lv_environmentElements_6_0= ruleAbstractEnvironmentElement )
-            	    // InternalSimplepalladio.g:2312:6: lv_environmentElements_6_0= ruleAbstractEnvironmentElement
+            	    // InternalSimplepalladio.g:2387:5: (lv_environmentElements_6_0= ruleAbstractEnvironmentElement )
+            	    // InternalSimplepalladio.g:2388:6: lv_environmentElements_6_0= ruleAbstractEnvironmentElement
             	    {
 
             	    						newCompositeNode(grammarAccess.getEnvironmentViewTypeAccess().getEnvironmentElementsAbstractEnvironmentElementParserRuleCall_5_1_0());
@@ -5391,7 +5545,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
             	    break;
 
             	default :
-            	    break loop29;
+            	    break loop31;
                 }
             } while (true);
 
@@ -5426,7 +5580,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "entryRuleAbstractEnvironmentElement"
-    // InternalSimplepalladio.g:2342:1: entryRuleAbstractEnvironmentElement returns [EObject current=null] : iv_ruleAbstractEnvironmentElement= ruleAbstractEnvironmentElement EOF ;
+    // InternalSimplepalladio.g:2418:1: entryRuleAbstractEnvironmentElement returns [EObject current=null] : iv_ruleAbstractEnvironmentElement= ruleAbstractEnvironmentElement EOF ;
     public final EObject entryRuleAbstractEnvironmentElement() throws RecognitionException {
         EObject current = null;
 
@@ -5434,8 +5588,8 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
         try {
-            // InternalSimplepalladio.g:2342:67: (iv_ruleAbstractEnvironmentElement= ruleAbstractEnvironmentElement EOF )
-            // InternalSimplepalladio.g:2343:2: iv_ruleAbstractEnvironmentElement= ruleAbstractEnvironmentElement EOF
+            // InternalSimplepalladio.g:2418:67: (iv_ruleAbstractEnvironmentElement= ruleAbstractEnvironmentElement EOF )
+            // InternalSimplepalladio.g:2419:2: iv_ruleAbstractEnvironmentElement= ruleAbstractEnvironmentElement EOF
             {
              newCompositeNode(grammarAccess.getAbstractEnvironmentElementRule()); 
             pushFollow(FOLLOW_1);
@@ -5462,7 +5616,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "ruleAbstractEnvironmentElement"
-    // InternalSimplepalladio.g:2349:1: ruleAbstractEnvironmentElement returns [EObject current=null] : (this_Container_0= ruleContainer | this_Link_1= ruleLink ) ;
+    // InternalSimplepalladio.g:2425:1: ruleAbstractEnvironmentElement returns [EObject current=null] : (this_Container_0= ruleContainer | this_Link_1= ruleLink ) ;
     public final EObject ruleAbstractEnvironmentElement() throws RecognitionException {
         EObject current = null;
 
@@ -5475,28 +5629,28 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
         	enterRule();
 
         try {
-            // InternalSimplepalladio.g:2355:2: ( (this_Container_0= ruleContainer | this_Link_1= ruleLink ) )
-            // InternalSimplepalladio.g:2356:2: (this_Container_0= ruleContainer | this_Link_1= ruleLink )
+            // InternalSimplepalladio.g:2431:2: ( (this_Container_0= ruleContainer | this_Link_1= ruleLink ) )
+            // InternalSimplepalladio.g:2432:2: (this_Container_0= ruleContainer | this_Link_1= ruleLink )
             {
-            // InternalSimplepalladio.g:2356:2: (this_Container_0= ruleContainer | this_Link_1= ruleLink )
-            int alt30=2;
-            int LA30_0 = input.LA(1);
+            // InternalSimplepalladio.g:2432:2: (this_Container_0= ruleContainer | this_Link_1= ruleLink )
+            int alt32=2;
+            int LA32_0 = input.LA(1);
 
-            if ( (LA30_0==57) ) {
-                alt30=1;
+            if ( (LA32_0==57) ) {
+                alt32=1;
             }
-            else if ( (LA30_0==58) ) {
-                alt30=2;
+            else if ( (LA32_0==58) ) {
+                alt32=2;
             }
             else {
                 NoViableAltException nvae =
-                    new NoViableAltException("", 30, 0, input);
+                    new NoViableAltException("", 32, 0, input);
 
                 throw nvae;
             }
-            switch (alt30) {
+            switch (alt32) {
                 case 1 :
-                    // InternalSimplepalladio.g:2357:3: this_Container_0= ruleContainer
+                    // InternalSimplepalladio.g:2433:3: this_Container_0= ruleContainer
                     {
 
                     			newCompositeNode(grammarAccess.getAbstractEnvironmentElementAccess().getContainerParserRuleCall_0());
@@ -5514,7 +5668,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
                     }
                     break;
                 case 2 :
-                    // InternalSimplepalladio.g:2366:3: this_Link_1= ruleLink
+                    // InternalSimplepalladio.g:2442:3: this_Link_1= ruleLink
                     {
 
                     			newCompositeNode(grammarAccess.getAbstractEnvironmentElementAccess().getLinkParserRuleCall_1());
@@ -5554,7 +5708,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "entryRuleContainer"
-    // InternalSimplepalladio.g:2378:1: entryRuleContainer returns [EObject current=null] : iv_ruleContainer= ruleContainer EOF ;
+    // InternalSimplepalladio.g:2454:1: entryRuleContainer returns [EObject current=null] : iv_ruleContainer= ruleContainer EOF ;
     public final EObject entryRuleContainer() throws RecognitionException {
         EObject current = null;
 
@@ -5562,8 +5716,8 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
         try {
-            // InternalSimplepalladio.g:2378:50: (iv_ruleContainer= ruleContainer EOF )
-            // InternalSimplepalladio.g:2379:2: iv_ruleContainer= ruleContainer EOF
+            // InternalSimplepalladio.g:2454:50: (iv_ruleContainer= ruleContainer EOF )
+            // InternalSimplepalladio.g:2455:2: iv_ruleContainer= ruleContainer EOF
             {
              newCompositeNode(grammarAccess.getContainerRule()); 
             pushFollow(FOLLOW_1);
@@ -5590,7 +5744,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "ruleContainer"
-    // InternalSimplepalladio.g:2385:1: ruleContainer returns [EObject current=null] : ( () otherlv_1= 'Container' ( (lv_name_2_0= ruleEString ) ) ) ;
+    // InternalSimplepalladio.g:2461:1: ruleContainer returns [EObject current=null] : ( () otherlv_1= 'Container' ( (lv_name_2_0= ruleEString ) ) ) ;
     public final EObject ruleContainer() throws RecognitionException {
         EObject current = null;
 
@@ -5602,14 +5756,14 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
         	enterRule();
 
         try {
-            // InternalSimplepalladio.g:2391:2: ( ( () otherlv_1= 'Container' ( (lv_name_2_0= ruleEString ) ) ) )
-            // InternalSimplepalladio.g:2392:2: ( () otherlv_1= 'Container' ( (lv_name_2_0= ruleEString ) ) )
+            // InternalSimplepalladio.g:2467:2: ( ( () otherlv_1= 'Container' ( (lv_name_2_0= ruleEString ) ) ) )
+            // InternalSimplepalladio.g:2468:2: ( () otherlv_1= 'Container' ( (lv_name_2_0= ruleEString ) ) )
             {
-            // InternalSimplepalladio.g:2392:2: ( () otherlv_1= 'Container' ( (lv_name_2_0= ruleEString ) ) )
-            // InternalSimplepalladio.g:2393:3: () otherlv_1= 'Container' ( (lv_name_2_0= ruleEString ) )
+            // InternalSimplepalladio.g:2468:2: ( () otherlv_1= 'Container' ( (lv_name_2_0= ruleEString ) ) )
+            // InternalSimplepalladio.g:2469:3: () otherlv_1= 'Container' ( (lv_name_2_0= ruleEString ) )
             {
-            // InternalSimplepalladio.g:2393:3: ()
-            // InternalSimplepalladio.g:2394:4: 
+            // InternalSimplepalladio.g:2469:3: ()
+            // InternalSimplepalladio.g:2470:4: 
             {
 
             				current = forceCreateModelElement(
@@ -5623,11 +5777,11 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
             			newLeafNode(otherlv_1, grammarAccess.getContainerAccess().getContainerKeyword_1());
             		
-            // InternalSimplepalladio.g:2404:3: ( (lv_name_2_0= ruleEString ) )
-            // InternalSimplepalladio.g:2405:4: (lv_name_2_0= ruleEString )
+            // InternalSimplepalladio.g:2480:3: ( (lv_name_2_0= ruleEString ) )
+            // InternalSimplepalladio.g:2481:4: (lv_name_2_0= ruleEString )
             {
-            // InternalSimplepalladio.g:2405:4: (lv_name_2_0= ruleEString )
-            // InternalSimplepalladio.g:2406:5: lv_name_2_0= ruleEString
+            // InternalSimplepalladio.g:2481:4: (lv_name_2_0= ruleEString )
+            // InternalSimplepalladio.g:2482:5: lv_name_2_0= ruleEString
             {
 
             					newCompositeNode(grammarAccess.getContainerAccess().getNameEStringParserRuleCall_2_0());
@@ -5677,7 +5831,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "entryRuleLink"
-    // InternalSimplepalladio.g:2427:1: entryRuleLink returns [EObject current=null] : iv_ruleLink= ruleLink EOF ;
+    // InternalSimplepalladio.g:2503:1: entryRuleLink returns [EObject current=null] : iv_ruleLink= ruleLink EOF ;
     public final EObject entryRuleLink() throws RecognitionException {
         EObject current = null;
 
@@ -5685,8 +5839,8 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
         try {
-            // InternalSimplepalladio.g:2427:45: (iv_ruleLink= ruleLink EOF )
-            // InternalSimplepalladio.g:2428:2: iv_ruleLink= ruleLink EOF
+            // InternalSimplepalladio.g:2503:45: (iv_ruleLink= ruleLink EOF )
+            // InternalSimplepalladio.g:2504:2: iv_ruleLink= ruleLink EOF
             {
              newCompositeNode(grammarAccess.getLinkRule()); 
             pushFollow(FOLLOW_1);
@@ -5713,7 +5867,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "ruleLink"
-    // InternalSimplepalladio.g:2434:1: ruleLink returns [EObject current=null] : (otherlv_0= 'Link' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'containers' otherlv_4= '(' ( ( ruleEString ) ) (otherlv_6= ',' ( ( ruleEString ) ) )+ otherlv_8= ')' otherlv_9= '}' ) ;
+    // InternalSimplepalladio.g:2510:1: ruleLink returns [EObject current=null] : (otherlv_0= 'Link' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'containers' otherlv_4= '(' ( ( ruleEString ) ) (otherlv_6= ',' ( ( ruleEString ) ) )+ otherlv_8= ')' otherlv_9= '}' ) ;
     public final EObject ruleLink() throws RecognitionException {
         EObject current = null;
 
@@ -5731,21 +5885,21 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
         	enterRule();
 
         try {
-            // InternalSimplepalladio.g:2440:2: ( (otherlv_0= 'Link' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'containers' otherlv_4= '(' ( ( ruleEString ) ) (otherlv_6= ',' ( ( ruleEString ) ) )+ otherlv_8= ')' otherlv_9= '}' ) )
-            // InternalSimplepalladio.g:2441:2: (otherlv_0= 'Link' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'containers' otherlv_4= '(' ( ( ruleEString ) ) (otherlv_6= ',' ( ( ruleEString ) ) )+ otherlv_8= ')' otherlv_9= '}' )
+            // InternalSimplepalladio.g:2516:2: ( (otherlv_0= 'Link' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'containers' otherlv_4= '(' ( ( ruleEString ) ) (otherlv_6= ',' ( ( ruleEString ) ) )+ otherlv_8= ')' otherlv_9= '}' ) )
+            // InternalSimplepalladio.g:2517:2: (otherlv_0= 'Link' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'containers' otherlv_4= '(' ( ( ruleEString ) ) (otherlv_6= ',' ( ( ruleEString ) ) )+ otherlv_8= ')' otherlv_9= '}' )
             {
-            // InternalSimplepalladio.g:2441:2: (otherlv_0= 'Link' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'containers' otherlv_4= '(' ( ( ruleEString ) ) (otherlv_6= ',' ( ( ruleEString ) ) )+ otherlv_8= ')' otherlv_9= '}' )
-            // InternalSimplepalladio.g:2442:3: otherlv_0= 'Link' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'containers' otherlv_4= '(' ( ( ruleEString ) ) (otherlv_6= ',' ( ( ruleEString ) ) )+ otherlv_8= ')' otherlv_9= '}'
+            // InternalSimplepalladio.g:2517:2: (otherlv_0= 'Link' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'containers' otherlv_4= '(' ( ( ruleEString ) ) (otherlv_6= ',' ( ( ruleEString ) ) )+ otherlv_8= ')' otherlv_9= '}' )
+            // InternalSimplepalladio.g:2518:3: otherlv_0= 'Link' ( (lv_name_1_0= ruleEString ) ) otherlv_2= '{' otherlv_3= 'containers' otherlv_4= '(' ( ( ruleEString ) ) (otherlv_6= ',' ( ( ruleEString ) ) )+ otherlv_8= ')' otherlv_9= '}'
             {
             otherlv_0=(Token)match(input,58,FOLLOW_12); 
 
             			newLeafNode(otherlv_0, grammarAccess.getLinkAccess().getLinkKeyword_0());
             		
-            // InternalSimplepalladio.g:2446:3: ( (lv_name_1_0= ruleEString ) )
-            // InternalSimplepalladio.g:2447:4: (lv_name_1_0= ruleEString )
+            // InternalSimplepalladio.g:2522:3: ( (lv_name_1_0= ruleEString ) )
+            // InternalSimplepalladio.g:2523:4: (lv_name_1_0= ruleEString )
             {
-            // InternalSimplepalladio.g:2447:4: (lv_name_1_0= ruleEString )
-            // InternalSimplepalladio.g:2448:5: lv_name_1_0= ruleEString
+            // InternalSimplepalladio.g:2523:4: (lv_name_1_0= ruleEString )
+            // InternalSimplepalladio.g:2524:5: lv_name_1_0= ruleEString
             {
 
             					newCompositeNode(grammarAccess.getLinkAccess().getNameEStringParserRuleCall_1_0());
@@ -5784,11 +5938,11 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
             			newLeafNode(otherlv_4, grammarAccess.getLinkAccess().getLeftParenthesisKeyword_4());
             		
-            // InternalSimplepalladio.g:2477:3: ( ( ruleEString ) )
-            // InternalSimplepalladio.g:2478:4: ( ruleEString )
+            // InternalSimplepalladio.g:2553:3: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:2554:4: ( ruleEString )
             {
-            // InternalSimplepalladio.g:2478:4: ( ruleEString )
-            // InternalSimplepalladio.g:2479:5: ruleEString
+            // InternalSimplepalladio.g:2554:4: ( ruleEString )
+            // InternalSimplepalladio.g:2555:5: ruleEString
             {
 
             					if (current==null) {
@@ -5812,31 +5966,31 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
             }
 
-            // InternalSimplepalladio.g:2493:3: (otherlv_6= ',' ( ( ruleEString ) ) )+
-            int cnt31=0;
-            loop31:
+            // InternalSimplepalladio.g:2569:3: (otherlv_6= ',' ( ( ruleEString ) ) )+
+            int cnt33=0;
+            loop33:
             do {
-                int alt31=2;
-                int LA31_0 = input.LA(1);
+                int alt33=2;
+                int LA33_0 = input.LA(1);
 
-                if ( (LA31_0==15) ) {
-                    alt31=1;
+                if ( (LA33_0==15) ) {
+                    alt33=1;
                 }
 
 
-                switch (alt31) {
+                switch (alt33) {
             	case 1 :
-            	    // InternalSimplepalladio.g:2494:4: otherlv_6= ',' ( ( ruleEString ) )
+            	    // InternalSimplepalladio.g:2570:4: otherlv_6= ',' ( ( ruleEString ) )
             	    {
             	    otherlv_6=(Token)match(input,15,FOLLOW_12); 
 
             	    				newLeafNode(otherlv_6, grammarAccess.getLinkAccess().getCommaKeyword_6_0());
             	    			
-            	    // InternalSimplepalladio.g:2498:4: ( ( ruleEString ) )
-            	    // InternalSimplepalladio.g:2499:5: ( ruleEString )
+            	    // InternalSimplepalladio.g:2574:4: ( ( ruleEString ) )
+            	    // InternalSimplepalladio.g:2575:5: ( ruleEString )
             	    {
-            	    // InternalSimplepalladio.g:2499:5: ( ruleEString )
-            	    // InternalSimplepalladio.g:2500:6: ruleEString
+            	    // InternalSimplepalladio.g:2575:5: ( ruleEString )
+            	    // InternalSimplepalladio.g:2576:6: ruleEString
             	    {
 
             	    						if (current==null) {
@@ -5865,12 +6019,12 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
             	    break;
 
             	default :
-            	    if ( cnt31 >= 1 ) break loop31;
+            	    if ( cnt33 >= 1 ) break loop33;
                         EarlyExitException eee =
-                            new EarlyExitException(31, input);
+                            new EarlyExitException(33, input);
                         throw eee;
                 }
-                cnt31++;
+                cnt33++;
             } while (true);
 
             otherlv_8=(Token)match(input,19,FOLLOW_7); 
@@ -5904,7 +6058,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "entryRuleAllocationViewType"
-    // InternalSimplepalladio.g:2527:1: entryRuleAllocationViewType returns [EObject current=null] : iv_ruleAllocationViewType= ruleAllocationViewType EOF ;
+    // InternalSimplepalladio.g:2603:1: entryRuleAllocationViewType returns [EObject current=null] : iv_ruleAllocationViewType= ruleAllocationViewType EOF ;
     public final EObject entryRuleAllocationViewType() throws RecognitionException {
         EObject current = null;
 
@@ -5912,8 +6066,8 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
         try {
-            // InternalSimplepalladio.g:2527:59: (iv_ruleAllocationViewType= ruleAllocationViewType EOF )
-            // InternalSimplepalladio.g:2528:2: iv_ruleAllocationViewType= ruleAllocationViewType EOF
+            // InternalSimplepalladio.g:2603:59: (iv_ruleAllocationViewType= ruleAllocationViewType EOF )
+            // InternalSimplepalladio.g:2604:2: iv_ruleAllocationViewType= ruleAllocationViewType EOF
             {
              newCompositeNode(grammarAccess.getAllocationViewTypeRule()); 
             pushFollow(FOLLOW_1);
@@ -5940,7 +6094,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "ruleAllocationViewType"
-    // InternalSimplepalladio.g:2534:1: ruleAllocationViewType returns [EObject current=null] : (otherlv_0= 'AllocationViewType' otherlv_1= '{' otherlv_2= 'allocationContexts' otherlv_3= '{' ( (lv_allocationContexts_4_0= ruleAllocationContext ) ) (otherlv_5= ',' ( (lv_allocationContexts_6_0= ruleAllocationContext ) ) )* otherlv_7= '}' otherlv_8= '}' ) ;
+    // InternalSimplepalladio.g:2610:1: ruleAllocationViewType returns [EObject current=null] : (otherlv_0= 'AllocationViewType' otherlv_1= '{' otherlv_2= 'allocationContexts' otherlv_3= '{' ( (lv_allocationContexts_4_0= ruleAllocationContext ) ) (otherlv_5= ',' ( (lv_allocationContexts_6_0= ruleAllocationContext ) ) )* otherlv_7= '}' otherlv_8= '}' ) ;
     public final EObject ruleAllocationViewType() throws RecognitionException {
         EObject current = null;
 
@@ -5960,11 +6114,11 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
         	enterRule();
 
         try {
-            // InternalSimplepalladio.g:2540:2: ( (otherlv_0= 'AllocationViewType' otherlv_1= '{' otherlv_2= 'allocationContexts' otherlv_3= '{' ( (lv_allocationContexts_4_0= ruleAllocationContext ) ) (otherlv_5= ',' ( (lv_allocationContexts_6_0= ruleAllocationContext ) ) )* otherlv_7= '}' otherlv_8= '}' ) )
-            // InternalSimplepalladio.g:2541:2: (otherlv_0= 'AllocationViewType' otherlv_1= '{' otherlv_2= 'allocationContexts' otherlv_3= '{' ( (lv_allocationContexts_4_0= ruleAllocationContext ) ) (otherlv_5= ',' ( (lv_allocationContexts_6_0= ruleAllocationContext ) ) )* otherlv_7= '}' otherlv_8= '}' )
+            // InternalSimplepalladio.g:2616:2: ( (otherlv_0= 'AllocationViewType' otherlv_1= '{' otherlv_2= 'allocationContexts' otherlv_3= '{' ( (lv_allocationContexts_4_0= ruleAllocationContext ) ) (otherlv_5= ',' ( (lv_allocationContexts_6_0= ruleAllocationContext ) ) )* otherlv_7= '}' otherlv_8= '}' ) )
+            // InternalSimplepalladio.g:2617:2: (otherlv_0= 'AllocationViewType' otherlv_1= '{' otherlv_2= 'allocationContexts' otherlv_3= '{' ( (lv_allocationContexts_4_0= ruleAllocationContext ) ) (otherlv_5= ',' ( (lv_allocationContexts_6_0= ruleAllocationContext ) ) )* otherlv_7= '}' otherlv_8= '}' )
             {
-            // InternalSimplepalladio.g:2541:2: (otherlv_0= 'AllocationViewType' otherlv_1= '{' otherlv_2= 'allocationContexts' otherlv_3= '{' ( (lv_allocationContexts_4_0= ruleAllocationContext ) ) (otherlv_5= ',' ( (lv_allocationContexts_6_0= ruleAllocationContext ) ) )* otherlv_7= '}' otherlv_8= '}' )
-            // InternalSimplepalladio.g:2542:3: otherlv_0= 'AllocationViewType' otherlv_1= '{' otherlv_2= 'allocationContexts' otherlv_3= '{' ( (lv_allocationContexts_4_0= ruleAllocationContext ) ) (otherlv_5= ',' ( (lv_allocationContexts_6_0= ruleAllocationContext ) ) )* otherlv_7= '}' otherlv_8= '}'
+            // InternalSimplepalladio.g:2617:2: (otherlv_0= 'AllocationViewType' otherlv_1= '{' otherlv_2= 'allocationContexts' otherlv_3= '{' ( (lv_allocationContexts_4_0= ruleAllocationContext ) ) (otherlv_5= ',' ( (lv_allocationContexts_6_0= ruleAllocationContext ) ) )* otherlv_7= '}' otherlv_8= '}' )
+            // InternalSimplepalladio.g:2618:3: otherlv_0= 'AllocationViewType' otherlv_1= '{' otherlv_2= 'allocationContexts' otherlv_3= '{' ( (lv_allocationContexts_4_0= ruleAllocationContext ) ) (otherlv_5= ',' ( (lv_allocationContexts_6_0= ruleAllocationContext ) ) )* otherlv_7= '}' otherlv_8= '}'
             {
             otherlv_0=(Token)match(input,60,FOLLOW_8); 
 
@@ -5982,11 +6136,11 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
             			newLeafNode(otherlv_3, grammarAccess.getAllocationViewTypeAccess().getLeftCurlyBracketKeyword_3());
             		
-            // InternalSimplepalladio.g:2558:3: ( (lv_allocationContexts_4_0= ruleAllocationContext ) )
-            // InternalSimplepalladio.g:2559:4: (lv_allocationContexts_4_0= ruleAllocationContext )
+            // InternalSimplepalladio.g:2634:3: ( (lv_allocationContexts_4_0= ruleAllocationContext ) )
+            // InternalSimplepalladio.g:2635:4: (lv_allocationContexts_4_0= ruleAllocationContext )
             {
-            // InternalSimplepalladio.g:2559:4: (lv_allocationContexts_4_0= ruleAllocationContext )
-            // InternalSimplepalladio.g:2560:5: lv_allocationContexts_4_0= ruleAllocationContext
+            // InternalSimplepalladio.g:2635:4: (lv_allocationContexts_4_0= ruleAllocationContext )
+            // InternalSimplepalladio.g:2636:5: lv_allocationContexts_4_0= ruleAllocationContext
             {
 
             					newCompositeNode(grammarAccess.getAllocationViewTypeAccess().getAllocationContextsAllocationContextParserRuleCall_4_0());
@@ -6013,30 +6167,30 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
             }
 
-            // InternalSimplepalladio.g:2577:3: (otherlv_5= ',' ( (lv_allocationContexts_6_0= ruleAllocationContext ) ) )*
-            loop32:
+            // InternalSimplepalladio.g:2653:3: (otherlv_5= ',' ( (lv_allocationContexts_6_0= ruleAllocationContext ) ) )*
+            loop34:
             do {
-                int alt32=2;
-                int LA32_0 = input.LA(1);
+                int alt34=2;
+                int LA34_0 = input.LA(1);
 
-                if ( (LA32_0==15) ) {
-                    alt32=1;
+                if ( (LA34_0==15) ) {
+                    alt34=1;
                 }
 
 
-                switch (alt32) {
+                switch (alt34) {
             	case 1 :
-            	    // InternalSimplepalladio.g:2578:4: otherlv_5= ',' ( (lv_allocationContexts_6_0= ruleAllocationContext ) )
+            	    // InternalSimplepalladio.g:2654:4: otherlv_5= ',' ( (lv_allocationContexts_6_0= ruleAllocationContext ) )
             	    {
             	    otherlv_5=(Token)match(input,15,FOLLOW_49); 
 
             	    				newLeafNode(otherlv_5, grammarAccess.getAllocationViewTypeAccess().getCommaKeyword_5_0());
             	    			
-            	    // InternalSimplepalladio.g:2582:4: ( (lv_allocationContexts_6_0= ruleAllocationContext ) )
-            	    // InternalSimplepalladio.g:2583:5: (lv_allocationContexts_6_0= ruleAllocationContext )
+            	    // InternalSimplepalladio.g:2658:4: ( (lv_allocationContexts_6_0= ruleAllocationContext ) )
+            	    // InternalSimplepalladio.g:2659:5: (lv_allocationContexts_6_0= ruleAllocationContext )
             	    {
-            	    // InternalSimplepalladio.g:2583:5: (lv_allocationContexts_6_0= ruleAllocationContext )
-            	    // InternalSimplepalladio.g:2584:6: lv_allocationContexts_6_0= ruleAllocationContext
+            	    // InternalSimplepalladio.g:2659:5: (lv_allocationContexts_6_0= ruleAllocationContext )
+            	    // InternalSimplepalladio.g:2660:6: lv_allocationContexts_6_0= ruleAllocationContext
             	    {
 
             	    						newCompositeNode(grammarAccess.getAllocationViewTypeAccess().getAllocationContextsAllocationContextParserRuleCall_5_1_0());
@@ -6068,7 +6222,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
             	    break;
 
             	default :
-            	    break loop32;
+            	    break loop34;
                 }
             } while (true);
 
@@ -6103,7 +6257,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "entryRuleAllocationContext"
-    // InternalSimplepalladio.g:2614:1: entryRuleAllocationContext returns [EObject current=null] : iv_ruleAllocationContext= ruleAllocationContext EOF ;
+    // InternalSimplepalladio.g:2690:1: entryRuleAllocationContext returns [EObject current=null] : iv_ruleAllocationContext= ruleAllocationContext EOF ;
     public final EObject entryRuleAllocationContext() throws RecognitionException {
         EObject current = null;
 
@@ -6111,8 +6265,8 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
         try {
-            // InternalSimplepalladio.g:2614:58: (iv_ruleAllocationContext= ruleAllocationContext EOF )
-            // InternalSimplepalladio.g:2615:2: iv_ruleAllocationContext= ruleAllocationContext EOF
+            // InternalSimplepalladio.g:2690:58: (iv_ruleAllocationContext= ruleAllocationContext EOF )
+            // InternalSimplepalladio.g:2691:2: iv_ruleAllocationContext= ruleAllocationContext EOF
             {
              newCompositeNode(grammarAccess.getAllocationContextRule()); 
             pushFollow(FOLLOW_1);
@@ -6139,7 +6293,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "ruleAllocationContext"
-    // InternalSimplepalladio.g:2621:1: ruleAllocationContext returns [EObject current=null] : (otherlv_0= 'AllocationContext' otherlv_1= '{' otherlv_2= 'container' ( ( ruleEString ) ) otherlv_4= 'assembly' ( ( ruleQualifiedName ) ) otherlv_6= '}' ) ;
+    // InternalSimplepalladio.g:2697:1: ruleAllocationContext returns [EObject current=null] : (otherlv_0= 'AllocationContext' otherlv_1= '{' otherlv_2= 'container' ( ( ruleEString ) ) otherlv_4= 'assembly' ( ( ruleQualifiedName ) ) otherlv_6= '}' ) ;
     public final EObject ruleAllocationContext() throws RecognitionException {
         EObject current = null;
 
@@ -6153,11 +6307,11 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
         	enterRule();
 
         try {
-            // InternalSimplepalladio.g:2627:2: ( (otherlv_0= 'AllocationContext' otherlv_1= '{' otherlv_2= 'container' ( ( ruleEString ) ) otherlv_4= 'assembly' ( ( ruleQualifiedName ) ) otherlv_6= '}' ) )
-            // InternalSimplepalladio.g:2628:2: (otherlv_0= 'AllocationContext' otherlv_1= '{' otherlv_2= 'container' ( ( ruleEString ) ) otherlv_4= 'assembly' ( ( ruleQualifiedName ) ) otherlv_6= '}' )
+            // InternalSimplepalladio.g:2703:2: ( (otherlv_0= 'AllocationContext' otherlv_1= '{' otherlv_2= 'container' ( ( ruleEString ) ) otherlv_4= 'assembly' ( ( ruleQualifiedName ) ) otherlv_6= '}' ) )
+            // InternalSimplepalladio.g:2704:2: (otherlv_0= 'AllocationContext' otherlv_1= '{' otherlv_2= 'container' ( ( ruleEString ) ) otherlv_4= 'assembly' ( ( ruleQualifiedName ) ) otherlv_6= '}' )
             {
-            // InternalSimplepalladio.g:2628:2: (otherlv_0= 'AllocationContext' otherlv_1= '{' otherlv_2= 'container' ( ( ruleEString ) ) otherlv_4= 'assembly' ( ( ruleQualifiedName ) ) otherlv_6= '}' )
-            // InternalSimplepalladio.g:2629:3: otherlv_0= 'AllocationContext' otherlv_1= '{' otherlv_2= 'container' ( ( ruleEString ) ) otherlv_4= 'assembly' ( ( ruleQualifiedName ) ) otherlv_6= '}'
+            // InternalSimplepalladio.g:2704:2: (otherlv_0= 'AllocationContext' otherlv_1= '{' otherlv_2= 'container' ( ( ruleEString ) ) otherlv_4= 'assembly' ( ( ruleQualifiedName ) ) otherlv_6= '}' )
+            // InternalSimplepalladio.g:2705:3: otherlv_0= 'AllocationContext' otherlv_1= '{' otherlv_2= 'container' ( ( ruleEString ) ) otherlv_4= 'assembly' ( ( ruleQualifiedName ) ) otherlv_6= '}'
             {
             otherlv_0=(Token)match(input,62,FOLLOW_8); 
 
@@ -6171,11 +6325,11 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
             			newLeafNode(otherlv_2, grammarAccess.getAllocationContextAccess().getContainerKeyword_2());
             		
-            // InternalSimplepalladio.g:2641:3: ( ( ruleEString ) )
-            // InternalSimplepalladio.g:2642:4: ( ruleEString )
+            // InternalSimplepalladio.g:2717:3: ( ( ruleEString ) )
+            // InternalSimplepalladio.g:2718:4: ( ruleEString )
             {
-            // InternalSimplepalladio.g:2642:4: ( ruleEString )
-            // InternalSimplepalladio.g:2643:5: ruleEString
+            // InternalSimplepalladio.g:2718:4: ( ruleEString )
+            // InternalSimplepalladio.g:2719:5: ruleEString
             {
 
             					if (current==null) {
@@ -6203,11 +6357,11 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
             			newLeafNode(otherlv_4, grammarAccess.getAllocationContextAccess().getAssemblyKeyword_4());
             		
-            // InternalSimplepalladio.g:2661:3: ( ( ruleQualifiedName ) )
-            // InternalSimplepalladio.g:2662:4: ( ruleQualifiedName )
+            // InternalSimplepalladio.g:2737:3: ( ( ruleQualifiedName ) )
+            // InternalSimplepalladio.g:2738:4: ( ruleQualifiedName )
             {
-            // InternalSimplepalladio.g:2662:4: ( ruleQualifiedName )
-            // InternalSimplepalladio.g:2663:5: ruleQualifiedName
+            // InternalSimplepalladio.g:2738:4: ( ruleQualifiedName )
+            // InternalSimplepalladio.g:2739:5: ruleQualifiedName
             {
 
             					if (current==null) {
@@ -6258,7 +6412,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "entryRuleQualifiedName"
-    // InternalSimplepalladio.g:2685:1: entryRuleQualifiedName returns [String current=null] : iv_ruleQualifiedName= ruleQualifiedName EOF ;
+    // InternalSimplepalladio.g:2761:1: entryRuleQualifiedName returns [String current=null] : iv_ruleQualifiedName= ruleQualifiedName EOF ;
     public final String entryRuleQualifiedName() throws RecognitionException {
         String current = null;
 
@@ -6266,8 +6420,8 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
         try {
-            // InternalSimplepalladio.g:2685:53: (iv_ruleQualifiedName= ruleQualifiedName EOF )
-            // InternalSimplepalladio.g:2686:2: iv_ruleQualifiedName= ruleQualifiedName EOF
+            // InternalSimplepalladio.g:2761:53: (iv_ruleQualifiedName= ruleQualifiedName EOF )
+            // InternalSimplepalladio.g:2762:2: iv_ruleQualifiedName= ruleQualifiedName EOF
             {
              newCompositeNode(grammarAccess.getQualifiedNameRule()); 
             pushFollow(FOLLOW_1);
@@ -6294,7 +6448,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "ruleQualifiedName"
-    // InternalSimplepalladio.g:2692:1: ruleQualifiedName returns [AntlrDatatypeRuleToken current=new AntlrDatatypeRuleToken()] : (this_ID_0= RULE_ID (kw= '.' this_ID_2= RULE_ID )* ) ;
+    // InternalSimplepalladio.g:2768:1: ruleQualifiedName returns [AntlrDatatypeRuleToken current=new AntlrDatatypeRuleToken()] : (this_ID_0= RULE_ID (kw= '.' this_ID_2= RULE_ID )* ) ;
     public final AntlrDatatypeRuleToken ruleQualifiedName() throws RecognitionException {
         AntlrDatatypeRuleToken current = new AntlrDatatypeRuleToken();
 
@@ -6306,11 +6460,11 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
         	enterRule();
 
         try {
-            // InternalSimplepalladio.g:2698:2: ( (this_ID_0= RULE_ID (kw= '.' this_ID_2= RULE_ID )* ) )
-            // InternalSimplepalladio.g:2699:2: (this_ID_0= RULE_ID (kw= '.' this_ID_2= RULE_ID )* )
+            // InternalSimplepalladio.g:2774:2: ( (this_ID_0= RULE_ID (kw= '.' this_ID_2= RULE_ID )* ) )
+            // InternalSimplepalladio.g:2775:2: (this_ID_0= RULE_ID (kw= '.' this_ID_2= RULE_ID )* )
             {
-            // InternalSimplepalladio.g:2699:2: (this_ID_0= RULE_ID (kw= '.' this_ID_2= RULE_ID )* )
-            // InternalSimplepalladio.g:2700:3: this_ID_0= RULE_ID (kw= '.' this_ID_2= RULE_ID )*
+            // InternalSimplepalladio.g:2775:2: (this_ID_0= RULE_ID (kw= '.' this_ID_2= RULE_ID )* )
+            // InternalSimplepalladio.g:2776:3: this_ID_0= RULE_ID (kw= '.' this_ID_2= RULE_ID )*
             {
             this_ID_0=(Token)match(input,RULE_ID,FOLLOW_52); 
 
@@ -6319,20 +6473,20 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
             			newLeafNode(this_ID_0, grammarAccess.getQualifiedNameAccess().getIDTerminalRuleCall_0());
             		
-            // InternalSimplepalladio.g:2707:3: (kw= '.' this_ID_2= RULE_ID )*
-            loop33:
+            // InternalSimplepalladio.g:2783:3: (kw= '.' this_ID_2= RULE_ID )*
+            loop35:
             do {
-                int alt33=2;
-                int LA33_0 = input.LA(1);
+                int alt35=2;
+                int LA35_0 = input.LA(1);
 
-                if ( (LA33_0==65) ) {
-                    alt33=1;
+                if ( (LA35_0==65) ) {
+                    alt35=1;
                 }
 
 
-                switch (alt33) {
+                switch (alt35) {
             	case 1 :
-            	    // InternalSimplepalladio.g:2708:4: kw= '.' this_ID_2= RULE_ID
+            	    // InternalSimplepalladio.g:2784:4: kw= '.' this_ID_2= RULE_ID
             	    {
             	    kw=(Token)match(input,65,FOLLOW_19); 
 
@@ -6351,7 +6505,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
             	    break;
 
             	default :
-            	    break loop33;
+            	    break loop35;
                 }
             } while (true);
 
@@ -6378,7 +6532,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "ruleType"
-    // InternalSimplepalladio.g:2725:1: ruleType returns [Enumerator current=null] : ( (enumLiteral_0= 'VOID' ) | (enumLiteral_1= 'BOOLEAN' ) | (enumLiteral_2= 'CHAR' ) | (enumLiteral_3= 'DATE' ) | (enumLiteral_4= 'DOUBLE' ) | (enumLiteral_5= 'FLOAT' ) | (enumLiteral_6= 'LIST' ) | (enumLiteral_7= 'INT' ) | (enumLiteral_8= 'LONG' ) | (enumLiteral_9= 'MAP' ) | (enumLiteral_10= 'STRING' ) ) ;
+    // InternalSimplepalladio.g:2801:1: ruleType returns [Enumerator current=null] : ( (enumLiteral_0= 'VOID' ) | (enumLiteral_1= 'BOOLEAN' ) | (enumLiteral_2= 'CHAR' ) | (enumLiteral_3= 'DATE' ) | (enumLiteral_4= 'DOUBLE' ) | (enumLiteral_5= 'FLOAT' ) | (enumLiteral_6= 'LIST' ) | (enumLiteral_7= 'INT' ) | (enumLiteral_8= 'LONG' ) | (enumLiteral_9= 'MAP' ) | (enumLiteral_10= 'STRING' ) ) ;
     public final Enumerator ruleType() throws RecognitionException {
         Enumerator current = null;
 
@@ -6398,80 +6552,80 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
         	enterRule();
 
         try {
-            // InternalSimplepalladio.g:2731:2: ( ( (enumLiteral_0= 'VOID' ) | (enumLiteral_1= 'BOOLEAN' ) | (enumLiteral_2= 'CHAR' ) | (enumLiteral_3= 'DATE' ) | (enumLiteral_4= 'DOUBLE' ) | (enumLiteral_5= 'FLOAT' ) | (enumLiteral_6= 'LIST' ) | (enumLiteral_7= 'INT' ) | (enumLiteral_8= 'LONG' ) | (enumLiteral_9= 'MAP' ) | (enumLiteral_10= 'STRING' ) ) )
-            // InternalSimplepalladio.g:2732:2: ( (enumLiteral_0= 'VOID' ) | (enumLiteral_1= 'BOOLEAN' ) | (enumLiteral_2= 'CHAR' ) | (enumLiteral_3= 'DATE' ) | (enumLiteral_4= 'DOUBLE' ) | (enumLiteral_5= 'FLOAT' ) | (enumLiteral_6= 'LIST' ) | (enumLiteral_7= 'INT' ) | (enumLiteral_8= 'LONG' ) | (enumLiteral_9= 'MAP' ) | (enumLiteral_10= 'STRING' ) )
+            // InternalSimplepalladio.g:2807:2: ( ( (enumLiteral_0= 'VOID' ) | (enumLiteral_1= 'BOOLEAN' ) | (enumLiteral_2= 'CHAR' ) | (enumLiteral_3= 'DATE' ) | (enumLiteral_4= 'DOUBLE' ) | (enumLiteral_5= 'FLOAT' ) | (enumLiteral_6= 'LIST' ) | (enumLiteral_7= 'INT' ) | (enumLiteral_8= 'LONG' ) | (enumLiteral_9= 'MAP' ) | (enumLiteral_10= 'STRING' ) ) )
+            // InternalSimplepalladio.g:2808:2: ( (enumLiteral_0= 'VOID' ) | (enumLiteral_1= 'BOOLEAN' ) | (enumLiteral_2= 'CHAR' ) | (enumLiteral_3= 'DATE' ) | (enumLiteral_4= 'DOUBLE' ) | (enumLiteral_5= 'FLOAT' ) | (enumLiteral_6= 'LIST' ) | (enumLiteral_7= 'INT' ) | (enumLiteral_8= 'LONG' ) | (enumLiteral_9= 'MAP' ) | (enumLiteral_10= 'STRING' ) )
             {
-            // InternalSimplepalladio.g:2732:2: ( (enumLiteral_0= 'VOID' ) | (enumLiteral_1= 'BOOLEAN' ) | (enumLiteral_2= 'CHAR' ) | (enumLiteral_3= 'DATE' ) | (enumLiteral_4= 'DOUBLE' ) | (enumLiteral_5= 'FLOAT' ) | (enumLiteral_6= 'LIST' ) | (enumLiteral_7= 'INT' ) | (enumLiteral_8= 'LONG' ) | (enumLiteral_9= 'MAP' ) | (enumLiteral_10= 'STRING' ) )
-            int alt34=11;
+            // InternalSimplepalladio.g:2808:2: ( (enumLiteral_0= 'VOID' ) | (enumLiteral_1= 'BOOLEAN' ) | (enumLiteral_2= 'CHAR' ) | (enumLiteral_3= 'DATE' ) | (enumLiteral_4= 'DOUBLE' ) | (enumLiteral_5= 'FLOAT' ) | (enumLiteral_6= 'LIST' ) | (enumLiteral_7= 'INT' ) | (enumLiteral_8= 'LONG' ) | (enumLiteral_9= 'MAP' ) | (enumLiteral_10= 'STRING' ) )
+            int alt36=11;
             switch ( input.LA(1) ) {
             case 66:
                 {
-                alt34=1;
+                alt36=1;
                 }
                 break;
             case 67:
                 {
-                alt34=2;
+                alt36=2;
                 }
                 break;
             case 68:
                 {
-                alt34=3;
+                alt36=3;
                 }
                 break;
             case 69:
                 {
-                alt34=4;
+                alt36=4;
                 }
                 break;
             case 70:
                 {
-                alt34=5;
+                alt36=5;
                 }
                 break;
             case 71:
                 {
-                alt34=6;
+                alt36=6;
                 }
                 break;
             case 72:
                 {
-                alt34=7;
+                alt36=7;
                 }
                 break;
             case 73:
                 {
-                alt34=8;
+                alt36=8;
                 }
                 break;
             case 74:
                 {
-                alt34=9;
+                alt36=9;
                 }
                 break;
             case 75:
                 {
-                alt34=10;
+                alt36=10;
                 }
                 break;
             case 76:
                 {
-                alt34=11;
+                alt36=11;
                 }
                 break;
             default:
                 NoViableAltException nvae =
-                    new NoViableAltException("", 34, 0, input);
+                    new NoViableAltException("", 36, 0, input);
 
                 throw nvae;
             }
 
-            switch (alt34) {
+            switch (alt36) {
                 case 1 :
-                    // InternalSimplepalladio.g:2733:3: (enumLiteral_0= 'VOID' )
+                    // InternalSimplepalladio.g:2809:3: (enumLiteral_0= 'VOID' )
                     {
-                    // InternalSimplepalladio.g:2733:3: (enumLiteral_0= 'VOID' )
-                    // InternalSimplepalladio.g:2734:4: enumLiteral_0= 'VOID'
+                    // InternalSimplepalladio.g:2809:3: (enumLiteral_0= 'VOID' )
+                    // InternalSimplepalladio.g:2810:4: enumLiteral_0= 'VOID'
                     {
                     enumLiteral_0=(Token)match(input,66,FOLLOW_2); 
 
@@ -6485,10 +6639,10 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
                     }
                     break;
                 case 2 :
-                    // InternalSimplepalladio.g:2741:3: (enumLiteral_1= 'BOOLEAN' )
+                    // InternalSimplepalladio.g:2817:3: (enumLiteral_1= 'BOOLEAN' )
                     {
-                    // InternalSimplepalladio.g:2741:3: (enumLiteral_1= 'BOOLEAN' )
-                    // InternalSimplepalladio.g:2742:4: enumLiteral_1= 'BOOLEAN'
+                    // InternalSimplepalladio.g:2817:3: (enumLiteral_1= 'BOOLEAN' )
+                    // InternalSimplepalladio.g:2818:4: enumLiteral_1= 'BOOLEAN'
                     {
                     enumLiteral_1=(Token)match(input,67,FOLLOW_2); 
 
@@ -6502,10 +6656,10 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
                     }
                     break;
                 case 3 :
-                    // InternalSimplepalladio.g:2749:3: (enumLiteral_2= 'CHAR' )
+                    // InternalSimplepalladio.g:2825:3: (enumLiteral_2= 'CHAR' )
                     {
-                    // InternalSimplepalladio.g:2749:3: (enumLiteral_2= 'CHAR' )
-                    // InternalSimplepalladio.g:2750:4: enumLiteral_2= 'CHAR'
+                    // InternalSimplepalladio.g:2825:3: (enumLiteral_2= 'CHAR' )
+                    // InternalSimplepalladio.g:2826:4: enumLiteral_2= 'CHAR'
                     {
                     enumLiteral_2=(Token)match(input,68,FOLLOW_2); 
 
@@ -6519,10 +6673,10 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
                     }
                     break;
                 case 4 :
-                    // InternalSimplepalladio.g:2757:3: (enumLiteral_3= 'DATE' )
+                    // InternalSimplepalladio.g:2833:3: (enumLiteral_3= 'DATE' )
                     {
-                    // InternalSimplepalladio.g:2757:3: (enumLiteral_3= 'DATE' )
-                    // InternalSimplepalladio.g:2758:4: enumLiteral_3= 'DATE'
+                    // InternalSimplepalladio.g:2833:3: (enumLiteral_3= 'DATE' )
+                    // InternalSimplepalladio.g:2834:4: enumLiteral_3= 'DATE'
                     {
                     enumLiteral_3=(Token)match(input,69,FOLLOW_2); 
 
@@ -6536,10 +6690,10 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
                     }
                     break;
                 case 5 :
-                    // InternalSimplepalladio.g:2765:3: (enumLiteral_4= 'DOUBLE' )
+                    // InternalSimplepalladio.g:2841:3: (enumLiteral_4= 'DOUBLE' )
                     {
-                    // InternalSimplepalladio.g:2765:3: (enumLiteral_4= 'DOUBLE' )
-                    // InternalSimplepalladio.g:2766:4: enumLiteral_4= 'DOUBLE'
+                    // InternalSimplepalladio.g:2841:3: (enumLiteral_4= 'DOUBLE' )
+                    // InternalSimplepalladio.g:2842:4: enumLiteral_4= 'DOUBLE'
                     {
                     enumLiteral_4=(Token)match(input,70,FOLLOW_2); 
 
@@ -6553,10 +6707,10 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
                     }
                     break;
                 case 6 :
-                    // InternalSimplepalladio.g:2773:3: (enumLiteral_5= 'FLOAT' )
+                    // InternalSimplepalladio.g:2849:3: (enumLiteral_5= 'FLOAT' )
                     {
-                    // InternalSimplepalladio.g:2773:3: (enumLiteral_5= 'FLOAT' )
-                    // InternalSimplepalladio.g:2774:4: enumLiteral_5= 'FLOAT'
+                    // InternalSimplepalladio.g:2849:3: (enumLiteral_5= 'FLOAT' )
+                    // InternalSimplepalladio.g:2850:4: enumLiteral_5= 'FLOAT'
                     {
                     enumLiteral_5=(Token)match(input,71,FOLLOW_2); 
 
@@ -6570,10 +6724,10 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
                     }
                     break;
                 case 7 :
-                    // InternalSimplepalladio.g:2781:3: (enumLiteral_6= 'LIST' )
+                    // InternalSimplepalladio.g:2857:3: (enumLiteral_6= 'LIST' )
                     {
-                    // InternalSimplepalladio.g:2781:3: (enumLiteral_6= 'LIST' )
-                    // InternalSimplepalladio.g:2782:4: enumLiteral_6= 'LIST'
+                    // InternalSimplepalladio.g:2857:3: (enumLiteral_6= 'LIST' )
+                    // InternalSimplepalladio.g:2858:4: enumLiteral_6= 'LIST'
                     {
                     enumLiteral_6=(Token)match(input,72,FOLLOW_2); 
 
@@ -6587,10 +6741,10 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
                     }
                     break;
                 case 8 :
-                    // InternalSimplepalladio.g:2789:3: (enumLiteral_7= 'INT' )
+                    // InternalSimplepalladio.g:2865:3: (enumLiteral_7= 'INT' )
                     {
-                    // InternalSimplepalladio.g:2789:3: (enumLiteral_7= 'INT' )
-                    // InternalSimplepalladio.g:2790:4: enumLiteral_7= 'INT'
+                    // InternalSimplepalladio.g:2865:3: (enumLiteral_7= 'INT' )
+                    // InternalSimplepalladio.g:2866:4: enumLiteral_7= 'INT'
                     {
                     enumLiteral_7=(Token)match(input,73,FOLLOW_2); 
 
@@ -6604,10 +6758,10 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
                     }
                     break;
                 case 9 :
-                    // InternalSimplepalladio.g:2797:3: (enumLiteral_8= 'LONG' )
+                    // InternalSimplepalladio.g:2873:3: (enumLiteral_8= 'LONG' )
                     {
-                    // InternalSimplepalladio.g:2797:3: (enumLiteral_8= 'LONG' )
-                    // InternalSimplepalladio.g:2798:4: enumLiteral_8= 'LONG'
+                    // InternalSimplepalladio.g:2873:3: (enumLiteral_8= 'LONG' )
+                    // InternalSimplepalladio.g:2874:4: enumLiteral_8= 'LONG'
                     {
                     enumLiteral_8=(Token)match(input,74,FOLLOW_2); 
 
@@ -6621,10 +6775,10 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
                     }
                     break;
                 case 10 :
-                    // InternalSimplepalladio.g:2805:3: (enumLiteral_9= 'MAP' )
+                    // InternalSimplepalladio.g:2881:3: (enumLiteral_9= 'MAP' )
                     {
-                    // InternalSimplepalladio.g:2805:3: (enumLiteral_9= 'MAP' )
-                    // InternalSimplepalladio.g:2806:4: enumLiteral_9= 'MAP'
+                    // InternalSimplepalladio.g:2881:3: (enumLiteral_9= 'MAP' )
+                    // InternalSimplepalladio.g:2882:4: enumLiteral_9= 'MAP'
                     {
                     enumLiteral_9=(Token)match(input,75,FOLLOW_2); 
 
@@ -6638,10 +6792,10 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
                     }
                     break;
                 case 11 :
-                    // InternalSimplepalladio.g:2813:3: (enumLiteral_10= 'STRING' )
+                    // InternalSimplepalladio.g:2889:3: (enumLiteral_10= 'STRING' )
                     {
-                    // InternalSimplepalladio.g:2813:3: (enumLiteral_10= 'STRING' )
-                    // InternalSimplepalladio.g:2814:4: enumLiteral_10= 'STRING'
+                    // InternalSimplepalladio.g:2889:3: (enumLiteral_10= 'STRING' )
+                    // InternalSimplepalladio.g:2890:4: enumLiteral_10= 'STRING'
                     {
                     enumLiteral_10=(Token)match(input,76,FOLLOW_2); 
 
@@ -6684,7 +6838,7 @@ public class InternalSimplepalladioParser extends AbstractInternalAntlrParser {
     public static final BitSet FOLLOW_2 = new BitSet(new long[]{0x0000000000000002L});
     public static final BitSet FOLLOW_3 = new BitSet(new long[]{0x0000000000002000L});
     public static final BitSet FOLLOW_4 = new BitSet(new long[]{0x0000010000000000L});
-    public static final BitSet FOLLOW_5 = new BitSet(new long[]{0x0080000000000000L});
+    public static final BitSet FOLLOW_5 = new BitSet(new long[]{0x0080010000002000L});
     public static final BitSet FOLLOW_6 = new BitSet(new long[]{0x1000000000000000L});
     public static final BitSet FOLLOW_7 = new BitSet(new long[]{0x0000000000001000L});
     public static final BitSet FOLLOW_8 = new BitSet(new long[]{0x0000000000000800L});

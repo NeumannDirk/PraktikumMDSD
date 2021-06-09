@@ -85,13 +85,31 @@ public interface SimplepalladioPackage extends EPackage
   int MODEL__ASSEMBLY_VIEW_TYPE = 1;
 
   /**
+   * The feature id for the '<em><b>Repository View Type2</b></em>' containment reference.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   * @ordered
+   */
+  int MODEL__REPOSITORY_VIEW_TYPE2 = 2;
+
+  /**
+   * The feature id for the '<em><b>Assembly View Type2</b></em>' containment reference.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   * @ordered
+   */
+  int MODEL__ASSEMBLY_VIEW_TYPE2 = 3;
+
+  /**
    * The feature id for the '<em><b>Environment View Type</b></em>' containment reference.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @generated
    * @ordered
    */
-  int MODEL__ENVIRONMENT_VIEW_TYPE = 2;
+  int MODEL__ENVIRONMENT_VIEW_TYPE = 4;
 
   /**
    * The feature id for the '<em><b>Allocation View Type</b></em>' containment reference.
@@ -100,7 +118,7 @@ public interface SimplepalladioPackage extends EPackage
    * @generated
    * @ordered
    */
-  int MODEL__ALLOCATION_VIEW_TYPE = 3;
+  int MODEL__ALLOCATION_VIEW_TYPE = 5;
 
   /**
    * The number of structural features of the '<em>Model</em>' class.
@@ -109,7 +127,7 @@ public interface SimplepalladioPackage extends EPackage
    * @generated
    * @ordered
    */
-  int MODEL_FEATURE_COUNT = 4;
+  int MODEL_FEATURE_COUNT = 6;
 
 
   /**
@@ -143,6 +161,28 @@ public interface SimplepalladioPackage extends EPackage
    * @generated
    */
   EReference getModel_AssemblyViewType();
+
+  /**
+   * Returns the meta object for the containment reference '{@link org.xtext.mdsm.simplePalladio.simplepalladio.Model#getRepositoryViewType2 <em>Repository View Type2</em>}'.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the meta object for the containment reference '<em>Repository View Type2</em>'.
+   * @see org.xtext.mdsm.simplePalladio.simplepalladio.Model#getRepositoryViewType2()
+   * @see #getModel()
+   * @generated
+   */
+  EReference getModel_RepositoryViewType2();
+
+  /**
+   * Returns the meta object for the containment reference '{@link org.xtext.mdsm.simplePalladio.simplepalladio.Model#getAssemblyViewType2 <em>Assembly View Type2</em>}'.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the meta object for the containment reference '<em>Assembly View Type2</em>'.
+   * @see org.xtext.mdsm.simplePalladio.simplepalladio.Model#getAssemblyViewType2()
+   * @see #getModel()
+   * @generated
+   */
+  EReference getModel_AssemblyViewType2();
 
   /**
    * Returns the meta object for the containment reference '{@link org.xtext.mdsm.simplePalladio.simplepalladio.Model#getEnvironmentViewType <em>Environment View Type</em>}'.
@@ -214,6 +254,22 @@ public interface SimplepalladioPackage extends EPackage
      * @generated
      */
     EReference MODEL__ASSEMBLY_VIEW_TYPE = eINSTANCE.getModel_AssemblyViewType();
+
+    /**
+     * The meta object literal for the '<em><b>Repository View Type2</b></em>' containment reference feature.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    EReference MODEL__REPOSITORY_VIEW_TYPE2 = eINSTANCE.getModel_RepositoryViewType2();
+
+    /**
+     * The meta object literal for the '<em><b>Assembly View Type2</b></em>' containment reference feature.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    EReference MODEL__ASSEMBLY_VIEW_TYPE2 = eINSTANCE.getModel_AssemblyViewType2();
 
     /**
      * The meta object literal for the '<em><b>Environment View Type</b></em>' containment reference feature.

@@ -3,10 +3,22 @@
  */
 package org.xtext.mdsm.simplePalladio.generator
 
+import com.google.inject.Inject
+import org.eclipse.emf.common.util.URI
 import org.eclipse.emf.ecore.resource.Resource
 import org.eclipse.xtext.generator.AbstractGenerator
 import org.eclipse.xtext.generator.IFileSystemAccess2
 import org.eclipse.xtext.generator.IGeneratorContext
+import org.eclipse.xtext.resource.FileExtensionProvider
+import org.eclipse.xtext.resource.XtextResourceSet
+
+import org.xtext.mdsm.simplePalladio.simplepalladio.Model
+import simplePalladio.SystemIndependentViewPoint.RepositoryViewType
+import simplePalladio.AssemblyViewPoint.AssemblyViewType
+import simplePalladio.DeploymentViewPoint.EnvironmentViewType
+import simplePalladio.DeploymentViewPoint.AllocationViewType
+
+import static extension org.eclipse.emf.common.util.URI.createPlatformResourceURI
 
 /**
  * Generates code from your model files on save.
@@ -14,12 +26,78 @@ import org.eclipse.xtext.generator.IGeneratorContext
  * See https://www.eclipse.org/Xtext/documentation/303_runtime_concepts.html#code-generation
  */
 class SimplepalladioGenerator extends AbstractGenerator {
+	@Inject 
+	extension FileExtensionProvider;
 
 	override void doGenerate(Resource resource, IFileSystemAccess2 fsa, IGeneratorContext context) {
-//		fsa.generateFile('greetings.txt', 'People to greet: ' + 
-//			resource.allContents
-//				.filter(Greeting)
-//				.map[name]
-//				.join(', '))
+		serialize(resource, (resource.contents.head as Model))
 	}
+	
+	private def serialize(Resource resource, Model model) {
+		serialize(resource.toOutputURIRepVT, model.repositoryViewType, model.repositoryViewType2)
+		serialize(resource.toOutputURIAssVT, model.assemblyViewType, model.assemblyViewType2)
+		serialize(resource.toOutputURIEnvVT, model.environmentViewType)
+		serialize(resource.toOutputURIAllVT, model.allocationViewType)
+	}
+
+	private def serialize(URI outputURI, AllocationViewType allocation) {
+		val resource = new XtextResourceSet().createResource(outputURI)
+		resource.contents += allocation
+		resource.save(newHashMap)
+	}
+
+	private def toOutputURIAllVT(Resource input) {
+		val inputUri = input.URI
+		System.out.print(inputUri)
+		val inputPath = inputUri.toPlatformString(true)
+
+		val outputPath = inputPath.replace("." + primaryFileExtension, "_allocation.deploymentviewpoint" )
+
+		outputPath.createPlatformResourceURI(true)
+	}
+	
+		private def serialize(URI outputURI, AssemblyViewType assembly1, AssemblyViewType assembly2) {
+		val resource = new XtextResourceSet().createResource(outputURI)
+		resource.contents += assembly1
+		resource.contents += assembly2
+		resource.save(newHashMap)
+	}
+
+	private def toOutputURIAssVT(Resource input) {
+		val inputUri = input.URI
+		val inputPath = inputUri.toPlatformString(true)
+
+		val outputPath = inputPath.replace("." + primaryFileExtension, ".assemblyviewpoint" )
+
+		outputPath.createPlatformResourceURI(true)
+	}
+	private def serialize(URI outputURI, EnvironmentViewType environment) {
+		val resource = new XtextResourceSet().createResource(outputURI)
+		resource.contents += environment
+		resource.save(newHashMap)
+	}
+
+	private def toOutputURIEnvVT(Resource input) {
+		val inputUri = input.URI
+		val inputPath = inputUri.toPlatformString(true)
+
+		val outputPath = inputPath.replace("." + primaryFileExtension, "_environment.deploymentviewpoint" )
+
+		outputPath.createPlatformResourceURI(true)
+	}
+	private def serialize(URI outputURI, RepositoryViewType repository1, RepositoryViewType repository2) {
+		val resource = new XtextResourceSet().createResource(outputURI)
+		resource.contents += repository1
+		resource.contents += repository2
+		resource.save(newHashMap)
+	}
+
+	private def toOutputURIRepVT(Resource input) {
+		val inputUri = input.URI
+		val inputPath = inputUri.toPlatformString(true)
+
+		val outputPath = inputPath.replace("." + primaryFileExtension, ".systemindependentviewpoint" )
+
+		outputPath.createPlatformResourceURI(true)
+	}			
 }
