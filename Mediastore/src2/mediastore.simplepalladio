@@ -39,7 +39,8 @@
 				services {
 					Service {
 						signature addFile
-						behaviourDescription BehaviourDescription {		
+						behaviourDescription BehaviourDescription {
+							behaviorElements { InternalAction}	
 						}
 					}
 				}
@@ -49,7 +50,8 @@
 				services {
 					Service {
 						signature watermark
-						behaviourDescription BehaviourDescription {		
+						behaviourDescription BehaviourDescription {
+							behaviorElements { InternalAction}		
 						}
 					}
 				}
@@ -60,7 +62,8 @@
 				services {
 					Service {
 						signature addFile
-						behaviourDescription BehaviourDescription {		
+						behaviourDescription BehaviourDescription {
+							behaviorElements { InternalAction}		
 						}
 					}
 				}
@@ -71,7 +74,8 @@
 				services {
 					Service {
 						signature upload
-						behaviourDescription BehaviourDescription {		
+						behaviourDescription BehaviourDescription {
+							behaviorElements { InternalAction}		
 						}
 					}
 				}
@@ -82,15 +86,11 @@
 				services {
 					Service {
 						signature HTTPUpload
-						behaviourDescription BehaviourDescription {		
+						behaviourDescription BehaviourDescription {
+							behaviorElements { InternalAction}		
 						}
 					}
 				}
-			},
-			CompositeComponent MediaStore {
-				requiredInterfaces (AudioDB)
-				providedInterfaces (IMediaStore)
-				system MediaStore
 			}			
 		}
 	}
@@ -133,24 +133,37 @@
 						component DigitalWatermarking
 						providedRoles (DigitalWatermarkingAC_Sound_Provider)
 					},
-					DelegationConnector {
+					DelegationConnector IMediaStore2MediaManagerAC_IMediaStore {
 						role MediaManagerAC_IMediaStore_Provider
 						interface IMediaStore
 					},
-					DelegationConnector {
+					DelegationConnector DBCacheAC_AudioDB2AudioDB {
 						role DBCacheAC_AudioDB_Requiree
 						interface AudioDB
 					},
-					AssemblyConnector {
+					AssemblyConnector MediaManagerAC_Sound2DigitalWatermarkingAC_Sound {
 						providedRole DigitalWatermarkingAC_Sound_Provider
 						requiredRole MediaManagerAC_Sound_Requiree
 					},
-					AssemblyConnector {
+					AssemblyConnector MediaManagerAC_AudioDB2DBCacheAC_AudioDB {
 						providedRole DBCacheAC_AudioDB_Provider
 						requiredRole MediaManagerAC_AudioDB_Requiree
 					}
 				}
-			},
+			}							
+		}
+	}
+	RepositoryViewType {
+		repositoryElements {
+			CompositeComponent MediaStore2 {
+				requiredInterfaces (AudioDB)
+				providedInterfaces (IMediaStore)
+				system MediaStore
+			}			
+		}
+	}
+	AssemblyViewType {
+		systems {
 			System Sys {
 				providedInterfaces (HTTP)
 				systemElements {
@@ -175,7 +188,7 @@
 						requiredRoles (WebGUIAC_IMediaStore_Requiree)
 					},
 					AssemblyContext MediaStoreAC {
-						component MediaStore
+						component MediaStore2
 						providedRoles (MediaStoreAC_IMediaStore_Provider)
 						requiredRoles (MediaStoreAC_AudioDB_Requiree)
 					},
@@ -183,23 +196,22 @@
 						component PoolingAudiaDB
 						providedRoles (PoolingAudioDBAC_AudioDB_Provider)
 					},
-					DelegationConnector {
+					DelegationConnector HTTP2WebGUIAC_HTTP {
 						role WebGUIAC_HTTP_Provider
 						interface HTTP
 					},
-					AssemblyConnector {
+					AssemblyConnector WebGUIAC_IMediaStore2MediaStoreAC_IMediaStore {
 						providedRole MediaStoreAC_IMediaStore_Provider
 						requiredRole WebGUIAC_IMediaStore_Requiree
 					},
-					AssemblyConnector {
+					AssemblyConnector MediaStoreAC_AudioDB2PoolingAudioDBAC_AudioDB {
 						providedRole PoolingAudioDBAC_AudioDB_Provider
 						requiredRole MediaStoreAC_AudioDB_Requiree
 					}
-					
 				}
 			}							
 		}
-	}
+	}	
 	EnvironmentViewType {
 		environmentElements {
 			Container ApplicationServer,

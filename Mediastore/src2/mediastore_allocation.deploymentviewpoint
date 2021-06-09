@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?>
+<DeploymentViewPoint:AllocationViewType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:DeploymentViewPoint="http://www.example.org/simplePalladio/DeploymentViewPoint">
+  <allocationContexts>
+    <container href="mediastore_environment.deploymentviewpoint#ApplicationServer"/>
+    <assembly href="mediastore.assemblyviewpoint#WebGUIAC"/>
+  </allocationContexts>
+  <allocationContexts>
+    <container href="mediastore_environment.deploymentviewpoint#ApplicationServer"/>
+    <assembly href="mediastore.assemblyviewpoint#MediaStoreAC"/>
+  </allocationContexts>
+  <allocationContexts>
+    <container href="mediastore_environment.deploymentviewpoint#DatabaseServer"/>
+    <assembly href="mediastore.assemblyviewpoint#PoolingAudioDBAC"/>
+  </allocationContexts>
+</DeploymentViewPoint:AllocationViewType>
