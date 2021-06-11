@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2" xsi:schemaLocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2 http://palladiosimulator.org/PalladioComponentModel/5.2#//allocation" id="_bTFHgMh_EeuMmYDMdwzgqA">
-  <allocationContexts_Allocation id="_bTFukMh_EeuMmYDMdwzgqA">
-    <resourceContainer_AllocationContext href="MainTransformation.resourceenvironment#_bSht4Mh_EeuMmYDMdwzgqA"/>
-    <assemblyContext_AllocationContext href="MainTransformation.system#_bTDSUMh_EeuMmYDMdwzgqA"/>
+<allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2" xsi:schemaLocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2 http://palladiosimulator.org/PalladioComponentModel/5.2#//allocation" id="_gZ93sMrCEeu1U_0GYdp5Gg" entityName="Allocation">
+  <allocationContexts_Allocation id="_gZ93scrCEeu1U_0GYdp5Gg" entityName="WebGUIAC_ApplicationServer">
+    <resourceContainer_AllocationContext href="MainTransformation.resourceenvironment#_gZy4kMrCEeu1U_0GYdp5Gg"/>
+    <assemblyContext_AllocationContext href="MainTransformation.system#_gZ9QocrCEeu1U_0GYdp5Gg"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_bTGVoMh_EeuMmYDMdwzgqA">
-    <resourceContainer_AllocationContext href="MainTransformation.resourceenvironment#_bSht4ch_EeuMmYDMdwzgqA"/>
-    <assemblyContext_AllocationContext href="MainTransformation.system#_bTCrQMh_EeuMmYDMdwzgqA"/>
+  <allocationContexts_Allocation id="_gZ93ssrCEeu1U_0GYdp5Gg" entityName="MediaStoreAC_ApplicationServer">
+    <resourceContainer_AllocationContext href="MainTransformation.resourceenvironment#_gZy4kMrCEeu1U_0GYdp5Gg"/>
+    <assemblyContext_AllocationContext href="MainTransformation.system#_gZ8pkcrCEeu1U_0GYdp5Gg"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_bTFukch_EeuMmYDMdwzgqA">
-    <resourceContainer_AllocationContext href="MainTransformation.resourceenvironment#_bSht4Mh_EeuMmYDMdwzgqA"/>
-    <assemblyContext_AllocationContext href="MainTransformation.system#_bTD5YMh_EeuMmYDMdwzgqA"/>
+  <allocationContexts_Allocation id="_gZ-ewMrCEeu1U_0GYdp5Gg" entityName="PoolingAudioDBAC_DatabaseServer">
+    <resourceContainer_AllocationContext href="MainTransformation.resourceenvironment#_gZzfoMrCEeu1U_0GYdp5Gg"/>
+    <assemblyContext_AllocationContext href="MainTransformation.system#_gZ9QoMrCEeu1U_0GYdp5Gg"/>
   </allocationContexts_Allocation>
 </allocation:Allocation>

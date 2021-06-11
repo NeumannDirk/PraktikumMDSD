@@ -26,8 +26,9 @@ main() {
 
 //++++++++++ EnvironmentViewType :: Simple -> PCMResourceEnvironment ++++++++++
 mapping SIMPLEDeployment::EnvironmentViewType::envvtMapping() : PCMResourceEnvironment::ResourceEnvironment@pRE{
-	result.resourceContainer_ResourceEnvironment := sEnv->objectsOfType(SIMPLEDeployment::Container)->collect(c | c->map containerMapping());	
-	result.linkingResources__ResourceEnvironment := sEnv->objectsOfType(SIMPLEDeployment::Link)->collect(l | l->map linkMapping());
+	result.entityName := "ResourceEnvironment";
+	result.resourceContainer_ResourceEnvironment := self.environmentElements->select(s|s.oclIsKindOf(SIMPLEDeployment::Container))->oclAsType(SIMPLEDeployment::Container) -> collect(c | c->map containerMapping());	
+	result.linkingResources__ResourceEnvironment := self.environmentElements->select(s|s.oclIsKindOf(SIMPLEDeployment::Link))->oclAsType(SIMPLEDeployment::Link) -> collect(c | c->map linkMapping());	
 }
 
 mapping SIMPLEDeployment::Link::linkMapping() : PCMResourceEnvironment::LinkingResource{
@@ -43,12 +44,10 @@ mapping SIMPLEDeployment::Container::containerMapping() : PCMResourceEnvironment
 //++++++++++ RepositoryViewType :: Simple -> PCMRepository ++++++++++
 mapping SIMPLESystemIndependent::RepositoryViewType::repvtMapping() : PCMRepository::Repository@pR{
 	init{
-		//AbstractRepositoryElement
-		var aRepElems = sRep.objectsOfType(SIMPLESystemIndependent::AbstractRepositoryElement);
 		//Component
-		var bCom = self.repositoryElements->selectByKind(SIMPLESystemIndependent::Component); //aRepElems -> select(s|s->oclIsTypeOf(SIMPLESystemIndependent::Component)->includes(true))->oclAsType(SIMPLESystemIndependent::Component);
+		var bCom = self.repositoryElements->selectByKind(SIMPLESystemIndependent::Component);
 		//CompositeComponent
-		var cCom =  self.repositoryElements->selectByKind(SIMPLESystemIndependent::CompositeComponent); //aRepElems -> select(s|s->oclIsTypeOf(SIMPLESystemIndependent::CompositeComponent)->includes(true))->oclAsType(SIMPLESystemIndependent::CompositeComponent);
+		var cCom =  self.repositoryElements->selectByKind(SIMPLESystemIndependent::CompositeComponent);
 	}	
 	result.entityName := 'Repository';
 	result.repositoryDescription := 'Description';
@@ -192,6 +191,7 @@ mapping SIMPLESystemIndependent::InternalAction::internalActionMapping() : PCMSE
 mapping SIMPLESystemIndependent::ExternalCall::externalCallMapping() : PCMSEFF::ExternalCallAction {
 	result.retryCount := 3;
 	result.calledService_ExternalService := self.signature.resolveone(PCMRepository::OperationSignature);
+	//self.behaviourDescription.service.component.requiredInterfaces -> select(s|s.signatures -> includes(self.signature))
 	//TODO: Interface role
 }
 
@@ -279,7 +279,7 @@ mapping SIMPLESystemIndependent::Type::primitiveTypeMapping() : PCMRepository::P
 mapping SIMPLEAssembly::AssemblyViewType::assvtMapping() : PCMSystem::System@pS{
 	//Main System/ Root System is always named 'Sys' (Convention) 
 	init{
-		var sys = sAss-> objectsOfType(SIMPLEAssembly::System) -> asSequence() -> first() -> select(it|it.name->includes('Sys'))->asSequence()->first();
+		var sys = self.systems-> select(it|it.name->includes('Sys'))->asSequence()->first();// sAss-> objectsOfType(SIMPLEAssembly::System) -> asSequence() -> first() -> select(it|it.name->includes('Sys'))->asSequence()->first();
 		var sysElements = sys -> collect(c|c.systemElements);
 		var assContexts = sysElements -> select(s|s->oclIsTypeOf(SIMPLEAssembly::AssemblyContext)->includes(true))->oclAsType(SIMPLEAssembly::AssemblyContext);
 		var assConnectors = sysElements -> select(s|s->oclIsTypeOf(SIMPLEAssembly::AbstractConnector)->includes(true))->oclAsType(SIMPLEAssembly::AbstractConnector); 	
@@ -346,12 +346,14 @@ when {self.role.parentRequirereeAssemblyContext->notEmpty()} {
 
 //++++++++++ AllocationViewType :: Simple -> PCMAllocation ++++++++++
 mapping SIMPLEDeployment::AllocationViewType::allvtMapping() : PCMAllocation::Allocation@pA{
-	result.allocationContexts_Allocation += sAll->objectsOfType(SIMPLEDeployment::AllocationContext)->collect(c | c->map allocationContextMapping());
+	result.entityName := "Allocation";
+	result.allocationContexts_Allocation += self.allocationContexts->collect(c | c->map allocationContextMapping());
 }
 
 mapping SIMPLEDeployment::AllocationContext::allocationContextMapping() : PCMAllocation::AllocationContext{
 	result.eventChannel__AllocationContext := null;
 	result.resourceContainer_AllocationContext := self.container -> resolveone(PCMResourceEnvironment::ResourceContainer);
-	result.assemblyContext_AllocationContext := self.assembly -> resolveone(PCMComposition::AssemblyContext);
+	result.assemblyContext_AllocationContext := self.assembly -> resolveone(PCMComposition::AssemblyContext);	
+	result.entityName := self.assembly.name.concat('_').concat(self.container.name); 
 }
 //---------- AllocationViewType :: Simple -> PCMAllocation ----------

@@ -1,0 +1,1303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trace:Trace xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:trace="http:///www.eclipse.org/m2m/qvt/operational/trace.ecore">
+  <traceRecords>
+    <mappingOperation name="envvtMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="EnvironmentViewType">
+        <value>
+          <modelElement href="../mediastore_environment.deploymentviewpoint#/"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="ResourceEnvironment">
+        <value>
+          <modelElement href="MainTransformation.resourceenvironment#/"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="containerMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="Container">
+        <value>
+          <modelElement href="../mediastore_environment.deploymentviewpoint#ApplicationServer"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="ResourceContainer">
+        <value>
+          <modelElement href="MainTransformation.resourceenvironment#_gZy4kMrCEeu1U_0GYdp5Gg"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="containerMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="Container">
+        <value>
+          <modelElement href="../mediastore_environment.deploymentviewpoint#DatabaseServer"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="ResourceContainer">
+        <value>
+          <modelElement href="MainTransformation.resourceenvironment#_gZzfoMrCEeu1U_0GYdp5Gg"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="linkMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="Link">
+        <value>
+          <modelElement href="../mediastore_environment.deploymentviewpoint#Network"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="LinkingResource">
+        <value>
+          <modelElement href="MainTransformation.resourceenvironment#_gZzfocrCEeu1U_0GYdp5Gg"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="repvtMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="RepositoryViewType">
+        <value>
+          <modelElement href="../mediastore.systemindependentviewpoint#/"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="Repository">
+        <value>
+          <modelElement href="MainTransformation.repository#_gZ0GsMrCEeu1U_0GYdp5Gg"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="primitiveDataTypeMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="Type">
+        <value primitiveValue="BOOLEAN"/>
+      </context>
+    </context>
+    <parameters>
+      <parameters name="rS" type="Set(DataType)">
+        <value collectionType="Set"/>
+      </parameters>
+    </parameters>
+    <result>
+      <result kind="OUT" name="result" type="PrimitiveDataType">
+        <value>
+          <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="basicDataTypeMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="Type">
+        <value primitiveValue="BOOLEAN"/>
+      </context>
+    </context>
+    <parameters>
+      <parameters name="rS" type="Set(DataType)">
+        <value collectionType="Set"/>
+      </parameters>
+    </parameters>
+    <result>
+      <result kind="OUT" name="result" type="DataType">
+        <value>
+          <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="primitiveDataTypeMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="Type">
+        <value primitiveValue="CHAR"/>
+      </context>
+    </context>
+    <parameters>
+      <parameters name="rS" type="Set(DataType)">
+        <value collectionType="Set">
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
+          </collection>
+        </value>
+      </parameters>
+    </parameters>
+    <result>
+      <result kind="OUT" name="result" type="PrimitiveDataType">
+        <value>
+          <modelElement href="MainTransformation.repository#//@dataTypes__Repository.1"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="basicDataTypeMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="Type">
+        <value primitiveValue="CHAR"/>
+      </context>
+    </context>
+    <parameters>
+      <parameters name="rS" type="Set(DataType)">
+        <value collectionType="Set">
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
+          </collection>
+        </value>
+      </parameters>
+    </parameters>
+    <result>
+      <result kind="OUT" name="result" type="DataType">
+        <value>
+          <modelElement href="MainTransformation.repository#//@dataTypes__Repository.1"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="primitiveDataTypeMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="Type">
+        <value primitiveValue="INT"/>
+      </context>
+    </context>
+    <parameters>
+      <parameters name="rS" type="Set(DataType)">
+        <value collectionType="Set">
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.1"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
+          </collection>
+        </value>
+      </parameters>
+    </parameters>
+    <result>
+      <result kind="OUT" name="result" type="PrimitiveDataType">
+        <value>
+          <modelElement href="MainTransformation.repository#//@dataTypes__Repository.2"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="basicDataTypeMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="Type">
+        <value primitiveValue="INT"/>
+      </context>
+    </context>
+    <parameters>
+      <parameters name="rS" type="Set(DataType)">
+        <value collectionType="Set">
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.1"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
+          </collection>
+        </value>
+      </parameters>
+    </parameters>
+    <result>
+      <result kind="OUT" name="result" type="DataType">
+        <value>
+          <modelElement href="MainTransformation.repository#//@dataTypes__Repository.2"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="primitiveDataTypeMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="Type">
+        <value primitiveValue="LONG"/>
+      </context>
+    </context>
+    <parameters>
+      <parameters name="rS" type="Set(DataType)">
+        <value collectionType="Set">
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.1"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.2"/>
+          </collection>
+        </value>
+      </parameters>
+    </parameters>
+    <result>
+      <result kind="OUT" name="result" type="PrimitiveDataType">
+        <value>
+          <modelElement href="MainTransformation.repository#//@dataTypes__Repository.3"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="basicDataTypeMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="Type">
+        <value primitiveValue="LONG"/>
+      </context>
+    </context>
+    <parameters>
+      <parameters name="rS" type="Set(DataType)">
+        <value collectionType="Set">
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.1"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.2"/>
+          </collection>
+        </value>
+      </parameters>
+    </parameters>
+    <result>
+      <result kind="OUT" name="result" type="DataType">
+        <value>
+          <modelElement href="MainTransformation.repository#//@dataTypes__Repository.3"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="primitiveDataTypeMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="Type">
+        <value primitiveValue="FLOAT"/>
+      </context>
+    </context>
+    <parameters>
+      <parameters name="rS" type="Set(DataType)">
+        <value collectionType="Set">
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.3"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.1"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.2"/>
+          </collection>
+        </value>
+      </parameters>
+    </parameters>
+    <result>
+      <result kind="OUT" name="result" type="PrimitiveDataType">
+        <value>
+          <modelElement href="MainTransformation.repository#//@dataTypes__Repository.4"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="basicDataTypeMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="Type">
+        <value primitiveValue="FLOAT"/>
+      </context>
+    </context>
+    <parameters>
+      <parameters name="rS" type="Set(DataType)">
+        <value collectionType="Set">
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.3"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.1"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.2"/>
+          </collection>
+        </value>
+      </parameters>
+    </parameters>
+    <result>
+      <result kind="OUT" name="result" type="DataType">
+        <value>
+          <modelElement href="MainTransformation.repository#//@dataTypes__Repository.4"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="primitiveDataTypeMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="Type">
+        <value primitiveValue="DOUBLE"/>
+      </context>
+    </context>
+    <parameters>
+      <parameters name="rS" type="Set(DataType)">
+        <value collectionType="Set">
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.3"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.1"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.4"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.2"/>
+          </collection>
+        </value>
+      </parameters>
+    </parameters>
+    <result>
+      <result kind="OUT" name="result" type="PrimitiveDataType">
+        <value>
+          <modelElement href="MainTransformation.repository#//@dataTypes__Repository.5"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="basicDataTypeMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="Type">
+        <value primitiveValue="DOUBLE"/>
+      </context>
+    </context>
+    <parameters>
+      <parameters name="rS" type="Set(DataType)">
+        <value collectionType="Set">
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.3"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.1"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.4"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.2"/>
+          </collection>
+        </value>
+      </parameters>
+    </parameters>
+    <result>
+      <result kind="OUT" name="result" type="DataType">
+        <value>
+          <modelElement href="MainTransformation.repository#//@dataTypes__Repository.5"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="primitiveDataTypeMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="Type">
+        <value primitiveValue="STRING"/>
+      </context>
+    </context>
+    <parameters>
+      <parameters name="rS" type="Set(DataType)">
+        <value collectionType="Set">
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.5"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.3"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.1"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.4"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.2"/>
+          </collection>
+        </value>
+      </parameters>
+    </parameters>
+    <result>
+      <result kind="OUT" name="result" type="PrimitiveDataType">
+        <value>
+          <modelElement href="MainTransformation.repository#//@dataTypes__Repository.6"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="basicDataTypeMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="Type">
+        <value primitiveValue="STRING"/>
+      </context>
+    </context>
+    <parameters>
+      <parameters name="rS" type="Set(DataType)">
+        <value collectionType="Set">
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.5"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.3"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.1"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.4"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.2"/>
+          </collection>
+        </value>
+      </parameters>
+    </parameters>
+    <result>
+      <result kind="OUT" name="result" type="DataType">
+        <value>
+          <modelElement href="MainTransformation.repository#//@dataTypes__Repository.6"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="compositeDataTypeMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="Type">
+        <value primitiveValue="DATE"/>
+      </context>
+    </context>
+    <parameters>
+      <parameters name="rS" type="Set(DataType)">
+        <value collectionType="Set">
+          <collection>
+            <modelElement href="MainTransformation.repository#_gZ2i8MrCEeu1U_0GYdp5Gg"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.5"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.3"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.1"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.4"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.2"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.6"/>
+          </collection>
+        </value>
+      </parameters>
+    </parameters>
+    <result>
+      <result kind="OUT" name="result" type="CompositeDataType">
+        <value>
+          <modelElement href="MainTransformation.repository#_gZ3KAMrCEeu1U_0GYdp5Gg"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="basicDataTypeMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="Type">
+        <value primitiveValue="DATE"/>
+      </context>
+    </context>
+    <parameters>
+      <parameters name="rS" type="Set(DataType)">
+        <value collectionType="Set">
+          <collection>
+            <modelElement href="MainTransformation.repository#_gZ2i8MrCEeu1U_0GYdp5Gg"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.5"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.3"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.1"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.4"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.2"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.6"/>
+          </collection>
+        </value>
+      </parameters>
+    </parameters>
+    <result>
+      <result kind="OUT" name="result" type="DataType">
+        <value>
+          <modelElement href="MainTransformation.repository#_gZ3KAMrCEeu1U_0GYdp5Gg"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="collectionDataTypeMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="Type">
+        <value primitiveValue="MAP"/>
+      </context>
+    </context>
+    <parameters>
+      <parameters name="rS" type="Set(DataType)">
+        <value collectionType="Set">
+          <collection>
+            <modelElement href="MainTransformation.repository#_gZ2i8MrCEeu1U_0GYdp5Gg"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.5"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.3"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.1"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.4"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.2"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.6"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#_gZ3KAMrCEeu1U_0GYdp5Gg"/>
+          </collection>
+        </value>
+      </parameters>
+    </parameters>
+    <result>
+      <result kind="OUT" name="result" type="CollectionDataType">
+        <value>
+          <modelElement href="MainTransformation.repository#_gZ3KAcrCEeu1U_0GYdp5Gg"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="basicDataTypeMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="Type">
+        <value primitiveValue="MAP"/>
+      </context>
+    </context>
+    <parameters>
+      <parameters name="rS" type="Set(DataType)">
+        <value collectionType="Set">
+          <collection>
+            <modelElement href="MainTransformation.repository#_gZ2i8MrCEeu1U_0GYdp5Gg"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.5"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.3"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.1"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.4"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.2"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.6"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#_gZ3KAMrCEeu1U_0GYdp5Gg"/>
+          </collection>
+        </value>
+      </parameters>
+    </parameters>
+    <result>
+      <result kind="OUT" name="result" type="DataType">
+        <value>
+          <modelElement href="MainTransformation.repository#_gZ3KAcrCEeu1U_0GYdp5Gg"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="collectionDataTypeMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="Type">
+        <value primitiveValue="LIST"/>
+      </context>
+    </context>
+    <parameters>
+      <parameters name="rS" type="Set(DataType)">
+        <value collectionType="Set">
+          <collection>
+            <modelElement href="MainTransformation.repository#_gZ2i8MrCEeu1U_0GYdp5Gg"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.5"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.3"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.1"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.4"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.2"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.6"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#_gZ3KAMrCEeu1U_0GYdp5Gg"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#_gZ3KAcrCEeu1U_0GYdp5Gg"/>
+          </collection>
+        </value>
+      </parameters>
+    </parameters>
+    <result>
+      <result kind="OUT" name="result" type="CollectionDataType">
+        <value>
+          <modelElement href="MainTransformation.repository#_gZ3xEMrCEeu1U_0GYdp5Gg"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="basicDataTypeMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="Type">
+        <value primitiveValue="LIST"/>
+      </context>
+    </context>
+    <parameters>
+      <parameters name="rS" type="Set(DataType)">
+        <value collectionType="Set">
+          <collection>
+            <modelElement href="MainTransformation.repository#_gZ2i8MrCEeu1U_0GYdp5Gg"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.5"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.3"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.1"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.4"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.2"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.6"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#_gZ3KAMrCEeu1U_0GYdp5Gg"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#_gZ3KAcrCEeu1U_0GYdp5Gg"/>
+          </collection>
+        </value>
+      </parameters>
+    </parameters>
+    <result>
+      <result kind="OUT" name="result" type="DataType">
+        <value>
+          <modelElement href="MainTransformation.repository#_gZ3xEMrCEeu1U_0GYdp5Gg"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="interfaceMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="Interface">
+        <value>
+          <modelElement href="../mediastore.systemindependentviewpoint#HTTP"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="OperationInterface">
+        <value>
+          <modelElement href="MainTransformation.repository#_gZ4YIMrCEeu1U_0GYdp5Gg"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="signatureMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="Signature">
+        <value>
+          <modelElement href="../mediastore.systemindependentviewpoint#HTTPDownload"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="OperationSignature">
+        <value>
+          <modelElement href="MainTransformation.repository#_gZ4YIcrCEeu1U_0GYdp5Gg"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="signatureMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="Signature">
+        <value>
+          <modelElement href="../mediastore.systemindependentviewpoint#HTTPUpload"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="OperationSignature">
+        <value>
+          <modelElement href="MainTransformation.repository#_gZ4YIsrCEeu1U_0GYdp5Gg"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="interfaceMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="Interface">
+        <value>
+          <modelElement href="../mediastore.systemindependentviewpoint#IMediaStore"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="OperationInterface">
+        <value>
+          <modelElement href="MainTransformation.repository#_gZ4YI8rCEeu1U_0GYdp5Gg"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="signatureMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="Signature">
+        <value>
+          <modelElement href="../mediastore.systemindependentviewpoint#download"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="OperationSignature">
+        <value>
+          <modelElement href="MainTransformation.repository#_gZ4_MMrCEeu1U_0GYdp5Gg"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="signatureMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="Signature">
+        <value>
+          <modelElement href="../mediastore.systemindependentviewpoint#upload"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="OperationSignature">
+        <value>
+          <modelElement href="MainTransformation.repository#_gZ4_McrCEeu1U_0GYdp5Gg"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="interfaceMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="Interface">
+        <value>
+          <modelElement href="../mediastore.systemindependentviewpoint#Sound"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="OperationInterface">
+        <value>
+          <modelElement href="MainTransformation.repository#_gZ4_MsrCEeu1U_0GYdp5Gg"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="signatureMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="Signature">
+        <value>
+          <modelElement href="../mediastore.systemindependentviewpoint#watermark"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="OperationSignature">
+        <value>
+          <modelElement href="MainTransformation.repository#_gZ4_M8rCEeu1U_0GYdp5Gg"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="interfaceMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="Interface">
+        <value>
+          <modelElement href="../mediastore.systemindependentviewpoint#AudioDB"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="OperationInterface">
+        <value>
+          <modelElement href="MainTransformation.repository#_gZ4_NMrCEeu1U_0GYdp5Gg"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="signatureMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="Signature">
+        <value>
+          <modelElement href="../mediastore.systemindependentviewpoint#addFile"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="OperationSignature">
+        <value>
+          <modelElement href="MainTransformation.repository#_gZ4_NcrCEeu1U_0GYdp5Gg"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="signatureMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="Signature">
+        <value>
+          <modelElement href="../mediastore.systemindependentviewpoint#queryDB"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="OperationSignature">
+        <value>
+          <modelElement href="MainTransformation.repository#_gZ4_NsrCEeu1U_0GYdp5Gg"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="basicComponentMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="Component">
+        <value>
+          <modelElement href="../mediastore.systemindependentviewpoint#PoolingAudioDB"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="BasicComponent">
+        <value>
+          <modelElement href="MainTransformation.repository#_gZ5mQMrCEeu1U_0GYdp5Gg"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="basicComponentMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="Component">
+        <value>
+          <modelElement href="../mediastore.systemindependentviewpoint#DigitalWatermarking"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="BasicComponent">
+        <value>
+          <modelElement href="MainTransformation.repository#_gZ5mQsrCEeu1U_0GYdp5Gg"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="basicComponentMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="Component">
+        <value>
+          <modelElement href="../mediastore.systemindependentviewpoint#DBCache"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="BasicComponent">
+        <value>
+          <modelElement href="MainTransformation.repository#_gZ5mRMrCEeu1U_0GYdp5Gg"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="basicComponentMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="Component">
+        <value>
+          <modelElement href="../mediastore.systemindependentviewpoint#MediaManager"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="BasicComponent">
+        <value>
+          <modelElement href="MainTransformation.repository#_gZ6NUcrCEeu1U_0GYdp5Gg"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="basicComponentMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="Component">
+        <value>
+          <modelElement href="../mediastore.systemindependentviewpoint#WebGUI"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="BasicComponent">
+        <value>
+          <modelElement href="MainTransformation.repository#_gZ6NVcrCEeu1U_0GYdp5Gg"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="compositeComponentMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="CompositeComponent">
+        <value>
+          <modelElement href="../mediastore.systemindependentviewpoint#MediaStore"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="CompositeComponent">
+        <value>
+          <modelElement href="MainTransformation.repository#_gZ60YMrCEeu1U_0GYdp5Gg"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="assemblyContextMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="AssemblyContext">
+        <value>
+          <modelElement href="../mediastore.assemblyviewpoint#MediaManagerAC"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="AssemblyContext">
+        <value>
+          <modelElement href="MainTransformation.repository#_gZ7bcMrCEeu1U_0GYdp5Gg"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="assemblyContextMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="AssemblyContext">
+        <value>
+          <modelElement href="../mediastore.assemblyviewpoint#DBCacheAC"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="AssemblyContext">
+        <value>
+          <modelElement href="MainTransformation.repository#_gZ7bccrCEeu1U_0GYdp5Gg"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="assemblyContextMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="AssemblyContext">
+        <value>
+          <modelElement href="../mediastore.assemblyviewpoint#DigitalWatermarkingAC"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="AssemblyContext">
+        <value>
+          <modelElement href="MainTransformation.repository#_gZ7bcsrCEeu1U_0GYdp5Gg"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="assvtMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="AssemblyViewType">
+        <value>
+          <modelElement href="../mediastore.assemblyviewpoint#/"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="System">
+        <value>
+          <modelElement href="MainTransformation.system#_gZ8CgMrCEeu1U_0GYdp5Gg"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="assemblyContextMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="AssemblyContext">
+        <value>
+          <modelElement href="../mediastore.assemblyviewpoint#MediaStoreAC"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="AssemblyContext">
+        <value>
+          <modelElement href="MainTransformation.system#_gZ8pkcrCEeu1U_0GYdp5Gg"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="assemblyContextMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="AssemblyContext">
+        <value>
+          <modelElement href="../mediastore.assemblyviewpoint#PoolingAudioDBAC"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="AssemblyContext">
+        <value>
+          <modelElement href="MainTransformation.system#_gZ9QoMrCEeu1U_0GYdp5Gg"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="assemblyContextMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="AssemblyContext">
+        <value>
+          <modelElement href="../mediastore.assemblyviewpoint#WebGUIAC"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="AssemblyContext">
+        <value>
+          <modelElement href="MainTransformation.system#_gZ9QocrCEeu1U_0GYdp5Gg"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="allvtMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="AllocationViewType">
+        <value>
+          <modelElement href="../mediastore_allocation.deploymentviewpoint#/"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="Allocation">
+        <value>
+          <modelElement href="MainTransformation.allocation#_gZ93sMrCEeu1U_0GYdp5Gg"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="allocationContextMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="AllocationContext">
+        <value>
+          <modelElement href="../mediastore_allocation.deploymentviewpoint#//@allocationContexts.0"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="AllocationContext">
+        <value>
+          <modelElement href="MainTransformation.allocation#_gZ93scrCEeu1U_0GYdp5Gg"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="allocationContextMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="AllocationContext">
+        <value>
+          <modelElement href="../mediastore_allocation.deploymentviewpoint#//@allocationContexts.1"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="AllocationContext">
+        <value>
+          <modelElement href="MainTransformation.allocation#_gZ93ssrCEeu1U_0GYdp5Gg"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="allocationContextMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="AllocationContext">
+        <value>
+          <modelElement href="../mediastore_allocation.deploymentviewpoint#//@allocationContexts.2"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="AllocationContext">
+        <value>
+          <modelElement href="MainTransformation.allocation#_gZ-ewMrCEeu1U_0GYdp5Gg"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+</trace:Trace>
