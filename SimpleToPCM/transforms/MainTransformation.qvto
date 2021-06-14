@@ -49,15 +49,8 @@ mapping SIMPLEDeployment::Container::containerMapping() : PCMResourceEnvironment
 
 //++++++++++ RepositoryViewType :: Simple -> PCMRepository ++++++++++
 mapping SIMPLESystemIndependent::RepositoryViewType::repvtMapping() : PCMRepository::Repository@pR{
-	init{
-		//Component
-		var bCom = self.repositoryElements->selectByKind(SIMPLESystemIndependent::Component);
-		//CompositeComponent
-		var cCom =  self.repositoryElements->selectByKind(SIMPLESystemIndependent::CompositeComponent);
-	}	
 	result.entityName := 'Repository';
 	result.repositoryDescription := 'Description';
-		
 	result.dataTypes__Repository += SIMPLESystemIndependent::Type::BOOLEAN.map basicDataTypeMapping(result.dataTypes__Repository);
 	result.dataTypes__Repository += SIMPLESystemIndependent::Type::CHAR.map basicDataTypeMapping(result.dataTypes__Repository);
 	result.dataTypes__Repository += SIMPLESystemIndependent::Type::INT.map basicDataTypeMapping(result.dataTypes__Repository);
@@ -82,8 +75,7 @@ mapping SIMPLESystemIndependent::RepositoryViewType::repvtMapping() : PCMReposit
 	result.dataTypes__Repository += SIMPLESystemIndependent::Type::MAP.map basicDataTypeMapping(result.dataTypes__Repository);
 	result.dataTypes__Repository += SIMPLESystemIndependent::Type::LIST.map basicDataTypeMapping(result.dataTypes__Repository);
 	result.interfaces__Repository := self.repositoryElements->select(it| it.oclIsKindOf(SIMPLESystemIndependent::Interface))->collect(it|it.oclAsType(SIMPLESystemIndependent::Interface)) -> collect(c|c->map interfaceMapping());
-	result.components__Repository += bCom -> collect(c|c->map basicComponentMapping());
-	result.components__Repository += cCom -> collect(c|c->map compositeComponentMapping());
+	result.components__Repository := self.repositoryElements->selectByKind(SIMPLESystemIndependent::AbstractComponent) -> collect(c|c->map abstractComponentMapping());
 	//Presentation purpose
 	//result.failureTypes do not exist in SimplePalladio
 	//primitive Datatype
@@ -116,6 +108,9 @@ mapping SIMPLESystemIndependent::RepositoryViewType::repvtMapping() : PCMReposit
 //	};
 	//VOID does not exist explicitly in PCM represantation.
 }
+
+abstract mapping SIMPLESystemIndependent::AbstractComponent::abstractComponentMapping() : PCMRepository::RepositoryComponent
+disjuncts  SIMPLESystemIndependent::Component::basicComponentMapping, SIMPLESystemIndependent::CompositeComponent::compositeComponentMapping {}
 
 mapping SIMPLESystemIndependent::Type::basicDataTypeMapping(in rS:Set(PCMRepository::DataType)) : PCMRepository::DataType 
 disjuncts SIMPLESystemIndependent::Type::primitiveDataTypeMapping, SIMPLESystemIndependent::Type::collectionDataTypeMapping, SIMPLESystemIndependent::Type::compositeDataTypeMapping{}
@@ -206,7 +201,7 @@ mapping SIMPLESystemIndependent::ExternalCall::externalCallMapping() : PCMSEFF::
 		 * to Signatures so that no two interfaces can refer to the same signatur. 
 		 */
 		interface := selfComponent.requiredInterfaces -> select(s|s.signatures -> includes(self.signature))->first();
-	}.resolveone(PCMRepository::OperationRequiredRole);
+	}.resolveReqRole();
 }
 
 mapping SIMPLESystemIndependent::Loop::loopMapping() : PCMSEFF::LoopAction {
@@ -230,7 +225,6 @@ mapping SIMPLESystemIndependent::CompositeComponent::compositeComponentMapping()
 		var sys := self.system;
 		var assContexts = sys.systemElements -> select(s|s.oclIsKindOf(SIMPLEAssembly::AssemblyContext))->oclAsType(SIMPLEAssembly::AssemblyContext);
 		var assConnectors = sys.systemElements -> select(s|s.oclIsKindOf(SIMPLEAssembly::AbstractConnector))->oclAsType(SIMPLEAssembly::AbstractConnector);
-		log('assConnectors->size().toString() ' + assConnectors->size().toString());
 	}
 	result.entityName := self.name;	
 	result.providedRoles_InterfaceProvidingEntity := self.providedInterfaces->
@@ -304,7 +298,7 @@ mapping SIMPLEAssembly::AssemblyContext::assemblyContextMapping() : PCMCompositi
 }
 
 mapping SIMPLEAssembly::AbstractConnector::abstractConnectorMapping() : PCMComposition::Connector 
-disjuncts SIMPLEAssembly::AssemblyConnector::assemblyConnectorMapping{}//, SIMPLEAssembly::DelegationConnector::provDelegationConnectorMapping, SIMPLEAssembly::DelegationConnector::reqDelegationConnectorMapping {}
+disjuncts SIMPLEAssembly::AssemblyConnector::assemblyConnectorMapping, SIMPLEAssembly::DelegationConnector::provDelegationConnectorMapping, SIMPLEAssembly::DelegationConnector::reqDelegationConnectorMapping {}
 
 
 
@@ -315,38 +309,41 @@ mapping SIMPLEAssembly::AssemblyConnector::assemblyConnectorMapping() : PCMCompo
 	result.requiredRole_AssemblyConnector := object TRole{ 
 		communicator := self.requiredRole.parentRequirereeAssemblyContext.component;
 		interface := self.requiredRole.interface;
-	}.resolveone(PCMRepository::OperationRequiredRole);
+	}.resolveReqRole();
 	result.providedRole_AssemblyConnector := object TRole{ 
 		communicator := self.providedRole.parentProviderAssemblyContext.component;
 		interface := self.providedRole.interface;
-	}.resolveone(PCMRepository::OperationProvidedRole);
+	}.resolveProvRole();
 }
 
 mapping SIMPLEAssembly::DelegationConnector::provDelegationConnectorMapping() : PCMComposition::ProvidedDelegationConnector 
 when {self.role.parentProviderAssemblyContext->notEmpty()} {
+	log('Hello here in provDelegationConnectorMapping()');
+	//log('assConnectors->size().toString() ' + assConnectors->size().toString());
 	result.entityName := self.name;
 	result.assemblyContext_ProvidedDelegationConnector := self.role.parentProviderAssemblyContext.resolveone(PCMComposition::AssemblyContext);
 	result.innerProvidedRole_ProvidedDelegationConnector := object TRole{ 
 		communicator := self.role.parentProviderAssemblyContext.component;
 		interface := self.role.interface;
-	}.map provRoleMapping();	
+	}.resolveProvRole();	
 	result.outerProvidedRole_ProvidedDelegationConnector := object TRole{ 
 		communicator := self.system;
 		interface := self.interface;
-	}.map provRoleMapping();	
+	}.resolveProvRole();	
 }
 mapping SIMPLEAssembly::DelegationConnector::reqDelegationConnectorMapping() : PCMComposition::RequiredDelegationConnector 
 when {self.role.parentRequirereeAssemblyContext->notEmpty()} {
+	log('Hello here in reqDelegationConnectorMapping()');
 	result.entityName := self.name;
 	result.assemblyContext_RequiredDelegationConnector := self.role.parentRequirereeAssemblyContext.resolveone(PCMComposition::AssemblyContext);
 	result.innerRequiredRole_RequiredDelegationConnector := object TRole{ 
 		communicator := self.role.parentRequirereeAssemblyContext.component;
 		interface := self.role.interface;
-	}.map reqRoleMapping();
+	}.resolveReqRole();
 	result.outerRequiredRole_RequiredDelegationConnector := object TRole{ 
 		communicator := self.system;
 		interface := self.interface;
-	}.map reqRoleMapping();
+	}.resolveReqRole();
 }
 
 mapping TRole::provRoleMapping() : PCMRepository::OperationProvidedRole{
@@ -364,6 +361,46 @@ mapping TRole::reqRoleMapping() : PCMRepository::OperationRequiredRole{
 	result.entityName := x.name.concat('_').concat(self.interface.name).concat('_requiree');
 	result.requiredInterface__OperationRequiredRole := self.interface.resolveone(PCMRepository::OperationInterface);
 }
+
+
+query TRole::resolveProvRole() : PCMRepository::OperationProvidedRole{
+	if(self.communicator.oclIsKindOf(SIMPLESystemIndependent::AbstractComponent))
+	then{
+		var pcmCom := self.communicator.oclAsType(SIMPLESystemIndependent::AbstractComponent).resolveone(PCMRepository::RepositoryComponent);		
+		var setRol := pcmCom.providedRoles_InterfaceProvidingEntity; 	
+		var pcmInt := self.interface.resolveone(PCMRepository::OperationInterface);
+		var role := setRol->oclAsType(PCMRepository::OperationProvidedRole)->select(s|s.providedInterface__OperationProvidedRole = pcmInt)->asSequence()->first();
+		return role;
+	}
+	else {
+		var pcmSys := self.communicator.oclAsType(SIMPLEAssembly::System).resolveone(PCMSystem::System);		
+		var setRol := pcmSys.providedRoles_InterfaceProvidingEntity; 	
+		var pcmInt := self.interface.resolveone(PCMRepository::OperationInterface);
+		var role := setRol->oclAsType(PCMRepository::OperationProvidedRole)->select(s|s.providedInterface__OperationProvidedRole = pcmInt)->asSequence()->first();
+		return role;
+	}
+	endif
+} 
+
+query TRole::resolveReqRole() : PCMRepository::OperationRequiredRole{
+	if(self.communicator.oclIsKindOf(SIMPLESystemIndependent::AbstractComponent))
+	then{
+		var pcmCom := self.communicator.oclAsType(SIMPLESystemIndependent::AbstractComponent).resolveone(PCMRepository::RepositoryComponent);		
+		var setRol := pcmCom.requiredRoles_InterfaceRequiringEntity; 	
+		var pcmInt := self.interface.resolveone(PCMRepository::OperationInterface);
+		var role := setRol->oclAsType(PCMRepository::OperationRequiredRole)->select(s|s.requiredInterface__OperationRequiredRole = pcmInt)->asSequence()->first();
+		return role;
+	}
+	else {
+		var pcmSys := self.communicator.oclAsType(SIMPLEAssembly::System).resolveone(PCMSystem::System);		
+		var setRol := pcmSys.requiredRoles_InterfaceRequiringEntity; 	
+		var pcmInt := self.interface.resolveone(PCMRepository::OperationInterface);
+		var role := setRol->oclAsType(PCMRepository::OperationRequiredRole)->select(s|s.requiredInterface__OperationRequiredRole = pcmInt)->asSequence()->first();
+		return role;
+	}
+	endif
+}
+
 //---------- AssemblyViewType :: Simple -> PCMSystem ----------
 
 
