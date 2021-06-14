@@ -1,0 +1,37 @@
+module repository.RepositoryGenerator
+
+import org.eclipse.emf.mwe.utils.*
+
+var targetDir = "src-gen"
+var modelPath = "model"
+
+Workflow {
+
+	bean = StandaloneSetup {
+        registerGeneratedEPackage = "simplePalladio.SystemIndependentViewPoint.SystemIndependentViewPointPackage"
+    }
+    
+    component = DirectoryCleaner {
+        directory = targetDir
+    }
+    
+ 	component = repository.RepositoryGeneratorSupport {}
+      
+    component = org.eclipse.xtext.mwe.Reader {
+    	path = modelPath
+        register = repository.RepositoryGeneratorSetup {}
+        loadResource = {
+            slot = "model"
+		}
+	}
+	
+	component = org.eclipse.xtext.generator.GeneratorComponent {
+        register = repository.RepositoryGeneratorSetup {}
+        slot = 'model'
+        outlet = {
+            path = targetDir
+        }
+    }	
+ 
+	
+}
