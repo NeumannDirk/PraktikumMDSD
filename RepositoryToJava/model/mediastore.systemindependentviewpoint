@@ -1,10 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SystemIndependentViewPoint:RepositoryViewType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:AssemblyViewPoint="http://www.example.org/simplePalladio/AssemblyViewPoint" xmlns:SystemIndependentViewPoint="http://www.example.org/simplePalladio/SystemIndependentViewPoint">
-  <repositoryElements xsi:type="SystemIndependentViewPoint:Component" name="PoolingAudioDB" providedInterfaces="AudioDB"/>
-  <repositoryElements xsi:type="SystemIndependentViewPoint:Component" name="DigitalWatermarking" providedInterfaces="Sound"/>
-  <repositoryElements xsi:type="SystemIndependentViewPoint:Component" name="DBCache" requiredInterfaces="AudioDB" providedInterfaces="AudioDB"/>
-  <repositoryElements xsi:type="SystemIndependentViewPoint:Component" name="MediaManager" requiredInterfaces="Sound AudioDB" providedInterfaces="IMediaStore"/>
-  <repositoryElements xsi:type="SystemIndependentViewPoint:Component" name="WebGUI" requiredInterfaces="IMediaStore" providedInterfaces="HTTP"/>
+  <repositoryElements xsi:type="SystemIndependentViewPoint:Component" name="PoolingAudioDB" providedInterfaces="AudioDB">
+    <services signature="addFile">
+      <behaviourDescription/>
+    </services>
+  </repositoryElements>
+  <repositoryElements xsi:type="SystemIndependentViewPoint:Component" name="DigitalWatermarking" providedInterfaces="Sound">
+    <services signature="watermark">
+      <behaviourDescription/>
+    </services>
+  </repositoryElements>
+  <repositoryElements xsi:type="SystemIndependentViewPoint:Component" name="DBCache" requiredInterfaces="AudioDB" providedInterfaces="AudioDB">
+    <services signature="addFile">
+      <behaviourDescription/>
+    </services>
+  </repositoryElements>
+  <repositoryElements xsi:type="SystemIndependentViewPoint:Component" name="MediaManager" requiredInterfaces="Sound AudioDB" providedInterfaces="IMediaStore">
+    <services signature="download">
+      <behaviourDescription/>
+    </services>
+  </repositoryElements>
+  <repositoryElements xsi:type="SystemIndependentViewPoint:Component" name="WebGUI" requiredInterfaces="IMediaStore" providedInterfaces="HTTP">
+    <services signature="HTTPDownload">
+      <behaviourDescription/>
+    </services>
+  </repositoryElements>
   <repositoryElements xsi:type="SystemIndependentViewPoint:Interface" name="HTTP" signatures="HTTPDownload HTTPUpload">
     <parentProviderCommunicator xsi:type="SystemIndependentViewPoint:Component" href="#WebGUI"/>
     <parentProviderCommunicator xsi:type="AssemblyViewPoint:System" href="mediastore.assemblyviewpoint#Sys"/>

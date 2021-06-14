@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Active Annotations Example
-Bundle-SymbolicName: RepositoryToJava
+Bundle-SymbolicName: RepositoryToJava;singleton:=true
 Bundle-Version: 2.24.0.qualifier
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Require-Bundle: org.eclipse.xtend.lib,
@@ -10,18 +10,15 @@ Require-Bundle: org.eclipse.xtend.lib,
  org.junit;bundle-version="4.5.0",
  org.eclipse.xtend.core,
  org.eclipse.xtext,
- org.apache.log4j;bundle-version="1.2.15",
  org.eclipse.xtext.xbase.testing,
  org.eclipse.jdt.core,
  org.eclipse.emf.codegen;bundle-version="2.19.0",
  org.objectweb.asm;bundle-version="[9.0.0,9.1.0)";resolution:=optional,
  org.eclipse.equinox.common,
  org.eclipse.emf.mwe2.launch;bundle-version="2.12.0",
- SimplePalladio;bundle-version="0.1.0"
-Export-Package: extract,
- i18n,
- lazy,
- observables
+ SimplePalladio;bundle-version="0.1.0",
+ org.apache.commons.logging;bundle-version="1.2.0",
+ org.apache.log4j;bundle-version="1.2.15"
 Bundle-Vendor: Eclipse Xtext
 Automatic-Module-Name: xtend-annotation-examples
 

@@ -31,7 +31,5 @@ Workflow {
         outlet = {
             path = targetDir
         }
-    }	
- 
-	
+    }
 }

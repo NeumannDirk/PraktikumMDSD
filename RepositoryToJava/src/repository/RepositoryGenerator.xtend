@@ -8,27 +8,24 @@ import simplePalladio.SystemIndependentViewPoint.RepositoryViewType
 import simplePalladio.SystemIndependentViewPoint.Interface
 import simplePalladio.SystemIndependentViewPoint.AbstractRepositoryElement
 
-class RepositoryGenerator implements IGenerator {
-	
-	override void doGenerate(Resource resource, IFileSystemAccess fsa) {}
-	
-	/** override void doGenerate(Resource resource, IFileSystemAccess fsa) {
-            (resource.contents.head as RepositoryViewType).generate(fsa)
+public class RepositoryGenerator implements IGenerator {	
+	override void doGenerate(Resource resource, IFileSystemAccess fsa) {
+//            (resource.contents.head as RepositoryViewType).generate(fsa)
     }
  
     def dispatch void generate (RepositoryViewType r, IFileSystemAccess fsa) {
-        for (AbstractRepositoryElement aRE : r.repositoryElements) {
-            aRE.generate(fsa)
-        }
+//        for (AbstractRepositoryElement aRE : r.repositoryElements) {
+//            aRE.generate(fsa)
+//        }
     }
  
-    def generate(Interface i, IFileSystemAccess fsa) {
-        fsa.generateFile(i.name+".java", '''
-        public interface «i.name» {
-        	dskjlaaö
-        }
-        ''')
+    def dispatch void generate(Interface i, IFileSystemAccess fsa) {
+//        fsa.generateFile(i.name+".java", '''
+//        public interface «i.name» {
+//        	dskjlaaö
+//        }
+//        ''')
     }
     
-    def dispatch void generate(AbstractRepositoryElement aRE, IFileSystemAccess fsa) {} **/
+    def dispatch void generate(AbstractRepositoryElement aRE, IFileSystemAccess fsa) {} 
 }
