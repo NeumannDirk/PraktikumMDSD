@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resourceenvironment:ResourceEnvironment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:resourceenvironment="http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.2" xsi:schemaLocation="http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.2 http://palladiosimulator.org/PalladioComponentModel/5.2#//resourceenvironment" entityName="ResourceEnvironment">
-  <linkingResources__ResourceEnvironment id="_gZzfocrCEeu1U_0GYdp5Gg" entityName="Network" connectedResourceContainers_LinkingResource="_gZzfoMrCEeu1U_0GYdp5Gg _gZy4kMrCEeu1U_0GYdp5Gg"/>
-  <resourceContainer_ResourceEnvironment id="_gZzfoMrCEeu1U_0GYdp5Gg" entityName="DatabaseServer"/>
-  <resourceContainer_ResourceEnvironment id="_gZy4kMrCEeu1U_0GYdp5Gg" entityName="ApplicationServer"/>
+  <linkingResources__ResourceEnvironment id="_ods-Mc3vEeu34am2l395fA" entityName="Network" connectedResourceContainers_LinkingResource="_ods-MM3vEeu34am2l395fA _odsXIM3vEeu34am2l395fA"/>
+  <resourceContainer_ResourceEnvironment id="_ods-MM3vEeu34am2l395fA" entityName="DatabaseServer"/>
+  <resourceContainer_ResourceEnvironment id="_odsXIM3vEeu34am2l395fA" entityName="ApplicationServer"/>
 </resourceenvironment:ResourceEnvironment>

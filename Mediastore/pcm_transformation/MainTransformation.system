@@ -1,15 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<system:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.2" xsi:schemaLocation="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2 http://palladiosimulator.org/PalladioComponentModel/5.2#//repository http://palladiosimulator.org/PalladioComponentModel/System/5.2 http://palladiosimulator.org/PalladioComponentModel/5.2#//system" id="_gZ8CgMrCEeu1U_0GYdp5Gg" entityName="Sys">
-  <assemblyContexts__ComposedStructure id="_gZ8pkcrCEeu1U_0GYdp5Gg" entityName="MediaStoreAC">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="MainTransformation.repository#_gZ60YMrCEeu1U_0GYdp5Gg"/>
+<system:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.2" xsi:schemaLocation="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2 http://palladiosimulator.org/PalladioComponentModel/5.2#//core/composition http://palladiosimulator.org/PalladioComponentModel/Repository/5.2 http://palladiosimulator.org/PalladioComponentModel/5.2#//repository http://palladiosimulator.org/PalladioComponentModel/System/5.2 http://palladiosimulator.org/PalladioComponentModel/5.2#//system" id="_od8OwM3vEeu34am2l395fA" entityName="Sys">
+  <assemblyContexts__ComposedStructure id="_od810c3vEeu34am2l395fA" entityName="PoolingAudioDBAC">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="MainTransformation.repository#_odydwc3vEeu34am2l395fA"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_gZ9QoMrCEeu1U_0GYdp5Gg" entityName="PoolingAudioDBAC">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="MainTransformation.repository#_gZ5mQMrCEeu1U_0GYdp5Gg"/>
+  <assemblyContexts__ComposedStructure id="_od9c4M3vEeu34am2l395fA" entityName="WebGUIAC">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="MainTransformation.repository#_od06As3vEeu34am2l395fA"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_gZ9QocrCEeu1U_0GYdp5Gg" entityName="WebGUIAC">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="MainTransformation.repository#_gZ6NVcrCEeu1U_0GYdp5Gg"/>
+  <assemblyContexts__ComposedStructure id="_od810s3vEeu34am2l395fA" entityName="MediaStoreAC">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="MainTransformation.repository#_od2IIM3vEeu34am2l395fA"/>
   </assemblyContexts__ComposedStructure>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_gZ8pkMrCEeu1U_0GYdp5Gg" entityName="Sys_HTTP_1_provider">
-    <providedInterface__OperationProvidedRole href="MainTransformation.repository#_gZ4YIMrCEeu1U_0GYdp5Gg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_od-rAM3vEeu34am2l395fA" entityName="HTTP2WebGUIAC_HTTP" outerProvidedRole_ProvidedDelegationConnector="_od810M3vEeu34am2l395fA" assemblyContext_ProvidedDelegationConnector="_od9c4M3vEeu34am2l395fA">
+    <innerProvidedRole_ProvidedDelegationConnector href="MainTransformation.repository#_od1hEM3vEeu34am2l395fA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_od-D8M3vEeu34am2l395fA" entityName="WebGUIAC_IMediaStore2MediaStoreAC_IMediaStore" requiringAssemblyContext_AssemblyConnector="_od9c4M3vEeu34am2l395fA" providingAssemblyContext_AssemblyConnector="_od810s3vEeu34am2l395fA">
+    <providedRole_AssemblyConnector href="MainTransformation.repository#_od2vMM3vEeu34am2l395fA"/>
+    <requiredRole_AssemblyConnector href="MainTransformation.repository#_od1hEc3vEeu34am2l395fA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_od9c4c3vEeu34am2l395fA" entityName="MediaStoreAC_AudioDB2PoolingAudioDBAC_AudioDB" requiringAssemblyContext_AssemblyConnector="_od810s3vEeu34am2l395fA" providingAssemblyContext_AssemblyConnector="_od810c3vEeu34am2l395fA">
+    <providedRole_AssemblyConnector href="MainTransformation.repository#_odzE0M3vEeu34am2l395fA"/>
+    <requiredRole_AssemblyConnector href="MainTransformation.repository#_od2vMc3vEeu34am2l395fA"/>
+  </connectors__ComposedStructure>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_od810M3vEeu34am2l395fA" entityName="Sys_HTTP_provider">
+    <providedInterface__OperationProvidedRole href="MainTransformation.repository#_odwokM3vEeu34am2l395fA"/>
   </providedRoles_InterfaceProvidingEntity>
 </system:System>

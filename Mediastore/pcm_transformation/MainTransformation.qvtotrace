@@ -31,7 +31,7 @@
     <result>
       <result kind="OUT" name="result" type="ResourceContainer">
         <value>
-          <modelElement href="MainTransformation.resourceenvironment#_bSht4Mh_EeuMmYDMdwzgqA"/>
+          <modelElement href="MainTransformation.resourceenvironment#_odsXIM3vEeu34am2l395fA"/>
         </value>
       </result>
     </result>
@@ -49,7 +49,7 @@
     <result>
       <result kind="OUT" name="result" type="ResourceContainer">
         <value>
-          <modelElement href="MainTransformation.resourceenvironment#_bSht4ch_EeuMmYDMdwzgqA"/>
+          <modelElement href="MainTransformation.resourceenvironment#_ods-MM3vEeu34am2l395fA"/>
         </value>
       </result>
     </result>
@@ -67,7 +67,7 @@
     <result>
       <result kind="OUT" name="result" type="LinkingResource">
         <value>
-          <modelElement href="MainTransformation.resourceenvironment#_bSi8AMh_EeuMmYDMdwzgqA"/>
+          <modelElement href="MainTransformation.resourceenvironment#_ods-Mc3vEeu34am2l395fA"/>
         </value>
       </result>
     </result>
@@ -85,7 +85,7 @@
     <result>
       <result kind="OUT" name="result" type="Repository">
         <value>
-          <modelElement href="MainTransformation.repository#_bSkKIMh_EeuMmYDMdwzgqA"/>
+          <modelElement href="MainTransformation.repository#_ods-Ms3vEeu34am2l395fA"/>
         </value>
       </result>
     </result>
@@ -189,10 +189,10 @@
       <parameters name="rS" type="Set(DataType)">
         <value collectionType="Set">
           <collection>
-            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.1"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.1"/>
           </collection>
         </value>
       </parameters>
@@ -216,10 +216,10 @@
       <parameters name="rS" type="Set(DataType)">
         <value collectionType="Set">
           <collection>
-            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.1"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.1"/>
           </collection>
         </value>
       </parameters>
@@ -243,13 +243,13 @@
       <parameters name="rS" type="Set(DataType)">
         <value collectionType="Set">
           <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
+          </collection>
+          <collection>
             <modelElement href="MainTransformation.repository#//@dataTypes__Repository.2"/>
           </collection>
           <collection>
             <modelElement href="MainTransformation.repository#//@dataTypes__Repository.1"/>
-          </collection>
-          <collection>
-            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
           </collection>
         </value>
       </parameters>
@@ -273,13 +273,13 @@
       <parameters name="rS" type="Set(DataType)">
         <value collectionType="Set">
           <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
+          </collection>
+          <collection>
             <modelElement href="MainTransformation.repository#//@dataTypes__Repository.2"/>
           </collection>
           <collection>
             <modelElement href="MainTransformation.repository#//@dataTypes__Repository.1"/>
-          </collection>
-          <collection>
-            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
           </collection>
         </value>
       </parameters>
@@ -303,16 +303,16 @@
       <parameters name="rS" type="Set(DataType)">
         <value collectionType="Set">
           <collection>
-            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.3"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
           </collection>
           <collection>
             <modelElement href="MainTransformation.repository#//@dataTypes__Repository.2"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.1"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.3"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.1"/>
           </collection>
         </value>
       </parameters>
@@ -336,16 +336,16 @@
       <parameters name="rS" type="Set(DataType)">
         <value collectionType="Set">
           <collection>
-            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.3"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
           </collection>
           <collection>
             <modelElement href="MainTransformation.repository#//@dataTypes__Repository.2"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.1"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.3"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.1"/>
           </collection>
         </value>
       </parameters>
@@ -369,7 +369,7 @@
       <parameters name="rS" type="Set(DataType)">
         <value collectionType="Set">
           <collection>
-            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.3"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
           </collection>
           <collection>
             <modelElement href="MainTransformation.repository#//@dataTypes__Repository.4"/>
@@ -378,10 +378,10 @@
             <modelElement href="MainTransformation.repository#//@dataTypes__Repository.2"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.1"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.3"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.1"/>
           </collection>
         </value>
       </parameters>
@@ -405,7 +405,7 @@
       <parameters name="rS" type="Set(DataType)">
         <value collectionType="Set">
           <collection>
-            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.3"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
           </collection>
           <collection>
             <modelElement href="MainTransformation.repository#//@dataTypes__Repository.4"/>
@@ -414,10 +414,10 @@
             <modelElement href="MainTransformation.repository#//@dataTypes__Repository.2"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.1"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.3"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.1"/>
           </collection>
         </value>
       </parameters>
@@ -441,22 +441,22 @@
       <parameters name="rS" type="Set(DataType)">
         <value collectionType="Set">
           <collection>
-            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.3"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
           </collection>
           <collection>
             <modelElement href="MainTransformation.repository#//@dataTypes__Repository.4"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.5"/>
-          </collection>
-          <collection>
             <modelElement href="MainTransformation.repository#//@dataTypes__Repository.2"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.1"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.3"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.5"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.1"/>
           </collection>
         </value>
       </parameters>
@@ -480,22 +480,22 @@
       <parameters name="rS" type="Set(DataType)">
         <value collectionType="Set">
           <collection>
-            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.3"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
           </collection>
           <collection>
             <modelElement href="MainTransformation.repository#//@dataTypes__Repository.4"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.5"/>
-          </collection>
-          <collection>
             <modelElement href="MainTransformation.repository#//@dataTypes__Repository.2"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.1"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.3"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.5"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.1"/>
           </collection>
         </value>
       </parameters>
@@ -519,28 +519,28 @@
       <parameters name="rS" type="Set(DataType)">
         <value collectionType="Set">
           <collection>
-            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.3"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
           </collection>
           <collection>
             <modelElement href="MainTransformation.repository#//@dataTypes__Repository.4"/>
           </collection>
           <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.2"/>
+          </collection>
+          <collection>
             <modelElement href="MainTransformation.repository#//@dataTypes__Repository.6"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#_odvacM3vEeu34am2l395fA"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.3"/>
           </collection>
           <collection>
             <modelElement href="MainTransformation.repository#//@dataTypes__Repository.5"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.2"/>
-          </collection>
-          <collection>
-            <modelElement href="MainTransformation.repository#_bSppsMh_EeuMmYDMdwzgqA"/>
-          </collection>
-          <collection>
             <modelElement href="MainTransformation.repository#//@dataTypes__Repository.1"/>
-          </collection>
-          <collection>
-            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
           </collection>
         </value>
       </parameters>
@@ -548,7 +548,7 @@
     <result>
       <result kind="OUT" name="result" type="CompositeDataType">
         <value>
-          <modelElement href="MainTransformation.repository#_bSq30Mh_EeuMmYDMdwzgqA"/>
+          <modelElement href="MainTransformation.repository#_odvacc3vEeu34am2l395fA"/>
         </value>
       </result>
     </result>
@@ -564,28 +564,28 @@
       <parameters name="rS" type="Set(DataType)">
         <value collectionType="Set">
           <collection>
-            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.3"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
           </collection>
           <collection>
             <modelElement href="MainTransformation.repository#//@dataTypes__Repository.4"/>
           </collection>
           <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.2"/>
+          </collection>
+          <collection>
             <modelElement href="MainTransformation.repository#//@dataTypes__Repository.6"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#_odvacM3vEeu34am2l395fA"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.3"/>
           </collection>
           <collection>
             <modelElement href="MainTransformation.repository#//@dataTypes__Repository.5"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.2"/>
-          </collection>
-          <collection>
-            <modelElement href="MainTransformation.repository#_bSppsMh_EeuMmYDMdwzgqA"/>
-          </collection>
-          <collection>
             <modelElement href="MainTransformation.repository#//@dataTypes__Repository.1"/>
-          </collection>
-          <collection>
-            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
           </collection>
         </value>
       </parameters>
@@ -593,7 +593,7 @@
     <result>
       <result kind="OUT" name="result" type="DataType">
         <value>
-          <modelElement href="MainTransformation.repository#_bSq30Mh_EeuMmYDMdwzgqA"/>
+          <modelElement href="MainTransformation.repository#_odvacc3vEeu34am2l395fA"/>
         </value>
       </result>
     </result>
@@ -609,31 +609,31 @@
       <parameters name="rS" type="Set(DataType)">
         <value collectionType="Set">
           <collection>
-            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.3"/>
+            <modelElement href="MainTransformation.repository#_odvacc3vEeu34am2l395fA"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
           </collection>
           <collection>
             <modelElement href="MainTransformation.repository#//@dataTypes__Repository.4"/>
           </collection>
           <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.2"/>
+          </collection>
+          <collection>
             <modelElement href="MainTransformation.repository#//@dataTypes__Repository.6"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#_odvacM3vEeu34am2l395fA"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.3"/>
           </collection>
           <collection>
             <modelElement href="MainTransformation.repository#//@dataTypes__Repository.5"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.repository#_bSq30Mh_EeuMmYDMdwzgqA"/>
-          </collection>
-          <collection>
-            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.2"/>
-          </collection>
-          <collection>
-            <modelElement href="MainTransformation.repository#_bSppsMh_EeuMmYDMdwzgqA"/>
-          </collection>
-          <collection>
             <modelElement href="MainTransformation.repository#//@dataTypes__Repository.1"/>
-          </collection>
-          <collection>
-            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
           </collection>
         </value>
       </parameters>
@@ -641,7 +641,7 @@
     <result>
       <result kind="OUT" name="result" type="CollectionDataType">
         <value>
-          <modelElement href="MainTransformation.repository#_bSre4Mh_EeuMmYDMdwzgqA"/>
+          <modelElement href="MainTransformation.repository#_odwBgM3vEeu34am2l395fA"/>
         </value>
       </result>
     </result>
@@ -657,31 +657,31 @@
       <parameters name="rS" type="Set(DataType)">
         <value collectionType="Set">
           <collection>
-            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.3"/>
+            <modelElement href="MainTransformation.repository#_odvacc3vEeu34am2l395fA"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
           </collection>
           <collection>
             <modelElement href="MainTransformation.repository#//@dataTypes__Repository.4"/>
           </collection>
           <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.2"/>
+          </collection>
+          <collection>
             <modelElement href="MainTransformation.repository#//@dataTypes__Repository.6"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#_odvacM3vEeu34am2l395fA"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.3"/>
           </collection>
           <collection>
             <modelElement href="MainTransformation.repository#//@dataTypes__Repository.5"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.repository#_bSq30Mh_EeuMmYDMdwzgqA"/>
-          </collection>
-          <collection>
-            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.2"/>
-          </collection>
-          <collection>
-            <modelElement href="MainTransformation.repository#_bSppsMh_EeuMmYDMdwzgqA"/>
-          </collection>
-          <collection>
             <modelElement href="MainTransformation.repository#//@dataTypes__Repository.1"/>
-          </collection>
-          <collection>
-            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
           </collection>
         </value>
       </parameters>
@@ -689,7 +689,7 @@
     <result>
       <result kind="OUT" name="result" type="DataType">
         <value>
-          <modelElement href="MainTransformation.repository#_bSre4Mh_EeuMmYDMdwzgqA"/>
+          <modelElement href="MainTransformation.repository#_odwBgM3vEeu34am2l395fA"/>
         </value>
       </result>
     </result>
@@ -705,34 +705,34 @@
       <parameters name="rS" type="Set(DataType)">
         <value collectionType="Set">
           <collection>
-            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.3"/>
+            <modelElement href="MainTransformation.repository#_odvacc3vEeu34am2l395fA"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
           </collection>
           <collection>
             <modelElement href="MainTransformation.repository#//@dataTypes__Repository.4"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.6"/>
-          </collection>
-          <collection>
-            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.5"/>
-          </collection>
-          <collection>
-            <modelElement href="MainTransformation.repository#_bSq30Mh_EeuMmYDMdwzgqA"/>
+            <modelElement href="MainTransformation.repository#_odwBgM3vEeu34am2l395fA"/>
           </collection>
           <collection>
             <modelElement href="MainTransformation.repository#//@dataTypes__Repository.2"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.repository#_bSppsMh_EeuMmYDMdwzgqA"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.6"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.repository#_bSre4Mh_EeuMmYDMdwzgqA"/>
+            <modelElement href="MainTransformation.repository#_odvacM3vEeu34am2l395fA"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.3"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.5"/>
           </collection>
           <collection>
             <modelElement href="MainTransformation.repository#//@dataTypes__Repository.1"/>
-          </collection>
-          <collection>
-            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
           </collection>
         </value>
       </parameters>
@@ -740,7 +740,7 @@
     <result>
       <result kind="OUT" name="result" type="CollectionDataType">
         <value>
-          <modelElement href="MainTransformation.repository#_bSstAMh_EeuMmYDMdwzgqA"/>
+          <modelElement href="MainTransformation.repository#_odwBgc3vEeu34am2l395fA"/>
         </value>
       </result>
     </result>
@@ -756,34 +756,34 @@
       <parameters name="rS" type="Set(DataType)">
         <value collectionType="Set">
           <collection>
-            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.3"/>
+            <modelElement href="MainTransformation.repository#_odvacc3vEeu34am2l395fA"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
           </collection>
           <collection>
             <modelElement href="MainTransformation.repository#//@dataTypes__Repository.4"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.6"/>
-          </collection>
-          <collection>
-            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.5"/>
-          </collection>
-          <collection>
-            <modelElement href="MainTransformation.repository#_bSq30Mh_EeuMmYDMdwzgqA"/>
+            <modelElement href="MainTransformation.repository#_odwBgM3vEeu34am2l395fA"/>
           </collection>
           <collection>
             <modelElement href="MainTransformation.repository#//@dataTypes__Repository.2"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.repository#_bSppsMh_EeuMmYDMdwzgqA"/>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.6"/>
           </collection>
           <collection>
-            <modelElement href="MainTransformation.repository#_bSre4Mh_EeuMmYDMdwzgqA"/>
+            <modelElement href="MainTransformation.repository#_odvacM3vEeu34am2l395fA"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.3"/>
+          </collection>
+          <collection>
+            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.5"/>
           </collection>
           <collection>
             <modelElement href="MainTransformation.repository#//@dataTypes__Repository.1"/>
-          </collection>
-          <collection>
-            <modelElement href="MainTransformation.repository#//@dataTypes__Repository.0"/>
           </collection>
         </value>
       </parameters>
@@ -791,7 +791,7 @@
     <result>
       <result kind="OUT" name="result" type="DataType">
         <value>
-          <modelElement href="MainTransformation.repository#_bSstAMh_EeuMmYDMdwzgqA"/>
+          <modelElement href="MainTransformation.repository#_odwBgc3vEeu34am2l395fA"/>
         </value>
       </result>
     </result>
@@ -809,7 +809,7 @@
     <result>
       <result kind="OUT" name="result" type="OperationInterface">
         <value>
-          <modelElement href="MainTransformation.repository#_bSt7IMh_EeuMmYDMdwzgqA"/>
+          <modelElement href="MainTransformation.repository#_odwokM3vEeu34am2l395fA"/>
         </value>
       </result>
     </result>
@@ -827,7 +827,7 @@
     <result>
       <result kind="OUT" name="result" type="OperationSignature">
         <value>
-          <modelElement href="MainTransformation.repository#_bSuiMMh_EeuMmYDMdwzgqA"/>
+          <modelElement href="MainTransformation.repository#_odwokc3vEeu34am2l395fA"/>
         </value>
       </result>
     </result>
@@ -845,7 +845,7 @@
     <result>
       <result kind="OUT" name="result" type="OperationSignature">
         <value>
-          <modelElement href="MainTransformation.repository#_bSvJQMh_EeuMmYDMdwzgqA"/>
+          <modelElement href="MainTransformation.repository#_odxPoM3vEeu34am2l395fA"/>
         </value>
       </result>
     </result>
@@ -863,7 +863,7 @@
     <result>
       <result kind="OUT" name="result" type="OperationInterface">
         <value>
-          <modelElement href="MainTransformation.repository#_bSvwUMh_EeuMmYDMdwzgqA"/>
+          <modelElement href="MainTransformation.repository#_odxPoc3vEeu34am2l395fA"/>
         </value>
       </result>
     </result>
@@ -881,7 +881,7 @@
     <result>
       <result kind="OUT" name="result" type="OperationSignature">
         <value>
-          <modelElement href="MainTransformation.repository#_bSwXYMh_EeuMmYDMdwzgqA"/>
+          <modelElement href="MainTransformation.repository#_odxPos3vEeu34am2l395fA"/>
         </value>
       </result>
     </result>
@@ -899,7 +899,7 @@
     <result>
       <result kind="OUT" name="result" type="OperationSignature">
         <value>
-          <modelElement href="MainTransformation.repository#_bSwXYch_EeuMmYDMdwzgqA"/>
+          <modelElement href="MainTransformation.repository#_odxPo83vEeu34am2l395fA"/>
         </value>
       </result>
     </result>
@@ -917,7 +917,7 @@
     <result>
       <result kind="OUT" name="result" type="OperationInterface">
         <value>
-          <modelElement href="MainTransformation.repository#_bSw-cMh_EeuMmYDMdwzgqA"/>
+          <modelElement href="MainTransformation.repository#_odx2sM3vEeu34am2l395fA"/>
         </value>
       </result>
     </result>
@@ -935,7 +935,7 @@
     <result>
       <result kind="OUT" name="result" type="OperationSignature">
         <value>
-          <modelElement href="MainTransformation.repository#_bSxlgMh_EeuMmYDMdwzgqA"/>
+          <modelElement href="MainTransformation.repository#_odx2sc3vEeu34am2l395fA"/>
         </value>
       </result>
     </result>
@@ -953,7 +953,7 @@
     <result>
       <result kind="OUT" name="result" type="OperationInterface">
         <value>
-          <modelElement href="MainTransformation.repository#_bSyMkMh_EeuMmYDMdwzgqA"/>
+          <modelElement href="MainTransformation.repository#_odx2ss3vEeu34am2l395fA"/>
         </value>
       </result>
     </result>
@@ -971,7 +971,7 @@
     <result>
       <result kind="OUT" name="result" type="OperationSignature">
         <value>
-          <modelElement href="MainTransformation.repository#_bSyzoMh_EeuMmYDMdwzgqA"/>
+          <modelElement href="MainTransformation.repository#_odx2s83vEeu34am2l395fA"/>
         </value>
       </result>
     </result>
@@ -989,7 +989,7 @@
     <result>
       <result kind="OUT" name="result" type="OperationSignature">
         <value>
-          <modelElement href="MainTransformation.repository#_bSzasMh_EeuMmYDMdwzgqA"/>
+          <modelElement href="MainTransformation.repository#_odydwM3vEeu34am2l395fA"/>
         </value>
       </result>
     </result>
@@ -1007,7 +1007,43 @@
     <result>
       <result kind="OUT" name="result" type="BasicComponent">
         <value>
-          <modelElement href="MainTransformation.repository#_bS0o0Mh_EeuMmYDMdwzgqA"/>
+          <modelElement href="MainTransformation.repository#_odydwc3vEeu34am2l395fA"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="provRoleMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="TRole">
+        <value>
+          <modelElement href="extent:/48#/0"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="OperationProvidedRole">
+        <value>
+          <modelElement href="MainTransformation.repository#_odzE0M3vEeu34am2l395fA"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="abstractComponentMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="AbstractComponent">
+        <value>
+          <modelElement href="../mediastore.systemindependentviewpoint#PoolingAudioDB"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="RepositoryComponent">
+        <value>
+          <modelElement href="MainTransformation.repository#_odydwc3vEeu34am2l395fA"/>
         </value>
       </result>
     </result>
@@ -1025,7 +1061,43 @@
     <result>
       <result kind="OUT" name="result" type="BasicComponent">
         <value>
-          <modelElement href="MainTransformation.repository#_bS1P4Mh_EeuMmYDMdwzgqA"/>
+          <modelElement href="MainTransformation.repository#_odzE0c3vEeu34am2l395fA"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="provRoleMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="TRole">
+        <value>
+          <modelElement href="extent:/48#/1"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="OperationProvidedRole">
+        <value>
+          <modelElement href="MainTransformation.repository#_odzr4M3vEeu34am2l395fA"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="abstractComponentMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="AbstractComponent">
+        <value>
+          <modelElement href="../mediastore.systemindependentviewpoint#DigitalWatermarking"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="RepositoryComponent">
+        <value>
+          <modelElement href="MainTransformation.repository#_odzE0c3vEeu34am2l395fA"/>
         </value>
       </result>
     </result>
@@ -1043,7 +1115,61 @@
     <result>
       <result kind="OUT" name="result" type="BasicComponent">
         <value>
-          <modelElement href="MainTransformation.repository#_bS2eAMh_EeuMmYDMdwzgqA"/>
+          <modelElement href="MainTransformation.repository#_odzr4c3vEeu34am2l395fA"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="provRoleMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="TRole">
+        <value>
+          <modelElement href="extent:/48#/2"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="OperationProvidedRole">
+        <value>
+          <modelElement href="MainTransformation.repository#_odzr4s3vEeu34am2l395fA"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="reqRoleMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="TRole">
+        <value>
+          <modelElement href="extent:/48#/3"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="OperationRequiredRole">
+        <value>
+          <modelElement href="MainTransformation.repository#_od0S8M3vEeu34am2l395fA"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="abstractComponentMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="AbstractComponent">
+        <value>
+          <modelElement href="../mediastore.systemindependentviewpoint#DBCache"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="RepositoryComponent">
+        <value>
+          <modelElement href="MainTransformation.repository#_odzr4c3vEeu34am2l395fA"/>
         </value>
       </result>
     </result>
@@ -1061,7 +1187,79 @@
     <result>
       <result kind="OUT" name="result" type="BasicComponent">
         <value>
-          <modelElement href="MainTransformation.repository#_bS3sIMh_EeuMmYDMdwzgqA"/>
+          <modelElement href="MainTransformation.repository#_od0S8c3vEeu34am2l395fA"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="provRoleMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="TRole">
+        <value>
+          <modelElement href="extent:/48#/4"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="OperationProvidedRole">
+        <value>
+          <modelElement href="MainTransformation.repository#_od0S8s3vEeu34am2l395fA"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="reqRoleMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="TRole">
+        <value>
+          <modelElement href="extent:/48#/5"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="OperationRequiredRole">
+        <value>
+          <modelElement href="MainTransformation.repository#_od06AM3vEeu34am2l395fA"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="reqRoleMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="TRole">
+        <value>
+          <modelElement href="extent:/48#/6"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="OperationRequiredRole">
+        <value>
+          <modelElement href="MainTransformation.repository#_od06Ac3vEeu34am2l395fA"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="abstractComponentMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="AbstractComponent">
+        <value>
+          <modelElement href="../mediastore.systemindependentviewpoint#MediaManager"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="RepositoryComponent">
+        <value>
+          <modelElement href="MainTransformation.repository#_od0S8c3vEeu34am2l395fA"/>
         </value>
       </result>
     </result>
@@ -1079,7 +1277,61 @@
     <result>
       <result kind="OUT" name="result" type="BasicComponent">
         <value>
-          <modelElement href="MainTransformation.repository#_bS5hUMh_EeuMmYDMdwzgqA"/>
+          <modelElement href="MainTransformation.repository#_od06As3vEeu34am2l395fA"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="provRoleMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="TRole">
+        <value>
+          <modelElement href="extent:/48#/7"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="OperationProvidedRole">
+        <value>
+          <modelElement href="MainTransformation.repository#_od1hEM3vEeu34am2l395fA"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="reqRoleMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="TRole">
+        <value>
+          <modelElement href="extent:/48#/8"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="OperationRequiredRole">
+        <value>
+          <modelElement href="MainTransformation.repository#_od1hEc3vEeu34am2l395fA"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="abstractComponentMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="AbstractComponent">
+        <value>
+          <modelElement href="../mediastore.systemindependentviewpoint#WebGUI"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="RepositoryComponent">
+        <value>
+          <modelElement href="MainTransformation.repository#_od06As3vEeu34am2l395fA"/>
         </value>
       </result>
     </result>
@@ -1097,7 +1349,43 @@
     <result>
       <result kind="OUT" name="result" type="CompositeComponent">
         <value>
-          <modelElement href="MainTransformation.repository#_bS7WgMh_EeuMmYDMdwzgqA"/>
+          <modelElement href="MainTransformation.repository#_od2IIM3vEeu34am2l395fA"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="provRoleMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="TRole">
+        <value>
+          <modelElement href="extent:/48#/9"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="OperationProvidedRole">
+        <value>
+          <modelElement href="MainTransformation.repository#_od2vMM3vEeu34am2l395fA"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="reqRoleMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="TRole">
+        <value>
+          <modelElement href="extent:/48#/10"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="OperationRequiredRole">
+        <value>
+          <modelElement href="MainTransformation.repository#_od2vMc3vEeu34am2l395fA"/>
         </value>
       </result>
     </result>
@@ -1115,7 +1403,7 @@
     <result>
       <result kind="OUT" name="result" type="AssemblyContext">
         <value>
-          <modelElement href="MainTransformation.repository#_bS9ywMh_EeuMmYDMdwzgqA"/>
+          <modelElement href="MainTransformation.repository#_od3WQM3vEeu34am2l395fA"/>
         </value>
       </result>
     </result>
@@ -1133,7 +1421,7 @@
     <result>
       <result kind="OUT" name="result" type="AssemblyContext">
         <value>
-          <modelElement href="MainTransformation.repository#_bS-Z0Mh_EeuMmYDMdwzgqA"/>
+          <modelElement href="MainTransformation.repository#_od3WQc3vEeu34am2l395fA"/>
         </value>
       </result>
     </result>
@@ -1151,7 +1439,217 @@
     <result>
       <result kind="OUT" name="result" type="AssemblyContext">
         <value>
-          <modelElement href="MainTransformation.repository#_bS_A4Mh_EeuMmYDMdwzgqA"/>
+          <modelElement href="MainTransformation.repository#_od3WQs3vEeu34am2l395fA"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="provDelegationConnectorMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="DelegationConnector">
+        <value>
+          <modelElement href="../mediastore.assemblyviewpoint#IMediaStore2MediaManagerAC_IMediaStore"/>
+        </value>
+      </context>
+    </context>
+    <parameters>
+      <parameters name="entity" type="InterfaceProvidingRequiringEntity">
+        <value>
+          <modelElement href="MainTransformation.repository#_od2IIM3vEeu34am2l395fA"/>
+        </value>
+      </parameters>
+    </parameters>
+    <result>
+      <result kind="OUT" name="result" type="ProvidedDelegationConnector">
+        <value>
+          <modelElement href="MainTransformation.repository#_od39UM3vEeu34am2l395fA"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="abstractConnectorMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="AbstractConnector">
+        <value>
+          <modelElement href="../mediastore.assemblyviewpoint#IMediaStore2MediaManagerAC_IMediaStore"/>
+        </value>
+      </context>
+    </context>
+    <parameters>
+      <parameters name="entity" type="InterfaceProvidingRequiringEntity">
+        <value>
+          <modelElement href="MainTransformation.repository#_od2IIM3vEeu34am2l395fA"/>
+        </value>
+      </parameters>
+    </parameters>
+    <result>
+      <result kind="OUT" name="result" type="Connector">
+        <value>
+          <modelElement href="MainTransformation.repository#_od39UM3vEeu34am2l395fA"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="reqDelegationConnectorMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="DelegationConnector">
+        <value>
+          <modelElement href="../mediastore.assemblyviewpoint#DBCacheAC_AudioDB2AudioDB"/>
+        </value>
+      </context>
+    </context>
+    <parameters>
+      <parameters name="entity" type="InterfaceProvidingRequiringEntity">
+        <value>
+          <modelElement href="MainTransformation.repository#_od2IIM3vEeu34am2l395fA"/>
+        </value>
+      </parameters>
+    </parameters>
+    <result>
+      <result kind="OUT" name="result" type="RequiredDelegationConnector">
+        <value>
+          <modelElement href="MainTransformation.repository#_od4kYM3vEeu34am2l395fA"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="abstractConnectorMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="AbstractConnector">
+        <value>
+          <modelElement href="../mediastore.assemblyviewpoint#DBCacheAC_AudioDB2AudioDB"/>
+        </value>
+      </context>
+    </context>
+    <parameters>
+      <parameters name="entity" type="InterfaceProvidingRequiringEntity">
+        <value>
+          <modelElement href="MainTransformation.repository#_od2IIM3vEeu34am2l395fA"/>
+        </value>
+      </parameters>
+    </parameters>
+    <result>
+      <result kind="OUT" name="result" type="Connector">
+        <value>
+          <modelElement href="MainTransformation.repository#_od4kYM3vEeu34am2l395fA"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="assemblyConnectorMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="AssemblyConnector">
+        <value>
+          <modelElement href="../mediastore.assemblyviewpoint#MediaManagerAC_AudioDB2DBCacheAC_AudioDB"/>
+        </value>
+      </context>
+    </context>
+    <parameters>
+      <parameters name="entity" type="InterfaceProvidingRequiringEntity">
+        <value>
+          <modelElement href="MainTransformation.repository#_od2IIM3vEeu34am2l395fA"/>
+        </value>
+      </parameters>
+    </parameters>
+    <result>
+      <result kind="OUT" name="result" type="AssemblyConnector">
+        <value>
+          <modelElement href="MainTransformation.repository#_od6ZkM3vEeu34am2l395fA"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="abstractConnectorMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="AbstractConnector">
+        <value>
+          <modelElement href="../mediastore.assemblyviewpoint#MediaManagerAC_AudioDB2DBCacheAC_AudioDB"/>
+        </value>
+      </context>
+    </context>
+    <parameters>
+      <parameters name="entity" type="InterfaceProvidingRequiringEntity">
+        <value>
+          <modelElement href="MainTransformation.repository#_od2IIM3vEeu34am2l395fA"/>
+        </value>
+      </parameters>
+    </parameters>
+    <result>
+      <result kind="OUT" name="result" type="Connector">
+        <value>
+          <modelElement href="MainTransformation.repository#_od6ZkM3vEeu34am2l395fA"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="assemblyConnectorMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="AssemblyConnector">
+        <value>
+          <modelElement href="../mediastore.assemblyviewpoint#MediaManagerAC_Sound2DigitalWatermarkingAC_Sound"/>
+        </value>
+      </context>
+    </context>
+    <parameters>
+      <parameters name="entity" type="InterfaceProvidingRequiringEntity">
+        <value>
+          <modelElement href="MainTransformation.repository#_od2IIM3vEeu34am2l395fA"/>
+        </value>
+      </parameters>
+    </parameters>
+    <result>
+      <result kind="OUT" name="result" type="AssemblyConnector">
+        <value>
+          <modelElement href="MainTransformation.repository#_od7AoM3vEeu34am2l395fA"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="abstractConnectorMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="AbstractConnector">
+        <value>
+          <modelElement href="../mediastore.assemblyviewpoint#MediaManagerAC_Sound2DigitalWatermarkingAC_Sound"/>
+        </value>
+      </context>
+    </context>
+    <parameters>
+      <parameters name="entity" type="InterfaceProvidingRequiringEntity">
+        <value>
+          <modelElement href="MainTransformation.repository#_od2IIM3vEeu34am2l395fA"/>
+        </value>
+      </parameters>
+    </parameters>
+    <result>
+      <result kind="OUT" name="result" type="Connector">
+        <value>
+          <modelElement href="MainTransformation.repository#_od7AoM3vEeu34am2l395fA"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="abstractComponentMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="AbstractComponent">
+        <value>
+          <modelElement href="../mediastore.systemindependentviewpoint#MediaStore"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="RepositoryComponent">
+        <value>
+          <modelElement href="MainTransformation.repository#_od2IIM3vEeu34am2l395fA"/>
         </value>
       </result>
     </result>
@@ -1169,7 +1667,25 @@
     <result>
       <result kind="OUT" name="result" type="System">
         <value>
-          <modelElement href="MainTransformation.system#_bTBdIMh_EeuMmYDMdwzgqA"/>
+          <modelElement href="MainTransformation.system#_od8OwM3vEeu34am2l395fA"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="provRoleMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="TRole">
+        <value>
+          <modelElement href="extent:/48#/17"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="OperationProvidedRole">
+        <value>
+          <modelElement href="MainTransformation.system#_od810M3vEeu34am2l395fA"/>
         </value>
       </result>
     </result>
@@ -1187,25 +1703,7 @@
     <result>
       <result kind="OUT" name="result" type="AssemblyContext">
         <value>
-          <modelElement href="MainTransformation.system#_bTCrQMh_EeuMmYDMdwzgqA"/>
-        </value>
-      </result>
-    </result>
-  </traceRecords>
-  <traceRecords>
-    <mappingOperation name="assemblyContextMapping" package="MainTransformation" module="MainTransformation"/>
-    <context>
-      <context name="self" type="AssemblyContext">
-        <value>
-          <modelElement href="../mediastore.assemblyviewpoint#WebGUIAC"/>
-        </value>
-      </context>
-    </context>
-    <parameters/>
-    <result>
-      <result kind="OUT" name="result" type="AssemblyContext">
-        <value>
-          <modelElement href="MainTransformation.system#_bTDSUMh_EeuMmYDMdwzgqA"/>
+          <modelElement href="MainTransformation.system#_od810c3vEeu34am2l395fA"/>
         </value>
       </result>
     </result>
@@ -1223,7 +1721,169 @@
     <result>
       <result kind="OUT" name="result" type="AssemblyContext">
         <value>
-          <modelElement href="MainTransformation.system#_bTD5YMh_EeuMmYDMdwzgqA"/>
+          <modelElement href="MainTransformation.system#_od810s3vEeu34am2l395fA"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="assemblyContextMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="AssemblyContext">
+        <value>
+          <modelElement href="../mediastore.assemblyviewpoint#WebGUIAC"/>
+        </value>
+      </context>
+    </context>
+    <parameters/>
+    <result>
+      <result kind="OUT" name="result" type="AssemblyContext">
+        <value>
+          <modelElement href="MainTransformation.system#_od9c4M3vEeu34am2l395fA"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="assemblyConnectorMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="AssemblyConnector">
+        <value>
+          <modelElement href="../mediastore.assemblyviewpoint#MediaStoreAC_AudioDB2PoolingAudioDBAC_AudioDB"/>
+        </value>
+      </context>
+    </context>
+    <parameters>
+      <parameters name="entity" type="InterfaceProvidingRequiringEntity">
+        <value>
+          <modelElement href="MainTransformation.system#_od8OwM3vEeu34am2l395fA"/>
+        </value>
+      </parameters>
+    </parameters>
+    <result>
+      <result kind="OUT" name="result" type="AssemblyConnector">
+        <value>
+          <modelElement href="MainTransformation.system#_od9c4c3vEeu34am2l395fA"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="abstractConnectorMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="AbstractConnector">
+        <value>
+          <modelElement href="../mediastore.assemblyviewpoint#MediaStoreAC_AudioDB2PoolingAudioDBAC_AudioDB"/>
+        </value>
+      </context>
+    </context>
+    <parameters>
+      <parameters name="entity" type="InterfaceProvidingRequiringEntity">
+        <value>
+          <modelElement href="MainTransformation.system#_od8OwM3vEeu34am2l395fA"/>
+        </value>
+      </parameters>
+    </parameters>
+    <result>
+      <result kind="OUT" name="result" type="Connector">
+        <value>
+          <modelElement href="MainTransformation.system#_od9c4c3vEeu34am2l395fA"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="assemblyConnectorMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="AssemblyConnector">
+        <value>
+          <modelElement href="../mediastore.assemblyviewpoint#WebGUIAC_IMediaStore2MediaStoreAC_IMediaStore"/>
+        </value>
+      </context>
+    </context>
+    <parameters>
+      <parameters name="entity" type="InterfaceProvidingRequiringEntity">
+        <value>
+          <modelElement href="MainTransformation.system#_od8OwM3vEeu34am2l395fA"/>
+        </value>
+      </parameters>
+    </parameters>
+    <result>
+      <result kind="OUT" name="result" type="AssemblyConnector">
+        <value>
+          <modelElement href="MainTransformation.system#_od-D8M3vEeu34am2l395fA"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="abstractConnectorMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="AbstractConnector">
+        <value>
+          <modelElement href="../mediastore.assemblyviewpoint#WebGUIAC_IMediaStore2MediaStoreAC_IMediaStore"/>
+        </value>
+      </context>
+    </context>
+    <parameters>
+      <parameters name="entity" type="InterfaceProvidingRequiringEntity">
+        <value>
+          <modelElement href="MainTransformation.system#_od8OwM3vEeu34am2l395fA"/>
+        </value>
+      </parameters>
+    </parameters>
+    <result>
+      <result kind="OUT" name="result" type="Connector">
+        <value>
+          <modelElement href="MainTransformation.system#_od-D8M3vEeu34am2l395fA"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="provDelegationConnectorMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="DelegationConnector">
+        <value>
+          <modelElement href="../mediastore.assemblyviewpoint#HTTP2WebGUIAC_HTTP"/>
+        </value>
+      </context>
+    </context>
+    <parameters>
+      <parameters name="entity" type="InterfaceProvidingRequiringEntity">
+        <value>
+          <modelElement href="MainTransformation.system#_od8OwM3vEeu34am2l395fA"/>
+        </value>
+      </parameters>
+    </parameters>
+    <result>
+      <result kind="OUT" name="result" type="ProvidedDelegationConnector">
+        <value>
+          <modelElement href="MainTransformation.system#_od-rAM3vEeu34am2l395fA"/>
+        </value>
+      </result>
+    </result>
+  </traceRecords>
+  <traceRecords>
+    <mappingOperation name="abstractConnectorMapping" package="MainTransformation" module="MainTransformation"/>
+    <context>
+      <context name="self" type="AbstractConnector">
+        <value>
+          <modelElement href="../mediastore.assemblyviewpoint#HTTP2WebGUIAC_HTTP"/>
+        </value>
+      </context>
+    </context>
+    <parameters>
+      <parameters name="entity" type="InterfaceProvidingRequiringEntity">
+        <value>
+          <modelElement href="MainTransformation.system#_od8OwM3vEeu34am2l395fA"/>
+        </value>
+      </parameters>
+    </parameters>
+    <result>
+      <result kind="OUT" name="result" type="Connector">
+        <value>
+          <modelElement href="MainTransformation.system#_od-rAM3vEeu34am2l395fA"/>
         </value>
       </result>
     </result>
@@ -1241,7 +1901,7 @@
     <result>
       <result kind="OUT" name="result" type="Allocation">
         <value>
-          <modelElement href="MainTransformation.allocation#_bTFHgMh_EeuMmYDMdwzgqA"/>
+          <modelElement href="MainTransformation.allocation#_od_SEM3vEeu34am2l395fA"/>
         </value>
       </result>
     </result>
@@ -1259,7 +1919,7 @@
     <result>
       <result kind="OUT" name="result" type="AllocationContext">
         <value>
-          <modelElement href="MainTransformation.allocation#_bTFukMh_EeuMmYDMdwzgqA"/>
+          <modelElement href="MainTransformation.allocation#_od_5IM3vEeu34am2l395fA"/>
         </value>
       </result>
     </result>
@@ -1277,7 +1937,7 @@
     <result>
       <result kind="OUT" name="result" type="AllocationContext">
         <value>
-          <modelElement href="MainTransformation.allocation#_bTFukch_EeuMmYDMdwzgqA"/>
+          <modelElement href="MainTransformation.allocation#_od_5Ic3vEeu34am2l395fA"/>
         </value>
       </result>
     </result>
@@ -1295,7 +1955,7 @@
     <result>
       <result kind="OUT" name="result" type="AllocationContext">
         <value>
-          <modelElement href="MainTransformation.allocation#_bTGVoMh_EeuMmYDMdwzgqA"/>
+          <modelElement href="MainTransformation.allocation#_od_5Is3vEeu34am2l395fA"/>
         </value>
       </result>
     </result>
