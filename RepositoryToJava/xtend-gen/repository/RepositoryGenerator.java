@@ -209,8 +209,12 @@ public class RepositoryGenerator implements IGenerator {
       }
     }
     {
-      EList<Interface> _requiredInterfaces = c.getRequiredInterfaces();
-      for(final Interface i_1 : _requiredInterfaces) {
+      final Function1<Interface, Boolean> _function = (Interface i_1) -> {
+        boolean _contains = c.getProvidedInterfaces().contains(i_1);
+        return Boolean.valueOf((!_contains));
+      };
+      Iterable<Interface> _filter = IterableExtensions.<Interface>filter(c.getRequiredInterfaces(), _function);
+      for(final Interface i_1 : _filter) {
         _builder.append("import repository.");
         String _name_4 = i_1.getName();
         _builder.append(_name_4);
@@ -218,8 +222,14 @@ public class RepositoryGenerator implements IGenerator {
         _builder.newLineIfNotEmpty();
       }
     }
-    _builder.append("import repository.Helper;");
-    _builder.newLine();
+    {
+      boolean _isEmpty = c.getRequiredInterfaces().isEmpty();
+      boolean _not = (!_isEmpty);
+      if (_not) {
+        _builder.append("import repository.Helper;");
+        _builder.newLine();
+      }
+    }
     _builder.newLine();
     _builder.append("public class ");
     String _name_5 = c.getName();
@@ -243,8 +253,8 @@ public class RepositoryGenerator implements IGenerator {
     _builder.append(" {");
     _builder.newLineIfNotEmpty();
     {
-      EList<Interface> _requiredInterfaces_1 = c.getRequiredInterfaces();
-      for(final Interface i_3 : _requiredInterfaces_1) {
+      EList<Interface> _requiredInterfaces = c.getRequiredInterfaces();
+      for(final Interface i_3 : _requiredInterfaces) {
         _builder.append("\t");
         _builder.append("private ");
         String _name_7 = i_3.getName();
@@ -267,8 +277,8 @@ public class RepositoryGenerator implements IGenerator {
     _builder.append("\t");
     _builder.newLine();
     {
-      EList<Interface> _requiredInterfaces_2 = c.getRequiredInterfaces();
-      for(final Interface i_4 : _requiredInterfaces_2) {
+      EList<Interface> _requiredInterfaces_1 = c.getRequiredInterfaces();
+      for(final Interface i_4 : _requiredInterfaces_1) {
         _builder.append("\t");
         _builder.append("public void set");
         String _name_9 = i_4.getName();
@@ -329,8 +339,8 @@ public class RepositoryGenerator implements IGenerator {
             _builder.append(" {");
             _builder.newLineIfNotEmpty();
             {
-              EList<Interface> _requiredInterfaces_3 = c.getRequiredInterfaces();
-              for(final Interface ireq : _requiredInterfaces_3) {
+              EList<Interface> _requiredInterfaces_2 = c.getRequiredInterfaces();
+              for(final Interface ireq : _requiredInterfaces_2) {
                 _builder.append("\t");
                 _builder.append("\t");
                 _builder.append("Helper.assertNotNull(this.");

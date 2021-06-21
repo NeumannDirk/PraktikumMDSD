@@ -73,10 +73,12 @@ public class RepositoryGenerator implements IGenerator {
         «FOR i: c.providedInterfaces»
         	import repository.«i.name»;
         «ENDFOR»
-        «FOR i: c.requiredInterfaces»
+        «FOR i: c.requiredInterfaces.filter[i| !c.providedInterfaces.contains(i)]»
         	import repository.«i.name»;
         «ENDFOR»
-        import repository.Helper;
+        «IF !c.requiredInterfaces.empty»
+        	import repository.Helper;
+        «ENDIF»
         
         public class «c.name»Impl implements «FOR i: c.providedInterfaces SEPARATOR ','» «i.name» «ENDFOR» {
         	«FOR i: c.requiredInterfaces»
