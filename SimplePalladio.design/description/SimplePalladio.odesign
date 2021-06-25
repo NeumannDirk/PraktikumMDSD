@@ -1,13 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="SimplePalladio" version="12.0.0.2017041100">
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="SimplePalladio" version="12.0.0.2017041100">
   <ownedViewpoints name="SystemIndependentViewpoint">
     <ownedRepresentations xsi:type="description_1:DiagramDescription" name="Repository" domainClass="SystemIndependentViewPoint::RepositoryViewType" enablePopupBars="true">
       <metamodel href="http://www.example.org/simplePalladio/SystemIndependentViewPoint#/"/>
       <defaultLayer name="Default">
-        <containerMappings name="Interface" semanticCandidatesExpression="feature:repositoryElements" domainClass="SystemIndependentViewPoint::Interface"/>
-        <containerMappings name="Component" semanticCandidatesExpression="feature:repositoryElements" domainClass="SystemIndependentViewPoint::Component"/>
-        <containerMappings name="CompositeComponent" semanticCandidatesExpression="feature:repositoryElements" domainClass="SystemIndependentViewPoint::CompositeComponent"/>
-        <toolSections>
+        <edgeMappings name="ProvidedRole" sourceMapping="//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='Component'] //@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='CompositeComponent']" targetMapping="//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='Interface']" targetFinderExpression="feature:providedInterfaces">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12" labelExpression="provided">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="RequiredRole" sourceMapping="//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='Component'] //@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='CompositeComponent']" targetMapping="//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='Interface']" targetFinderExpression="feature:requiredInterfaces">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12" labelExpression="required">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <containerMappings name="Interface" semanticCandidatesExpression="feature:repositoryElements" domainClass="SystemIndependentViewPoint::Interface" childrenPresentation="List">
+          <subNodeMappings name="Signature" deletionDescription="//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@toolSections.0/@ownedTools[name='SignatureDeletion']" semanticCandidatesExpression="feature:signatures" domainClass="SystemIndependentViewPoint::Signature">
+            <style xsi:type="style:BundledImageDescription" labelSize="12" showIcon="false" labelExpression="aql:self.name + '(): ' + self.returnValue.toString().toLower()" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subNodeMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+          </style>
+        </containerMappings>
+        <containerMappings name="Component" semanticCandidatesExpression="feature:repositoryElements" domainClass="SystemIndependentViewPoint::Component" childrenPresentation="List">
+          <subNodeMappings name="Service" semanticCandidatesExpression="feature:services" domainClass="SystemIndependentViewPoint::Service">
+            <style xsi:type="style:BundledImageDescription" labelSize="12" labelExpression="aql:self.signature.name" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subNodeMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+          </style>
+        </containerMappings>
+        <containerMappings name="CompositeComponent" semanticCandidatesExpression="feature:repositoryElements" domainClass="SystemIndependentViewPoint::CompositeComponent">
+          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='green']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+          </style>
+        </containerMappings>
+        <toolSections name="Component Tools">
           <ownedTools xsi:type="tool:ContainerCreationDescription" name="InterfaceCreation" containerMappings="//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='Interface']">
             <variable name="container"/>
             <viewVariable name="containerView"/>
@@ -22,12 +73,85 @@
           <ownedTools xsi:type="tool:ContainerCreationDescription" name="ComponentCreation" containerMappings="//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='Component']">
             <variable name="container"/>
             <viewVariable name="containerView"/>
-            <initialOperation/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="SystemIndependentViewPoint::Component" referenceName="repositoryElements">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="&quot;ExampleName&quot;"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
           </ownedTools>
           <ownedTools xsi:type="tool:ContainerCreationDescription" name="CompositeComponentCreation" containerMappings="//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='CompositeComponent']">
             <variable name="container"/>
             <viewVariable name="containerView"/>
-            <initialOperation/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="SystemIndependentViewPoint::CompositeComponent" referenceName="repositoryElements">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="&quot;ExampleName&quot;"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="SignatureCreation" nodeMappings="//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='Interface']/@subNodeMappings[name='Signature']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="feature:eContainer">
+                  <subModelOperations xsi:type="tool_1:CreateInstance" typeName="SystemIndependentViewPoint::Signature" referenceName="repositoryElements">
+                    <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="&quot;ExampleName&quot;"/>
+                    <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                      <subModelOperations xsi:type="tool_1:SetValue" featureName="signatures" valueExpression="var:instance"/>
+                    </subModelOperations>
+                  </subModelOperations>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="SignatureDeletion">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="ServiceCreation" nodeMappings="//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='Component']/@subNodeMappings[name='Service']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="SystemIndependentViewPoint::Service" referenceName="services">
+                  <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:instance">
+                    <subModelOperations xsi:type="tool_1:CreateInstance" typeName="SystemIndependentViewPoint::BehaviourDescription" referenceName="behaviourDescription"/>
+                  </subModelOperations>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+        <toolSections name="Role Tools">
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="ProvidedRoleCreation" edgeMappings="//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@edgeMappings[name='ProvidedRole']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:source">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="providedInterfaces" valueExpression="var:target"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="RequiredRoleCreation" edgeMappings="//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@edgeMappings[name='RequiredRole']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:source">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="requiredInterfaces" valueExpression="var:target"/>
+              </firstModelOperations>
+            </initialOperation>
           </ownedTools>
         </toolSections>
       </defaultLayer>

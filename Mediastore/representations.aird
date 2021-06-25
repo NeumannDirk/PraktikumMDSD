@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SystemIndependentViewPoint="http://www.example.org/simplePalladio/SystemIndependentViewPoint" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis uid="_oj7lwNW1EeunpsQfo0v3oA" selectedViews="_rnIRANW1EeunpsQfo0v3oA _vdKucNW1EeunpsQfo0v3oA" version="14.3.1.202003261200">
+    <semanticResources>mediastore.systemindependentviewpoint</semanticResources>
+    <semanticResources>mediastore.assemblyviewpoint</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_rnIRANW1EeunpsQfo0v3oA">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']"/>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_vdKucNW1EeunpsQfo0v3oA">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_HqEXUNW2EeunpsQfo0v3oA" name="Repository" repPath="#_HpAAUNW2EeunpsQfo0v3oA" changeId="7ca41979-c421-4620-9a2c-4432fa781adb">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']"/>
+        <target xmi:type="SystemIndependentViewPoint:RepositoryViewType" href="mediastore.systemindependentviewpoint#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="_HpAAUNW2EeunpsQfo0v3oA">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_HrKjgNW2EeunpsQfo0v3oA" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_HrKjgdW2EeunpsQfo0v3oA" type="Sirius" element="_HpAAUNW2EeunpsQfo0v3oA" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_HsgnUNW2EeunpsQfo0v3oA" type="2003" element="_isyPYNW5EeunpsQfo0v3oA">
+          <children xmi:type="notation:Node" xmi:id="_HssNgNW2EeunpsQfo0v3oA" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_HsupwNW2EeunpsQfo0v3oA" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_ivEHUNW5EeunpsQfo0v3oA" type="3010" element="_is3H4NW5EeunpsQfo0v3oA">
+              <styles xmi:type="notation:FontStyle" xmi:id="_ivEHUdW5EeunpsQfo0v3oA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_ivEHUtW5EeunpsQfo0v3oA"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_ivEuYNW5EeunpsQfo0v3oA" type="3010" element="_is6yQdW5EeunpsQfo0v3oA">
+              <styles xmi:type="notation:FontStyle" xmi:id="_ivEuYdW5EeunpsQfo0v3oA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_ivEuYtW5EeunpsQfo0v3oA"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_jX9zANW8EeunpsQfo0v3oA" type="3010" element="_jX46gNW8EeunpsQfo0v3oA">
+              <styles xmi:type="notation:FontStyle" xmi:id="_jX9zAdW8EeunpsQfo0v3oA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_jX9zAtW8EeunpsQfo0v3oA"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_HsupwdW2EeunpsQfo0v3oA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_HsupwtW2EeunpsQfo0v3oA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_HsgnUdW2EeunpsQfo0v3oA" fontName=".AppleSystemUIFont"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HsgnUtW2EeunpsQfo0v3oA" width="159" height="239"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_Hs7eENW2EeunpsQfo0v3oA" type="2003" element="_is0EktW5EeunpsQfo0v3oA">
+          <children xmi:type="notation:Node" xmi:id="_Hs8FINW2EeunpsQfo0v3oA" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_Hs8FIdW2EeunpsQfo0v3oA" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_ivEuY9W5EeunpsQfo0v3oA" type="3010" element="_is7ZUdW5EeunpsQfo0v3oA">
+              <styles xmi:type="notation:FontStyle" xmi:id="_ivEuZNW5EeunpsQfo0v3oA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_ivEuZdW5EeunpsQfo0v3oA"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_ivEuZtW5EeunpsQfo0v3oA" type="3010" element="_is7ZU9W5EeunpsQfo0v3oA">
+              <styles xmi:type="notation:FontStyle" xmi:id="_ivEuZ9W5EeunpsQfo0v3oA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_ivEuaNW5EeunpsQfo0v3oA"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_Hs8FItW2EeunpsQfo0v3oA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_Hs8FI9W2EeunpsQfo0v3oA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_Hs7eEdW2EeunpsQfo0v3oA" fontName=".AppleSystemUIFont"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hs7eEtW2EeunpsQfo0v3oA" x="185" y="4"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_Hs8sMNW2EeunpsQfo0v3oA" type="2003" element="_is0rotW5EeunpsQfo0v3oA">
+          <children xmi:type="notation:Node" xmi:id="_Hs9TQNW2EeunpsQfo0v3oA" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_Hs9TQdW2EeunpsQfo0v3oA" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_ivFVcNW5EeunpsQfo0v3oA" type="3010" element="_is8AYNW5EeunpsQfo0v3oA">
+              <styles xmi:type="notation:FontStyle" xmi:id="_ivFVcdW5EeunpsQfo0v3oA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_ivFVctW5EeunpsQfo0v3oA"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_Hs9TQtW2EeunpsQfo0v3oA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_Hs9TQ9W2EeunpsQfo0v3oA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_Hs8sMdW2EeunpsQfo0v3oA" fontName=".AppleSystemUIFont"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hs8sMtW2EeunpsQfo0v3oA" x="348"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_Hs96UNW2EeunpsQfo0v3oA" type="2003" element="_is1SstW5EeunpsQfo0v3oA">
+          <children xmi:type="notation:Node" xmi:id="_Hs96U9W2EeunpsQfo0v3oA" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_Hs96VNW2EeunpsQfo0v3oA" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_ivFVc9W5EeunpsQfo0v3oA" type="3010" element="_is8AYtW5EeunpsQfo0v3oA">
+              <styles xmi:type="notation:FontStyle" xmi:id="_ivFVdNW5EeunpsQfo0v3oA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_ivFVddW5EeunpsQfo0v3oA"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_ivF8gNW5EeunpsQfo0v3oA" type="3010" element="_is8AZNW5EeunpsQfo0v3oA">
+              <styles xmi:type="notation:FontStyle" xmi:id="_ivF8gdW5EeunpsQfo0v3oA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_ivF8gtW5EeunpsQfo0v3oA"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_Hs96VdW2EeunpsQfo0v3oA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_Hs-hYNW2EeunpsQfo0v3oA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_Hs96UdW2EeunpsQfo0v3oA" fontName=".AppleSystemUIFont"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hs96UtW2EeunpsQfo0v3oA" x="316" y="344" width="161"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_Hs-hYdW2EeunpsQfo0v3oA" type="2003" element="_rpAcIdW8EeunpsQfo0v3oA">
+          <children xmi:type="notation:Node" xmi:id="_Hs-hZNW2EeunpsQfo0v3oA" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_Hs-hZdW2EeunpsQfo0v3oA" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_rrERoNW8EeunpsQfo0v3oA" type="3010" element="_rpEtkNW8EeunpsQfo0v3oA">
+              <styles xmi:type="notation:FontStyle" xmi:id="_rrERodW8EeunpsQfo0v3oA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_rrERotW8EeunpsQfo0v3oA"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_Hs-hZtW2EeunpsQfo0v3oA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_Hs-hZ9W2EeunpsQfo0v3oA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_Hs-hYtW2EeunpsQfo0v3oA" fontName=".AppleSystemUIFont"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hs-hY9W2EeunpsQfo0v3oA" x="264" y="138" width="234" height="99"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_Hs_IcNW2EeunpsQfo0v3oA" type="2003" element="_rpBqQtW8EeunpsQfo0v3oA">
+          <children xmi:type="notation:Node" xmi:id="_Hs_Ic9W2EeunpsQfo0v3oA" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_Hs_vgNW2EeunpsQfo0v3oA" type="7004">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_Hs_vgdW2EeunpsQfo0v3oA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_Hs_vgtW2EeunpsQfo0v3oA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_Hs_IcdW2EeunpsQfo0v3oA" fontName=".AppleSystemUIFont"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hs_IctW2EeunpsQfo0v3oA" x="188" y="100"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_Hs_vg9W2EeunpsQfo0v3oA" type="2003" element="_rpCRUNW8EeunpsQfo0v3oA">
+          <children xmi:type="notation:Node" xmi:id="_HtAWkNW2EeunpsQfo0v3oA" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_HtAWkdW2EeunpsQfo0v3oA" type="7004">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_HtAWktW2EeunpsQfo0v3oA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_HtAWk9W2EeunpsQfo0v3oA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_Hs_vhNW2EeunpsQfo0v3oA" fontName=".AppleSystemUIFont"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hs_vhdW2EeunpsQfo0v3oA" x="568" y="188" height="51"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_HtAWlNW2EeunpsQfo0v3oA" type="2003" element="_rpCRVdW8EeunpsQfo0v3oA">
+          <children xmi:type="notation:Node" xmi:id="_HtA9oNW2EeunpsQfo0v3oA" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_HtCLwNW2EeunpsQfo0v3oA" type="7004">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_HtCLwdW2EeunpsQfo0v3oA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_HtCLwtW2EeunpsQfo0v3oA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_HtAWldW2EeunpsQfo0v3oA" fontName=".AppleSystemUIFont"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HtAWltW2EeunpsQfo0v3oA" x="588"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_HtCy0NW2EeunpsQfo0v3oA" type="2003" element="_rpEGgtW8EeunpsQfo0v3oA">
+          <children xmi:type="notation:Node" xmi:id="_HtCy09W2EeunpsQfo0v3oA" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_HtDZ4NW2EeunpsQfo0v3oA" type="7004">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_HtDZ4dW2EeunpsQfo0v3oA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_HtDZ4tW2EeunpsQfo0v3oA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_HtCy0dW2EeunpsQfo0v3oA" fontName=".AppleSystemUIFont"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HtCy0tW2EeunpsQfo0v3oA" x="672" y="112"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_HtDZ49W2EeunpsQfo0v3oA" type="2002" element="_HsGXodW2EeunpsQfo0v3oA">
+          <children xmi:type="notation:Node" xmi:id="_HtDZ5tW2EeunpsQfo0v3oA" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_HtEA8NW2EeunpsQfo0v3oA" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_HtEA8dW2EeunpsQfo0v3oA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_HtEA8tW2EeunpsQfo0v3oA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_HtDZ5NW2EeunpsQfo0v3oA" fontName=".AppleSystemUIFont"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HtDZ5dW2EeunpsQfo0v3oA" x="108" y="176"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_HrKjgtW2EeunpsQfo0v3oA"/>
+        <edges xmi:type="notation:Edge" xmi:id="_nCL0QNW3EeunpsQfo0v3oA" type="4001" element="_nATk8NW3EeunpsQfo0v3oA" source="_Hs-hYdW2EeunpsQfo0v3oA" target="_Hs96UNW2EeunpsQfo0v3oA">
+          <children xmi:type="notation:Node" xmi:id="_nCNpcNW3EeunpsQfo0v3oA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nCNpcdW3EeunpsQfo0v3oA" x="19" y="3"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_nCOQgNW3EeunpsQfo0v3oA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nCOQgdW3EeunpsQfo0v3oA" x="-13" y="4"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_nCO3kNW3EeunpsQfo0v3oA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nCO3kdW3EeunpsQfo0v3oA" x="-17" y="2"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_nCL0QdW3EeunpsQfo0v3oA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_nCL0QtW3EeunpsQfo0v3oA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nCL0Q9W3EeunpsQfo0v3oA" points="[3, 75, -6, -138]$[7, 184, -2, -29]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nCiZkNW3EeunpsQfo0v3oA" id="(0.6551724137931034,0.23195876288659795)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nCiZkdW3EeunpsQfo0v3oA" id="(0.6886792452830188,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_nCiZktW3EeunpsQfo0v3oA" type="4001" element="_nAcu4tW3EeunpsQfo0v3oA" source="_Hs_IcNW2EeunpsQfo0v3oA" target="_Hs8sMNW2EeunpsQfo0v3oA">
+          <children xmi:type="notation:Node" xmi:id="_nCjAoNW3EeunpsQfo0v3oA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nCjAodW3EeunpsQfo0v3oA" x="-17" y="-4"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_nCjAotW3EeunpsQfo0v3oA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nCjAo9W3EeunpsQfo0v3oA" x="19" y="3"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_nCjApNW3EeunpsQfo0v3oA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nCjApdW3EeunpsQfo0v3oA" x="19" y="3"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_nCiZk9W3EeunpsQfo0v3oA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_nCiZlNW3EeunpsQfo0v3oA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nCiZldW3EeunpsQfo0v3oA" points="[28, -19, -119, 78]$[113, -75, -34, 22]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nCjnsNW3EeunpsQfo0v3oA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nCjnsdW3EeunpsQfo0v3oA" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_nCjnstW3EeunpsQfo0v3oA" type="4001" element="_nAdV8tW3EeunpsQfo0v3oA" source="_Hs_vg9W2EeunpsQfo0v3oA" target="_Hs96UNW2EeunpsQfo0v3oA">
+          <children xmi:type="notation:Node" xmi:id="_nCkOwNW3EeunpsQfo0v3oA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nCkOwdW3EeunpsQfo0v3oA" x="5" y="1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_nCkOwtW3EeunpsQfo0v3oA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nCkOw9W3EeunpsQfo0v3oA" x="27" y="7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_nCkOxNW3EeunpsQfo0v3oA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nCkOxdW3EeunpsQfo0v3oA" x="5" y="-7"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_nCjns9W3EeunpsQfo0v3oA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_nCjntNW3EeunpsQfo0v3oA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nCjntdW3EeunpsQfo0v3oA" points="[-33, 30, 147, -136]$[-149, 137, 31, -29]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nCk10NW3EeunpsQfo0v3oA" id="(0.5,0.3877551020408163)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nCk10dW3EeunpsQfo0v3oA" id="(0.6886792452830188,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_nCk10tW3EeunpsQfo0v3oA" type="4001" element="_nAd9ANW3EeunpsQfo0v3oA" source="_HtAWlNW2EeunpsQfo0v3oA" target="_Hs7eENW2EeunpsQfo0v3oA">
+          <children xmi:type="notation:Node" xmi:id="_nClc4NW3EeunpsQfo0v3oA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nClc4dW3EeunpsQfo0v3oA" x="-9" y="-16"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_nClc4tW3EeunpsQfo0v3oA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nClc49W3EeunpsQfo0v3oA" x="-1" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_nClc5NW3EeunpsQfo0v3oA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nClc5dW3EeunpsQfo0v3oA" y="11"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_nCk109W3EeunpsQfo0v3oA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_nCk11NW3EeunpsQfo0v3oA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nCk11dW3EeunpsQfo0v3oA" points="[-52, 2, 332, -20]$[-313, 17, 71, -5]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nCmD8NW3EeunpsQfo0v3oA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nCmD8dW3EeunpsQfo0v3oA" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_nCmD8tW3EeunpsQfo0v3oA" type="4001" element="_nAd9BdW3EeunpsQfo0v3oA" source="_HtCy0NW2EeunpsQfo0v3oA" target="_HsgnUNW2EeunpsQfo0v3oA">
+          <children xmi:type="notation:Node" xmi:id="_nCmrANW3EeunpsQfo0v3oA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nCmrAdW3EeunpsQfo0v3oA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_nCmrAtW3EeunpsQfo0v3oA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nCmrA9W3EeunpsQfo0v3oA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_nCmrBNW3EeunpsQfo0v3oA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nCmrBdW3EeunpsQfo0v3oA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_nCmD89W3EeunpsQfo0v3oA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_nCmD9NW3EeunpsQfo0v3oA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nCmD9dW3EeunpsQfo0v3oA" points="[0, 0, 671, 103]$[-671, -103, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nCnSENW3EeunpsQfo0v3oA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nCnSEdW3EeunpsQfo0v3oA" id="(0.24522292993630573,0.1962025316455696)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_nCnSEtW3EeunpsQfo0v3oA" type="4001" element="_nAekFNW3EeunpsQfo0v3oA" source="_HtDZ49W2EeunpsQfo0v3oA" target="_Hs7eENW2EeunpsQfo0v3oA">
+          <children xmi:type="notation:Node" xmi:id="_nCn5INW3EeunpsQfo0v3oA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nCn5IdW3EeunpsQfo0v3oA" x="-2" y="-6"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_nCn5ItW3EeunpsQfo0v3oA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nCn5I9W3EeunpsQfo0v3oA" x="7" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_nCn5JNW3EeunpsQfo0v3oA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nCn5JdW3EeunpsQfo0v3oA" x="4" y="3"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_nCnSE9W3EeunpsQfo0v3oA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_nCnSFNW3EeunpsQfo0v3oA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nCnSFdW3EeunpsQfo0v3oA" points="[12, -19, -93, 135]$[79, -117, -26, 37]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nCogMNW3EeunpsQfo0v3oA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nCogMdW3EeunpsQfo0v3oA" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_CxXRENW4EeunpsQfo0v3oA" type="4001" element="_CxRxhtW4EeunpsQfo0v3oA" source="_Hs_vg9W2EeunpsQfo0v3oA" target="_Hs96UNW2EeunpsQfo0v3oA">
+          <children xmi:type="notation:Node" xmi:id="_CxX4INW4EeunpsQfo0v3oA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CxX4IdW4EeunpsQfo0v3oA" x="-39" y="-28"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_CxX4ItW4EeunpsQfo0v3oA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CxX4I9W4EeunpsQfo0v3oA" x="5" y="4"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_CxX4JNW4EeunpsQfo0v3oA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CxX4JdW4EeunpsQfo0v3oA" x="-47" y="6"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_CxXREdW4EeunpsQfo0v3oA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_CxXREtW4EeunpsQfo0v3oA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_CxXRE9W4EeunpsQfo0v3oA" points="[-37, -3, 143, -169]$[-126, -10, 54, -176]$[-172, 137, 8, -29]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CxYfMNW4EeunpsQfo0v3oA" id="(0.5,0.3877551020408163)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CxYfMdW4EeunpsQfo0v3oA" id="(0.6886792452830188,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_CxZGQNW4EeunpsQfo0v3oA" type="4001" element="_CxSYlNW4EeunpsQfo0v3oA" source="_HtAWlNW2EeunpsQfo0v3oA" target="_Hs8sMNW2EeunpsQfo0v3oA">
+          <children xmi:type="notation:Node" xmi:id="_CxZGRNW4EeunpsQfo0v3oA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CxZGRdW4EeunpsQfo0v3oA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_CxZGRtW4EeunpsQfo0v3oA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CxZGR9W4EeunpsQfo0v3oA" x="1" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_CxZGSNW4EeunpsQfo0v3oA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CxZGSdW4EeunpsQfo0v3oA" x="1" y="11"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_CxZGQdW4EeunpsQfo0v3oA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_CxZGQtW4EeunpsQfo0v3oA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_CxZGQ9W4EeunpsQfo0v3oA" points="[-52, 0, 185, -3]$[-182, 2, 55, -1]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CxZtUNW4EeunpsQfo0v3oA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CxZtUdW4EeunpsQfo0v3oA" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_CxZtUtW4EeunpsQfo0v3oA" type="4001" element="_CxS_pNW4EeunpsQfo0v3oA" source="_HtAWlNW2EeunpsQfo0v3oA" target="_Hs96UNW2EeunpsQfo0v3oA">
+          <children xmi:type="notation:Node" xmi:id="_CxZtVtW4EeunpsQfo0v3oA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CxZtV9W4EeunpsQfo0v3oA" x="2" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_CxZtWNW4EeunpsQfo0v3oA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CxZtWdW4EeunpsQfo0v3oA" x="-3" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_CxZtWtW4EeunpsQfo0v3oA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CxZtW9W4EeunpsQfo0v3oA" x="-4" y="11"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_CxZtU9W4EeunpsQfo0v3oA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_CxZtVNW4EeunpsQfo0v3oA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_CxZtVdW4EeunpsQfo0v3oA" points="[-12, 19, 203, -335]$[-198, 325, 17, -29]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CxaUYNW4EeunpsQfo0v3oA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CxaUYdW4EeunpsQfo0v3oA" id="(0.6886792452830188,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_CxaUYtW4EeunpsQfo0v3oA" type="4001" element="_CxS_qdW4EeunpsQfo0v3oA" source="_HtCy0NW2EeunpsQfo0v3oA" target="_Hs7eENW2EeunpsQfo0v3oA">
+          <children xmi:type="notation:Node" xmi:id="_CxaUZtW4EeunpsQfo0v3oA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CxaUZ9W4EeunpsQfo0v3oA" x="1" y="-9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Cxa7cNW4EeunpsQfo0v3oA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Cxa7cdW4EeunpsQfo0v3oA" x="1" y="11"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Cxa7ctW4EeunpsQfo0v3oA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Cxa7c9W4EeunpsQfo0v3oA" y="11"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_CxaUY9W4EeunpsQfo0v3oA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_CxaUZNW4EeunpsQfo0v3oA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_CxaUZdW4EeunpsQfo0v3oA" points="[-34, -7, 416, 83]$[-379, -76, 71, 14]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Cxa7dNW4EeunpsQfo0v3oA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Cxa7ddW4EeunpsQfo0v3oA" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_Cxa7dtW4EeunpsQfo0v3oA" type="4001" element="_CxTmstW4EeunpsQfo0v3oA" source="_HtDZ49W2EeunpsQfo0v3oA" target="_Hs96UNW2EeunpsQfo0v3oA">
+          <children xmi:type="notation:Node" xmi:id="_Cxa7etW4EeunpsQfo0v3oA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Cxa7e9W4EeunpsQfo0v3oA" x="-5" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_CxbigNW4EeunpsQfo0v3oA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CxbigdW4EeunpsQfo0v3oA" x="3" y="9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_CxbigtW4EeunpsQfo0v3oA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Cxbig9W4EeunpsQfo0v3oA" x="3" y="9"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_Cxa7d9W4EeunpsQfo0v3oA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_Cxa7eNW4EeunpsQfo0v3oA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Cxa7edW4EeunpsQfo0v3oA" points="[29, 19, -245, -159]$[229, 149, -45, -29]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CxbihNW4EeunpsQfo0v3oA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CxbihdW4EeunpsQfo0v3oA" id="(0.6886792452830188,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_ruHicNW4EeunpsQfo0v3oA" type="4001" element="_ruDRFtW4EeunpsQfo0v3oA" source="_Hs_IcNW2EeunpsQfo0v3oA" target="_HsgnUNW2EeunpsQfo0v3oA">
+          <children xmi:type="notation:Node" xmi:id="_ruIJgNW4EeunpsQfo0v3oA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ruIJgdW4EeunpsQfo0v3oA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ruIJgtW4EeunpsQfo0v3oA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ruIJg9W4EeunpsQfo0v3oA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ruIJhNW4EeunpsQfo0v3oA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ruIJhdW4EeunpsQfo0v3oA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_ruHicdW4EeunpsQfo0v3oA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_ruHictW4EeunpsQfo0v3oA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ruHic9W4EeunpsQfo0v3oA" points="[0, 0, 164, 26]$[-164, -26, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ruIJhtW4EeunpsQfo0v3oA" id="(0.0,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ruIJh9W4EeunpsQfo0v3oA" id="(0.15286624203821655,0.3924050632911392)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_HsIz4NW2EeunpsQfo0v3oA" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_HsJa8NW2EeunpsQfo0v3oA"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_HsGXodW2EeunpsQfo0v3oA" name="MediaStore" outgoingEdges="_nAekFNW3EeunpsQfo0v3oA _CxTmstW4EeunpsQfo0v3oA">
+      <target xmi:type="SystemIndependentViewPoint:CompositeComponent" href="mediastore.systemindependentviewpoint#MediaStore"/>
+      <semanticElements xmi:type="SystemIndependentViewPoint:CompositeComponent" href="mediastore.systemindependentviewpoint#MediaStore"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_TIRDgtW3EeunpsQfo0v3oA" labelSize="12" borderSize="1" borderSizeComputationExpression="1" backgroundColor="138,226,52">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='CompositeComponent']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='CompositeComponent']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_nATk8NW3EeunpsQfo0v3oA" name="provided" sourceNode="_rpAcIdW8EeunpsQfo0v3oA" targetNode="_is1SstW5EeunpsQfo0v3oA">
+      <target xmi:type="SystemIndependentViewPoint:Component" href="mediastore.systemindependentviewpoint#PoolingAudioDB"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_nAa5sNW3EeunpsQfo0v3oA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@edgeMappings[name='ProvidedRole']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_nAbgwNW3EeunpsQfo0v3oA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@edgeMappings[name='ProvidedRole']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_nAcu4tW3EeunpsQfo0v3oA" name="provided" sourceNode="_rpBqQtW8EeunpsQfo0v3oA" targetNode="_is0rotW5EeunpsQfo0v3oA">
+      <target xmi:type="SystemIndependentViewPoint:Component" href="mediastore.systemindependentviewpoint#DigitalWatermarking"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_nAcu49W3EeunpsQfo0v3oA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@edgeMappings[name='ProvidedRole']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_nAcu5NW3EeunpsQfo0v3oA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@edgeMappings[name='ProvidedRole']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_nAdV8tW3EeunpsQfo0v3oA" name="provided" sourceNode="_rpCRUNW8EeunpsQfo0v3oA" targetNode="_is1SstW5EeunpsQfo0v3oA">
+      <target xmi:type="SystemIndependentViewPoint:Component" href="mediastore.systemindependentviewpoint#DBCache"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_nAdV89W3EeunpsQfo0v3oA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@edgeMappings[name='ProvidedRole']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_nAdV9NW3EeunpsQfo0v3oA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@edgeMappings[name='ProvidedRole']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_nAd9ANW3EeunpsQfo0v3oA" name="provided" sourceNode="_rpCRVdW8EeunpsQfo0v3oA" targetNode="_is0EktW5EeunpsQfo0v3oA">
+      <target xmi:type="SystemIndependentViewPoint:Component" href="mediastore.systemindependentviewpoint#MediaManager"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_nAd9AdW3EeunpsQfo0v3oA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@edgeMappings[name='ProvidedRole']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_nAd9AtW3EeunpsQfo0v3oA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@edgeMappings[name='ProvidedRole']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_nAd9BdW3EeunpsQfo0v3oA" name="provided" sourceNode="_rpEGgtW8EeunpsQfo0v3oA" targetNode="_isyPYNW5EeunpsQfo0v3oA">
+      <target xmi:type="SystemIndependentViewPoint:Component" href="mediastore.systemindependentviewpoint#WebGUI"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_nAekENW3EeunpsQfo0v3oA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@edgeMappings[name='ProvidedRole']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_nAekEdW3EeunpsQfo0v3oA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@edgeMappings[name='ProvidedRole']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_nAekFNW3EeunpsQfo0v3oA" name="provided" sourceNode="_HsGXodW2EeunpsQfo0v3oA" targetNode="_is0EktW5EeunpsQfo0v3oA">
+      <target xmi:type="SystemIndependentViewPoint:CompositeComponent" href="mediastore.systemindependentviewpoint#MediaStore"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_nAekFdW3EeunpsQfo0v3oA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@edgeMappings[name='ProvidedRole']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_nAekFtW3EeunpsQfo0v3oA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@edgeMappings[name='ProvidedRole']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_CxRxhtW4EeunpsQfo0v3oA" name="required" sourceNode="_rpCRUNW8EeunpsQfo0v3oA" targetNode="_is1SstW5EeunpsQfo0v3oA">
+      <target xmi:type="SystemIndependentViewPoint:Component" href="mediastore.systemindependentviewpoint#DBCache"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_CxSYkNW4EeunpsQfo0v3oA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@edgeMappings[name='RequiredRole']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_CxSYkdW4EeunpsQfo0v3oA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@edgeMappings[name='RequiredRole']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_CxSYlNW4EeunpsQfo0v3oA" name="required" sourceNode="_rpCRVdW8EeunpsQfo0v3oA" targetNode="_is0rotW5EeunpsQfo0v3oA">
+      <target xmi:type="SystemIndependentViewPoint:Component" href="mediastore.systemindependentviewpoint#MediaManager"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_CxS_oNW4EeunpsQfo0v3oA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@edgeMappings[name='RequiredRole']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_CxS_odW4EeunpsQfo0v3oA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@edgeMappings[name='RequiredRole']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_CxS_pNW4EeunpsQfo0v3oA" name="required" sourceNode="_rpCRVdW8EeunpsQfo0v3oA" targetNode="_is1SstW5EeunpsQfo0v3oA">
+      <target xmi:type="SystemIndependentViewPoint:Component" href="mediastore.systemindependentviewpoint#MediaManager"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_CxS_pdW4EeunpsQfo0v3oA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@edgeMappings[name='RequiredRole']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_CxS_ptW4EeunpsQfo0v3oA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@edgeMappings[name='RequiredRole']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_CxS_qdW4EeunpsQfo0v3oA" name="required" sourceNode="_rpEGgtW8EeunpsQfo0v3oA" targetNode="_is0EktW5EeunpsQfo0v3oA">
+      <target xmi:type="SystemIndependentViewPoint:Component" href="mediastore.systemindependentviewpoint#WebGUI"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_CxS_qtW4EeunpsQfo0v3oA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@edgeMappings[name='RequiredRole']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_CxS_q9W4EeunpsQfo0v3oA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@edgeMappings[name='RequiredRole']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_CxTmstW4EeunpsQfo0v3oA" name="required" sourceNode="_HsGXodW2EeunpsQfo0v3oA" targetNode="_is1SstW5EeunpsQfo0v3oA">
+      <target xmi:type="SystemIndependentViewPoint:CompositeComponent" href="mediastore.systemindependentviewpoint#MediaStore"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_CxTms9W4EeunpsQfo0v3oA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@edgeMappings[name='RequiredRole']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_CxTmtNW4EeunpsQfo0v3oA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@edgeMappings[name='RequiredRole']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_ruDRFtW4EeunpsQfo0v3oA" name="provided" sourceNode="_rpBqQtW8EeunpsQfo0v3oA" targetNode="_isyPYNW5EeunpsQfo0v3oA">
+      <target xmi:type="SystemIndependentViewPoint:Component" href="mediastore.systemindependentviewpoint#DigitalWatermarking"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_ruDRF9W4EeunpsQfo0v3oA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@edgeMappings[name='ProvidedRole']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_ruDRGNW4EeunpsQfo0v3oA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@edgeMappings[name='ProvidedRole']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_isyPYNW5EeunpsQfo0v3oA" name="HTTP" incomingEdges="_nAd9BdW3EeunpsQfo0v3oA _ruDRFtW4EeunpsQfo0v3oA">
+      <target xmi:type="SystemIndependentViewPoint:Interface" href="mediastore.systemindependentviewpoint#HTTP"/>
+      <semanticElements xmi:type="SystemIndependentViewPoint:Interface" href="mediastore.systemindependentviewpoint#HTTP"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_isyPYdW5EeunpsQfo0v3oA" labelSize="12" borderSize="1" borderSizeComputationExpression="1">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='Interface']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='Interface']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_is3H4NW5EeunpsQfo0v3oA" name="HTTPDownload(): void">
+        <target xmi:type="SystemIndependentViewPoint:Signature" href="mediastore.systemindependentviewpoint#HTTPDownload"/>
+        <semanticElements xmi:type="SystemIndependentViewPoint:Signature" href="mediastore.systemindependentviewpoint#HTTPDownload"/>
+        <ownedStyle xmi:type="diagram:BundledImage" uid="_is6yQNW5EeunpsQfo0v3oA" labelSize="12" showIcon="false" labelPosition="node">
+          <description xmi:type="style:BundledImageDescription" href="platform:/resource/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='Interface']/@subNodeMappings[name='Signature']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='Interface']/@subNodeMappings[name='Signature']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_is6yQdW5EeunpsQfo0v3oA" name="HTTPUpload(): void">
+        <target xmi:type="SystemIndependentViewPoint:Signature" href="mediastore.systemindependentviewpoint#HTTPUpload"/>
+        <semanticElements xmi:type="SystemIndependentViewPoint:Signature" href="mediastore.systemindependentviewpoint#HTTPUpload"/>
+        <ownedStyle xmi:type="diagram:BundledImage" uid="_is7ZUNW5EeunpsQfo0v3oA" labelSize="12" showIcon="false" labelPosition="node">
+          <description xmi:type="style:BundledImageDescription" href="platform:/resource/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='Interface']/@subNodeMappings[name='Signature']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='Interface']/@subNodeMappings[name='Signature']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_jX46gNW8EeunpsQfo0v3oA" name="&quot;ExampleName&quot;(): void">
+        <target xmi:type="SystemIndependentViewPoint:Signature" href="mediastore.systemindependentviewpoint#&quot;ExampleName&quot;"/>
+        <semanticElements xmi:type="SystemIndependentViewPoint:Signature" href="mediastore.systemindependentviewpoint#&quot;ExampleName&quot;"/>
+        <ownedStyle xmi:type="diagram:BundledImage" uid="_jX46gdW8EeunpsQfo0v3oA" labelSize="12" showIcon="false" labelPosition="node">
+          <description xmi:type="style:BundledImageDescription" href="platform:/resource/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='Interface']/@subNodeMappings[name='Signature']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='Interface']/@subNodeMappings[name='Signature']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_is0EktW5EeunpsQfo0v3oA" name="IMediaStore" incomingEdges="_nAd9ANW3EeunpsQfo0v3oA _nAekFNW3EeunpsQfo0v3oA _CxS_qdW4EeunpsQfo0v3oA">
+      <target xmi:type="SystemIndependentViewPoint:Interface" href="mediastore.systemindependentviewpoint#IMediaStore"/>
+      <semanticElements xmi:type="SystemIndependentViewPoint:Interface" href="mediastore.systemindependentviewpoint#IMediaStore"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_is0Ek9W5EeunpsQfo0v3oA" labelSize="12" borderSize="1" borderSizeComputationExpression="1">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='Interface']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='Interface']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_is7ZUdW5EeunpsQfo0v3oA" name="download(): void">
+        <target xmi:type="SystemIndependentViewPoint:Signature" href="mediastore.systemindependentviewpoint#download"/>
+        <semanticElements xmi:type="SystemIndependentViewPoint:Signature" href="mediastore.systemindependentviewpoint#download"/>
+        <ownedStyle xmi:type="diagram:BundledImage" uid="_is7ZUtW5EeunpsQfo0v3oA" labelSize="12" showIcon="false" labelPosition="node">
+          <description xmi:type="style:BundledImageDescription" href="platform:/resource/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='Interface']/@subNodeMappings[name='Signature']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='Interface']/@subNodeMappings[name='Signature']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_is7ZU9W5EeunpsQfo0v3oA" name="upload(): void">
+        <target xmi:type="SystemIndependentViewPoint:Signature" href="mediastore.systemindependentviewpoint#upload"/>
+        <semanticElements xmi:type="SystemIndependentViewPoint:Signature" href="mediastore.systemindependentviewpoint#upload"/>
+        <ownedStyle xmi:type="diagram:BundledImage" uid="_is7ZVNW5EeunpsQfo0v3oA" labelSize="12" showIcon="false" labelPosition="node">
+          <description xmi:type="style:BundledImageDescription" href="platform:/resource/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='Interface']/@subNodeMappings[name='Signature']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='Interface']/@subNodeMappings[name='Signature']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_is0rotW5EeunpsQfo0v3oA" name="Sound" incomingEdges="_nAcu4tW3EeunpsQfo0v3oA _CxSYlNW4EeunpsQfo0v3oA">
+      <target xmi:type="SystemIndependentViewPoint:Interface" href="mediastore.systemindependentviewpoint#Sound"/>
+      <semanticElements xmi:type="SystemIndependentViewPoint:Interface" href="mediastore.systemindependentviewpoint#Sound"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_is0ro9W5EeunpsQfo0v3oA" labelSize="12" borderSize="1" borderSizeComputationExpression="1">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='Interface']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='Interface']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_is8AYNW5EeunpsQfo0v3oA" name="watermark(): void">
+        <target xmi:type="SystemIndependentViewPoint:Signature" href="mediastore.systemindependentviewpoint#watermark"/>
+        <semanticElements xmi:type="SystemIndependentViewPoint:Signature" href="mediastore.systemindependentviewpoint#watermark"/>
+        <ownedStyle xmi:type="diagram:BundledImage" uid="_is8AYdW5EeunpsQfo0v3oA" labelSize="12" showIcon="false" labelPosition="node">
+          <description xmi:type="style:BundledImageDescription" href="platform:/resource/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='Interface']/@subNodeMappings[name='Signature']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='Interface']/@subNodeMappings[name='Signature']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_is1SstW5EeunpsQfo0v3oA" name="AudioDB" incomingEdges="_nATk8NW3EeunpsQfo0v3oA _nAdV8tW3EeunpsQfo0v3oA _CxRxhtW4EeunpsQfo0v3oA _CxS_pNW4EeunpsQfo0v3oA _CxTmstW4EeunpsQfo0v3oA">
+      <target xmi:type="SystemIndependentViewPoint:Interface" href="mediastore.systemindependentviewpoint#AudioDB"/>
+      <semanticElements xmi:type="SystemIndependentViewPoint:Interface" href="mediastore.systemindependentviewpoint#AudioDB"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_is1Ss9W5EeunpsQfo0v3oA" labelSize="12" borderSize="1" borderSizeComputationExpression="1">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='Interface']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='Interface']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_is8AYtW5EeunpsQfo0v3oA" name="addFile(): void">
+        <target xmi:type="SystemIndependentViewPoint:Signature" href="mediastore.systemindependentviewpoint#addFile"/>
+        <semanticElements xmi:type="SystemIndependentViewPoint:Signature" href="mediastore.systemindependentviewpoint#addFile"/>
+        <ownedStyle xmi:type="diagram:BundledImage" uid="_is8AY9W5EeunpsQfo0v3oA" labelSize="12" showIcon="false" labelPosition="node">
+          <description xmi:type="style:BundledImageDescription" href="platform:/resource/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='Interface']/@subNodeMappings[name='Signature']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='Interface']/@subNodeMappings[name='Signature']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_is8AZNW5EeunpsQfo0v3oA" name="queryDB(): void">
+        <target xmi:type="SystemIndependentViewPoint:Signature" href="mediastore.systemindependentviewpoint#queryDB"/>
+        <semanticElements xmi:type="SystemIndependentViewPoint:Signature" href="mediastore.systemindependentviewpoint#queryDB"/>
+        <ownedStyle xmi:type="diagram:BundledImage" uid="_is8AZdW5EeunpsQfo0v3oA" labelSize="12" showIcon="false" labelPosition="node">
+          <description xmi:type="style:BundledImageDescription" href="platform:/resource/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='Interface']/@subNodeMappings[name='Signature']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='Interface']/@subNodeMappings[name='Signature']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_rpAcIdW8EeunpsQfo0v3oA" name="PoolingAudioDB" outgoingEdges="_nATk8NW3EeunpsQfo0v3oA">
+      <target xmi:type="SystemIndependentViewPoint:Component" href="mediastore.systemindependentviewpoint#PoolingAudioDB"/>
+      <semanticElements xmi:type="SystemIndependentViewPoint:Component" href="mediastore.systemindependentviewpoint#PoolingAudioDB"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_rpAcItW8EeunpsQfo0v3oA" labelSize="12" borderSize="1" borderSizeComputationExpression="1" backgroundColor="114,159,207">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='Component']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='Component']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_rpEtkNW8EeunpsQfo0v3oA">
+        <target xmi:type="SystemIndependentViewPoint:Service" href="mediastore.systemindependentviewpoint#//@repositoryElements.0/@services.0"/>
+        <semanticElements xmi:type="SystemIndependentViewPoint:Service" href="mediastore.systemindependentviewpoint#//@repositoryElements.0/@services.0"/>
+        <ownedStyle xmi:type="diagram:BundledImage" uid="_rpHJ0NW8EeunpsQfo0v3oA" labelSize="12" labelPosition="node">
+          <description xmi:type="style:BundledImageDescription" href="platform:/resource/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='Component']/@subNodeMappings[name='Service']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='Component']/@subNodeMappings[name='Service']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_rpBqQtW8EeunpsQfo0v3oA" name="DigitalWatermarking" outgoingEdges="_nAcu4tW3EeunpsQfo0v3oA _ruDRFtW4EeunpsQfo0v3oA">
+      <target xmi:type="SystemIndependentViewPoint:Component" href="mediastore.systemindependentviewpoint#DigitalWatermarking"/>
+      <semanticElements xmi:type="SystemIndependentViewPoint:Component" href="mediastore.systemindependentviewpoint#DigitalWatermarking"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_rpBqQ9W8EeunpsQfo0v3oA" labelSize="12" borderSize="1" borderSizeComputationExpression="1" backgroundColor="114,159,207">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='Component']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='Component']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_rpCRUNW8EeunpsQfo0v3oA" name="DBCache" outgoingEdges="_nAdV8tW3EeunpsQfo0v3oA _CxRxhtW4EeunpsQfo0v3oA">
+      <target xmi:type="SystemIndependentViewPoint:Component" href="mediastore.systemindependentviewpoint#DBCache"/>
+      <semanticElements xmi:type="SystemIndependentViewPoint:Component" href="mediastore.systemindependentviewpoint#DBCache"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_rpCRUdW8EeunpsQfo0v3oA" labelSize="12" borderSize="1" borderSizeComputationExpression="1" backgroundColor="114,159,207">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='Component']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='Component']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_rpCRVdW8EeunpsQfo0v3oA" name="MediaManager" outgoingEdges="_nAd9ANW3EeunpsQfo0v3oA _CxSYlNW4EeunpsQfo0v3oA _CxS_pNW4EeunpsQfo0v3oA">
+      <target xmi:type="SystemIndependentViewPoint:Component" href="mediastore.systemindependentviewpoint#MediaManager"/>
+      <semanticElements xmi:type="SystemIndependentViewPoint:Component" href="mediastore.systemindependentviewpoint#MediaManager"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_rpC4YNW8EeunpsQfo0v3oA" labelSize="12" borderSize="1" borderSizeComputationExpression="1" backgroundColor="114,159,207">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='Component']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='Component']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_rpEGgtW8EeunpsQfo0v3oA" name="WebGUI" outgoingEdges="_nAd9BdW3EeunpsQfo0v3oA _CxS_qdW4EeunpsQfo0v3oA">
+      <target xmi:type="SystemIndependentViewPoint:Component" href="mediastore.systemindependentviewpoint#WebGUI"/>
+      <semanticElements xmi:type="SystemIndependentViewPoint:Component" href="mediastore.systemindependentviewpoint#WebGUI"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_rpEGg9W8EeunpsQfo0v3oA" labelSize="12" borderSize="1" borderSizeComputationExpression="1" backgroundColor="114,159,207">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='Component']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='Component']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_HpSUMNW2EeunpsQfo0v3oA"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/SimplePalladio.design/description/SimplePalladio.odesign#//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer"/>
+    <target xmi:type="SystemIndependentViewPoint:RepositoryViewType" href="mediastore.systemindependentviewpoint#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>
