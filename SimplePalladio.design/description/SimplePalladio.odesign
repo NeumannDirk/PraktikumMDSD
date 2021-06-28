@@ -153,7 +153,9 @@
             <elementView name="elementView"/>
             <containerView name="containerView"/>
             <initialOperation>
-              <firstModelOperations xsi:type="tool_1:ChangeContext"/>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:containerView.target">
+                <subModelOperations xsi:type="tool_1:Unset" featureName="signatures" elementExpression="var:element"/>
+              </firstModelOperations>
             </initialOperation>
           </ownedTools>
           <ownedTools xsi:type="tool:ContainerCreationDescription" name="SignatureCreation" containerMappings="//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='Interface']/@subContainerMappings[name='Signature']">
