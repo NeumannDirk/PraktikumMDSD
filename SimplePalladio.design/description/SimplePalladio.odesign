@@ -4,7 +4,7 @@
     <ownedRepresentations xsi:type="description_1:DiagramDescription" name="Repository" domainClass="SystemIndependentViewPoint::RepositoryViewType" enablePopupBars="true">
       <metamodel href="http://www.example.org/simplePalladio/SystemIndependentViewPoint#/"/>
       <defaultLayer name="Default">
-        <edgeMappings name="ProvidedRole" sourceMapping="//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='Component'] //@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='CompositeComponent']" targetMapping="//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='Interface']" targetFinderExpression="feature:providedInterfaces">
+        <edgeMappings name="ProvidedRole" deletionDescription="//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@toolSections.1/@ownedTools[name='ProvidedRoleDeletion']" sourceMapping="//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='Component'] //@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='CompositeComponent']" targetMapping="//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='Interface']" targetFinderExpression="feature:providedInterfaces">
           <style sizeComputationExpression="2">
             <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
             <centerLabelStyleDescription labelSize="12" labelExpression="provided">
@@ -12,7 +12,7 @@
             </centerLabelStyleDescription>
           </style>
         </edgeMappings>
-        <edgeMappings name="RequiredRole" sourceMapping="//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='Component'] //@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='CompositeComponent']" targetMapping="//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='Interface']" targetFinderExpression="feature:requiredInterfaces">
+        <edgeMappings name="RequiredRole" deletionDescription="//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@toolSections.1/@ownedTools[name='RequiredRoleDeletion']" sourceMapping="//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='Component'] //@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='CompositeComponent']" targetMapping="//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='Interface']" targetFinderExpression="feature:requiredInterfaces">
           <style sizeComputationExpression="2">
             <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
             <centerLabelStyleDescription labelSize="12" labelExpression="required">
@@ -20,15 +20,23 @@
             </centerLabelStyleDescription>
           </style>
         </edgeMappings>
-        <containerMappings name="Interface" semanticCandidatesExpression="feature:repositoryElements" domainClass="SystemIndependentViewPoint::Interface" childrenPresentation="List">
-          <subNodeMappings name="Signature" deletionDescription="//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@toolSections.0/@ownedTools[name='SignatureDeletion']" semanticCandidatesExpression="feature:signatures" domainClass="SystemIndependentViewPoint::Signature">
-            <style xsi:type="style:BundledImageDescription" labelSize="12" showIcon="false" labelExpression="aql:self.name + '(): ' + self.returnValue.toString().toLower()" labelPosition="node" resizeKind="NSEW">
+        <containerMappings name="Interface" semanticCandidatesExpression="feature:repositoryElements" domainClass="SystemIndependentViewPoint::Interface">
+          <subContainerMappings name="Signature" deletionDescription="//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@toolSections.2/@ownedTools[name='SignatureDeletion']" semanticCandidatesExpression="feature:signatures" domainClass="SystemIndependentViewPoint::Signature" childrenPresentation="List">
+            <subNodeMappings name="Parameter" deletionDescription="//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@toolSections.2/@ownedTools[name='ParameterDeletion']" semanticCandidatesExpression="feature:parameters" domainClass="SystemIndependentViewPoint::Parameter">
+              <style xsi:type="style:SquareDescription" labelSize="12" labelExpression="aql:self.name + ' : ' + self.type.toString().toLower()" labelPosition="node" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              </style>
+            </subNodeMappings>
+            <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12" labelExpression="aql:self.name + ' : ' + self.returnValue.toString().toLower()" labelAlignment="LEFT">
               <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
               <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
             </style>
-          </subNodeMappings>
-          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12">
+          </subContainerMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12" labelExpression="aql:self.name">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
@@ -59,17 +67,6 @@
           </style>
         </containerMappings>
         <toolSections name="Component Tools">
-          <ownedTools xsi:type="tool:ContainerCreationDescription" name="InterfaceCreation" containerMappings="//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='Interface']">
-            <variable name="container"/>
-            <viewVariable name="containerView"/>
-            <initialOperation>
-              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
-                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="SystemIndependentViewPoint::Interface" referenceName="repositoryElements">
-                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="&quot;ExampleName&quot;"/>
-                </subModelOperations>
-              </firstModelOperations>
-            </initialOperation>
-          </ownedTools>
           <ownedTools xsi:type="tool:ContainerCreationDescription" name="ComponentCreation" containerMappings="//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='Component']">
             <variable name="container"/>
             <viewVariable name="containerView"/>
@@ -90,30 +87,6 @@
                   <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="&quot;ExampleName&quot;"/>
                 </subModelOperations>
               </firstModelOperations>
-            </initialOperation>
-          </ownedTools>
-          <ownedTools xsi:type="tool:NodeCreationDescription" name="SignatureCreation" nodeMappings="//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='Interface']/@subNodeMappings[name='Signature']">
-            <variable name="container"/>
-            <viewVariable name="containerView"/>
-            <initialOperation>
-              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
-                <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="feature:eContainer">
-                  <subModelOperations xsi:type="tool_1:CreateInstance" typeName="SystemIndependentViewPoint::Signature" referenceName="repositoryElements">
-                    <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="&quot;ExampleName&quot;"/>
-                    <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
-                      <subModelOperations xsi:type="tool_1:SetValue" featureName="signatures" valueExpression="var:instance"/>
-                    </subModelOperations>
-                  </subModelOperations>
-                </subModelOperations>
-              </firstModelOperations>
-            </initialOperation>
-          </ownedTools>
-          <ownedTools xsi:type="tool:DeleteElementDescription" name="SignatureDeletion">
-            <element name="element"/>
-            <elementView name="elementView"/>
-            <containerView name="containerView"/>
-            <initialOperation>
-              <firstModelOperations xsi:type="tool_1:ChangeContext"/>
             </initialOperation>
           </ownedTools>
           <ownedTools xsi:type="tool:NodeCreationDescription" name="ServiceCreation" nodeMappings="//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='Component']/@subNodeMappings[name='Service']">
@@ -150,6 +123,83 @@
             <initialOperation>
               <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:source">
                 <subModelOperations xsi:type="tool_1:SetValue" featureName="requiredInterfaces" valueExpression="var:target"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="RequiredRoleDeletion">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:element">
+                <subModelOperations xsi:type="tool_1:Unset" featureName="requiredInterfaces" elementExpression="aql:elementView.targetNode.target"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="ProvidedRoleDeletion">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:element">
+                <subModelOperations xsi:type="tool_1:Unset" featureName="providedInterfaces" elementExpression="aql:elementView.targetNode.target"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+        <toolSections name=" InterfaceCreationSection">
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="SignatureDeletion" inverseSelectionOrder="true">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:containerView.target">
+                <subModelOperations xsi:type="tool_1:Unset" featureName="signatures" elementExpression="var:element"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="SignatureCreation" containerMappings="//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='Interface']/@subContainerMappings[name='Signature']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="ocl:self.eContainer().oclAsType(SystemIndependentViewPoint::RepositoryViewType)">
+                  <subModelOperations xsi:type="tool_1:CreateInstance" typeName="SystemIndependentViewPoint::Signature" referenceName="repositoryElements">
+                    <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="'signature'"/>
+                  </subModelOperations>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="ParameterCreation" nodeMappings="//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='Interface']/@subContainerMappings[name='Signature']/@subNodeMappings[name='Parameter']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="SystemIndependentViewPoint::Parameter" referenceName="parameters">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="param"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="InterfaceCreation" containerMappings="//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@containerMappings[name='Interface']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="SystemIndependentViewPoint::Interface" referenceName="repositoryElements">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="ExampleName"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="ParameterDeletion">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:element">
+                <subModelOperations xsi:type="tool_1:RemoveElement"/>
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
