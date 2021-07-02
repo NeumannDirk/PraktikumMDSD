@@ -1,9 +1,9 @@
 [0] Config.pm:304> INFO - This is Biber 2.14
 [0] Config.pm:307> INFO - Logfile is 'presentation.blg'
-[123] biber-darwin:322> INFO - === Mon Jun 28, 2021, 16:21:38
-[145] Biber.pm:415> INFO - Reading 'presentation.bcf'
-[292] Biber.pm:943> INFO - Found 0 citekeys in bib section 0
-[300] Utils.pm:304> WARN - The file 'presentation.bcf' does not contain any citations!
-[313] bbl.pm:652> INFO - Writing 'presentation.bbl' with encoding 'UTF-8'
-[313] bbl.pm:755> INFO - Output to presentation.bbl
-[313] Biber.pm:128> INFO - WARNINGS: 1
+[85] biber-darwin:322> INFO - === Fri Jul  2, 2021, 15:44:22
+[101] Biber.pm:415> INFO - Reading 'presentation.bcf'
+[204] Biber.pm:943> INFO - Found 0 citekeys in bib section 0
+[209] Utils.pm:304> WARN - The file 'presentation.bcf' does not contain any citations!
+[218] bbl.pm:652> INFO - Writing 'presentation.bbl' with encoding 'UTF-8'
+[218] bbl.pm:755> INFO - Output to presentation.bbl
+[218] Biber.pm:128> INFO - WARNINGS: 1
