@@ -20,9 +20,9 @@
             </centerLabelStyleDescription>
           </style>
         </edgeMappings>
-        <containerMappings name="Interface" semanticCandidatesExpression="feature:repositoryElements" domainClass="SystemIndependentViewPoint::Interface">
-          <subContainerMappings name="Signature" deletionDescription="//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@toolSections.2/@ownedTools[name='SignatureDeletion']" semanticCandidatesExpression="feature:signatures" domainClass="SystemIndependentViewPoint::Signature" childrenPresentation="List">
-            <subNodeMappings name="Parameter" deletionDescription="//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@toolSections.2/@ownedTools[name='ParameterDeletion']" semanticCandidatesExpression="feature:parameters" domainClass="SystemIndependentViewPoint::Parameter">
+        <containerMappings name="Interface" labelDirectEdit="//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@toolSections.2/@ownedTools[name='InterfaceLabelEdit']" semanticCandidatesExpression="feature:repositoryElements" domainClass="SystemIndependentViewPoint::Interface" childrenPresentation="VerticalStack">
+          <subContainerMappings name="Signature" deletionDescription="//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@toolSections.2/@ownedTools[name='SignatureDeletion']" labelDirectEdit="//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@toolSections.2/@ownedTools[name='SignatureLabelEdit']" semanticCandidatesExpression="feature:signatures" domainClass="SystemIndependentViewPoint::Signature" childrenPresentation="List">
+            <subNodeMappings name="Parameter" deletionDescription="//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@toolSections.2/@ownedTools[name='ParameterDeletion']" labelDirectEdit="//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@toolSections.2/@ownedTools[name='ParameterLabelEdit']" semanticCandidatesExpression="feature:parameters" domainClass="SystemIndependentViewPoint::Parameter">
               <style xsi:type="style:SquareDescription" labelSize="12" labelExpression="aql:self.name + ' : ' + self.type.toString().toLower()" labelPosition="node" resizeKind="NSEW">
                 <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
                 <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
@@ -43,7 +43,7 @@
             <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
           </style>
         </containerMappings>
-        <containerMappings name="Component" semanticCandidatesExpression="feature:repositoryElements" domainClass="SystemIndependentViewPoint::Component" childrenPresentation="List">
+        <containerMappings name="Component" labelDirectEdit="//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@toolSections.0/@ownedTools[name='ComponentLabelEdit']" semanticCandidatesExpression="feature:repositoryElements" domainClass="SystemIndependentViewPoint::Component" childrenPresentation="List">
           <subNodeMappings name="Service" semanticCandidatesExpression="feature:services" domainClass="SystemIndependentViewPoint::Service">
             <style xsi:type="style:BundledImageDescription" labelSize="12" labelExpression="aql:self.signature.name" labelPosition="node" resizeKind="NSEW">
               <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
@@ -58,7 +58,7 @@
             <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
           </style>
         </containerMappings>
-        <containerMappings name="CompositeComponent" semanticCandidatesExpression="feature:repositoryElements" domainClass="SystemIndependentViewPoint::CompositeComponent">
+        <containerMappings name="CompositeComponent" labelDirectEdit="//@ownedViewpoints[name='SystemIndependentViewpoint']/@ownedRepresentations[name='Repository']/@defaultLayer/@toolSections.0/@ownedTools[name='ComponentLabelEdit']" semanticCandidatesExpression="feature:repositoryElements" domainClass="SystemIndependentViewPoint::CompositeComponent">
           <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
@@ -73,7 +73,7 @@
             <initialOperation>
               <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
                 <subModelOperations xsi:type="tool_1:CreateInstance" typeName="SystemIndependentViewPoint::Component" referenceName="repositoryElements">
-                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="&quot;ExampleName&quot;"/>
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="ExampleName"/>
                 </subModelOperations>
               </firstModelOperations>
             </initialOperation>
@@ -84,7 +84,7 @@
             <initialOperation>
               <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
                 <subModelOperations xsi:type="tool_1:CreateInstance" typeName="SystemIndependentViewPoint::CompositeComponent" referenceName="repositoryElements">
-                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="&quot;ExampleName&quot;"/>
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="ExampleName"/>
                 </subModelOperations>
               </firstModelOperations>
             </initialOperation>
@@ -100,6 +100,12 @@
                   </subModelOperations>
                 </subModelOperations>
               </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="ComponentLabelEdit">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="var:0"/>
             </initialOperation>
           </ownedTools>
         </toolSections>
@@ -163,9 +169,14 @@
             <viewVariable name="containerView"/>
             <initialOperation>
               <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
-                <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="ocl:self.eContainer().oclAsType(SystemIndependentViewPoint::RepositoryViewType)">
+                <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="feature:eContainer">
                   <subModelOperations xsi:type="tool_1:CreateInstance" typeName="SystemIndependentViewPoint::Signature" referenceName="repositoryElements">
-                    <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="'signature'"/>
+                    <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:instance">
+                      <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="signature"/>
+                    </subModelOperations>
+                    <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                      <subModelOperations xsi:type="tool_1:SetValue" featureName="signatures" valueExpression="var:instance"/>
+                    </subModelOperations>
                   </subModelOperations>
                 </subModelOperations>
               </firstModelOperations>
@@ -200,6 +211,28 @@
             <initialOperation>
               <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:element">
                 <subModelOperations xsi:type="tool_1:RemoveElement"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="InterfaceLabelEdit">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="var:0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="SignatureLabelEdit">
+            <mask mask="{0} : {1}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="var:0">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="returnValue" valueExpression="var:1"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="ParameterLabelEdit">
+            <mask mask="{0} : {1}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="var:0">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="type" valueExpression="var:1"/>
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
