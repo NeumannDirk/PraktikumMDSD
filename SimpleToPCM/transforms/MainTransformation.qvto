@@ -15,7 +15,7 @@ transformation MainTransformation(in sAll:SIMPLEDeployment, in sAss:SIMPLEAssemb
 intermediate class TRole {
 	communicator:SIMPLESystemIndependent::InterfaceCommunicator;
 	interface:SIMPLESystemIndependent::Interface;
-}; 
+};
 
 main() {
 	// Environment Mapping
@@ -77,37 +77,6 @@ mapping SIMPLESystemIndependent::RepositoryViewType::repvtMapping() : PCMReposit
 	result.dataTypes__Repository += SIMPLESystemIndependent::Type::LIST.map basicDataTypeMapping(result.dataTypes__Repository);
 	result.interfaces__Repository := self.repositoryElements->select(it| it.oclIsKindOf(SIMPLESystemIndependent::Interface))->collect(it|it.oclAsType(SIMPLESystemIndependent::Interface)) -> collect(c|c->map interfaceMapping());
 	result.components__Repository := self.repositoryElements->selectByKind(SIMPLESystemIndependent::AbstractComponent) -> collect(c|c->map abstractComponentMapping());
-	//Presentation purpose
-	//result.failureTypes do not exist in SimplePalladio
-	//primitive Datatype
-//	result.dataTypes__Repository += object PCMRepository::PrimitiveDataType {type := PCMRepository::PrimitiveTypeEnum::BOOL};
-//	result.dataTypes__Repository += object PCMRepository::PrimitiveDataType {type := PCMRepository::PrimitiveTypeEnum::CHAR};
-//	result.dataTypes__Repository += object PCMRepository::PrimitiveDataType {type := PCMRepository::PrimitiveTypeEnum::DOUBLE};
-//	result.dataTypes__Repository += object PCMRepository::PrimitiveDataType {type := PCMRepository::PrimitiveTypeEnum::INT};
-//	result.dataTypes__Repository += long;
-//	result.dataTypes__Repository += string;
-	//DATE
-//	result.dataTypes__Repository += object PCMRepository::CompositeDataType {
-//		id := 'DATE';
-//		entityName := 'DATE';
-//		innerDeclaration_CompositeDataType += object PCMRepository::InnerDeclaration{ 
-//			entityName := 'UnixEpochTime';
-//			datatype_InnerDeclaration := long;
-//		};
-//	};
-	//MAP
-//	result.dataTypes__Repository += object PCMRepository::CollectionDataType{ 
-//		id := 'MAP';
-//		entityName := 'MAP';		
-//		innerType_CollectionDataType := keyValuePair;
-//	};
-	//LIST
-//	result.dataTypes__Repository += object PCMRepository::CollectionDataType{
-//		id := 'LIST';
-//		entityName := 'LIST';
-//		innerType_CollectionDataType := string;		
-//	};
-	//VOID does not exist explicitly in PCM represantation.
 }
 
 abstract mapping SIMPLESystemIndependent::AbstractComponent::abstractComponentMapping() : PCMRepository::RepositoryComponent
@@ -202,24 +171,15 @@ mapping SIMPLESystemIndependent::ExternalCall::externalCallMapping(behDesc: SIMP
 	result.calledService_ExternalService := self.signature.resolveone(PCMRepository::OperationSignature);
 	
 	result.role_ExternalService := entity.resolveReqRole(selfInterface.resolveone(PCMRepository::OperationInterface));
-	
-	/*
-	object TRole{
-		communicator := selfComponent;
-		interface := selfInterface;
-	}.resolveReqRole();
-	*/
 }
 
 mapping SIMPLESystemIndependent::Loop::loopMapping(behDesc: SIMPLESystemIndependent::BehaviourDescription, entity: PCMEntity::InterfaceProvidingRequiringEntity) : PCMSEFF::LoopAction {
-	//tODO: Variables - no information availiable in SimplePalladio
 	result.bodyBehaviour_Loop := object PCMSEFF::ResourceDemandingBehaviour {
 		steps_Behaviour := self.behaviorElements->collect(be|be -> map behaviorElementMapping(behDesc, entity));
 	}
 }
 
 mapping SIMPLESystemIndependent::Branch::branchMapping(behDesc: SIMPLESystemIndependent::BehaviourDescription, entity: PCMEntity::InterfaceProvidingRequiringEntity) : PCMSEFF::BranchAction {
-	//tODO: Variables - no information availiable in SimplePalladio
 	result.branches_Branch := object PCMSEFF::GuardedBranchTransition {
 		branchBehaviour_BranchTransition := object PCMSEFF::ResourceDemandingBehaviour {
 			steps_Behaviour := self.behaviorElements->collect(be|be -> map behaviorElementMapping(behDesc, entity));
@@ -292,11 +252,6 @@ mapping SIMPLEAssembly::AssemblyViewType::assvtMapping() : PCMSystem::System@pS{
 		}.map reqRoleMapping());
 	result.assemblyContexts__ComposedStructure := assContexts -> collect(c|c->map assemblyContextMapping());
 	result.connectors__ComposedStructure := assConnectors->collect(c|c->map abstractConnectorMapping(result));
-	//tODO: no information availiable in SimplePalladio for:
-	//	result.qosAnnotations_System;	
-	//	result.resourceRequiredRoles__ResourceInterfaceRequiringEntity;
-	//	result.eventChannel__ComposedStructure;
-	//	result.resourceRequiredDelegationConnectors_ComposedStructure;
 }
 
 mapping SIMPLEAssembly::AssemblyContext::assemblyContextMapping() : PCMComposition::AssemblyContext{
@@ -325,8 +280,6 @@ mapping SIMPLEAssembly::AssemblyConnector::assemblyConnectorMapping(entity: PCME
 
 mapping SIMPLEAssembly::DelegationConnector::provDelegationConnectorMapping(entity: PCMEntity::InterfaceProvidingRequiringEntity) : PCMComposition::ProvidedDelegationConnector 
 when {self.role.parentProviderAssemblyContext->notEmpty()} {
-	//log('Hello here in provDelegationConnectorMapping()');
-	//log('assConnectors->size().toString() ' + assConnectors->size().toString());
 	result.entityName := self.name;
 	result.assemblyContext_ProvidedDelegationConnector := self.role.parentProviderAssemblyContext.resolveone(PCMComposition::AssemblyContext);
 	result.innerProvidedRole_ProvidedDelegationConnector := object TRole{ 
@@ -334,16 +287,9 @@ when {self.role.parentProviderAssemblyContext->notEmpty()} {
 		interface := self.role.interface;
 	}.resolveProvRole();	
 	result.outerProvidedRole_ProvidedDelegationConnector := entity.resolveProvRole(self.interface.resolveone(PCMRepository::OperationInterface));
-	/*
-	object TRole{ 
-		communicator := self.system;
-		interface := self.interface;
-	}.resolveProvRole();
-	*/	
 }
 mapping SIMPLEAssembly::DelegationConnector::reqDelegationConnectorMapping(entity: PCMEntity::InterfaceProvidingRequiringEntity) : PCMComposition::RequiredDelegationConnector 
 when {self.role.parentRequirereeAssemblyContext->notEmpty()} {
-	//log('Hello here in reqDelegationConnectorMapping()');
 	result.entityName := self.name;
 	result.assemblyContext_RequiredDelegationConnector := self.role.parentRequirereeAssemblyContext.resolveone(PCMComposition::AssemblyContext);
 	result.innerRequiredRole_RequiredDelegationConnector := object TRole{ 
@@ -351,11 +297,6 @@ when {self.role.parentRequirereeAssemblyContext->notEmpty()} {
 		interface := self.role.interface;
 	}.resolveReqRole();
 	result.outerRequiredRole_RequiredDelegationConnector := entity.resolveReqRole(self.interface.resolveone(PCMRepository::OperationInterface));
-	/* object TRole{ 
-		communicator := self.system;
-		interface := self.interface;
-	}.resolveReqRole();
-	*/
 }
 
 mapping TRole::provRoleMapping() : PCMRepository::OperationProvidedRole{
