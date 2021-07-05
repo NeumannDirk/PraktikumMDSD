@@ -1,9 +1,0 @@
-EnvironmentViewType {
-	environmentElements {
-		Container ApplicationServer,
-		Container DatabaseServer,
-		Link Network {
-			containers (ApplicationServer, DatabaseServer)
-		}
-	}
-}

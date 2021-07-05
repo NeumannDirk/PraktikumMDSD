@@ -3,16 +3,12 @@
 \defcounter {refsection}{0}\relax 
 \beamer@sectionintoc {1}{M1: Meta-Modellierung}{3}{0}{1}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {2}{M2: Xtext - textuelle Syntax}{6}{0}{2}
+\beamer@sectionintoc {2}{M2: Xtext - textuelle Syntax}{5}{0}{2}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {3}{M3: QVTo - Modelltransformation}{8}{0}{3}
+\beamer@sectionintoc {3}{M3: QVTo - Modelltransformation}{7}{0}{3}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {4}{M4: Xtend - Code-Generierung}{10}{0}{4}
+\beamer@sectionintoc {4}{M4: Xtend - Code-Generierung}{9}{0}{4}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {5}{M5: Sirius - graphischer Editor}{12}{0}{5}
+\beamer@sectionintoc {5}{M5: Sirius - grafischer Editor}{12}{0}{5}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {6}{Evaluation}{14}{0}{6}
-\defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {7}{Key Learnings}{15}{0}{7}
-\defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {8}{Zusammenfassung}{16}{0}{8}
+\beamer@sectionintoc {6}{Key Learnings}{14}{0}{6}

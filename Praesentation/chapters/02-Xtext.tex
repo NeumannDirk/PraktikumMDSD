@@ -1,19 +1,24 @@
 \section[M2: Xtext]{M2: Xtext - textuelle Syntax}
 \begin{frame}{Xtext - textuelle Syntax}
-    \begin{itemize}
-        \item Ergebnis: mediastore.envvt
-    \end{itemize}
-	\vspace{1mm}
     \centering
-	\includegraphics[height=40mm]{figures/xtext.png}
+    \includegraphics[height=40mm]{figures/xtext.png}
+    \begin{itemize}
+        \item Ergebnis: \texttt{mediastore.simplepalladio}
+    \end{itemize}
 \end{frame}
 
-\begin{frame}{Entwurfsentscheidungen und Probleme}
-	\begin{itemize}
-		\item import von Packages
+\begin{frame}{Probleme beim Entwurf der textuellen Syntax}
+	\begin{enumerate}
+		\item Import von verschiedenen Packages konnte nicht aufgelöst werden
 		\begin{itemize}
-            \item Lösung:
+            \item Lösung: Verwendung von alternativer Importschreibweise anstatt Ns URI
+            \item \texttt{import "platform:/resource/SimplePalladio/..."}
         \end{itemize}
-        \item OCL Constraints
-	\end{itemize}
+        \item Probleme mit Proxy-Ausflösung und zyklischen Abhängigkeiten
+		\begin{itemize}
+            \item Lösung: Grammatik als Weaving-Modell der verschiedenen Modelle in einer Datei
+            \item \texttt{<datei>.simplepalladio}
+        \end{itemize}
+        \item OCL Constraints werden automatisch ausgewertet $\Rightarrow$ führte zu Fehlern, da OCL Constraints defekt waren
+	\end{enumerate}
 \end{frame}
