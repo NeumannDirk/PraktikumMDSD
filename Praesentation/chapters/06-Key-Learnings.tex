@@ -1,6 +1,6 @@
 \section{Key Learnings}
-\begin{frame}{Key Learnings}
-	\begin{itemize}
+\begin{frame}{Key Learnings (1)}
+	\begin{enumerate}
 		\item OCL wurde am Anfang wenig getestet und hat dann zu Problemen im weiteren Verlauf der Meilensteine geführt
 		\item Unterscheidung zwischen einfacher Modellierung und OCL hat unterschiedliche Vor- und Nachteile gegenüber von Modellierung über komplexeren Klassenstrukturen
 		\begin{itemize}
@@ -11,5 +11,17 @@
 		\begin{itemize}
 			\item Beispiel: Modelltransformation (siehe Probleme Modelltransformation)
 		\end{itemize}
-	\end{itemize}
+		\item Informationsbeschaffung durch Literatur und Foren im Internet ist nur schwierig möglich $\rightarrow$ wenig vorhanden und wenn alte outdated Forumseinträge
+	\end{enumerate}
+\end{frame}
+
+\begin{frame}{Key Learnings (2)}
+	\begin{enumerate}
+		\item Interpreter in Eclipse: OCL-Ausdruck eingeben und zeigt die Werte an
+		\item Vorsichtig sein mit bidirektionalen Referenzen:
+		\begin{itemize}
+			\item nützlich bei OCL und Sirius $\rightarrow$ leichter um zwischen Kontexten zu wechseln (z.B. beim Löschen kann man in beide Richtungen gehen)
+			\item Nachteilig bei Xtext $\rightarrow$ jedoch Lösung durch Sandwiching
+		\end{itemize}
+	\end{enumerate}
 \end{frame}

@@ -20,7 +20,23 @@
 \end{frame}
 
 \begin{frame}{Entwurfsentscheidungen beim grafischen Editor}
-	\begin{itemize}
+	\begin{enumerate}
+		\item Generell: Erstellung der konkreten Syntax von der abstrakten Syntax (Meta-Modell)
 		\item Parameter werden als Liste innerhalb von Signaturblöcken dargestellt
-	\end{itemize}
+		\item Verwendung des grafischen Editors, um die Verwendung des Meta-Modells so intuiitiv wie möglich zu gestalten
+		\begin{itemize}
+			\item Verwendung von üblichen Farben, Symbolen, Icons ermöglicht die Modellierung von 
+		\end{itemize}
+	\end{enumerate}
+\end{frame}
+
+\begin{frame}{Probleme beim grafischen Editor}
+	\begin{enumerate}
+		\item Kontextwechsel muss man wissen
+		\begin{itemize}
+			\item Beispiel: Signaturen gehören bei Sirius zu Interfaces $\rightarrow$ wenn Interface gelöscht wird, dann ist Signatur weg, in Meta-Modell ist es weiterhin da
+		\end{itemize}
+		\item Parameterlisten
+		\item eigenständige Datentypen als Parameter
+	\end{enumerate}
 \end{frame}

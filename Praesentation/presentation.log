@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.5.20)  5 JUL 2021 16:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.5.20)  12 JUL 2021 15:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1080,7 +1080,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--27
 
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 6.43999pt on input line 27.
-<logos/kitlogo_de_rgb.pdf, id=55, 196.91472pt x 90.65388pt>
+<logos/kitlogo_de_rgb.pdf, id=57, 196.91472pt x 90.65388pt>
 File: logos/kitlogo_de_rgb.pdf Graphic file (type pdf)
 <use logos/kitlogo_de_rgb.pdf>
 Package pdftex.def Info: logos/kitlogo_de_rgb.pdf  used on input line 30.
@@ -1098,7 +1098,7 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 8.27998pt on input line 30.
 \kittitleimageheight=\skip93
-<logos/banner_2020_kit.jpg, id=56, 1927.2pt x 445.665pt>
+<logos/banner_2020_kit.jpg, id=58, 1927.2pt x 445.665pt>
 File: logos/banner_2020_kit.jpg Graphic file (type jpg)
 <use logos/banner_2020_kit.jpg>
 Package pdftex.def Info: logos/banner_2020_kit.jpg  used on input line 30.
@@ -1129,7 +1129,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [2
 
 ] (/Users/jakobhoefker/code/PraktikumMDSD/Praesentation/chapters/01-Meta-Modell.tex
-<figures/meta-modell.png, id=109, 2926.935pt x 1391.1975pt>
+<figures/meta-modell.png, id=115, 2926.935pt x 1391.1975pt>
 File: figures/meta-modell.png Graphic file (type png)
 <use figures/meta-modell.png>
 Package pdftex.def Info: figures/meta-modell.png  used on input line 5.
@@ -1168,7 +1168,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [4
 
 ]) (/Users/jakobhoefker/code/PraktikumMDSD/Praesentation/chapters/02-Xtext.tex
-<figures/xtext.png, id=157, 594.22pt x 482.80376pt>
+<figures/xtext.png, id=170, 594.22pt x 482.80376pt>
 File: figures/xtext.png Graphic file (type png)
 <use figures/xtext.png>
 Package pdftex.def Info: figures/xtext.png  used on input line 8.
@@ -1227,7 +1227,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [6
 
 ]) (/Users/jakobhoefker/code/PraktikumMDSD/Praesentation/chapters/03-QVTo-Modelltransformation.tex
-<figures/qvto.png, id=207, 572.1375pt x 217.81375pt>
+<figures/qvto.png, id=221, 572.1375pt x 217.81375pt>
 File: figures/qvto.png Graphic file (type png)
 <use figures/qvto.png>
 Package pdftex.def Info: figures/qvto.png  used on input line 5.
@@ -1270,7 +1270,7 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 11.03998pt on input line 17.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 11.03998pt on input line 17.
-<figures/xtend.png, id=255, 488.82625pt x 523.9575pt>
+<figures/xtend.png, id=273, 488.82625pt x 523.9575pt>
 File: figures/xtend.png Graphic file (type png)
 <use figures/xtend.png>
 Package pdftex.def Info: figures/xtend.png  used on input line 17.
@@ -1311,7 +1311,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [11
 
 ]) (/Users/jakobhoefker/code/PraktikumMDSD/Praesentation/chapters/05-Sirius.tex
-<figures/sirius.png, id=324, 771.88374pt x 518.93875pt>
+<figures/sirius.png, id=348, 771.88374pt x 518.93875pt>
 File: figures/sirius.png Graphic file (type png)
 <use figures/sirius.png>
 Package pdftex.def Info: figures/sirius.png  used on input line 20.
@@ -1335,7 +1335,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  </Users/jakobhoefker/code/PraktikumMDSD/Praesentation/figures/sirius.png>]
 File: logos/kitlogo_de_rgb.pdf Graphic file (type pdf)
 <use logos/kitlogo_de_rgb.pdf>
-Package pdftex.def Info: logos/kitlogo_de_rgb.pdf  used on input line 26.
+Package pdftex.def Info: logos/kitlogo_de_rgb.pdf  used on input line 31.
 (pdftex.def)             Requested size: 56.9055pt x 26.19765pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -1344,10 +1344,10 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 [13
 
-]) (/Users/jakobhoefker/code/PraktikumMDSD/Praesentation/chapters/06-Key-Learnings.tex
+]
 File: logos/kitlogo_de_rgb.pdf Graphic file (type pdf)
 <use logos/kitlogo_de_rgb.pdf>
-Package pdftex.def Info: logos/kitlogo_de_rgb.pdf  used on input line 15.
+Package pdftex.def Info: logos/kitlogo_de_rgb.pdf  used on input line 42.
 (pdftex.def)             Requested size: 56.9055pt x 26.19765pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -1355,6 +1355,30 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [14
+
+]) (/Users/jakobhoefker/code/PraktikumMDSD/Praesentation/chapters/06-Key-Learnings.tex
+File: logos/kitlogo_de_rgb.pdf Graphic file (type pdf)
+<use logos/kitlogo_de_rgb.pdf>
+Package pdftex.def Info: logos/kitlogo_de_rgb.pdf  used on input line 16.
+(pdftex.def)             Requested size: 56.9055pt x 26.19765pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][] 
+ []
+
+[15
+
+]
+File: logos/kitlogo_de_rgb.pdf Graphic file (type pdf)
+<use logos/kitlogo_de_rgb.pdf>
+Package pdftex.def Info: logos/kitlogo_de_rgb.pdf  used on input line 27.
+(pdftex.def)             Requested size: 56.9055pt x 26.19765pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][] 
+ []
+
+[16
 
 ])
 \c@framenumbervorappendix=\count455
@@ -1379,18 +1403,18 @@ Package logreq Info: Writing requests to 'presentation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31977 strings out of 480608
- 593536 string characters out of 5903630
- 1277559 words of memory out of 5000000
- 47153 multiletter control sequences out of 15000+600000
- 589659 words of font info for 103 fonts, out of 8000000 for 9000
+ 31988 strings out of 480608
+ 593630 string characters out of 5903630
+ 1279559 words of memory out of 5000000
+ 47157 multiletter control sequences out of 15000+600000
+ 589784 words of font info for 105 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  65i,19n,73p,870b,2281s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on /Users/jakobhoefker/code/PraktikumMDSD/Praesentation/presentation.pdf (14 pages, 764231 bytes).
+Output written on /Users/jakobhoefker/code/PraktikumMDSD/Praesentation/presentation.pdf (16 pages, 770265 bytes).
 PDF statistics:
- 422 PDF objects out of 1000 (max. 8388607)
- 360 compressed objects within 4 object streams
- 35 named destinations out of 1000 (max. 500000)
+ 504 PDF objects out of 1000 (max. 8388607)
+ 437 compressed objects within 5 object streams
+ 39 named destinations out of 1000 (max. 500000)
  26244 words of extra memory for PDF output out of 29859 (max. 10000000)
 

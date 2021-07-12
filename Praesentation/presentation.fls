@@ -430,6 +430,8 @@ INPUT /Users/jakobhoefker/code/PraktikumMDSD/Praesentation/logos/kitlogo_de_rgb.
 INPUT /Users/jakobhoefker/code/PraktikumMDSD/Praesentation/logos/kitlogo_de_rgb.pdf
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/vf/adobe/helvetic/phvr8t.vf
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/helvetic/phvr8r.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/vf/adobe/helvetic/phvr8t.vf
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/helvetic/phvr8r.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/vf/public/bera/fvmr8t.vf
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/bera/fvmr8r.tfm
 INPUT /Users/jakobhoefker/code/PraktikumMDSD/Praesentation/chapters/02-Xtext.tex
@@ -464,8 +466,6 @@ INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/helvetic/phvro8t.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/helvetic/phvro8t.tfm
 INPUT /Users/jakobhoefker/code/PraktikumMDSD/Praesentation/logos/kitlogo_de_rgb.pdf
 INPUT /Users/jakobhoefker/code/PraktikumMDSD/Praesentation/logos/kitlogo_de_rgb.pdf
-INPUT /usr/local/texlive/2020/texmf-dist/fonts/vf/adobe/helvetic/phvr8t.vf
-INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/helvetic/phvr8r.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/vf/public/bera/fvmr8t.vf
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/bera/fvmr8r.tfm
 INPUT /Users/jakobhoefker/code/PraktikumMDSD/Praesentation/chapters/03-QVTo-Modelltransformation.tex
@@ -514,8 +514,12 @@ INPUT /Users/jakobhoefker/code/PraktikumMDSD/Praesentation/logos/kitlogo_de_rgb.
 INPUT /Users/jakobhoefker/code/PraktikumMDSD/Praesentation/logos/kitlogo_de_rgb.pdf
 INPUT /Users/jakobhoefker/code/PraktikumMDSD/Praesentation/logos/kitlogo_de_rgb.pdf
 INPUT /Users/jakobhoefker/code/PraktikumMDSD/Praesentation/logos/kitlogo_de_rgb.pdf
+INPUT /Users/jakobhoefker/code/PraktikumMDSD/Praesentation/logos/kitlogo_de_rgb.pdf
+INPUT /Users/jakobhoefker/code/PraktikumMDSD/Praesentation/logos/kitlogo_de_rgb.pdf
 INPUT /Users/jakobhoefker/code/PraktikumMDSD/Praesentation/chapters/06-Key-Learnings.tex
 INPUT /Users/jakobhoefker/code/PraktikumMDSD/Praesentation/chapters/06-Key-Learnings.tex
+INPUT /Users/jakobhoefker/code/PraktikumMDSD/Praesentation/logos/kitlogo_de_rgb.pdf
+INPUT /Users/jakobhoefker/code/PraktikumMDSD/Praesentation/logos/kitlogo_de_rgb.pdf
 INPUT /Users/jakobhoefker/code/PraktikumMDSD/Praesentation/logos/kitlogo_de_rgb.pdf
 INPUT /Users/jakobhoefker/code/PraktikumMDSD/Praesentation/logos/kitlogo_de_rgb.pdf
 OUTPUT /Users/jakobhoefker/code/PraktikumMDSD/Praesentation/presentation.nav
