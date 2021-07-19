@@ -6,14 +6,33 @@
 
 \begin{frame}{Entwurfsentscheidungen für die Meta-Modellierung}
 	\begin{enumerate}
-		\item Verwendung von 4 Packages
+		\item Designentscheidung: Verwendung von 4 Packages
 		\begin{itemize}
-			\item klare Trennung der View Points
-			\item Nachteil für spätere Entwicklung
+			\item Common Package für wiederverwendbare Elemente
+			\item Vorteil: klare Trennung der View Points
+			\item Nachteil: geringe Unterstützung für Subpackages von Metamodellen $\Rightarrow$ macht spätere Entwicklung aufwendiger
 		\end{itemize}
-		\item Common Package für wiederverwendbare Elemente
-		\item ENUM zur Modellierung des \texttt{Type}
-		\item Verwendung von OCL
-		\item \item Designentscheidung: weniger oder mehr Informationen am Anfang beschreiben beeinflusst wie man mit dem Meta-Modell weiterarbeiten kann
+		\item Designentscheidung: Entscheidung für einfachere Modellierung
+		\begin{itemize}
+			\item führt zu mehr sowie komplexeren OCL Ausdrücken
+			\item erhöht den Bedarf nach bidirektionalen Referenzen
+			\item $\Rightarrow$ beeinflusst wie man mit dem Meta-Modell weiterarbeiten kann
+		\end{itemize}
+		\item Designentscheidung: ENUM zur Modellierung des \texttt{Type}
+		\begin{itemize}
+			\item Vorteil: einfaches statisches Typesystem
+			\item Nachteil: geringe flexibilität $\Rightarrow$ beschränkt den Raum der beschreibbaren Komponenten
+		\end{itemize}
 	\end{enumerate}
 \end{frame}
+
+\begin{frame}{Entwurfsentscheidungen für die Meta-Modellierung}
+	\begin{enumerate}
+		\setcounter{enumi}{3}
+		\item Designentscheidung: Providing/Requireing von Interfaces als Referenz (Set) realisiert
+		\begin{itemize}
+			\item jedes Interface kann nur einmal in jeder Referenz existieren
+			\item Nachteil: geringe flexibilität $\Rightarrow$ beschränkt den Raum der beschreibbaren Komponenten
+		\end{itemize}
+	\end{enumerate}
+\end{frame}		
