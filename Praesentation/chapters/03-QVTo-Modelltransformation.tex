@@ -1,20 +1,32 @@
 \section[M3: QVTo]{M3: QVTo - Modelltransformation}
 \begin{frame}{QVTo - Modelltransformation}
 	\centering
-	\includegraphics[height=40mm]{figures/qvto.png}
+	\includegraphics[height=10mm]{figures/modelltransformation.png}
+	\begin{enumerate}
+		\item Definieren von Eingabe-Modellen, Ausgabemodellen und Transformation zwischen diesen
+		\item Probleme
+		\begin{itemize}
+			\item Verschiedene Modellierungen (Enum vs. Relation vs. Objekt)
+			\item Vererbungshierarchien
+			\item Weniger-explizite Informationen in SimplePalladio
+		\end{itemize}
+	\end{enumerate}
 \end{frame}
 
-\begin{frame}{Entwurfsentscheidungen und Probleme bei der Modelltransformation}
+\begin{frame}{Verschiedene Modellierungen (Enum vs. Objekt)}
+	\centering
+	\includegraphics[height=60mm]{figures/modellierung-enum-objekt.png}
+\end{frame}
+
+\begin{frame}{Vererbungshierarchien}
+	\centering
+	\includegraphics[height=60mm]{figures/vererbungshierachien.png}
+\end{frame}
+
+\begin{frame}{Weniger-explizite Informationen}
 	\begin{enumerate}
-		\item Verwendung von intermediate-Objekt \texttt{TRole} zur Repräsentation von unterschiedlich existierenden Konzepten im Meta-Modell
-		\begin{itemize}
-			\item Interface- und Communicator-Konzept ist in Palladio anders umgesetzt
-			\item Unterschiede: Modellierung in Metamodell als Property und in Palladio als Klasse
-		\end{itemize}
-		\item Ausnutzen der Vererbungshierarchie in Metamodell
-		\begin{itemize}
-            \item Abstraktes Mapping: Mapping von abstraken Klassen mit Hilfe von polymorphen Disjunct-Mapping
-            \item Für Vererbungshierarchien auf Source-/Target-Seite $\rightarrow$ zusätzliche Verwendung für Mapping der Datentypen
-        \end{itemize}
+		\item Lösung $\rightarrow$ Intermediate Objekte einführen und diese mappen
 	\end{enumerate}
+	\centering
+	\includegraphics[height=50mm]{figures/intermediate-objekte.png}
 \end{frame}

@@ -1,27 +1,18 @@
-\section{Key Learnings}
-\begin{frame}{Key Learnings (1)}
-	\begin{enumerate}
-		\item OCL wurde am Anfang wenig getestet und hat dann zu Problemen im weiteren Verlauf der Meilensteine geführt
-		\item Unterscheidung zwischen einfacher Modellierung und OCL hat unterschiedliche Vor- und Nachteile gegenüber von Modellierung über komplexeren Klassenstrukturen
-		\begin{itemize}
-			\item kleinere Klassenstrukturen, jedoch OCL muss getestet werden
-			\item geringere Konsistenz-Haltung durch mehr Klassen und Attribute und weniger OCL
-		\end{itemize}
-		\item Unterschiedliche Form von Modellierungskonzepten
-		\begin{itemize}
-			\item Beispiel: Modelltransformation (siehe Probleme Modelltransformation)
-		\end{itemize}
-	\end{enumerate}
+\section[M4: Xtend]{M4: Xtend - Java Quellcode Generierung}
+\begin{frame}{Code-Generierung mit Xtend}
+	\centering
+	\includegraphics[height=60mm]{figures/xtend.png}
 \end{frame}
 
-\begin{frame}{Key Learnings (2)}
+\begin{frame}{Problem mit Xtend und OCL}
 	\begin{enumerate}
-		\item Interpreter in Eclipse: OCL-Ausdruck eingeben und zeigt die Werte an
-		\item Vorsichtig sein mit bidirektionalen Referenzen:
-		\begin{itemize}
-			\item nützlich bei OCL und Sirius $\rightarrow$ leichter um zwischen Kontexten zu wechseln (z.B. beim Löschen kann man in beide Richtungen gehen)
-			\item Nachteilig bei Xtext $\rightarrow$ jedoch Lösung durch Sandwiching
-		\end{itemize}
-		\item Informationsbeschaffung durch Literatur und Foren im Internet ist nur schwierig möglich $\rightarrow$ wenig vorhanden und wenn alte outdated Forumseinträge
+		\item Xtend-Validator kann OCL Constraints nicht einlesen und validieren
+		\item Vorrübergehende Lösung = \textit{NullValidator}
 	\end{enumerate}
+	\centering
+	\includegraphics[height=40mm]{figures/xtend-validator.png}
+	\begin{itemize}
+		\item Model kann eingelesen und Java generiert werden
+		\item auch nicht-valide Modelle weredn akzeptiert und transpiliert
+	\end{itemize}
 \end{frame}

@@ -7,8 +7,8 @@
 \defcounter {refsection}{0}\relax 
 \beamer@sectionintoc {3}{M3: QVTo - Modelltransformation}{7}{0}{3}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {4}{M4: Xtend - Code-Generierung}{9}{0}{4}
+\beamer@sectionintoc {4}{M4: Xtend - Java Quellcode Generierung}{11}{0}{4}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {5}{M5: Sirius - grafischer Editor}{12}{0}{5}
+\beamer@sectionintoc {5}{M5: Sirius - grafischer Editor}{13}{0}{5}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {6}{Key Learnings}{15}{0}{6}
+\beamer@sectionintoc {6}{Key Learnings}{16}{0}{6}
