@@ -3,4 +3,5 @@
   <mapping sourceURI="http://www.example.org/simplePalladio/DeploymentViewPoint" targetURI="platform:/resource/SimplePalladio/model/simplePalladio.ecore#//DeploymentViewPoint"/>
   <mapping sourceURI="http://www.example.org/simplePalladio/AssemblyViewPoint" targetURI="platform:/resource/SimplePalladio/model/simplePalladio.ecore#//AssemblyViewPoint"/>
   <mapping sourceURI="http://www.example.org/simplePalladio/SystemIndependentViewPoint" targetURI="platform:/resource/SimplePalladio/model/simplePalladio.ecore#//SystemIndependentViewPoint"/>
+  <mapping sourceURI="http://www.example.org/simplePalladio/Common" targetURI="platform:/resource/SimplePalladio/model/simplePalladio.ecore#//Common"/>
 </uriMap:MappingContainer>
