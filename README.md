@@ -1,4 +1,4 @@
-# PraktikumMDSD
+﻿# PraktikumMDSD
 
 ## Notizen für Präsentation
 * gute/schlechte Modellierungsentscheidungen evaluieren
@@ -14,3 +14,6 @@
 ## Fragen
 * Eigene Datentypen
 * Vererbung bei Interfaces
+
+## Verwendungshinweise
+* Bitte nutzen Sie die Eclipse-Version 2020-12 um alle Teile dieses Projektes nutzen zu können.
