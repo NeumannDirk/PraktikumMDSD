@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.5.20)  27 JUL 2021 14:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.5.20)  28 JUL 2021 11:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1249,11 +1249,11 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [7
 
 ]) (/Users/jakobhoefker/code/PraktikumMDSD/Praesentation/chapters/03-QVTo-Modelltransformation.tex
-<figures/modelltransformation.png, id=263, 1195.46625pt x 124.465pt>
+<figures/modelltransformation.png, id=263, 977.45175pt x 103.587pt>
 File: figures/modelltransformation.png Graphic file (type png)
 <use figures/modelltransformation.png>
 Package pdftex.def Info: figures/modelltransformation.png  used on input line 14.
-(pdftex.def)             Requested size: 273.27325pt x 28.45274pt.
+(pdftex.def)             Requested size: 268.4794pt x 28.45274pt.
 File: logos/kitlogo_de_rgb.pdf Graphic file (type pdf)
 <use logos/kitlogo_de_rgb.pdf>
 Package pdftex.def Info: logos/kitlogo_de_rgb.pdf  used on input line 14.
@@ -1266,7 +1266,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [8
 
  </Users/jakobhoefker/code/PraktikumMDSD/Praesentation/figures/modelltransformation.png>]
-<figures/modellierung-enum-objekt.png, id=292, 1197.47375pt x 470.75874pt>
+<figures/modellierung-enum-objekt.png, id=291, 2394.9475pt x 941.5175pt>
 File: figures/modellierung-enum-objekt.png Graphic file (type png)
 <use figures/modellierung-enum-objekt.png>
 Package pdftex.def Info: figures/modellierung-enum-objekt.png  used on input line 19.
@@ -1283,7 +1283,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [9
 
  </Users/jakobhoefker/code/PraktikumMDSD/Praesentation/figures/modellierung-enum-objekt.png>]
-<figures/vererbungshierachien.png, id=320, 996.72375pt x 419.5675pt>
+<figures/vererbungshierachien.png, id=318, 1993.4475pt x 839.135pt>
 File: figures/vererbungshierachien.png Graphic file (type png)
 <use figures/vererbungshierachien.png>
 Package pdftex.def Info: figures/vererbungshierachien.png  used on input line 24.
@@ -1300,11 +1300,11 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [10
 
  </Users/jakobhoefker/code/PraktikumMDSD/Praesentation/figures/vererbungshierachien.png>]
-<figures/intermediate-objekte.png, id=348, 950.55125pt x 467.7475pt>
+<figures/intermediate-objekte.png, id=345, 930.47626pt x 445.665pt>
 File: figures/intermediate-objekte.png Graphic file (type png)
 <use figures/intermediate-objekte.png>
 Package pdftex.def Info: figures/intermediate-objekte.png  used on input line 32.
-(pdftex.def)             Requested size: 289.11272pt x 142.26378pt.
+(pdftex.def)             Requested size: 297.02019pt x 142.26378pt.
 File: logos/kitlogo_de_rgb.pdf Graphic file (type pdf)
 <use logos/kitlogo_de_rgb.pdf>
 Package pdftex.def Info: logos/kitlogo_de_rgb.pdf  used on input line 32.
@@ -1317,11 +1317,11 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [11
 
  </Users/jakobhoefker/code/PraktikumMDSD/Praesentation/figures/intermediate-objekte.png>]) (/Users/jakobhoefker/code/PraktikumMDSD/Praesentation/chapters/04-Xtend.tex
-<figures/xtend.png, id=376, 899.36pt x 564.1075pt>
+<figures/xtend.png, id=373, 1798.72pt x 1128.215pt>
 File: figures/xtend.png Graphic file (type png)
 <use figures/xtend.png>
 Package pdftex.def Info: figures/xtend.png  used on input line 5.
-(pdftex.def)             Requested size: 272.17046pt x 170.71652pt.
+(pdftex.def)             Requested size: 272.15674pt x 170.71652pt.
 File: logos/kitlogo_de_rgb.pdf Graphic file (type pdf)
 <use logos/kitlogo_de_rgb.pdf>
 Package pdftex.def Info: logos/kitlogo_de_rgb.pdf  used on input line 5.
@@ -1334,11 +1334,11 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [12
 
  </Users/jakobhoefker/code/PraktikumMDSD/Praesentation/figures/xtend.png>]
-<figures/xtend-validator.png, id=405, 626.34pt x 277.035pt>
+<figures/xtend-validator.png, id=401, 1252.68pt x 554.07pt>
 File: figures/xtend-validator.png Graphic file (type png)
 <use figures/xtend-validator.png>
 Package pdftex.def Info: figures/xtend-validator.png  used on input line 18.
-(pdftex.def)             Requested size: 257.30759pt x 113.81102pt.
+(pdftex.def)             Requested size: 257.29803pt x 113.81102pt.
 File: logos/kitlogo_de_rgb.pdf Graphic file (type pdf)
 <use logos/kitlogo_de_rgb.pdf>
 Package pdftex.def Info: logos/kitlogo_de_rgb.pdf  used on input line 18.
@@ -1355,7 +1355,7 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 11.03998pt on input line 20.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 11.03998pt on input line 20.
-<figures/sirius.png, id=435, 771.88374pt x 518.93875pt>
+<figures/sirius.png, id=430, 771.88374pt x 518.93875pt>
 File: figures/sirius.png Graphic file (type png)
 <use figures/sirius.png>
 Package pdftex.def Info: figures/sirius.png  used on input line 20.
@@ -1455,9 +1455,9 @@ Here is how much of TeX's memory you used:
  1143 hyphenation exceptions out of 8191
  65i,19n,73p,870b,2281s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on /Users/jakobhoefker/code/PraktikumMDSD/Praesentation/presentation.pdf (18 pages, 2080291 bytes).
+Output written on /Users/jakobhoefker/code/PraktikumMDSD/Praesentation/presentation.pdf (18 pages, 5064536 bytes).
 PDF statistics:
- 604 PDF objects out of 1000 (max. 8388607)
+ 599 PDF objects out of 1000 (max. 8388607)
  523 compressed objects within 6 object streams
  43 named destinations out of 1000 (max. 500000)
  28312 words of extra memory for PDF output out of 29859 (max. 10000000)
